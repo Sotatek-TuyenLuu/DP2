@@ -1,0 +1,1207 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{305F1172-D45D-3ECC-A44A-97D66CE53EB4}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>vtkRenderingLIC</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\bin\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">vtkRenderingLIC.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">vtkRenderingLIC-6.2d</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\bin\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">vtkRenderingLIC.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">vtkRenderingLIC-6.2</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\bin\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">vtkRenderingLIC.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">vtkRenderingLIC-6.2</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\bin\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">vtkRenderingLIC.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">vtkRenderingLIC-6.2</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK-build\IO\Legacy;E:\D\MITK-superbuild\ep\src\VTK\IO\Legacy;E:\D\MITK-superbuild\ep\src\VTK-build\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Math;E:\D\MITK-superbuild\ep\src\VTK\Common\Math;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core;E:\D\MITK-superbuild\ep\src\VTK\Common\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Misc;E:\D\MITK-superbuild\ep\src\VTK\Common\Misc;E:\D\MITK-superbuild\ep\src\VTK-build\Common\System;E:\D\MITK-superbuild\ep\src\VTK\Common\System;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Transforms;E:\D\MITK-superbuild\ep\src\VTK\Common\Transforms;E:\D\MITK-superbuild\ep\src\VTK-build\IO\Core;E:\D\MITK-superbuild\ep\src\VTK\IO\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Common\ExecutionModel;E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK-build\IO\XML;E:\D\MITK-superbuild\ep\src\VTK\IO\XML;E:\D\MITK-superbuild\ep\src\VTK-build\IO\Geometry;E:\D\MITK-superbuild\ep\src\VTK\IO\Geometry;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\jsoncpp;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\jsoncpp;E:\D\MITK-superbuild\ep\src\VTK-build\IO\XMLParser;E:\D\MITK-superbuild\ep\src\VTK\IO\XMLParser;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\expat;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\expat;E:\D\MITK-superbuild\ep\src\VTK-build\Imaging\Sources;E:\D\MITK-superbuild\ep\src\VTK\Imaging\Sources;E:\D\MITK-superbuild\ep\src\VTK-build\Imaging\Core;E:\D\MITK-superbuild\ep\src\VTK\Imaging\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\OpenGL;E:\D\MITK-superbuild\ep\src\VTK\Rendering\OpenGL;E:\D\MITK-superbuild\ep\src\VTK-build\Imaging\Hybrid;E:\D\MITK-superbuild\ep\src\VTK\Imaging\Hybrid;E:\D\MITK-superbuild\ep\src\VTK-build\IO\Image;E:\D\MITK-superbuild\ep\src\VTK\IO\Image;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\DICOMParser;E:\D\MITK-superbuild\ep\src\VTK\Utilities\DICOMParser;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\MetaIO\vtkmetaio;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\MetaIO;E:\D\MITK-superbuild\ep\src\VTK\Utilities\MetaIO;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\jpeg;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\jpeg;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\png;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\png;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\tiff;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\ParseOGLExt;E:\D\MITK-superbuild\ep\src\VTK\Utilities\ParseOGLExt;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\Core;E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Color;E:\D\MITK-superbuild\ep\src\VTK\Common\Color;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Extraction;E:\D\MITK-superbuild\ep\src\VTK\Filters\Extraction;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Core;E:\D\MITK-superbuild\ep\src\VTK\Filters\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\General;E:\D\MITK-superbuild\ep\src\VTK\Filters\General;E:\D\MITK-superbuild\ep\src\VTK-build\Common\ComputationalGeometry;E:\D\MITK-superbuild\ep\src\VTK\Common\ComputationalGeometry;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Statistics;E:\D\MITK-superbuild\ep\src\VTK\Filters\Statistics;E:\D\MITK-superbuild\ep\src\VTK-build\Imaging\Fourier;E:\D\MITK-superbuild\ep\src\VTK\Imaging\Fourier;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\alglib;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\alglib;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Geometry;E:\D\MITK-superbuild\ep\src\VTK\Filters\Geometry;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Sources;E:\D\MITK-superbuild\ep\src\VTK\Filters\Sources;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\EncodeString;E:\D\MITK-superbuild\ep\src\VTK\Utilities\EncodeString;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR="Debug";vtkRenderingLIC_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR=\"Debug\";vtkRenderingLIC_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK-build\IO\Legacy;E:\D\MITK-superbuild\ep\src\VTK\IO\Legacy;E:\D\MITK-superbuild\ep\src\VTK-build\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Math;E:\D\MITK-superbuild\ep\src\VTK\Common\Math;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core;E:\D\MITK-superbuild\ep\src\VTK\Common\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Misc;E:\D\MITK-superbuild\ep\src\VTK\Common\Misc;E:\D\MITK-superbuild\ep\src\VTK-build\Common\System;E:\D\MITK-superbuild\ep\src\VTK\Common\System;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Transforms;E:\D\MITK-superbuild\ep\src\VTK\Common\Transforms;E:\D\MITK-superbuild\ep\src\VTK-build\IO\Core;E:\D\MITK-superbuild\ep\src\VTK\IO\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Common\ExecutionModel;E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK-build\IO\XML;E:\D\MITK-superbuild\ep\src\VTK\IO\XML;E:\D\MITK-superbuild\ep\src\VTK-build\IO\Geometry;E:\D\MITK-superbuild\ep\src\VTK\IO\Geometry;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\jsoncpp;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\jsoncpp;E:\D\MITK-superbuild\ep\src\VTK-build\IO\XMLParser;E:\D\MITK-superbuild\ep\src\VTK\IO\XMLParser;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\expat;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\expat;E:\D\MITK-superbuild\ep\src\VTK-build\Imaging\Sources;E:\D\MITK-superbuild\ep\src\VTK\Imaging\Sources;E:\D\MITK-superbuild\ep\src\VTK-build\Imaging\Core;E:\D\MITK-superbuild\ep\src\VTK\Imaging\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\OpenGL;E:\D\MITK-superbuild\ep\src\VTK\Rendering\OpenGL;E:\D\MITK-superbuild\ep\src\VTK-build\Imaging\Hybrid;E:\D\MITK-superbuild\ep\src\VTK\Imaging\Hybrid;E:\D\MITK-superbuild\ep\src\VTK-build\IO\Image;E:\D\MITK-superbuild\ep\src\VTK\IO\Image;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\DICOMParser;E:\D\MITK-superbuild\ep\src\VTK\Utilities\DICOMParser;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\MetaIO\vtkmetaio;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\MetaIO;E:\D\MITK-superbuild\ep\src\VTK\Utilities\MetaIO;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\jpeg;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\jpeg;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\png;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\png;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\tiff;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\ParseOGLExt;E:\D\MITK-superbuild\ep\src\VTK\Utilities\ParseOGLExt;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\Core;E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Color;E:\D\MITK-superbuild\ep\src\VTK\Common\Color;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Extraction;E:\D\MITK-superbuild\ep\src\VTK\Filters\Extraction;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Core;E:\D\MITK-superbuild\ep\src\VTK\Filters\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\General;E:\D\MITK-superbuild\ep\src\VTK\Filters\General;E:\D\MITK-superbuild\ep\src\VTK-build\Common\ComputationalGeometry;E:\D\MITK-superbuild\ep\src\VTK\Common\ComputationalGeometry;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Statistics;E:\D\MITK-superbuild\ep\src\VTK\Filters\Statistics;E:\D\MITK-superbuild\ep\src\VTK-build\Imaging\Fourier;E:\D\MITK-superbuild\ep\src\VTK\Imaging\Fourier;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\alglib;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\alglib;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Geometry;E:\D\MITK-superbuild\ep\src\VTK\Filters\Geometry;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Sources;E:\D\MITK-superbuild\ep\src\VTK\Filters\Sources;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\EncodeString;E:\D\MITK-superbuild\ep\src\VTK\Utilities\EncodeString;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK-build\IO\Legacy;E:\D\MITK-superbuild\ep\src\VTK\IO\Legacy;E:\D\MITK-superbuild\ep\src\VTK-build\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Math;E:\D\MITK-superbuild\ep\src\VTK\Common\Math;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core;E:\D\MITK-superbuild\ep\src\VTK\Common\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Misc;E:\D\MITK-superbuild\ep\src\VTK\Common\Misc;E:\D\MITK-superbuild\ep\src\VTK-build\Common\System;E:\D\MITK-superbuild\ep\src\VTK\Common\System;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Transforms;E:\D\MITK-superbuild\ep\src\VTK\Common\Transforms;E:\D\MITK-superbuild\ep\src\VTK-build\IO\Core;E:\D\MITK-superbuild\ep\src\VTK\IO\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Common\ExecutionModel;E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK-build\IO\XML;E:\D\MITK-superbuild\ep\src\VTK\IO\XML;E:\D\MITK-superbuild\ep\src\VTK-build\IO\Geometry;E:\D\MITK-superbuild\ep\src\VTK\IO\Geometry;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\jsoncpp;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\jsoncpp;E:\D\MITK-superbuild\ep\src\VTK-build\IO\XMLParser;E:\D\MITK-superbuild\ep\src\VTK\IO\XMLParser;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\expat;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\expat;E:\D\MITK-superbuild\ep\src\VTK-build\Imaging\Sources;E:\D\MITK-superbuild\ep\src\VTK\Imaging\Sources;E:\D\MITK-superbuild\ep\src\VTK-build\Imaging\Core;E:\D\MITK-superbuild\ep\src\VTK\Imaging\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\OpenGL;E:\D\MITK-superbuild\ep\src\VTK\Rendering\OpenGL;E:\D\MITK-superbuild\ep\src\VTK-build\Imaging\Hybrid;E:\D\MITK-superbuild\ep\src\VTK\Imaging\Hybrid;E:\D\MITK-superbuild\ep\src\VTK-build\IO\Image;E:\D\MITK-superbuild\ep\src\VTK\IO\Image;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\DICOMParser;E:\D\MITK-superbuild\ep\src\VTK\Utilities\DICOMParser;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\MetaIO\vtkmetaio;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\MetaIO;E:\D\MITK-superbuild\ep\src\VTK\Utilities\MetaIO;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\jpeg;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\jpeg;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\png;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\png;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\tiff;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\ParseOGLExt;E:\D\MITK-superbuild\ep\src\VTK\Utilities\ParseOGLExt;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\Core;E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Color;E:\D\MITK-superbuild\ep\src\VTK\Common\Color;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Extraction;E:\D\MITK-superbuild\ep\src\VTK\Filters\Extraction;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Core;E:\D\MITK-superbuild\ep\src\VTK\Filters\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\General;E:\D\MITK-superbuild\ep\src\VTK\Filters\General;E:\D\MITK-superbuild\ep\src\VTK-build\Common\ComputationalGeometry;E:\D\MITK-superbuild\ep\src\VTK\Common\ComputationalGeometry;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Statistics;E:\D\MITK-superbuild\ep\src\VTK\Filters\Statistics;E:\D\MITK-superbuild\ep\src\VTK-build\Imaging\Fourier;E:\D\MITK-superbuild\ep\src\VTK\Imaging\Fourier;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\alglib;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\alglib;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Geometry;E:\D\MITK-superbuild\ep\src\VTK\Filters\Geometry;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Sources;E:\D\MITK-superbuild\ep\src\VTK\Filters\Sources;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\EncodeString;E:\D\MITK-superbuild\ep\src\VTK\Utilities\EncodeString;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\Debug\vtkIOLegacy-6.2d.lib;..\..\lib\Debug\vtkIOXML-6.2d.lib;..\..\lib\Debug\vtkImagingSources-6.2d.lib;..\..\lib\Debug\vtkRenderingOpenGL-6.2d.lib;..\..\lib\Debug\vtkIOGeometry-6.2d.lib;..\..\lib\Debug\vtkIOXMLParser-6.2d.lib;..\..\lib\Debug\vtkRenderingCore-6.2d.lib;..\..\lib\Debug\vtkCommonColor-6.2d.lib;glu32.lib;opengl32.lib;..\..\lib\Debug\vtkImagingCore-6.2d.lib;..\..\lib\Debug\vtkIOCore-6.2d.lib;..\..\lib\Debug\vtkCommonExecutionModel-6.2d.lib;..\..\lib\Debug\vtkCommonDataModel-6.2d.lib;..\..\lib\Debug\vtkCommonMisc-6.2d.lib;..\..\lib\Debug\vtkCommonSystem-6.2d.lib;..\..\lib\Debug\vtksys-6.2d.lib;ws2_32.lib;Psapi.lib;..\..\lib\Debug\vtkCommonTransforms-6.2d.lib;..\..\lib\Debug\vtkCommonMath-6.2d.lib;..\..\lib\Debug\vtkCommonCore-6.2d.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/ep/src/VTK-build/lib/Debug/vtkRenderingLIC-6.2d.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/ep/src/VTK-build/bin/Debug/vtkRenderingLIC-6.2d.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK-build\IO\Legacy;E:\D\MITK-superbuild\ep\src\VTK\IO\Legacy;E:\D\MITK-superbuild\ep\src\VTK-build\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Math;E:\D\MITK-superbuild\ep\src\VTK\Common\Math;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core;E:\D\MITK-superbuild\ep\src\VTK\Common\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Misc;E:\D\MITK-superbuild\ep\src\VTK\Common\Misc;E:\D\MITK-superbuild\ep\src\VTK-build\Common\System;E:\D\MITK-superbuild\ep\src\VTK\Common\System;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Transforms;E:\D\MITK-superbuild\ep\src\VTK\Common\Transforms;E:\D\MITK-superbuild\ep\src\VTK-build\IO\Core;E:\D\MITK-superbuild\ep\src\VTK\IO\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Common\ExecutionModel;E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK-build\IO\XML;E:\D\MITK-superbuild\ep\src\VTK\IO\XML;E:\D\MITK-superbuild\ep\src\VTK-build\IO\Geometry;E:\D\MITK-superbuild\ep\src\VTK\IO\Geometry;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\jsoncpp;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\jsoncpp;E:\D\MITK-superbuild\ep\src\VTK-build\IO\XMLParser;E:\D\MITK-superbuild\ep\src\VTK\IO\XMLParser;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\expat;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\expat;E:\D\MITK-superbuild\ep\src\VTK-build\Imaging\Sources;E:\D\MITK-superbuild\ep\src\VTK\Imaging\Sources;E:\D\MITK-superbuild\ep\src\VTK-build\Imaging\Core;E:\D\MITK-superbuild\ep\src\VTK\Imaging\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\OpenGL;E:\D\MITK-superbuild\ep\src\VTK\Rendering\OpenGL;E:\D\MITK-superbuild\ep\src\VTK-build\Imaging\Hybrid;E:\D\MITK-superbuild\ep\src\VTK\Imaging\Hybrid;E:\D\MITK-superbuild\ep\src\VTK-build\IO\Image;E:\D\MITK-superbuild\ep\src\VTK\IO\Image;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\DICOMParser;E:\D\MITK-superbuild\ep\src\VTK\Utilities\DICOMParser;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\MetaIO\vtkmetaio;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\MetaIO;E:\D\MITK-superbuild\ep\src\VTK\Utilities\MetaIO;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\jpeg;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\jpeg;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\png;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\png;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\tiff;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\ParseOGLExt;E:\D\MITK-superbuild\ep\src\VTK\Utilities\ParseOGLExt;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\Core;E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Color;E:\D\MITK-superbuild\ep\src\VTK\Common\Color;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Extraction;E:\D\MITK-superbuild\ep\src\VTK\Filters\Extraction;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Core;E:\D\MITK-superbuild\ep\src\VTK\Filters\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\General;E:\D\MITK-superbuild\ep\src\VTK\Filters\General;E:\D\MITK-superbuild\ep\src\VTK-build\Common\ComputationalGeometry;E:\D\MITK-superbuild\ep\src\VTK\Common\ComputationalGeometry;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Statistics;E:\D\MITK-superbuild\ep\src\VTK\Filters\Statistics;E:\D\MITK-superbuild\ep\src\VTK-build\Imaging\Fourier;E:\D\MITK-superbuild\ep\src\VTK\Imaging\Fourier;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\alglib;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\alglib;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Geometry;E:\D\MITK-superbuild\ep\src\VTK\Filters\Geometry;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Sources;E:\D\MITK-superbuild\ep\src\VTK\Filters\Sources;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\EncodeString;E:\D\MITK-superbuild\ep\src\VTK\Utilities\EncodeString;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR="Release";vtkRenderingLIC_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR=\"Release\";vtkRenderingLIC_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK-build\IO\Legacy;E:\D\MITK-superbuild\ep\src\VTK\IO\Legacy;E:\D\MITK-superbuild\ep\src\VTK-build\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Math;E:\D\MITK-superbuild\ep\src\VTK\Common\Math;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core;E:\D\MITK-superbuild\ep\src\VTK\Common\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Misc;E:\D\MITK-superbuild\ep\src\VTK\Common\Misc;E:\D\MITK-superbuild\ep\src\VTK-build\Common\System;E:\D\MITK-superbuild\ep\src\VTK\Common\System;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Transforms;E:\D\MITK-superbuild\ep\src\VTK\Common\Transforms;E:\D\MITK-superbuild\ep\src\VTK-build\IO\Core;E:\D\MITK-superbuild\ep\src\VTK\IO\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Common\ExecutionModel;E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK-build\IO\XML;E:\D\MITK-superbuild\ep\src\VTK\IO\XML;E:\D\MITK-superbuild\ep\src\VTK-build\IO\Geometry;E:\D\MITK-superbuild\ep\src\VTK\IO\Geometry;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\jsoncpp;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\jsoncpp;E:\D\MITK-superbuild\ep\src\VTK-build\IO\XMLParser;E:\D\MITK-superbuild\ep\src\VTK\IO\XMLParser;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\expat;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\expat;E:\D\MITK-superbuild\ep\src\VTK-build\Imaging\Sources;E:\D\MITK-superbuild\ep\src\VTK\Imaging\Sources;E:\D\MITK-superbuild\ep\src\VTK-build\Imaging\Core;E:\D\MITK-superbuild\ep\src\VTK\Imaging\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\OpenGL;E:\D\MITK-superbuild\ep\src\VTK\Rendering\OpenGL;E:\D\MITK-superbuild\ep\src\VTK-build\Imaging\Hybrid;E:\D\MITK-superbuild\ep\src\VTK\Imaging\Hybrid;E:\D\MITK-superbuild\ep\src\VTK-build\IO\Image;E:\D\MITK-superbuild\ep\src\VTK\IO\Image;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\DICOMParser;E:\D\MITK-superbuild\ep\src\VTK\Utilities\DICOMParser;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\MetaIO\vtkmetaio;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\MetaIO;E:\D\MITK-superbuild\ep\src\VTK\Utilities\MetaIO;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\jpeg;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\jpeg;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\png;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\png;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\tiff;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\ParseOGLExt;E:\D\MITK-superbuild\ep\src\VTK\Utilities\ParseOGLExt;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\Core;E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Color;E:\D\MITK-superbuild\ep\src\VTK\Common\Color;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Extraction;E:\D\MITK-superbuild\ep\src\VTK\Filters\Extraction;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Core;E:\D\MITK-superbuild\ep\src\VTK\Filters\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\General;E:\D\MITK-superbuild\ep\src\VTK\Filters\General;E:\D\MITK-superbuild\ep\src\VTK-build\Common\ComputationalGeometry;E:\D\MITK-superbuild\ep\src\VTK\Common\ComputationalGeometry;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Statistics;E:\D\MITK-superbuild\ep\src\VTK\Filters\Statistics;E:\D\MITK-superbuild\ep\src\VTK-build\Imaging\Fourier;E:\D\MITK-superbuild\ep\src\VTK\Imaging\Fourier;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\alglib;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\alglib;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Geometry;E:\D\MITK-superbuild\ep\src\VTK\Filters\Geometry;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Sources;E:\D\MITK-superbuild\ep\src\VTK\Filters\Sources;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\EncodeString;E:\D\MITK-superbuild\ep\src\VTK\Utilities\EncodeString;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK-build\IO\Legacy;E:\D\MITK-superbuild\ep\src\VTK\IO\Legacy;E:\D\MITK-superbuild\ep\src\VTK-build\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Math;E:\D\MITK-superbuild\ep\src\VTK\Common\Math;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core;E:\D\MITK-superbuild\ep\src\VTK\Common\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Misc;E:\D\MITK-superbuild\ep\src\VTK\Common\Misc;E:\D\MITK-superbuild\ep\src\VTK-build\Common\System;E:\D\MITK-superbuild\ep\src\VTK\Common\System;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Transforms;E:\D\MITK-superbuild\ep\src\VTK\Common\Transforms;E:\D\MITK-superbuild\ep\src\VTK-build\IO\Core;E:\D\MITK-superbuild\ep\src\VTK\IO\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Common\ExecutionModel;E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK-build\IO\XML;E:\D\MITK-superbuild\ep\src\VTK\IO\XML;E:\D\MITK-superbuild\ep\src\VTK-build\IO\Geometry;E:\D\MITK-superbuild\ep\src\VTK\IO\Geometry;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\jsoncpp;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\jsoncpp;E:\D\MITK-superbuild\ep\src\VTK-build\IO\XMLParser;E:\D\MITK-superbuild\ep\src\VTK\IO\XMLParser;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\expat;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\expat;E:\D\MITK-superbuild\ep\src\VTK-build\Imaging\Sources;E:\D\MITK-superbuild\ep\src\VTK\Imaging\Sources;E:\D\MITK-superbuild\ep\src\VTK-build\Imaging\Core;E:\D\MITK-superbuild\ep\src\VTK\Imaging\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\OpenGL;E:\D\MITK-superbuild\ep\src\VTK\Rendering\OpenGL;E:\D\MITK-superbuild\ep\src\VTK-build\Imaging\Hybrid;E:\D\MITK-superbuild\ep\src\VTK\Imaging\Hybrid;E:\D\MITK-superbuild\ep\src\VTK-build\IO\Image;E:\D\MITK-superbuild\ep\src\VTK\IO\Image;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\DICOMParser;E:\D\MITK-superbuild\ep\src\VTK\Utilities\DICOMParser;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\MetaIO\vtkmetaio;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\MetaIO;E:\D\MITK-superbuild\ep\src\VTK\Utilities\MetaIO;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\jpeg;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\jpeg;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\png;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\png;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\tiff;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\ParseOGLExt;E:\D\MITK-superbuild\ep\src\VTK\Utilities\ParseOGLExt;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\Core;E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Color;E:\D\MITK-superbuild\ep\src\VTK\Common\Color;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Extraction;E:\D\MITK-superbuild\ep\src\VTK\Filters\Extraction;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Core;E:\D\MITK-superbuild\ep\src\VTK\Filters\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\General;E:\D\MITK-superbuild\ep\src\VTK\Filters\General;E:\D\MITK-superbuild\ep\src\VTK-build\Common\ComputationalGeometry;E:\D\MITK-superbuild\ep\src\VTK\Common\ComputationalGeometry;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Statistics;E:\D\MITK-superbuild\ep\src\VTK\Filters\Statistics;E:\D\MITK-superbuild\ep\src\VTK-build\Imaging\Fourier;E:\D\MITK-superbuild\ep\src\VTK\Imaging\Fourier;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\alglib;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\alglib;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Geometry;E:\D\MITK-superbuild\ep\src\VTK\Filters\Geometry;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Sources;E:\D\MITK-superbuild\ep\src\VTK\Filters\Sources;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\EncodeString;E:\D\MITK-superbuild\ep\src\VTK\Utilities\EncodeString;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\Release\vtkIOLegacy-6.2.lib;..\..\lib\Release\vtkIOXML-6.2.lib;..\..\lib\Release\vtkImagingSources-6.2.lib;..\..\lib\Release\vtkRenderingOpenGL-6.2.lib;..\..\lib\Release\vtkIOGeometry-6.2.lib;..\..\lib\Release\vtkIOXMLParser-6.2.lib;..\..\lib\Release\vtkRenderingCore-6.2.lib;..\..\lib\Release\vtkCommonColor-6.2.lib;glu32.lib;opengl32.lib;..\..\lib\Release\vtkImagingCore-6.2.lib;..\..\lib\Release\vtkIOCore-6.2.lib;..\..\lib\Release\vtkCommonExecutionModel-6.2.lib;..\..\lib\Release\vtkCommonDataModel-6.2.lib;..\..\lib\Release\vtkCommonMisc-6.2.lib;..\..\lib\Release\vtkCommonSystem-6.2.lib;..\..\lib\Release\vtksys-6.2.lib;ws2_32.lib;Psapi.lib;..\..\lib\Release\vtkCommonTransforms-6.2.lib;..\..\lib\Release\vtkCommonMath-6.2.lib;..\..\lib\Release\vtkCommonCore-6.2.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/ep/src/VTK-build/lib/Release/vtkRenderingLIC-6.2.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/ep/src/VTK-build/bin/Release/vtkRenderingLIC-6.2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK-build\IO\Legacy;E:\D\MITK-superbuild\ep\src\VTK\IO\Legacy;E:\D\MITK-superbuild\ep\src\VTK-build\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Math;E:\D\MITK-superbuild\ep\src\VTK\Common\Math;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core;E:\D\MITK-superbuild\ep\src\VTK\Common\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Misc;E:\D\MITK-superbuild\ep\src\VTK\Common\Misc;E:\D\MITK-superbuild\ep\src\VTK-build\Common\System;E:\D\MITK-superbuild\ep\src\VTK\Common\System;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Transforms;E:\D\MITK-superbuild\ep\src\VTK\Common\Transforms;E:\D\MITK-superbuild\ep\src\VTK-build\IO\Core;E:\D\MITK-superbuild\ep\src\VTK\IO\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Common\ExecutionModel;E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK-build\IO\XML;E:\D\MITK-superbuild\ep\src\VTK\IO\XML;E:\D\MITK-superbuild\ep\src\VTK-build\IO\Geometry;E:\D\MITK-superbuild\ep\src\VTK\IO\Geometry;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\jsoncpp;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\jsoncpp;E:\D\MITK-superbuild\ep\src\VTK-build\IO\XMLParser;E:\D\MITK-superbuild\ep\src\VTK\IO\XMLParser;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\expat;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\expat;E:\D\MITK-superbuild\ep\src\VTK-build\Imaging\Sources;E:\D\MITK-superbuild\ep\src\VTK\Imaging\Sources;E:\D\MITK-superbuild\ep\src\VTK-build\Imaging\Core;E:\D\MITK-superbuild\ep\src\VTK\Imaging\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\OpenGL;E:\D\MITK-superbuild\ep\src\VTK\Rendering\OpenGL;E:\D\MITK-superbuild\ep\src\VTK-build\Imaging\Hybrid;E:\D\MITK-superbuild\ep\src\VTK\Imaging\Hybrid;E:\D\MITK-superbuild\ep\src\VTK-build\IO\Image;E:\D\MITK-superbuild\ep\src\VTK\IO\Image;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\DICOMParser;E:\D\MITK-superbuild\ep\src\VTK\Utilities\DICOMParser;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\MetaIO\vtkmetaio;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\MetaIO;E:\D\MITK-superbuild\ep\src\VTK\Utilities\MetaIO;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\jpeg;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\jpeg;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\png;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\png;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\tiff;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\ParseOGLExt;E:\D\MITK-superbuild\ep\src\VTK\Utilities\ParseOGLExt;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\Core;E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Color;E:\D\MITK-superbuild\ep\src\VTK\Common\Color;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Extraction;E:\D\MITK-superbuild\ep\src\VTK\Filters\Extraction;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Core;E:\D\MITK-superbuild\ep\src\VTK\Filters\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\General;E:\D\MITK-superbuild\ep\src\VTK\Filters\General;E:\D\MITK-superbuild\ep\src\VTK-build\Common\ComputationalGeometry;E:\D\MITK-superbuild\ep\src\VTK\Common\ComputationalGeometry;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Statistics;E:\D\MITK-superbuild\ep\src\VTK\Filters\Statistics;E:\D\MITK-superbuild\ep\src\VTK-build\Imaging\Fourier;E:\D\MITK-superbuild\ep\src\VTK\Imaging\Fourier;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\alglib;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\alglib;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Geometry;E:\D\MITK-superbuild\ep\src\VTK\Filters\Geometry;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Sources;E:\D\MITK-superbuild\ep\src\VTK\Filters\Sources;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\EncodeString;E:\D\MITK-superbuild\ep\src\VTK\Utilities\EncodeString;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR="MinSizeRel";vtkRenderingLIC_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR=\"MinSizeRel\";vtkRenderingLIC_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK-build\IO\Legacy;E:\D\MITK-superbuild\ep\src\VTK\IO\Legacy;E:\D\MITK-superbuild\ep\src\VTK-build\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Math;E:\D\MITK-superbuild\ep\src\VTK\Common\Math;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core;E:\D\MITK-superbuild\ep\src\VTK\Common\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Misc;E:\D\MITK-superbuild\ep\src\VTK\Common\Misc;E:\D\MITK-superbuild\ep\src\VTK-build\Common\System;E:\D\MITK-superbuild\ep\src\VTK\Common\System;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Transforms;E:\D\MITK-superbuild\ep\src\VTK\Common\Transforms;E:\D\MITK-superbuild\ep\src\VTK-build\IO\Core;E:\D\MITK-superbuild\ep\src\VTK\IO\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Common\ExecutionModel;E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK-build\IO\XML;E:\D\MITK-superbuild\ep\src\VTK\IO\XML;E:\D\MITK-superbuild\ep\src\VTK-build\IO\Geometry;E:\D\MITK-superbuild\ep\src\VTK\IO\Geometry;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\jsoncpp;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\jsoncpp;E:\D\MITK-superbuild\ep\src\VTK-build\IO\XMLParser;E:\D\MITK-superbuild\ep\src\VTK\IO\XMLParser;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\expat;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\expat;E:\D\MITK-superbuild\ep\src\VTK-build\Imaging\Sources;E:\D\MITK-superbuild\ep\src\VTK\Imaging\Sources;E:\D\MITK-superbuild\ep\src\VTK-build\Imaging\Core;E:\D\MITK-superbuild\ep\src\VTK\Imaging\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\OpenGL;E:\D\MITK-superbuild\ep\src\VTK\Rendering\OpenGL;E:\D\MITK-superbuild\ep\src\VTK-build\Imaging\Hybrid;E:\D\MITK-superbuild\ep\src\VTK\Imaging\Hybrid;E:\D\MITK-superbuild\ep\src\VTK-build\IO\Image;E:\D\MITK-superbuild\ep\src\VTK\IO\Image;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\DICOMParser;E:\D\MITK-superbuild\ep\src\VTK\Utilities\DICOMParser;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\MetaIO\vtkmetaio;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\MetaIO;E:\D\MITK-superbuild\ep\src\VTK\Utilities\MetaIO;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\jpeg;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\jpeg;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\png;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\png;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\tiff;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\ParseOGLExt;E:\D\MITK-superbuild\ep\src\VTK\Utilities\ParseOGLExt;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\Core;E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Color;E:\D\MITK-superbuild\ep\src\VTK\Common\Color;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Extraction;E:\D\MITK-superbuild\ep\src\VTK\Filters\Extraction;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Core;E:\D\MITK-superbuild\ep\src\VTK\Filters\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\General;E:\D\MITK-superbuild\ep\src\VTK\Filters\General;E:\D\MITK-superbuild\ep\src\VTK-build\Common\ComputationalGeometry;E:\D\MITK-superbuild\ep\src\VTK\Common\ComputationalGeometry;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Statistics;E:\D\MITK-superbuild\ep\src\VTK\Filters\Statistics;E:\D\MITK-superbuild\ep\src\VTK-build\Imaging\Fourier;E:\D\MITK-superbuild\ep\src\VTK\Imaging\Fourier;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\alglib;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\alglib;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Geometry;E:\D\MITK-superbuild\ep\src\VTK\Filters\Geometry;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Sources;E:\D\MITK-superbuild\ep\src\VTK\Filters\Sources;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\EncodeString;E:\D\MITK-superbuild\ep\src\VTK\Utilities\EncodeString;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK-build\IO\Legacy;E:\D\MITK-superbuild\ep\src\VTK\IO\Legacy;E:\D\MITK-superbuild\ep\src\VTK-build\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Math;E:\D\MITK-superbuild\ep\src\VTK\Common\Math;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core;E:\D\MITK-superbuild\ep\src\VTK\Common\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Misc;E:\D\MITK-superbuild\ep\src\VTK\Common\Misc;E:\D\MITK-superbuild\ep\src\VTK-build\Common\System;E:\D\MITK-superbuild\ep\src\VTK\Common\System;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Transforms;E:\D\MITK-superbuild\ep\src\VTK\Common\Transforms;E:\D\MITK-superbuild\ep\src\VTK-build\IO\Core;E:\D\MITK-superbuild\ep\src\VTK\IO\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Common\ExecutionModel;E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK-build\IO\XML;E:\D\MITK-superbuild\ep\src\VTK\IO\XML;E:\D\MITK-superbuild\ep\src\VTK-build\IO\Geometry;E:\D\MITK-superbuild\ep\src\VTK\IO\Geometry;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\jsoncpp;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\jsoncpp;E:\D\MITK-superbuild\ep\src\VTK-build\IO\XMLParser;E:\D\MITK-superbuild\ep\src\VTK\IO\XMLParser;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\expat;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\expat;E:\D\MITK-superbuild\ep\src\VTK-build\Imaging\Sources;E:\D\MITK-superbuild\ep\src\VTK\Imaging\Sources;E:\D\MITK-superbuild\ep\src\VTK-build\Imaging\Core;E:\D\MITK-superbuild\ep\src\VTK\Imaging\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\OpenGL;E:\D\MITK-superbuild\ep\src\VTK\Rendering\OpenGL;E:\D\MITK-superbuild\ep\src\VTK-build\Imaging\Hybrid;E:\D\MITK-superbuild\ep\src\VTK\Imaging\Hybrid;E:\D\MITK-superbuild\ep\src\VTK-build\IO\Image;E:\D\MITK-superbuild\ep\src\VTK\IO\Image;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\DICOMParser;E:\D\MITK-superbuild\ep\src\VTK\Utilities\DICOMParser;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\MetaIO\vtkmetaio;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\MetaIO;E:\D\MITK-superbuild\ep\src\VTK\Utilities\MetaIO;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\jpeg;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\jpeg;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\png;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\png;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\tiff;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\ParseOGLExt;E:\D\MITK-superbuild\ep\src\VTK\Utilities\ParseOGLExt;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\Core;E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Color;E:\D\MITK-superbuild\ep\src\VTK\Common\Color;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Extraction;E:\D\MITK-superbuild\ep\src\VTK\Filters\Extraction;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Core;E:\D\MITK-superbuild\ep\src\VTK\Filters\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\General;E:\D\MITK-superbuild\ep\src\VTK\Filters\General;E:\D\MITK-superbuild\ep\src\VTK-build\Common\ComputationalGeometry;E:\D\MITK-superbuild\ep\src\VTK\Common\ComputationalGeometry;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Statistics;E:\D\MITK-superbuild\ep\src\VTK\Filters\Statistics;E:\D\MITK-superbuild\ep\src\VTK-build\Imaging\Fourier;E:\D\MITK-superbuild\ep\src\VTK\Imaging\Fourier;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\alglib;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\alglib;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Geometry;E:\D\MITK-superbuild\ep\src\VTK\Filters\Geometry;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Sources;E:\D\MITK-superbuild\ep\src\VTK\Filters\Sources;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\EncodeString;E:\D\MITK-superbuild\ep\src\VTK\Utilities\EncodeString;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\MinSizeRel\vtkIOLegacy-6.2.lib;..\..\lib\MinSizeRel\vtkIOXML-6.2.lib;..\..\lib\MinSizeRel\vtkImagingSources-6.2.lib;..\..\lib\MinSizeRel\vtkRenderingOpenGL-6.2.lib;..\..\lib\MinSizeRel\vtkIOGeometry-6.2.lib;..\..\lib\MinSizeRel\vtkIOXMLParser-6.2.lib;..\..\lib\MinSizeRel\vtkRenderingCore-6.2.lib;..\..\lib\MinSizeRel\vtkCommonColor-6.2.lib;glu32.lib;opengl32.lib;..\..\lib\MinSizeRel\vtkImagingCore-6.2.lib;..\..\lib\MinSizeRel\vtkIOCore-6.2.lib;..\..\lib\MinSizeRel\vtkCommonExecutionModel-6.2.lib;..\..\lib\MinSizeRel\vtkCommonDataModel-6.2.lib;..\..\lib\MinSizeRel\vtkCommonMisc-6.2.lib;..\..\lib\MinSizeRel\vtkCommonSystem-6.2.lib;..\..\lib\MinSizeRel\vtksys-6.2.lib;ws2_32.lib;Psapi.lib;..\..\lib\MinSizeRel\vtkCommonTransforms-6.2.lib;..\..\lib\MinSizeRel\vtkCommonMath-6.2.lib;..\..\lib\MinSizeRel\vtkCommonCore-6.2.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/ep/src/VTK-build/lib/MinSizeRel/vtkRenderingLIC-6.2.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/ep/src/VTK-build/bin/MinSizeRel/vtkRenderingLIC-6.2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK-build\IO\Legacy;E:\D\MITK-superbuild\ep\src\VTK\IO\Legacy;E:\D\MITK-superbuild\ep\src\VTK-build\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Math;E:\D\MITK-superbuild\ep\src\VTK\Common\Math;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core;E:\D\MITK-superbuild\ep\src\VTK\Common\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Misc;E:\D\MITK-superbuild\ep\src\VTK\Common\Misc;E:\D\MITK-superbuild\ep\src\VTK-build\Common\System;E:\D\MITK-superbuild\ep\src\VTK\Common\System;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Transforms;E:\D\MITK-superbuild\ep\src\VTK\Common\Transforms;E:\D\MITK-superbuild\ep\src\VTK-build\IO\Core;E:\D\MITK-superbuild\ep\src\VTK\IO\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Common\ExecutionModel;E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK-build\IO\XML;E:\D\MITK-superbuild\ep\src\VTK\IO\XML;E:\D\MITK-superbuild\ep\src\VTK-build\IO\Geometry;E:\D\MITK-superbuild\ep\src\VTK\IO\Geometry;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\jsoncpp;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\jsoncpp;E:\D\MITK-superbuild\ep\src\VTK-build\IO\XMLParser;E:\D\MITK-superbuild\ep\src\VTK\IO\XMLParser;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\expat;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\expat;E:\D\MITK-superbuild\ep\src\VTK-build\Imaging\Sources;E:\D\MITK-superbuild\ep\src\VTK\Imaging\Sources;E:\D\MITK-superbuild\ep\src\VTK-build\Imaging\Core;E:\D\MITK-superbuild\ep\src\VTK\Imaging\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\OpenGL;E:\D\MITK-superbuild\ep\src\VTK\Rendering\OpenGL;E:\D\MITK-superbuild\ep\src\VTK-build\Imaging\Hybrid;E:\D\MITK-superbuild\ep\src\VTK\Imaging\Hybrid;E:\D\MITK-superbuild\ep\src\VTK-build\IO\Image;E:\D\MITK-superbuild\ep\src\VTK\IO\Image;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\DICOMParser;E:\D\MITK-superbuild\ep\src\VTK\Utilities\DICOMParser;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\MetaIO\vtkmetaio;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\MetaIO;E:\D\MITK-superbuild\ep\src\VTK\Utilities\MetaIO;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\jpeg;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\jpeg;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\png;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\png;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\tiff;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\ParseOGLExt;E:\D\MITK-superbuild\ep\src\VTK\Utilities\ParseOGLExt;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\Core;E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Color;E:\D\MITK-superbuild\ep\src\VTK\Common\Color;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Extraction;E:\D\MITK-superbuild\ep\src\VTK\Filters\Extraction;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Core;E:\D\MITK-superbuild\ep\src\VTK\Filters\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\General;E:\D\MITK-superbuild\ep\src\VTK\Filters\General;E:\D\MITK-superbuild\ep\src\VTK-build\Common\ComputationalGeometry;E:\D\MITK-superbuild\ep\src\VTK\Common\ComputationalGeometry;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Statistics;E:\D\MITK-superbuild\ep\src\VTK\Filters\Statistics;E:\D\MITK-superbuild\ep\src\VTK-build\Imaging\Fourier;E:\D\MITK-superbuild\ep\src\VTK\Imaging\Fourier;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\alglib;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\alglib;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Geometry;E:\D\MITK-superbuild\ep\src\VTK\Filters\Geometry;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Sources;E:\D\MITK-superbuild\ep\src\VTK\Filters\Sources;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\EncodeString;E:\D\MITK-superbuild\ep\src\VTK\Utilities\EncodeString;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR="RelWithDebInfo";vtkRenderingLIC_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR=\"RelWithDebInfo\";vtkRenderingLIC_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK-build\IO\Legacy;E:\D\MITK-superbuild\ep\src\VTK\IO\Legacy;E:\D\MITK-superbuild\ep\src\VTK-build\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Math;E:\D\MITK-superbuild\ep\src\VTK\Common\Math;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core;E:\D\MITK-superbuild\ep\src\VTK\Common\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Misc;E:\D\MITK-superbuild\ep\src\VTK\Common\Misc;E:\D\MITK-superbuild\ep\src\VTK-build\Common\System;E:\D\MITK-superbuild\ep\src\VTK\Common\System;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Transforms;E:\D\MITK-superbuild\ep\src\VTK\Common\Transforms;E:\D\MITK-superbuild\ep\src\VTK-build\IO\Core;E:\D\MITK-superbuild\ep\src\VTK\IO\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Common\ExecutionModel;E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK-build\IO\XML;E:\D\MITK-superbuild\ep\src\VTK\IO\XML;E:\D\MITK-superbuild\ep\src\VTK-build\IO\Geometry;E:\D\MITK-superbuild\ep\src\VTK\IO\Geometry;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\jsoncpp;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\jsoncpp;E:\D\MITK-superbuild\ep\src\VTK-build\IO\XMLParser;E:\D\MITK-superbuild\ep\src\VTK\IO\XMLParser;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\expat;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\expat;E:\D\MITK-superbuild\ep\src\VTK-build\Imaging\Sources;E:\D\MITK-superbuild\ep\src\VTK\Imaging\Sources;E:\D\MITK-superbuild\ep\src\VTK-build\Imaging\Core;E:\D\MITK-superbuild\ep\src\VTK\Imaging\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\OpenGL;E:\D\MITK-superbuild\ep\src\VTK\Rendering\OpenGL;E:\D\MITK-superbuild\ep\src\VTK-build\Imaging\Hybrid;E:\D\MITK-superbuild\ep\src\VTK\Imaging\Hybrid;E:\D\MITK-superbuild\ep\src\VTK-build\IO\Image;E:\D\MITK-superbuild\ep\src\VTK\IO\Image;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\DICOMParser;E:\D\MITK-superbuild\ep\src\VTK\Utilities\DICOMParser;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\MetaIO\vtkmetaio;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\MetaIO;E:\D\MITK-superbuild\ep\src\VTK\Utilities\MetaIO;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\jpeg;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\jpeg;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\png;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\png;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\tiff;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\ParseOGLExt;E:\D\MITK-superbuild\ep\src\VTK\Utilities\ParseOGLExt;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\Core;E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Color;E:\D\MITK-superbuild\ep\src\VTK\Common\Color;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Extraction;E:\D\MITK-superbuild\ep\src\VTK\Filters\Extraction;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Core;E:\D\MITK-superbuild\ep\src\VTK\Filters\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\General;E:\D\MITK-superbuild\ep\src\VTK\Filters\General;E:\D\MITK-superbuild\ep\src\VTK-build\Common\ComputationalGeometry;E:\D\MITK-superbuild\ep\src\VTK\Common\ComputationalGeometry;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Statistics;E:\D\MITK-superbuild\ep\src\VTK\Filters\Statistics;E:\D\MITK-superbuild\ep\src\VTK-build\Imaging\Fourier;E:\D\MITK-superbuild\ep\src\VTK\Imaging\Fourier;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\alglib;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\alglib;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Geometry;E:\D\MITK-superbuild\ep\src\VTK\Filters\Geometry;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Sources;E:\D\MITK-superbuild\ep\src\VTK\Filters\Sources;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\EncodeString;E:\D\MITK-superbuild\ep\src\VTK\Utilities\EncodeString;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK-build\IO\Legacy;E:\D\MITK-superbuild\ep\src\VTK\IO\Legacy;E:\D\MITK-superbuild\ep\src\VTK-build\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Math;E:\D\MITK-superbuild\ep\src\VTK\Common\Math;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core;E:\D\MITK-superbuild\ep\src\VTK\Common\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Misc;E:\D\MITK-superbuild\ep\src\VTK\Common\Misc;E:\D\MITK-superbuild\ep\src\VTK-build\Common\System;E:\D\MITK-superbuild\ep\src\VTK\Common\System;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Transforms;E:\D\MITK-superbuild\ep\src\VTK\Common\Transforms;E:\D\MITK-superbuild\ep\src\VTK-build\IO\Core;E:\D\MITK-superbuild\ep\src\VTK\IO\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Common\ExecutionModel;E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK-build\IO\XML;E:\D\MITK-superbuild\ep\src\VTK\IO\XML;E:\D\MITK-superbuild\ep\src\VTK-build\IO\Geometry;E:\D\MITK-superbuild\ep\src\VTK\IO\Geometry;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\jsoncpp;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\jsoncpp;E:\D\MITK-superbuild\ep\src\VTK-build\IO\XMLParser;E:\D\MITK-superbuild\ep\src\VTK\IO\XMLParser;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\expat;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\expat;E:\D\MITK-superbuild\ep\src\VTK-build\Imaging\Sources;E:\D\MITK-superbuild\ep\src\VTK\Imaging\Sources;E:\D\MITK-superbuild\ep\src\VTK-build\Imaging\Core;E:\D\MITK-superbuild\ep\src\VTK\Imaging\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\OpenGL;E:\D\MITK-superbuild\ep\src\VTK\Rendering\OpenGL;E:\D\MITK-superbuild\ep\src\VTK-build\Imaging\Hybrid;E:\D\MITK-superbuild\ep\src\VTK\Imaging\Hybrid;E:\D\MITK-superbuild\ep\src\VTK-build\IO\Image;E:\D\MITK-superbuild\ep\src\VTK\IO\Image;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\DICOMParser;E:\D\MITK-superbuild\ep\src\VTK\Utilities\DICOMParser;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\MetaIO\vtkmetaio;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\MetaIO;E:\D\MITK-superbuild\ep\src\VTK\Utilities\MetaIO;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\jpeg;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\jpeg;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\png;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\png;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\tiff;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\ParseOGLExt;E:\D\MITK-superbuild\ep\src\VTK\Utilities\ParseOGLExt;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\Core;E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Color;E:\D\MITK-superbuild\ep\src\VTK\Common\Color;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Extraction;E:\D\MITK-superbuild\ep\src\VTK\Filters\Extraction;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Core;E:\D\MITK-superbuild\ep\src\VTK\Filters\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\General;E:\D\MITK-superbuild\ep\src\VTK\Filters\General;E:\D\MITK-superbuild\ep\src\VTK-build\Common\ComputationalGeometry;E:\D\MITK-superbuild\ep\src\VTK\Common\ComputationalGeometry;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Statistics;E:\D\MITK-superbuild\ep\src\VTK\Filters\Statistics;E:\D\MITK-superbuild\ep\src\VTK-build\Imaging\Fourier;E:\D\MITK-superbuild\ep\src\VTK\Imaging\Fourier;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\alglib;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\alglib;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Geometry;E:\D\MITK-superbuild\ep\src\VTK\Filters\Geometry;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Sources;E:\D\MITK-superbuild\ep\src\VTK\Filters\Sources;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\EncodeString;E:\D\MITK-superbuild\ep\src\VTK\Utilities\EncodeString;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\RelWithDebInfo\vtkIOLegacy-6.2.lib;..\..\lib\RelWithDebInfo\vtkIOXML-6.2.lib;..\..\lib\RelWithDebInfo\vtkImagingSources-6.2.lib;..\..\lib\RelWithDebInfo\vtkRenderingOpenGL-6.2.lib;..\..\lib\RelWithDebInfo\vtkIOGeometry-6.2.lib;..\..\lib\RelWithDebInfo\vtkIOXMLParser-6.2.lib;..\..\lib\RelWithDebInfo\vtkRenderingCore-6.2.lib;..\..\lib\RelWithDebInfo\vtkCommonColor-6.2.lib;glu32.lib;opengl32.lib;..\..\lib\RelWithDebInfo\vtkImagingCore-6.2.lib;..\..\lib\RelWithDebInfo\vtkIOCore-6.2.lib;..\..\lib\RelWithDebInfo\vtkCommonExecutionModel-6.2.lib;..\..\lib\RelWithDebInfo\vtkCommonDataModel-6.2.lib;..\..\lib\RelWithDebInfo\vtkCommonMisc-6.2.lib;..\..\lib\RelWithDebInfo\vtkCommonSystem-6.2.lib;..\..\lib\RelWithDebInfo\vtksys-6.2.lib;ws2_32.lib;Psapi.lib;..\..\lib\RelWithDebInfo\vtkCommonTransforms-6.2.lib;..\..\lib\RelWithDebInfo\vtkCommonMath-6.2.lib;..\..\lib\RelWithDebInfo\vtkCommonCore-6.2.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/ep/src/VTK-build/lib/RelWithDebInfo/vtkRenderingLIC-6.2.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/ep/src/VTK-build/bin/RelWithDebInfo/vtkRenderingLIC-6.2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/VTK/Rendering/LIC/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/VTK -BE:/D/MITK-superbuild/ep/src/VTK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/VTK/Rendering/LIC/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\module.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkIOLegacy.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonDataModel.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonMath.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonCore.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtksys.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonMisc.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonSystem.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonTransforms.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkIOCore.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonExecutionModel.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkzlib.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkIOXML.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkIOGeometry.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkjsoncpp.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkIOXMLParser.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkexpat.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkImagingSources.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkImagingCore.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkRenderingOpenGL.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkImagingHybrid.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkIOImage.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkDICOMParser.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkMetaIO.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkjpeg.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkpng.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtktiff.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkParseOGLExt.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkRenderingCore.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonColor.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkFiltersExtraction.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkFiltersCore.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkFiltersGeneral.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonComputationalGeometry.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkFiltersStatistics.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkImagingFourier.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkalglib.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkFiltersGeometry.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkFiltersSources.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkUtilitiesEncodeString.cmake;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkMakeInstantiator.h.in;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkMakeInstantiator.cxx.in;E:\D\MITK-superbuild\ep\src\VTK\CMake\exportheader.cmake.in;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\module.cmake;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkModuleHeaders.cmake.in;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/VTK/Rendering/LIC/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/VTK -BE:/D/MITK-superbuild/ep/src/VTK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/VTK/Rendering/LIC/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\module.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkIOLegacy.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonDataModel.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonMath.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonCore.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtksys.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonMisc.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonSystem.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonTransforms.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkIOCore.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonExecutionModel.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkzlib.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkIOXML.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkIOGeometry.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkjsoncpp.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkIOXMLParser.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkexpat.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkImagingSources.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkImagingCore.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkRenderingOpenGL.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkImagingHybrid.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkIOImage.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkDICOMParser.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkMetaIO.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkjpeg.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkpng.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtktiff.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkParseOGLExt.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkRenderingCore.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonColor.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkFiltersExtraction.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkFiltersCore.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkFiltersGeneral.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonComputationalGeometry.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkFiltersStatistics.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkImagingFourier.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkalglib.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkFiltersGeometry.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkFiltersSources.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkUtilitiesEncodeString.cmake;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkMakeInstantiator.h.in;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkMakeInstantiator.cxx.in;E:\D\MITK-superbuild\ep\src\VTK\CMake\exportheader.cmake.in;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\module.cmake;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkModuleHeaders.cmake.in;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/VTK/Rendering/LIC/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/VTK -BE:/D/MITK-superbuild/ep/src/VTK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/VTK/Rendering/LIC/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\module.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkIOLegacy.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonDataModel.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonMath.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonCore.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtksys.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonMisc.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonSystem.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonTransforms.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkIOCore.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonExecutionModel.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkzlib.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkIOXML.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkIOGeometry.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkjsoncpp.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkIOXMLParser.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkexpat.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkImagingSources.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkImagingCore.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkRenderingOpenGL.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkImagingHybrid.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkIOImage.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkDICOMParser.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkMetaIO.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkjpeg.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkpng.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtktiff.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkParseOGLExt.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkRenderingCore.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonColor.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkFiltersExtraction.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkFiltersCore.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkFiltersGeneral.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonComputationalGeometry.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkFiltersStatistics.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkImagingFourier.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkalglib.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkFiltersGeometry.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkFiltersSources.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkUtilitiesEncodeString.cmake;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkMakeInstantiator.h.in;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkMakeInstantiator.cxx.in;E:\D\MITK-superbuild\ep\src\VTK\CMake\exportheader.cmake.in;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\module.cmake;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkModuleHeaders.cmake.in;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/VTK/Rendering/LIC/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/VTK -BE:/D/MITK-superbuild/ep/src/VTK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/VTK/Rendering/LIC/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\module.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkIOLegacy.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonDataModel.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonMath.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonCore.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtksys.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonMisc.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonSystem.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonTransforms.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkIOCore.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonExecutionModel.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkzlib.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkIOXML.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkIOGeometry.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkjsoncpp.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkIOXMLParser.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkexpat.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkImagingSources.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkImagingCore.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkRenderingOpenGL.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkImagingHybrid.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkIOImage.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkDICOMParser.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkMetaIO.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkjpeg.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkpng.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtktiff.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkParseOGLExt.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkRenderingCore.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonColor.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkFiltersExtraction.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkFiltersCore.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkFiltersGeneral.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonComputationalGeometry.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkFiltersStatistics.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkImagingFourier.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkalglib.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkFiltersGeometry.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkFiltersSources.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkUtilitiesEncodeString.cmake;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkMakeInstantiator.h.in;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkMakeInstantiator.cxx.in;E:\D\MITK-superbuild\ep\src\VTK\CMake\exportheader.cmake.in;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\module.cmake;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkModuleHeaders.cmake.in;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\VTK-build\CMakeFiles\8101f6bf35a7c938792095405de2d197\vtkLineIntegralConvolution2D_VT.cxx.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating vtkLineIntegralConvolution2D_VT.cxx, vtkLineIntegralConvolution2D_VT.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+..\..\bin\Debug\vtkEncodeString-6.2.exe E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/LIC/vtkLineIntegralConvolution2D_VT.cxx E:/D/MITK-superbuild/ep/src/VTK/Rendering/LIC/vtkLineIntegralConvolution2D_VT.glsl vtkLineIntegralConvolution2D_VT --build-header VTKRENDERINGLIC_EXPORT vtkRenderingLICModule.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/8101f6bf35a7c938792095405de2d197/vtkLineIntegralConvolution2D_VT.cxx.rule;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\vtkLineIntegralConvolution2D_VT.glsl;E:\D\MITK-superbuild\ep\src\VTK-build\bin\Debug\vtkEncodeString-6.2.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkLineIntegralConvolution2D_VT.cxx;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkLineIntegralConvolution2D_VT.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating vtkLineIntegralConvolution2D_VT.cxx, vtkLineIntegralConvolution2D_VT.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+..\..\bin\Release\vtkEncodeString-6.2.exe E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/LIC/vtkLineIntegralConvolution2D_VT.cxx E:/D/MITK-superbuild/ep/src/VTK/Rendering/LIC/vtkLineIntegralConvolution2D_VT.glsl vtkLineIntegralConvolution2D_VT --build-header VTKRENDERINGLIC_EXPORT vtkRenderingLICModule.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/8101f6bf35a7c938792095405de2d197/vtkLineIntegralConvolution2D_VT.cxx.rule;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\vtkLineIntegralConvolution2D_VT.glsl;E:\D\MITK-superbuild\ep\src\VTK-build\bin\Release\vtkEncodeString-6.2.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkLineIntegralConvolution2D_VT.cxx;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkLineIntegralConvolution2D_VT.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating vtkLineIntegralConvolution2D_VT.cxx, vtkLineIntegralConvolution2D_VT.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+..\..\bin\MinSizeRel\vtkEncodeString-6.2.exe E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/LIC/vtkLineIntegralConvolution2D_VT.cxx E:/D/MITK-superbuild/ep/src/VTK/Rendering/LIC/vtkLineIntegralConvolution2D_VT.glsl vtkLineIntegralConvolution2D_VT --build-header VTKRENDERINGLIC_EXPORT vtkRenderingLICModule.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/8101f6bf35a7c938792095405de2d197/vtkLineIntegralConvolution2D_VT.cxx.rule;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\vtkLineIntegralConvolution2D_VT.glsl;E:\D\MITK-superbuild\ep\src\VTK-build\bin\MinSizeRel\vtkEncodeString-6.2.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkLineIntegralConvolution2D_VT.cxx;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkLineIntegralConvolution2D_VT.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating vtkLineIntegralConvolution2D_VT.cxx, vtkLineIntegralConvolution2D_VT.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+..\..\bin\RelWithDebInfo\vtkEncodeString-6.2.exe E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/LIC/vtkLineIntegralConvolution2D_VT.cxx E:/D/MITK-superbuild/ep/src/VTK/Rendering/LIC/vtkLineIntegralConvolution2D_VT.glsl vtkLineIntegralConvolution2D_VT --build-header VTKRENDERINGLIC_EXPORT vtkRenderingLICModule.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/8101f6bf35a7c938792095405de2d197/vtkLineIntegralConvolution2D_VT.cxx.rule;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\vtkLineIntegralConvolution2D_VT.glsl;E:\D\MITK-superbuild\ep\src\VTK-build\bin\RelWithDebInfo\vtkEncodeString-6.2.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkLineIntegralConvolution2D_VT.cxx;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkLineIntegralConvolution2D_VT.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\VTK-build\CMakeFiles\8101f6bf35a7c938792095405de2d197\vtkLineIntegralConvolution2D_LIC0.cxx.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating vtkLineIntegralConvolution2D_LIC0.cxx, vtkLineIntegralConvolution2D_LIC0.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+..\..\bin\Debug\vtkEncodeString-6.2.exe E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/LIC/vtkLineIntegralConvolution2D_LIC0.cxx E:/D/MITK-superbuild/ep/src/VTK/Rendering/LIC/vtkLineIntegralConvolution2D_LIC0.glsl vtkLineIntegralConvolution2D_LIC0 --build-header VTKRENDERINGLIC_EXPORT vtkRenderingLICModule.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/8101f6bf35a7c938792095405de2d197/vtkLineIntegralConvolution2D_LIC0.cxx.rule;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\vtkLineIntegralConvolution2D_LIC0.glsl;E:\D\MITK-superbuild\ep\src\VTK-build\bin\Debug\vtkEncodeString-6.2.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkLineIntegralConvolution2D_LIC0.cxx;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkLineIntegralConvolution2D_LIC0.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating vtkLineIntegralConvolution2D_LIC0.cxx, vtkLineIntegralConvolution2D_LIC0.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+..\..\bin\Release\vtkEncodeString-6.2.exe E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/LIC/vtkLineIntegralConvolution2D_LIC0.cxx E:/D/MITK-superbuild/ep/src/VTK/Rendering/LIC/vtkLineIntegralConvolution2D_LIC0.glsl vtkLineIntegralConvolution2D_LIC0 --build-header VTKRENDERINGLIC_EXPORT vtkRenderingLICModule.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/8101f6bf35a7c938792095405de2d197/vtkLineIntegralConvolution2D_LIC0.cxx.rule;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\vtkLineIntegralConvolution2D_LIC0.glsl;E:\D\MITK-superbuild\ep\src\VTK-build\bin\Release\vtkEncodeString-6.2.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkLineIntegralConvolution2D_LIC0.cxx;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkLineIntegralConvolution2D_LIC0.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating vtkLineIntegralConvolution2D_LIC0.cxx, vtkLineIntegralConvolution2D_LIC0.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+..\..\bin\MinSizeRel\vtkEncodeString-6.2.exe E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/LIC/vtkLineIntegralConvolution2D_LIC0.cxx E:/D/MITK-superbuild/ep/src/VTK/Rendering/LIC/vtkLineIntegralConvolution2D_LIC0.glsl vtkLineIntegralConvolution2D_LIC0 --build-header VTKRENDERINGLIC_EXPORT vtkRenderingLICModule.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/8101f6bf35a7c938792095405de2d197/vtkLineIntegralConvolution2D_LIC0.cxx.rule;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\vtkLineIntegralConvolution2D_LIC0.glsl;E:\D\MITK-superbuild\ep\src\VTK-build\bin\MinSizeRel\vtkEncodeString-6.2.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkLineIntegralConvolution2D_LIC0.cxx;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkLineIntegralConvolution2D_LIC0.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating vtkLineIntegralConvolution2D_LIC0.cxx, vtkLineIntegralConvolution2D_LIC0.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+..\..\bin\RelWithDebInfo\vtkEncodeString-6.2.exe E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/LIC/vtkLineIntegralConvolution2D_LIC0.cxx E:/D/MITK-superbuild/ep/src/VTK/Rendering/LIC/vtkLineIntegralConvolution2D_LIC0.glsl vtkLineIntegralConvolution2D_LIC0 --build-header VTKRENDERINGLIC_EXPORT vtkRenderingLICModule.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/8101f6bf35a7c938792095405de2d197/vtkLineIntegralConvolution2D_LIC0.cxx.rule;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\vtkLineIntegralConvolution2D_LIC0.glsl;E:\D\MITK-superbuild\ep\src\VTK-build\bin\RelWithDebInfo\vtkEncodeString-6.2.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkLineIntegralConvolution2D_LIC0.cxx;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkLineIntegralConvolution2D_LIC0.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\VTK-build\CMakeFiles\8101f6bf35a7c938792095405de2d197\vtkLineIntegralConvolution2D_LICI.cxx.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating vtkLineIntegralConvolution2D_LICI.cxx, vtkLineIntegralConvolution2D_LICI.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+..\..\bin\Debug\vtkEncodeString-6.2.exe E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/LIC/vtkLineIntegralConvolution2D_LICI.cxx E:/D/MITK-superbuild/ep/src/VTK/Rendering/LIC/vtkLineIntegralConvolution2D_LICI.glsl vtkLineIntegralConvolution2D_LICI --build-header VTKRENDERINGLIC_EXPORT vtkRenderingLICModule.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/8101f6bf35a7c938792095405de2d197/vtkLineIntegralConvolution2D_LICI.cxx.rule;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\vtkLineIntegralConvolution2D_LICI.glsl;E:\D\MITK-superbuild\ep\src\VTK-build\bin\Debug\vtkEncodeString-6.2.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkLineIntegralConvolution2D_LICI.cxx;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkLineIntegralConvolution2D_LICI.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating vtkLineIntegralConvolution2D_LICI.cxx, vtkLineIntegralConvolution2D_LICI.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+..\..\bin\Release\vtkEncodeString-6.2.exe E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/LIC/vtkLineIntegralConvolution2D_LICI.cxx E:/D/MITK-superbuild/ep/src/VTK/Rendering/LIC/vtkLineIntegralConvolution2D_LICI.glsl vtkLineIntegralConvolution2D_LICI --build-header VTKRENDERINGLIC_EXPORT vtkRenderingLICModule.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/8101f6bf35a7c938792095405de2d197/vtkLineIntegralConvolution2D_LICI.cxx.rule;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\vtkLineIntegralConvolution2D_LICI.glsl;E:\D\MITK-superbuild\ep\src\VTK-build\bin\Release\vtkEncodeString-6.2.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkLineIntegralConvolution2D_LICI.cxx;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkLineIntegralConvolution2D_LICI.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating vtkLineIntegralConvolution2D_LICI.cxx, vtkLineIntegralConvolution2D_LICI.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+..\..\bin\MinSizeRel\vtkEncodeString-6.2.exe E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/LIC/vtkLineIntegralConvolution2D_LICI.cxx E:/D/MITK-superbuild/ep/src/VTK/Rendering/LIC/vtkLineIntegralConvolution2D_LICI.glsl vtkLineIntegralConvolution2D_LICI --build-header VTKRENDERINGLIC_EXPORT vtkRenderingLICModule.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/8101f6bf35a7c938792095405de2d197/vtkLineIntegralConvolution2D_LICI.cxx.rule;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\vtkLineIntegralConvolution2D_LICI.glsl;E:\D\MITK-superbuild\ep\src\VTK-build\bin\MinSizeRel\vtkEncodeString-6.2.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkLineIntegralConvolution2D_LICI.cxx;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkLineIntegralConvolution2D_LICI.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating vtkLineIntegralConvolution2D_LICI.cxx, vtkLineIntegralConvolution2D_LICI.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+..\..\bin\RelWithDebInfo\vtkEncodeString-6.2.exe E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/LIC/vtkLineIntegralConvolution2D_LICI.cxx E:/D/MITK-superbuild/ep/src/VTK/Rendering/LIC/vtkLineIntegralConvolution2D_LICI.glsl vtkLineIntegralConvolution2D_LICI --build-header VTKRENDERINGLIC_EXPORT vtkRenderingLICModule.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/8101f6bf35a7c938792095405de2d197/vtkLineIntegralConvolution2D_LICI.cxx.rule;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\vtkLineIntegralConvolution2D_LICI.glsl;E:\D\MITK-superbuild\ep\src\VTK-build\bin\RelWithDebInfo\vtkEncodeString-6.2.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkLineIntegralConvolution2D_LICI.cxx;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkLineIntegralConvolution2D_LICI.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\VTK-build\CMakeFiles\8101f6bf35a7c938792095405de2d197\vtkLineIntegralConvolution2D_LICN.cxx.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating vtkLineIntegralConvolution2D_LICN.cxx, vtkLineIntegralConvolution2D_LICN.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+..\..\bin\Debug\vtkEncodeString-6.2.exe E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/LIC/vtkLineIntegralConvolution2D_LICN.cxx E:/D/MITK-superbuild/ep/src/VTK/Rendering/LIC/vtkLineIntegralConvolution2D_LICN.glsl vtkLineIntegralConvolution2D_LICN --build-header VTKRENDERINGLIC_EXPORT vtkRenderingLICModule.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/8101f6bf35a7c938792095405de2d197/vtkLineIntegralConvolution2D_LICN.cxx.rule;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\vtkLineIntegralConvolution2D_LICN.glsl;E:\D\MITK-superbuild\ep\src\VTK-build\bin\Debug\vtkEncodeString-6.2.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkLineIntegralConvolution2D_LICN.cxx;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkLineIntegralConvolution2D_LICN.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating vtkLineIntegralConvolution2D_LICN.cxx, vtkLineIntegralConvolution2D_LICN.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+..\..\bin\Release\vtkEncodeString-6.2.exe E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/LIC/vtkLineIntegralConvolution2D_LICN.cxx E:/D/MITK-superbuild/ep/src/VTK/Rendering/LIC/vtkLineIntegralConvolution2D_LICN.glsl vtkLineIntegralConvolution2D_LICN --build-header VTKRENDERINGLIC_EXPORT vtkRenderingLICModule.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/8101f6bf35a7c938792095405de2d197/vtkLineIntegralConvolution2D_LICN.cxx.rule;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\vtkLineIntegralConvolution2D_LICN.glsl;E:\D\MITK-superbuild\ep\src\VTK-build\bin\Release\vtkEncodeString-6.2.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkLineIntegralConvolution2D_LICN.cxx;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkLineIntegralConvolution2D_LICN.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating vtkLineIntegralConvolution2D_LICN.cxx, vtkLineIntegralConvolution2D_LICN.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+..\..\bin\MinSizeRel\vtkEncodeString-6.2.exe E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/LIC/vtkLineIntegralConvolution2D_LICN.cxx E:/D/MITK-superbuild/ep/src/VTK/Rendering/LIC/vtkLineIntegralConvolution2D_LICN.glsl vtkLineIntegralConvolution2D_LICN --build-header VTKRENDERINGLIC_EXPORT vtkRenderingLICModule.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/8101f6bf35a7c938792095405de2d197/vtkLineIntegralConvolution2D_LICN.cxx.rule;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\vtkLineIntegralConvolution2D_LICN.glsl;E:\D\MITK-superbuild\ep\src\VTK-build\bin\MinSizeRel\vtkEncodeString-6.2.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkLineIntegralConvolution2D_LICN.cxx;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkLineIntegralConvolution2D_LICN.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating vtkLineIntegralConvolution2D_LICN.cxx, vtkLineIntegralConvolution2D_LICN.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+..\..\bin\RelWithDebInfo\vtkEncodeString-6.2.exe E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/LIC/vtkLineIntegralConvolution2D_LICN.cxx E:/D/MITK-superbuild/ep/src/VTK/Rendering/LIC/vtkLineIntegralConvolution2D_LICN.glsl vtkLineIntegralConvolution2D_LICN --build-header VTKRENDERINGLIC_EXPORT vtkRenderingLICModule.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/8101f6bf35a7c938792095405de2d197/vtkLineIntegralConvolution2D_LICN.cxx.rule;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\vtkLineIntegralConvolution2D_LICN.glsl;E:\D\MITK-superbuild\ep\src\VTK-build\bin\RelWithDebInfo\vtkEncodeString-6.2.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkLineIntegralConvolution2D_LICN.cxx;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkLineIntegralConvolution2D_LICN.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\VTK-build\CMakeFiles\8101f6bf35a7c938792095405de2d197\vtkLineIntegralConvolution2D_EE.cxx.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating vtkLineIntegralConvolution2D_EE.cxx, vtkLineIntegralConvolution2D_EE.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+..\..\bin\Debug\vtkEncodeString-6.2.exe E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/LIC/vtkLineIntegralConvolution2D_EE.cxx E:/D/MITK-superbuild/ep/src/VTK/Rendering/LIC/vtkLineIntegralConvolution2D_EE.glsl vtkLineIntegralConvolution2D_EE --build-header VTKRENDERINGLIC_EXPORT vtkRenderingLICModule.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/8101f6bf35a7c938792095405de2d197/vtkLineIntegralConvolution2D_EE.cxx.rule;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\vtkLineIntegralConvolution2D_EE.glsl;E:\D\MITK-superbuild\ep\src\VTK-build\bin\Debug\vtkEncodeString-6.2.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkLineIntegralConvolution2D_EE.cxx;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkLineIntegralConvolution2D_EE.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating vtkLineIntegralConvolution2D_EE.cxx, vtkLineIntegralConvolution2D_EE.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+..\..\bin\Release\vtkEncodeString-6.2.exe E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/LIC/vtkLineIntegralConvolution2D_EE.cxx E:/D/MITK-superbuild/ep/src/VTK/Rendering/LIC/vtkLineIntegralConvolution2D_EE.glsl vtkLineIntegralConvolution2D_EE --build-header VTKRENDERINGLIC_EXPORT vtkRenderingLICModule.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/8101f6bf35a7c938792095405de2d197/vtkLineIntegralConvolution2D_EE.cxx.rule;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\vtkLineIntegralConvolution2D_EE.glsl;E:\D\MITK-superbuild\ep\src\VTK-build\bin\Release\vtkEncodeString-6.2.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkLineIntegralConvolution2D_EE.cxx;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkLineIntegralConvolution2D_EE.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating vtkLineIntegralConvolution2D_EE.cxx, vtkLineIntegralConvolution2D_EE.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+..\..\bin\MinSizeRel\vtkEncodeString-6.2.exe E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/LIC/vtkLineIntegralConvolution2D_EE.cxx E:/D/MITK-superbuild/ep/src/VTK/Rendering/LIC/vtkLineIntegralConvolution2D_EE.glsl vtkLineIntegralConvolution2D_EE --build-header VTKRENDERINGLIC_EXPORT vtkRenderingLICModule.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/8101f6bf35a7c938792095405de2d197/vtkLineIntegralConvolution2D_EE.cxx.rule;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\vtkLineIntegralConvolution2D_EE.glsl;E:\D\MITK-superbuild\ep\src\VTK-build\bin\MinSizeRel\vtkEncodeString-6.2.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkLineIntegralConvolution2D_EE.cxx;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkLineIntegralConvolution2D_EE.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating vtkLineIntegralConvolution2D_EE.cxx, vtkLineIntegralConvolution2D_EE.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+..\..\bin\RelWithDebInfo\vtkEncodeString-6.2.exe E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/LIC/vtkLineIntegralConvolution2D_EE.cxx E:/D/MITK-superbuild/ep/src/VTK/Rendering/LIC/vtkLineIntegralConvolution2D_EE.glsl vtkLineIntegralConvolution2D_EE --build-header VTKRENDERINGLIC_EXPORT vtkRenderingLICModule.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/8101f6bf35a7c938792095405de2d197/vtkLineIntegralConvolution2D_EE.cxx.rule;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\vtkLineIntegralConvolution2D_EE.glsl;E:\D\MITK-superbuild\ep\src\VTK-build\bin\RelWithDebInfo\vtkEncodeString-6.2.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkLineIntegralConvolution2D_EE.cxx;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkLineIntegralConvolution2D_EE.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\VTK-build\CMakeFiles\8101f6bf35a7c938792095405de2d197\vtkLineIntegralConvolution2D_CE.cxx.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating vtkLineIntegralConvolution2D_CE.cxx, vtkLineIntegralConvolution2D_CE.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+..\..\bin\Debug\vtkEncodeString-6.2.exe E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/LIC/vtkLineIntegralConvolution2D_CE.cxx E:/D/MITK-superbuild/ep/src/VTK/Rendering/LIC/vtkLineIntegralConvolution2D_CE.glsl vtkLineIntegralConvolution2D_CE --build-header VTKRENDERINGLIC_EXPORT vtkRenderingLICModule.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/8101f6bf35a7c938792095405de2d197/vtkLineIntegralConvolution2D_CE.cxx.rule;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\vtkLineIntegralConvolution2D_CE.glsl;E:\D\MITK-superbuild\ep\src\VTK-build\bin\Debug\vtkEncodeString-6.2.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkLineIntegralConvolution2D_CE.cxx;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkLineIntegralConvolution2D_CE.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating vtkLineIntegralConvolution2D_CE.cxx, vtkLineIntegralConvolution2D_CE.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+..\..\bin\Release\vtkEncodeString-6.2.exe E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/LIC/vtkLineIntegralConvolution2D_CE.cxx E:/D/MITK-superbuild/ep/src/VTK/Rendering/LIC/vtkLineIntegralConvolution2D_CE.glsl vtkLineIntegralConvolution2D_CE --build-header VTKRENDERINGLIC_EXPORT vtkRenderingLICModule.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/8101f6bf35a7c938792095405de2d197/vtkLineIntegralConvolution2D_CE.cxx.rule;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\vtkLineIntegralConvolution2D_CE.glsl;E:\D\MITK-superbuild\ep\src\VTK-build\bin\Release\vtkEncodeString-6.2.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkLineIntegralConvolution2D_CE.cxx;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkLineIntegralConvolution2D_CE.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating vtkLineIntegralConvolution2D_CE.cxx, vtkLineIntegralConvolution2D_CE.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+..\..\bin\MinSizeRel\vtkEncodeString-6.2.exe E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/LIC/vtkLineIntegralConvolution2D_CE.cxx E:/D/MITK-superbuild/ep/src/VTK/Rendering/LIC/vtkLineIntegralConvolution2D_CE.glsl vtkLineIntegralConvolution2D_CE --build-header VTKRENDERINGLIC_EXPORT vtkRenderingLICModule.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/8101f6bf35a7c938792095405de2d197/vtkLineIntegralConvolution2D_CE.cxx.rule;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\vtkLineIntegralConvolution2D_CE.glsl;E:\D\MITK-superbuild\ep\src\VTK-build\bin\MinSizeRel\vtkEncodeString-6.2.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkLineIntegralConvolution2D_CE.cxx;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkLineIntegralConvolution2D_CE.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating vtkLineIntegralConvolution2D_CE.cxx, vtkLineIntegralConvolution2D_CE.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+..\..\bin\RelWithDebInfo\vtkEncodeString-6.2.exe E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/LIC/vtkLineIntegralConvolution2D_CE.cxx E:/D/MITK-superbuild/ep/src/VTK/Rendering/LIC/vtkLineIntegralConvolution2D_CE.glsl vtkLineIntegralConvolution2D_CE --build-header VTKRENDERINGLIC_EXPORT vtkRenderingLICModule.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/8101f6bf35a7c938792095405de2d197/vtkLineIntegralConvolution2D_CE.cxx.rule;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\vtkLineIntegralConvolution2D_CE.glsl;E:\D\MITK-superbuild\ep\src\VTK-build\bin\RelWithDebInfo\vtkEncodeString-6.2.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkLineIntegralConvolution2D_CE.cxx;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkLineIntegralConvolution2D_CE.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\VTK-build\CMakeFiles\8101f6bf35a7c938792095405de2d197\vtkLineIntegralConvolution2D_AAH.cxx.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating vtkLineIntegralConvolution2D_AAH.cxx, vtkLineIntegralConvolution2D_AAH.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+..\..\bin\Debug\vtkEncodeString-6.2.exe E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/LIC/vtkLineIntegralConvolution2D_AAH.cxx E:/D/MITK-superbuild/ep/src/VTK/Rendering/LIC/vtkLineIntegralConvolution2D_AAH.glsl vtkLineIntegralConvolution2D_AAH --build-header VTKRENDERINGLIC_EXPORT vtkRenderingLICModule.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/8101f6bf35a7c938792095405de2d197/vtkLineIntegralConvolution2D_AAH.cxx.rule;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\vtkLineIntegralConvolution2D_AAH.glsl;E:\D\MITK-superbuild\ep\src\VTK-build\bin\Debug\vtkEncodeString-6.2.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkLineIntegralConvolution2D_AAH.cxx;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkLineIntegralConvolution2D_AAH.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating vtkLineIntegralConvolution2D_AAH.cxx, vtkLineIntegralConvolution2D_AAH.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+..\..\bin\Release\vtkEncodeString-6.2.exe E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/LIC/vtkLineIntegralConvolution2D_AAH.cxx E:/D/MITK-superbuild/ep/src/VTK/Rendering/LIC/vtkLineIntegralConvolution2D_AAH.glsl vtkLineIntegralConvolution2D_AAH --build-header VTKRENDERINGLIC_EXPORT vtkRenderingLICModule.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/8101f6bf35a7c938792095405de2d197/vtkLineIntegralConvolution2D_AAH.cxx.rule;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\vtkLineIntegralConvolution2D_AAH.glsl;E:\D\MITK-superbuild\ep\src\VTK-build\bin\Release\vtkEncodeString-6.2.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkLineIntegralConvolution2D_AAH.cxx;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkLineIntegralConvolution2D_AAH.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating vtkLineIntegralConvolution2D_AAH.cxx, vtkLineIntegralConvolution2D_AAH.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+..\..\bin\MinSizeRel\vtkEncodeString-6.2.exe E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/LIC/vtkLineIntegralConvolution2D_AAH.cxx E:/D/MITK-superbuild/ep/src/VTK/Rendering/LIC/vtkLineIntegralConvolution2D_AAH.glsl vtkLineIntegralConvolution2D_AAH --build-header VTKRENDERINGLIC_EXPORT vtkRenderingLICModule.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/8101f6bf35a7c938792095405de2d197/vtkLineIntegralConvolution2D_AAH.cxx.rule;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\vtkLineIntegralConvolution2D_AAH.glsl;E:\D\MITK-superbuild\ep\src\VTK-build\bin\MinSizeRel\vtkEncodeString-6.2.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkLineIntegralConvolution2D_AAH.cxx;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkLineIntegralConvolution2D_AAH.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating vtkLineIntegralConvolution2D_AAH.cxx, vtkLineIntegralConvolution2D_AAH.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+..\..\bin\RelWithDebInfo\vtkEncodeString-6.2.exe E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/LIC/vtkLineIntegralConvolution2D_AAH.cxx E:/D/MITK-superbuild/ep/src/VTK/Rendering/LIC/vtkLineIntegralConvolution2D_AAH.glsl vtkLineIntegralConvolution2D_AAH --build-header VTKRENDERINGLIC_EXPORT vtkRenderingLICModule.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/8101f6bf35a7c938792095405de2d197/vtkLineIntegralConvolution2D_AAH.cxx.rule;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\vtkLineIntegralConvolution2D_AAH.glsl;E:\D\MITK-superbuild\ep\src\VTK-build\bin\RelWithDebInfo\vtkEncodeString-6.2.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkLineIntegralConvolution2D_AAH.cxx;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkLineIntegralConvolution2D_AAH.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\VTK-build\CMakeFiles\8101f6bf35a7c938792095405de2d197\vtkLineIntegralConvolution2D_AAV.cxx.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating vtkLineIntegralConvolution2D_AAV.cxx, vtkLineIntegralConvolution2D_AAV.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+..\..\bin\Debug\vtkEncodeString-6.2.exe E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/LIC/vtkLineIntegralConvolution2D_AAV.cxx E:/D/MITK-superbuild/ep/src/VTK/Rendering/LIC/vtkLineIntegralConvolution2D_AAV.glsl vtkLineIntegralConvolution2D_AAV --build-header VTKRENDERINGLIC_EXPORT vtkRenderingLICModule.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/8101f6bf35a7c938792095405de2d197/vtkLineIntegralConvolution2D_AAV.cxx.rule;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\vtkLineIntegralConvolution2D_AAV.glsl;E:\D\MITK-superbuild\ep\src\VTK-build\bin\Debug\vtkEncodeString-6.2.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkLineIntegralConvolution2D_AAV.cxx;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkLineIntegralConvolution2D_AAV.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating vtkLineIntegralConvolution2D_AAV.cxx, vtkLineIntegralConvolution2D_AAV.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+..\..\bin\Release\vtkEncodeString-6.2.exe E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/LIC/vtkLineIntegralConvolution2D_AAV.cxx E:/D/MITK-superbuild/ep/src/VTK/Rendering/LIC/vtkLineIntegralConvolution2D_AAV.glsl vtkLineIntegralConvolution2D_AAV --build-header VTKRENDERINGLIC_EXPORT vtkRenderingLICModule.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/8101f6bf35a7c938792095405de2d197/vtkLineIntegralConvolution2D_AAV.cxx.rule;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\vtkLineIntegralConvolution2D_AAV.glsl;E:\D\MITK-superbuild\ep\src\VTK-build\bin\Release\vtkEncodeString-6.2.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkLineIntegralConvolution2D_AAV.cxx;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkLineIntegralConvolution2D_AAV.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating vtkLineIntegralConvolution2D_AAV.cxx, vtkLineIntegralConvolution2D_AAV.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+..\..\bin\MinSizeRel\vtkEncodeString-6.2.exe E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/LIC/vtkLineIntegralConvolution2D_AAV.cxx E:/D/MITK-superbuild/ep/src/VTK/Rendering/LIC/vtkLineIntegralConvolution2D_AAV.glsl vtkLineIntegralConvolution2D_AAV --build-header VTKRENDERINGLIC_EXPORT vtkRenderingLICModule.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/8101f6bf35a7c938792095405de2d197/vtkLineIntegralConvolution2D_AAV.cxx.rule;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\vtkLineIntegralConvolution2D_AAV.glsl;E:\D\MITK-superbuild\ep\src\VTK-build\bin\MinSizeRel\vtkEncodeString-6.2.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkLineIntegralConvolution2D_AAV.cxx;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkLineIntegralConvolution2D_AAV.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating vtkLineIntegralConvolution2D_AAV.cxx, vtkLineIntegralConvolution2D_AAV.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+..\..\bin\RelWithDebInfo\vtkEncodeString-6.2.exe E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/LIC/vtkLineIntegralConvolution2D_AAV.cxx E:/D/MITK-superbuild/ep/src/VTK/Rendering/LIC/vtkLineIntegralConvolution2D_AAV.glsl vtkLineIntegralConvolution2D_AAV --build-header VTKRENDERINGLIC_EXPORT vtkRenderingLICModule.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/8101f6bf35a7c938792095405de2d197/vtkLineIntegralConvolution2D_AAV.cxx.rule;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\vtkLineIntegralConvolution2D_AAV.glsl;E:\D\MITK-superbuild\ep\src\VTK-build\bin\RelWithDebInfo\vtkEncodeString-6.2.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkLineIntegralConvolution2D_AAV.cxx;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkLineIntegralConvolution2D_AAV.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\VTK-build\CMakeFiles\8101f6bf35a7c938792095405de2d197\vtkStructuredGridLIC2D_fs.cxx.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating vtkStructuredGridLIC2D_fs.cxx, vtkStructuredGridLIC2D_fs.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+..\..\bin\Debug\vtkEncodeString-6.2.exe E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/LIC/vtkStructuredGridLIC2D_fs.cxx E:/D/MITK-superbuild/ep/src/VTK/Rendering/LIC/vtkStructuredGridLIC2D_fs.glsl vtkStructuredGridLIC2D_fs --build-header VTKRENDERINGLIC_EXPORT vtkRenderingLICModule.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/8101f6bf35a7c938792095405de2d197/vtkStructuredGridLIC2D_fs.cxx.rule;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\vtkStructuredGridLIC2D_fs.glsl;E:\D\MITK-superbuild\ep\src\VTK-build\bin\Debug\vtkEncodeString-6.2.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkStructuredGridLIC2D_fs.cxx;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkStructuredGridLIC2D_fs.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating vtkStructuredGridLIC2D_fs.cxx, vtkStructuredGridLIC2D_fs.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+..\..\bin\Release\vtkEncodeString-6.2.exe E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/LIC/vtkStructuredGridLIC2D_fs.cxx E:/D/MITK-superbuild/ep/src/VTK/Rendering/LIC/vtkStructuredGridLIC2D_fs.glsl vtkStructuredGridLIC2D_fs --build-header VTKRENDERINGLIC_EXPORT vtkRenderingLICModule.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/8101f6bf35a7c938792095405de2d197/vtkStructuredGridLIC2D_fs.cxx.rule;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\vtkStructuredGridLIC2D_fs.glsl;E:\D\MITK-superbuild\ep\src\VTK-build\bin\Release\vtkEncodeString-6.2.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkStructuredGridLIC2D_fs.cxx;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkStructuredGridLIC2D_fs.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating vtkStructuredGridLIC2D_fs.cxx, vtkStructuredGridLIC2D_fs.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+..\..\bin\MinSizeRel\vtkEncodeString-6.2.exe E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/LIC/vtkStructuredGridLIC2D_fs.cxx E:/D/MITK-superbuild/ep/src/VTK/Rendering/LIC/vtkStructuredGridLIC2D_fs.glsl vtkStructuredGridLIC2D_fs --build-header VTKRENDERINGLIC_EXPORT vtkRenderingLICModule.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/8101f6bf35a7c938792095405de2d197/vtkStructuredGridLIC2D_fs.cxx.rule;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\vtkStructuredGridLIC2D_fs.glsl;E:\D\MITK-superbuild\ep\src\VTK-build\bin\MinSizeRel\vtkEncodeString-6.2.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkStructuredGridLIC2D_fs.cxx;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkStructuredGridLIC2D_fs.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating vtkStructuredGridLIC2D_fs.cxx, vtkStructuredGridLIC2D_fs.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+..\..\bin\RelWithDebInfo\vtkEncodeString-6.2.exe E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/LIC/vtkStructuredGridLIC2D_fs.cxx E:/D/MITK-superbuild/ep/src/VTK/Rendering/LIC/vtkStructuredGridLIC2D_fs.glsl vtkStructuredGridLIC2D_fs --build-header VTKRENDERINGLIC_EXPORT vtkRenderingLICModule.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/8101f6bf35a7c938792095405de2d197/vtkStructuredGridLIC2D_fs.cxx.rule;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\vtkStructuredGridLIC2D_fs.glsl;E:\D\MITK-superbuild\ep\src\VTK-build\bin\RelWithDebInfo\vtkEncodeString-6.2.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkStructuredGridLIC2D_fs.cxx;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkStructuredGridLIC2D_fs.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\VTK-build\CMakeFiles\8101f6bf35a7c938792095405de2d197\vtkSurfaceLICPainter_GeomVs.cxx.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating vtkSurfaceLICPainter_GeomVs.cxx, vtkSurfaceLICPainter_GeomVs.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+..\..\bin\Debug\vtkEncodeString-6.2.exe E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/LIC/vtkSurfaceLICPainter_GeomVs.cxx E:/D/MITK-superbuild/ep/src/VTK/Rendering/LIC/vtkSurfaceLICPainter_GeomVs.glsl vtkSurfaceLICPainter_GeomVs --build-header VTKRENDERINGLIC_EXPORT vtkRenderingLICModule.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/8101f6bf35a7c938792095405de2d197/vtkSurfaceLICPainter_GeomVs.cxx.rule;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\vtkSurfaceLICPainter_GeomVs.glsl;E:\D\MITK-superbuild\ep\src\VTK-build\bin\Debug\vtkEncodeString-6.2.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkSurfaceLICPainter_GeomVs.cxx;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkSurfaceLICPainter_GeomVs.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating vtkSurfaceLICPainter_GeomVs.cxx, vtkSurfaceLICPainter_GeomVs.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+..\..\bin\Release\vtkEncodeString-6.2.exe E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/LIC/vtkSurfaceLICPainter_GeomVs.cxx E:/D/MITK-superbuild/ep/src/VTK/Rendering/LIC/vtkSurfaceLICPainter_GeomVs.glsl vtkSurfaceLICPainter_GeomVs --build-header VTKRENDERINGLIC_EXPORT vtkRenderingLICModule.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/8101f6bf35a7c938792095405de2d197/vtkSurfaceLICPainter_GeomVs.cxx.rule;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\vtkSurfaceLICPainter_GeomVs.glsl;E:\D\MITK-superbuild\ep\src\VTK-build\bin\Release\vtkEncodeString-6.2.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkSurfaceLICPainter_GeomVs.cxx;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkSurfaceLICPainter_GeomVs.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating vtkSurfaceLICPainter_GeomVs.cxx, vtkSurfaceLICPainter_GeomVs.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+..\..\bin\MinSizeRel\vtkEncodeString-6.2.exe E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/LIC/vtkSurfaceLICPainter_GeomVs.cxx E:/D/MITK-superbuild/ep/src/VTK/Rendering/LIC/vtkSurfaceLICPainter_GeomVs.glsl vtkSurfaceLICPainter_GeomVs --build-header VTKRENDERINGLIC_EXPORT vtkRenderingLICModule.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/8101f6bf35a7c938792095405de2d197/vtkSurfaceLICPainter_GeomVs.cxx.rule;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\vtkSurfaceLICPainter_GeomVs.glsl;E:\D\MITK-superbuild\ep\src\VTK-build\bin\MinSizeRel\vtkEncodeString-6.2.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkSurfaceLICPainter_GeomVs.cxx;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkSurfaceLICPainter_GeomVs.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating vtkSurfaceLICPainter_GeomVs.cxx, vtkSurfaceLICPainter_GeomVs.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+..\..\bin\RelWithDebInfo\vtkEncodeString-6.2.exe E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/LIC/vtkSurfaceLICPainter_GeomVs.cxx E:/D/MITK-superbuild/ep/src/VTK/Rendering/LIC/vtkSurfaceLICPainter_GeomVs.glsl vtkSurfaceLICPainter_GeomVs --build-header VTKRENDERINGLIC_EXPORT vtkRenderingLICModule.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/8101f6bf35a7c938792095405de2d197/vtkSurfaceLICPainter_GeomVs.cxx.rule;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\vtkSurfaceLICPainter_GeomVs.glsl;E:\D\MITK-superbuild\ep\src\VTK-build\bin\RelWithDebInfo\vtkEncodeString-6.2.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkSurfaceLICPainter_GeomVs.cxx;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkSurfaceLICPainter_GeomVs.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\VTK-build\CMakeFiles\8101f6bf35a7c938792095405de2d197\vtkSurfaceLICPainter_GeomFs.cxx.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating vtkSurfaceLICPainter_GeomFs.cxx, vtkSurfaceLICPainter_GeomFs.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+..\..\bin\Debug\vtkEncodeString-6.2.exe E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/LIC/vtkSurfaceLICPainter_GeomFs.cxx E:/D/MITK-superbuild/ep/src/VTK/Rendering/LIC/vtkSurfaceLICPainter_GeomFs.glsl vtkSurfaceLICPainter_GeomFs --build-header VTKRENDERINGLIC_EXPORT vtkRenderingLICModule.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/8101f6bf35a7c938792095405de2d197/vtkSurfaceLICPainter_GeomFs.cxx.rule;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\vtkSurfaceLICPainter_GeomFs.glsl;E:\D\MITK-superbuild\ep\src\VTK-build\bin\Debug\vtkEncodeString-6.2.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkSurfaceLICPainter_GeomFs.cxx;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkSurfaceLICPainter_GeomFs.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating vtkSurfaceLICPainter_GeomFs.cxx, vtkSurfaceLICPainter_GeomFs.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+..\..\bin\Release\vtkEncodeString-6.2.exe E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/LIC/vtkSurfaceLICPainter_GeomFs.cxx E:/D/MITK-superbuild/ep/src/VTK/Rendering/LIC/vtkSurfaceLICPainter_GeomFs.glsl vtkSurfaceLICPainter_GeomFs --build-header VTKRENDERINGLIC_EXPORT vtkRenderingLICModule.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/8101f6bf35a7c938792095405de2d197/vtkSurfaceLICPainter_GeomFs.cxx.rule;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\vtkSurfaceLICPainter_GeomFs.glsl;E:\D\MITK-superbuild\ep\src\VTK-build\bin\Release\vtkEncodeString-6.2.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkSurfaceLICPainter_GeomFs.cxx;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkSurfaceLICPainter_GeomFs.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating vtkSurfaceLICPainter_GeomFs.cxx, vtkSurfaceLICPainter_GeomFs.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+..\..\bin\MinSizeRel\vtkEncodeString-6.2.exe E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/LIC/vtkSurfaceLICPainter_GeomFs.cxx E:/D/MITK-superbuild/ep/src/VTK/Rendering/LIC/vtkSurfaceLICPainter_GeomFs.glsl vtkSurfaceLICPainter_GeomFs --build-header VTKRENDERINGLIC_EXPORT vtkRenderingLICModule.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/8101f6bf35a7c938792095405de2d197/vtkSurfaceLICPainter_GeomFs.cxx.rule;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\vtkSurfaceLICPainter_GeomFs.glsl;E:\D\MITK-superbuild\ep\src\VTK-build\bin\MinSizeRel\vtkEncodeString-6.2.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkSurfaceLICPainter_GeomFs.cxx;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkSurfaceLICPainter_GeomFs.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating vtkSurfaceLICPainter_GeomFs.cxx, vtkSurfaceLICPainter_GeomFs.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+..\..\bin\RelWithDebInfo\vtkEncodeString-6.2.exe E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/LIC/vtkSurfaceLICPainter_GeomFs.cxx E:/D/MITK-superbuild/ep/src/VTK/Rendering/LIC/vtkSurfaceLICPainter_GeomFs.glsl vtkSurfaceLICPainter_GeomFs --build-header VTKRENDERINGLIC_EXPORT vtkRenderingLICModule.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/8101f6bf35a7c938792095405de2d197/vtkSurfaceLICPainter_GeomFs.cxx.rule;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\vtkSurfaceLICPainter_GeomFs.glsl;E:\D\MITK-superbuild\ep\src\VTK-build\bin\RelWithDebInfo\vtkEncodeString-6.2.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkSurfaceLICPainter_GeomFs.cxx;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkSurfaceLICPainter_GeomFs.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\VTK-build\CMakeFiles\8101f6bf35a7c938792095405de2d197\vtkSurfaceLICPainter_SC.cxx.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating vtkSurfaceLICPainter_SC.cxx, vtkSurfaceLICPainter_SC.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+..\..\bin\Debug\vtkEncodeString-6.2.exe E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/LIC/vtkSurfaceLICPainter_SC.cxx E:/D/MITK-superbuild/ep/src/VTK/Rendering/LIC/vtkSurfaceLICPainter_SC.glsl vtkSurfaceLICPainter_SC --build-header VTKRENDERINGLIC_EXPORT vtkRenderingLICModule.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/8101f6bf35a7c938792095405de2d197/vtkSurfaceLICPainter_SC.cxx.rule;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\vtkSurfaceLICPainter_SC.glsl;E:\D\MITK-superbuild\ep\src\VTK-build\bin\Debug\vtkEncodeString-6.2.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkSurfaceLICPainter_SC.cxx;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkSurfaceLICPainter_SC.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating vtkSurfaceLICPainter_SC.cxx, vtkSurfaceLICPainter_SC.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+..\..\bin\Release\vtkEncodeString-6.2.exe E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/LIC/vtkSurfaceLICPainter_SC.cxx E:/D/MITK-superbuild/ep/src/VTK/Rendering/LIC/vtkSurfaceLICPainter_SC.glsl vtkSurfaceLICPainter_SC --build-header VTKRENDERINGLIC_EXPORT vtkRenderingLICModule.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/8101f6bf35a7c938792095405de2d197/vtkSurfaceLICPainter_SC.cxx.rule;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\vtkSurfaceLICPainter_SC.glsl;E:\D\MITK-superbuild\ep\src\VTK-build\bin\Release\vtkEncodeString-6.2.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkSurfaceLICPainter_SC.cxx;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkSurfaceLICPainter_SC.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating vtkSurfaceLICPainter_SC.cxx, vtkSurfaceLICPainter_SC.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+..\..\bin\MinSizeRel\vtkEncodeString-6.2.exe E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/LIC/vtkSurfaceLICPainter_SC.cxx E:/D/MITK-superbuild/ep/src/VTK/Rendering/LIC/vtkSurfaceLICPainter_SC.glsl vtkSurfaceLICPainter_SC --build-header VTKRENDERINGLIC_EXPORT vtkRenderingLICModule.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/8101f6bf35a7c938792095405de2d197/vtkSurfaceLICPainter_SC.cxx.rule;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\vtkSurfaceLICPainter_SC.glsl;E:\D\MITK-superbuild\ep\src\VTK-build\bin\MinSizeRel\vtkEncodeString-6.2.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkSurfaceLICPainter_SC.cxx;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkSurfaceLICPainter_SC.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating vtkSurfaceLICPainter_SC.cxx, vtkSurfaceLICPainter_SC.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+..\..\bin\RelWithDebInfo\vtkEncodeString-6.2.exe E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/LIC/vtkSurfaceLICPainter_SC.cxx E:/D/MITK-superbuild/ep/src/VTK/Rendering/LIC/vtkSurfaceLICPainter_SC.glsl vtkSurfaceLICPainter_SC --build-header VTKRENDERINGLIC_EXPORT vtkRenderingLICModule.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/8101f6bf35a7c938792095405de2d197/vtkSurfaceLICPainter_SC.cxx.rule;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\vtkSurfaceLICPainter_SC.glsl;E:\D\MITK-superbuild\ep\src\VTK-build\bin\RelWithDebInfo\vtkEncodeString-6.2.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkSurfaceLICPainter_SC.cxx;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkSurfaceLICPainter_SC.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\VTK-build\CMakeFiles\8101f6bf35a7c938792095405de2d197\vtkSurfaceLICPainter_CE.cxx.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating vtkSurfaceLICPainter_CE.cxx, vtkSurfaceLICPainter_CE.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+..\..\bin\Debug\vtkEncodeString-6.2.exe E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/LIC/vtkSurfaceLICPainter_CE.cxx E:/D/MITK-superbuild/ep/src/VTK/Rendering/LIC/vtkSurfaceLICPainter_CE.glsl vtkSurfaceLICPainter_CE --build-header VTKRENDERINGLIC_EXPORT vtkRenderingLICModule.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/8101f6bf35a7c938792095405de2d197/vtkSurfaceLICPainter_CE.cxx.rule;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\vtkSurfaceLICPainter_CE.glsl;E:\D\MITK-superbuild\ep\src\VTK-build\bin\Debug\vtkEncodeString-6.2.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkSurfaceLICPainter_CE.cxx;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkSurfaceLICPainter_CE.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating vtkSurfaceLICPainter_CE.cxx, vtkSurfaceLICPainter_CE.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+..\..\bin\Release\vtkEncodeString-6.2.exe E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/LIC/vtkSurfaceLICPainter_CE.cxx E:/D/MITK-superbuild/ep/src/VTK/Rendering/LIC/vtkSurfaceLICPainter_CE.glsl vtkSurfaceLICPainter_CE --build-header VTKRENDERINGLIC_EXPORT vtkRenderingLICModule.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/8101f6bf35a7c938792095405de2d197/vtkSurfaceLICPainter_CE.cxx.rule;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\vtkSurfaceLICPainter_CE.glsl;E:\D\MITK-superbuild\ep\src\VTK-build\bin\Release\vtkEncodeString-6.2.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkSurfaceLICPainter_CE.cxx;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkSurfaceLICPainter_CE.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating vtkSurfaceLICPainter_CE.cxx, vtkSurfaceLICPainter_CE.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+..\..\bin\MinSizeRel\vtkEncodeString-6.2.exe E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/LIC/vtkSurfaceLICPainter_CE.cxx E:/D/MITK-superbuild/ep/src/VTK/Rendering/LIC/vtkSurfaceLICPainter_CE.glsl vtkSurfaceLICPainter_CE --build-header VTKRENDERINGLIC_EXPORT vtkRenderingLICModule.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/8101f6bf35a7c938792095405de2d197/vtkSurfaceLICPainter_CE.cxx.rule;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\vtkSurfaceLICPainter_CE.glsl;E:\D\MITK-superbuild\ep\src\VTK-build\bin\MinSizeRel\vtkEncodeString-6.2.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkSurfaceLICPainter_CE.cxx;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkSurfaceLICPainter_CE.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating vtkSurfaceLICPainter_CE.cxx, vtkSurfaceLICPainter_CE.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+..\..\bin\RelWithDebInfo\vtkEncodeString-6.2.exe E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/LIC/vtkSurfaceLICPainter_CE.cxx E:/D/MITK-superbuild/ep/src/VTK/Rendering/LIC/vtkSurfaceLICPainter_CE.glsl vtkSurfaceLICPainter_CE --build-header VTKRENDERINGLIC_EXPORT vtkRenderingLICModule.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/8101f6bf35a7c938792095405de2d197/vtkSurfaceLICPainter_CE.cxx.rule;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\vtkSurfaceLICPainter_CE.glsl;E:\D\MITK-superbuild\ep\src\VTK-build\bin\RelWithDebInfo\vtkEncodeString-6.2.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkSurfaceLICPainter_CE.cxx;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkSurfaceLICPainter_CE.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\VTK-build\CMakeFiles\8101f6bf35a7c938792095405de2d197\vtkSurfaceLICPainter_DCpy.cxx.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating vtkSurfaceLICPainter_DCpy.cxx, vtkSurfaceLICPainter_DCpy.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+..\..\bin\Debug\vtkEncodeString-6.2.exe E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/LIC/vtkSurfaceLICPainter_DCpy.cxx E:/D/MITK-superbuild/ep/src/VTK/Rendering/LIC/vtkSurfaceLICPainter_DCpy.glsl vtkSurfaceLICPainter_DCpy --build-header VTKRENDERINGLIC_EXPORT vtkRenderingLICModule.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/8101f6bf35a7c938792095405de2d197/vtkSurfaceLICPainter_DCpy.cxx.rule;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\vtkSurfaceLICPainter_DCpy.glsl;E:\D\MITK-superbuild\ep\src\VTK-build\bin\Debug\vtkEncodeString-6.2.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkSurfaceLICPainter_DCpy.cxx;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkSurfaceLICPainter_DCpy.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating vtkSurfaceLICPainter_DCpy.cxx, vtkSurfaceLICPainter_DCpy.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+..\..\bin\Release\vtkEncodeString-6.2.exe E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/LIC/vtkSurfaceLICPainter_DCpy.cxx E:/D/MITK-superbuild/ep/src/VTK/Rendering/LIC/vtkSurfaceLICPainter_DCpy.glsl vtkSurfaceLICPainter_DCpy --build-header VTKRENDERINGLIC_EXPORT vtkRenderingLICModule.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/8101f6bf35a7c938792095405de2d197/vtkSurfaceLICPainter_DCpy.cxx.rule;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\vtkSurfaceLICPainter_DCpy.glsl;E:\D\MITK-superbuild\ep\src\VTK-build\bin\Release\vtkEncodeString-6.2.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkSurfaceLICPainter_DCpy.cxx;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkSurfaceLICPainter_DCpy.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating vtkSurfaceLICPainter_DCpy.cxx, vtkSurfaceLICPainter_DCpy.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+..\..\bin\MinSizeRel\vtkEncodeString-6.2.exe E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/LIC/vtkSurfaceLICPainter_DCpy.cxx E:/D/MITK-superbuild/ep/src/VTK/Rendering/LIC/vtkSurfaceLICPainter_DCpy.glsl vtkSurfaceLICPainter_DCpy --build-header VTKRENDERINGLIC_EXPORT vtkRenderingLICModule.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/8101f6bf35a7c938792095405de2d197/vtkSurfaceLICPainter_DCpy.cxx.rule;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\vtkSurfaceLICPainter_DCpy.glsl;E:\D\MITK-superbuild\ep\src\VTK-build\bin\MinSizeRel\vtkEncodeString-6.2.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkSurfaceLICPainter_DCpy.cxx;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkSurfaceLICPainter_DCpy.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating vtkSurfaceLICPainter_DCpy.cxx, vtkSurfaceLICPainter_DCpy.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+..\..\bin\RelWithDebInfo\vtkEncodeString-6.2.exe E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/LIC/vtkSurfaceLICPainter_DCpy.cxx E:/D/MITK-superbuild/ep/src/VTK/Rendering/LIC/vtkSurfaceLICPainter_DCpy.glsl vtkSurfaceLICPainter_DCpy --build-header VTKRENDERINGLIC_EXPORT vtkRenderingLICModule.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/8101f6bf35a7c938792095405de2d197/vtkSurfaceLICPainter_DCpy.cxx.rule;E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\vtkSurfaceLICPainter_DCpy.glsl;E:\D\MITK-superbuild\ep\src\VTK-build\bin\RelWithDebInfo\vtkEncodeString-6.2.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkSurfaceLICPainter_DCpy.cxx;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkSurfaceLICPainter_DCpy.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\vtkImageDataLIC2D.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\vtkLineIntegralConvolution2D.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\vtkPixelTransfer.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\vtkStructuredGridLIC2D.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\vtkSurfaceLICComposite.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\vtkSurfaceLICDefaultPainter.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\vtkSurfaceLICPainter.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\vtkTextureIO.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkRenderingLICModule.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkRenderingLICInstantiator.h" />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\vtkImageDataLIC2D.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\vtkLineIntegralConvolution2D.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\vtkPixelTransfer.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\vtkStructuredGridLIC2D.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\vtkSurfaceLICComposite.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\vtkSurfaceLICDefaultPainter.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\vtkSurfaceLICPainter.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\LIC\vtkTextureIO.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkLineIntegralConvolution2D_VT.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkLineIntegralConvolution2D_LIC0.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkLineIntegralConvolution2D_LICI.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkLineIntegralConvolution2D_LICN.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkLineIntegralConvolution2D_EE.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkLineIntegralConvolution2D_CE.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkLineIntegralConvolution2D_AAH.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkLineIntegralConvolution2D_AAV.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkStructuredGridLIC2D_fs.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkSurfaceLICPainter_GeomVs.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkSurfaceLICPainter_GeomFs.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkSurfaceLICPainter_SC.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkSurfaceLICPainter_CE.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkSurfaceLICPainter_DCpy.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\LIC\vtkRenderingLICInstantiator.cxx"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/VTK-build/ZERO_CHECK.vcxproj">
+      <Project>96A894C7-FD6E-37E5-A6D0-C197A99428A9</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/VTK-build/Common/Color/vtkCommonColor.vcxproj">
+      <Project>7F473C1F-21AE-3426-A9FD-4A031CA0071C</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/VTK-build/Common/Core/vtkCommonCore.vcxproj">
+      <Project>B66996CB-EA60-342E-A7C9-76CE7914E703</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/VTK-build/Common/DataModel/vtkCommonDataModel.vcxproj">
+      <Project>3D169276-6CF3-387D-A2F9-5C6C5EB81D0E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/VTK-build/Common/ExecutionModel/vtkCommonExecutionModel.vcxproj">
+      <Project>1974B6FB-419F-3561-A483-9BDEA89A5F95</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/VTK-build/Common/Math/vtkCommonMath.vcxproj">
+      <Project>5BDFDB3A-7EDC-3059-BA47-BCC0C8E23A40</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/VTK-build/Common/Misc/vtkCommonMisc.vcxproj">
+      <Project>FB40CC46-2F6E-35BC-9362-9AE3167519CB</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/VTK-build/Common/System/vtkCommonSystem.vcxproj">
+      <Project>6BFAAE6A-B287-3369-86B0-2863E7CD67C2</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/VTK-build/Common/Transforms/vtkCommonTransforms.vcxproj">
+      <Project>89A42D44-095B-36F7-9E88-096ABA0706FB</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/VTK-build/Utilities/EncodeString/vtkEncodeString.vcxproj">
+      <Project>3F166BFF-2F5D-362D-B30F-9822E5FBC7E7</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/VTK-build/IO/Core/vtkIOCore.vcxproj">
+      <Project>D739AAF6-9C88-3C76-9150-2049C197FE40</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/VTK-build/IO/Geometry/vtkIOGeometry.vcxproj">
+      <Project>FE219997-5C32-3780-913C-FA15EC51D396</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/VTK-build/IO/Legacy/vtkIOLegacy.vcxproj">
+      <Project>ACA8C1BF-D33B-31E1-87FF-193ED0A657C2</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/VTK-build/IO/XML/vtkIOXML.vcxproj">
+      <Project>AC990CB6-785A-3796-82CA-8E726FE276EE</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/VTK-build/IO/XMLParser/vtkIOXMLParser.vcxproj">
+      <Project>085A78EB-5A54-3EA5-AB89-EFF6C186928E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/VTK-build/Imaging/Core/vtkImagingCore.vcxproj">
+      <Project>6C0A9A38-AFBE-35F4-BDEE-A230EC1FAE9B</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/VTK-build/Imaging/Sources/vtkImagingSources.vcxproj">
+      <Project>D2B26C7D-8325-3C18-9838-A690CA2C900E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/Core/vtkRenderingCore.vcxproj">
+      <Project>F5DB8851-3E8F-31E9-979B-BC4EFB6B7CA6</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/OpenGL/vtkRenderingOpenGL.vcxproj">
+      <Project>B371EC4B-5308-32BA-A4DE-B40BCA7250DD</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/VTK-build/Utilities/KWSys/vtksys/vtksys.vcxproj">
+      <Project>CE52E7D4-3A10-3D59-97AD-F5358A6AC285</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

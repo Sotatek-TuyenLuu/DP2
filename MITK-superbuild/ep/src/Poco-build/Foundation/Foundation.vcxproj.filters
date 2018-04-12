@@ -1,0 +1,2022 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\AbstractObserver.cpp">
+      <Filter>Notifications\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\ActiveDispatcher.cpp">
+      <Filter>Threading\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\ArchiveStrategy.cpp">
+      <Filter>Logging\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Ascii.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\ASCIIEncoding.cpp">
+      <Filter>Text\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\AsyncChannel.cpp">
+      <Filter>Logging\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\AtomicCounter.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Base32Decoder.cpp">
+      <Filter>Streams\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Base32Encoder.cpp">
+      <Filter>Streams\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Base64Decoder.cpp">
+      <Filter>Streams\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Base64Encoder.cpp">
+      <Filter>Streams\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\BinaryReader.cpp">
+      <Filter>Streams\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\BinaryWriter.cpp">
+      <Filter>Streams\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Bugcheck.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\ByteOrder.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Channel.cpp">
+      <Filter>Logging\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Checksum.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Clock.cpp">
+      <Filter>DateTime\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Condition.cpp">
+      <Filter>Threading\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Configurable.cpp">
+      <Filter>Logging\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\ConsoleChannel.cpp">
+      <Filter>Logging\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\CountingStream.cpp">
+      <Filter>Streams\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\DateTime.cpp">
+      <Filter>DateTime\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\DateTimeFormat.cpp">
+      <Filter>DateTime\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\DateTimeFormatter.cpp">
+      <Filter>DateTime\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\DateTimeParser.cpp">
+      <Filter>DateTime\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Debugger.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\DeflatingStream.cpp">
+      <Filter>Streams\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\DigestEngine.cpp">
+      <Filter>Crypt\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\DigestStream.cpp">
+      <Filter>Crypt\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\DirectoryIterator.cpp">
+      <Filter>Filesystem\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\DirectoryIteratorStrategy.cpp">
+      <Filter>Filesystem\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\DirectoryWatcher.cpp">
+      <Filter>Filesystem\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Environment.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Error.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\ErrorHandler.cpp">
+      <Filter>Threading\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Event.cpp">
+      <Filter>Threading\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\EventArgs.cpp">
+      <Filter>Events\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\EventLogChannel.cpp">
+      <Filter>Logging\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Exception.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\FIFOBufferStream.cpp">
+      <Filter>Streams\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\File.cpp">
+      <Filter>Filesystem\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\FileChannel.cpp">
+      <Filter>Logging\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\FileStream.cpp">
+      <Filter>Streams\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\FileStreamFactory.cpp">
+      <Filter>URI\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Format.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Formatter.cpp">
+      <Filter>Logging\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\FormattingChannel.cpp">
+      <Filter>Logging\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\FPEnvironment.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Glob.cpp">
+      <Filter>Filesystem\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Hash.cpp">
+      <Filter>Hashing\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\HashStatistic.cpp">
+      <Filter>Hashing\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\HexBinaryDecoder.cpp">
+      <Filter>Streams\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\HexBinaryEncoder.cpp">
+      <Filter>Streams\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\InflatingStream.cpp">
+      <Filter>Streams\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Latin1Encoding.cpp">
+      <Filter>Text\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Latin2Encoding.cpp">
+      <Filter>Text\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Latin9Encoding.cpp">
+      <Filter>Text\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\LineEndingConverter.cpp">
+      <Filter>Streams\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\LocalDateTime.cpp">
+      <Filter>DateTime\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\LogFile.cpp">
+      <Filter>Logging\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Logger.cpp">
+      <Filter>Logging\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\LoggingFactory.cpp">
+      <Filter>Logging\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\LoggingRegistry.cpp">
+      <Filter>Logging\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\LogStream.cpp">
+      <Filter>Logging\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Manifest.cpp">
+      <Filter>SharedLibrary\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\MD4Engine.cpp">
+      <Filter>Crypt\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\MD5Engine.cpp">
+      <Filter>Crypt\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\MemoryPool.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\MemoryStream.cpp">
+      <Filter>Streams\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Message.cpp">
+      <Filter>Logging\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Mutex.cpp">
+      <Filter>Threading\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\NamedEvent.cpp">
+      <Filter>Processes\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\NamedMutex.cpp">
+      <Filter>Processes\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\NestedDiagnosticContext.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Notification.cpp">
+      <Filter>Notifications\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\NotificationCenter.cpp">
+      <Filter>Notifications\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\NotificationQueue.cpp">
+      <Filter>Notifications\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\NullChannel.cpp">
+      <Filter>Logging\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\NullStream.cpp">
+      <Filter>Streams\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\NumberFormatter.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\NumberParser.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\NumericString.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Path.cpp">
+      <Filter>Filesystem\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\PatternFormatter.cpp">
+      <Filter>Logging\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Pipe.cpp">
+      <Filter>Processes\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\PipeImpl.cpp">
+      <Filter>Processes\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\PipeStream.cpp">
+      <Filter>Processes\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\PriorityNotificationQueue.cpp">
+      <Filter>Notifications\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Process.cpp">
+      <Filter>Processes\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\PurgeStrategy.cpp">
+      <Filter>Logging\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Random.cpp">
+      <Filter>Crypt\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\RandomStream.cpp">
+      <Filter>Crypt\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\RefCountedObject.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\RegularExpression.cpp">
+      <Filter>RegExp\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\RotateStrategy.cpp">
+      <Filter>Logging\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Runnable.cpp">
+      <Filter>Threading\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\RWLock.cpp">
+      <Filter>Threading\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Semaphore.cpp">
+      <Filter>Threading\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\SHA1Engine.cpp">
+      <Filter>Crypt\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\SharedLibrary.cpp">
+      <Filter>SharedLibrary\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\SharedMemory.cpp">
+      <Filter>Processes\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\SignalHandler.cpp">
+      <Filter>Threading\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\SimpleFileChannel.cpp">
+      <Filter>Logging\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\SortedDirectoryIterator.cpp">
+      <Filter>Filesystem\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\SplitterChannel.cpp">
+      <Filter>Logging\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Stopwatch.cpp">
+      <Filter>DateTime\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\StreamChannel.cpp">
+      <Filter>Logging\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\StreamConverter.cpp">
+      <Filter>Text\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\StreamCopier.cpp">
+      <Filter>Streams\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\StreamTokenizer.cpp">
+      <Filter>Streams\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\String.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\StringTokenizer.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\SynchronizedObject.cpp">
+      <Filter>Threading\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Task.cpp">
+      <Filter>Tasks\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\TaskManager.cpp">
+      <Filter>Tasks\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\TaskNotification.cpp">
+      <Filter>Tasks\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\TeeStream.cpp">
+      <Filter>Streams\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\TemporaryFile.cpp">
+      <Filter>Filesystem\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\TextBufferIterator.cpp">
+      <Filter>Text\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\TextConverter.cpp">
+      <Filter>Text\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\TextEncoding.cpp">
+      <Filter>Text\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\TextIterator.cpp">
+      <Filter>Text\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Thread.cpp">
+      <Filter>Threading\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\ThreadLocal.cpp">
+      <Filter>Threading\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\ThreadPool.cpp">
+      <Filter>Threading\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\ThreadTarget.cpp">
+      <Filter>Threading\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\TimedNotificationQueue.cpp">
+      <Filter>Notifications\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Timer.cpp">
+      <Filter>Threading\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Timespan.cpp">
+      <Filter>DateTime\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Timestamp.cpp">
+      <Filter>DateTime\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Timezone.cpp">
+      <Filter>DateTime\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Token.cpp">
+      <Filter>Streams\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Unicode.cpp">
+      <Filter>Text\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\UnicodeConverter.cpp">
+      <Filter>Text\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\URI.cpp">
+      <Filter>URI\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\URIStreamFactory.cpp">
+      <Filter>URI\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\URIStreamOpener.cpp">
+      <Filter>URI\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\UTF16Encoding.cpp">
+      <Filter>Text\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\UTF32Encoding.cpp">
+      <Filter>Text\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\UTF8Encoding.cpp">
+      <Filter>Text\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\UTF8String.cpp">
+      <Filter>Text\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\UUID.cpp">
+      <Filter>UUID\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\UUIDGenerator.cpp">
+      <Filter>UUID\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Var.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\VarHolder.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\VarIterator.cpp">
+      <Filter>Dynamic\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Void.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Windows1250Encoding.cpp">
+      <Filter>Text\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Windows1251Encoding.cpp">
+      <Filter>Text\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Windows1252Encoding.cpp">
+      <Filter>Text\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\WindowsConsoleChannel.cpp">
+      <Filter>Logging\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\pcre_config.c">
+      <Filter>pcre\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\pcre_byte_order.c">
+      <Filter>pcre\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\pcre_chartables.c">
+      <Filter>pcre\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\pcre_compile.c">
+      <Filter>pcre\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\pcre_exec.c">
+      <Filter>pcre\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\pcre_fullinfo.c">
+      <Filter>pcre\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\pcre_globals.c">
+      <Filter>pcre\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\pcre_maketables.c">
+      <Filter>pcre\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\pcre_newline.c">
+      <Filter>pcre\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\pcre_ord2utf8.c">
+      <Filter>pcre\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\pcre_study.c">
+      <Filter>pcre\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\pcre_tables.c">
+      <Filter>pcre\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\pcre_dfa_exec.c">
+      <Filter>pcre\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\pcre_get.c">
+      <Filter>pcre\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\pcre_jit_compile.c">
+      <Filter>pcre\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\pcre_refcount.c">
+      <Filter>pcre\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\pcre_string_utils.c">
+      <Filter>pcre\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\pcre_version.c">
+      <Filter>pcre\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\pcre_ucd.c">
+      <Filter>pcre\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\pcre_valid_utf8.c">
+      <Filter>pcre\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\pcre_xclass.c">
+      <Filter>pcre\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\adler32.c">
+      <Filter>zlib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\compress.c">
+      <Filter>zlib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\crc32.c">
+      <Filter>zlib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\deflate.c">
+      <Filter>zlib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\infback.c">
+      <Filter>zlib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\inffast.c">
+      <Filter>zlib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\inflate.c">
+      <Filter>zlib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\inftrees.c">
+      <Filter>zlib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\trees.c">
+      <Filter>zlib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\zutil.c">
+      <Filter>zlib\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\DirectoryIterator_UNIX.cpp">
+      <Filter>Filesystem\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\DirectoryIterator_VMS.cpp">
+      <Filter>Filesystem\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\DirectoryIterator_WIN32.cpp">
+      <Filter>Filesystem\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\DirectoryIterator_WIN32U.cpp">
+      <Filter>Filesystem\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Environment_UNIX.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Environment_VMS.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Environment_VX.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Environment_WIN32.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Environment_WIN32U.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Environment_WINCE.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Event_POSIX.cpp">
+      <Filter>Threading\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Event_VX.cpp">
+      <Filter>Threading\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Event_WIN32.cpp">
+      <Filter>Threading\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\FileStream_POSIX.cpp">
+      <Filter>Streams\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\FileStream_WIN32.cpp">
+      <Filter>Streams\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\File_UNIX.cpp">
+      <Filter>Filesystem\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\File_VMS.cpp">
+      <Filter>Filesystem\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\File_VX.cpp">
+      <Filter>Filesystem\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\File_WIN32.cpp">
+      <Filter>Filesystem\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\File_WIN32U.cpp">
+      <Filter>Filesystem\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\File_WINCE.cpp">
+      <Filter>Filesystem\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\FPEnvironment_C99.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\FPEnvironment_DEC.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\FPEnvironment_DUMMY.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\FPEnvironment_SUN.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\FPEnvironment_WIN32.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\LogFile_STD.cpp">
+      <Filter>Logging\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\LogFile_VMS.cpp">
+      <Filter>Logging\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\LogFile_WIN32.cpp">
+      <Filter>Logging\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\LogFile_WIN32U.cpp">
+      <Filter>Logging\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Mutex_POSIX.cpp">
+      <Filter>Threading\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Mutex_VX.cpp">
+      <Filter>Threading\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Mutex_WIN32.cpp">
+      <Filter>Threading\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Mutex_WINCE.cpp">
+      <Filter>Threading\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\NamedEvent_Android.cpp">
+      <Filter>Processes\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\NamedEvent_UNIX.cpp">
+      <Filter>Processes\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\NamedEvent_VMS.cpp">
+      <Filter>Processes\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\NamedEvent_WIN32.cpp">
+      <Filter>Processes\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\NamedEvent_WIN32U.cpp">
+      <Filter>Processes\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\NamedMutex_Android.cpp">
+      <Filter>Processes\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\NamedMutex_UNIX.cpp">
+      <Filter>Processes\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\NamedMutex_VMS.cpp">
+      <Filter>Processes\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\NamedMutex_WIN32.cpp">
+      <Filter>Processes\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\NamedMutex_WIN32U.cpp">
+      <Filter>Processes\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\OpcomChannel.cpp">
+      <Filter>Logging\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Path_UNIX.cpp">
+      <Filter>Filesystem\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Path_VMS.cpp">
+      <Filter>Filesystem\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Path_WIN32.cpp">
+      <Filter>Filesystem\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Path_WIN32U.cpp">
+      <Filter>Filesystem\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Path_WINCE.cpp">
+      <Filter>Filesystem\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\PipeImpl_DUMMY.cpp">
+      <Filter>Processes\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\PipeImpl_POSIX.cpp">
+      <Filter>Processes\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\PipeImpl_WIN32.cpp">
+      <Filter>Processes\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Process_UNIX.cpp">
+      <Filter>Processes\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Process_VMS.cpp">
+      <Filter>Processes\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Process_VX.cpp">
+      <Filter>Processes\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Process_WIN32.cpp">
+      <Filter>Processes\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Process_WIN32U.cpp">
+      <Filter>Processes\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Process_WINCE.cpp">
+      <Filter>Processes\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\RWLock_Android.cpp">
+      <Filter>Threading\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\RWLock_POSIX.cpp">
+      <Filter>Threading\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\RWLock_VX.cpp">
+      <Filter>Threading\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\RWLock_WIN32.cpp">
+      <Filter>Threading\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\RWLock_WINCE.cpp">
+      <Filter>Threading\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Semaphore_POSIX.cpp">
+      <Filter>Threading\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Semaphore_VX.cpp">
+      <Filter>Threading\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Semaphore_WIN32.cpp">
+      <Filter>Threading\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\SharedLibrary_HPUX.cpp">
+      <Filter>SharedLibrary\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\SharedLibrary_UNIX.cpp">
+      <Filter>SharedLibrary\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\SharedLibrary_VMS.cpp">
+      <Filter>SharedLibrary\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\SharedLibrary_VX.cpp">
+      <Filter>SharedLibrary\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\SharedLibrary_WIN32.cpp">
+      <Filter>SharedLibrary\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\SharedLibrary_WIN32U.cpp">
+      <Filter>SharedLibrary\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\SharedMemory_DUMMY.cpp">
+      <Filter>Processes\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\SharedMemory_POSIX.cpp">
+      <Filter>Processes\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\SharedMemory_WIN32.cpp">
+      <Filter>Processes\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\SyslogChannel.cpp">
+      <Filter>Logging\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Thread_POSIX.cpp">
+      <Filter>Threading\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Thread_VX.cpp">
+      <Filter>Threading\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Thread_WIN32.cpp">
+      <Filter>Threading\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Thread_WINCE.cpp">
+      <Filter>Threading\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Timezone_UNIX.cpp">
+      <Filter>DateTime\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Timezone_VX.cpp">
+      <Filter>DateTime\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Timezone_WIN32.cpp">
+      <Filter>DateTime\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\Timezone_WINCE.cpp">
+      <Filter>DateTime\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\AbstractCache.h">
+      <Filter>Cache\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\AbstractDelegate.h">
+      <Filter>Events\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\AbstractEvent.h">
+      <Filter>Events\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\AbstractObserver.h">
+      <Filter>Notifications\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\AbstractPriorityDelegate.h">
+      <Filter>Events\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\AbstractStrategy.h">
+      <Filter>Cache\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\AccessExpirationDecorator.h">
+      <Filter>Cache\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\AccessExpireCache.h">
+      <Filter>Cache\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\AccessExpireLRUCache.h">
+      <Filter>Cache\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\AccessExpireStrategy.h">
+      <Filter>Cache\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\ActiveDispatcher.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\ActiveMethod.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\ActiveResult.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\ActiveRunnable.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\ActiveStarter.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Activity.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Alignment.h">
+      <Filter>Dynamic\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Any.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\ArchiveStrategy.h">
+      <Filter>Logging\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Array.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Ascii.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\ASCIIEncoding.h">
+      <Filter>Text\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\AsyncChannel.h">
+      <Filter>Logging\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\AtomicCounter.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\AutoPtr.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\AutoReleasePool.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Base32Decoder.h">
+      <Filter>Streams\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Base32Encoder.h">
+      <Filter>Streams\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Base64Decoder.h">
+      <Filter>Streams\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Base64Encoder.h">
+      <Filter>Streams\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\BasicEvent.h">
+      <Filter>Events\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\BinaryReader.h">
+      <Filter>Streams\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\BinaryWriter.h">
+      <Filter>Streams\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Buffer.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\BufferAllocator.h">
+      <Filter>Streams\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\BufferedBidirectionalStreamBuf.h">
+      <Filter>Streams\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\BufferedStreamBuf.h">
+      <Filter>Streams\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Bugcheck.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\ByteOrder.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Channel.h">
+      <Filter>Logging\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Checksum.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\ClassLibrary.h">
+      <Filter>SharedLibrary\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\ClassLoader.h">
+      <Filter>SharedLibrary\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Clock.h">
+      <Filter>DateTime\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Condition.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Config.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Configurable.h">
+      <Filter>Logging\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\ConsoleChannel.h">
+      <Filter>Logging\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\CountingStream.h">
+      <Filter>Streams\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\DateTime.h">
+      <Filter>DateTime\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\DateTimeFormat.h">
+      <Filter>DateTime\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\DateTimeFormatter.h">
+      <Filter>DateTime\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\DateTimeParser.h">
+      <Filter>DateTime\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Debugger.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\DefaultStrategy.h">
+      <Filter>Events\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\DeflatingStream.h">
+      <Filter>Streams\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Delegate.h">
+      <Filter>Events\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\DigestEngine.h">
+      <Filter>Crypt\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\DigestStream.h">
+      <Filter>Crypt\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\DirectoryIterator.h">
+      <Filter>Filesystem\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\DirectoryIteratorStrategy.h">
+      <Filter>Filesystem\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\DirectoryIterator_UNIX.h">
+      <Filter>Filesystem\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\DirectoryIterator_VMS.h">
+      <Filter>Filesystem\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\DirectoryIterator_WIN32.h">
+      <Filter>Filesystem\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\DirectoryIterator_WIN32U.h">
+      <Filter>Filesystem\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\DirectoryWatcher.h">
+      <Filter>Filesystem\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Dynamic\Pair.h">
+      <Filter>Dynamic\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Dynamic\Struct.h">
+      <Filter>Dynamic\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Dynamic\Var.h">
+      <Filter>Dynamic\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Dynamic\VarHolder.h">
+      <Filter>Dynamic\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Dynamic\VarIterator.h">
+      <Filter>Dynamic\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\DynamicAny.h">
+      <Filter>Dynamic\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\DynamicAnyHolder.h">
+      <Filter>Dynamic\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\DynamicFactory.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\DynamicStruct.h">
+      <Filter>Dynamic\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Environment.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Environment_UNIX.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Environment_VMS.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Environment_VX.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Environment_WIN32.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Environment_WIN32U.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Environment_WINCE.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Error.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\ErrorHandler.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Event.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\EventArgs.h">
+      <Filter>Events\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\EventLogChannel.h">
+      <Filter>Logging\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Event_POSIX.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Event_VX.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Event_WIN32.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Exception.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\ExpirationDecorator.h">
+      <Filter>Events\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Expire.h">
+      <Filter>Events\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\ExpireCache.h">
+      <Filter>Cache\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\ExpireLRUCache.h">
+      <Filter>Cache\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\ExpireStrategy.h">
+      <Filter>Cache\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\FIFOBuffer.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\FIFOBufferStream.h">
+      <Filter>Streams\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\FIFOEvent.h">
+      <Filter>Events\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\FIFOStrategy.h">
+      <Filter>Events\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\File.h">
+      <Filter>Filesystem\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\FileChannel.h">
+      <Filter>Logging\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\FileStream.h">
+      <Filter>Streams\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\FileStreamFactory.h">
+      <Filter>URI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\FileStream_POSIX.h">
+      <Filter>Streams\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\FileStream_WIN32.h">
+      <Filter>Streams\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\File_UNIX.h">
+      <Filter>Filesystem\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\File_VMS.h">
+      <Filter>Filesystem\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\File_VX.h">
+      <Filter>Filesystem\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\File_WIN32.h">
+      <Filter>Filesystem\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\File_WIN32U.h">
+      <Filter>Filesystem\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\File_WINCE.h">
+      <Filter>Filesystem\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Format.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Formatter.h">
+      <Filter>Logging\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\FormattingChannel.h">
+      <Filter>Logging\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Foundation.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\FPEnvironment.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\FPEnvironment_C99.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\FPEnvironment_DEC.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\FPEnvironment_DUMMY.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\FPEnvironment_SUN.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\FPEnvironment_WIN32.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\FunctionDelegate.h">
+      <Filter>Events\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\FunctionPriorityDelegate.h">
+      <Filter>Events\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Glob.h">
+      <Filter>Filesystem\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Hash.h">
+      <Filter>Hashing\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\HashFunction.h">
+      <Filter>Hashing\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\HashMap.h">
+      <Filter>Hashing\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\HashSet.h">
+      <Filter>Hashing\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\HashStatistic.h">
+      <Filter>Hashing\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\HashTable.h">
+      <Filter>Hashing\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\HexBinaryDecoder.h">
+      <Filter>Streams\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\HexBinaryEncoder.h">
+      <Filter>Streams\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\HMACEngine.h">
+      <Filter>Crypt\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\InflatingStream.h">
+      <Filter>Streams\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Instantiator.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\KeyValueArgs.h">
+      <Filter>Cache\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Latin1Encoding.h">
+      <Filter>Text\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Latin2Encoding.h">
+      <Filter>Text\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Latin9Encoding.h">
+      <Filter>Text\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\LinearHashTable.h">
+      <Filter>Hashing\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\LineEndingConverter.h">
+      <Filter>Streams\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\ListMap.h">
+      <Filter>Hashing\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\LocalDateTime.h">
+      <Filter>DateTime\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\LogFile.h">
+      <Filter>Logging\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\LogFile_STD.h">
+      <Filter>Logging\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\LogFile_VMS.h">
+      <Filter>Logging\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\LogFile_WIN32.h">
+      <Filter>Logging\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\LogFile_WIN32U.h">
+      <Filter>Logging\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Logger.h">
+      <Filter>Logging\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\LoggingFactory.h">
+      <Filter>Logging\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\LoggingRegistry.h">
+      <Filter>Logging\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\LogStream.h">
+      <Filter>Logging\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\LRUCache.h">
+      <Filter>Cache\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\LRUStrategy.h">
+      <Filter>Cache\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Manifest.h">
+      <Filter>SharedLibrary\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\MD4Engine.h">
+      <Filter>Crypt\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\MD5Engine.h">
+      <Filter>Crypt\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\MemoryPool.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\MemoryStream.h">
+      <Filter>Streams\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Message.h">
+      <Filter>Logging\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\MetaObject.h">
+      <Filter>SharedLibrary\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\MetaProgramming.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Mutex.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Mutex_POSIX.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Mutex_VX.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Mutex_WIN32.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Mutex_WINCE.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\NamedEvent.h">
+      <Filter>Processes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\NamedEvent_Android.h">
+      <Filter>Processes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\NamedEvent_UNIX.h">
+      <Filter>Processes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\NamedEvent_VMS.h">
+      <Filter>Processes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\NamedEvent_WIN32.h">
+      <Filter>Processes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\NamedEvent_WIN32U.h">
+      <Filter>Processes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\NamedMutex.h">
+      <Filter>Processes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\NamedMutex_Android.h">
+      <Filter>Processes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\NamedMutex_UNIX.h">
+      <Filter>Processes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\NamedMutex_VMS.h">
+      <Filter>Processes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\NamedMutex_WIN32.h">
+      <Filter>Processes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\NamedMutex_WIN32U.h">
+      <Filter>Processes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\NamedTuple.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\NestedDiagnosticContext.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\NObserver.h">
+      <Filter>Notifications\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Notification.h">
+      <Filter>Notifications\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\NotificationCenter.h">
+      <Filter>Notifications\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\NotificationQueue.h">
+      <Filter>Notifications\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\NotificationStrategy.h">
+      <Filter>Events\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Nullable.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\NullChannel.h">
+      <Filter>Logging\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\NullStream.h">
+      <Filter>Streams\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\NumberFormatter.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\NumberParser.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\NumericString.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\ObjectPool.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Observer.h">
+      <Filter>Notifications\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\OpcomChannel.h">
+      <Filter>Logging\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Optional.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Path.h">
+      <Filter>Filesystem\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Path_UNIX.h">
+      <Filter>Filesystem\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Path_VMS.h">
+      <Filter>Filesystem\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Path_WIN32.h">
+      <Filter>Filesystem\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Path_WIN32U.h">
+      <Filter>Filesystem\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Path_WINCE.h">
+      <Filter>Filesystem\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\PatternFormatter.h">
+      <Filter>Logging\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\PBKDF2Engine.h">
+      <Filter>Crypt\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Pipe.h">
+      <Filter>Processes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\PipeImpl.h">
+      <Filter>Processes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\PipeImpl_DUMMY.h">
+      <Filter>Processes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\PipeImpl_POSIX.h">
+      <Filter>Processes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\PipeImpl_WIN32.h">
+      <Filter>Processes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\PipeStream.h">
+      <Filter>Processes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Platform.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Platform_POSIX.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Platform_VMS.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Platform_VX.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Platform_WIN32.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Poco.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\PriorityDelegate.h">
+      <Filter>Events\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\PriorityEvent.h">
+      <Filter>Events\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\PriorityExpire.h">
+      <Filter>Events\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\PriorityNotificationQueue.h">
+      <Filter>Notifications\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\PriorityStrategy.h">
+      <Filter>Events\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Process.h">
+      <Filter>Processes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Process_UNIX.h">
+      <Filter>Processes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Process_VMS.h">
+      <Filter>Processes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Process_VX.h">
+      <Filter>Processes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Process_WIN32.h">
+      <Filter>Processes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Process_WIN32U.h">
+      <Filter>Processes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Process_WINCE.h">
+      <Filter>Processes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\PurgeStrategy.h">
+      <Filter>Logging\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Random.h">
+      <Filter>Crypt\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\RandomStream.h">
+      <Filter>Crypt\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\RecursiveDirectoryIterator.h">
+      <Filter>Filesystem\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\RecursiveDirectoryIteratorImpl.h">
+      <Filter>Filesystem\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\RefCountedObject.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\RegularExpression.h">
+      <Filter>RegExp\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\RotateStrategy.h">
+      <Filter>Logging\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Runnable.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\RunnableAdapter.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\RWLock.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\RWLock_Android.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\RWLock_POSIX.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\RWLock_VX.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\RWLock_WIN32.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\RWLock_WINCE.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\ScopedLock.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\ScopedUnlock.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Semaphore.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Semaphore_POSIX.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Semaphore_VX.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Semaphore_WIN32.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\SHA1Engine.h">
+      <Filter>Crypt\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\SharedLibrary.h">
+      <Filter>SharedLibrary\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\SharedLibrary_HPUX.h">
+      <Filter>SharedLibrary\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\SharedLibrary_UNIX.h">
+      <Filter>SharedLibrary\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\SharedLibrary_VMS.h">
+      <Filter>SharedLibrary\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\SharedLibrary_VX.h">
+      <Filter>SharedLibrary\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\SharedLibrary_WIN32.h">
+      <Filter>SharedLibrary\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\SharedLibrary_WIN32U.h">
+      <Filter>SharedLibrary\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\SharedMemory.h">
+      <Filter>Processes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\SharedMemory_DUMMY.h">
+      <Filter>Processes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\SharedMemory_POSIX.h">
+      <Filter>Processes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\SharedMemory_WIN32.h">
+      <Filter>Processes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\SharedPtr.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\SignalHandler.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\SimpleFileChannel.h">
+      <Filter>Logging\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\SimpleHashTable.h">
+      <Filter>Hashing\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\SingletonHolder.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\SortedDirectoryIterator.h">
+      <Filter>Filesystem\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\SplitterChannel.h">
+      <Filter>Logging\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Stopwatch.h">
+      <Filter>DateTime\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\StrategyCollection.h">
+      <Filter>Cache\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\StreamChannel.h">
+      <Filter>Logging\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\StreamConverter.h">
+      <Filter>Text\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\StreamCopier.h">
+      <Filter>Streams\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\StreamTokenizer.h">
+      <Filter>Streams\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\StreamUtil.h">
+      <Filter>Streams\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\String.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\StringTokenizer.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\SynchronizedObject.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\SyslogChannel.h">
+      <Filter>Logging\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Task.h">
+      <Filter>Tasks\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\TaskManager.h">
+      <Filter>Tasks\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\TaskNotification.h">
+      <Filter>Tasks\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\TeeStream.h">
+      <Filter>Streams\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\TemporaryFile.h">
+      <Filter>Filesystem\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\TextBufferIterator.h">
+      <Filter>Text\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\TextConverter.h">
+      <Filter>Text\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\TextEncoding.h">
+      <Filter>Text\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\TextIterator.h">
+      <Filter>Text\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Thread.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\ThreadLocal.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\ThreadPool.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\ThreadTarget.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Thread_POSIX.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Thread_VX.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Thread_WIN32.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Thread_WINCE.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\TimedNotificationQueue.h">
+      <Filter>Notifications\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Timer.h">
+      <Filter>Threading\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Timespan.h">
+      <Filter>DateTime\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Timestamp.h">
+      <Filter>DateTime\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Timezone.h">
+      <Filter>DateTime\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Token.h">
+      <Filter>Streams\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Tuple.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\TypeList.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Types.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\UnbufferedStreamBuf.h">
+      <Filter>Streams\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Unicode.h">
+      <Filter>Text\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\UnicodeConverter.h">
+      <Filter>Text\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\UniqueAccessExpireCache.h">
+      <Filter>Cache\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\UniqueAccessExpireLRUCache.h">
+      <Filter>Cache\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\UniqueAccessExpireStrategy.h">
+      <Filter>Cache\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\UniqueExpireCache.h">
+      <Filter>Cache\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\UniqueExpireLRUCache.h">
+      <Filter>Cache\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\UniqueExpireStrategy.h">
+      <Filter>Cache\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\UnWindows.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\URI.h">
+      <Filter>URI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\URIStreamFactory.h">
+      <Filter>URI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\URIStreamOpener.h">
+      <Filter>URI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\UTF16Encoding.h">
+      <Filter>Text\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\UTF32Encoding.h">
+      <Filter>Text\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\UTF8Encoding.h">
+      <Filter>Text\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\UTF8String.h">
+      <Filter>Text\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\UTFString.h">
+      <Filter>Text\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\UUID.h">
+      <Filter>UUID\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\UUIDGenerator.h">
+      <Filter>UUID\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\ValidArgs.h">
+      <Filter>Cache\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Version.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Void.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Windows1250Encoding.h">
+      <Filter>Text\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Windows1251Encoding.h">
+      <Filter>Text\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\Windows1252Encoding.h">
+      <Filter>Text\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\WindowsConsoleChannel.h">
+      <Filter>Logging\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\zconf.h">
+      <Filter>zlib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\include\Poco\zlib.h">
+      <Filter>zlib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco-build\Foundation\pocomsg.h">
+      <Filter>Logging\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\src\pocomsg.mc">
+      <Filter>Logging\Message Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\Poco\Foundation\CMakeLists.txt" />
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\Poco-build\CMakeFiles\013f4c6fb96dc9f92c36111b575e417e\pocomsg.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="pcre\Source Files">
+      <UniqueIdentifier>{8FF8B993-035F-30A5-9B3A-D600EA5976D7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cache\Header Files">
+      <UniqueIdentifier>{C47DB287-D0AA-3318-800D-943DD07F66C9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{14F095B4-D6C3-399D-8135-F94B6190E15C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Notifications">
+      <UniqueIdentifier>{46E53E40-EAA2-3296-94FD-DFAE6096BE19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Threading">
+      <UniqueIdentifier>{361E4720-4E24-34B9-A562-C49E76BAC95C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logging">
+      <UniqueIdentifier>{B8E7964C-8861-3E31-8B7E-278671F697F6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{1CCC6DE2-FFBB-365F-BCA9-EEB562D81B10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Text">
+      <UniqueIdentifier>{D9E3BC3A-C575-3C17-B506-0CB76894A087}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Streams">
+      <UniqueIdentifier>{ED7A8561-BD51-3B97-BC9B-810EAD30F7BB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DateTime">
+      <UniqueIdentifier>{65C9E3B2-1116-33A8-B99F-7A16865A2499}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Crypt">
+      <UniqueIdentifier>{DFA68035-F2D2-36DA-8FC5-D7AED6F0FD46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Filesystem">
+      <UniqueIdentifier>{E7A41F3C-565E-3727-B264-68199595B041}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Events">
+      <UniqueIdentifier>{A6133E79-4A26-3276-9199-9F6BE05BFD5A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="URI">
+      <UniqueIdentifier>{EEEC95E3-72F4-3EC9-9ABA-21E79B63A390}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hashing">
+      <UniqueIdentifier>{A2F0D12C-AE64-3CF7-A813-1E2C9EE9BDA2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SharedLibrary">
+      <UniqueIdentifier>{CA897CA6-8FBB-399F-89F9-81E582FFF5AF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Processes">
+      <UniqueIdentifier>{9AB15E9E-F119-3B2A-BC1D-C673EDDCED21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RegExp">
+      <UniqueIdentifier>{735A390E-0098-315B-9DC5-DCFF306EA38B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tasks">
+      <UniqueIdentifier>{797B1E2B-9B4A-36A8-B2DE-EF22AADDBE54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UUID">
+      <UniqueIdentifier>{15FB2E35-4005-3FDD-B77B-32BB492C1A85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dynamic">
+      <UniqueIdentifier>{EF715E9C-C790-3F1B-AC28-467E0E58D2B7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cache">
+      <UniqueIdentifier>{D8FC4026-07DE-3BEA-8CC8-0219F8EF0BA3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pcre">
+      <UniqueIdentifier>{9337C8D2-DF06-3B76-92CC-229A674FEA6D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="zlib">
+      <UniqueIdentifier>{9976E129-E2A4-3C2A-AE51-93F3BD3BCCE9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Events\Source Files">
+      <UniqueIdentifier>{540CD64F-F243-3EE5-BE4E-477B49AC9148}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Events\Header Files">
+      <UniqueIdentifier>{5C889154-6739-37DE-8BEC-81D244D9E706}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="URI\Source Files">
+      <UniqueIdentifier>{563981F8-0AFA-3A44-B2FF-14F1E9E3B63F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="URI\Header Files">
+      <UniqueIdentifier>{953CB260-8B15-3CBD-AC38-962547E1DFBB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="zlib\Header Files">
+      <UniqueIdentifier>{4EBE863C-360E-34EA-84B5-35D745038D88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="zlib\Source Files">
+      <UniqueIdentifier>{2746F158-95D3-3726-97AA-633790AD1923}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RegExp\Source Files">
+      <UniqueIdentifier>{FEFE7310-633D-3B15-A544-5A17F14DD87F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RegExp\Header Files">
+      <UniqueIdentifier>{797011B2-DB84-3D17-B585-2D2F349315F1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UUID\Source Files">
+      <UniqueIdentifier>{09FFB533-3EEF-37EC-9D4B-4A13698000C7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UUID\Header Files">
+      <UniqueIdentifier>{5DAEA3AB-AC30-3528-98A5-74CC6D6BC7E5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tasks\Source Files">
+      <UniqueIdentifier>{BDF3A195-FF3B-338F-8649-C1874C792E8C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tasks\Header Files">
+      <UniqueIdentifier>{AB8E9D75-C017-396C-B294-DAFE868627BF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SharedLibrary\Source Files">
+      <UniqueIdentifier>{3E61917F-34E2-36EF-824D-1A18E8E4AB7B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SharedLibrary\Header Files">
+      <UniqueIdentifier>{88CF1228-DF6D-3C2B-817F-FE55ED7B3DBB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Processes\Source Files">
+      <UniqueIdentifier>{DC924143-5D05-3F11-9566-F76AE306629F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Processes\Header Files">
+      <UniqueIdentifier>{CBB355F4-6FC6-3DCA-B9A6-DF7C6D4B57E5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dynamic\Source Files">
+      <UniqueIdentifier>{508D051F-7288-341A-BEA4-D546A989037C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dynamic\Header Files">
+      <UniqueIdentifier>{D0215879-47B1-3D7D-9ABA-B3AF399D232A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hashing\Source Files">
+      <UniqueIdentifier>{E56CB2C0-5ACA-34F7-AE18-F8DC086E50A1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hashing\Header Files">
+      <UniqueIdentifier>{BAE7D298-9C93-35B9-BD71-8680D41685B9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logging\Source Files">
+      <UniqueIdentifier>{F0F8ABA5-E840-3143-93BB-84191F82BF9F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logging\Header Files">
+      <UniqueIdentifier>{3E8A42A8-9920-3BFC-BB36-5834C6A7DA82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logging\Message Files">
+      <UniqueIdentifier>{2A4BCE86-C439-3A6D-B1AE-1572497C8495}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Filesystem\Source Files">
+      <UniqueIdentifier>{78A4CDC5-D975-3E3F-8539-C0187B887A93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Filesystem\Header Files">
+      <UniqueIdentifier>{8E0FB77E-F624-3277-81CE-0C3C33B02193}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Text\Source Files">
+      <UniqueIdentifier>{59F8C257-1F05-3390-A232-E2C253B6F18A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Text\Header Files">
+      <UniqueIdentifier>{A2A27A31-B70F-30E2-8799-DF091A0EE672}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Streams\Source Files">
+      <UniqueIdentifier>{88D79E7B-1A68-3698-93B4-0F566833FC65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Streams\Header Files">
+      <UniqueIdentifier>{3598D555-C562-3767-A646-E1769221F7C7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Notifications\Source Files">
+      <UniqueIdentifier>{A17A6121-FB95-3CC5-B906-537DCFD4AEC7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Notifications\Header Files">
+      <UniqueIdentifier>{0E9276ED-F7BA-344A-9E3F-6F91FCC4B995}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Threading\Source Files">
+      <UniqueIdentifier>{E9FB4003-DFF8-383E-8C32-825677F9BF30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Threading\Header Files">
+      <UniqueIdentifier>{44D89FBC-4AC2-3D6F-96E6-4DD46F28574E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Source Files">
+      <UniqueIdentifier>{E60E99E0-A936-36D5-9053-69D0CF9E79E1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Header Files">
+      <UniqueIdentifier>{EA56F8B0-5CBE-3791-8D48-46E43B8AD263}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DateTime\Source Files">
+      <UniqueIdentifier>{FD50BAD4-6641-3EF7-918B-0DC1974ED889}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DateTime\Header Files">
+      <UniqueIdentifier>{58945A76-C85A-379E-BB0E-997A25383D78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Crypt\Source Files">
+      <UniqueIdentifier>{565AF03F-073C-3D55-BC90-7418433C824F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Crypt\Header Files">
+      <UniqueIdentifier>{A75775A1-CB38-3FDF-8310-637CF25863EE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

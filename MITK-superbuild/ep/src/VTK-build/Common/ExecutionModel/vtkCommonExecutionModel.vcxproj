@@ -1,0 +1,472 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{1974B6FB-419F-3561-A483-9BDEA89A5F95}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>vtkCommonExecutionModel</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\bin\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">vtkCommonExecutionModel.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">vtkCommonExecutionModel-6.2d</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\bin\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">vtkCommonExecutionModel.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">vtkCommonExecutionModel-6.2</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\bin\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">vtkCommonExecutionModel.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">vtkCommonExecutionModel-6.2</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\bin\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">vtkCommonExecutionModel.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">vtkCommonExecutionModel-6.2</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK-build\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Math;E:\D\MITK-superbuild\ep\src\VTK\Common\Math;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core;E:\D\MITK-superbuild\ep\src\VTK\Common\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Misc;E:\D\MITK-superbuild\ep\src\VTK\Common\Misc;E:\D\MITK-superbuild\ep\src\VTK-build\Common\System;E:\D\MITK-superbuild\ep\src\VTK\Common\System;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Transforms;E:\D\MITK-superbuild\ep\src\VTK\Common\Transforms;E:\D\MITK-superbuild\ep\src\VTK-build\Common\ExecutionModel;E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR="Debug";vtkCommonExecutionModel_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR=\"Debug\";vtkCommonExecutionModel_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK-build\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Math;E:\D\MITK-superbuild\ep\src\VTK\Common\Math;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core;E:\D\MITK-superbuild\ep\src\VTK\Common\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Misc;E:\D\MITK-superbuild\ep\src\VTK\Common\Misc;E:\D\MITK-superbuild\ep\src\VTK-build\Common\System;E:\D\MITK-superbuild\ep\src\VTK\Common\System;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Transforms;E:\D\MITK-superbuild\ep\src\VTK\Common\Transforms;E:\D\MITK-superbuild\ep\src\VTK-build\Common\ExecutionModel;E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK-build\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Math;E:\D\MITK-superbuild\ep\src\VTK\Common\Math;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core;E:\D\MITK-superbuild\ep\src\VTK\Common\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Misc;E:\D\MITK-superbuild\ep\src\VTK\Common\Misc;E:\D\MITK-superbuild\ep\src\VTK-build\Common\System;E:\D\MITK-superbuild\ep\src\VTK\Common\System;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Transforms;E:\D\MITK-superbuild\ep\src\VTK\Common\Transforms;E:\D\MITK-superbuild\ep\src\VTK-build\Common\ExecutionModel;E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\Debug\vtkCommonDataModel-6.2d.lib;..\..\lib\Debug\vtkCommonMisc-6.2d.lib;..\..\lib\Debug\vtkCommonSystem-6.2d.lib;..\..\lib\Debug\vtkCommonTransforms-6.2d.lib;..\..\lib\Debug\vtkCommonMath-6.2d.lib;..\..\lib\Debug\vtkCommonCore-6.2d.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/ep/src/VTK-build/lib/Debug/vtkCommonExecutionModel-6.2d.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/ep/src/VTK-build/bin/Debug/vtkCommonExecutionModel-6.2d.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK-build\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Math;E:\D\MITK-superbuild\ep\src\VTK\Common\Math;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core;E:\D\MITK-superbuild\ep\src\VTK\Common\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Misc;E:\D\MITK-superbuild\ep\src\VTK\Common\Misc;E:\D\MITK-superbuild\ep\src\VTK-build\Common\System;E:\D\MITK-superbuild\ep\src\VTK\Common\System;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Transforms;E:\D\MITK-superbuild\ep\src\VTK\Common\Transforms;E:\D\MITK-superbuild\ep\src\VTK-build\Common\ExecutionModel;E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR="Release";vtkCommonExecutionModel_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR=\"Release\";vtkCommonExecutionModel_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK-build\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Math;E:\D\MITK-superbuild\ep\src\VTK\Common\Math;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core;E:\D\MITK-superbuild\ep\src\VTK\Common\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Misc;E:\D\MITK-superbuild\ep\src\VTK\Common\Misc;E:\D\MITK-superbuild\ep\src\VTK-build\Common\System;E:\D\MITK-superbuild\ep\src\VTK\Common\System;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Transforms;E:\D\MITK-superbuild\ep\src\VTK\Common\Transforms;E:\D\MITK-superbuild\ep\src\VTK-build\Common\ExecutionModel;E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK-build\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Math;E:\D\MITK-superbuild\ep\src\VTK\Common\Math;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core;E:\D\MITK-superbuild\ep\src\VTK\Common\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Misc;E:\D\MITK-superbuild\ep\src\VTK\Common\Misc;E:\D\MITK-superbuild\ep\src\VTK-build\Common\System;E:\D\MITK-superbuild\ep\src\VTK\Common\System;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Transforms;E:\D\MITK-superbuild\ep\src\VTK\Common\Transforms;E:\D\MITK-superbuild\ep\src\VTK-build\Common\ExecutionModel;E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\Release\vtkCommonDataModel-6.2.lib;..\..\lib\Release\vtkCommonMisc-6.2.lib;..\..\lib\Release\vtkCommonSystem-6.2.lib;..\..\lib\Release\vtkCommonTransforms-6.2.lib;..\..\lib\Release\vtkCommonMath-6.2.lib;..\..\lib\Release\vtkCommonCore-6.2.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/ep/src/VTK-build/lib/Release/vtkCommonExecutionModel-6.2.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/ep/src/VTK-build/bin/Release/vtkCommonExecutionModel-6.2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK-build\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Math;E:\D\MITK-superbuild\ep\src\VTK\Common\Math;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core;E:\D\MITK-superbuild\ep\src\VTK\Common\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Misc;E:\D\MITK-superbuild\ep\src\VTK\Common\Misc;E:\D\MITK-superbuild\ep\src\VTK-build\Common\System;E:\D\MITK-superbuild\ep\src\VTK\Common\System;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Transforms;E:\D\MITK-superbuild\ep\src\VTK\Common\Transforms;E:\D\MITK-superbuild\ep\src\VTK-build\Common\ExecutionModel;E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR="MinSizeRel";vtkCommonExecutionModel_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR=\"MinSizeRel\";vtkCommonExecutionModel_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK-build\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Math;E:\D\MITK-superbuild\ep\src\VTK\Common\Math;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core;E:\D\MITK-superbuild\ep\src\VTK\Common\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Misc;E:\D\MITK-superbuild\ep\src\VTK\Common\Misc;E:\D\MITK-superbuild\ep\src\VTK-build\Common\System;E:\D\MITK-superbuild\ep\src\VTK\Common\System;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Transforms;E:\D\MITK-superbuild\ep\src\VTK\Common\Transforms;E:\D\MITK-superbuild\ep\src\VTK-build\Common\ExecutionModel;E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK-build\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Math;E:\D\MITK-superbuild\ep\src\VTK\Common\Math;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core;E:\D\MITK-superbuild\ep\src\VTK\Common\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Misc;E:\D\MITK-superbuild\ep\src\VTK\Common\Misc;E:\D\MITK-superbuild\ep\src\VTK-build\Common\System;E:\D\MITK-superbuild\ep\src\VTK\Common\System;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Transforms;E:\D\MITK-superbuild\ep\src\VTK\Common\Transforms;E:\D\MITK-superbuild\ep\src\VTK-build\Common\ExecutionModel;E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\MinSizeRel\vtkCommonDataModel-6.2.lib;..\..\lib\MinSizeRel\vtkCommonMisc-6.2.lib;..\..\lib\MinSizeRel\vtkCommonSystem-6.2.lib;..\..\lib\MinSizeRel\vtkCommonTransforms-6.2.lib;..\..\lib\MinSizeRel\vtkCommonMath-6.2.lib;..\..\lib\MinSizeRel\vtkCommonCore-6.2.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/ep/src/VTK-build/lib/MinSizeRel/vtkCommonExecutionModel-6.2.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/ep/src/VTK-build/bin/MinSizeRel/vtkCommonExecutionModel-6.2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK-build\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Math;E:\D\MITK-superbuild\ep\src\VTK\Common\Math;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core;E:\D\MITK-superbuild\ep\src\VTK\Common\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Misc;E:\D\MITK-superbuild\ep\src\VTK\Common\Misc;E:\D\MITK-superbuild\ep\src\VTK-build\Common\System;E:\D\MITK-superbuild\ep\src\VTK\Common\System;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Transforms;E:\D\MITK-superbuild\ep\src\VTK\Common\Transforms;E:\D\MITK-superbuild\ep\src\VTK-build\Common\ExecutionModel;E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR="RelWithDebInfo";vtkCommonExecutionModel_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR=\"RelWithDebInfo\";vtkCommonExecutionModel_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK-build\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Math;E:\D\MITK-superbuild\ep\src\VTK\Common\Math;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core;E:\D\MITK-superbuild\ep\src\VTK\Common\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Misc;E:\D\MITK-superbuild\ep\src\VTK\Common\Misc;E:\D\MITK-superbuild\ep\src\VTK-build\Common\System;E:\D\MITK-superbuild\ep\src\VTK\Common\System;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Transforms;E:\D\MITK-superbuild\ep\src\VTK\Common\Transforms;E:\D\MITK-superbuild\ep\src\VTK-build\Common\ExecutionModel;E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK-build\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Math;E:\D\MITK-superbuild\ep\src\VTK\Common\Math;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core;E:\D\MITK-superbuild\ep\src\VTK\Common\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Misc;E:\D\MITK-superbuild\ep\src\VTK\Common\Misc;E:\D\MITK-superbuild\ep\src\VTK-build\Common\System;E:\D\MITK-superbuild\ep\src\VTK\Common\System;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Transforms;E:\D\MITK-superbuild\ep\src\VTK\Common\Transforms;E:\D\MITK-superbuild\ep\src\VTK-build\Common\ExecutionModel;E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\RelWithDebInfo\vtkCommonDataModel-6.2.lib;..\..\lib\RelWithDebInfo\vtkCommonMisc-6.2.lib;..\..\lib\RelWithDebInfo\vtkCommonSystem-6.2.lib;..\..\lib\RelWithDebInfo\vtkCommonTransforms-6.2.lib;..\..\lib\RelWithDebInfo\vtkCommonMath-6.2.lib;..\..\lib\RelWithDebInfo\vtkCommonCore-6.2.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/ep/src/VTK-build/lib/RelWithDebInfo/vtkCommonExecutionModel-6.2.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/ep/src/VTK-build/bin/RelWithDebInfo/vtkCommonExecutionModel-6.2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/VTK/Common/ExecutionModel/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/VTK -BE:/D/MITK-superbuild/ep/src/VTK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\VTK-build\Common\ExecutionModel\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/VTK/Common/ExecutionModel/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\module.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonDataModel.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonMath.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonCore.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtksys.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonMisc.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonSystem.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonTransforms.cmake;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkMakeInstantiator.h.in;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkMakeInstantiator.cxx.in;E:\D\MITK-superbuild\ep\src\VTK\CMake\exportheader.cmake.in;E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\module.cmake;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkModuleHeaders.cmake.in;E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\Common\ExecutionModel\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/VTK/Common/ExecutionModel/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/VTK -BE:/D/MITK-superbuild/ep/src/VTK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\VTK-build\Common\ExecutionModel\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/VTK/Common/ExecutionModel/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\module.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonDataModel.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonMath.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonCore.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtksys.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonMisc.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonSystem.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonTransforms.cmake;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkMakeInstantiator.h.in;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkMakeInstantiator.cxx.in;E:\D\MITK-superbuild\ep\src\VTK\CMake\exportheader.cmake.in;E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\module.cmake;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkModuleHeaders.cmake.in;E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\Common\ExecutionModel\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/VTK/Common/ExecutionModel/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/VTK -BE:/D/MITK-superbuild/ep/src/VTK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\VTK-build\Common\ExecutionModel\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/VTK/Common/ExecutionModel/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\module.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonDataModel.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonMath.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonCore.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtksys.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonMisc.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonSystem.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonTransforms.cmake;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkMakeInstantiator.h.in;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkMakeInstantiator.cxx.in;E:\D\MITK-superbuild\ep\src\VTK\CMake\exportheader.cmake.in;E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\module.cmake;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkModuleHeaders.cmake.in;E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\Common\ExecutionModel\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/VTK/Common/ExecutionModel/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/VTK -BE:/D/MITK-superbuild/ep/src/VTK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\VTK-build\Common\ExecutionModel\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/VTK/Common/ExecutionModel/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\module.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonDataModel.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonMath.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonCore.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtksys.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonMisc.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonSystem.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonTransforms.cmake;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkMakeInstantiator.h.in;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkMakeInstantiator.cxx.in;E:\D\MITK-superbuild\ep\src\VTK\CMake\exportheader.cmake.in;E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\module.cmake;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkModuleHeaders.cmake.in;E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\Common\ExecutionModel\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkAlgorithm.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkAlgorithmOutput.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkAnnotationLayersAlgorithm.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkArrayDataAlgorithm.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkCachedStreamingDemandDrivenPipeline.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkCastToConcrete.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkCompositeDataPipeline.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkCompositeDataSetAlgorithm.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkDataObjectAlgorithm.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkDataSetAlgorithm.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkDemandDrivenPipeline.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkDirectedGraphAlgorithm.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkEnsembleSource.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkExecutive.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkExtentSplitter.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkExtentTranslator.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkFilteringInformationKeyManager.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkGraphAlgorithm.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkHierarchicalBoxDataSetAlgorithm.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkHyperOctreeAlgorithm.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkHyperTreeGridAlgorithm.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkImageAlgorithm.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkImageInPlaceFilter.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkImageProgressIterator.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkImageToStructuredGrid.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkImageToStructuredPoints.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkInformationDataObjectMetaDataKey.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkInformationExecutivePortKey.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkInformationExecutivePortVectorKey.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkInformationIntegerRequestKey.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkMultiBlockDataSetAlgorithm.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkMultiTimeStepAlgorithm.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkPassInputTypeAlgorithm.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkPiecewiseFunctionAlgorithm.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkPiecewiseFunctionShiftScale.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkPointSetAlgorithm.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkPolyDataAlgorithm.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkRectilinearGridAlgorithm.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkScalarTree.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkSimpleImageToImageFilter.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkSimpleScalarTree.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkStreamingDemandDrivenPipeline.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkStructuredGridAlgorithm.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkTableAlgorithm.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkSMPProgressObserver.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkThreadedCompositeDataPipeline.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkThreadedImageAlgorithm.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkTreeAlgorithm.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkTrivialProducer.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkUndirectedGraphAlgorithm.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkUnstructuredGridAlgorithm.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkUnstructuredGridBaseAlgorithm.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkProgressObserver.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkSelectionAlgorithm.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkExtentRCBPartitioner.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkUniformGridPartitioner.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkUniformGridAMRAlgorithm.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkOverlappingAMRAlgorithm.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkNonOverlappingAMRAlgorithm.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK-build\Common\ExecutionModel\vtkCommonExecutionModelModule.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK-build\Common\ExecutionModel\vtkCommonExecutionModelInstantiator.h" />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkAlgorithm.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkAlgorithmOutput.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkAnnotationLayersAlgorithm.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkArrayDataAlgorithm.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkCachedStreamingDemandDrivenPipeline.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkCastToConcrete.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkCompositeDataPipeline.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkCompositeDataSetAlgorithm.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkDataObjectAlgorithm.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkDataSetAlgorithm.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkDemandDrivenPipeline.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkDirectedGraphAlgorithm.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkEnsembleSource.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkExecutive.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkExtentSplitter.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkExtentTranslator.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkFilteringInformationKeyManager.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkGraphAlgorithm.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkHierarchicalBoxDataSetAlgorithm.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkHyperOctreeAlgorithm.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkHyperTreeGridAlgorithm.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkImageAlgorithm.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkImageInPlaceFilter.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkImageProgressIterator.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkImageToStructuredGrid.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkImageToStructuredPoints.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkInformationDataObjectMetaDataKey.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkInformationExecutivePortKey.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkInformationExecutivePortVectorKey.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkInformationIntegerRequestKey.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkMultiBlockDataSetAlgorithm.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkMultiTimeStepAlgorithm.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkPassInputTypeAlgorithm.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkPiecewiseFunctionAlgorithm.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkPiecewiseFunctionShiftScale.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkPointSetAlgorithm.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkPolyDataAlgorithm.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkRectilinearGridAlgorithm.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkScalarTree.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkSimpleImageToImageFilter.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkSimpleScalarTree.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkStreamingDemandDrivenPipeline.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkStructuredGridAlgorithm.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkTableAlgorithm.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkSMPProgressObserver.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkThreadedCompositeDataPipeline.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkThreadedImageAlgorithm.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkTreeAlgorithm.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkTrivialProducer.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkUndirectedGraphAlgorithm.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkUnstructuredGridAlgorithm.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkUnstructuredGridBaseAlgorithm.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkProgressObserver.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkSelectionAlgorithm.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkExtentRCBPartitioner.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkUniformGridPartitioner.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkUniformGridAMRAlgorithm.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkOverlappingAMRAlgorithm.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkNonOverlappingAMRAlgorithm.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK-build\Common\ExecutionModel\vtkCommonExecutionModelInstantiator.cxx"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/VTK-build/ZERO_CHECK.vcxproj">
+      <Project>96A894C7-FD6E-37E5-A6D0-C197A99428A9</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/VTK-build/Common/Core/vtkCommonCore.vcxproj">
+      <Project>B66996CB-EA60-342E-A7C9-76CE7914E703</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/VTK-build/Common/DataModel/vtkCommonDataModel.vcxproj">
+      <Project>3D169276-6CF3-387D-A2F9-5C6C5EB81D0E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/VTK-build/Common/Math/vtkCommonMath.vcxproj">
+      <Project>5BDFDB3A-7EDC-3059-BA47-BCC0C8E23A40</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/VTK-build/Common/Misc/vtkCommonMisc.vcxproj">
+      <Project>FB40CC46-2F6E-35BC-9362-9AE3167519CB</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/VTK-build/Common/System/vtkCommonSystem.vcxproj">
+      <Project>6BFAAE6A-B287-3369-86B0-2863E7CD67C2</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/VTK-build/Common/Transforms/vtkCommonTransforms.vcxproj">
+      <Project>89A42D44-095B-36F7-9E88-096ABA0706FB</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

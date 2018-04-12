@@ -1,0 +1,180 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/Modules/Classification/CLUtilities/us_init.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Classification/CLUtilities/src/Algorithms/itkLabelSampler.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Classification/CLUtilities/src/Algorithms/itkSmoothedClassProbabilites.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Classification/CLUtilities/src/Features/itkNeighborhoodFunctorImageFilter.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Classification/CLUtilities/src/Features/itkLineHistogramBasedMassImageFilter.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Classification/CLUtilities/src/GlobalImageFeatures/mitkGIFCooccurenceMatrix.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Classification/CLUtilities/src/GlobalImageFeatures/mitkGIFGrayLevelRunLength.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Classification/CLUtilities/src/GlobalImageFeatures/mitkGIFFirstOrderStatistics.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Classification/CLUtilities/src/GlobalImageFeatures/mitkGIFVolumetricStatistics.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Classification/CLUtilities/src/mitkCLUtil.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Classification/CLUtilities/include/itkCoocurenceMatrixFeatureFunctor.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Classification/CLUtilities/include/itkEnhancedHistogramToRunLengthFeaturesFilter.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Classification/CLUtilities/include/itkEnhancedHistogramToRunLengthFeaturesFilter.hxx",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Classification/CLUtilities/include/itkEnhancedHistogramToTextureFeaturesFilter.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Classification/CLUtilities/include/itkEnhancedHistogramToTextureFeaturesFilter.hxx",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Classification/CLUtilities/include/itkEnhancedScalarImageToRunLengthFeaturesFilter.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Classification/CLUtilities/include/itkEnhancedScalarImageToRunLengthFeaturesFilter.hxx",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Classification/CLUtilities/include/itkEnhancedScalarImageToRunLengthMatrixFilter.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Classification/CLUtilities/include/itkEnhancedScalarImageToRunLengthMatrixFilter.hxx",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Classification/CLUtilities/include/itkEnhancedScalarImageToTextureFeaturesFilter.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Classification/CLUtilities/include/itkEnhancedScalarImageToTextureFeaturesFilter.hxx",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Classification/CLUtilities/include/itkFirstOrderStatisticsFeatureFunctor.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Classification/CLUtilities/include/itkLabelSampler.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Classification/CLUtilities/include/itkLineHistogramBasedMassImageFilter.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Classification/CLUtilities/include/itkMultiHistogramFilter.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Classification/CLUtilities/include/itkMultiHistogramFilter.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Classification/CLUtilities/include/itkNeighborhoodFunctorImageFilter.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Classification/CLUtilities/include/itkSmoothedClassProbabilites.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Classification/CLUtilities/include/mitkCLUtil.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Classification/CLUtilities/include/mitkGIFCooccurenceMatrix.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Classification/CLUtilities/include/mitkGIFFirstOrderStatistics.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Classification/CLUtilities/include/mitkGIFGrayLevelRunLength.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Classification/CLUtilities/include/mitkGIFVolumetricStatistics.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Classification/CLUtilities/CMakeLists.txt"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "MITK-Modules", "MITK" ],
+		"name" : "MitkCLUtilities"
+	}
+}

@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Domains\Chemistry\vtkBlueObeliskData.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Domains\Chemistry\vtkBlueObeliskDataParser.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Domains\Chemistry\vtkCMLMoleculeReader.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Domains\Chemistry\vtkMoleculeAlgorithm.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Domains\Chemistry\vtkMoleculeMapper.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Domains\Chemistry\vtkMoleculeToAtomBallFilter.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Domains\Chemistry\vtkMoleculeToBondStickFilter.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Domains\Chemistry\vtkMoleculeToPolyDataFilter.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Domains\Chemistry\vtkPeriodicTable.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Domains\Chemistry\vtkProgrammableElectronicData.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Domains\Chemistry\vtkProteinRibbonFilter.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Domains\Chemistry\vtkSimpleBondPerceiver.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK-build\Domains\Chemistry\vtkDomainsChemistryInstantiator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Domains\Chemistry\vtkBlueObeliskData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Domains\Chemistry\vtkBlueObeliskDataParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Domains\Chemistry\vtkCMLMoleculeReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Domains\Chemistry\vtkMoleculeAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Domains\Chemistry\vtkMoleculeMapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Domains\Chemistry\vtkMoleculeToAtomBallFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Domains\Chemistry\vtkMoleculeToBondStickFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Domains\Chemistry\vtkMoleculeToPolyDataFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Domains\Chemistry\vtkPeriodicTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Domains\Chemistry\vtkProgrammableElectronicData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Domains\Chemistry\vtkProteinRibbonFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Domains\Chemistry\vtkSimpleBondPerceiver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK-build\Domains\Chemistry\vtkDomainsChemistryModule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK-build\Domains\Chemistry\vtkDomainsChemistryInstantiator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\VTK\Domains\Chemistry\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B8573E94-36CD-38B9-BB2A-4F9466D8DF17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{2DE3B47B-2DB9-3535-836B-E2F8044C9462}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,519 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{E754D386-AB28-35B8-9583-505B2B82BDFE}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>vtkexoIIc</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\bin\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">vtkexoIIc.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">vtkexoIIc-6.2d</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\bin\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">vtkexoIIc.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">vtkexoIIc-6.2</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\bin\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">vtkexoIIc.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">vtkexoIIc-6.2</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\bin\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">vtkexoIIc.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">vtkexoIIc-6.2</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj -w /w %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\netcdf\vtknetcdf\include;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\netcdf\vtknetcdf;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\netcdf;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\netcdf;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\hdf5\vtkhdf5;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\hdf5\vtkhdf5\hl\src;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\hdf5\vtkhdf5\src;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\hdf5;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\hdf5;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\exodusII;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\include;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\exodusII\vtkexodusII\include;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\hdf5\vtkhdf5\hl\src;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\hdf5\vtkhdf5\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR="Debug";vtkexoIIc_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR=\"Debug\";vtkexoIIc_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\netcdf\vtknetcdf\include;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\netcdf\vtknetcdf;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\netcdf;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\netcdf;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\hdf5\vtkhdf5;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\hdf5\vtkhdf5\hl\src;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\hdf5\vtkhdf5\src;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\hdf5;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\hdf5;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\exodusII;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\include;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\exodusII\vtkexodusII\include;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\hdf5\vtkhdf5\hl\src;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\hdf5\vtkhdf5\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\netcdf\vtknetcdf\include;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\netcdf\vtknetcdf;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\netcdf;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\netcdf;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\hdf5\vtkhdf5;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\hdf5\vtkhdf5\hl\src;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\hdf5\vtkhdf5\src;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\hdf5;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\hdf5;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\exodusII;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\include;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\exodusII\vtkexodusII\include;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\hdf5\vtkhdf5\hl\src;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\hdf5\vtkhdf5\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\..\lib\Debug\vtkNetCDF_cxx-6.2d.lib;..\..\..\lib\Debug\vtkNetCDF-6.2d.lib;..\..\..\lib\Debug\vtkhdf5_hl-6.2d.lib;..\..\..\lib\Debug\vtkhdf5-6.2d.lib;..\..\..\lib\Debug\vtkzlib-6.2d.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/ep/src/VTK-build/lib/Debug/vtkexoIIc-6.2d.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/ep/src/VTK-build/bin/Debug/vtkexoIIc-6.2d.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj -w /w %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\netcdf\vtknetcdf\include;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\netcdf\vtknetcdf;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\netcdf;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\netcdf;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\hdf5\vtkhdf5;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\hdf5\vtkhdf5\hl\src;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\hdf5\vtkhdf5\src;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\hdf5;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\hdf5;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\exodusII;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\include;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\exodusII\vtkexodusII\include;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\hdf5\vtkhdf5\hl\src;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\hdf5\vtkhdf5\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR="Release";vtkexoIIc_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR=\"Release\";vtkexoIIc_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\netcdf\vtknetcdf\include;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\netcdf\vtknetcdf;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\netcdf;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\netcdf;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\hdf5\vtkhdf5;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\hdf5\vtkhdf5\hl\src;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\hdf5\vtkhdf5\src;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\hdf5;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\hdf5;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\exodusII;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\include;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\exodusII\vtkexodusII\include;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\hdf5\vtkhdf5\hl\src;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\hdf5\vtkhdf5\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\netcdf\vtknetcdf\include;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\netcdf\vtknetcdf;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\netcdf;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\netcdf;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\hdf5\vtkhdf5;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\hdf5\vtkhdf5\hl\src;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\hdf5\vtkhdf5\src;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\hdf5;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\hdf5;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\exodusII;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\include;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\exodusII\vtkexodusII\include;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\hdf5\vtkhdf5\hl\src;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\hdf5\vtkhdf5\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\..\lib\Release\vtkNetCDF_cxx-6.2.lib;..\..\..\lib\Release\vtkNetCDF-6.2.lib;..\..\..\lib\Release\vtkhdf5_hl-6.2.lib;..\..\..\lib\Release\vtkhdf5-6.2.lib;..\..\..\lib\Release\vtkzlib-6.2.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/ep/src/VTK-build/lib/Release/vtkexoIIc-6.2.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/ep/src/VTK-build/bin/Release/vtkexoIIc-6.2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj -w /w %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\netcdf\vtknetcdf\include;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\netcdf\vtknetcdf;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\netcdf;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\netcdf;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\hdf5\vtkhdf5;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\hdf5\vtkhdf5\hl\src;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\hdf5\vtkhdf5\src;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\hdf5;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\hdf5;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\exodusII;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\include;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\exodusII\vtkexodusII\include;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\hdf5\vtkhdf5\hl\src;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\hdf5\vtkhdf5\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR="MinSizeRel";vtkexoIIc_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR=\"MinSizeRel\";vtkexoIIc_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\netcdf\vtknetcdf\include;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\netcdf\vtknetcdf;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\netcdf;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\netcdf;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\hdf5\vtkhdf5;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\hdf5\vtkhdf5\hl\src;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\hdf5\vtkhdf5\src;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\hdf5;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\hdf5;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\exodusII;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\include;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\exodusII\vtkexodusII\include;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\hdf5\vtkhdf5\hl\src;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\hdf5\vtkhdf5\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\netcdf\vtknetcdf\include;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\netcdf\vtknetcdf;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\netcdf;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\netcdf;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\hdf5\vtkhdf5;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\hdf5\vtkhdf5\hl\src;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\hdf5\vtkhdf5\src;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\hdf5;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\hdf5;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\exodusII;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\include;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\exodusII\vtkexodusII\include;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\hdf5\vtkhdf5\hl\src;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\hdf5\vtkhdf5\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\..\lib\MinSizeRel\vtkNetCDF_cxx-6.2.lib;..\..\..\lib\MinSizeRel\vtkNetCDF-6.2.lib;..\..\..\lib\MinSizeRel\vtkhdf5_hl-6.2.lib;..\..\..\lib\MinSizeRel\vtkhdf5-6.2.lib;..\..\..\lib\MinSizeRel\vtkzlib-6.2.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/ep/src/VTK-build/lib/MinSizeRel/vtkexoIIc-6.2.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/ep/src/VTK-build/bin/MinSizeRel/vtkexoIIc-6.2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj -w /w %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\netcdf\vtknetcdf\include;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\netcdf\vtknetcdf;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\netcdf;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\netcdf;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\hdf5\vtkhdf5;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\hdf5\vtkhdf5\hl\src;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\hdf5\vtkhdf5\src;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\hdf5;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\hdf5;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\exodusII;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\include;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\exodusII\vtkexodusII\include;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\hdf5\vtkhdf5\hl\src;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\hdf5\vtkhdf5\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR="RelWithDebInfo";vtkexoIIc_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR=\"RelWithDebInfo\";vtkexoIIc_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\netcdf\vtknetcdf\include;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\netcdf\vtknetcdf;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\netcdf;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\netcdf;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\hdf5\vtkhdf5;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\hdf5\vtkhdf5\hl\src;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\hdf5\vtkhdf5\src;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\hdf5;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\hdf5;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\exodusII;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\include;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\exodusII\vtkexodusII\include;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\hdf5\vtkhdf5\hl\src;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\hdf5\vtkhdf5\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\netcdf\vtknetcdf\include;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\netcdf\vtknetcdf;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\netcdf;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\netcdf;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\hdf5\vtkhdf5;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\hdf5\vtkhdf5\hl\src;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\hdf5\vtkhdf5\src;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\hdf5;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\hdf5;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\exodusII;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\include;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\exodusII\vtkexodusII\include;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\hdf5\vtkhdf5\hl\src;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\hdf5\vtkhdf5\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\..\lib\RelWithDebInfo\vtkNetCDF_cxx-6.2.lib;..\..\..\lib\RelWithDebInfo\vtkNetCDF-6.2.lib;..\..\..\lib\RelWithDebInfo\vtkhdf5_hl-6.2.lib;..\..\..\lib\RelWithDebInfo\vtkhdf5-6.2.lib;..\..\..\lib\RelWithDebInfo\vtkzlib-6.2.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/ep/src/VTK-build/lib/RelWithDebInfo/vtkexoIIc-6.2.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/ep/src/VTK-build/bin/RelWithDebInfo/vtkexoIIc-6.2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/VTK/ThirdParty/exodusII/vtkexodusII/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/VTK -BE:/D/MITK-superbuild/ep/src/VTK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\exodusII\vtkexodusII\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/VTK/ThirdParty/exodusII/vtkexodusII/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.c.in;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\include\exodusII_cfg.h.in;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\exodusII\vtkexodusII\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/VTK/ThirdParty/exodusII/vtkexodusII/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/VTK -BE:/D/MITK-superbuild/ep/src/VTK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\exodusII\vtkexodusII\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/VTK/ThirdParty/exodusII/vtkexodusII/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.c.in;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\include\exodusII_cfg.h.in;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\exodusII\vtkexodusII\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/VTK/ThirdParty/exodusII/vtkexodusII/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/VTK -BE:/D/MITK-superbuild/ep/src/VTK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\exodusII\vtkexodusII\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/VTK/ThirdParty/exodusII/vtkexodusII/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.c.in;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\include\exodusII_cfg.h.in;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\exodusII\vtkexodusII\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/VTK/ThirdParty/exodusII/vtkexodusII/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/VTK -BE:/D/MITK-superbuild/ep/src/VTK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\exodusII\vtkexodusII\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/VTK/ThirdParty/exodusII/vtkexodusII/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.c.in;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\include\exodusII_cfg.h.in;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\exodusII\vtkexodusII\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exclos.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\excn2s.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\ex_conv.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\excopy.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\excre.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exerr.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgatm.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgcns.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgcon.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgcor.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgcset.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgcss.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgean.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgatn.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgeat.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgatt.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgebi.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgelb.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgblk.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgelc.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgconn.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgem.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgenm.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgev.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgvar.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgevid.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgevt.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgvart.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgfrm.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exggv.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exggvt.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgids.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exginf.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgini.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exginix.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgmap.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgmp.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgnam.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgnams.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgnm.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgnnm.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgnp.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgns.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgnsd.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgnsi.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgnstt.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgnsv.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgnsvid.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgnv.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgnvid.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgnvt.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgnvv.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgoea.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgoatt.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgotv.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgpa.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgp.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgpem.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgpn.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgqa.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgsnl.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgsetp.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgsp.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgset.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgss.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgssc.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgsetd.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgssd.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgssi.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgssn.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgsstt.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgssv.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgssvid.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgtim.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgtt.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgvan.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgvid.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgvnm.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgvp.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgvtt.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgvv.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exinq.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exopen.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exopts.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\expatn.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\expatt.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\expcab.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\expclb.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\expcns.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\expcon.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\expconn.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\expcor.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\expcset.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\expcss.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\expean.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\expeat.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\expelb.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\expblk.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\expelc.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\expem.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\expenm.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\expev.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\expfrm.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\expgv.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\expinf.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\expini.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\expinix.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\expmap.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\expmp.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\expnam.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\expnams.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\expnm.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\expnmap.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgnmap.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\expnnm.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\expnp.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\expns.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\expnsd.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\expnstt.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\expnsv.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\expnv.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\expnvv.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\expoea.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\expoatt.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exppa.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\expp.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exppem.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exppn.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\expqa.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\expsetp.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\expset.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\expsetd.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\expsp.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\expss.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\expssd.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\expsstt.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\expssv.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exptim.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exptt.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\expvan.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\expvar.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\expvnm.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\expvpa.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\expvpax.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\expvp.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\expvpc.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\expvtt.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\expvv.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exupda.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\ex_utils.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgattp.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgidm.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgvarnam.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgvarnams.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgvarparam.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgvartab.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\expattp.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\expidm.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\expvarnam.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\expvarnams.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\expvarparam.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\expvartab.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgcssc.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgecpp.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgnconn.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgncor.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgnnv.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgnoatt.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exgnvar.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\expecpp.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\expncor.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\expnnv.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\expnoatt.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\expnvar.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\exodusII\vtkexodusII\exppsetd.c"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/VTK-build/ZERO_CHECK.vcxproj">
+      <Project>96A894C7-FD6E-37E5-A6D0-C197A99428A9</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/VTK-build/ThirdParty/netcdf/vtknetcdf/vtkNetCDF.vcxproj">
+      <Project>1A767DDD-9ABB-379B-8C99-0C968933F038</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/VTK-build/ThirdParty/netcdf/vtknetcdf/vtkNetCDF_cxx.vcxproj">
+      <Project>F0BB2E88-B4CB-38E4-A49A-4699A7B36EAE</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/VTK-build/ThirdParty/hdf5/vtkhdf5/src/vtkhdf5.vcxproj">
+      <Project>D2F67605-26FD-34E3-AE5D-BB029A9ADD86</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/VTK-build/ThirdParty/hdf5/vtkhdf5/hl/src/vtkhdf5_hl.vcxproj">
+      <Project>73926DCA-FAEB-3433-8C37-2446C9582E6C</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/VTK-build/ThirdParty/zlib/vtkzlib/vtkzlib.vcxproj">
+      <Project>505DB1E6-8EB8-3F8E-82E9-437F1B5C0E6A</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

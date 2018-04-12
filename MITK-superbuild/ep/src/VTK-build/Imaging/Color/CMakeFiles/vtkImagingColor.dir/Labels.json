@@ -1,0 +1,91 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Imaging/Color/vtkImageHSIToRGB.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Imaging/Color/vtkImageHSVToRGB.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Imaging/Color/vtkImageLuminance.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Imaging/Color/vtkImageMapToRGBA.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Imaging/Color/vtkImageMapToWindowLevelColors.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Imaging/Color/vtkImageQuantizeRGBToIndex.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Imaging/Color/vtkImageRGBToHSI.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Imaging/Color/vtkImageRGBToHSV.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Imaging/Color/vtkImageHSIToRGB.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Imaging/Color/vtkImageHSVToRGB.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Imaging/Color/vtkImageLuminance.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Imaging/Color/vtkImageMapToRGBA.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Imaging/Color/vtkImageMapToWindowLevelColors.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Imaging/Color/vtkImageQuantizeRGBToIndex.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Imaging/Color/vtkImageRGBToHSI.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Imaging/Color/vtkImageRGBToHSV.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Imaging/Color/vtkImagingColorModule.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Imaging/Color/vtkImagingColorInstantiator.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Imaging/Color/vtkImagingColorInstantiator.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Imaging/Color/CMakeLists.txt"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "vtkImagingColor" ],
+		"name" : "vtkImagingColor"
+	}
+}

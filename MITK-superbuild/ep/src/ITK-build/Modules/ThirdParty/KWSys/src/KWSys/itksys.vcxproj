@@ -1,0 +1,362 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{C79C7E7A-32A8-38AF-A111-A4904702FCAA}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>itksys</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\ITK-build\lib\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">itksys.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">itksys-4.7d</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\ITK-build\lib\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">itksys.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">itksys-4.7</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\ITK-build\lib\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">itksys.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">itksys-4.7</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\ITK-build\lib\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">itksys.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">itksys-4.7</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\KWSys\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;KWSYS_NAMESPACE=itksys;_CRT_SECURE_NO_WARNINGS;UNICODE;_UNICODE;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;KWSYS_NAMESPACE=itksys;_CRT_SECURE_NO_WARNINGS;UNICODE;_UNICODE;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\KWSys\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\KWSys\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\KWSys\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;KWSYS_NAMESPACE=itksys;_CRT_SECURE_NO_WARNINGS;UNICODE;_UNICODE;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;KWSYS_NAMESPACE=itksys;_CRT_SECURE_NO_WARNINGS;UNICODE;_UNICODE;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\KWSys\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\KWSys\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\KWSys\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;KWSYS_NAMESPACE=itksys;_CRT_SECURE_NO_WARNINGS;UNICODE;_UNICODE;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;KWSYS_NAMESPACE=itksys;_CRT_SECURE_NO_WARNINGS;UNICODE;_UNICODE;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\KWSys\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\KWSys\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\KWSys\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;KWSYS_NAMESPACE=itksys;_CRT_SECURE_NO_WARNINGS;UNICODE;_UNICODE;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;KWSYS_NAMESPACE=itksys;_CRT_SECURE_NO_WARNINGS;UNICODE;_UNICODE;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\KWSys\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\KWSys\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/ITK/Modules/ThirdParty/KWSys/src/KWSys/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/ITK -BE:/D/MITK-superbuild/ep/src/ITK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\KWSys\src\KWSys\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/ITK/Modules/ThirdParty/KWSys/src/KWSys/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTests.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckTypeSize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFileCXX.cmake;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPrivate.h;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsC.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.c.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.c.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.c.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckTypeSize.c.in;E:\D\MITK-superbuild\ep\src\ITK-build\CMakeFiles\CheckTypeSize\KWSYS_SIZEOF_CHAR.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckTypeSize.c.in;E:\D\MITK-superbuild\ep\src\ITK-build\CMakeFiles\CheckTypeSize\KWSYS_SIZEOF_SHORT.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckTypeSize.c.in;E:\D\MITK-superbuild\ep\src\ITK-build\CMakeFiles\CheckTypeSize\KWSYS_SIZEOF_INT.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckTypeSize.c.in;E:\D\MITK-superbuild\ep\src\ITK-build\CMakeFiles\CheckTypeSize\KWSYS_SIZEOF_LONG.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckTypeSize.c.in;E:\D\MITK-superbuild\ep\src\ITK-build\CMakeFiles\CheckTypeSize\KWSYS_SIZEOF_LONG_LONG.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckTypeSize.c.in;E:\D\MITK-superbuild\ep\src\ITK-build\CMakeFiles\CheckTypeSize\KWSYS_SIZEOF___INT64.c;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsC.c;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsC.c;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_stl.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_stl.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_stl.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_stl.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_stl.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_stl.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_stl.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_stl.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_stl.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_stl.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_stl.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_stl.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_stl.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_stl.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_stl_string.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_stl.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_stl.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_stl.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_cstddef.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_ios_iostream.h.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_ios_fstream.h.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_ios_sstream.h.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_ios_iosfwd.h.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\Directory.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\DynamicLoader.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\Encoding.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\Glob.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\RegularExpression.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\SystemTools.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\CommandLineArguments.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\FStream.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\SystemInformation.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\Configure.h.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\SharedForward.h.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\Process.h.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\Base64.h.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\Encoding.h.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\FundamentalType.h.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\MD5.h.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\System.h.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\Configure.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\String.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\hashtable.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\hash_fun.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\hash_map.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\hash_set.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\auto_ptr.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\KWSys\src\KWSys\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/ITK/Modules/ThirdParty/KWSys/src/KWSys/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/ITK -BE:/D/MITK-superbuild/ep/src/ITK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\KWSys\src\KWSys\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/ITK/Modules/ThirdParty/KWSys/src/KWSys/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTests.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckTypeSize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFileCXX.cmake;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPrivate.h;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsC.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.c.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.c.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.c.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckTypeSize.c.in;E:\D\MITK-superbuild\ep\src\ITK-build\CMakeFiles\CheckTypeSize\KWSYS_SIZEOF_CHAR.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckTypeSize.c.in;E:\D\MITK-superbuild\ep\src\ITK-build\CMakeFiles\CheckTypeSize\KWSYS_SIZEOF_SHORT.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckTypeSize.c.in;E:\D\MITK-superbuild\ep\src\ITK-build\CMakeFiles\CheckTypeSize\KWSYS_SIZEOF_INT.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckTypeSize.c.in;E:\D\MITK-superbuild\ep\src\ITK-build\CMakeFiles\CheckTypeSize\KWSYS_SIZEOF_LONG.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckTypeSize.c.in;E:\D\MITK-superbuild\ep\src\ITK-build\CMakeFiles\CheckTypeSize\KWSYS_SIZEOF_LONG_LONG.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckTypeSize.c.in;E:\D\MITK-superbuild\ep\src\ITK-build\CMakeFiles\CheckTypeSize\KWSYS_SIZEOF___INT64.c;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsC.c;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsC.c;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_stl.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_stl.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_stl.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_stl.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_stl.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_stl.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_stl.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_stl.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_stl.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_stl.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_stl.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_stl.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_stl.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_stl.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_stl_string.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_stl.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_stl.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_stl.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_cstddef.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_ios_iostream.h.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_ios_fstream.h.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_ios_sstream.h.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_ios_iosfwd.h.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\Directory.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\DynamicLoader.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\Encoding.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\Glob.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\RegularExpression.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\SystemTools.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\CommandLineArguments.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\FStream.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\SystemInformation.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\Configure.h.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\SharedForward.h.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\Process.h.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\Base64.h.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\Encoding.h.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\FundamentalType.h.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\MD5.h.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\System.h.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\Configure.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\String.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\hashtable.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\hash_fun.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\hash_map.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\hash_set.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\auto_ptr.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\KWSys\src\KWSys\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/ITK/Modules/ThirdParty/KWSys/src/KWSys/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/ITK -BE:/D/MITK-superbuild/ep/src/ITK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\KWSys\src\KWSys\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/ITK/Modules/ThirdParty/KWSys/src/KWSys/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTests.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckTypeSize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFileCXX.cmake;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPrivate.h;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsC.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.c.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.c.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.c.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckTypeSize.c.in;E:\D\MITK-superbuild\ep\src\ITK-build\CMakeFiles\CheckTypeSize\KWSYS_SIZEOF_CHAR.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckTypeSize.c.in;E:\D\MITK-superbuild\ep\src\ITK-build\CMakeFiles\CheckTypeSize\KWSYS_SIZEOF_SHORT.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckTypeSize.c.in;E:\D\MITK-superbuild\ep\src\ITK-build\CMakeFiles\CheckTypeSize\KWSYS_SIZEOF_INT.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckTypeSize.c.in;E:\D\MITK-superbuild\ep\src\ITK-build\CMakeFiles\CheckTypeSize\KWSYS_SIZEOF_LONG.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckTypeSize.c.in;E:\D\MITK-superbuild\ep\src\ITK-build\CMakeFiles\CheckTypeSize\KWSYS_SIZEOF_LONG_LONG.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckTypeSize.c.in;E:\D\MITK-superbuild\ep\src\ITK-build\CMakeFiles\CheckTypeSize\KWSYS_SIZEOF___INT64.c;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsC.c;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsC.c;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_stl.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_stl.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_stl.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_stl.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_stl.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_stl.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_stl.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_stl.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_stl.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_stl.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_stl.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_stl.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_stl.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_stl.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_stl_string.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_stl.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_stl.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_stl.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_cstddef.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_ios_iostream.h.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_ios_fstream.h.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_ios_sstream.h.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_ios_iosfwd.h.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\Directory.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\DynamicLoader.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\Encoding.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\Glob.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\RegularExpression.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\SystemTools.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\CommandLineArguments.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\FStream.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\SystemInformation.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\Configure.h.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\SharedForward.h.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\Process.h.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\Base64.h.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\Encoding.h.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\FundamentalType.h.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\MD5.h.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\System.h.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\Configure.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\String.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\hashtable.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\hash_fun.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\hash_map.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\hash_set.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\auto_ptr.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\KWSys\src\KWSys\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/ITK/Modules/ThirdParty/KWSys/src/KWSys/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/ITK -BE:/D/MITK-superbuild/ep/src/ITK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\KWSys\src\KWSys\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/ITK/Modules/ThirdParty/KWSys/src/KWSys/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTests.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckTypeSize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFileCXX.cmake;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPrivate.h;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsC.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.c.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.c.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.c.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckTypeSize.c.in;E:\D\MITK-superbuild\ep\src\ITK-build\CMakeFiles\CheckTypeSize\KWSYS_SIZEOF_CHAR.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckTypeSize.c.in;E:\D\MITK-superbuild\ep\src\ITK-build\CMakeFiles\CheckTypeSize\KWSYS_SIZEOF_SHORT.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckTypeSize.c.in;E:\D\MITK-superbuild\ep\src\ITK-build\CMakeFiles\CheckTypeSize\KWSYS_SIZEOF_INT.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckTypeSize.c.in;E:\D\MITK-superbuild\ep\src\ITK-build\CMakeFiles\CheckTypeSize\KWSYS_SIZEOF_LONG.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckTypeSize.c.in;E:\D\MITK-superbuild\ep\src\ITK-build\CMakeFiles\CheckTypeSize\KWSYS_SIZEOF_LONG_LONG.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckTypeSize.c.in;E:\D\MITK-superbuild\ep\src\ITK-build\CMakeFiles\CheckTypeSize\KWSYS_SIZEOF___INT64.c;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsC.c;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsC.c;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsysPlatformTestsCXX.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_stl.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_stl.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_stl.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_stl.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_stl.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_stl.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_stl.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_stl.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_stl.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_stl.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_stl.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_stl.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_stl.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_stl.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_stl_string.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_stl.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_stl.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_stl.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_cstddef.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_ios_iostream.h.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_ios_fstream.h.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_ios_sstream.h.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\kwsys_ios_iosfwd.h.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\Directory.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\DynamicLoader.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\Encoding.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\Glob.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\RegularExpression.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\SystemTools.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\CommandLineArguments.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\FStream.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\SystemInformation.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\Configure.h.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\SharedForward.h.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\Process.h.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\Base64.h.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\Encoding.h.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\FundamentalType.h.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\MD5.h.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\System.h.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\Configure.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\String.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\hashtable.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\hash_fun.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\hash_map.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\hash_set.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\auto_ptr.hxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\KWSys\src\KWSys\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\KWSys\src\itksys\Configure.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\KWSys\src\itksys\SharedForward.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\KWSys\src\itksys\Process.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\KWSys\src\itksys\Base64.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\KWSys\src\itksys\Encoding.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\KWSys\src\itksys\FundamentalType.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\KWSys\src\itksys\MD5.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\KWSys\src\itksys\System.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\KWSys\src\itksys\Directory.hxx" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\KWSys\src\itksys\DynamicLoader.hxx" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\KWSys\src\itksys\Encoding.hxx" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\KWSys\src\itksys\Glob.hxx" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\KWSys\src\itksys\RegularExpression.hxx" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\KWSys\src\itksys\SystemTools.hxx" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\KWSys\src\itksys\CommandLineArguments.hxx" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\KWSys\src\itksys\FStream.hxx" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\KWSys\src\itksys\SystemInformation.hxx" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\KWSys\src\itksys\Configure.hxx" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\KWSys\src\itksys\String.hxx" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\KWSys\src\itksys\hashtable.hxx" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\KWSys\src\itksys\hash_fun.hxx" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\KWSys\src\itksys\hash_map.hxx" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\KWSys\src\itksys\hash_set.hxx" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\KWSys\src\itksys\auto_ptr.hxx" />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\ProcessWin32.c" >
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\Base64.c" >
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\EncodingC.c" >
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">KWSYS_ENCODING_DEFAULT_CODEPAGE=CP_ACP;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">KWSYS_ENCODING_DEFAULT_CODEPAGE=CP_ACP;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">KWSYS_ENCODING_DEFAULT_CODEPAGE=CP_ACP;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">KWSYS_ENCODING_DEFAULT_CODEPAGE=CP_ACP;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\MD5.c" >
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\System.c" >
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">KWSYS_C_HAS_PTRDIFF_T=1;KWSYS_C_HAS_SSIZE_T=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">KWSYS_C_HAS_PTRDIFF_T=1;KWSYS_C_HAS_SSIZE_T=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">KWSYS_C_HAS_PTRDIFF_T=1;KWSYS_C_HAS_SSIZE_T=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">KWSYS_C_HAS_PTRDIFF_T=1;KWSYS_C_HAS_SSIZE_T=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\Directory.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\DynamicLoader.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\EncodingCXX.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\Glob.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\RegularExpression.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\SystemTools.cxx" >
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">KWSYS_CXX_HAS_SETENV=0;KWSYS_CXX_HAS_UNSETENV=0;KWSYS_CXX_HAS_ENVIRON_IN_STDLIB_H=1;KWSYS_CXX_HAS_UTIMES=0;KWSYS_CXX_HAS_UTIMENSAT=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">KWSYS_CXX_HAS_SETENV=0;KWSYS_CXX_HAS_UNSETENV=0;KWSYS_CXX_HAS_ENVIRON_IN_STDLIB_H=1;KWSYS_CXX_HAS_UTIMES=0;KWSYS_CXX_HAS_UTIMENSAT=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">KWSYS_CXX_HAS_SETENV=0;KWSYS_CXX_HAS_UNSETENV=0;KWSYS_CXX_HAS_ENVIRON_IN_STDLIB_H=1;KWSYS_CXX_HAS_UTIMES=0;KWSYS_CXX_HAS_UTIMENSAT=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">KWSYS_CXX_HAS_SETENV=0;KWSYS_CXX_HAS_UNSETENV=0;KWSYS_CXX_HAS_ENVIRON_IN_STDLIB_H=1;KWSYS_CXX_HAS_UTIMES=0;KWSYS_CXX_HAS_UTIMENSAT=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\CommandLineArguments.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\FStream.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\KWSys\src\KWSys\SystemInformation.cxx" >
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">SIZEOF_VOID_P=4;KWSYS_SYS_HAS_PSAPI=1;KWSYS_CXX_HAS_ATOL=1;KWSYS_CXX_HAS_ATOLL=1;KWSYS_CXX_HAS__ATOI64=1;KWSYS_USE_LONG_LONG=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">SIZEOF_VOID_P=4;KWSYS_SYS_HAS_PSAPI=1;KWSYS_CXX_HAS_ATOL=1;KWSYS_CXX_HAS_ATOLL=1;KWSYS_CXX_HAS__ATOI64=1;KWSYS_USE_LONG_LONG=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">SIZEOF_VOID_P=4;KWSYS_SYS_HAS_PSAPI=1;KWSYS_CXX_HAS_ATOL=1;KWSYS_CXX_HAS_ATOLL=1;KWSYS_CXX_HAS__ATOI64=1;KWSYS_USE_LONG_LONG=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">SIZEOF_VOID_P=4;KWSYS_SYS_HAS_PSAPI=1;KWSYS_CXX_HAS_ATOL=1;KWSYS_CXX_HAS_ATOLL=1;KWSYS_CXX_HAS__ATOI64=1;KWSYS_USE_LONG_LONG=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/ITK-build/ZERO_CHECK.vcxproj">
+      <Project>7A8C6E7C-8178-3D2C-96BD-CC175A1D2858</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

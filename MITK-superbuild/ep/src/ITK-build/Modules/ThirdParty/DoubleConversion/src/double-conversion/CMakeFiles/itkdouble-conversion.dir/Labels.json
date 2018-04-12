@@ -1,0 +1,83 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/ThirdParty/DoubleConversion/src/double-conversion/bignum.cc"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/ThirdParty/DoubleConversion/src/double-conversion/bignum-dtoa.cc"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/ThirdParty/DoubleConversion/src/double-conversion/cached-powers.cc"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/ThirdParty/DoubleConversion/src/double-conversion/diy-fp.cc"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/ThirdParty/DoubleConversion/src/double-conversion/double-conversion.cc"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/ThirdParty/DoubleConversion/src/double-conversion/fast-dtoa.cc"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/ThirdParty/DoubleConversion/src/double-conversion/fixed-dtoa.cc"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/ThirdParty/DoubleConversion/src/double-conversion/strtod.cc"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/ThirdParty/DoubleConversion/src/double-conversion/bignum.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/ThirdParty/DoubleConversion/src/double-conversion/cached-powers.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/ThirdParty/DoubleConversion/src/double-conversion/diy-fp.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/ThirdParty/DoubleConversion/src/double-conversion/double-conversion.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/ThirdParty/DoubleConversion/src/double-conversion/fast-dtoa.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/ThirdParty/DoubleConversion/src/double-conversion/fixed-dtoa.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/ThirdParty/DoubleConversion/src/double-conversion/ieee.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/ThirdParty/DoubleConversion/src/double-conversion/strtod.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/ThirdParty/DoubleConversion/src/double-conversion/utils.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/ThirdParty/DoubleConversion/src/double-conversion/CMakeLists.txt"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "ITKDoubleConversion" ],
+		"name" : "itkdouble-conversion"
+	}
+}

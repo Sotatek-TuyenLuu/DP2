@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\ContextOpenGL\vtkOpenGLContextActor.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\ContextOpenGL\vtkOpenGL2ContextDevice2D.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\ContextOpenGL\vtkOpenGLContextBufferId.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\ContextOpenGL\vtkOpenGLContextDevice2D.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\ContextOpenGL\vtkOpenGLContextDevice3D.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\ContextOpenGL\vtkRenderingContextOpenGLObjectFactory.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\ContextOpenGL\vtkRenderingContextOpenGLInstantiator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\ContextOpenGL\vtkOpenGLContextActor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\ContextOpenGL\vtkOpenGL2ContextDevice2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\ContextOpenGL\vtkOpenGLContextBufferId.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\ContextOpenGL\vtkOpenGLContextDevice2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\ContextOpenGL\vtkOpenGLContextDevice3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\ContextOpenGL\vtkRenderingContextOpenGLObjectFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\ContextOpenGL\vtkRenderingContextOpenGLModule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\ContextOpenGL\vtkRenderingContextOpenGLInstantiator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\ContextOpenGL\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B8573E94-36CD-38B9-BB2A-4F9466D8DF17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{2DE3B47B-2DB9-3535-836B-E2F8044C9462}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

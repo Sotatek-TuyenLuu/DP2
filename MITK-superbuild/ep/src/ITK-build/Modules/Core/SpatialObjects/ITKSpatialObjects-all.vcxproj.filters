@@ -1,0 +1,358 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\src\itkArrowSpatialObject.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\src\itkCylinderSpatialObject.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\src\itkSpatialObjectFactoryBase.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkAffineGeometryFrame.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkArrowSpatialObject.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkBlobSpatialObject.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkBoxSpatialObject.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkContourSpatialObject.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkContourSpatialObjectPoint.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkCylinderSpatialObject.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkDTITubeSpatialObject.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkDTITubeSpatialObjectPoint.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkEllipseSpatialObject.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkGaussianSpatialObject.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkGroupSpatialObject.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkImageMaskSpatialObject.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkImageSpatialObject.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkLandmarkSpatialObject.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkLineSpatialObject.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkLineSpatialObjectPoint.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkMeshSpatialObject.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkMetaArrowConverter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkMetaBlobConverter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkMetaContourConverter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkMetaConverterBase.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkMetaDTITubeConverter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkMetaEllipseConverter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkMetaEvent.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkMetaGaussianConverter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkMetaGroupConverter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkMetaImageConverter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkMetaImageMaskConverter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkMetaLandmarkConverter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkMetaLineConverter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkMetaMeshConverter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkMetaSceneConverter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkMetaSurfaceConverter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkMetaTubeConverter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkMetaVesselTubeConverter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkPlaneSpatialObject.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkPointBasedSpatialObject.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkPolygonGroupSpatialObject.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkPolygonSpatialObject.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkSceneSpatialObject.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkSpatialObject.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkSpatialObjectDuplicator.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkSpatialObjectFactory.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkSpatialObjectFactoryBase.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkSpatialObjectPoint.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkSpatialObjectProperty.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkSpatialObjectToImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkSpatialObjectToImageStatisticsCalculator.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkSpatialObjectToPointSetFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkSpatialObjectTreeContainer.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkSpatialObjectTreeNode.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkSurfaceSpatialObject.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkSurfaceSpatialObjectPoint.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkTubeSpatialObject.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkTubeSpatialObjectPoint.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkVesselTubeSpatialObject.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkVesselTubeSpatialObjectPoint.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkAffineGeometryFrame.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkArrowSpatialObject.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkBlobSpatialObject.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkBoxSpatialObject.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkContourSpatialObject.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkContourSpatialObjectPoint.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkDTITubeSpatialObject.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkDTITubeSpatialObjectPoint.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkEllipseSpatialObject.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkGaussianSpatialObject.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkGroupSpatialObject.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkImageMaskSpatialObject.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkImageSpatialObject.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkLandmarkSpatialObject.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkLineSpatialObject.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkLineSpatialObjectPoint.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkMeshSpatialObject.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkMetaArrowConverter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkMetaBlobConverter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkMetaContourConverter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkMetaConverterBase.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkMetaDTITubeConverter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkMetaEllipseConverter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkMetaGaussianConverter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkMetaGroupConverter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkMetaImageConverter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkMetaLandmarkConverter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkMetaLineConverter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkMetaMeshConverter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkMetaSceneConverter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkMetaSurfaceConverter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkMetaTubeConverter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkMetaVesselTubeConverter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkPlaneSpatialObject.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkPointBasedSpatialObject.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkPolygonGroupSpatialObject.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkPolygonSpatialObject.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkSceneSpatialObject.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkSpatialObject.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkSpatialObjectDuplicator.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkSpatialObjectPoint.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkSpatialObjectProperty.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkSpatialObjectToImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkSpatialObjectToImageStatisticsCalculator.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkSpatialObjectToPointSetFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkSpatialObjectTreeContainer.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkSpatialObjectTreeNode.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkSurfaceSpatialObject.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkSurfaceSpatialObjectPoint.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkTubeSpatialObject.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkTubeSpatialObjectPoint.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkVesselTubeSpatialObject.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkVesselTubeSpatialObjectPoint.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7E02FA28-5E7B-3F19-A5A6-4D4FC754448E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{6C223742-F5CF-3E04-B549-B8955F112D9A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

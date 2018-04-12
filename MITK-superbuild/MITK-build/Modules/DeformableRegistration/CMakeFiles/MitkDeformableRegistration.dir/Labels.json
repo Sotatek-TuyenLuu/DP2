@@ -1,0 +1,70 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/Modules/DeformableRegistration/us_init.cpp",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/DeformableRegistration/mitkBSplineRegistration.cpp",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/DeformableRegistration/mitkDemonsRegistration.cpp",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/DeformableRegistration/mitkSymmetricForcesDemonsRegistration.cpp",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/DeformableRegistration/mitkRegistrationBase.cpp",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/DeformableRegistration/mitkHistogramMatching.cpp",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/DeformableRegistration/mitkBSplineRegistration.h",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/DeformableRegistration/mitkDemonsRegistration.h",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/DeformableRegistration/mitkSymmetricForcesDemonsRegistration.h",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/DeformableRegistration/mitkRegistrationBase.h",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/DeformableRegistration/mitkHistogramMatching.h",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/DeformableRegistration/CMakeLists.txt"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "MITK-Registration", "MITK" ],
+		"name" : "MitkDeformableRegistration"
+	}
+}

@@ -1,0 +1,43 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/GL2PS/vtkGL2PSContextDevice2D.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/GL2PS/vtkGL2PSUtilities.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/GL2PS/vtkGL2PSContextDevice2D.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/GL2PS/vtkGL2PSUtilities.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/GL2PS/vtkRenderingGL2PSModule.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/GL2PS/vtkRenderingGL2PSInstantiator.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/GL2PS/vtkRenderingGL2PSInstantiator.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/GL2PS/CMakeLists.txt"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "vtkRenderingGL2PS" ],
+		"name" : "vtkRenderingGL2PS"
+	}
+}

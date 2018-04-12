@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{E2ED20DA-0581-3AF7-B4C7-F0E9B3912559}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\OpenJPEG\src\openjpeg;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\OpenJPEG\src\openjpeg;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\OpenJPEG\src\openjpeg;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\OpenJPEG\src\openjpeg;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\OpenJPEG\src\openjpeg;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\OpenJPEG\src\openjpeg;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\OpenJPEG\src\openjpeg;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\OpenJPEG\src\openjpeg;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\OpenJPEG\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/ITK/Modules/ThirdParty/OpenJPEG/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/ITK -BE:/D/MITK-superbuild/ep/src/ITK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\OpenJPEG\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/ITK/Modules/ThirdParty/OpenJPEG/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\OpenJPEG\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\OpenJPEG\itk-module.cmake;E:\D\MITK-superbuild\ep\src\ITK\CMake\ITKModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\ITK\CMake\ITKModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\ITK\Utilities\Doxygen\Module.dox.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\OpenJPEG\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\OpenJPEG\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/ITK/Modules/ThirdParty/OpenJPEG/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/ITK -BE:/D/MITK-superbuild/ep/src/ITK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\OpenJPEG\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/ITK/Modules/ThirdParty/OpenJPEG/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\OpenJPEG\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\OpenJPEG\itk-module.cmake;E:\D\MITK-superbuild\ep\src\ITK\CMake\ITKModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\ITK\CMake\ITKModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\ITK\Utilities\Doxygen\Module.dox.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\OpenJPEG\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\OpenJPEG\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/ITK/Modules/ThirdParty/OpenJPEG/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/ITK -BE:/D/MITK-superbuild/ep/src/ITK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\OpenJPEG\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/ITK/Modules/ThirdParty/OpenJPEG/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\OpenJPEG\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\OpenJPEG\itk-module.cmake;E:\D\MITK-superbuild\ep\src\ITK\CMake\ITKModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\ITK\CMake\ITKModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\ITK\Utilities\Doxygen\Module.dox.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\OpenJPEG\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\OpenJPEG\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/ITK/Modules/ThirdParty/OpenJPEG/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/ITK -BE:/D/MITK-superbuild/ep/src/ITK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\OpenJPEG\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/ITK/Modules/ThirdParty/OpenJPEG/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\OpenJPEG\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\OpenJPEG\itk-module.cmake;E:\D\MITK-superbuild\ep\src\ITK\CMake\ITKModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\ITK\CMake\ITKModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\ITK\Utilities\Doxygen\Module.dox.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\OpenJPEG\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\OpenJPEG\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/ITK-build/ZERO_CHECK.vcxproj">
+      <Project>7A8C6E7C-8178-3D2C-96BD-CC175A1D2858</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/ITK-build/Modules/ThirdParty/OpenJPEG/ITKOpenJPEG-all.vcxproj">
+      <Project>36166146-F7EA-3A64-BE85-B0F98306E184</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/ITK-build/Modules/ThirdParty/OpenJPEG/src/openjpeg/itkopenjpeg.vcxproj">
+      <Project>8D716C47-ECCA-396A-9223-D3ECD3A980B0</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

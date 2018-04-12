@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkBackPropagationLayer.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkBatchSupervisedTrainingFunction.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkCompletelyConnectedWeightSet.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkErrorBackPropagationLearningFunctionBase.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkErrorBackPropagationLearningWithMomentum.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkErrorFunctionBase.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkGaussianRadialBasisFunction.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkGaussianTransferFunction.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkHardLimitTransferFunction.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkIdentityTransferFunction.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkInputFunctionBase.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkIterativeSupervisedTrainingFunction.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkLayerBase.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkLearningFunctionBase.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkLogSigmoidTransferFunction.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkMeanSquaredErrorFunction.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkMultilayerNeuralNetworkBase.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkMultiquadricRadialBasisFunction.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkNeuralNetworkObject.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkNNetDistanceMetricBase.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkOneHiddenLayerBackPropagationNeuralNetwork.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkProductInputFunction.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkQuickPropLearningRule.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkRadialBasisFunctionBase.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkRBFBackPropagationLearningFunction.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkRBFLayer.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkRBFNetwork.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkSigmoidTransferFunction.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkSignedHardLimitTransferFunction.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkSquaredDifferenceErrorFunction.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkSumInputFunction.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkSymmetricSigmoidTransferFunction.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkTanHTransferFunction.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkTanSigmoidTransferFunction.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkTrainingFunctionBase.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkTransferFunctionBase.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkTwoHiddenLayerBackPropagationNeuralNetwork.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkWeightSetBase.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkBackPropagationLayer.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkBatchSupervisedTrainingFunction.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkCompletelyConnectedWeightSet.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkErrorBackPropagationLearningFunctionBase.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkErrorBackPropagationLearningWithMomentum.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkGaussianRadialBasisFunction.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkGaussianTransferFunction.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkHardLimitTransferFunction.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkIdentityTransferFunction.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkIterativeSupervisedTrainingFunction.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkLayerBase.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkLogSigmoidTransferFunction.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkMeanSquaredErrorFunction.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkMultilayerNeuralNetworkBase.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkMultiquadricRadialBasisFunction.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkNeuralNetworkObject.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkOneHiddenLayerBackPropagationNeuralNetwork.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkProductInputFunction.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkQuickPropLearningRule.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkRBFBackPropagationLearningFunction.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkRBFLayer.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkRBFNetwork.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkSigmoidTransferFunction.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkSignedHardLimitTransferFunction.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkSquaredDifferenceErrorFunction.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkSumInputFunction.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkSymmetricSigmoidTransferFunction.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkTanHTransferFunction.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkTanSigmoidTransferFunction.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkTrainingFunctionBase.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkTwoHiddenLayerBackPropagationNeuralNetwork.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkWeightSetBase.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{6C223742-F5CF-3E04-B549-B8955F112D9A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

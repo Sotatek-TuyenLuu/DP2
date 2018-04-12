@@ -1,0 +1,1935 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\mitkCoreActivator.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\mitkCoreObjectFactoryBase.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\mitkCoreObjectFactory.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\mitkCoreServices.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\mitkException.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Algorithms\mitkBaseDataSource.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Algorithms\mitkClippedSurfaceBoundsCalculator.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Algorithms\mitkCompareImageDataFilter.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Algorithms\mitkConvert2Dto3DImageFilter.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Algorithms\mitkDataNodeSource.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Algorithms\mitkExtractSliceFilter.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Algorithms\mitkHistogramGenerator.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Algorithms\mitkImageChannelSelector.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Algorithms\mitkImageSliceSelector.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Algorithms\mitkImageSource.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Algorithms\mitkImageTimeSelector.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Algorithms\mitkImageToImageFilter.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Algorithms\mitkImageToSurfaceFilter.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Algorithms\mitkMultiComponentImageDataComparisonFilter.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Algorithms\mitkPlaneGeometryDataToSurfaceFilter.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Algorithms\mitkPointSetSource.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Algorithms\mitkPointSetToPointSetFilter.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Algorithms\mitkRGBToRGBACastImageFilter.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Algorithms\mitkSubImageSelector.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Algorithms\mitkSurfaceSource.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Algorithms\mitkSurfaceToImageFilter.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Algorithms\mitkSurfaceToSurfaceFilter.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Algorithms\mitkUIDGenerator.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Algorithms\mitkVolumeCalculator.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Controllers\mitkBaseController.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Controllers\mitkCallbackFromGUIThread.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Controllers\mitkCameraController.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Controllers\mitkCameraRotationController.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Controllers\mitkLimitedLinearUndo.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Controllers\mitkOperationEvent.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Controllers\mitkPlanePositionManager.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Controllers\mitkProgressBar.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Controllers\mitkRenderingManager.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Controllers\mitkSliceNavigationController.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Controllers\mitkSlicesCoordinator.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Controllers\mitkStatusBar.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Controllers\mitkStepper.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Controllers\mitkTestManager.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Controllers\mitkUndoController.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Controllers\mitkVerboseLimitedLinearUndo.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Controllers\mitkVtkLayerController.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkArbitraryTimeGeometry.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkAbstractTransformGeometry.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkAnnotationProperty.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkApplicationCursor.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkApplyTransformMatrixOperation.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkBaseData.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkBaseGeometry.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkBaseProperty.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkChannelDescriptor.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkClippingProperty.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkColorProperty.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkDataNode.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkDataStorage.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkEnumerationProperty.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkFloatPropertyExtension.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkGeometry3D.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkGeometryData.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkGeometryTransformHolder.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkGroupTagProperty.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkImageAccessorBase.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkImageCaster.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkImageCastPart1.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkImageCastPart2.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkImageCastPart3.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkImageCastPart4.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkImage.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkImageDataItem.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkImageDescriptor.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkImageReadAccessor.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkImageStatisticsHolder.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkImageVtkAccessor.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkImageVtkReadAccessor.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkImageVtkWriteAccessor.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkImageWriteAccessor.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkIntPropertyExtension.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkIPersistenceService.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkIPropertyAliases.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkIPropertyDescriptions.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkIPropertyExtensions.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkIPropertyFilters.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkIPropertyPersistence.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkLandmarkProjectorBasedCurvedGeometry.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkLandmarkProjector.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkLevelWindow.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkLevelWindowManager.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkLevelWindowPreset.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkLevelWindowProperty.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkLine.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkLookupTable.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkLookupTableProperty.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkLookupTables.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkMaterial.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkMemoryUtilities.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkModalityProperty.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkModifiedLock.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkNodePredicateAnd.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkNodePredicateBase.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkNodePredicateCompositeBase.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkNodePredicateData.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkNodePredicateDataType.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkNodePredicateDimension.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkNodePredicateFirstLevel.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkNodePredicateNot.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkNodePredicateOr.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkNodePredicateProperty.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkNodePredicateSource.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkNumericConstants.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkPlaneGeometry.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkPlaneGeometryData.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkPlaneOperation.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkPlaneOrientationProperty.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkPointOperation.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkPointSet.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkPointSetShapeProperty.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkProperties.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkPropertyAliases.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkPropertyDescriptions.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkPropertyExtension.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkPropertyExtensions.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkPropertyFilter.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkPropertyFilters.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkPropertyList.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkPropertyListReplacedObserver.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkPropertyObserver.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkPropertyPersistence.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkPropertyPersistenceInfo.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkProportionalTimeGeometry.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkRenderingModeProperty.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkResliceMethodProperty.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkRestorePlanePositionOperation.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkRotationOperation.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkScaleOperation.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkShaderProperty.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkSlicedData.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkSlicedGeometry3D.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkSmartPointerProperty.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkStandaloneDataStorage.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkStringProperty.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkSurface.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkSurfaceOperation.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkThinPlateSplineCurvedGeometry.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkTimeGeometry.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkTransferFunction.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkTransferFunctionInitializer.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkTransferFunctionProperty.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkVector.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkVectorProperty.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkVtkInterpolationProperty.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkVtkRepresentationProperty.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkVtkResliceInterpolationProperty.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkVtkScalarModeProperty.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkVtkVolumeRenderingProperty.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkWeakPointerProperty.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Interactions\mitkAction.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Interactions\mitkBindDispatcherInteractor.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Interactions\mitkCrosshairPositionEvent.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Interactions\mitkDataInteractor.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Interactions\mitkDispatcher.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Interactions\mitkDisplayCoordinateOperation.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Interactions\mitkDisplayInteractor.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Interactions\mitkEventConfig.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Interactions\mitkEventFactory.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Interactions\mitkEventRecorder.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Interactions\mitkEventStateMachine.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Interactions\mitkInteractionEventConst.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Interactions\mitkInteractionEvent.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Interactions\mitkInteractionEventHandler.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Interactions\mitkInteractionEventObserver.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Interactions\mitkInteractionKeyEvent.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Interactions\mitkInteractionPositionEvent.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Interactions\mitkInternalEvent.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Interactions\mitkMouseDoubleClickEvent.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Interactions\mitkMouseModeSwitcher.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Interactions\mitkMouseMoveEvent.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Interactions\mitkMousePressEvent.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Interactions\mitkMouseReleaseEvent.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Interactions\mitkMouseWheelEvent.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Interactions\mitkPointSetDataInteractor.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Interactions\mitkSinglePointDataInteractor.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Interactions\mitkStateMachineAction.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Interactions\mitkStateMachineCondition.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Interactions\mitkStateMachineContainer.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Interactions\mitkStateMachineState.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Interactions\mitkStateMachineTransition.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Interactions\mitkVtkEventAdapter.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Interactions\mitkVtkInteractorStyle.cxx">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Interactions\mitkXML2EventParser.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkAbstractFileIO.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkAbstractFileReader.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkAbstractFileWriter.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkCustomMimeType.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkDicomSeriesReader.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkDicomSeriesReaderService.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkDicomSR_GantryTiltInformation.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkDicomSR_ImageBlockDescriptor.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkDicomSR_LoadDICOMRGBPixel4D.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkDicomSR_LoadDICOMRGBPixel.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkDicomSR_LoadDICOMScalar4D.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkDicomSR_LoadDICOMScalar.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkDicomSR_SliceGroupingResult.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkFileReader.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkFileReaderRegistry.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkFileReaderSelector.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkFileReaderWriterBase.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkFileWriter.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkFileWriterRegistry.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkFileWriterSelector.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkGeometry3DToXML.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkIFileIO.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkIFileReader.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkIFileWriter.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkGeometryDataReaderService.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkGeometryDataWriterService.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkImageGenerator.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkImageVtkLegacyIO.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkImageVtkXmlIO.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkIMimeTypeProvider.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkIOConstants.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkIOMimeTypes.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkIOUtil.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkItkImageIO.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkItkLoggingAdapter.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkLegacyFileReaderService.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkLegacyFileWriterService.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkLog.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkMimeType.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkMimeTypeProvider.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkOperation.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkPixelType.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkPointSetReaderService.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkPointSetWriterService.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkProportionalTimeGeometryToXML.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkRawImageFileReader.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkStandardFileLocations.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkSurfaceStlIO.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkSurfaceVtkIO.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkSurfaceVtkLegacyIO.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkSurfaceVtkXmlIO.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkVtkLoggingAdapter.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Rendering\mitkAbstractOverlayLayouter.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Rendering\mitkBaseRenderer.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Rendering\mitkGradientBackground.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Rendering\mitkImageVtkMapper2D.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Rendering\mitkIShaderRepository.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Rendering\mitkManufacturerLogo.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Rendering\mitkMapper.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Rendering\mitkOverlay.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Rendering\mitkOverlayManager.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Rendering\mitkPlaneGeometryDataMapper2D.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Rendering\mitkPlaneGeometryDataVtkMapper3D.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Rendering\mitkPointSetVtkMapper2D.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Rendering\mitkPointSetVtkMapper3D.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Rendering\mitkRenderWindowBase.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Rendering\mitkRenderWindow.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Rendering\mitkRenderWindowFrame.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Rendering\mitkSurfaceVtkMapper2D.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Rendering\mitkSurfaceVtkMapper3D.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Rendering\mitkVtkEventProvider.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Rendering\mitkVtkMapper.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Rendering\mitkVtkOverlay2D.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Rendering\mitkVtkOverlay3D.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Rendering\mitkVtkOverlay.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Rendering\mitkVtkPropRenderer.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Rendering\mitkVtkWidgetRendering.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Rendering\vtkMitkLevelWindowFilter.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Rendering\vtkMitkRectangleProp.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Rendering\vtkMitkRenderProp.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Rendering\vtkMitkThickSlicesFilter.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Rendering\vtkNeverTranslucentTexture.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\Core\us_MitkCore\us_resources.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\Colortables\HotIron.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\Colortables\Jet.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\Colortables\PET20.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\Colortables\PETColor.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\itkImportMitkImageContainer.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\itkImportMitkImageContainer.txx">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\itkMITKScalarImageToHistogramGenerator.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\itkMITKScalarImageToHistogramGenerator.txx">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\itkVtkAbstractTransform.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\itkVtkAbstractTransform.txx">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mbilogo.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkAbstractFileIO.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkAbstractFileReader.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkAbstractFileWriter.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkAbstractOverlayLayouter.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkAbstractTransformGeometry.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkAction.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkAffineTransform3D.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkAnnotationProperty.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkApplicationCursor.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkApplyTransformMatrixOperation.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkArbitraryTimeGeometry.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkArray.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkBaseController.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkBaseData.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkBaseDataSource.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkBaseDataTestImplementation.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkBaseGeometry.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkBaseProcess.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkBaseProperty.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkBaseRenderer.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkBindDispatcherInteractor.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkCallbackFromGUIThread.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkCameraController.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkCameraRotationController.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkChannelDescriptor.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkClippedSurfaceBoundsCalculator.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkClippingProperty.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkColorProperty.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkCommon.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkCompareImageDataFilter.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkConvert2Dto3DImageFilter.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkCoreObjectFactory.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkCoreObjectFactoryBase.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkCoreServices.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkCrosshairPositionEvent.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkCustomMimeType.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkDataInteractor.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkDataNode.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkDataNodeSource.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkDataStorage.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkDicomSeriesReader.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkDicomSeriesReader.txx">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkDispatcher.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkDisplayCoordinateOperation.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkDisplayInteractor.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkEnumerationProperty.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkEqual.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkEventConfig.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkEventFactory.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkEventInformer.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkEventRecorder.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkEventStateMachine.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkException.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkExceptionMacro.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkExtractSliceFilter.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkFileReader.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkFileReaderRegistry.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkFileReaderSelector.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkFileWriter.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkFileWriterRegistry.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkFileWriterSelector.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkFileWriterWithInformation.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkFloatPropertyExtension.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkGenericLookupTable.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkGenericProperty.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkGeometry3D.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkGeometryData.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkGeometryDataReaderService.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkGeometryDataWriterService.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkGeometryTransformHolder.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkGetClassHierarchy.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkGradientBackground.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkGroupTagProperty.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkHistogramGenerator.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkIDataNodeReader.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkIFileIO.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkIFileReader.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkIFileWriter.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkImage.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkImageAccessByItk.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkImageAccessorBase.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkImageCast.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkImageCast.txx">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkImageCaster.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkImageChannelSelector.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkImageDataItem.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkImageDescriptor.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkImageGenerator.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkImagePixelAccessor.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkImagePixelReadAccessor.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkImagePixelWriteAccessor.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkImageReadAccessor.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkImageSliceSelector.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkImageSource.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkImageStatisticsHolder.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkImageTimeSelector.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkImageToImageFilter.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkImageToItk.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkImageToItk.txx">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkImageToSurfaceFilter.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkImageVtkAccessor.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkImageVtkMapper2D.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkImageVtkReadAccessor.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkImageVtkWriteAccessor.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkImageWriteAccessor.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkIMimeTypeProvider.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkInstantiateAccessFunctions.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkInteractionConst.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkInteractionEvent.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkInteractionEventConst.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkInteractionEventHandler.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkInteractionEventObserver.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkInteractionKeyEvent.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkInteractionPositionEvent.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkInternalEvent.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkIntPropertyExtension.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkIOAdapter.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkIOConstants.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkIOMimeTypes.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkIOUtil.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkIPersistenceService.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkIPropertyAliases.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkIPropertyDescriptions.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkIPropertyExtensions.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkIPropertyFilters.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkIPropertyPersistence.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkIShaderRepository.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkITKImageImport.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkITKImageImport.txx">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkItkImageIO.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkItkLoggingAdapter.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkItkMatrixHack.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkLandmarkProjector.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkLandmarkProjectorBasedCurvedGeometry.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkLevelWindow.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkLevelWindowManager.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkLevelWindowPreset.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkLevelWindowProperty.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkLimitedLinearUndo.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkLine.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkLocaleSwitch.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkLocalStorageHandler.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkLog.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkLogMacros.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkLookupTable.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkLookupTableProperty.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkLookupTables.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkManufacturerLogo.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkMapper.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkMaterial.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkMatrix.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkMatrixConvert.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkMemoryUtilities.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkMessage.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkMimeType.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkModalityProperty.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkModifiedLock.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkMouseDoubleClickEvent.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkMouseModeSwitcher.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkMouseMoveEvent.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkMousePressEvent.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkMouseReleaseEvent.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkMouseWheelEvent.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkMoveSurfaceInteractor.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkMultiComponentImageDataComparisonFilter.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkNodePredicateAnd.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkNodePredicateBase.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkNodePredicateCompositeBase.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkNodePredicateData.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkNodePredicateDataType.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkNodePredicateDimension.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkNodePredicateFirstLevel.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkNodePredicateNot.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkNodePredicateOr.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkNodePredicateProperty.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkNodePredicateSource.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkNumericConstants.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkNumericTypes.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkOperation.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkOperationActor.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkOperationEvent.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkOverlay.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkOverlayManager.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPixelType.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPixelTypeList.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPixelTypeMultiplex.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPixelTypeTraits.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPlaneClipping.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPlaneGeometry.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPlaneGeometryData.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPlaneGeometryDataMapper2D.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPlaneGeometryDataToSurfaceFilter.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPlaneGeometryDataVtkMapper3D.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPlaneOperation.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPlaneOrientationProperty.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPlanePositionManager.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPoint.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPointOperation.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPointSet.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPointSetDataInteractor.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPointSetShapeProperty.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPointSetSource.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPointSetToPointSetFilter.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPointSetVtkMapper2D.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPointSetVtkMapper3D.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPPArgCount.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPPArithmeticDec.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPPCat.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPPConfig.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPPControlExprIIf.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPPControlIf.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPPControlIIf.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPPDebugError.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPPDetailAutoRec.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPPDetailDMCAutoRec.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPPExpand.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPPFacilitiesEmpty.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPPFacilitiesExpand.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPPLogicalBool.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPPRepetitionDetailDMCFor.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPPRepetitionDetailEDGFor.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPPRepetitionDetailFor.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPPRepetitionDetailMSVCFor.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPPRepetitionFor.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPPSeq.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPPSeqElem.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPPSeqEnum.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPPSeqForEach.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPPSeqForEachProduct.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPPSeqSize.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPPSeqToTuple.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPPStringize.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPPTupleEat.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPPTupleElem.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPPTupleRem.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkProgressBar.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkProgressBarImplementation.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkProperties.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPropertyAliases.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPropertyDescriptions.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPropertyExtension.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPropertyExtensions.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPropertyFilter.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPropertyFilters.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPropertyList.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPropertyListReplacedObserver.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPropertyObserver.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPropertyPersistence.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPropertyPersistenceInfo.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkProportionalTimeGeometry.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkQuaternion.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkReferenceCountWatcher.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkRenderingManager.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkRenderingManagerFactory.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkRenderingModeProperty.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkRenderWindow.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkRenderWindowBase.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkRenderWindowFrame.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkResliceMethodProperty.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkRestorePlanePositionOperation.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkRGBToRGBACastImageFilter.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkRotationOperation.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkScaleOperation.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkServiceInterface.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkShaderProperty.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkSinglePointDataInteractor.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkSlicedData.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkSlicedGeometry3D.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkSliceNavigationController.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkSlicesCoordinator.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkSmartPointerProperty.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkStandaloneDataStorage.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkStandardFileLocations.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkStateMachineAction.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkStateMachineCondition.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkStateMachineContainer.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkStateMachineState.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkStateMachineTransition.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkStatusBar.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkStatusBarImplementation.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkStepper.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkStringProperty.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkSubImageSelector.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkSurface.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkSurfaceOperation.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkSurfaceSource.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkSurfaceToImageFilter.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkSurfaceToSurfaceFilter.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkSurfaceVtkMapper2D.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkSurfaceVtkMapper3D.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkTestManager.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkThinPlateSplineCurvedGeometry.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkTimeGeometry.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkTimeHelper.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkTimeSlicedGeometry.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkTransferFunction.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkTransferFunctionInitializer.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkTransferFunctionProperty.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkUIDGenerator.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkUndoController.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkUndoModel.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkVector.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkVectorDeprecated.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkVectorProperty.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkVerboseLimitedLinearUndo.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkVolumeCalculator.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkVtkEventAdapter.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkVtkEventProvider.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkVtkInteractorStyle.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkVtkInterpolationProperty.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkVtkLayerController.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkVtkLoggingAdapter.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkVtkMapper.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkVtkMapper2D.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkVtkMapper3D.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkVtkOverlay.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkVtkOverlay2D.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkVtkOverlay3D.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkVtkPropRenderer.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkVtkRepresentationProperty.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkVtkResliceInterpolationProperty.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkVtkScalarModeProperty.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkVtkVolumeRenderingProperty.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkVtkWidgetRendering.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkWeakPointer.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkWeakPointerProperty.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkXML2EventParser.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\vtkMitkLevelWindowFilter.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\vtkMitkRectangleProp.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\vtkMitkRenderProp.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\vtkMitkThickSlicesFilter.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\vtkNeverTranslucentTexture.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\src\mitkCoreActivator.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\src\IO\mitkDicomSeriesReaderService.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\src\IO\mitkFileReaderWriterBase.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\src\IO\mitkGeometry3DToXML.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\src\IO\mitkImageVtkLegacyIO.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\src\IO\mitkImageVtkXmlIO.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\src\IO\mitkLegacyFileReaderService.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\src\IO\mitkLegacyFileWriterService.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\src\IO\mitkMimeTypeProvider.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\src\IO\mitkPointSetReaderService.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\src\IO\mitkPointSetWriterService.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\src\IO\mitkProportionalTimeGeometryToXML.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\src\IO\mitkRawImageFileReader.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\src\IO\mitkSurfaceStlIO.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\src\IO\mitkSurfaceVtkIO.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\src\IO\mitkSurfaceVtkLegacyIO.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\Core\src\IO\mitkSurfaceVtkXmlIO.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK\Modules\Core\CMakeLists.txt" />
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\d04f3fd826e627a7b3a249026ed635af\res_0.zip.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\d04f3fd826e627a7b3a249026ed635af\us_resources.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{CAC8648D-C086-3462-B846-B0EBFA3DCB4A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="== Source Files ==">
+      <UniqueIdentifier>{9CA70B67-B51F-303F-96AF-687940E0FEA8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="== Header Files ==">
+      <UniqueIdentifier>{4D89E91A-663E-32FD-A047-724E4EC4BA98}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

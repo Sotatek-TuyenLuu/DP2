@@ -1,0 +1,55 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/Numerics/Statistics/src/itkDenseFrequencyContainer2.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/Numerics/Statistics/src/itkSparseFrequencyContainer2.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/Numerics/Statistics/src/itkChiSquareDistribution.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/Numerics/Statistics/src/itkGaussianDistribution.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/Numerics/Statistics/src/itkTDistribution.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/Numerics/Statistics/src/itkNormalVariateGenerator.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/Numerics/Statistics/src/itkDecisionRule.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/Numerics/Statistics/src/itkMaximumDecisionRule.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/Numerics/Statistics/src/itkMaximumRatioDecisionRule.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/Numerics/Statistics/src/itkMinimumDecisionRule.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/Numerics/Statistics/src/CMakeLists.txt"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "ITKStatistics" ],
+		"name" : "ITKStatistics"
+	}
+}

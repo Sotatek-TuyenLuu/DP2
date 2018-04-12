@@ -1,0 +1,430 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\src\itkFEMElement2DC0LinearLine.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\src\itkFEMElement2DC0LinearLineStress.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\src\itkFEMElement2DC0LinearQuadrilateral.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\src\itkFEMElement2DC0LinearQuadrilateralMembrane.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\src\itkFEMElement2DC0LinearQuadrilateralStrain.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\src\itkFEMElement2DC0LinearQuadrilateralStress.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\src\itkFEMElement2DC0LinearTriangular.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\src\itkFEMElement2DC0LinearTriangularMembrane.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\src\itkFEMElement2DC0LinearTriangularStrain.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\src\itkFEMElement2DC0LinearTriangularStress.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\src\itkFEMElement2DC0QuadraticTriangular.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\src\itkFEMElement2DC0QuadraticTriangularStrain.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\src\itkFEMElement2DC0QuadraticTriangularStress.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\src\itkFEMElement2DC1Beam.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\src\itkFEMElement3DC0LinearHexahedron.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\src\itkFEMElement3DC0LinearHexahedronMembrane.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\src\itkFEMElement3DC0LinearHexahedronStrain.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\src\itkFEMElement3DC0LinearTetrahedron.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\src\itkFEMElement3DC0LinearTetrahedronMembrane.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\src\itkFEMElement3DC0LinearTetrahedronStrain.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\src\itkFEMElement3DC0LinearTriangular.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\src\itkFEMElement3DC0LinearTriangularLaplaceBeltrami.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\src\itkFEMElement3DC0LinearTriangularMembrane.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\src\itkFEMElementBase.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\src\itkFEMException.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\src\itkFEMFactoryBase.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\src\itkFEMItpackSparseMatrix.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\src\itkFEMLightObject.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\src\itkFEMLinearSystemWrapper.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\src\itkFEMLinearSystemWrapperDenseVNL.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\src\itkFEMLinearSystemWrapperItpack.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\src\itkFEMLinearSystemWrapperVNL.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\src\itkFEMLoadBase.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\src\itkFEMLoadBC.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\src\itkFEMLoadBCMFC.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\src\itkFEMLoadEdge.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\src\itkFEMLoadElementBase.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\src\itkFEMLoadGrav.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\src\itkFEMLoadLandmark.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\src\itkFEMLoadNode.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\src\itkFEMLoadNoisyLandmark.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\src\itkFEMLoadPoint.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\src\itkFEMMaterialBase.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\src\itkFEMMaterialLinearElasticity.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\src\itkFEMUtility.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMElement1DStress.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMElement2DC0LinearLine.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMElement2DC0LinearLineStress.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMElement2DC0LinearQuadrilateral.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMElement2DC0LinearQuadrilateralMembrane.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMElement2DC0LinearQuadrilateralStrain.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMElement2DC0LinearQuadrilateralStress.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMElement2DC0LinearTriangular.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMElement2DC0LinearTriangularMembrane.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMElement2DC0LinearTriangularStrain.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMElement2DC0LinearTriangularStress.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMElement2DC0QuadraticTriangular.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMElement2DC0QuadraticTriangularStrain.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMElement2DC0QuadraticTriangularStress.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMElement2DC1Beam.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMElement2DMembrane.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMElement2DStrain.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMElement2DStress.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMElement3DC0LinearHexahedron.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMElement3DC0LinearHexahedronMembrane.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMElement3DC0LinearHexahedronStrain.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMElement3DC0LinearTetrahedron.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMElement3DC0LinearTetrahedronMembrane.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMElement3DC0LinearTetrahedronStrain.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMElement3DC0LinearTriangular.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMElement3DC0LinearTriangularLaplaceBeltrami.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMElement3DC0LinearTriangularMembrane.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMElement3DMembrane.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMElement3DMembrane1DOF.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMElement3DStrain.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMElementBase.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMElements.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMElementStd.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMException.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMFactory.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMFactoryBase.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMImageMetricLoad.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMItpackSparseMatrix.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMLightObject.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMLinearSystemWrapper.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMLinearSystemWrapperDenseVNL.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMLinearSystemWrapperItpack.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMLinearSystemWrappers.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMLinearSystemWrapperVNL.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMLoadBase.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMLoadBC.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMLoadBCMFC.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMLoadEdge.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMLoadElementBase.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMLoadGrav.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMLoadLandmark.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMLoadNode.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMLoadNoisyLandmark.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMLoadPoint.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMLoads.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMLoadTest.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMMaterialBase.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMMaterialLinearElasticity.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMMaterials.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMObject.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMObjectSpatialObject.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMP.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMPArray.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMRobustSolver.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMScatteredDataPointSetToImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMSolution.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMSolver.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMSolverCrankNicolson.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMSolverHyperbolic.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMSpatialObjectReader.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMSpatialObjectWriter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMUtility.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkImageToRectilinearFEMObjectFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkMetaFEMObjectConverter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itpack.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMElement1DStress.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMElement2DMembrane.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMElement2DStrain.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMElement2DStress.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMElement3DMembrane.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMElement3DMembrane1DOF.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMElement3DStrain.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMElementStd.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMImageMetricLoad.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMObject.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMObjectSpatialObject.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMRobustSolver.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMScatteredDataPointSetToImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMSolver.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMSolverCrankNicolson.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkFEMSolverHyperbolic.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkImageToRectilinearFEMObjectFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\FEM\include\itkMetaFEMObjectConverter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7E02FA28-5E7B-3F19-A5A6-4D4FC754448E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{6C223742-F5CF-3E04-B549-B8955F112D9A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

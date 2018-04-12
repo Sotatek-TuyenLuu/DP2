@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageFeature\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageFeature\include\itkBilateralImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageFeature\include\itkCannyEdgeDetectionImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageFeature\include\itkDerivativeImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageFeature\include\itkGradientVectorFlowImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageFeature\include\itkHessian3DToVesselnessMeasureImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageFeature\include\itkHessianRecursiveGaussianImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageFeature\include\itkHoughTransform2DCirclesImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageFeature\include\itkHoughTransform2DLinesImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageFeature\include\itkLaplacianImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageFeature\include\itkLaplacianRecursiveGaussianImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageFeature\include\itkLaplacianSharpeningImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageFeature\include\itkMaskFeaturePointSelectionFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageFeature\include\itkSimpleContourExtractorImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageFeature\include\itkSobelEdgeDetectionImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageFeature\include\itkZeroCrossingBasedEdgeDetectionImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageFeature\include\itkZeroCrossingImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageFeature\include\itkBilateralImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageFeature\include\itkCannyEdgeDetectionImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageFeature\include\itkDerivativeImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageFeature\include\itkGradientVectorFlowImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageFeature\include\itkHessian3DToVesselnessMeasureImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageFeature\include\itkHessianRecursiveGaussianImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageFeature\include\itkHoughTransform2DCirclesImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageFeature\include\itkHoughTransform2DLinesImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageFeature\include\itkLaplacianImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageFeature\include\itkLaplacianRecursiveGaussianImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageFeature\include\itkLaplacianSharpeningImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageFeature\include\itkMaskFeaturePointSelectionFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageFeature\include\itkSimpleContourExtractorImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageFeature\include\itkSobelEdgeDetectionImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageFeature\include\itkZeroCrossingBasedEdgeDetectionImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageFeature\include\itkZeroCrossingImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{6C223742-F5CF-3E04-B549-B8955F112D9A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

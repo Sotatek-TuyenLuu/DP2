@@ -1,0 +1,1723 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkArrayOutputSpecialization.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkBarrier.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkCommand.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkCompensatedSummation.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkConditionVariable.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkConditionVariableNoThreads.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkConditionVariablePThreads.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkConditionVariableWinThreads.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkCovariantVector.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkDataObject.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkDirectory.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkDynamicLoader.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkEquivalencyTable.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkEventObject.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkExceptionObject.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkFastMutexLock.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkFileOutputWindow.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkFloatingPointExceptions.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkHexahedronCellTopology.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkImageIORegion.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkImageRegionSplitterBase.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkImageRegionSplitterDirection.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkImageRegionSplitterMultidimensional.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkImageRegionSplitterSlowDimension.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkImageSourceCommon.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkImageToImageFilterCommon.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkIndent.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkIterationReporter.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkLightObject.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkLightProcessObject.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkLoggerBase.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkLoggerManager.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkLoggerOutput.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkMemoryProbe.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkMemoryUsageObserver.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkMersenneTwisterRandomVariateGenerator.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkMetaDataDictionary.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkMetaDataObject.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkMetaDataObjectBase.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkMultipleLogOutput.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkMultiThreader.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkMultiThreaderNoThreads.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkMultiThreaderPThreads.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkMultiThreaderWinThreads.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkMutexLock.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkMutexLockNoThreads.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkMutexLockPThreads.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkMutexLockWinThreads.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkNumberToString.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkNumericTraits.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkNumericTraitsCovariantVectorPixel.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkNumericTraitsDiffusionTensor3DPixel.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkNumericTraitsFixedArrayPixel.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkNumericTraitsFixedArrayPixel2.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkNumericTraitsPointPixel.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkNumericTraitsRGBAPixel.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkNumericTraitsRGBPixel.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkNumericTraitsTensorPixel.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkNumericTraitsTensorPixel2.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkNumericTraitsVectorPixel.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkObject.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkObjectFactoryBase.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkOctreeNode.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkOutputWindow.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkProcessObject.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkProgressAccumulator.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkProgressReporter.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkPThreadPool.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkQuadraticTriangleCellTopology.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkQuadrilateralCellTopology.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkRealTimeClock.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkRealTimeInterval.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkRealTimeStamp.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkRegion.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkSimpleFastMutexLock.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkSimpleFastMutexLockNoThreads.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkSimpleFastMutexLockPThreads.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkSimpleFastMutexLockWinThreads.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkSimpleFilterWatcher.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkSmapsFileParser.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkSmartPointerForwardReferenceProcessObject.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkSpatialOrientationAdapter.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkStdStreamLogOutput.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkStoppingCriterionBase.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkTetrahedronCellTopology.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkTextOutput.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkThreadedIndexedContainerPartitioner.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkThreadLogger.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkThreadPool.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkTimeProbe.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkTimeProbesCollectorBase.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkTimeStamp.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkTriangleCellTopology.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkVector.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkVersion.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkWin32OutputWindow.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkWinThreadPool.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkXMLFileOutputWindow.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkAnnulusOperator.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkArray.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkArray2D.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkAtanRegularizedHeavisideStepFunction.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkAutoPointer.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkAutoPointerDataObjectDecorator.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkBackwardDifferenceOperator.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkBarrier.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkBinaryThresholdSpatialFunction.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkBoundingBox.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkBresenhamLine.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkBSplineDerivativeKernelFunction.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkBSplineInterpolationWeightFunction.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkBSplineKernelFunction.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkByteSwapper.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkCellInterface.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkCellInterfaceVisitor.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkChildTreeIterator.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkColorTable.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkCommand.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkCompensatedSummation.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkConceptChecking.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkConditionalConstIterator.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkConditionVariable.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkConicShellInteriorExteriorSpatialFunction.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkConnectedComponentAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkConstantBoundaryCondition.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkConstNeighborhoodIterator.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkConstNeighborhoodIteratorWithOnlyIndex.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkConstShapedNeighborhoodIterator.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkConstSliceIterator.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkContinuousIndex.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkCorrespondenceDataStructureIterator.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkCovariantVector.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkCreateObjectFunction.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkCrossHelper.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkDataObject.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkDataObjectConstIterator.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkDataObjectDecorator.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkDataObjectIterator.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkDefaultConvertPixelTraits.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkDefaultDynamicMeshTraits.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkDefaultPixelAccessor.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkDefaultPixelAccessorFunctor.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkDefaultStaticMeshTraits.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkDefaultVectorPixelAccessor.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkDefaultVectorPixelAccessorFunctor.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkDerivativeOperator.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkDiffusionTensor3D.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkDirectory.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkDomainThreader.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkDynamicLoader.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkEllipsoidInteriorExteriorSpatialFunction.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkEnableIf.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkEquivalencyTable.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkEventObject.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkExceptionObject.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkExtractImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkExtractImageFilterRegionCopier.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkFactoryTestLib.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkFastMutexLock.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkFileOutputWindow.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkFiniteCylinderSpatialFunction.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkFixedArray.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkFloatingPointExceptions.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkFloatTypes.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkFloodFilledFunctionConditionalConstIterator.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkFloodFilledImageFunctionConditionalConstIterator.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkFloodFilledImageFunctionConditionalIterator.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkFloodFilledSpatialFunctionConditionalConstIterator.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkFloodFilledSpatialFunctionConditionalIterator.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkForwardDifferenceOperator.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkFrustumSpatialFunction.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkFunctionBase.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkGaussianDerivativeSpatialFunction.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkGaussianKernelFunction.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkGaussianOperator.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkGaussianSpatialFunction.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkHeavisideStepFunction.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkHeavisideStepFunctionBase.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkHexahedronCell.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkHexahedronCellTopology.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImage.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageBase.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageBoundaryCondition.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageConstIterator.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageConstIteratorWithIndex.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageConstIteratorWithOnlyIndex.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageContainerInterface.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageDuplicator.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageHelper.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageIORegion.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageIterator.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageIteratorWithIndex.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageKernelOperator.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageLinearConstIteratorWithIndex.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageLinearIteratorWithIndex.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageRandomConstIteratorWithIndex.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageRandomConstIteratorWithOnlyIndex.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageRandomIteratorWithIndex.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageRandomNonRepeatingConstIteratorWithIndex.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageRandomNonRepeatingIteratorWithIndex.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageRegion.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageRegionConstIterator.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageRegionConstIteratorWithIndex.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageRegionConstIteratorWithOnlyIndex.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageRegionExclusionConstIteratorWithIndex.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageRegionExclusionIteratorWithIndex.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageRegionIterator.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageRegionIteratorWithIndex.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageRegionReverseConstIterator.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageRegionReverseIterator.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageRegionSplitterBase.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageRegionSplitterDirection.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageRegionSplitterMultidimensional.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageRegionSplitterSlowDimension.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageReverseConstIterator.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageReverseIterator.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageScanlineConstIterator.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageScanlineIterator.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageSliceConstIteratorWithIndex.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageSliceIteratorWithIndex.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageSource.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageSourceCommon.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageToImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageToImageFilterCommon.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageToImageFilterDetail.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageTransformer.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageTransformHelper.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageVectorOptimizerParametersHelper.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImportImageContainer.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImportImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkIndent.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkIndex.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkIndexedContainerInterface.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkInOrderTreeIterator.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkInPlaceImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkInputDataObjectConstIterator.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkInputDataObjectIterator.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkInteriorExteriorSpatialFunction.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkIntTypes.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkIsSame.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkIterationReporter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkKernelFunctionBase.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkLaplacianOperator.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkLeafTreeIterator.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkLevelOrderTreeIterator.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkLightObject.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkLightProcessObject.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkLineCell.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkLineConstIterator.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkLineIterator.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkLogger.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkLoggerBase.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkLoggerManager.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkLoggerOutput.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkLoggerThreadWrapper.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkLogOutput.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkMacro.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkMapContainer.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkMath.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkMathDetail.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkMatrix.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkMatrixResizeableDataObject.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkMemoryProbe.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkMemoryProbesCollectorBase.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkMemoryUsageObserver.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkMersenneTwisterRandomVariateGenerator.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkMetaDataDictionary.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkMetaDataObject.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkMetaDataObjectBase.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkMinimumMaximumImageCalculator.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkMultipleLogOutput.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkMultiThreader.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkMutexLock.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkMutexLockHolder.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkNeighborhood.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkNeighborhoodAccessorFunctor.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkNeighborhoodAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkNeighborhoodAllocator.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkNeighborhoodInnerProduct.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkNeighborhoodIterator.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkNeighborhoodOperator.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkNumberToString.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkNumericTraits.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkNumericTraitsArrayPixel.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkNumericTraitsCovariantVectorPixel.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkNumericTraitsDiffusionTensor3DPixel.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkNumericTraitsFixedArrayPixel.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkNumericTraitsPointPixel.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkNumericTraitsRGBAPixel.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkNumericTraitsRGBPixel.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkNumericTraitsStdVector.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkNumericTraitsTensorPixel.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkNumericTraitsVariableLengthVectorPixel.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkNumericTraitsVectorPixel.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkObject.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkObjectFactory.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkObjectFactoryBase.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkObjectStore.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkOctree.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkOctreeNode.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkOffset.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkOptimizerParameters.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkOptimizerParametersHelper.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkOrientationAdapterBase.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkOutputDataObjectConstIterator.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkOutputDataObjectIterator.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkOutputWindow.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkPeriodicBoundaryCondition.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkPhasedArray3DSpecialCoordinatesImage.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkPixelTraits.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkPoint.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkPointSet.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkPointSetToImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkPolygonCell.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkPostOrderTreeIterator.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkPreOrderTreeIterator.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkPriorityQueueContainer.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkProcessObject.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkProgressAccumulator.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkProgressReporter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkQuadraticEdgeCell.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkQuadraticTriangleCell.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkQuadraticTriangleCellTopology.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkQuadrilateralCell.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkQuadrilateralCellTopology.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkRandomVariateGeneratorBase.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkRealTimeClock.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkRealTimeInterval.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkRealTimeStamp.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkRegion.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkRegularizedHeavisideStepFunction.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkResourceProbe.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkResourceProbesCollectorBase.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkRGBAPixel.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkRGBPixel.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkRootTreeIterator.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkShapedFloodFilledFunctionConditionalConstIterator.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkShapedFloodFilledImageFunctionConditionalConstIterator.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkShapedFloodFilledImageFunctionConditionalIterator.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkShapedNeighborhoodIterator.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkSimpleDataObjectDecorator.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkSimpleFastMutexLock.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkSimpleFilterWatcher.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkSinRegularizedHeavisideStepFunction.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkSize.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkSliceIterator.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkSmapsFileParser.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkSmartPointer.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkSmartPointerForwardReference.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkSobelOperator.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkSparseFieldLayer.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkSparseImage.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkSpatialFunction.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkSpatialOrientation.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkSpatialOrientationAdapter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkSpecialCoordinatesImage.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkSphereSpatialFunction.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkStdStreamLogOutput.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkStdStreamStateSave.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkSTLConstContainerAdaptor.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkSTLContainerAdaptor.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkStoppingCriterionBase.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkStreamingImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkStructHashFunction.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkSymmetricEigenAnalysis.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkSymmetricEllipsoidInteriorExteriorSpatialFunction.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkSymmetricSecondRankTensor.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkTetrahedronCell.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkTetrahedronCellTopology.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkTextOutput.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkThreadedDomainPartitioner.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkThreadedImageRegionPartitioner.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkThreadedIndexedContainerPartitioner.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkThreadedIteratorRangePartitioner.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkThreadJob.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkThreadLogger.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkThreadPool.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkThreadSupport.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkTimeProbe.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkTimeProbesCollectorBase.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkTimeStamp.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkTorusInteriorExteriorSpatialFunction.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkTreeChangeEvent.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkTreeContainer.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkTreeContainerBase.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkTreeIteratorBase.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkTreeIteratorClone.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkTreeNode.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkTriangleCell.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkTriangleCellTopology.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkTriangleHelper.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkUnaryCorrespondenceMatrix.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkUnaryFunctorImageFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkValarrayImageContainer.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkVariableLengthVector.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkVariableSizeMatrix.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkVector.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkVectorContainer.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkVectorImage.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkVectorImageNeighborhoodAccessorFunctor.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkVectorNeighborhoodInnerProduct.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkVersion.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkVersor.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkVertexCell.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkWeakPointer.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkWin32Header.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkWin32OutputWindow.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkWindows.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkXMLFileOutputWindow.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkXMLFilterWatcher.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkZeroFluxNeumannBoundaryCondition.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\VNLIterativeSparseSolverTraits.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\VNLSparseLUSolverTraits.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkAnnulusOperator.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkArray.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkArray2D.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkAtanRegularizedHeavisideStepFunction.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkAutoPointerDataObjectDecorator.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkBackwardDifferenceOperator.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkBinaryThresholdSpatialFunction.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkBoundingBox.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkBresenhamLine.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkBSplineInterpolationWeightFunction.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkByteSwapper.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkCellInterface.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkChildTreeIterator.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkColorTable.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkCompensatedSummation.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkConditionalConstIterator.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkConicShellInteriorExteriorSpatialFunction.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkConstantBoundaryCondition.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkConstNeighborhoodIterator.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkConstNeighborhoodIteratorWithOnlyIndex.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkConstShapedNeighborhoodIterator.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkCorrespondenceDataStructureIterator.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkCovariantVector.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkDataObjectDecorator.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkDerivativeOperator.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkDiffusionTensor3D.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkDomainThreader.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkEllipsoidInteriorExteriorSpatialFunction.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkExtractImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkFiniteCylinderSpatialFunction.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkFixedArray.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkFloodFilledFunctionConditionalConstIterator.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkFloodFilledImageFunctionConditionalConstIterator.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkFloodFilledSpatialFunctionConditionalConstIterator.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkForwardDifferenceOperator.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkFrustumSpatialFunction.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkGaussianDerivativeSpatialFunction.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkGaussianOperator.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkGaussianSpatialFunction.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkHeavisideStepFunction.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkHexahedronCell.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImage.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageAlgorithm.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageBase.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageConstIterator.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageConstIteratorWithIndex.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageConstIteratorWithOnlyIndex.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageDuplicator.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageIterator.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageIteratorWithIndex.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageKernelOperator.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageLinearConstIteratorWithIndex.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageLinearIteratorWithIndex.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageRandomConstIteratorWithIndex.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageRandomConstIteratorWithOnlyIndex.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageRandomIteratorWithIndex.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageRandomNonRepeatingConstIteratorWithIndex.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageRandomNonRepeatingIteratorWithIndex.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageRegion.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageRegionConstIterator.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageRegionConstIteratorWithIndex.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageRegionConstIteratorWithOnlyIndex.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageRegionExclusionConstIteratorWithIndex.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageRegionExclusionIteratorWithIndex.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageRegionIterator.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageRegionIteratorWithIndex.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageRegionReverseConstIterator.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageRegionReverseIterator.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageReverseConstIterator.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageReverseIterator.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageScanlineConstIterator.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageScanlineIterator.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageSliceConstIteratorWithIndex.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageSliceIteratorWithIndex.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageSource.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageToImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageTransformer.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageVectorOptimizerParametersHelper.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImportImageContainer.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImportImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkInPlaceImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkInteriorExteriorSpatialFunction.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkLaplacianOperator.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkLevelOrderTreeIterator.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkLineCell.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkLineConstIterator.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkLineIterator.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkLoggerThreadWrapper.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkMapContainer.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkMatrix.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkMatrixResizeableDataObject.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkMetaDataObject.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkMinimumMaximumImageCalculator.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkNeighborhood.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkNeighborhoodAlgorithm.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkNeighborhoodInnerProduct.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkNeighborhoodIterator.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkNeighborhoodIteratorTestCommon.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkNeighborhoodOperator.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkNumberToString.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkObjectStore.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkOctree.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkOptimizerParameters.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkPeriodicBoundaryCondition.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkPhasedArray3DSpecialCoordinatesImage.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkPoint.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkPointSet.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkPointSetToImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkPolygonCell.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkPriorityQueueContainer.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkQuadraticEdgeCell.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkQuadraticTriangleCell.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkQuadrilateralCell.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkRegularizedHeavisideStepFunction.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkResourceProbe.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkResourceProbesCollectorBase.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkRGBAPixel.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkRGBPixel.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkShapedFloodFilledFunctionConditionalConstIterator.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkShapedFloodFilledImageFunctionConditionalConstIterator.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkShapedNeighborhoodIterator.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkSimpleDataObjectDecorator.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkSinRegularizedHeavisideStepFunction.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkSmapsFileParser.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkSmartPointerForwardReference.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkSobelOperator.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkSparseFieldLayer.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkSparseImage.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkSpatialFunction.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkSpecialCoordinatesImage.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkSphereSpatialFunction.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkStreamingImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkSymmetricEigenAnalysis.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkSymmetricEllipsoidInteriorExteriorSpatialFunction.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkSymmetricSecondRankTensor.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkTetrahedronCell.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkThreadedImageRegionPartitioner.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkThreadedIteratorRangePartitioner.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkTorusInteriorExteriorSpatialFunction.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkTreeContainer.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkTreeIteratorBase.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkTreeNode.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkTriangleCell.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkTriangleHelper.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkUnaryCorrespondenceMatrix.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkUnaryFunctorImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkVariableLengthVector.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkVariableSizeMatrix.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkVector.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkVectorContainer.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkVectorImage.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkVectorNeighborhoodInnerProduct.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkVersor.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkVertexCell.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkZeroFluxNeumannBoundaryCondition.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7E02FA28-5E7B-3F19-A5A6-4D4FC754448E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{6C223742-F5CF-3E04-B549-B8955F112D9A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

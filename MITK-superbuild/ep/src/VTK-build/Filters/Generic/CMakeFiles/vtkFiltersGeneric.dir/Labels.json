@@ -1,0 +1,99 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Filters/Generic/vtkGenericClip.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Filters/Generic/vtkGenericContourFilter.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Filters/Generic/vtkGenericCutter.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Filters/Generic/vtkGenericDataSetTessellator.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Filters/Generic/vtkGenericGeometryFilter.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Filters/Generic/vtkGenericGlyph3DFilter.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Filters/Generic/vtkGenericOutlineFilter.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Filters/Generic/vtkGenericProbeFilter.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Filters/Generic/vtkGenericStreamTracer.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Filters/Generic/vtkGenericClip.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Filters/Generic/vtkGenericContourFilter.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Filters/Generic/vtkGenericCutter.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Filters/Generic/vtkGenericDataSetTessellator.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Filters/Generic/vtkGenericGeometryFilter.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Filters/Generic/vtkGenericGlyph3DFilter.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Filters/Generic/vtkGenericOutlineFilter.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Filters/Generic/vtkGenericProbeFilter.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Filters/Generic/vtkGenericStreamTracer.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Filters/Generic/vtkFiltersGenericModule.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Filters/Generic/vtkFiltersGenericInstantiator.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Filters/Generic/vtkFiltersGenericInstantiator.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Filters/Generic/CMakeLists.txt"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "vtkFiltersGeneric" ],
+		"name" : "vtkFiltersGeneric"
+	}
+}

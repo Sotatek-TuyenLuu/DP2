@@ -1,0 +1,27 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/ThirdParty/expat/vtkexpat/xmlparse.c"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/ThirdParty/expat/vtkexpat/xmltok.c"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/ThirdParty/expat/vtkexpat/xmlrole.c"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/ThirdParty/expat/vtkexpat/CMakeLists.txt"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "vtkexpat" ],
+		"name" : "vtkexpat"
+	}
+}

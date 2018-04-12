@@ -1,0 +1,6 @@
+set(ITKIORAW_LOADED 1)
+set(ITKIORAW_DEPENDS "ITKIOImageBase")
+set(ITKIORAW_LIBRARIES "ITKIOImageBase")
+set(ITKIORAW_INCLUDE_DIRS "E:/D/MITK-superbuild/ep/src/ITK/Modules/IO/RAW/include")
+set(ITKIORAW_LIBRARY_DIRS "")
+

@@ -1,0 +1,41 @@
+
+#ifndef MITKQTWIDGETS_EXPORT_H
+#define MITKQTWIDGETS_EXPORT_H
+
+#ifdef MITKQTWIDGETS_STATIC_DEFINE
+#  define MITKQTWIDGETS_EXPORT
+#  define MITKQTWIDGETS_NO_EXPORT
+#else
+#  ifndef MITKQTWIDGETS_EXPORT
+#    ifdef MitkQtWidgets_EXPORTS
+        /* We are building this library */
+#      define MITKQTWIDGETS_EXPORT __declspec(dllexport)
+#    else
+        /* We are using this library */
+#      define MITKQTWIDGETS_EXPORT __declspec(dllimport)
+#    endif
+#  endif
+
+#  ifndef MITKQTWIDGETS_NO_EXPORT
+#    define MITKQTWIDGETS_NO_EXPORT 
+#  endif
+#endif
+
+#ifndef MITKQTWIDGETS_DEPRECATED
+#  define MITKQTWIDGETS_DEPRECATED __declspec(deprecated)
+#endif
+
+#ifndef MITKQTWIDGETS_DEPRECATED_EXPORT
+#  define MITKQTWIDGETS_DEPRECATED_EXPORT MITKQTWIDGETS_EXPORT MITKQTWIDGETS_DEPRECATED
+#endif
+
+#ifndef MITKQTWIDGETS_DEPRECATED_NO_EXPORT
+#  define MITKQTWIDGETS_DEPRECATED_NO_EXPORT MITKQTWIDGETS_NO_EXPORT MITKQTWIDGETS_DEPRECATED
+#endif
+
+#define DEFINE_NO_DEPRECATED 0
+#if DEFINE_NO_DEPRECATED
+# define MITKQTWIDGETS_NO_DEPRECATED
+#endif
+
+#endif

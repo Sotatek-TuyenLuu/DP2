@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\QmlItems\us_init.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\QmlItems\QmlMitkRenderWindowItem.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\QmlItems\QmlMitkRenderingManager.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\QmlItems\QmlMitkRenderingManagerFactory.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\QmlItems\QmlMitkBigRenderLock.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\QmlItems\QmlMitkFourRenderWindowWidget.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\QmlItems\moc_QmlMitkRenderWindowItem.cpp">
+      <Filter>Generated\Qt MOC Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\QmlItems\moc_QmlMitkRenderingManager.cpp">
+      <Filter>Generated\Qt MOC Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\QmlItems\moc_QmlMitkBigRenderLock.cpp">
+      <Filter>Generated\Qt MOC Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\QmlItems\moc_QmlMitkFourRenderWindowWidget.cpp">
+      <Filter>Generated\Qt MOC Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\D\MITK\Modules\QmlItems\QmlMitkRenderWindowItem.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\QmlItems\QmlMitkRenderingManager.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\QmlItems\QmlMitkRenderingManagerFactory.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\QmlItems\QmlMitkBigRenderLock.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\QmlItems\QmlMitkFourRenderWindowWidget.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK\Modules\QmlItems\CMakeLists.txt" />
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\15372f3a73aab854f18bcd02c0c37876\moc_QmlMitkRenderWindowItem.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\15372f3a73aab854f18bcd02c0c37876\moc_QmlMitkRenderingManager.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\15372f3a73aab854f18bcd02c0c37876\moc_QmlMitkBigRenderLock.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\15372f3a73aab854f18bcd02c0c37876\moc_QmlMitkFourRenderWindowWidget.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{CAC8648D-C086-3462-B846-B0EBFA3DCB4A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated">
+      <UniqueIdentifier>{7FA4B4B1-5C9C-314E-A0B9-36873EE561F1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="== Source Files ==">
+      <UniqueIdentifier>{9CA70B67-B51F-303F-96AF-687940E0FEA8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="== Header Files ==">
+      <UniqueIdentifier>{4D89E91A-663E-32FD-A047-724E4EC4BA98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated\Qt MOC Source Files">
+      <UniqueIdentifier>{B42DA33F-2448-3D6E-A532-40F314971B47}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

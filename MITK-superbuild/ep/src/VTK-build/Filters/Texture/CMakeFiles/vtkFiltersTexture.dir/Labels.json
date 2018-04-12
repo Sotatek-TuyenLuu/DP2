@@ -1,0 +1,83 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Filters/Texture/vtkTextureMapToCylinder.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Filters/Texture/vtkTextureMapToPlane.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Filters/Texture/vtkTextureMapToSphere.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Filters/Texture/vtkImplicitTextureCoords.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Filters/Texture/vtkThresholdTextureCoords.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Filters/Texture/vtkTransformTextureCoords.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Filters/Texture/vtkTriangularTCoords.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Filters/Texture/vtkTextureMapToCylinder.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Filters/Texture/vtkTextureMapToPlane.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Filters/Texture/vtkTextureMapToSphere.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Filters/Texture/vtkImplicitTextureCoords.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Filters/Texture/vtkThresholdTextureCoords.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Filters/Texture/vtkTransformTextureCoords.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Filters/Texture/vtkTriangularTCoords.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Filters/Texture/vtkFiltersTextureModule.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Filters/Texture/vtkFiltersTextureInstantiator.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Filters/Texture/vtkFiltersTextureInstantiator.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Filters/Texture/CMakeLists.txt"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "vtkFiltersTexture" ],
+		"name" : "vtkFiltersTexture"
+	}
+}

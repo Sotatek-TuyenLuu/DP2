@@ -1,0 +1,1309 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{E83D8A97-845E-33B3-95EC-2AF48729329A}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>MitkXNAT</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\MITK-build\bin\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MitkXNAT.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MitkXNAT</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\MITK-build\bin\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MitkXNAT.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MitkXNAT</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\MITK-build\bin\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">MitkXNAT.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">MitkXNAT</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\MITK-build\bin\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">MitkXNAT.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">MitkXNAT</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\MITK-build\Modules\XNAT;E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build;E:\D\MITK-superbuild\ep\src\CTK\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build;E:\D\MITK\Modules\XNAT\include;E:\D\MITK\Modules\XNAT\src;E:\D\MITK\Modules\CppMicroServices\third_party;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\include;E:\D\MITK\Modules\CppMicroServices\core\include;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\core\include;E:\D\MITK\Modules\CppMicroServices\core\src\util;E:\D\MITK\Modules\CppMicroServices\core\src\service;E:\D\MITK\Modules\CppMicroServices\core\src\module;E:\D\MITK-superbuild\MITK-build\Modules\Core;E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\include\ITK-4.7;E:\D\MITK-superbuild\ep\include\vtk-6.2;E:\D\MITK-superbuild\ep\include\boost-1_59;E:\D\MITK\Modules\Core\include;E:\D\MITK-superbuild\MITK-build;E:\D\MITK-superbuild\MITK-build\Utilities\mbilog;E:\D\MITK\Utilities\mbilog\.;E:\D\MITK-superbuild\MITK-build\Modules\QtWidgets;E:\D\MITK\Modules\QtWidgets\include;E:\D\MITK-superbuild\MITK-build\Modules\PlanarFigure;E:\D\MITK\Modules\PlanarFigure\include;E:\D\MITK-superbuild\MITK-build\Modules\SceneSerializationBase;E:\D\MITK\Modules\SceneSerializationBase\include;E:\D\MITK-superbuild\ep\include\tinyxml;E:\D\MITK-superbuild\MITK-build\Modules\LegacyGL;E:\D\MITK\Modules\LegacyGL\.;E:\D\MITK-superbuild\MITK-build\Modules\Overlays;E:\D\MITK\Modules\Overlays\.;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtWidgets;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtOpenGL;C:\Qt\5.4\msvc2013_opengl\include\QtNetwork;C:\Qt\5.4\msvc2013_opengl\include\QtScript;C:\Qt\5.4\msvc2013_opengl\include\QtUiTools;C:\Qt\5.4\msvc2013_opengl\include\QtXmlPatterns;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4005;4231;4316</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WIN32_WINNT=0x0501;POCO_NO_UNWINDOWS;WIN32_LEAN_AND_MEAN;NOMINMAX;_DEBUG;US_MODULE_NAME=MitkXNAT;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_OPENGL_LIB;QT_NETWORK_LIB;QT_SCRIPT_LIB;QT_UITOOLS_LIB;QT_XMLPATTERNS_LIB;CMAKE_INTDIR="Debug";MitkXNAT_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WIN32_WINNT=0x0501;POCO_NO_UNWINDOWS;WIN32_LEAN_AND_MEAN;NOMINMAX;_DEBUG;US_MODULE_NAME=MitkXNAT;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_OPENGL_LIB;QT_NETWORK_LIB;QT_SCRIPT_LIB;QT_UITOOLS_LIB;QT_XMLPATTERNS_LIB;CMAKE_INTDIR=\"Debug\";MitkXNAT_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\MITK-build\Modules\XNAT;E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build;E:\D\MITK-superbuild\ep\src\CTK\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build;E:\D\MITK\Modules\XNAT\include;E:\D\MITK\Modules\XNAT\src;E:\D\MITK\Modules\CppMicroServices\third_party;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\include;E:\D\MITK\Modules\CppMicroServices\core\include;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\core\include;E:\D\MITK\Modules\CppMicroServices\core\src\util;E:\D\MITK\Modules\CppMicroServices\core\src\service;E:\D\MITK\Modules\CppMicroServices\core\src\module;E:\D\MITK-superbuild\MITK-build\Modules\Core;E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\include\ITK-4.7;E:\D\MITK-superbuild\ep\include\vtk-6.2;E:\D\MITK-superbuild\ep\include\boost-1_59;E:\D\MITK\Modules\Core\include;E:\D\MITK-superbuild\MITK-build;E:\D\MITK-superbuild\MITK-build\Utilities\mbilog;E:\D\MITK\Utilities\mbilog\.;E:\D\MITK-superbuild\MITK-build\Modules\QtWidgets;E:\D\MITK\Modules\QtWidgets\include;E:\D\MITK-superbuild\MITK-build\Modules\PlanarFigure;E:\D\MITK\Modules\PlanarFigure\include;E:\D\MITK-superbuild\MITK-build\Modules\SceneSerializationBase;E:\D\MITK\Modules\SceneSerializationBase\include;E:\D\MITK-superbuild\ep\include\tinyxml;E:\D\MITK-superbuild\MITK-build\Modules\LegacyGL;E:\D\MITK\Modules\LegacyGL\.;E:\D\MITK-superbuild\MITK-build\Modules\Overlays;E:\D\MITK\Modules\Overlays\.;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtWidgets;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtOpenGL;C:\Qt\5.4\msvc2013_opengl\include\QtNetwork;C:\Qt\5.4\msvc2013_opengl\include\QtScript;C:\Qt\5.4\msvc2013_opengl\include\QtUiTools;C:\Qt\5.4\msvc2013_opengl\include\QtXmlPatterns;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\MITK-build\Modules\XNAT;E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build;E:\D\MITK-superbuild\ep\src\CTK\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build;E:\D\MITK\Modules\XNAT\include;E:\D\MITK\Modules\XNAT\src;E:\D\MITK\Modules\CppMicroServices\third_party;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\include;E:\D\MITK\Modules\CppMicroServices\core\include;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\core\include;E:\D\MITK\Modules\CppMicroServices\core\src\util;E:\D\MITK\Modules\CppMicroServices\core\src\service;E:\D\MITK\Modules\CppMicroServices\core\src\module;E:\D\MITK-superbuild\MITK-build\Modules\Core;E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\include\ITK-4.7;E:\D\MITK-superbuild\ep\include\vtk-6.2;E:\D\MITK-superbuild\ep\include\boost-1_59;E:\D\MITK\Modules\Core\include;E:\D\MITK-superbuild\MITK-build;E:\D\MITK-superbuild\MITK-build\Utilities\mbilog;E:\D\MITK\Utilities\mbilog\.;E:\D\MITK-superbuild\MITK-build\Modules\QtWidgets;E:\D\MITK\Modules\QtWidgets\include;E:\D\MITK-superbuild\MITK-build\Modules\PlanarFigure;E:\D\MITK\Modules\PlanarFigure\include;E:\D\MITK-superbuild\MITK-build\Modules\SceneSerializationBase;E:\D\MITK\Modules\SceneSerializationBase\include;E:\D\MITK-superbuild\ep\include\tinyxml;E:\D\MITK-superbuild\MITK-build\Modules\LegacyGL;E:\D\MITK\Modules\LegacyGL\.;E:\D\MITK-superbuild\MITK-build\Modules\Overlays;E:\D\MITK\Modules\Overlays\.;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtWidgets;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtOpenGL;C:\Qt\5.4\msvc2013_opengl\include\QtNetwork;C:\Qt\5.4\msvc2013_opengl\include\QtScript;C:\Qt\5.4\msvc2013_opengl\include\QtUiTools;C:\Qt\5.4\msvc2013_opengl\include\QtXmlPatterns;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\Debug\MitkQtWidgets.lib;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\bin\Debug\CTKXNATCore.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5UiToolsd.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5XmlPatternsd.lib;..\..\lib\Debug\MitkPlanarFigure.lib;..\..\lib\Debug\MitkSceneSerializationBase.lib;E:\D\MITK-superbuild\ep\lib\tinyxmld.lib;..\..\lib\Debug\MitkLegacyGL.lib;..\..\lib\Debug\MitkOverlays.lib;..\..\lib\Debug\MitkCore.lib;..\..\lib\Debug\CppMicroServices.lib;..\..\lib\Debug\mbilog.lib;E:\D\MITK-superbuild\ep\lib\ITKIOGDCM-4.7d.lib;E:\D\MITK-superbuild\ep\lib\gdcmMSFFd.lib;E:\D\MITK-superbuild\ep\lib\gdcmDICTd.lib;E:\D\MITK-superbuild\ep\lib\gdcmIODd.lib;E:\D\MITK-superbuild\ep\lib\gdcmDSEDd.lib;E:\D\MITK-superbuild\ep\lib\gdcmCommond.lib;E:\D\MITK-superbuild\ep\lib\ITKSpatialObjects-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKPath-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKMesh-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKStatistics-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkNetlibSlatec-4.7d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersTexture-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersParallel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkParallelCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOLegacy-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingStencil-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingMath-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingVolumeOpenGL-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingFreeTypeOpenGL-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingLabel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkInteractionWidgets-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersModeling-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingVolume-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersHybrid-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingGeneral-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingSources-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingAnnotation-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingFreeType-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkftgl-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkfreetype-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingColor-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOXML-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOGeometry-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkjsoncpp-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOXMLParser-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkexpat-6.2d.lib;E:\D\MITK-superbuild\ep\lib\ITKMetaIO-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkzlib-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOImageBase-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKCommon-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkdouble-conversion-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itksys-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKVNLInstantiation-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl_algo-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkv3p_lsqr-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvcl-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkv3p_netlib-4.7d.lib;E:\D\MITK-superbuild\ep\lib\vtkGUISupportQtOpenGL-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkGUISupportQt-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkInteractionStyle-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingOpenGL-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersExtraction-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersStatistics-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingFourier-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkalglib-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersGeometry-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersSources-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersGeneral-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonComputationalGeometry-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonColor-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingHybrid-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOImage-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonExecutionModel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonDataModel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonMisc-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonSystem-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtksys-6.2d.lib;ws2_32.lib;Psapi.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonTransforms-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonMath-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkDICOMParser-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkmetaio-6.2d.lib;comctl32.lib;wsock32.lib;E:\D\MITK-superbuild\ep\lib\vtkpng-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtktiff-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkzlib-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkjpeg-6.2d.lib;glu32.lib;opengl32.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5OpenGLd.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Widgetsd.lib;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\bin\Debug\CTKCore.lib;dbghelp.lib;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\Debug\qRestAPI.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Guid.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Scriptd.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Networkd.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Cored.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:/D/MITK-superbuild/ep/lib;E:/D/MITK-superbuild/ep/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/MITK-build/lib/Debug/MitkXNAT.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/MITK-build/bin/Debug/MitkXNAT.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\MITK-build\Modules\XNAT;E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build;E:\D\MITK-superbuild\ep\src\CTK\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build;E:\D\MITK\Modules\XNAT\include;E:\D\MITK\Modules\XNAT\src;E:\D\MITK\Modules\CppMicroServices\third_party;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\include;E:\D\MITK\Modules\CppMicroServices\core\include;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\core\include;E:\D\MITK\Modules\CppMicroServices\core\src\util;E:\D\MITK\Modules\CppMicroServices\core\src\service;E:\D\MITK\Modules\CppMicroServices\core\src\module;E:\D\MITK-superbuild\MITK-build\Modules\Core;E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\include\ITK-4.7;E:\D\MITK-superbuild\ep\include\vtk-6.2;E:\D\MITK-superbuild\ep\include\boost-1_59;E:\D\MITK\Modules\Core\include;E:\D\MITK-superbuild\MITK-build;E:\D\MITK-superbuild\MITK-build\Utilities\mbilog;E:\D\MITK\Utilities\mbilog\.;E:\D\MITK-superbuild\MITK-build\Modules\QtWidgets;E:\D\MITK\Modules\QtWidgets\include;E:\D\MITK-superbuild\MITK-build\Modules\PlanarFigure;E:\D\MITK\Modules\PlanarFigure\include;E:\D\MITK-superbuild\MITK-build\Modules\SceneSerializationBase;E:\D\MITK\Modules\SceneSerializationBase\include;E:\D\MITK-superbuild\ep\include\tinyxml;E:\D\MITK-superbuild\MITK-build\Modules\LegacyGL;E:\D\MITK\Modules\LegacyGL\.;E:\D\MITK-superbuild\MITK-build\Modules\Overlays;E:\D\MITK\Modules\Overlays\.;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtWidgets;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtOpenGL;C:\Qt\5.4\msvc2013_opengl\include\QtNetwork;C:\Qt\5.4\msvc2013_opengl\include\QtScript;C:\Qt\5.4\msvc2013_opengl\include\QtUiTools;C:\Qt\5.4\msvc2013_opengl\include\QtXmlPatterns;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4005;4231;4316</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WIN32_WINNT=0x0501;POCO_NO_UNWINDOWS;WIN32_LEAN_AND_MEAN;NOMINMAX;NDEBUG;US_MODULE_NAME=MitkXNAT;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_OPENGL_LIB;QT_NETWORK_LIB;QT_SCRIPT_LIB;QT_UITOOLS_LIB;QT_XMLPATTERNS_LIB;CMAKE_INTDIR="Release";MitkXNAT_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WIN32_WINNT=0x0501;POCO_NO_UNWINDOWS;WIN32_LEAN_AND_MEAN;NOMINMAX;NDEBUG;US_MODULE_NAME=MitkXNAT;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_OPENGL_LIB;QT_NETWORK_LIB;QT_SCRIPT_LIB;QT_UITOOLS_LIB;QT_XMLPATTERNS_LIB;CMAKE_INTDIR=\"Release\";MitkXNAT_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\MITK-build\Modules\XNAT;E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build;E:\D\MITK-superbuild\ep\src\CTK\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build;E:\D\MITK\Modules\XNAT\include;E:\D\MITK\Modules\XNAT\src;E:\D\MITK\Modules\CppMicroServices\third_party;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\include;E:\D\MITK\Modules\CppMicroServices\core\include;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\core\include;E:\D\MITK\Modules\CppMicroServices\core\src\util;E:\D\MITK\Modules\CppMicroServices\core\src\service;E:\D\MITK\Modules\CppMicroServices\core\src\module;E:\D\MITK-superbuild\MITK-build\Modules\Core;E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\include\ITK-4.7;E:\D\MITK-superbuild\ep\include\vtk-6.2;E:\D\MITK-superbuild\ep\include\boost-1_59;E:\D\MITK\Modules\Core\include;E:\D\MITK-superbuild\MITK-build;E:\D\MITK-superbuild\MITK-build\Utilities\mbilog;E:\D\MITK\Utilities\mbilog\.;E:\D\MITK-superbuild\MITK-build\Modules\QtWidgets;E:\D\MITK\Modules\QtWidgets\include;E:\D\MITK-superbuild\MITK-build\Modules\PlanarFigure;E:\D\MITK\Modules\PlanarFigure\include;E:\D\MITK-superbuild\MITK-build\Modules\SceneSerializationBase;E:\D\MITK\Modules\SceneSerializationBase\include;E:\D\MITK-superbuild\ep\include\tinyxml;E:\D\MITK-superbuild\MITK-build\Modules\LegacyGL;E:\D\MITK\Modules\LegacyGL\.;E:\D\MITK-superbuild\MITK-build\Modules\Overlays;E:\D\MITK\Modules\Overlays\.;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtWidgets;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtOpenGL;C:\Qt\5.4\msvc2013_opengl\include\QtNetwork;C:\Qt\5.4\msvc2013_opengl\include\QtScript;C:\Qt\5.4\msvc2013_opengl\include\QtUiTools;C:\Qt\5.4\msvc2013_opengl\include\QtXmlPatterns;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\MITK-build\Modules\XNAT;E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build;E:\D\MITK-superbuild\ep\src\CTK\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build;E:\D\MITK\Modules\XNAT\include;E:\D\MITK\Modules\XNAT\src;E:\D\MITK\Modules\CppMicroServices\third_party;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\include;E:\D\MITK\Modules\CppMicroServices\core\include;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\core\include;E:\D\MITK\Modules\CppMicroServices\core\src\util;E:\D\MITK\Modules\CppMicroServices\core\src\service;E:\D\MITK\Modules\CppMicroServices\core\src\module;E:\D\MITK-superbuild\MITK-build\Modules\Core;E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\include\ITK-4.7;E:\D\MITK-superbuild\ep\include\vtk-6.2;E:\D\MITK-superbuild\ep\include\boost-1_59;E:\D\MITK\Modules\Core\include;E:\D\MITK-superbuild\MITK-build;E:\D\MITK-superbuild\MITK-build\Utilities\mbilog;E:\D\MITK\Utilities\mbilog\.;E:\D\MITK-superbuild\MITK-build\Modules\QtWidgets;E:\D\MITK\Modules\QtWidgets\include;E:\D\MITK-superbuild\MITK-build\Modules\PlanarFigure;E:\D\MITK\Modules\PlanarFigure\include;E:\D\MITK-superbuild\MITK-build\Modules\SceneSerializationBase;E:\D\MITK\Modules\SceneSerializationBase\include;E:\D\MITK-superbuild\ep\include\tinyxml;E:\D\MITK-superbuild\MITK-build\Modules\LegacyGL;E:\D\MITK\Modules\LegacyGL\.;E:\D\MITK-superbuild\MITK-build\Modules\Overlays;E:\D\MITK\Modules\Overlays\.;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtWidgets;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtOpenGL;C:\Qt\5.4\msvc2013_opengl\include\QtNetwork;C:\Qt\5.4\msvc2013_opengl\include\QtScript;C:\Qt\5.4\msvc2013_opengl\include\QtUiTools;C:\Qt\5.4\msvc2013_opengl\include\QtXmlPatterns;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\Release\MitkQtWidgets.lib;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\bin\Release\CTKXNATCore.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5UiTools.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5XmlPatterns.lib;..\..\lib\Release\MitkPlanarFigure.lib;..\..\lib\Release\MitkSceneSerializationBase.lib;E:\D\MITK-superbuild\ep\lib\tinyxmld.lib;..\..\lib\Release\MitkLegacyGL.lib;..\..\lib\Release\MitkOverlays.lib;..\..\lib\Release\MitkCore.lib;..\..\lib\Release\CppMicroServices.lib;..\..\lib\Release\mbilog.lib;E:\D\MITK-superbuild\ep\lib\ITKIOGDCM-4.7d.lib;E:\D\MITK-superbuild\ep\lib\gdcmMSFFd.lib;E:\D\MITK-superbuild\ep\lib\gdcmDICTd.lib;E:\D\MITK-superbuild\ep\lib\gdcmIODd.lib;E:\D\MITK-superbuild\ep\lib\gdcmDSEDd.lib;E:\D\MITK-superbuild\ep\lib\gdcmCommond.lib;E:\D\MITK-superbuild\ep\lib\ITKSpatialObjects-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKPath-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKMesh-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKStatistics-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkNetlibSlatec-4.7d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersTexture-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersParallel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkParallelCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOLegacy-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingStencil-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingMath-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingVolumeOpenGL-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingFreeTypeOpenGL-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingLabel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkInteractionWidgets-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersModeling-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingVolume-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersHybrid-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingGeneral-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingSources-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingAnnotation-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingFreeType-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkftgl-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkfreetype-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingColor-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOXML-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOGeometry-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkjsoncpp-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOXMLParser-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkexpat-6.2d.lib;E:\D\MITK-superbuild\ep\lib\ITKMetaIO-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkzlib-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOImageBase-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKCommon-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkdouble-conversion-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itksys-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKVNLInstantiation-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl_algo-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkv3p_lsqr-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvcl-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkv3p_netlib-4.7d.lib;E:\D\MITK-superbuild\ep\lib\vtkGUISupportQtOpenGL-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkGUISupportQt-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkInteractionStyle-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingOpenGL-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersExtraction-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersStatistics-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingFourier-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkalglib-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersGeometry-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersSources-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersGeneral-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonComputationalGeometry-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonColor-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingHybrid-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOImage-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonExecutionModel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonDataModel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonMisc-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonSystem-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtksys-6.2d.lib;ws2_32.lib;Psapi.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonTransforms-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonMath-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkDICOMParser-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkmetaio-6.2d.lib;comctl32.lib;wsock32.lib;E:\D\MITK-superbuild\ep\lib\vtkpng-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtktiff-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkzlib-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkjpeg-6.2d.lib;glu32.lib;opengl32.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5OpenGL.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Widgets.lib;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\bin\Release\CTKCore.lib;dbghelp.lib;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\Release\qRestAPI.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Gui.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Script.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Network.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Core.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:/D/MITK-superbuild/ep/lib;E:/D/MITK-superbuild/ep/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/MITK-build/lib/Release/MitkXNAT.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/MITK-build/bin/Release/MitkXNAT.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\MITK-build\Modules\XNAT;E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build;E:\D\MITK-superbuild\ep\src\CTK\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build;E:\D\MITK\Modules\XNAT\include;E:\D\MITK\Modules\XNAT\src;E:\D\MITK\Modules\CppMicroServices\third_party;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\include;E:\D\MITK\Modules\CppMicroServices\core\include;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\core\include;E:\D\MITK\Modules\CppMicroServices\core\src\util;E:\D\MITK\Modules\CppMicroServices\core\src\service;E:\D\MITK\Modules\CppMicroServices\core\src\module;E:\D\MITK-superbuild\MITK-build\Modules\Core;E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\include\ITK-4.7;E:\D\MITK-superbuild\ep\include\vtk-6.2;E:\D\MITK-superbuild\ep\include\boost-1_59;E:\D\MITK\Modules\Core\include;E:\D\MITK-superbuild\MITK-build;E:\D\MITK-superbuild\MITK-build\Utilities\mbilog;E:\D\MITK\Utilities\mbilog\.;E:\D\MITK-superbuild\MITK-build\Modules\QtWidgets;E:\D\MITK\Modules\QtWidgets\include;E:\D\MITK-superbuild\MITK-build\Modules\PlanarFigure;E:\D\MITK\Modules\PlanarFigure\include;E:\D\MITK-superbuild\MITK-build\Modules\SceneSerializationBase;E:\D\MITK\Modules\SceneSerializationBase\include;E:\D\MITK-superbuild\ep\include\tinyxml;E:\D\MITK-superbuild\MITK-build\Modules\LegacyGL;E:\D\MITK\Modules\LegacyGL\.;E:\D\MITK-superbuild\MITK-build\Modules\Overlays;E:\D\MITK\Modules\Overlays\.;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtWidgets;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtOpenGL;C:\Qt\5.4\msvc2013_opengl\include\QtNetwork;C:\Qt\5.4\msvc2013_opengl\include\QtScript;C:\Qt\5.4\msvc2013_opengl\include\QtUiTools;C:\Qt\5.4\msvc2013_opengl\include\QtXmlPatterns;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4005;4231;4316</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WIN32_WINNT=0x0501;POCO_NO_UNWINDOWS;WIN32_LEAN_AND_MEAN;NOMINMAX;NDEBUG;US_MODULE_NAME=MitkXNAT;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_OPENGL_LIB;QT_NETWORK_LIB;QT_SCRIPT_LIB;QT_UITOOLS_LIB;QT_XMLPATTERNS_LIB;CMAKE_INTDIR="MinSizeRel";MitkXNAT_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WIN32_WINNT=0x0501;POCO_NO_UNWINDOWS;WIN32_LEAN_AND_MEAN;NOMINMAX;NDEBUG;US_MODULE_NAME=MitkXNAT;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_OPENGL_LIB;QT_NETWORK_LIB;QT_SCRIPT_LIB;QT_UITOOLS_LIB;QT_XMLPATTERNS_LIB;CMAKE_INTDIR=\"MinSizeRel\";MitkXNAT_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\MITK-build\Modules\XNAT;E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build;E:\D\MITK-superbuild\ep\src\CTK\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build;E:\D\MITK\Modules\XNAT\include;E:\D\MITK\Modules\XNAT\src;E:\D\MITK\Modules\CppMicroServices\third_party;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\include;E:\D\MITK\Modules\CppMicroServices\core\include;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\core\include;E:\D\MITK\Modules\CppMicroServices\core\src\util;E:\D\MITK\Modules\CppMicroServices\core\src\service;E:\D\MITK\Modules\CppMicroServices\core\src\module;E:\D\MITK-superbuild\MITK-build\Modules\Core;E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\include\ITK-4.7;E:\D\MITK-superbuild\ep\include\vtk-6.2;E:\D\MITK-superbuild\ep\include\boost-1_59;E:\D\MITK\Modules\Core\include;E:\D\MITK-superbuild\MITK-build;E:\D\MITK-superbuild\MITK-build\Utilities\mbilog;E:\D\MITK\Utilities\mbilog\.;E:\D\MITK-superbuild\MITK-build\Modules\QtWidgets;E:\D\MITK\Modules\QtWidgets\include;E:\D\MITK-superbuild\MITK-build\Modules\PlanarFigure;E:\D\MITK\Modules\PlanarFigure\include;E:\D\MITK-superbuild\MITK-build\Modules\SceneSerializationBase;E:\D\MITK\Modules\SceneSerializationBase\include;E:\D\MITK-superbuild\ep\include\tinyxml;E:\D\MITK-superbuild\MITK-build\Modules\LegacyGL;E:\D\MITK\Modules\LegacyGL\.;E:\D\MITK-superbuild\MITK-build\Modules\Overlays;E:\D\MITK\Modules\Overlays\.;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtWidgets;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtOpenGL;C:\Qt\5.4\msvc2013_opengl\include\QtNetwork;C:\Qt\5.4\msvc2013_opengl\include\QtScript;C:\Qt\5.4\msvc2013_opengl\include\QtUiTools;C:\Qt\5.4\msvc2013_opengl\include\QtXmlPatterns;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\MITK-build\Modules\XNAT;E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build;E:\D\MITK-superbuild\ep\src\CTK\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build;E:\D\MITK\Modules\XNAT\include;E:\D\MITK\Modules\XNAT\src;E:\D\MITK\Modules\CppMicroServices\third_party;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\include;E:\D\MITK\Modules\CppMicroServices\core\include;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\core\include;E:\D\MITK\Modules\CppMicroServices\core\src\util;E:\D\MITK\Modules\CppMicroServices\core\src\service;E:\D\MITK\Modules\CppMicroServices\core\src\module;E:\D\MITK-superbuild\MITK-build\Modules\Core;E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\include\ITK-4.7;E:\D\MITK-superbuild\ep\include\vtk-6.2;E:\D\MITK-superbuild\ep\include\boost-1_59;E:\D\MITK\Modules\Core\include;E:\D\MITK-superbuild\MITK-build;E:\D\MITK-superbuild\MITK-build\Utilities\mbilog;E:\D\MITK\Utilities\mbilog\.;E:\D\MITK-superbuild\MITK-build\Modules\QtWidgets;E:\D\MITK\Modules\QtWidgets\include;E:\D\MITK-superbuild\MITK-build\Modules\PlanarFigure;E:\D\MITK\Modules\PlanarFigure\include;E:\D\MITK-superbuild\MITK-build\Modules\SceneSerializationBase;E:\D\MITK\Modules\SceneSerializationBase\include;E:\D\MITK-superbuild\ep\include\tinyxml;E:\D\MITK-superbuild\MITK-build\Modules\LegacyGL;E:\D\MITK\Modules\LegacyGL\.;E:\D\MITK-superbuild\MITK-build\Modules\Overlays;E:\D\MITK\Modules\Overlays\.;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtWidgets;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtOpenGL;C:\Qt\5.4\msvc2013_opengl\include\QtNetwork;C:\Qt\5.4\msvc2013_opengl\include\QtScript;C:\Qt\5.4\msvc2013_opengl\include\QtUiTools;C:\Qt\5.4\msvc2013_opengl\include\QtXmlPatterns;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\MinSizeRel\MitkQtWidgets.lib;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\bin\MinSizeRel\CTKXNATCore.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5UiTools.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5XmlPatterns.lib;..\..\lib\MinSizeRel\MitkPlanarFigure.lib;..\..\lib\MinSizeRel\MitkSceneSerializationBase.lib;E:\D\MITK-superbuild\ep\lib\tinyxmld.lib;..\..\lib\MinSizeRel\MitkLegacyGL.lib;..\..\lib\MinSizeRel\MitkOverlays.lib;..\..\lib\MinSizeRel\MitkCore.lib;..\..\lib\MinSizeRel\CppMicroServices.lib;..\..\lib\MinSizeRel\mbilog.lib;E:\D\MITK-superbuild\ep\lib\ITKIOGDCM-4.7d.lib;E:\D\MITK-superbuild\ep\lib\gdcmMSFFd.lib;E:\D\MITK-superbuild\ep\lib\gdcmDICTd.lib;E:\D\MITK-superbuild\ep\lib\gdcmIODd.lib;E:\D\MITK-superbuild\ep\lib\gdcmDSEDd.lib;E:\D\MITK-superbuild\ep\lib\gdcmCommond.lib;E:\D\MITK-superbuild\ep\lib\ITKSpatialObjects-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKPath-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKMesh-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKStatistics-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkNetlibSlatec-4.7d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersTexture-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersParallel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkParallelCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOLegacy-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingStencil-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingMath-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingVolumeOpenGL-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingFreeTypeOpenGL-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingLabel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkInteractionWidgets-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersModeling-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingVolume-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersHybrid-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingGeneral-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingSources-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingAnnotation-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingFreeType-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkftgl-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkfreetype-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingColor-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOXML-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOGeometry-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkjsoncpp-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOXMLParser-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkexpat-6.2d.lib;E:\D\MITK-superbuild\ep\lib\ITKMetaIO-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkzlib-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOImageBase-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKCommon-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkdouble-conversion-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itksys-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKVNLInstantiation-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl_algo-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkv3p_lsqr-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvcl-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkv3p_netlib-4.7d.lib;E:\D\MITK-superbuild\ep\lib\vtkGUISupportQtOpenGL-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkGUISupportQt-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkInteractionStyle-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingOpenGL-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersExtraction-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersStatistics-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingFourier-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkalglib-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersGeometry-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersSources-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersGeneral-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonComputationalGeometry-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonColor-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingHybrid-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOImage-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonExecutionModel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonDataModel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonMisc-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonSystem-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtksys-6.2d.lib;ws2_32.lib;Psapi.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonTransforms-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonMath-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkDICOMParser-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkmetaio-6.2d.lib;comctl32.lib;wsock32.lib;E:\D\MITK-superbuild\ep\lib\vtkpng-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtktiff-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkzlib-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkjpeg-6.2d.lib;glu32.lib;opengl32.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5OpenGL.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Widgets.lib;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\bin\MinSizeRel\CTKCore.lib;dbghelp.lib;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\MinSizeRel\qRestAPI.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Gui.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Script.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Network.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Core.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:/D/MITK-superbuild/ep/lib;E:/D/MITK-superbuild/ep/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/MITK-build/lib/MinSizeRel/MitkXNAT.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/MITK-build/bin/MinSizeRel/MitkXNAT.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\MITK-build\Modules\XNAT;E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build;E:\D\MITK-superbuild\ep\src\CTK\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build;E:\D\MITK\Modules\XNAT\include;E:\D\MITK\Modules\XNAT\src;E:\D\MITK\Modules\CppMicroServices\third_party;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\include;E:\D\MITK\Modules\CppMicroServices\core\include;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\core\include;E:\D\MITK\Modules\CppMicroServices\core\src\util;E:\D\MITK\Modules\CppMicroServices\core\src\service;E:\D\MITK\Modules\CppMicroServices\core\src\module;E:\D\MITK-superbuild\MITK-build\Modules\Core;E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\include\ITK-4.7;E:\D\MITK-superbuild\ep\include\vtk-6.2;E:\D\MITK-superbuild\ep\include\boost-1_59;E:\D\MITK\Modules\Core\include;E:\D\MITK-superbuild\MITK-build;E:\D\MITK-superbuild\MITK-build\Utilities\mbilog;E:\D\MITK\Utilities\mbilog\.;E:\D\MITK-superbuild\MITK-build\Modules\QtWidgets;E:\D\MITK\Modules\QtWidgets\include;E:\D\MITK-superbuild\MITK-build\Modules\PlanarFigure;E:\D\MITK\Modules\PlanarFigure\include;E:\D\MITK-superbuild\MITK-build\Modules\SceneSerializationBase;E:\D\MITK\Modules\SceneSerializationBase\include;E:\D\MITK-superbuild\ep\include\tinyxml;E:\D\MITK-superbuild\MITK-build\Modules\LegacyGL;E:\D\MITK\Modules\LegacyGL\.;E:\D\MITK-superbuild\MITK-build\Modules\Overlays;E:\D\MITK\Modules\Overlays\.;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtWidgets;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtOpenGL;C:\Qt\5.4\msvc2013_opengl\include\QtNetwork;C:\Qt\5.4\msvc2013_opengl\include\QtScript;C:\Qt\5.4\msvc2013_opengl\include\QtUiTools;C:\Qt\5.4\msvc2013_opengl\include\QtXmlPatterns;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4005;4231;4316</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WIN32_WINNT=0x0501;POCO_NO_UNWINDOWS;WIN32_LEAN_AND_MEAN;NOMINMAX;NDEBUG;US_MODULE_NAME=MitkXNAT;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_OPENGL_LIB;QT_NETWORK_LIB;QT_SCRIPT_LIB;QT_UITOOLS_LIB;QT_XMLPATTERNS_LIB;CMAKE_INTDIR="RelWithDebInfo";MitkXNAT_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WIN32_WINNT=0x0501;POCO_NO_UNWINDOWS;WIN32_LEAN_AND_MEAN;NOMINMAX;NDEBUG;US_MODULE_NAME=MitkXNAT;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_OPENGL_LIB;QT_NETWORK_LIB;QT_SCRIPT_LIB;QT_UITOOLS_LIB;QT_XMLPATTERNS_LIB;CMAKE_INTDIR=\"RelWithDebInfo\";MitkXNAT_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\MITK-build\Modules\XNAT;E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build;E:\D\MITK-superbuild\ep\src\CTK\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build;E:\D\MITK\Modules\XNAT\include;E:\D\MITK\Modules\XNAT\src;E:\D\MITK\Modules\CppMicroServices\third_party;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\include;E:\D\MITK\Modules\CppMicroServices\core\include;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\core\include;E:\D\MITK\Modules\CppMicroServices\core\src\util;E:\D\MITK\Modules\CppMicroServices\core\src\service;E:\D\MITK\Modules\CppMicroServices\core\src\module;E:\D\MITK-superbuild\MITK-build\Modules\Core;E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\include\ITK-4.7;E:\D\MITK-superbuild\ep\include\vtk-6.2;E:\D\MITK-superbuild\ep\include\boost-1_59;E:\D\MITK\Modules\Core\include;E:\D\MITK-superbuild\MITK-build;E:\D\MITK-superbuild\MITK-build\Utilities\mbilog;E:\D\MITK\Utilities\mbilog\.;E:\D\MITK-superbuild\MITK-build\Modules\QtWidgets;E:\D\MITK\Modules\QtWidgets\include;E:\D\MITK-superbuild\MITK-build\Modules\PlanarFigure;E:\D\MITK\Modules\PlanarFigure\include;E:\D\MITK-superbuild\MITK-build\Modules\SceneSerializationBase;E:\D\MITK\Modules\SceneSerializationBase\include;E:\D\MITK-superbuild\ep\include\tinyxml;E:\D\MITK-superbuild\MITK-build\Modules\LegacyGL;E:\D\MITK\Modules\LegacyGL\.;E:\D\MITK-superbuild\MITK-build\Modules\Overlays;E:\D\MITK\Modules\Overlays\.;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtWidgets;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtOpenGL;C:\Qt\5.4\msvc2013_opengl\include\QtNetwork;C:\Qt\5.4\msvc2013_opengl\include\QtScript;C:\Qt\5.4\msvc2013_opengl\include\QtUiTools;C:\Qt\5.4\msvc2013_opengl\include\QtXmlPatterns;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\MITK-build\Modules\XNAT;E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build;E:\D\MITK-superbuild\ep\src\CTK\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build;E:\D\MITK\Modules\XNAT\include;E:\D\MITK\Modules\XNAT\src;E:\D\MITK\Modules\CppMicroServices\third_party;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\include;E:\D\MITK\Modules\CppMicroServices\core\include;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\core\include;E:\D\MITK\Modules\CppMicroServices\core\src\util;E:\D\MITK\Modules\CppMicroServices\core\src\service;E:\D\MITK\Modules\CppMicroServices\core\src\module;E:\D\MITK-superbuild\MITK-build\Modules\Core;E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\include\ITK-4.7;E:\D\MITK-superbuild\ep\include\vtk-6.2;E:\D\MITK-superbuild\ep\include\boost-1_59;E:\D\MITK\Modules\Core\include;E:\D\MITK-superbuild\MITK-build;E:\D\MITK-superbuild\MITK-build\Utilities\mbilog;E:\D\MITK\Utilities\mbilog\.;E:\D\MITK-superbuild\MITK-build\Modules\QtWidgets;E:\D\MITK\Modules\QtWidgets\include;E:\D\MITK-superbuild\MITK-build\Modules\PlanarFigure;E:\D\MITK\Modules\PlanarFigure\include;E:\D\MITK-superbuild\MITK-build\Modules\SceneSerializationBase;E:\D\MITK\Modules\SceneSerializationBase\include;E:\D\MITK-superbuild\ep\include\tinyxml;E:\D\MITK-superbuild\MITK-build\Modules\LegacyGL;E:\D\MITK\Modules\LegacyGL\.;E:\D\MITK-superbuild\MITK-build\Modules\Overlays;E:\D\MITK\Modules\Overlays\.;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtWidgets;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtOpenGL;C:\Qt\5.4\msvc2013_opengl\include\QtNetwork;C:\Qt\5.4\msvc2013_opengl\include\QtScript;C:\Qt\5.4\msvc2013_opengl\include\QtUiTools;C:\Qt\5.4\msvc2013_opengl\include\QtXmlPatterns;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\RelWithDebInfo\MitkQtWidgets.lib;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\bin\RelWithDebInfo\CTKXNATCore.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5UiTools.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5XmlPatterns.lib;..\..\lib\RelWithDebInfo\MitkPlanarFigure.lib;..\..\lib\RelWithDebInfo\MitkSceneSerializationBase.lib;E:\D\MITK-superbuild\ep\lib\tinyxmld.lib;..\..\lib\RelWithDebInfo\MitkLegacyGL.lib;..\..\lib\RelWithDebInfo\MitkOverlays.lib;..\..\lib\RelWithDebInfo\MitkCore.lib;..\..\lib\RelWithDebInfo\CppMicroServices.lib;..\..\lib\RelWithDebInfo\mbilog.lib;E:\D\MITK-superbuild\ep\lib\ITKIOGDCM-4.7d.lib;E:\D\MITK-superbuild\ep\lib\gdcmMSFFd.lib;E:\D\MITK-superbuild\ep\lib\gdcmDICTd.lib;E:\D\MITK-superbuild\ep\lib\gdcmIODd.lib;E:\D\MITK-superbuild\ep\lib\gdcmDSEDd.lib;E:\D\MITK-superbuild\ep\lib\gdcmCommond.lib;E:\D\MITK-superbuild\ep\lib\ITKSpatialObjects-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKPath-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKMesh-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKStatistics-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkNetlibSlatec-4.7d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersTexture-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersParallel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkParallelCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOLegacy-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingStencil-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingMath-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingVolumeOpenGL-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingFreeTypeOpenGL-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingLabel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkInteractionWidgets-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersModeling-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingVolume-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersHybrid-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingGeneral-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingSources-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingAnnotation-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingFreeType-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkftgl-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkfreetype-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingColor-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOXML-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOGeometry-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkjsoncpp-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOXMLParser-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkexpat-6.2d.lib;E:\D\MITK-superbuild\ep\lib\ITKMetaIO-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkzlib-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOImageBase-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKCommon-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkdouble-conversion-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itksys-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKVNLInstantiation-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl_algo-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkv3p_lsqr-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvcl-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkv3p_netlib-4.7d.lib;E:\D\MITK-superbuild\ep\lib\vtkGUISupportQtOpenGL-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkGUISupportQt-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkInteractionStyle-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingOpenGL-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersExtraction-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersStatistics-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingFourier-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkalglib-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersGeometry-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersSources-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersGeneral-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonComputationalGeometry-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonColor-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingHybrid-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOImage-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonExecutionModel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonDataModel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonMisc-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonSystem-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtksys-6.2d.lib;ws2_32.lib;Psapi.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonTransforms-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonMath-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkDICOMParser-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkmetaio-6.2d.lib;comctl32.lib;wsock32.lib;E:\D\MITK-superbuild\ep\lib\vtkpng-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtktiff-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkzlib-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkjpeg-6.2d.lib;glu32.lib;opengl32.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5OpenGL.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Widgets.lib;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\bin\RelWithDebInfo\CTKCore.lib;dbghelp.lib;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\RelWithDebInfo\qRestAPI.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Gui.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Script.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Network.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Core.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:/D/MITK-superbuild/ep/lib;E:/D/MITK-superbuild/ep/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/MITK-build/lib/RelWithDebInfo/MitkXNAT.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/MITK-build/bin/RelWithDebInfo/MitkXNAT.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK\Modules\XNAT\src\QmitkXnatExperimentWidgetControls.ui">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ui_QmitkXnatExperimentWidgetControls.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\uic.exe -o E:/D/MITK-superbuild/MITK-build/Modules/XNAT/ui_QmitkXnatExperimentWidgetControls.h E:/D/MITK/Modules/XNAT/src/QmitkXnatExperimentWidgetControls.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK/Modules/XNAT/src/QmitkXnatExperimentWidgetControls.ui;E:\D\MITK\Modules\XNAT\src\QmitkXnatExperimentWidgetControls.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\XNAT\ui_QmitkXnatExperimentWidgetControls.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ui_QmitkXnatExperimentWidgetControls.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\uic.exe -o E:/D/MITK-superbuild/MITK-build/Modules/XNAT/ui_QmitkXnatExperimentWidgetControls.h E:/D/MITK/Modules/XNAT/src/QmitkXnatExperimentWidgetControls.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK/Modules/XNAT/src/QmitkXnatExperimentWidgetControls.ui;E:\D\MITK\Modules\XNAT\src\QmitkXnatExperimentWidgetControls.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\XNAT\ui_QmitkXnatExperimentWidgetControls.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ui_QmitkXnatExperimentWidgetControls.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\uic.exe -o E:/D/MITK-superbuild/MITK-build/Modules/XNAT/ui_QmitkXnatExperimentWidgetControls.h E:/D/MITK/Modules/XNAT/src/QmitkXnatExperimentWidgetControls.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK/Modules/XNAT/src/QmitkXnatExperimentWidgetControls.ui;E:\D\MITK\Modules\XNAT\src\QmitkXnatExperimentWidgetControls.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\XNAT\ui_QmitkXnatExperimentWidgetControls.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ui_QmitkXnatExperimentWidgetControls.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\uic.exe -o E:/D/MITK-superbuild/MITK-build/Modules/XNAT/ui_QmitkXnatExperimentWidgetControls.h E:/D/MITK/Modules/XNAT/src/QmitkXnatExperimentWidgetControls.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK/Modules/XNAT/src/QmitkXnatExperimentWidgetControls.ui;E:\D\MITK\Modules\XNAT\src\QmitkXnatExperimentWidgetControls.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\XNAT\ui_QmitkXnatExperimentWidgetControls.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK\Modules\XNAT\src\QmitkXnatProjectWidgetControls.ui">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ui_QmitkXnatProjectWidgetControls.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\uic.exe -o E:/D/MITK-superbuild/MITK-build/Modules/XNAT/ui_QmitkXnatProjectWidgetControls.h E:/D/MITK/Modules/XNAT/src/QmitkXnatProjectWidgetControls.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK/Modules/XNAT/src/QmitkXnatProjectWidgetControls.ui;E:\D\MITK\Modules\XNAT\src\QmitkXnatProjectWidgetControls.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\XNAT\ui_QmitkXnatProjectWidgetControls.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ui_QmitkXnatProjectWidgetControls.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\uic.exe -o E:/D/MITK-superbuild/MITK-build/Modules/XNAT/ui_QmitkXnatProjectWidgetControls.h E:/D/MITK/Modules/XNAT/src/QmitkXnatProjectWidgetControls.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK/Modules/XNAT/src/QmitkXnatProjectWidgetControls.ui;E:\D\MITK\Modules\XNAT\src\QmitkXnatProjectWidgetControls.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\XNAT\ui_QmitkXnatProjectWidgetControls.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ui_QmitkXnatProjectWidgetControls.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\uic.exe -o E:/D/MITK-superbuild/MITK-build/Modules/XNAT/ui_QmitkXnatProjectWidgetControls.h E:/D/MITK/Modules/XNAT/src/QmitkXnatProjectWidgetControls.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK/Modules/XNAT/src/QmitkXnatProjectWidgetControls.ui;E:\D\MITK\Modules\XNAT\src\QmitkXnatProjectWidgetControls.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\XNAT\ui_QmitkXnatProjectWidgetControls.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ui_QmitkXnatProjectWidgetControls.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\uic.exe -o E:/D/MITK-superbuild/MITK-build/Modules/XNAT/ui_QmitkXnatProjectWidgetControls.h E:/D/MITK/Modules/XNAT/src/QmitkXnatProjectWidgetControls.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK/Modules/XNAT/src/QmitkXnatProjectWidgetControls.ui;E:\D\MITK\Modules\XNAT\src\QmitkXnatProjectWidgetControls.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\XNAT\ui_QmitkXnatProjectWidgetControls.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK\Modules\XNAT\src\QmitkSelectXnatUploadDestinationDialog.ui">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ui_QmitkSelectXnatUploadDestinationDialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\uic.exe -o E:/D/MITK-superbuild/MITK-build/Modules/XNAT/ui_QmitkSelectXnatUploadDestinationDialog.h E:/D/MITK/Modules/XNAT/src/QmitkSelectXnatUploadDestinationDialog.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK/Modules/XNAT/src/QmitkSelectXnatUploadDestinationDialog.ui;E:\D\MITK\Modules\XNAT\src\QmitkSelectXnatUploadDestinationDialog.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\XNAT\ui_QmitkSelectXnatUploadDestinationDialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ui_QmitkSelectXnatUploadDestinationDialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\uic.exe -o E:/D/MITK-superbuild/MITK-build/Modules/XNAT/ui_QmitkSelectXnatUploadDestinationDialog.h E:/D/MITK/Modules/XNAT/src/QmitkSelectXnatUploadDestinationDialog.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK/Modules/XNAT/src/QmitkSelectXnatUploadDestinationDialog.ui;E:\D\MITK\Modules\XNAT\src\QmitkSelectXnatUploadDestinationDialog.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\XNAT\ui_QmitkSelectXnatUploadDestinationDialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ui_QmitkSelectXnatUploadDestinationDialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\uic.exe -o E:/D/MITK-superbuild/MITK-build/Modules/XNAT/ui_QmitkSelectXnatUploadDestinationDialog.h E:/D/MITK/Modules/XNAT/src/QmitkSelectXnatUploadDestinationDialog.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK/Modules/XNAT/src/QmitkSelectXnatUploadDestinationDialog.ui;E:\D\MITK\Modules\XNAT\src\QmitkSelectXnatUploadDestinationDialog.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\XNAT\ui_QmitkSelectXnatUploadDestinationDialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ui_QmitkSelectXnatUploadDestinationDialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\uic.exe -o E:/D/MITK-superbuild/MITK-build/Modules/XNAT/ui_QmitkSelectXnatUploadDestinationDialog.h E:/D/MITK/Modules/XNAT/src/QmitkSelectXnatUploadDestinationDialog.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK/Modules/XNAT/src/QmitkSelectXnatUploadDestinationDialog.ui;E:\D\MITK\Modules\XNAT\src\QmitkSelectXnatUploadDestinationDialog.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\XNAT\ui_QmitkSelectXnatUploadDestinationDialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK\Modules\XNAT\src\QmitkXnatSubjectWidgetControls.ui">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ui_QmitkXnatSubjectWidgetControls.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\uic.exe -o E:/D/MITK-superbuild/MITK-build/Modules/XNAT/ui_QmitkXnatSubjectWidgetControls.h E:/D/MITK/Modules/XNAT/src/QmitkXnatSubjectWidgetControls.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK/Modules/XNAT/src/QmitkXnatSubjectWidgetControls.ui;E:\D\MITK\Modules\XNAT\src\QmitkXnatSubjectWidgetControls.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\XNAT\ui_QmitkXnatSubjectWidgetControls.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ui_QmitkXnatSubjectWidgetControls.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\uic.exe -o E:/D/MITK-superbuild/MITK-build/Modules/XNAT/ui_QmitkXnatSubjectWidgetControls.h E:/D/MITK/Modules/XNAT/src/QmitkXnatSubjectWidgetControls.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK/Modules/XNAT/src/QmitkXnatSubjectWidgetControls.ui;E:\D\MITK\Modules\XNAT\src\QmitkXnatSubjectWidgetControls.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\XNAT\ui_QmitkXnatSubjectWidgetControls.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ui_QmitkXnatSubjectWidgetControls.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\uic.exe -o E:/D/MITK-superbuild/MITK-build/Modules/XNAT/ui_QmitkXnatSubjectWidgetControls.h E:/D/MITK/Modules/XNAT/src/QmitkXnatSubjectWidgetControls.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK/Modules/XNAT/src/QmitkXnatSubjectWidgetControls.ui;E:\D\MITK\Modules\XNAT\src\QmitkXnatSubjectWidgetControls.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\XNAT\ui_QmitkXnatSubjectWidgetControls.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ui_QmitkXnatSubjectWidgetControls.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\uic.exe -o E:/D/MITK-superbuild/MITK-build/Modules/XNAT/ui_QmitkXnatSubjectWidgetControls.h E:/D/MITK/Modules/XNAT/src/QmitkXnatSubjectWidgetControls.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK/Modules/XNAT/src/QmitkXnatSubjectWidgetControls.ui;E:\D\MITK\Modules\XNAT\src\QmitkXnatSubjectWidgetControls.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\XNAT\ui_QmitkXnatSubjectWidgetControls.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK\Modules\XNAT\src\QmitkXnatUploadFromDataStorageDialog.ui">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ui_QmitkXnatUploadFromDataStorageDialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\uic.exe -o E:/D/MITK-superbuild/MITK-build/Modules/XNAT/ui_QmitkXnatUploadFromDataStorageDialog.h E:/D/MITK/Modules/XNAT/src/QmitkXnatUploadFromDataStorageDialog.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK/Modules/XNAT/src/QmitkXnatUploadFromDataStorageDialog.ui;E:\D\MITK\Modules\XNAT\src\QmitkXnatUploadFromDataStorageDialog.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\XNAT\ui_QmitkXnatUploadFromDataStorageDialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ui_QmitkXnatUploadFromDataStorageDialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\uic.exe -o E:/D/MITK-superbuild/MITK-build/Modules/XNAT/ui_QmitkXnatUploadFromDataStorageDialog.h E:/D/MITK/Modules/XNAT/src/QmitkXnatUploadFromDataStorageDialog.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK/Modules/XNAT/src/QmitkXnatUploadFromDataStorageDialog.ui;E:\D\MITK\Modules\XNAT\src\QmitkXnatUploadFromDataStorageDialog.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\XNAT\ui_QmitkXnatUploadFromDataStorageDialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ui_QmitkXnatUploadFromDataStorageDialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\uic.exe -o E:/D/MITK-superbuild/MITK-build/Modules/XNAT/ui_QmitkXnatUploadFromDataStorageDialog.h E:/D/MITK/Modules/XNAT/src/QmitkXnatUploadFromDataStorageDialog.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK/Modules/XNAT/src/QmitkXnatUploadFromDataStorageDialog.ui;E:\D\MITK\Modules\XNAT\src\QmitkXnatUploadFromDataStorageDialog.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\XNAT\ui_QmitkXnatUploadFromDataStorageDialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ui_QmitkXnatUploadFromDataStorageDialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\uic.exe -o E:/D/MITK-superbuild/MITK-build/Modules/XNAT/ui_QmitkXnatUploadFromDataStorageDialog.h E:/D/MITK/Modules/XNAT/src/QmitkXnatUploadFromDataStorageDialog.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK/Modules/XNAT/src/QmitkXnatUploadFromDataStorageDialog.ui;E:\D\MITK\Modules\XNAT\src\QmitkXnatUploadFromDataStorageDialog.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\XNAT\ui_QmitkXnatUploadFromDataStorageDialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK\Modules\XNAT\resources\xnat.qrc">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating qrc_xnat.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\rcc.exe -name xnat -o E:/D/MITK-superbuild/MITK-build/Modules/XNAT/qrc_xnat.cpp E:/D/MITK/Modules/XNAT/resources/xnat.qrc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK/Modules/XNAT/resources/xnat.qrc;E:\D\MITK\Modules\XNAT\resources\xnat-experiment.png;E:\D\MITK\Modules\XNAT\resources\xnat-file.png;E:\D\MITK\Modules\XNAT\resources\xnat-folder.png;E:\D\MITK\Modules\XNAT\resources\xnat-scan.png;E:\D\MITK\Modules\XNAT\resources\xnat-project.png;E:\D\MITK\Modules\XNAT\resources\xnat-resource.png;E:\D\MITK\Modules\XNAT\resources\xnat-server.png;E:\D\MITK\Modules\XNAT\resources\xnat-subject.png;E:\D\MITK-superbuild\MITK-build\Modules\XNAT\resources\xnat.qrc.depends;E:\D\MITK\Modules\XNAT\resources\xnat.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\XNAT\qrc_xnat.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating qrc_xnat.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\rcc.exe -name xnat -o E:/D/MITK-superbuild/MITK-build/Modules/XNAT/qrc_xnat.cpp E:/D/MITK/Modules/XNAT/resources/xnat.qrc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK/Modules/XNAT/resources/xnat.qrc;E:\D\MITK\Modules\XNAT\resources\xnat-experiment.png;E:\D\MITK\Modules\XNAT\resources\xnat-file.png;E:\D\MITK\Modules\XNAT\resources\xnat-folder.png;E:\D\MITK\Modules\XNAT\resources\xnat-scan.png;E:\D\MITK\Modules\XNAT\resources\xnat-project.png;E:\D\MITK\Modules\XNAT\resources\xnat-resource.png;E:\D\MITK\Modules\XNAT\resources\xnat-server.png;E:\D\MITK\Modules\XNAT\resources\xnat-subject.png;E:\D\MITK-superbuild\MITK-build\Modules\XNAT\resources\xnat.qrc.depends;E:\D\MITK\Modules\XNAT\resources\xnat.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\XNAT\qrc_xnat.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating qrc_xnat.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\rcc.exe -name xnat -o E:/D/MITK-superbuild/MITK-build/Modules/XNAT/qrc_xnat.cpp E:/D/MITK/Modules/XNAT/resources/xnat.qrc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK/Modules/XNAT/resources/xnat.qrc;E:\D\MITK\Modules\XNAT\resources\xnat-experiment.png;E:\D\MITK\Modules\XNAT\resources\xnat-file.png;E:\D\MITK\Modules\XNAT\resources\xnat-folder.png;E:\D\MITK\Modules\XNAT\resources\xnat-scan.png;E:\D\MITK\Modules\XNAT\resources\xnat-project.png;E:\D\MITK\Modules\XNAT\resources\xnat-resource.png;E:\D\MITK\Modules\XNAT\resources\xnat-server.png;E:\D\MITK\Modules\XNAT\resources\xnat-subject.png;E:\D\MITK-superbuild\MITK-build\Modules\XNAT\resources\xnat.qrc.depends;E:\D\MITK\Modules\XNAT\resources\xnat.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\XNAT\qrc_xnat.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating qrc_xnat.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\rcc.exe -name xnat -o E:/D/MITK-superbuild/MITK-build/Modules/XNAT/qrc_xnat.cpp E:/D/MITK/Modules/XNAT/resources/xnat.qrc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK/Modules/XNAT/resources/xnat.qrc;E:\D\MITK\Modules\XNAT\resources\xnat-experiment.png;E:\D\MITK\Modules\XNAT\resources\xnat-file.png;E:\D\MITK\Modules\XNAT\resources\xnat-folder.png;E:\D\MITK\Modules\XNAT\resources\xnat-scan.png;E:\D\MITK\Modules\XNAT\resources\xnat-project.png;E:\D\MITK\Modules\XNAT\resources\xnat-resource.png;E:\D\MITK\Modules\XNAT\resources\xnat-server.png;E:\D\MITK\Modules\XNAT\resources\xnat-subject.png;E:\D\MITK-superbuild\MITK-build\Modules\XNAT\resources\xnat.qrc.depends;E:\D\MITK\Modules\XNAT\resources\xnat.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\XNAT\qrc_xnat.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK\Modules\XNAT\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/D/MITK/Modules/XNAT/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK -BE:/D/MITK-superbuild/MITK-build --check-stamp-file E:\D\MITK-superbuild\MITK-build\Modules\XNAT\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK/Modules/XNAT/CMakeLists.txt;E:\D\MITK\Modules\XNAT\CMakeLists.txt;E:\D\MITK\Modules\XNAT\files.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\CppMicroServicesConfigVersion.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\CppMicroServicesConfig.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\CMakeParseArguments.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionGenerateModuleInit.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionAddResources.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionCheckCompilerFlags.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionEmbedResources.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionCheckResourceLinking.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionGetResourceSource.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\usCoreConfigVersion.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\usCoreConfig.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usModuleInit.cpp;E:\D\MITK\Modules\XNAT\resources\xnat.qrc;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\exportheader.cmake.in;E:\D\MITK\CMake\PackageDepends\MITK_CTK_Config.cmake;E:\D\MITK\CMake\PackageDepends\MITK_Qt5_Config.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5\Qt5Config.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5UiTools\Qt5UiToolsConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5UiTools\Qt5UiToolsConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5XmlPatterns\Qt5XmlPatternsConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5XmlPatterns\Qt5XmlPatternsConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;E:\D\MITK\Modules\XNAT\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\XNAT\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/D/MITK/Modules/XNAT/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK -BE:/D/MITK-superbuild/MITK-build --check-stamp-file E:\D\MITK-superbuild\MITK-build\Modules\XNAT\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK/Modules/XNAT/CMakeLists.txt;E:\D\MITK\Modules\XNAT\CMakeLists.txt;E:\D\MITK\Modules\XNAT\files.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\CppMicroServicesConfigVersion.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\CppMicroServicesConfig.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\CMakeParseArguments.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionGenerateModuleInit.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionAddResources.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionCheckCompilerFlags.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionEmbedResources.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionCheckResourceLinking.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionGetResourceSource.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\usCoreConfigVersion.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\usCoreConfig.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usModuleInit.cpp;E:\D\MITK\Modules\XNAT\resources\xnat.qrc;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\exportheader.cmake.in;E:\D\MITK\CMake\PackageDepends\MITK_CTK_Config.cmake;E:\D\MITK\CMake\PackageDepends\MITK_Qt5_Config.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5\Qt5Config.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5UiTools\Qt5UiToolsConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5UiTools\Qt5UiToolsConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5XmlPatterns\Qt5XmlPatternsConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5XmlPatterns\Qt5XmlPatternsConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;E:\D\MITK\Modules\XNAT\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\XNAT\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/D/MITK/Modules/XNAT/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK -BE:/D/MITK-superbuild/MITK-build --check-stamp-file E:\D\MITK-superbuild\MITK-build\Modules\XNAT\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK/Modules/XNAT/CMakeLists.txt;E:\D\MITK\Modules\XNAT\CMakeLists.txt;E:\D\MITK\Modules\XNAT\files.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\CppMicroServicesConfigVersion.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\CppMicroServicesConfig.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\CMakeParseArguments.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionGenerateModuleInit.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionAddResources.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionCheckCompilerFlags.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionEmbedResources.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionCheckResourceLinking.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionGetResourceSource.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\usCoreConfigVersion.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\usCoreConfig.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usModuleInit.cpp;E:\D\MITK\Modules\XNAT\resources\xnat.qrc;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\exportheader.cmake.in;E:\D\MITK\CMake\PackageDepends\MITK_CTK_Config.cmake;E:\D\MITK\CMake\PackageDepends\MITK_Qt5_Config.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5\Qt5Config.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5UiTools\Qt5UiToolsConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5UiTools\Qt5UiToolsConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5XmlPatterns\Qt5XmlPatternsConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5XmlPatterns\Qt5XmlPatternsConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;E:\D\MITK\Modules\XNAT\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\XNAT\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/D/MITK/Modules/XNAT/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK -BE:/D/MITK-superbuild/MITK-build --check-stamp-file E:\D\MITK-superbuild\MITK-build\Modules\XNAT\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK/Modules/XNAT/CMakeLists.txt;E:\D\MITK\Modules\XNAT\CMakeLists.txt;E:\D\MITK\Modules\XNAT\files.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\CppMicroServicesConfigVersion.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\CppMicroServicesConfig.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\CMakeParseArguments.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionGenerateModuleInit.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionAddResources.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionCheckCompilerFlags.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionEmbedResources.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionCheckResourceLinking.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionGetResourceSource.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\usCoreConfigVersion.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\usCoreConfig.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usModuleInit.cpp;E:\D\MITK\Modules\XNAT\resources\xnat.qrc;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\exportheader.cmake.in;E:\D\MITK\CMake\PackageDepends\MITK_CTK_Config.cmake;E:\D\MITK\CMake\PackageDepends\MITK_Qt5_Config.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5\Qt5Config.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5UiTools\Qt5UiToolsConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5UiTools\Qt5UiToolsConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5XmlPatterns\Qt5XmlPatternsConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5XmlPatterns\Qt5XmlPatternsConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;E:\D\MITK\Modules\XNAT\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\XNAT\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\8c7755db9b311ef5f9e1136e50f219a1\moc_mitkXnatSessionTracker.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating include/moc_mitkXnatSessionTracker.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Modules\XNAT\include
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Modules/XNAT/include/moc_mitkXnatSessionTracker.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/8c7755db9b311ef5f9e1136e50f219a1/moc_mitkXnatSessionTracker.cpp.rule;E:\D\MITK\Modules\XNAT\include\mitkXnatSessionTracker.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\XNAT\include\moc_mitkXnatSessionTracker.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating include/moc_mitkXnatSessionTracker.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Modules\XNAT\include
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Modules/XNAT/include/moc_mitkXnatSessionTracker.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/8c7755db9b311ef5f9e1136e50f219a1/moc_mitkXnatSessionTracker.cpp.rule;E:\D\MITK\Modules\XNAT\include\mitkXnatSessionTracker.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\XNAT\include\moc_mitkXnatSessionTracker.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating include/moc_mitkXnatSessionTracker.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Modules\XNAT\include
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Modules/XNAT/include/moc_mitkXnatSessionTracker.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/8c7755db9b311ef5f9e1136e50f219a1/moc_mitkXnatSessionTracker.cpp.rule;E:\D\MITK\Modules\XNAT\include\mitkXnatSessionTracker.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\XNAT\include\moc_mitkXnatSessionTracker.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating include/moc_mitkXnatSessionTracker.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Modules\XNAT\include
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Modules/XNAT/include/moc_mitkXnatSessionTracker.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/8c7755db9b311ef5f9e1136e50f219a1/moc_mitkXnatSessionTracker.cpp.rule;E:\D\MITK\Modules\XNAT\include\mitkXnatSessionTracker.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\XNAT\include\moc_mitkXnatSessionTracker.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\8c7755db9b311ef5f9e1136e50f219a1\moc_QmitkXnatTreeModel.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating include/moc_QmitkXnatTreeModel.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Modules\XNAT\include
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Modules/XNAT/include/moc_QmitkXnatTreeModel.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/8c7755db9b311ef5f9e1136e50f219a1/moc_QmitkXnatTreeModel.cpp.rule;E:\D\MITK\Modules\XNAT\include\QmitkXnatTreeModel.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\XNAT\include\moc_QmitkXnatTreeModel.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating include/moc_QmitkXnatTreeModel.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Modules\XNAT\include
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Modules/XNAT/include/moc_QmitkXnatTreeModel.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/8c7755db9b311ef5f9e1136e50f219a1/moc_QmitkXnatTreeModel.cpp.rule;E:\D\MITK\Modules\XNAT\include\QmitkXnatTreeModel.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\XNAT\include\moc_QmitkXnatTreeModel.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating include/moc_QmitkXnatTreeModel.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Modules\XNAT\include
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Modules/XNAT/include/moc_QmitkXnatTreeModel.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/8c7755db9b311ef5f9e1136e50f219a1/moc_QmitkXnatTreeModel.cpp.rule;E:\D\MITK\Modules\XNAT\include\QmitkXnatTreeModel.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\XNAT\include\moc_QmitkXnatTreeModel.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating include/moc_QmitkXnatTreeModel.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Modules\XNAT\include
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Modules/XNAT/include/moc_QmitkXnatTreeModel.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/8c7755db9b311ef5f9e1136e50f219a1/moc_QmitkXnatTreeModel.cpp.rule;E:\D\MITK\Modules\XNAT\include\QmitkXnatTreeModel.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\XNAT\include\moc_QmitkXnatTreeModel.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\8c7755db9b311ef5f9e1136e50f219a1\moc_QmitkXnatProjectWidget.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating include/moc_QmitkXnatProjectWidget.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Modules\XNAT\include
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Modules/XNAT/include/moc_QmitkXnatProjectWidget.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/8c7755db9b311ef5f9e1136e50f219a1/moc_QmitkXnatProjectWidget.cpp.rule;E:\D\MITK\Modules\XNAT\include\QmitkXnatProjectWidget.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\XNAT\include\moc_QmitkXnatProjectWidget.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating include/moc_QmitkXnatProjectWidget.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Modules\XNAT\include
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Modules/XNAT/include/moc_QmitkXnatProjectWidget.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/8c7755db9b311ef5f9e1136e50f219a1/moc_QmitkXnatProjectWidget.cpp.rule;E:\D\MITK\Modules\XNAT\include\QmitkXnatProjectWidget.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\XNAT\include\moc_QmitkXnatProjectWidget.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating include/moc_QmitkXnatProjectWidget.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Modules\XNAT\include
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Modules/XNAT/include/moc_QmitkXnatProjectWidget.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/8c7755db9b311ef5f9e1136e50f219a1/moc_QmitkXnatProjectWidget.cpp.rule;E:\D\MITK\Modules\XNAT\include\QmitkXnatProjectWidget.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\XNAT\include\moc_QmitkXnatProjectWidget.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating include/moc_QmitkXnatProjectWidget.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Modules\XNAT\include
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Modules/XNAT/include/moc_QmitkXnatProjectWidget.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/8c7755db9b311ef5f9e1136e50f219a1/moc_QmitkXnatProjectWidget.cpp.rule;E:\D\MITK\Modules\XNAT\include\QmitkXnatProjectWidget.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\XNAT\include\moc_QmitkXnatProjectWidget.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\8c7755db9b311ef5f9e1136e50f219a1\moc_QmitkXnatSubjectWidget.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating include/moc_QmitkXnatSubjectWidget.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Modules\XNAT\include
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Modules/XNAT/include/moc_QmitkXnatSubjectWidget.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/8c7755db9b311ef5f9e1136e50f219a1/moc_QmitkXnatSubjectWidget.cpp.rule;E:\D\MITK\Modules\XNAT\include\QmitkXnatSubjectWidget.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\XNAT\include\moc_QmitkXnatSubjectWidget.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating include/moc_QmitkXnatSubjectWidget.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Modules\XNAT\include
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Modules/XNAT/include/moc_QmitkXnatSubjectWidget.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/8c7755db9b311ef5f9e1136e50f219a1/moc_QmitkXnatSubjectWidget.cpp.rule;E:\D\MITK\Modules\XNAT\include\QmitkXnatSubjectWidget.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\XNAT\include\moc_QmitkXnatSubjectWidget.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating include/moc_QmitkXnatSubjectWidget.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Modules\XNAT\include
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Modules/XNAT/include/moc_QmitkXnatSubjectWidget.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/8c7755db9b311ef5f9e1136e50f219a1/moc_QmitkXnatSubjectWidget.cpp.rule;E:\D\MITK\Modules\XNAT\include\QmitkXnatSubjectWidget.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\XNAT\include\moc_QmitkXnatSubjectWidget.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating include/moc_QmitkXnatSubjectWidget.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Modules\XNAT\include
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Modules/XNAT/include/moc_QmitkXnatSubjectWidget.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/8c7755db9b311ef5f9e1136e50f219a1/moc_QmitkXnatSubjectWidget.cpp.rule;E:\D\MITK\Modules\XNAT\include\QmitkXnatSubjectWidget.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\XNAT\include\moc_QmitkXnatSubjectWidget.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\8c7755db9b311ef5f9e1136e50f219a1\moc_QmitkXnatExperimentWidget.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating include/moc_QmitkXnatExperimentWidget.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Modules\XNAT\include
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Modules/XNAT/include/moc_QmitkXnatExperimentWidget.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/8c7755db9b311ef5f9e1136e50f219a1/moc_QmitkXnatExperimentWidget.cpp.rule;E:\D\MITK\Modules\XNAT\include\QmitkXnatExperimentWidget.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\XNAT\include\moc_QmitkXnatExperimentWidget.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating include/moc_QmitkXnatExperimentWidget.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Modules\XNAT\include
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Modules/XNAT/include/moc_QmitkXnatExperimentWidget.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/8c7755db9b311ef5f9e1136e50f219a1/moc_QmitkXnatExperimentWidget.cpp.rule;E:\D\MITK\Modules\XNAT\include\QmitkXnatExperimentWidget.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\XNAT\include\moc_QmitkXnatExperimentWidget.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating include/moc_QmitkXnatExperimentWidget.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Modules\XNAT\include
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Modules/XNAT/include/moc_QmitkXnatExperimentWidget.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/8c7755db9b311ef5f9e1136e50f219a1/moc_QmitkXnatExperimentWidget.cpp.rule;E:\D\MITK\Modules\XNAT\include\QmitkXnatExperimentWidget.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\XNAT\include\moc_QmitkXnatExperimentWidget.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating include/moc_QmitkXnatExperimentWidget.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Modules\XNAT\include
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Modules/XNAT/include/moc_QmitkXnatExperimentWidget.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/8c7755db9b311ef5f9e1136e50f219a1/moc_QmitkXnatExperimentWidget.cpp.rule;E:\D\MITK\Modules\XNAT\include\QmitkXnatExperimentWidget.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\XNAT\include\moc_QmitkXnatExperimentWidget.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\8c7755db9b311ef5f9e1136e50f219a1\moc_QmitkXnatCreateObjectDialog.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating include/moc_QmitkXnatCreateObjectDialog.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Modules\XNAT\include
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Modules/XNAT/include/moc_QmitkXnatCreateObjectDialog.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/8c7755db9b311ef5f9e1136e50f219a1/moc_QmitkXnatCreateObjectDialog.cpp.rule;E:\D\MITK\Modules\XNAT\include\QmitkXnatCreateObjectDialog.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\XNAT\include\moc_QmitkXnatCreateObjectDialog.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating include/moc_QmitkXnatCreateObjectDialog.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Modules\XNAT\include
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Modules/XNAT/include/moc_QmitkXnatCreateObjectDialog.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/8c7755db9b311ef5f9e1136e50f219a1/moc_QmitkXnatCreateObjectDialog.cpp.rule;E:\D\MITK\Modules\XNAT\include\QmitkXnatCreateObjectDialog.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\XNAT\include\moc_QmitkXnatCreateObjectDialog.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating include/moc_QmitkXnatCreateObjectDialog.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Modules\XNAT\include
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Modules/XNAT/include/moc_QmitkXnatCreateObjectDialog.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/8c7755db9b311ef5f9e1136e50f219a1/moc_QmitkXnatCreateObjectDialog.cpp.rule;E:\D\MITK\Modules\XNAT\include\QmitkXnatCreateObjectDialog.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\XNAT\include\moc_QmitkXnatCreateObjectDialog.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating include/moc_QmitkXnatCreateObjectDialog.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Modules\XNAT\include
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Modules/XNAT/include/moc_QmitkXnatCreateObjectDialog.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/8c7755db9b311ef5f9e1136e50f219a1/moc_QmitkXnatCreateObjectDialog.cpp.rule;E:\D\MITK\Modules\XNAT\include\QmitkXnatCreateObjectDialog.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\XNAT\include\moc_QmitkXnatCreateObjectDialog.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\8c7755db9b311ef5f9e1136e50f219a1\moc_QmitkSelectXnatUploadDestinationDialog.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating include/moc_QmitkSelectXnatUploadDestinationDialog.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Modules\XNAT\include
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Modules/XNAT/include/moc_QmitkSelectXnatUploadDestinationDialog.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/8c7755db9b311ef5f9e1136e50f219a1/moc_QmitkSelectXnatUploadDestinationDialog.cpp.rule;E:\D\MITK\Modules\XNAT\include\QmitkSelectXnatUploadDestinationDialog.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\XNAT\include\moc_QmitkSelectXnatUploadDestinationDialog.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating include/moc_QmitkSelectXnatUploadDestinationDialog.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Modules\XNAT\include
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Modules/XNAT/include/moc_QmitkSelectXnatUploadDestinationDialog.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/8c7755db9b311ef5f9e1136e50f219a1/moc_QmitkSelectXnatUploadDestinationDialog.cpp.rule;E:\D\MITK\Modules\XNAT\include\QmitkSelectXnatUploadDestinationDialog.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\XNAT\include\moc_QmitkSelectXnatUploadDestinationDialog.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating include/moc_QmitkSelectXnatUploadDestinationDialog.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Modules\XNAT\include
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Modules/XNAT/include/moc_QmitkSelectXnatUploadDestinationDialog.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/8c7755db9b311ef5f9e1136e50f219a1/moc_QmitkSelectXnatUploadDestinationDialog.cpp.rule;E:\D\MITK\Modules\XNAT\include\QmitkSelectXnatUploadDestinationDialog.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\XNAT\include\moc_QmitkSelectXnatUploadDestinationDialog.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating include/moc_QmitkSelectXnatUploadDestinationDialog.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Modules\XNAT\include
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Modules/XNAT/include/moc_QmitkSelectXnatUploadDestinationDialog.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/8c7755db9b311ef5f9e1136e50f219a1/moc_QmitkSelectXnatUploadDestinationDialog.cpp.rule;E:\D\MITK\Modules\XNAT\include\QmitkSelectXnatUploadDestinationDialog.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\XNAT\include\moc_QmitkSelectXnatUploadDestinationDialog.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\8c7755db9b311ef5f9e1136e50f219a1\moc_QmitkXnatUploadFromDataStorageDialog.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating include/moc_QmitkXnatUploadFromDataStorageDialog.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Modules\XNAT\include
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Modules/XNAT/include/moc_QmitkXnatUploadFromDataStorageDialog.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/8c7755db9b311ef5f9e1136e50f219a1/moc_QmitkXnatUploadFromDataStorageDialog.cpp.rule;E:\D\MITK\Modules\XNAT\include\QmitkXnatUploadFromDataStorageDialog.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\XNAT\include\moc_QmitkXnatUploadFromDataStorageDialog.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating include/moc_QmitkXnatUploadFromDataStorageDialog.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Modules\XNAT\include
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Modules/XNAT/include/moc_QmitkXnatUploadFromDataStorageDialog.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/8c7755db9b311ef5f9e1136e50f219a1/moc_QmitkXnatUploadFromDataStorageDialog.cpp.rule;E:\D\MITK\Modules\XNAT\include\QmitkXnatUploadFromDataStorageDialog.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\XNAT\include\moc_QmitkXnatUploadFromDataStorageDialog.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating include/moc_QmitkXnatUploadFromDataStorageDialog.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Modules\XNAT\include
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Modules/XNAT/include/moc_QmitkXnatUploadFromDataStorageDialog.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/8c7755db9b311ef5f9e1136e50f219a1/moc_QmitkXnatUploadFromDataStorageDialog.cpp.rule;E:\D\MITK\Modules\XNAT\include\QmitkXnatUploadFromDataStorageDialog.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\XNAT\include\moc_QmitkXnatUploadFromDataStorageDialog.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating include/moc_QmitkXnatUploadFromDataStorageDialog.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Modules\XNAT\include
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Modules/XNAT/include/moc_QmitkXnatUploadFromDataStorageDialog.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/8c7755db9b311ef5f9e1136e50f219a1/moc_QmitkXnatUploadFromDataStorageDialog.cpp.rule;E:\D\MITK\Modules\XNAT\include\QmitkXnatUploadFromDataStorageDialog.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\XNAT\include\moc_QmitkXnatUploadFromDataStorageDialog.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\D\MITK\Modules\XNAT\include\mitkXnatSession.h" />
+    <ClInclude Include="E:\D\MITK\Modules\XNAT\include\mitkXnatSessionTracker.h" />
+    <ClInclude Include="E:\D\MITK\Modules\XNAT\include\QmitkSelectXnatUploadDestinationDialog.h" />
+    <ClInclude Include="E:\D\MITK\Modules\XNAT\include\QmitkXnatCreateObjectDialog.h" />
+    <ClInclude Include="E:\D\MITK\Modules\XNAT\include\QmitkXnatExperimentWidget.h" />
+    <ClInclude Include="E:\D\MITK\Modules\XNAT\include\QmitkXnatProjectWidget.h" />
+    <ClInclude Include="E:\D\MITK\Modules\XNAT\include\QmitkXnatSubjectWidget.h" />
+    <ClInclude Include="E:\D\MITK\Modules\XNAT\include\QmitkXnatTreeModel.h" />
+    <ClInclude Include="E:\D\MITK\Modules\XNAT\include\QmitkXnatUploadFromDataStorageDialog.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Modules\XNAT\ui_QmitkXnatExperimentWidgetControls.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Modules\XNAT\ui_QmitkXnatProjectWidgetControls.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Modules\XNAT\ui_QmitkSelectXnatUploadDestinationDialog.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Modules\XNAT\ui_QmitkXnatSubjectWidgetControls.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Modules\XNAT\ui_QmitkXnatUploadFromDataStorageDialog.h" />
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\XNAT\us_init.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\XNAT\src\mitkXnatSessionTracker.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\XNAT\src\QmitkXnatTreeModel.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\XNAT\src\QmitkXnatProjectWidget.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\XNAT\src\QmitkXnatSubjectWidget.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\XNAT\src\QmitkXnatExperimentWidget.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\XNAT\src\QmitkXnatCreateObjectDialog.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\XNAT\src\QmitkSelectXnatUploadDestinationDialog.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\XNAT\src\QmitkXnatUploadFromDataStorageDialog.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\XNAT\include\moc_mitkXnatSessionTracker.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\XNAT\include\moc_QmitkXnatTreeModel.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\XNAT\include\moc_QmitkXnatProjectWidget.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\XNAT\include\moc_QmitkXnatSubjectWidget.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\XNAT\include\moc_QmitkXnatExperimentWidget.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\XNAT\include\moc_QmitkXnatCreateObjectDialog.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\XNAT\include\moc_QmitkSelectXnatUploadDestinationDialog.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\XNAT\include\moc_QmitkXnatUploadFromDataStorageDialog.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\XNAT\qrc_xnat.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:/D/MITK-superbuild/MITK-build/ZERO_CHECK.vcxproj">
+      <Project>B13C44DE-4BB4-3414-ABDA-308DC25B7D17</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/MITK-build/Modules/CppMicroServices/core/CppMicroServices.vcxproj">
+      <Project>5F3BDE34-8C32-3441-8C46-8AC176A184DA</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/MITK-build/Modules/Core/MitkCore.vcxproj">
+      <Project>A4D2FE45-C4CB-34B6-8D92-0EE38B0DF319</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/MITK-build/Modules/LegacyGL/MitkLegacyGL.vcxproj">
+      <Project>108BF1C9-6F0A-3890-8C44-CE7F0429BFC7</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/MITK-build/Modules/Overlays/MitkOverlays.vcxproj">
+      <Project>EA8AEC3A-E0C1-343B-BE8B-87700AE7F13F</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/MITK-build/Modules/PlanarFigure/MitkPlanarFigure.vcxproj">
+      <Project>9821A725-24F5-30B7-937D-656A8B225FD1</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/MITK-build/Modules/QtWidgets/MitkQtWidgets.vcxproj">
+      <Project>D3186299-7879-3CB3-A4E9-20D80F534ABC</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/MITK-build/Modules/SceneSerializationBase/MitkSceneSerializationBase.vcxproj">
+      <Project>77CA0305-C783-3CCF-8BA0-13D7764242AB</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/MITK-build/Utilities/mbilog/mbilog.vcxproj">
+      <Project>C2DD058A-96C4-32B8-92D7-A0D457FFBA47</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

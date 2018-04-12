@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\SceneSerializationBase\us_init.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\SceneSerializationBase\src\mitkAnnotationPropertySerializer.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\SceneSerializationBase\src\mitkBaseDataSerializer.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\SceneSerializationBase\src\mitkBasePropertySerializer.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\SceneSerializationBase\src\mitkBoolLookupTablePropertySerializer.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\SceneSerializationBase\src\mitkBoolPropertySerializer.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\SceneSerializationBase\src\mitkClippingPropertySerializer.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\SceneSerializationBase\src\mitkColorPropertySerializer.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\SceneSerializationBase\src\mitkDoublePropertySerializer.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\SceneSerializationBase\src\mitkEnumerationPropertySerializer.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\SceneSerializationBase\src\mitkEnumerationSubclassesSerializer.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\SceneSerializationBase\src\mitkFloatLookupTablePropertySerializer.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\SceneSerializationBase\src\mitkFloatPropertySerializer.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\SceneSerializationBase\src\mitkGroupTagPropertySerializer.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\SceneSerializationBase\src\mitkIntLookupTablePropertySerializer.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\SceneSerializationBase\src\mitkIntPropertySerializer.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\SceneSerializationBase\src\mitkLevelWindowPropertySerializer.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\SceneSerializationBase\src\mitkLookupTablePropertySerializer.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\SceneSerializationBase\src\mitkPoint3dPropertySerializer.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\SceneSerializationBase\src\mitkPoint3iPropertySerializer.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\SceneSerializationBase\src\mitkPoint4dPropertySerializer.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\SceneSerializationBase\src\mitkPropertyListSerializer.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\SceneSerializationBase\src\mitkStringLookupTablePropertySerializer.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\SceneSerializationBase\src\mitkStringPropertySerializer.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\SceneSerializationBase\src\mitkTransferFunctionPropertySerializer.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\SceneSerializationBase\src\mitkUIntPropertySerializer.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\SceneSerializationBase\src\mitkUShortPropertySerializer.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\SceneSerializationBase\src\mitkVector3DPropertySerializer.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\SceneSerializationBase\src\mitkVectorPropertySerializer.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\D\MITK\Modules\SceneSerializationBase\include\mitkBaseDataSerializer.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\SceneSerializationBase\include\mitkBasePropertySerializer.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\SceneSerializationBase\include\mitkEnumerationPropertySerializer.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\SceneSerializationBase\include\mitkLookupTablePropertySerializer.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\SceneSerializationBase\include\mitkPropertyListSerializer.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\SceneSerializationBase\include\mitkSerializerMacros.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\SceneSerializationBase\include\mitkStringsToNumbers.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\SceneSerializationBase\include\mitkTransferFunctionPropertySerializer.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\SceneSerializationBase\include\mitkVectorPropertySerializer.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK\Modules\SceneSerializationBase\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="== Source Files ==">
+      <UniqueIdentifier>{9CA70B67-B51F-303F-96AF-687940E0FEA8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="== Header Files ==">
+      <UniqueIdentifier>{4D89E91A-663E-32FD-A047-724E4EC4BA98}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

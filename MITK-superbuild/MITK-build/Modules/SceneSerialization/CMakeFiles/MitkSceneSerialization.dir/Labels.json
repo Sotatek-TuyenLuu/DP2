@@ -1,0 +1,110 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/Modules/SceneSerialization/us_init.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/SceneSerialization/src/mitkGeometryDataSerializer.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/SceneSerialization/src/mitkImageSerializer.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/SceneSerialization/src/mitkPointSetSerializer.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/SceneSerialization/src/mitkPropertyListDeserializer.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/SceneSerialization/src/mitkPropertyListDeserializerV1.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/SceneSerialization/src/mitkSceneIO.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/SceneSerialization/src/mitkSceneReader.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/SceneSerialization/src/mitkSceneReaderV1.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/SceneSerialization/src/mitkSurfaceSerializer.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/SceneSerialization/include/mitkSceneIO.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/SceneSerialization/include/mitkSceneReader.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/SceneSerialization/src/mitkGeometryDataSerializer.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/SceneSerialization/src/mitkImageSerializer.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/SceneSerialization/src/mitkPointSetSerializer.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/SceneSerialization/src/mitkPropertyListDeserializer.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/SceneSerialization/src/mitkPropertyListDeserializerV1.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/SceneSerialization/src/mitkSceneReaderV1.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/SceneSerialization/src/mitkSurfaceSerializer.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/SceneSerialization/CMakeLists.txt"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "MITK-Modules", "MITK" ],
+		"name" : "MitkSceneSerialization"
+	}
+}

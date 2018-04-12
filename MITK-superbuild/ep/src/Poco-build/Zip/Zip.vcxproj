@@ -1,0 +1,390 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{7DA12814-BAE9-344B-B9A2-E20C5BA5A87E}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>Zip</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\Poco-build\bin\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Zip.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">PocoZipd</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\Poco-build\bin\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Zip.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">PocoZip</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\Poco-build\bin\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Zip.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">PocoZip</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\Poco-build\bin\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Zip.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">PocoZip</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\Poco\Zip\include;E:\D\MITK-superbuild\ep\src\Poco\Zip\src;E:\D\MITK-superbuild\ep\src\Poco\Util\include;E:\D\MITK-superbuild\ep\src\Poco\Foundation\include;E:\D\MITK-superbuild\ep\src\Poco\XML\include;E:\D\MITK-superbuild\ep\src\Poco\JSON\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;POCO_OS_FAMILY_WINDOWS;UNICODE;_UNICODE;CMAKE_INTDIR="Debug";Zip_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;POCO_OS_FAMILY_WINDOWS;UNICODE;_UNICODE;CMAKE_INTDIR=\"Debug\";Zip_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\Poco\Zip\include;E:\D\MITK-superbuild\ep\src\Poco\Zip\src;E:\D\MITK-superbuild\ep\src\Poco\Util\include;E:\D\MITK-superbuild\ep\src\Poco\Foundation\include;E:\D\MITK-superbuild\ep\src\Poco\XML\include;E:\D\MITK-superbuild\ep\src\Poco\JSON\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\Poco\Zip\include;E:\D\MITK-superbuild\ep\src\Poco\Zip\src;E:\D\MITK-superbuild\ep\src\Poco\Util\include;E:\D\MITK-superbuild\ep\src\Poco\Foundation\include;E:\D\MITK-superbuild\ep\src\Poco\XML\include;E:\D\MITK-superbuild\ep\src\Poco\JSON\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\lib\Debug\PocoUtild.lib;..\lib\Debug\PocoXMLd.lib;..\lib\Debug\PocoJSONd.lib;..\lib\Debug\PocoFoundationd.lib;iphlpapi.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/ep/src/Poco-build/lib/Debug/PocoZipd.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/ep/src/Poco-build/bin/Debug/PocoZipd.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\Poco\Zip\include;E:\D\MITK-superbuild\ep\src\Poco\Zip\src;E:\D\MITK-superbuild\ep\src\Poco\Util\include;E:\D\MITK-superbuild\ep\src\Poco\Foundation\include;E:\D\MITK-superbuild\ep\src\Poco\XML\include;E:\D\MITK-superbuild\ep\src\Poco\JSON\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;POCO_OS_FAMILY_WINDOWS;UNICODE;_UNICODE;CMAKE_INTDIR="Release";Zip_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;POCO_OS_FAMILY_WINDOWS;UNICODE;_UNICODE;CMAKE_INTDIR=\"Release\";Zip_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\Poco\Zip\include;E:\D\MITK-superbuild\ep\src\Poco\Zip\src;E:\D\MITK-superbuild\ep\src\Poco\Util\include;E:\D\MITK-superbuild\ep\src\Poco\Foundation\include;E:\D\MITK-superbuild\ep\src\Poco\XML\include;E:\D\MITK-superbuild\ep\src\Poco\JSON\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\Poco\Zip\include;E:\D\MITK-superbuild\ep\src\Poco\Zip\src;E:\D\MITK-superbuild\ep\src\Poco\Util\include;E:\D\MITK-superbuild\ep\src\Poco\Foundation\include;E:\D\MITK-superbuild\ep\src\Poco\XML\include;E:\D\MITK-superbuild\ep\src\Poco\JSON\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\lib\Release\PocoUtil.lib;..\lib\Release\PocoXML.lib;..\lib\Release\PocoJSON.lib;..\lib\Release\PocoFoundation.lib;iphlpapi.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/ep/src/Poco-build/lib/Release/PocoZip.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/ep/src/Poco-build/bin/Release/PocoZip.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\Poco\Zip\include;E:\D\MITK-superbuild\ep\src\Poco\Zip\src;E:\D\MITK-superbuild\ep\src\Poco\Util\include;E:\D\MITK-superbuild\ep\src\Poco\Foundation\include;E:\D\MITK-superbuild\ep\src\Poco\XML\include;E:\D\MITK-superbuild\ep\src\Poco\JSON\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;POCO_OS_FAMILY_WINDOWS;UNICODE;_UNICODE;CMAKE_INTDIR="MinSizeRel";Zip_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;POCO_OS_FAMILY_WINDOWS;UNICODE;_UNICODE;CMAKE_INTDIR=\"MinSizeRel\";Zip_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\Poco\Zip\include;E:\D\MITK-superbuild\ep\src\Poco\Zip\src;E:\D\MITK-superbuild\ep\src\Poco\Util\include;E:\D\MITK-superbuild\ep\src\Poco\Foundation\include;E:\D\MITK-superbuild\ep\src\Poco\XML\include;E:\D\MITK-superbuild\ep\src\Poco\JSON\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\Poco\Zip\include;E:\D\MITK-superbuild\ep\src\Poco\Zip\src;E:\D\MITK-superbuild\ep\src\Poco\Util\include;E:\D\MITK-superbuild\ep\src\Poco\Foundation\include;E:\D\MITK-superbuild\ep\src\Poco\XML\include;E:\D\MITK-superbuild\ep\src\Poco\JSON\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\lib\MinSizeRel\PocoUtil.lib;..\lib\MinSizeRel\PocoXML.lib;..\lib\MinSizeRel\PocoJSON.lib;..\lib\MinSizeRel\PocoFoundation.lib;iphlpapi.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/ep/src/Poco-build/lib/MinSizeRel/PocoZip.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/ep/src/Poco-build/bin/MinSizeRel/PocoZip.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\Poco\Zip\include;E:\D\MITK-superbuild\ep\src\Poco\Zip\src;E:\D\MITK-superbuild\ep\src\Poco\Util\include;E:\D\MITK-superbuild\ep\src\Poco\Foundation\include;E:\D\MITK-superbuild\ep\src\Poco\XML\include;E:\D\MITK-superbuild\ep\src\Poco\JSON\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;POCO_OS_FAMILY_WINDOWS;UNICODE;_UNICODE;CMAKE_INTDIR="RelWithDebInfo";Zip_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;POCO_OS_FAMILY_WINDOWS;UNICODE;_UNICODE;CMAKE_INTDIR=\"RelWithDebInfo\";Zip_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\Poco\Zip\include;E:\D\MITK-superbuild\ep\src\Poco\Zip\src;E:\D\MITK-superbuild\ep\src\Poco\Util\include;E:\D\MITK-superbuild\ep\src\Poco\Foundation\include;E:\D\MITK-superbuild\ep\src\Poco\XML\include;E:\D\MITK-superbuild\ep\src\Poco\JSON\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\Poco\Zip\include;E:\D\MITK-superbuild\ep\src\Poco\Zip\src;E:\D\MITK-superbuild\ep\src\Poco\Util\include;E:\D\MITK-superbuild\ep\src\Poco\Foundation\include;E:\D\MITK-superbuild\ep\src\Poco\XML\include;E:\D\MITK-superbuild\ep\src\Poco\JSON\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\lib\RelWithDebInfo\PocoUtil.lib;..\lib\RelWithDebInfo\PocoXML.lib;..\lib\RelWithDebInfo\PocoJSON.lib;..\lib\RelWithDebInfo\PocoFoundation.lib;iphlpapi.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/ep/src/Poco-build/lib/RelWithDebInfo/PocoZip.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/ep/src/Poco-build/bin/RelWithDebInfo/PocoZip.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\Poco\Zip\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/Poco/Zip/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/Poco -BE:/D/MITK-superbuild/ep/src/Poco-build --check-stamp-file E:\D\MITK-superbuild\ep\src\Poco-build\Zip\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/Poco/Zip/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\Poco\Zip\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;E:\D\MITK-superbuild\ep\src\Poco\Zip\cmake\PocoZipConfig.cmake;E:\D\MITK-superbuild\ep\src\Poco\Zip\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\Poco-build\Zip\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/Poco/Zip/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/Poco -BE:/D/MITK-superbuild/ep/src/Poco-build --check-stamp-file E:\D\MITK-superbuild\ep\src\Poco-build\Zip\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/Poco/Zip/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\Poco\Zip\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;E:\D\MITK-superbuild\ep\src\Poco\Zip\cmake\PocoZipConfig.cmake;E:\D\MITK-superbuild\ep\src\Poco\Zip\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\Poco-build\Zip\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/Poco/Zip/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/Poco -BE:/D/MITK-superbuild/ep/src/Poco-build --check-stamp-file E:\D\MITK-superbuild\ep\src\Poco-build\Zip\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/Poco/Zip/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\Poco\Zip\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;E:\D\MITK-superbuild\ep\src\Poco\Zip\cmake\PocoZipConfig.cmake;E:\D\MITK-superbuild\ep\src\Poco\Zip\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\Poco-build\Zip\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/Poco/Zip/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/Poco -BE:/D/MITK-superbuild/ep/src/Poco-build --check-stamp-file E:\D\MITK-superbuild\ep\src\Poco-build\Zip\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/Poco/Zip/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\Poco\Zip\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;E:\D\MITK-superbuild\ep\src\Poco\Zip\cmake\PocoZipConfig.cmake;E:\D\MITK-superbuild\ep\src\Poco\Zip\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\Poco-build\Zip\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Zip\include\Poco\Zip\Add.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Zip\include\Poco\Zip\AutoDetectStream.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Zip\include\Poco\Zip\Compress.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Zip\include\Poco\Zip\Decompress.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Zip\include\Poco\Zip\Delete.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Zip\include\Poco\Zip\Keep.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Zip\include\Poco\Zip\ParseCallback.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Zip\include\Poco\Zip\PartialStream.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Zip\include\Poco\Zip\Rename.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Zip\include\Poco\Zip\Replace.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Zip\include\Poco\Zip\SkipCallback.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Zip\include\Poco\Zip\Zip.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Zip\include\Poco\Zip\ZipArchive.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Zip\include\Poco\Zip\ZipArchiveInfo.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Zip\include\Poco\Zip\ZipCommon.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Zip\include\Poco\Zip\ZipDataInfo.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Zip\include\Poco\Zip\ZipException.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Zip\include\Poco\Zip\ZipFileInfo.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Zip\include\Poco\Zip\ZipLocalFileHeader.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Zip\include\Poco\Zip\ZipManipulator.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Zip\include\Poco\Zip\ZipOperation.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Zip\include\Poco\Zip\ZipStream.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Zip\include\Poco\Zip\ZipUtil.h" />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Zip\src\Add.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Zip\src\AutoDetectStream.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Zip\src\Compress.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Zip\src\Decompress.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Zip\src\Delete.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Zip\src\Keep.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Zip\src\ParseCallback.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Zip\src\PartialStream.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Zip\src\Rename.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Zip\src\Replace.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Zip\src\SkipCallback.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Zip\src\ZipArchive.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Zip\src\ZipArchiveInfo.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Zip\src\ZipCommon.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Zip\src\ZipDataInfo.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Zip\src\ZipException.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Zip\src\ZipFileInfo.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Zip\src\ZipLocalFileHeader.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Zip\src\ZipManipulator.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Zip\src\ZipOperation.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Zip\src\ZipStream.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Zip\src\ZipUtil.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Poco-build/ZERO_CHECK.vcxproj">
+      <Project>1B7FD9CE-6BE3-366C-87F3-9937ECB4D5BF</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Poco-build/Foundation/Foundation.vcxproj">
+      <Project>560FB4FD-567D-3918-BE09-8F3B554F44F3</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Poco-build/JSON/JSON.vcxproj">
+      <Project>EFDD6B29-86E8-31B9-8968-AA459A223C72</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Poco-build/Util/Util.vcxproj">
+      <Project>20A6D6ED-496C-3723-BF6E-347CC7CFE2FD</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Poco-build/XML/XML.vcxproj">
+      <Project>55379B1B-717E-3DE1-B24A-5EC10471C611</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

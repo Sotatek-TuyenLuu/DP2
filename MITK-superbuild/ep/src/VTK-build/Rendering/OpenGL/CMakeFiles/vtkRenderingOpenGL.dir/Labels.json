@@ -1,0 +1,875 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkCameraPass.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkChooserPainter.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkClearRGBPass.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkClearZPass.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkClipPlanesPainter.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkCoincidentTopologyResolutionPainter.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkColorMaterialHelper.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkCompositePainter.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkCompositePolyDataMapper2.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkDataTransferHelper.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkDefaultPainter.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkDefaultPass.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkDepthPeelingPass.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkDisplayListPainter.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkFrameBufferObject.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkFrameBufferObject2.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkGLSLShaderDeviceAdapter2.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkGaussianBlurPass.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkGenericOpenGLRenderWindow.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkHardwareSelectionPolyDataPainter.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkImageProcessingPass.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkLightingHelper.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkLightingPainter.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkLightsPass.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkLinesPainter.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkOpaquePass.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkOpenGLActor.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkOpenGLCamera.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkOpenGLClipPlanesPainter.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkOpenGLCoincidentTopologyResolutionPainter.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkOpenGLCompositePainter.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkOpenGLDisplayListPainter.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkOpenGLExtensionManager.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkOpenGLGL2PSHelper.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkOpenGLGlyph3DMapper.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkOpenGLHardwareSelector.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkOpenGLHardwareSupport.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkOpenGLImageMapper.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkOpenGLImageSliceMapper.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkOpenGLLabeledContourMapper.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkOpenGLLight.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkOpenGLLightMonitor.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkOpenGLLightingPainter.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkOpenGLModelViewProjectionMonitor.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkOpenGLPainterDeviceAdapter.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkOpenGLPolyDataMapper2D.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkOpenGLProperty.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkOpenGLRenderWindow.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkOpenGLRenderer.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkOpenGLRepresentationPainter.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkOpenGLScalarsToColorsPainter.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkOpenGLState.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkOpenGLTexture.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkOverlayPass.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkPainter.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkPainterPolyDataMapper.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkPixelBufferObject.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkPointsPainter.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkPolyDataPainter.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkPolygonsPainter.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkPrimitivePainter.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkRenderPass.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkRenderPassCollection.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkRenderState.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkRenderbuffer.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkRepresentationPainter.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkScalarsToColorsPainter.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkSequencePass.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkShader2.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkShader2Collection.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkShaderProgram2.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkShadowMapBakerPass.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkShadowMapPass.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkSobelGradientMagnitudePass.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkStandardPolyDataPainter.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkTStripsPainter.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkTextureObject.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkTextureUnitManager.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkTranslucentPass.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkUniformVariables.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkValuePainter.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkValuePass.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkValuePasses.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkVolumetricPass.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/OpenGL/vtkgl.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/OpenGL/vtkRenderingOpenGLObjectFactory.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/OpenGL/vtkColorMaterialHelper_vs.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/OpenGL/vtkDepthPeeling_fs.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/OpenGL/vtkGaussianBlurPassShader_fs.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/OpenGL/vtkLighting_s.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/OpenGL/vtkLightingHelper_s.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/OpenGL/vtkOpenGLRenderer_PeelingFS.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/OpenGL/vtkOpenGLPropertyDefaultPropFunc_fs.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/OpenGL/vtkOpenGLPropertyDefaultPropFunc_vs.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/OpenGL/vtkOpenGLPropertyDefaultMain_fs.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/OpenGL/vtkOpenGLPropertyDefaultMain_vs.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/OpenGL/vtkSobelGradientMagnitudePassShader1_fs.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/OpenGL/vtkSobelGradientMagnitudePassShader2_fs.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/OpenGL/vtkShadowMapPassShader_fs.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/OpenGL/vtkShadowMapPassShader_vs.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkWin32RenderWindowInteractor.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkWin32OpenGLRenderWindow.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkDummyGPUInfoList.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkgluPickMatrix.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkOpenGL.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/OpenGL/vtkTDxConfigure.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/OpenGL/vtkRenderingOpenGLConfigure.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/OpenGL/vtkgl.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/OpenGL/vtkOpenGLError.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkCameraPass.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkChooserPainter.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkClearRGBPass.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkClearZPass.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkClipPlanesPainter.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkCoincidentTopologyResolutionPainter.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkColorMaterialHelper.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkCompositePainter.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkCompositePolyDataMapper2.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkDataTransferHelper.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkDefaultPainter.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkDefaultPass.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkDepthPeelingPass.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkDisplayListPainter.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkFrameBufferObject.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkFrameBufferObject2.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkGLSLShaderDeviceAdapter2.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkGaussianBlurPass.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkGenericOpenGLRenderWindow.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkHardwareSelectionPolyDataPainter.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkImageProcessingPass.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkLightingHelper.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkLightingPainter.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkLightsPass.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkLinesPainter.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkOpaquePass.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkOpenGLActor.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkOpenGLCamera.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkOpenGLClipPlanesPainter.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkOpenGLCoincidentTopologyResolutionPainter.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkOpenGLCompositePainter.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkOpenGLDisplayListPainter.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkOpenGLExtensionManager.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkOpenGLGL2PSHelper.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkOpenGLGlyph3DMapper.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkOpenGLHardwareSelector.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkOpenGLHardwareSupport.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkOpenGLImageMapper.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkOpenGLImageSliceMapper.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkOpenGLLabeledContourMapper.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkOpenGLLight.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkOpenGLLightMonitor.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkOpenGLLightingPainter.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkOpenGLModelViewProjectionMonitor.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkOpenGLPainterDeviceAdapter.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkOpenGLPolyDataMapper2D.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkOpenGLProperty.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkOpenGLRenderWindow.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkOpenGLRenderer.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkOpenGLRepresentationPainter.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkOpenGLScalarsToColorsPainter.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkOpenGLState.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkOpenGLTexture.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkOverlayPass.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkPainter.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkPainterPolyDataMapper.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkPixelBufferObject.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkPointsPainter.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkPolyDataPainter.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkPolygonsPainter.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkPrimitivePainter.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkRenderPass.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkRenderPassCollection.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkRenderState.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkRenderbuffer.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkRepresentationPainter.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkScalarsToColorsPainter.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkSequencePass.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkShader2.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkShader2Collection.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkShaderProgram2.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkShadowMapBakerPass.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkShadowMapPass.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkSobelGradientMagnitudePass.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkStandardPolyDataPainter.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkTStripsPainter.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkTextureObject.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkTextureUnitManager.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkTranslucentPass.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkUniformVariables.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkValuePainter.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkValuePass.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkValuePasses.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkVolumetricPass.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/OpenGL/vtkRenderingOpenGLObjectFactory.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkWin32RenderWindowInteractor.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkWin32OpenGLRenderWindow.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/vtkDummyGPUInfoList.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/OpenGL/vtkRenderingOpenGLModule.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/OpenGL/vtkRenderingOpenGLInstantiator.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/OpenGL/vtkRenderingOpenGLInstantiator.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/OpenGL/CMakeLists.txt"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/98ee572c1c1ed3999773c5dbbb1adab2/vtkgl.cxx.rule"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/98ee572c1c1ed3999773c5dbbb1adab2/vtkColorMaterialHelper_vs.cxx.rule"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/98ee572c1c1ed3999773c5dbbb1adab2/vtkDepthPeeling_fs.cxx.rule"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/98ee572c1c1ed3999773c5dbbb1adab2/vtkGaussianBlurPassShader_fs.cxx.rule"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/98ee572c1c1ed3999773c5dbbb1adab2/vtkLighting_s.cxx.rule"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/98ee572c1c1ed3999773c5dbbb1adab2/vtkLightingHelper_s.cxx.rule"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/98ee572c1c1ed3999773c5dbbb1adab2/vtkOpenGLRenderer_PeelingFS.cxx.rule"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/98ee572c1c1ed3999773c5dbbb1adab2/vtkOpenGLPropertyDefaultPropFunc_fs.cxx.rule"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/98ee572c1c1ed3999773c5dbbb1adab2/vtkOpenGLPropertyDefaultPropFunc_vs.cxx.rule"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/98ee572c1c1ed3999773c5dbbb1adab2/vtkOpenGLPropertyDefaultMain_fs.cxx.rule"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/98ee572c1c1ed3999773c5dbbb1adab2/vtkOpenGLPropertyDefaultMain_vs.cxx.rule"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/98ee572c1c1ed3999773c5dbbb1adab2/vtkSobelGradientMagnitudePassShader1_fs.cxx.rule"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/98ee572c1c1ed3999773c5dbbb1adab2/vtkSobelGradientMagnitudePassShader2_fs.cxx.rule"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/98ee572c1c1ed3999773c5dbbb1adab2/vtkShadowMapPassShader_fs.cxx.rule"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/98ee572c1c1ed3999773c5dbbb1adab2/vtkShadowMapPassShader_vs.cxx.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "vtkRenderingOpenGL" ],
+		"name" : "vtkRenderingOpenGL"
+	}
+}

@@ -1,0 +1,6 @@
+set(ITKGPUPDEDeformableRegistration_LOADED 1)
+set(ITKGPUPDEDeformableRegistration_DEPENDS "ITKCommon;ITKGPUCommon;ITKGPUFiniteDifference;ITKGPURegistrationCommon;ITKPDEDeformableRegistration")
+set(ITKGPUPDEDeformableRegistration_LIBRARIES "ITKCommon;ITKStatistics;ITKSpatialObjects;ITKPath;ITKOptimizers")
+set(ITKGPUPDEDeformableRegistration_INCLUDE_DIRS "E:/D/MITK-superbuild/ep/src/ITK/Modules/Registration/GPUPDEDeformable/include")
+set(ITKGPUPDEDeformableRegistration_LIBRARY_DIRS "")
+

@@ -1,0 +1,6 @@
+
+set(Qwt_LIBRARIES @Qwt_LIBRARIES@)
+
+if(NOT TARGET qwt)
+  include("${CMAKE_CURRENT_LIST_DIR}/QwtTargets.cmake")
+endif()

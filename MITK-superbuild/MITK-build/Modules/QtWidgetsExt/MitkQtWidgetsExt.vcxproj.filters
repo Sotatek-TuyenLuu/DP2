@@ -1,0 +1,630 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\QtWidgetsExt\us_init.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\QtWidgetsExt\src\qclickablelabel.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\QtWidgetsExt\src\QmitkAboutDialog.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\QtWidgetsExt\src\QmitkBasePropertyView.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\QtWidgetsExt\src\QmitkBoolPropertyWidget.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\QtWidgetsExt\src\QmitkBoundingObjectWidget.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\QtWidgetsExt\src\QmitkCallbackFromGUIThread.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\QtWidgetsExt\src\QmitkColorPropertyEditor.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\QtWidgetsExt\src\QmitkColorPropertyView.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\QtWidgetsExt\src\QmitkColorTransferFunctionCanvas.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\QtWidgetsExt\src\QmitkCrossWidget.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\QtWidgetsExt\src\QmitkEditPointDialog.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\QtWidgetsExt\src\QmitkEnumerationPropertyWidget.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\QtWidgetsExt\src\QmitkFileChooser.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\QtWidgetsExt\src\QmitkGnuplotWidget.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\QtWidgetsExt\src\QmitkHistogram.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\QtWidgetsExt\src\QmitkHistogramJSWidget.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\QtWidgetsExt\src\QmitkHistogramWidget.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\QtWidgetsExt\src\QmitkHotkeyLineEdit.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\QtWidgetsExt\src\QmitkModulesDialog.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\QtWidgetsExt\src\QmitkModuleTableModel.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\QtWidgetsExt\src\QmitkNumberPropertyEditor.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\QtWidgetsExt\src\QmitkNumberPropertySlider.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\QtWidgetsExt\src\QmitkNumberPropertyView.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\QtWidgetsExt\src\QmitkPiecewiseFunctionCanvas.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\QtWidgetsExt\src\QmitkPlotDialog.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\QtWidgetsExt\src\QmitkPlotWidget.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\QtWidgetsExt\src\QmitkPointListModel.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\QtWidgetsExt\src\QmitkPointListView.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\QtWidgetsExt\src\QmitkPointListViewWidget.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\QtWidgetsExt\src\QmitkPointListWidget.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\QtWidgetsExt\src\QmitkPrimitiveMovieNavigatorWidget.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\QtWidgetsExt\src\QmitkPropertyViewFactory.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\QtWidgetsExt\src\QmitkSelectableGLWidget.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\QtWidgetsExt\src\QmitkSliceWidget.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\QtWidgetsExt\src\QmitkSliderNavigatorWidget.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\QtWidgetsExt\src\QmitkStandardViews.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\QtWidgetsExt\src\QmitkStepperAdapter.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\QtWidgetsExt\src\QmitkStringPropertyEditor.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\QtWidgetsExt\src\QmitkStringPropertyOnDemandEdit.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\QtWidgetsExt\src\QmitkStringPropertyView.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\QtWidgetsExt\src\QmitkTransferFunctionCanvas.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\QtWidgetsExt\src\QmitkTransferFunctionGeneratorWidget.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\QtWidgetsExt\src\QmitkTransferFunctionWidget.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\QtWidgetsExt\src\QmitkUGCombinedRepresentationPropertyWidget.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\QtWidgetsExt\src\QmitkVideoBackground.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\QtWidgetsExt\src\QmitkWebPage.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\QtWidgetsExt\src\QtWidgetsExtRegisterClasses.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\QtWidgetsExt\include\moc_qclickablelabel.cpp">
+      <Filter>Generated\Qt MOC Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\QtWidgetsExt\include\moc_QmitkAboutDialog.cpp">
+      <Filter>Generated\Qt MOC Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\QtWidgetsExt\include\moc_QmitkBasePropertyView.cpp">
+      <Filter>Generated\Qt MOC Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\QtWidgetsExt\include\moc_QmitkBoolPropertyWidget.cpp">
+      <Filter>Generated\Qt MOC Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\QtWidgetsExt\include\moc_QmitkBoundingObjectWidget.cpp">
+      <Filter>Generated\Qt MOC Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\QtWidgetsExt\include\moc_QmitkCallbackFromGUIThread.cpp">
+      <Filter>Generated\Qt MOC Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\QtWidgetsExt\include\moc_QmitkColorPropertyEditor.cpp">
+      <Filter>Generated\Qt MOC Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\QtWidgetsExt\include\moc_QmitkColorPropertyView.cpp">
+      <Filter>Generated\Qt MOC Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\QtWidgetsExt\include\moc_QmitkColorTransferFunctionCanvas.cpp">
+      <Filter>Generated\Qt MOC Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\QtWidgetsExt\include\moc_QmitkCrossWidget.cpp">
+      <Filter>Generated\Qt MOC Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\QtWidgetsExt\include\moc_QmitkEditPointDialog.cpp">
+      <Filter>Generated\Qt MOC Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\QtWidgetsExt\include\moc_QmitkEnumerationPropertyWidget.cpp">
+      <Filter>Generated\Qt MOC Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\QtWidgetsExt\include\moc_QmitkFileChooser.cpp">
+      <Filter>Generated\Qt MOC Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\QtWidgetsExt\include\moc_QmitkGnuplotWidget.cpp">
+      <Filter>Generated\Qt MOC Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\QtWidgetsExt\include\moc_QmitkHistogramJSWidget.cpp">
+      <Filter>Generated\Qt MOC Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\QtWidgetsExt\include\moc_QmitkHistogramWidget.cpp">
+      <Filter>Generated\Qt MOC Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\QtWidgetsExt\include\moc_QmitkHotkeyLineEdit.cpp">
+      <Filter>Generated\Qt MOC Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\QtWidgetsExt\include\moc_QmitkNumberPropertyEditor.cpp">
+      <Filter>Generated\Qt MOC Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\QtWidgetsExt\include\moc_QmitkNumberPropertySlider.cpp">
+      <Filter>Generated\Qt MOC Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\QtWidgetsExt\include\moc_QmitkNumberPropertyView.cpp">
+      <Filter>Generated\Qt MOC Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\QtWidgetsExt\include\moc_QmitkPiecewiseFunctionCanvas.cpp">
+      <Filter>Generated\Qt MOC Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\QtWidgetsExt\include\moc_QmitkPlotWidget.cpp">
+      <Filter>Generated\Qt MOC Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\QtWidgetsExt\include\moc_QmitkPointListModel.cpp">
+      <Filter>Generated\Qt MOC Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\QtWidgetsExt\include\moc_QmitkPointListView.cpp">
+      <Filter>Generated\Qt MOC Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\QtWidgetsExt\include\moc_QmitkPointListViewWidget.cpp">
+      <Filter>Generated\Qt MOC Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\QtWidgetsExt\include\moc_QmitkPointListWidget.cpp">
+      <Filter>Generated\Qt MOC Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\QtWidgetsExt\include\moc_QmitkPrimitiveMovieNavigatorWidget.cpp">
+      <Filter>Generated\Qt MOC Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\QtWidgetsExt\include\moc_QmitkSelectableGLWidget.cpp">
+      <Filter>Generated\Qt MOC Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\QtWidgetsExt\include\moc_QmitkSliceWidget.cpp">
+      <Filter>Generated\Qt MOC Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\QtWidgetsExt\include\moc_QmitkSliderNavigatorWidget.cpp">
+      <Filter>Generated\Qt MOC Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\QtWidgetsExt\include\moc_QmitkStandardViews.cpp">
+      <Filter>Generated\Qt MOC Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\QtWidgetsExt\include\moc_QmitkStepperAdapter.cpp">
+      <Filter>Generated\Qt MOC Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\QtWidgetsExt\include\moc_QmitkStringPropertyEditor.cpp">
+      <Filter>Generated\Qt MOC Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\QtWidgetsExt\include\moc_QmitkStringPropertyOnDemandEdit.cpp">
+      <Filter>Generated\Qt MOC Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\QtWidgetsExt\include\moc_QmitkStringPropertyView.cpp">
+      <Filter>Generated\Qt MOC Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\QtWidgetsExt\include\moc_QmitkTransferFunctionCanvas.cpp">
+      <Filter>Generated\Qt MOC Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\QtWidgetsExt\include\moc_QmitkTransferFunctionGeneratorWidget.cpp">
+      <Filter>Generated\Qt MOC Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\QtWidgetsExt\include\moc_QmitkTransferFunctionWidget.cpp">
+      <Filter>Generated\Qt MOC Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\QtWidgetsExt\include\moc_QmitkUGCombinedRepresentationPropertyWidget.cpp">
+      <Filter>Generated\Qt MOC Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\QtWidgetsExt\include\moc_QmitkVideoBackground.cpp">
+      <Filter>Generated\Qt MOC Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\QtWidgetsExt\include\moc_QmitkWebPage.cpp">
+      <Filter>Generated\Qt MOC Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\QtWidgetsExt\qrc_QtWidgetsExt.cpp">
+      <Filter>Generated\Qt QRC Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\D\MITK\Modules\QtWidgetsExt\include\qclickablelabel.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\QtWidgetsExt\include\QmitkAboutDialog.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\QtWidgetsExt\include\QmitkBasePropertyView.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\QtWidgetsExt\include\QmitkBoolPropertyWidget.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\QtWidgetsExt\include\QmitkBoundingObjectWidget.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\QtWidgetsExt\include\QmitkCallbackFromGUIThread.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\QtWidgetsExt\include\QmitkColorPropertyEditor.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\QtWidgetsExt\include\QmitkColorPropertyView.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\QtWidgetsExt\include\QmitkColorTransferFunctionCanvas.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\QtWidgetsExt\include\QmitkCrossWidget.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\QtWidgetsExt\include\QmitkEditPointDialog.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\QtWidgetsExt\include\QmitkEnumerationPropertyWidget.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\QtWidgetsExt\include\QmitkFileChooser.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\QtWidgetsExt\include\QmitkFunctionalityComponentContainer.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\QtWidgetsExt\include\QmitkGnuplotWidget.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\QtWidgetsExt\include\QmitkHistogram.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\QtWidgetsExt\include\QmitkHistogramJSWidget.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\QtWidgetsExt\include\QmitkHistogramWidget.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\QtWidgetsExt\include\QmitkHotkeyLineEdit.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\QtWidgetsExt\include\QmitkModulesDialog.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\QtWidgetsExt\include\QmitkModuleTableModel.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\QtWidgetsExt\include\QmitkNumberPropertyEditor.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\QtWidgetsExt\include\QmitkNumberPropertySlider.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\QtWidgetsExt\include\QmitkNumberPropertyView.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\QtWidgetsExt\include\QmitkPiecewiseFunctionCanvas.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\QtWidgetsExt\include\QmitkPlotDialog.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\QtWidgetsExt\include\QmitkPlotWidget.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\QtWidgetsExt\include\QmitkPointListModel.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\QtWidgetsExt\include\QmitkPointListView.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\QtWidgetsExt\include\QmitkPointListViewWidget.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\QtWidgetsExt\include\QmitkPointListWidget.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\QtWidgetsExt\include\QmitkPrimitiveMovieNavigatorWidget.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\QtWidgetsExt\include\QmitkPropertyListPopup.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\QtWidgetsExt\include\QmitkPropertyViewFactory.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\QtWidgetsExt\include\QmitkSelectableGLWidget.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\QtWidgetsExt\include\QmitkSliceWidget.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\QtWidgetsExt\include\QmitkSliderNavigatorWidget.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\QtWidgetsExt\include\QmitkStandardViews.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\QtWidgetsExt\include\QmitkStepperAdapter.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\QtWidgetsExt\include\QmitkStringPropertyEditor.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\QtWidgetsExt\include\QmitkStringPropertyOnDemandEdit.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\QtWidgetsExt\include\QmitkStringPropertyView.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\QtWidgetsExt\include\QmitkTransferFunctionCanvas.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\QtWidgetsExt\include\QmitkTransferFunctionGeneratorWidget.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\QtWidgetsExt\include\QmitkTransferFunctionWidget.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\QtWidgetsExt\include\QmitkUGCombinedRepresentationPropertyWidget.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\QtWidgetsExt\include\QmitkVideoBackground.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\QtWidgetsExt\include\QmitkWebPage.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\QtWidgetsExt\include\QtWidgetsExtRegisterClasses.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Modules\QtWidgetsExt\ui_QmitkAboutDialogGUI.h">
+      <Filter>Generated\Qt UI Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Modules\QtWidgetsExt\ui_QmitkGnuplotWidget.h">
+      <Filter>Generated\Qt UI Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Modules\QtWidgetsExt\ui_QmitkPrimitiveMovieNavigatorWidget.h">
+      <Filter>Generated\Qt UI Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Modules\QtWidgetsExt\ui_QmitkSelectableGLWidget.h">
+      <Filter>Generated\Qt UI Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Modules\QtWidgetsExt\ui_QmitkSliceWidget.h">
+      <Filter>Generated\Qt UI Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Modules\QtWidgetsExt\ui_QmitkSliderNavigator.h">
+      <Filter>Generated\Qt UI Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Modules\QtWidgetsExt\ui_QmitkTransferFunctionGeneratorWidget.h">
+      <Filter>Generated\Qt UI Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Modules\QtWidgetsExt\ui_QmitkTransferFunctionWidget.h">
+      <Filter>Generated\Qt UI Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK\Modules\QtWidgetsExt\src\QmitkAboutDialogGUI.ui">
+      <Filter>QT UI Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK\Modules\QtWidgetsExt\src\QmitkGnuplotWidget.ui">
+      <Filter>QT UI Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK\Modules\QtWidgetsExt\src\QmitkPrimitiveMovieNavigatorWidget.ui">
+      <Filter>QT UI Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK\Modules\QtWidgetsExt\src\QmitkSelectableGLWidget.ui">
+      <Filter>QT UI Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK\Modules\QtWidgetsExt\src\QmitkSliceWidget.ui">
+      <Filter>QT UI Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK\Modules\QtWidgetsExt\src\QmitkSliderNavigator.ui">
+      <Filter>QT UI Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK\Modules\QtWidgetsExt\src\QmitkTransferFunctionGeneratorWidget.ui">
+      <Filter>QT UI Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK\Modules\QtWidgetsExt\src\QmitkTransferFunctionWidget.ui">
+      <Filter>QT UI Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK\Modules\QtWidgetsExt\resource\QtWidgetsExt.qrc">
+      <Filter>Qt Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK\Modules\QtWidgetsExt\CMakeLists.txt" />
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\984903ce3e16d7af727e9135af003446\moc_qclickablelabel.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\984903ce3e16d7af727e9135af003446\moc_QmitkAboutDialog.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\984903ce3e16d7af727e9135af003446\moc_QmitkBasePropertyView.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\984903ce3e16d7af727e9135af003446\moc_QmitkBoolPropertyWidget.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\984903ce3e16d7af727e9135af003446\moc_QmitkBoundingObjectWidget.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\984903ce3e16d7af727e9135af003446\moc_QmitkCallbackFromGUIThread.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\984903ce3e16d7af727e9135af003446\moc_QmitkColorPropertyEditor.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\984903ce3e16d7af727e9135af003446\moc_QmitkColorPropertyView.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\984903ce3e16d7af727e9135af003446\moc_QmitkColorTransferFunctionCanvas.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\984903ce3e16d7af727e9135af003446\moc_QmitkCrossWidget.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\984903ce3e16d7af727e9135af003446\moc_QmitkEditPointDialog.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\984903ce3e16d7af727e9135af003446\moc_QmitkEnumerationPropertyWidget.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\984903ce3e16d7af727e9135af003446\moc_QmitkFileChooser.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\984903ce3e16d7af727e9135af003446\moc_QmitkGnuplotWidget.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\984903ce3e16d7af727e9135af003446\moc_QmitkHistogramJSWidget.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\984903ce3e16d7af727e9135af003446\moc_QmitkHistogramWidget.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\984903ce3e16d7af727e9135af003446\moc_QmitkHotkeyLineEdit.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\984903ce3e16d7af727e9135af003446\moc_QmitkNumberPropertyEditor.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\984903ce3e16d7af727e9135af003446\moc_QmitkNumberPropertySlider.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\984903ce3e16d7af727e9135af003446\moc_QmitkNumberPropertyView.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\984903ce3e16d7af727e9135af003446\moc_QmitkPiecewiseFunctionCanvas.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\984903ce3e16d7af727e9135af003446\moc_QmitkPlotWidget.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\984903ce3e16d7af727e9135af003446\moc_QmitkPointListModel.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\984903ce3e16d7af727e9135af003446\moc_QmitkPointListView.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\984903ce3e16d7af727e9135af003446\moc_QmitkPointListViewWidget.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\984903ce3e16d7af727e9135af003446\moc_QmitkPointListWidget.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\984903ce3e16d7af727e9135af003446\moc_QmitkPrimitiveMovieNavigatorWidget.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\984903ce3e16d7af727e9135af003446\moc_QmitkSelectableGLWidget.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\984903ce3e16d7af727e9135af003446\moc_QmitkSliceWidget.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\984903ce3e16d7af727e9135af003446\moc_QmitkSliderNavigatorWidget.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\984903ce3e16d7af727e9135af003446\moc_QmitkStandardViews.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\984903ce3e16d7af727e9135af003446\moc_QmitkStepperAdapter.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\984903ce3e16d7af727e9135af003446\moc_QmitkStringPropertyEditor.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\984903ce3e16d7af727e9135af003446\moc_QmitkStringPropertyOnDemandEdit.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\984903ce3e16d7af727e9135af003446\moc_QmitkStringPropertyView.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\984903ce3e16d7af727e9135af003446\moc_QmitkTransferFunctionCanvas.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\984903ce3e16d7af727e9135af003446\moc_QmitkTransferFunctionGeneratorWidget.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\984903ce3e16d7af727e9135af003446\moc_QmitkTransferFunctionWidget.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\984903ce3e16d7af727e9135af003446\moc_QmitkUGCombinedRepresentationPropertyWidget.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\984903ce3e16d7af727e9135af003446\moc_QmitkVideoBackground.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\984903ce3e16d7af727e9135af003446\moc_QmitkWebPage.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Generated\Qt QRC Source Files">
+      <UniqueIdentifier>{D901E006-AFF0-37CB-817C-4E09F6A41AF5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated\Qt UI Header Files">
+      <UniqueIdentifier>{2D3E25A1-F9DB-36EC-96F3-AA37A8022068}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated\Qt MOC Source Files">
+      <UniqueIdentifier>{B42DA33F-2448-3D6E-A532-40F314971B47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{CAC8648D-C086-3462-B846-B0EBFA3DCB4A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated">
+      <UniqueIdentifier>{7FA4B4B1-5C9C-314E-A0B9-36873EE561F1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="== Source Files ==">
+      <UniqueIdentifier>{9CA70B67-B51F-303F-96AF-687940E0FEA8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="== Header Files ==">
+      <UniqueIdentifier>{4D89E91A-663E-32FD-A047-724E4EC4BA98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="QT UI Files">
+      <UniqueIdentifier>{A7973F98-B74E-37EA-8F4A-12BAE98DFBF1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Qt Resource Files">
+      <UniqueIdentifier>{2207AE9E-C9A3-3741-808C-C55D2661FAAA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

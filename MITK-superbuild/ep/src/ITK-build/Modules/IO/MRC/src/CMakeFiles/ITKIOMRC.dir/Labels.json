@@ -1,0 +1,27 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/IO/MRC/src/itkMRCHeaderObject.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/IO/MRC/src/itkMRCImageIO.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/IO/MRC/src/itkMRCImageIOFactory.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/IO/MRC/src/CMakeLists.txt"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "ITKIOMRC" ],
+		"name" : "ITKIOMRC"
+	}
+}

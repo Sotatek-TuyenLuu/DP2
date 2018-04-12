@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\D\MITK\Plugins\org.mitk.gui.qt.volumevisualization\src\internal\mitkPluginActivator.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Plugins\org.mitk.gui.qt.volumevisualization\src\internal\QmitkVolumeVisualizationView.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.mitk.gui.qt.volumevisualization\src\internal\moc_mitkPluginActivator.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.mitk.gui.qt.volumevisualization\src\internal\moc_QmitkVolumeVisualizationView.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.mitk.gui.qt.volumevisualization\qrc_org_mitk_gui_qt_volumevisualization_manifest.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.mitk.gui.qt.volumevisualization\qrc_org_mitk_gui_qt_volumevisualization_cached.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\D\MITK\Plugins\org.mitk.gui.qt.volumevisualization\src\internal\mitkPluginActivator.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Plugins\org.mitk.gui.qt.volumevisualization\src\internal\QmitkVolumeVisualizationView.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.mitk.gui.qt.volumevisualization\ui_QmitkVolumeVisualizationViewControls.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK\Plugins\org.mitk.gui.qt.volumevisualization\CMakeLists.txt" />
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\80044bcf6dd8a591313662aeb116667f\moc_mitkPluginActivator.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\80044bcf6dd8a591313662aeb116667f\moc_QmitkVolumeVisualizationView.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK\Plugins\org.mitk.gui.qt.volumevisualization\src\internal\QmitkVolumeVisualizationViewControls.ui">
+      <Filter>QT UI Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.mitk.gui.qt.volumevisualization\org_mitk_gui_qt_volumevisualization_manifest.qrc" />
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.mitk.gui.qt.volumevisualization\org_mitk_gui_qt_volumevisualization_cached.qrc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{CAC8648D-C086-3462-B846-B0EBFA3DCB4A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="== Source Files ==">
+      <UniqueIdentifier>{9CA70B67-B51F-303F-96AF-687940E0FEA8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="== Header Files ==">
+      <UniqueIdentifier>{4D89E91A-663E-32FD-A047-724E4EC4BA98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="QT UI Files">
+      <UniqueIdentifier>{A7973F98-B74E-37EA-8F4A-12BAE98DFBF1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated">
+      <UniqueIdentifier>{7FA4B4B1-5C9C-314E-A0B9-36873EE561F1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

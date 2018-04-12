@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\D\MITK\Plugins\org.mitk.gui.qt.datamanager\src\berrySingleNodeSelection.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Plugins\org.mitk.gui.qt.datamanager\src\QmitkDataManagerView.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Plugins\org.mitk.gui.qt.datamanager\src\QmitkDataManagerPreferencePage.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Plugins\org.mitk.gui.qt.datamanager\src\QmitkDataManagerHotkeysPrefPage.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Plugins\org.mitk.gui.qt.datamanager\src\internal\mitkPluginActivator.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Plugins\org.mitk.gui.qt.datamanager\src\internal\QmitkNodeTableViewKeyFilter.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Plugins\org.mitk.gui.qt.datamanager\src\internal\QmitkInfoDialog.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Plugins\org.mitk.gui.qt.datamanager\src\internal\QmitkDataManagerItemDelegate.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.mitk.gui.qt.datamanager\src\moc_QmitkDataManagerView.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.mitk.gui.qt.datamanager\src\moc_QmitkDataManagerPreferencePage.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.mitk.gui.qt.datamanager\src\moc_QmitkDataManagerHotkeysPrefPage.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.mitk.gui.qt.datamanager\src\internal\moc_QmitkNodeTableViewKeyFilter.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.mitk.gui.qt.datamanager\src\internal\moc_QmitkInfoDialog.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.mitk.gui.qt.datamanager\src\internal\moc_QmitkDataManagerItemDelegate.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.mitk.gui.qt.datamanager\src\internal\moc_mitkPluginActivator.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.mitk.gui.qt.datamanager\qrc_datamanager.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.mitk.gui.qt.datamanager\qrc_org_mitk_gui_qt_datamanager_manifest.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.mitk.gui.qt.datamanager\qrc_org_mitk_gui_qt_datamanager_cached.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\D\MITK\Plugins\org.mitk.gui.qt.datamanager\src\berrySingleNodeSelection.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Plugins\org.mitk.gui.qt.datamanager\src\QmitkDataManagerView.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Plugins\org.mitk.gui.qt.datamanager\src\QmitkDataManagerPreferencePage.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Plugins\org.mitk.gui.qt.datamanager\src\QmitkDataManagerHotkeysPrefPage.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Plugins\org.mitk.gui.qt.datamanager\src\internal\mitkPluginActivator.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Plugins\org.mitk.gui.qt.datamanager\src\internal\QmitkNodeTableViewKeyFilter.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Plugins\org.mitk.gui.qt.datamanager\src\internal\QmitkInfoDialog.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Plugins\org.mitk.gui.qt.datamanager\src\internal\QmitkDataManagerItemDelegate.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK\Plugins\org.mitk.gui.qt.datamanager\CMakeLists.txt" />
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\e8f7e0f46dfbd0662e3324259e53f19e\moc_QmitkDataManagerView.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\e8f7e0f46dfbd0662e3324259e53f19e\moc_QmitkDataManagerPreferencePage.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\e8f7e0f46dfbd0662e3324259e53f19e\moc_QmitkDataManagerHotkeysPrefPage.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\d7501c4d65a218df8f10de565e299002\moc_QmitkNodeTableViewKeyFilter.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\d7501c4d65a218df8f10de565e299002\moc_QmitkInfoDialog.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\d7501c4d65a218df8f10de565e299002\moc_QmitkDataManagerItemDelegate.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\d7501c4d65a218df8f10de565e299002\moc_mitkPluginActivator.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK\Plugins\org.mitk.gui.qt.datamanager\resources\datamanager.qrc">
+      <Filter>Qt Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.mitk.gui.qt.datamanager\org_mitk_gui_qt_datamanager_manifest.qrc" />
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.mitk.gui.qt.datamanager\org_mitk_gui_qt_datamanager_cached.qrc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{CAC8648D-C086-3462-B846-B0EBFA3DCB4A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="== Source Files ==">
+      <UniqueIdentifier>{9CA70B67-B51F-303F-96AF-687940E0FEA8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="== Header Files ==">
+      <UniqueIdentifier>{4D89E91A-663E-32FD-A047-724E4EC4BA98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Qt Resource Files">
+      <UniqueIdentifier>{2207AE9E-C9A3-3741-808C-C55D2661FAAA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated">
+      <UniqueIdentifier>{7FA4B4B1-5C9C-314E-A0B9-36873EE561F1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

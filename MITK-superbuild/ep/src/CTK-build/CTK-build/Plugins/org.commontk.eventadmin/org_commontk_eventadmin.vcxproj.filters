@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.eventadmin\ctkEAConfiguration.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.eventadmin\ctkEAMetaTypeProvider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.eventadmin\ctkEventAdminActivator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.eventadmin\ctkEventAdminService.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.eventadmin\adapter\ctkEAAbstractAdapter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.eventadmin\adapter\ctkEAFrameworkEventAdapter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.eventadmin\adapter\ctkEALogEventAdapter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.eventadmin\adapter\ctkEAPluginEventAdapter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.eventadmin\adapter\ctkEAServiceEventAdapter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.eventadmin\dispatch\ctkEADefaultThreadPool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.eventadmin\dispatch\ctkEAInterruptibleThread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.eventadmin\dispatch\ctkEALinkedQueue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.eventadmin\dispatch\ctkEAPooledExecutor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.eventadmin\dispatch\ctkEASignalPublisher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.eventadmin\dispatch\ctkEASyncMasterThread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.eventadmin\dispatch\ctkEAThreadFactoryUser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.eventadmin\dispatch\ctkEAInterruptedException.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.eventadmin\handler\ctkEACleanBlackList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.eventadmin\handler\ctkEASlotHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.eventadmin\tasks\ctkEASyncThread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.eventadmin\util\ctkEABrokenBarrierException.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.eventadmin\util\ctkEACyclicBarrier.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.eventadmin\util\ctkEALogTracker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.eventadmin\util\ctkEARendezvous.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.eventadmin\util\ctkEATimeoutException.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.eventadmin\adapter\moc_ctkEAFrameworkEventAdapter_p.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.eventadmin\adapter\moc_ctkEALogEventAdapter_p.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.eventadmin\adapter\moc_ctkEAPluginEventAdapter_p.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.eventadmin\adapter\moc_ctkEAServiceEventAdapter_p.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.eventadmin\dispatch\moc_ctkEAInterruptibleThread_p.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.eventadmin\dispatch\moc_ctkEASignalPublisher_p.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.eventadmin\dispatch\moc_ctkEASyncMasterThread_p.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.eventadmin\handler\moc_ctkEASlotHandler_p.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.eventadmin\tasks\moc_ctkEASyncThread_p.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.eventadmin\moc_ctkEAConfiguration_p.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.eventadmin\moc_ctkEAMetaTypeProvider_p.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.eventadmin\moc_ctkEventAdminActivator_p.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.eventadmin\moc_ctkEventAdminService_p.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.eventadmin\qrc_org_commontk_eventadmin_manifest.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.eventadmin\ctkEAConfiguration_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.eventadmin\ctkEAMetaTypeProvider_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.eventadmin\ctkEventAdminActivator_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.eventadmin\ctkEventAdminImpl_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.eventadmin\ctkEventAdminService_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.eventadmin\adapter\ctkEAAbstractAdapter_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.eventadmin\adapter\ctkEAFrameworkEventAdapter_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.eventadmin\adapter\ctkEALogEventAdapter_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.eventadmin\adapter\ctkEAPluginEventAdapter_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.eventadmin\adapter\ctkEAServiceEventAdapter_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.eventadmin\dispatch\ctkEAChannel_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.eventadmin\dispatch\ctkEADefaultThreadPool_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.eventadmin\dispatch\ctkEAInterruptibleThread_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.eventadmin\dispatch\ctkEALinkedQueue_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.eventadmin\dispatch\ctkEAPooledExecutor_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.eventadmin\dispatch\ctkEASignalPublisher_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.eventadmin\dispatch\ctkEASyncMasterThread_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.eventadmin\dispatch\ctkEAThreadFactory_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.eventadmin\dispatch\ctkEAThreadFactoryUser_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.eventadmin\dispatch\ctkEAInterruptedException_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.eventadmin\handler\ctkEABlackList_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.eventadmin\handler\ctkEABlacklistingHandlerTasks_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.eventadmin\handler\ctkEACacheFilters_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.eventadmin\handler\ctkEACacheTopicHandlerFilters_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.eventadmin\handler\ctkEACleanBlackList_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.eventadmin\handler\ctkEAFilters_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.eventadmin\handler\ctkEAHandlerTasks_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.eventadmin\handler\ctkEASlotHandler_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.eventadmin\handler\ctkEATopicHandlerFilters_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.eventadmin\tasks\ctkEAAsyncDeliverTasks_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.eventadmin\tasks\ctkEADeliverTask_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.eventadmin\tasks\ctkEAHandlerTask_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.eventadmin\tasks\ctkEASyncDeliverTasks_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.eventadmin\tasks\ctkEASyncThread_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.eventadmin\util\ctkEABrokenBarrierException_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.eventadmin\util\ctkEACacheMap_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.eventadmin\util\ctkEACyclicBarrier_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.eventadmin\util\ctkEALeastRecentlyUsedCacheMap_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.eventadmin\util\ctkEALogTracker_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.eventadmin\util\ctkEARendezvous_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.eventadmin\util\ctkEATimeoutException_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.eventadmin\CMakeLists.txt" />
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\CMakeFiles\c88135492bf990f8c53dd731bb8b1e43\moc_ctkEAFrameworkEventAdapter_p.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\CMakeFiles\c88135492bf990f8c53dd731bb8b1e43\moc_ctkEALogEventAdapter_p.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\CMakeFiles\c88135492bf990f8c53dd731bb8b1e43\moc_ctkEAPluginEventAdapter_p.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\CMakeFiles\c88135492bf990f8c53dd731bb8b1e43\moc_ctkEAServiceEventAdapter_p.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\CMakeFiles\e0c7c68add0b036a16ff451b35caa7f3\moc_ctkEAInterruptibleThread_p.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\CMakeFiles\e0c7c68add0b036a16ff451b35caa7f3\moc_ctkEASignalPublisher_p.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\CMakeFiles\e0c7c68add0b036a16ff451b35caa7f3\moc_ctkEASyncMasterThread_p.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\CMakeFiles\92100d5189e92d0b7e78ec71f3cf8c35\moc_ctkEASlotHandler_p.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\CMakeFiles\b99bc14314532a9cb82d1ae8e065885b\moc_ctkEASyncThread_p.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\CMakeFiles\24df164d07021809c07675789dd56586\moc_ctkEAConfiguration_p.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\CMakeFiles\24df164d07021809c07675789dd56586\moc_ctkEAMetaTypeProvider_p.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\CMakeFiles\24df164d07021809c07675789dd56586\moc_ctkEventAdminActivator_p.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\CMakeFiles\24df164d07021809c07675789dd56586\moc_ctkEventAdminService_p.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.eventadmin\org_commontk_eventadmin_manifest.qrc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.eventadmin\ctkEventAdminImpl.tpp" />
+    <None Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.eventadmin\handler\ctkEABlacklistingHandlerTasks.tpp" />
+    <None Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.eventadmin\handler\ctkEACacheFilters.tpp" />
+    <None Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.eventadmin\handler\ctkEACacheTopicHandlerFilters.tpp" />
+    <None Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.eventadmin\tasks\ctkEAAsyncDeliverTasks.tpp" />
+    <None Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.eventadmin\tasks\ctkEAHandlerTask.tpp" />
+    <None Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.eventadmin\tasks\ctkEASyncDeliverTasks.tpp" />
+    <None Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.eventadmin\util\ctkEALeastRecentlyUsedCacheMap.tpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E1DC2353-CFCD-3C1E-A786-25B489D8E12B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{5B3800A7-E615-3358-B373-1B6B157DD83C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{0B275B48-7A6E-3833-8375-16A6C39A6784}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated">
+      <UniqueIdentifier>{413D60D0-55C9-3E7F-B4B3-E330D1E83D18}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

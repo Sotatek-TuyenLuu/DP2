@@ -1,0 +1,1200 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{A4D2FE45-C4CB-34B6-8D92-0EE38B0DF319}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>MitkCore</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\MITK-build\bin\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MitkCore.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MitkCore</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\MITK-build\bin\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MitkCore.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MitkCore</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\MITK-build\bin\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">MitkCore.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">MitkCore</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\MITK-build\bin\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">MitkCore.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">MitkCore</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\MITK-build\Modules\Core\ITKIOFactoryRegistration;E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\include\ITK-4.7;E:\D\MITK-superbuild\MITK-build\Modules\Core;E:\D\MITK-superbuild\ep\include\vtk-6.2;E:\D\MITK-superbuild\ep\include\boost-1_59;E:\D\MITK\Modules\Core\include;E:\D\MITK\Modules\Core\src;E:\D\MITK-superbuild\MITK-build;E:\D\MITK\Modules\Core\src\Algorithms;E:\D\MITK\Modules\Core\src\Controllers;E:\D\MITK\Modules\Core\src\DataManagement;E:\D\MITK\Modules\Core\src\Interactions;E:\D\MITK\Modules\Core\src\IO;E:\D\MITK\Modules\Core\src\Rendering;E:\D\MITK-superbuild\MITK-build\Utilities\mbilog;E:\D\MITK\Utilities\mbilog\.;E:\D\MITK\Modules\CppMicroServices\third_party;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\include;E:\D\MITK\Modules\CppMicroServices\core\include;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\core\include;E:\D\MITK\Modules\CppMicroServices\core\src\util;E:\D\MITK\Modules\CppMicroServices\core\src\service;E:\D\MITK\Modules\CppMicroServices\core\src\module;E:\D\MITK-superbuild\ep\include\tinyxml;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4005;4231;4316</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WIN32_WINNT=0x0501;POCO_NO_UNWINDOWS;WIN32_LEAN_AND_MEAN;NOMINMAX;_DEBUG;US_MODULE_NAME=MitkCore;vtkRenderingCore_INCLUDE="E:/D/MITK-superbuild/MITK-build/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingFreeTypeOpenGL_vtkRenderingOpenGL.h";vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL);ITK_IO_FACTORY_REGISTER_MANAGER;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug";MitkCore_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WIN32_WINNT=0x0501;POCO_NO_UNWINDOWS;WIN32_LEAN_AND_MEAN;NOMINMAX;_DEBUG;US_MODULE_NAME=MitkCore;vtkRenderingCore_INCLUDE=\"E:/D/MITK-superbuild/MITK-build/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingFreeTypeOpenGL_vtkRenderingOpenGL.h\";vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL);ITK_IO_FACTORY_REGISTER_MANAGER;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\";MitkCore_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\MITK-build\Modules\Core\ITKIOFactoryRegistration;E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\include\ITK-4.7;E:\D\MITK-superbuild\MITK-build\Modules\Core;E:\D\MITK-superbuild\ep\include\vtk-6.2;E:\D\MITK-superbuild\ep\include\boost-1_59;E:\D\MITK\Modules\Core\include;E:\D\MITK\Modules\Core\src;E:\D\MITK-superbuild\MITK-build;E:\D\MITK\Modules\Core\src\Algorithms;E:\D\MITK\Modules\Core\src\Controllers;E:\D\MITK\Modules\Core\src\DataManagement;E:\D\MITK\Modules\Core\src\Interactions;E:\D\MITK\Modules\Core\src\IO;E:\D\MITK\Modules\Core\src\Rendering;E:\D\MITK-superbuild\MITK-build\Utilities\mbilog;E:\D\MITK\Utilities\mbilog\.;E:\D\MITK\Modules\CppMicroServices\third_party;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\include;E:\D\MITK\Modules\CppMicroServices\core\include;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\core\include;E:\D\MITK\Modules\CppMicroServices\core\src\util;E:\D\MITK\Modules\CppMicroServices\core\src\service;E:\D\MITK\Modules\CppMicroServices\core\src\module;E:\D\MITK-superbuild\ep\include\tinyxml;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\MITK-build\Modules\Core\ITKIOFactoryRegistration;E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\include\ITK-4.7;E:\D\MITK-superbuild\MITK-build\Modules\Core;E:\D\MITK-superbuild\ep\include\vtk-6.2;E:\D\MITK-superbuild\ep\include\boost-1_59;E:\D\MITK\Modules\Core\include;E:\D\MITK\Modules\Core\src;E:\D\MITK-superbuild\MITK-build;E:\D\MITK\Modules\Core\src\Algorithms;E:\D\MITK\Modules\Core\src\Controllers;E:\D\MITK\Modules\Core\src\DataManagement;E:\D\MITK\Modules\Core\src\Interactions;E:\D\MITK\Modules\Core\src\IO;E:\D\MITK\Modules\Core\src\Rendering;E:\D\MITK-superbuild\MITK-build\Utilities\mbilog;E:\D\MITK\Utilities\mbilog\.;E:\D\MITK\Modules\CppMicroServices\third_party;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\include;E:\D\MITK\Modules\CppMicroServices\core\include;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\core\include;E:\D\MITK\Modules\CppMicroServices\core\src\util;E:\D\MITK\Modules\CppMicroServices\core\src\service;E:\D\MITK\Modules\CppMicroServices\core\src\module;E:\D\MITK-superbuild\ep\include\tinyxml;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Appending zipped resources to MitkCore</Message>
+      <Command>setlocal
+cd E:\D\MITK\Modules\Core
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+E:\D\MITK-superbuild\MITK-build\bin\Debug\usResourceCompiler.exe --append E:/D/MITK-superbuild/MITK-build/bin/Debug/MitkCore.dll E:/D/MITK-superbuild/MITK-build/Modules/Core/us_MitkCore/res_0.zip
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\Debug\mbilog.lib;..\..\lib\Debug\CppMicroServices.lib;E:\D\MITK-superbuild\ep\lib\ITKIOGDCM-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkdouble-conversion-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itksys-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl_algo-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkv3p_netlib-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKStatistics-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkNetlibSlatec-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKSpatialObjects-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKPath-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKMesh-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKMetaIO-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkzlib-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOGDCM-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkdouble-conversion-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itksys-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl_algo-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkv3p_netlib-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKStatistics-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkNetlibSlatec-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKSpatialObjects-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKPath-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKMesh-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKMetaIO-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkzlib-4.7d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersTexture-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersParallel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkParallelCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOLegacy-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingStencil-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingMath-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingVolumeOpenGL-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingFreeTypeOpenGL-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingLabel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkInteractionWidgets-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersHybrid-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingGeneral-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingAnnotation-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingColor-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOXML-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOXMLParser-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkexpat-6.2d.lib;E:\D\MITK-superbuild\ep\lib\tinyxmld.lib;glu32.lib;opengl32.lib;E:\D\MITK-superbuild\ep\lib\itkdouble-conversion-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itksys-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl_algo-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkv3p_netlib-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkNetlibSlatec-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKStatistics-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKMesh-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkzlib-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKMetaIO-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKSpatialObjects-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKPath-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKLabelMap-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKQuadEdgeMesh-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKOptimizers-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKPolynomials-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKBiasCorrection-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKBioCell-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKDICOMParser-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKEXPAT-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOXML-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOSpatialObjects-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKFEM-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKznz-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKniftiio-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKgiftiio-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkhdf5_cpp-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkhdf5-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOCSV-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOGDCM-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOHDF5-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkjpeg-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itktiff-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOLSM-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOMRC-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOMesh-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKNrrdIO-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkpng-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOTransformBase-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOTransformHDF5-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOTransformInsightLegacy-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOTransformMatlab-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKKLMRegionGrowing-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKOptimizersv4-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkopenjpeg-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKVTK-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKWatersheds-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKReview-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKVideoCore-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKVideoIO-4.7d.lib;psapi.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingOpenGL-6.2d.lib;glu32.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersModeling-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkInteractionStyle-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingHybrid-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOImage-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkDICOMParser-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkmetaio-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkpng-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtktiff-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkjpeg-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingVolume-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingSources-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingFreeType-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersExtraction-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersStatistics-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingFourier-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkalglib-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersGeometry-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersSources-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersGeneral-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonComputationalGeometry-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonColor-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkftgl-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkfreetype-6.2d.lib;opengl32.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOGeometry-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkjsoncpp-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonExecutionModel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonDataModel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonMisc-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonSystem-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtksys-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonTransforms-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonMath-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkzlib-6.2d.lib;E:\D\MITK-superbuild\ep\lib\ITKgiftiio-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOGDCM-4.7d.lib;E:\D\MITK-superbuild\ep\lib\gdcmMSFFd.lib;E:\D\MITK-superbuild\ep\lib\gdcmDICTd.lib;E:\D\MITK-superbuild\ep\lib\gdcmIODd.lib;E:\D\MITK-superbuild\ep\lib\gdcmDSEDd.lib;E:\D\MITK-superbuild\ep\lib\gdcmCommond.lib;E:\D\MITK-superbuild\ep\lib\ITKLabelMap-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKQuadEdgeMesh-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKBiasCorrection-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKPolynomials-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKBioCell-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOSpatialObjects-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOXML-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKEXPAT-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKFEM-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKOptimizers-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOBMP-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOBioRad-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOGIPL-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOJPEG-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOTIFF-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itktiff-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkjpeg-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOMeta-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKMetaIO-4.7d.lib;comctl32.lib;wsock32.lib;E:\D\MITK-superbuild\ep\lib\ITKIONIFTI-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKniftiio-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKznz-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIONRRD-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKNrrdIO-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOPNG-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkpng-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOSiemens-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOGE-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOIPL-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOStimulate-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOTransformHDF5-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkhdf5_cpp-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkhdf5-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkzlib-4.7d.lib;kernel32.lib;E:\D\MITK-superbuild\ep\lib\ITKIOTransformInsightLegacy-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOTransformMatlab-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOTransformBase-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOVTK-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKKLMRegionGrowing-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkopenjpeg-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKVTK-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKWatersheds-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKSpatialObjects-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKMesh-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKPath-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKStatistics-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkNetlibSlatec-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOImageBase-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKVideoCore-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKCommon-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkdouble-conversion-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itksys-4.7d.lib;ws2_32.lib;Psapi.lib;E:\D\MITK-superbuild\ep\lib\ITKVNLInstantiation-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl_algo-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkv3p_lsqr-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvcl-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkv3p_netlib-4.7d.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:/D/MITK-superbuild/ep/lib;E:/D/MITK-superbuild/ep/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/MITK-build/lib/Debug/MitkCore.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/MITK-build/bin/Debug/MitkCore.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\MITK-build\Modules\Core\ITKIOFactoryRegistration;E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\include\ITK-4.7;E:\D\MITK-superbuild\MITK-build\Modules\Core;E:\D\MITK-superbuild\ep\include\vtk-6.2;E:\D\MITK-superbuild\ep\include\boost-1_59;E:\D\MITK\Modules\Core\include;E:\D\MITK\Modules\Core\src;E:\D\MITK-superbuild\MITK-build;E:\D\MITK\Modules\Core\src\Algorithms;E:\D\MITK\Modules\Core\src\Controllers;E:\D\MITK\Modules\Core\src\DataManagement;E:\D\MITK\Modules\Core\src\Interactions;E:\D\MITK\Modules\Core\src\IO;E:\D\MITK\Modules\Core\src\Rendering;E:\D\MITK-superbuild\MITK-build\Utilities\mbilog;E:\D\MITK\Utilities\mbilog\.;E:\D\MITK\Modules\CppMicroServices\third_party;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\include;E:\D\MITK\Modules\CppMicroServices\core\include;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\core\include;E:\D\MITK\Modules\CppMicroServices\core\src\util;E:\D\MITK\Modules\CppMicroServices\core\src\service;E:\D\MITK\Modules\CppMicroServices\core\src\module;E:\D\MITK-superbuild\ep\include\tinyxml;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4005;4231;4316</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WIN32_WINNT=0x0501;POCO_NO_UNWINDOWS;WIN32_LEAN_AND_MEAN;NOMINMAX;NDEBUG;US_MODULE_NAME=MitkCore;vtkRenderingCore_INCLUDE="E:/D/MITK-superbuild/MITK-build/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingFreeTypeOpenGL_vtkRenderingOpenGL.h";vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL);ITK_IO_FACTORY_REGISTER_MANAGER;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release";MitkCore_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WIN32_WINNT=0x0501;POCO_NO_UNWINDOWS;WIN32_LEAN_AND_MEAN;NOMINMAX;NDEBUG;US_MODULE_NAME=MitkCore;vtkRenderingCore_INCLUDE=\"E:/D/MITK-superbuild/MITK-build/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingFreeTypeOpenGL_vtkRenderingOpenGL.h\";vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL);ITK_IO_FACTORY_REGISTER_MANAGER;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\";MitkCore_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\MITK-build\Modules\Core\ITKIOFactoryRegistration;E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\include\ITK-4.7;E:\D\MITK-superbuild\MITK-build\Modules\Core;E:\D\MITK-superbuild\ep\include\vtk-6.2;E:\D\MITK-superbuild\ep\include\boost-1_59;E:\D\MITK\Modules\Core\include;E:\D\MITK\Modules\Core\src;E:\D\MITK-superbuild\MITK-build;E:\D\MITK\Modules\Core\src\Algorithms;E:\D\MITK\Modules\Core\src\Controllers;E:\D\MITK\Modules\Core\src\DataManagement;E:\D\MITK\Modules\Core\src\Interactions;E:\D\MITK\Modules\Core\src\IO;E:\D\MITK\Modules\Core\src\Rendering;E:\D\MITK-superbuild\MITK-build\Utilities\mbilog;E:\D\MITK\Utilities\mbilog\.;E:\D\MITK\Modules\CppMicroServices\third_party;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\include;E:\D\MITK\Modules\CppMicroServices\core\include;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\core\include;E:\D\MITK\Modules\CppMicroServices\core\src\util;E:\D\MITK\Modules\CppMicroServices\core\src\service;E:\D\MITK\Modules\CppMicroServices\core\src\module;E:\D\MITK-superbuild\ep\include\tinyxml;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\MITK-build\Modules\Core\ITKIOFactoryRegistration;E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\include\ITK-4.7;E:\D\MITK-superbuild\MITK-build\Modules\Core;E:\D\MITK-superbuild\ep\include\vtk-6.2;E:\D\MITK-superbuild\ep\include\boost-1_59;E:\D\MITK\Modules\Core\include;E:\D\MITK\Modules\Core\src;E:\D\MITK-superbuild\MITK-build;E:\D\MITK\Modules\Core\src\Algorithms;E:\D\MITK\Modules\Core\src\Controllers;E:\D\MITK\Modules\Core\src\DataManagement;E:\D\MITK\Modules\Core\src\Interactions;E:\D\MITK\Modules\Core\src\IO;E:\D\MITK\Modules\Core\src\Rendering;E:\D\MITK-superbuild\MITK-build\Utilities\mbilog;E:\D\MITK\Utilities\mbilog\.;E:\D\MITK\Modules\CppMicroServices\third_party;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\include;E:\D\MITK\Modules\CppMicroServices\core\include;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\core\include;E:\D\MITK\Modules\CppMicroServices\core\src\util;E:\D\MITK\Modules\CppMicroServices\core\src\service;E:\D\MITK\Modules\CppMicroServices\core\src\module;E:\D\MITK-superbuild\ep\include\tinyxml;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Appending zipped resources to MitkCore</Message>
+      <Command>setlocal
+cd E:\D\MITK\Modules\Core
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+E:\D\MITK-superbuild\MITK-build\bin\Release\usResourceCompiler.exe --append E:/D/MITK-superbuild/MITK-build/bin/Release/MitkCore.dll E:/D/MITK-superbuild/MITK-build/Modules/Core/us_MitkCore/res_0.zip
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\Release\mbilog.lib;..\..\lib\Release\CppMicroServices.lib;E:\D\MITK-superbuild\ep\lib\ITKIOGDCM-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkdouble-conversion-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itksys-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl_algo-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkv3p_netlib-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKStatistics-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkNetlibSlatec-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKSpatialObjects-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKPath-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKMesh-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKMetaIO-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkzlib-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOGDCM-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkdouble-conversion-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itksys-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl_algo-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkv3p_netlib-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKStatistics-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkNetlibSlatec-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKSpatialObjects-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKPath-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKMesh-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKMetaIO-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkzlib-4.7d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersTexture-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersParallel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkParallelCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOLegacy-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingStencil-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingMath-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingVolumeOpenGL-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingFreeTypeOpenGL-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingLabel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkInteractionWidgets-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersHybrid-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingGeneral-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingAnnotation-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingColor-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOXML-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOXMLParser-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkexpat-6.2d.lib;E:\D\MITK-superbuild\ep\lib\tinyxmld.lib;glu32.lib;opengl32.lib;E:\D\MITK-superbuild\ep\lib\itkdouble-conversion-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itksys-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl_algo-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkv3p_netlib-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkNetlibSlatec-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKStatistics-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKMesh-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkzlib-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKMetaIO-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKSpatialObjects-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKPath-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKLabelMap-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKQuadEdgeMesh-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKOptimizers-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKPolynomials-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKBiasCorrection-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKBioCell-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKDICOMParser-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKEXPAT-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOXML-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOSpatialObjects-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKFEM-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKznz-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKniftiio-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKgiftiio-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkhdf5_cpp-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkhdf5-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOCSV-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOGDCM-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOHDF5-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkjpeg-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itktiff-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOLSM-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOMRC-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOMesh-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKNrrdIO-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkpng-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOTransformBase-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOTransformHDF5-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOTransformInsightLegacy-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOTransformMatlab-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKKLMRegionGrowing-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKOptimizersv4-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkopenjpeg-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKVTK-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKWatersheds-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKReview-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKVideoCore-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKVideoIO-4.7d.lib;psapi.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingOpenGL-6.2d.lib;glu32.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersModeling-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkInteractionStyle-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingHybrid-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOImage-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkDICOMParser-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkmetaio-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkpng-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtktiff-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkjpeg-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingVolume-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingSources-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingFreeType-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersExtraction-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersStatistics-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingFourier-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkalglib-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersGeometry-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersSources-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersGeneral-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonComputationalGeometry-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonColor-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkftgl-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkfreetype-6.2d.lib;opengl32.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOGeometry-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkjsoncpp-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonExecutionModel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonDataModel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonMisc-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonSystem-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtksys-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonTransforms-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonMath-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkzlib-6.2d.lib;E:\D\MITK-superbuild\ep\lib\ITKgiftiio-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOGDCM-4.7d.lib;E:\D\MITK-superbuild\ep\lib\gdcmMSFFd.lib;E:\D\MITK-superbuild\ep\lib\gdcmDICTd.lib;E:\D\MITK-superbuild\ep\lib\gdcmIODd.lib;E:\D\MITK-superbuild\ep\lib\gdcmDSEDd.lib;E:\D\MITK-superbuild\ep\lib\gdcmCommond.lib;E:\D\MITK-superbuild\ep\lib\ITKLabelMap-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKQuadEdgeMesh-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKBiasCorrection-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKPolynomials-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKBioCell-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOSpatialObjects-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOXML-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKEXPAT-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKFEM-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKOptimizers-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOBMP-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOBioRad-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOGIPL-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOJPEG-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOTIFF-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itktiff-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkjpeg-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOMeta-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKMetaIO-4.7d.lib;comctl32.lib;wsock32.lib;E:\D\MITK-superbuild\ep\lib\ITKIONIFTI-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKniftiio-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKznz-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIONRRD-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKNrrdIO-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOPNG-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkpng-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOSiemens-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOGE-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOIPL-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOStimulate-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOTransformHDF5-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkhdf5_cpp-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkhdf5-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkzlib-4.7d.lib;kernel32.lib;E:\D\MITK-superbuild\ep\lib\ITKIOTransformInsightLegacy-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOTransformMatlab-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOTransformBase-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOVTK-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKKLMRegionGrowing-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkopenjpeg-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKVTK-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKWatersheds-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKSpatialObjects-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKMesh-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKPath-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKStatistics-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkNetlibSlatec-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOImageBase-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKVideoCore-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKCommon-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkdouble-conversion-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itksys-4.7d.lib;ws2_32.lib;Psapi.lib;E:\D\MITK-superbuild\ep\lib\ITKVNLInstantiation-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl_algo-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkv3p_lsqr-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvcl-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkv3p_netlib-4.7d.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:/D/MITK-superbuild/ep/lib;E:/D/MITK-superbuild/ep/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/MITK-build/lib/Release/MitkCore.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/MITK-build/bin/Release/MitkCore.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\MITK-build\Modules\Core\ITKIOFactoryRegistration;E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\include\ITK-4.7;E:\D\MITK-superbuild\MITK-build\Modules\Core;E:\D\MITK-superbuild\ep\include\vtk-6.2;E:\D\MITK-superbuild\ep\include\boost-1_59;E:\D\MITK\Modules\Core\include;E:\D\MITK\Modules\Core\src;E:\D\MITK-superbuild\MITK-build;E:\D\MITK\Modules\Core\src\Algorithms;E:\D\MITK\Modules\Core\src\Controllers;E:\D\MITK\Modules\Core\src\DataManagement;E:\D\MITK\Modules\Core\src\Interactions;E:\D\MITK\Modules\Core\src\IO;E:\D\MITK\Modules\Core\src\Rendering;E:\D\MITK-superbuild\MITK-build\Utilities\mbilog;E:\D\MITK\Utilities\mbilog\.;E:\D\MITK\Modules\CppMicroServices\third_party;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\include;E:\D\MITK\Modules\CppMicroServices\core\include;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\core\include;E:\D\MITK\Modules\CppMicroServices\core\src\util;E:\D\MITK\Modules\CppMicroServices\core\src\service;E:\D\MITK\Modules\CppMicroServices\core\src\module;E:\D\MITK-superbuild\ep\include\tinyxml;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4005;4231;4316</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WIN32_WINNT=0x0501;POCO_NO_UNWINDOWS;WIN32_LEAN_AND_MEAN;NOMINMAX;NDEBUG;US_MODULE_NAME=MitkCore;vtkRenderingCore_INCLUDE="E:/D/MITK-superbuild/MITK-build/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingFreeTypeOpenGL_vtkRenderingOpenGL.h";vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL);ITK_IO_FACTORY_REGISTER_MANAGER;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR="MinSizeRel";MitkCore_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WIN32_WINNT=0x0501;POCO_NO_UNWINDOWS;WIN32_LEAN_AND_MEAN;NOMINMAX;NDEBUG;US_MODULE_NAME=MitkCore;vtkRenderingCore_INCLUDE=\"E:/D/MITK-superbuild/MITK-build/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingFreeTypeOpenGL_vtkRenderingOpenGL.h\";vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL);ITK_IO_FACTORY_REGISTER_MANAGER;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\";MitkCore_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\MITK-build\Modules\Core\ITKIOFactoryRegistration;E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\include\ITK-4.7;E:\D\MITK-superbuild\MITK-build\Modules\Core;E:\D\MITK-superbuild\ep\include\vtk-6.2;E:\D\MITK-superbuild\ep\include\boost-1_59;E:\D\MITK\Modules\Core\include;E:\D\MITK\Modules\Core\src;E:\D\MITK-superbuild\MITK-build;E:\D\MITK\Modules\Core\src\Algorithms;E:\D\MITK\Modules\Core\src\Controllers;E:\D\MITK\Modules\Core\src\DataManagement;E:\D\MITK\Modules\Core\src\Interactions;E:\D\MITK\Modules\Core\src\IO;E:\D\MITK\Modules\Core\src\Rendering;E:\D\MITK-superbuild\MITK-build\Utilities\mbilog;E:\D\MITK\Utilities\mbilog\.;E:\D\MITK\Modules\CppMicroServices\third_party;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\include;E:\D\MITK\Modules\CppMicroServices\core\include;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\core\include;E:\D\MITK\Modules\CppMicroServices\core\src\util;E:\D\MITK\Modules\CppMicroServices\core\src\service;E:\D\MITK\Modules\CppMicroServices\core\src\module;E:\D\MITK-superbuild\ep\include\tinyxml;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\MITK-build\Modules\Core\ITKIOFactoryRegistration;E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\include\ITK-4.7;E:\D\MITK-superbuild\MITK-build\Modules\Core;E:\D\MITK-superbuild\ep\include\vtk-6.2;E:\D\MITK-superbuild\ep\include\boost-1_59;E:\D\MITK\Modules\Core\include;E:\D\MITK\Modules\Core\src;E:\D\MITK-superbuild\MITK-build;E:\D\MITK\Modules\Core\src\Algorithms;E:\D\MITK\Modules\Core\src\Controllers;E:\D\MITK\Modules\Core\src\DataManagement;E:\D\MITK\Modules\Core\src\Interactions;E:\D\MITK\Modules\Core\src\IO;E:\D\MITK\Modules\Core\src\Rendering;E:\D\MITK-superbuild\MITK-build\Utilities\mbilog;E:\D\MITK\Utilities\mbilog\.;E:\D\MITK\Modules\CppMicroServices\third_party;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\include;E:\D\MITK\Modules\CppMicroServices\core\include;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\core\include;E:\D\MITK\Modules\CppMicroServices\core\src\util;E:\D\MITK\Modules\CppMicroServices\core\src\service;E:\D\MITK\Modules\CppMicroServices\core\src\module;E:\D\MITK-superbuild\ep\include\tinyxml;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Appending zipped resources to MitkCore</Message>
+      <Command>setlocal
+cd E:\D\MITK\Modules\Core
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+E:\D\MITK-superbuild\MITK-build\bin\MinSizeRel\usResourceCompiler.exe --append E:/D/MITK-superbuild/MITK-build/bin/MinSizeRel/MitkCore.dll E:/D/MITK-superbuild/MITK-build/Modules/Core/us_MitkCore/res_0.zip
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\MinSizeRel\mbilog.lib;..\..\lib\MinSizeRel\CppMicroServices.lib;E:\D\MITK-superbuild\ep\lib\ITKIOGDCM-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkdouble-conversion-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itksys-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl_algo-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkv3p_netlib-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKStatistics-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkNetlibSlatec-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKSpatialObjects-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKPath-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKMesh-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKMetaIO-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkzlib-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOGDCM-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkdouble-conversion-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itksys-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl_algo-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkv3p_netlib-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKStatistics-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkNetlibSlatec-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKSpatialObjects-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKPath-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKMesh-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKMetaIO-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkzlib-4.7d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersTexture-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersParallel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkParallelCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOLegacy-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingStencil-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingMath-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingVolumeOpenGL-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingFreeTypeOpenGL-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingLabel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkInteractionWidgets-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersHybrid-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingGeneral-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingAnnotation-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingColor-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOXML-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOXMLParser-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkexpat-6.2d.lib;E:\D\MITK-superbuild\ep\lib\tinyxmld.lib;glu32.lib;opengl32.lib;E:\D\MITK-superbuild\ep\lib\itkdouble-conversion-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itksys-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl_algo-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkv3p_netlib-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkNetlibSlatec-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKStatistics-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKMesh-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkzlib-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKMetaIO-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKSpatialObjects-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKPath-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKLabelMap-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKQuadEdgeMesh-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKOptimizers-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKPolynomials-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKBiasCorrection-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKBioCell-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKDICOMParser-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKEXPAT-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOXML-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOSpatialObjects-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKFEM-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKznz-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKniftiio-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKgiftiio-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkhdf5_cpp-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkhdf5-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOCSV-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOGDCM-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOHDF5-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkjpeg-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itktiff-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOLSM-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOMRC-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOMesh-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKNrrdIO-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkpng-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOTransformBase-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOTransformHDF5-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOTransformInsightLegacy-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOTransformMatlab-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKKLMRegionGrowing-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKOptimizersv4-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkopenjpeg-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKVTK-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKWatersheds-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKReview-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKVideoCore-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKVideoIO-4.7d.lib;psapi.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingOpenGL-6.2d.lib;glu32.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersModeling-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkInteractionStyle-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingHybrid-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOImage-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkDICOMParser-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkmetaio-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkpng-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtktiff-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkjpeg-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingVolume-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingSources-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingFreeType-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersExtraction-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersStatistics-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingFourier-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkalglib-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersGeometry-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersSources-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersGeneral-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonComputationalGeometry-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonColor-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkftgl-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkfreetype-6.2d.lib;opengl32.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOGeometry-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkjsoncpp-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonExecutionModel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonDataModel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonMisc-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonSystem-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtksys-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonTransforms-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonMath-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkzlib-6.2d.lib;E:\D\MITK-superbuild\ep\lib\ITKgiftiio-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOGDCM-4.7d.lib;E:\D\MITK-superbuild\ep\lib\gdcmMSFFd.lib;E:\D\MITK-superbuild\ep\lib\gdcmDICTd.lib;E:\D\MITK-superbuild\ep\lib\gdcmIODd.lib;E:\D\MITK-superbuild\ep\lib\gdcmDSEDd.lib;E:\D\MITK-superbuild\ep\lib\gdcmCommond.lib;E:\D\MITK-superbuild\ep\lib\ITKLabelMap-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKQuadEdgeMesh-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKBiasCorrection-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKPolynomials-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKBioCell-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOSpatialObjects-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOXML-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKEXPAT-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKFEM-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKOptimizers-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOBMP-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOBioRad-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOGIPL-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOJPEG-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOTIFF-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itktiff-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkjpeg-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOMeta-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKMetaIO-4.7d.lib;comctl32.lib;wsock32.lib;E:\D\MITK-superbuild\ep\lib\ITKIONIFTI-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKniftiio-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKznz-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIONRRD-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKNrrdIO-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOPNG-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkpng-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOSiemens-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOGE-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOIPL-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOStimulate-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOTransformHDF5-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkhdf5_cpp-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkhdf5-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkzlib-4.7d.lib;kernel32.lib;E:\D\MITK-superbuild\ep\lib\ITKIOTransformInsightLegacy-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOTransformMatlab-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOTransformBase-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOVTK-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKKLMRegionGrowing-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkopenjpeg-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKVTK-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKWatersheds-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKSpatialObjects-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKMesh-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKPath-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKStatistics-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkNetlibSlatec-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOImageBase-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKVideoCore-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKCommon-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkdouble-conversion-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itksys-4.7d.lib;ws2_32.lib;Psapi.lib;E:\D\MITK-superbuild\ep\lib\ITKVNLInstantiation-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl_algo-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkv3p_lsqr-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvcl-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkv3p_netlib-4.7d.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:/D/MITK-superbuild/ep/lib;E:/D/MITK-superbuild/ep/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/MITK-build/lib/MinSizeRel/MitkCore.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/MITK-build/bin/MinSizeRel/MitkCore.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\MITK-build\Modules\Core\ITKIOFactoryRegistration;E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\include\ITK-4.7;E:\D\MITK-superbuild\MITK-build\Modules\Core;E:\D\MITK-superbuild\ep\include\vtk-6.2;E:\D\MITK-superbuild\ep\include\boost-1_59;E:\D\MITK\Modules\Core\include;E:\D\MITK\Modules\Core\src;E:\D\MITK-superbuild\MITK-build;E:\D\MITK\Modules\Core\src\Algorithms;E:\D\MITK\Modules\Core\src\Controllers;E:\D\MITK\Modules\Core\src\DataManagement;E:\D\MITK\Modules\Core\src\Interactions;E:\D\MITK\Modules\Core\src\IO;E:\D\MITK\Modules\Core\src\Rendering;E:\D\MITK-superbuild\MITK-build\Utilities\mbilog;E:\D\MITK\Utilities\mbilog\.;E:\D\MITK\Modules\CppMicroServices\third_party;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\include;E:\D\MITK\Modules\CppMicroServices\core\include;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\core\include;E:\D\MITK\Modules\CppMicroServices\core\src\util;E:\D\MITK\Modules\CppMicroServices\core\src\service;E:\D\MITK\Modules\CppMicroServices\core\src\module;E:\D\MITK-superbuild\ep\include\tinyxml;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4005;4231;4316</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WIN32_WINNT=0x0501;POCO_NO_UNWINDOWS;WIN32_LEAN_AND_MEAN;NOMINMAX;NDEBUG;US_MODULE_NAME=MitkCore;vtkRenderingCore_INCLUDE="E:/D/MITK-superbuild/MITK-build/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingFreeTypeOpenGL_vtkRenderingOpenGL.h";vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL);ITK_IO_FACTORY_REGISTER_MANAGER;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR="RelWithDebInfo";MitkCore_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WIN32_WINNT=0x0501;POCO_NO_UNWINDOWS;WIN32_LEAN_AND_MEAN;NOMINMAX;NDEBUG;US_MODULE_NAME=MitkCore;vtkRenderingCore_INCLUDE=\"E:/D/MITK-superbuild/MITK-build/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingFreeTypeOpenGL_vtkRenderingOpenGL.h\";vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL);ITK_IO_FACTORY_REGISTER_MANAGER;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\";MitkCore_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\MITK-build\Modules\Core\ITKIOFactoryRegistration;E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\include\ITK-4.7;E:\D\MITK-superbuild\MITK-build\Modules\Core;E:\D\MITK-superbuild\ep\include\vtk-6.2;E:\D\MITK-superbuild\ep\include\boost-1_59;E:\D\MITK\Modules\Core\include;E:\D\MITK\Modules\Core\src;E:\D\MITK-superbuild\MITK-build;E:\D\MITK\Modules\Core\src\Algorithms;E:\D\MITK\Modules\Core\src\Controllers;E:\D\MITK\Modules\Core\src\DataManagement;E:\D\MITK\Modules\Core\src\Interactions;E:\D\MITK\Modules\Core\src\IO;E:\D\MITK\Modules\Core\src\Rendering;E:\D\MITK-superbuild\MITK-build\Utilities\mbilog;E:\D\MITK\Utilities\mbilog\.;E:\D\MITK\Modules\CppMicroServices\third_party;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\include;E:\D\MITK\Modules\CppMicroServices\core\include;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\core\include;E:\D\MITK\Modules\CppMicroServices\core\src\util;E:\D\MITK\Modules\CppMicroServices\core\src\service;E:\D\MITK\Modules\CppMicroServices\core\src\module;E:\D\MITK-superbuild\ep\include\tinyxml;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\MITK-build\Modules\Core\ITKIOFactoryRegistration;E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\include\ITK-4.7;E:\D\MITK-superbuild\MITK-build\Modules\Core;E:\D\MITK-superbuild\ep\include\vtk-6.2;E:\D\MITK-superbuild\ep\include\boost-1_59;E:\D\MITK\Modules\Core\include;E:\D\MITK\Modules\Core\src;E:\D\MITK-superbuild\MITK-build;E:\D\MITK\Modules\Core\src\Algorithms;E:\D\MITK\Modules\Core\src\Controllers;E:\D\MITK\Modules\Core\src\DataManagement;E:\D\MITK\Modules\Core\src\Interactions;E:\D\MITK\Modules\Core\src\IO;E:\D\MITK\Modules\Core\src\Rendering;E:\D\MITK-superbuild\MITK-build\Utilities\mbilog;E:\D\MITK\Utilities\mbilog\.;E:\D\MITK\Modules\CppMicroServices\third_party;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\include;E:\D\MITK\Modules\CppMicroServices\core\include;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\core\include;E:\D\MITK\Modules\CppMicroServices\core\src\util;E:\D\MITK\Modules\CppMicroServices\core\src\service;E:\D\MITK\Modules\CppMicroServices\core\src\module;E:\D\MITK-superbuild\ep\include\tinyxml;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Appending zipped resources to MitkCore</Message>
+      <Command>setlocal
+cd E:\D\MITK\Modules\Core
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+E:\D\MITK-superbuild\MITK-build\bin\RelWithDebInfo\usResourceCompiler.exe --append E:/D/MITK-superbuild/MITK-build/bin/RelWithDebInfo/MitkCore.dll E:/D/MITK-superbuild/MITK-build/Modules/Core/us_MitkCore/res_0.zip
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\RelWithDebInfo\mbilog.lib;..\..\lib\RelWithDebInfo\CppMicroServices.lib;E:\D\MITK-superbuild\ep\lib\ITKIOGDCM-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkdouble-conversion-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itksys-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl_algo-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkv3p_netlib-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKStatistics-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkNetlibSlatec-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKSpatialObjects-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKPath-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKMesh-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKMetaIO-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkzlib-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOGDCM-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkdouble-conversion-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itksys-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl_algo-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkv3p_netlib-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKStatistics-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkNetlibSlatec-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKSpatialObjects-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKPath-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKMesh-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKMetaIO-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkzlib-4.7d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersTexture-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersParallel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkParallelCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOLegacy-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingStencil-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingMath-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingVolumeOpenGL-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingFreeTypeOpenGL-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingLabel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkInteractionWidgets-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersHybrid-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingGeneral-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingAnnotation-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingColor-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOXML-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOXMLParser-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkexpat-6.2d.lib;E:\D\MITK-superbuild\ep\lib\tinyxmld.lib;glu32.lib;opengl32.lib;E:\D\MITK-superbuild\ep\lib\itkdouble-conversion-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itksys-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl_algo-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkv3p_netlib-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkNetlibSlatec-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKStatistics-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKMesh-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkzlib-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKMetaIO-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKSpatialObjects-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKPath-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKLabelMap-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKQuadEdgeMesh-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKOptimizers-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKPolynomials-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKBiasCorrection-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKBioCell-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKDICOMParser-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKEXPAT-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOXML-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOSpatialObjects-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKFEM-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKznz-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKniftiio-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKgiftiio-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkhdf5_cpp-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkhdf5-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOCSV-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOGDCM-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOHDF5-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkjpeg-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itktiff-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOLSM-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOMRC-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOMesh-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKNrrdIO-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkpng-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOTransformBase-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOTransformHDF5-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOTransformInsightLegacy-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOTransformMatlab-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKKLMRegionGrowing-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKOptimizersv4-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkopenjpeg-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKVTK-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKWatersheds-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKReview-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKVideoCore-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKVideoIO-4.7d.lib;psapi.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingOpenGL-6.2d.lib;glu32.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersModeling-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkInteractionStyle-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingHybrid-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOImage-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkDICOMParser-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkmetaio-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkpng-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtktiff-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkjpeg-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingVolume-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingSources-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingFreeType-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersExtraction-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersStatistics-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingFourier-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkalglib-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersGeometry-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersSources-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersGeneral-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonComputationalGeometry-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonColor-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkftgl-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkfreetype-6.2d.lib;opengl32.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOGeometry-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkjsoncpp-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonExecutionModel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonDataModel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonMisc-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonSystem-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtksys-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonTransforms-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonMath-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkzlib-6.2d.lib;E:\D\MITK-superbuild\ep\lib\ITKgiftiio-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOGDCM-4.7d.lib;E:\D\MITK-superbuild\ep\lib\gdcmMSFFd.lib;E:\D\MITK-superbuild\ep\lib\gdcmDICTd.lib;E:\D\MITK-superbuild\ep\lib\gdcmIODd.lib;E:\D\MITK-superbuild\ep\lib\gdcmDSEDd.lib;E:\D\MITK-superbuild\ep\lib\gdcmCommond.lib;E:\D\MITK-superbuild\ep\lib\ITKLabelMap-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKQuadEdgeMesh-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKBiasCorrection-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKPolynomials-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKBioCell-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOSpatialObjects-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOXML-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKEXPAT-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKFEM-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKOptimizers-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOBMP-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOBioRad-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOGIPL-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOJPEG-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOTIFF-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itktiff-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkjpeg-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOMeta-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKMetaIO-4.7d.lib;comctl32.lib;wsock32.lib;E:\D\MITK-superbuild\ep\lib\ITKIONIFTI-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKniftiio-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKznz-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIONRRD-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKNrrdIO-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOPNG-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkpng-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOSiemens-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOGE-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOIPL-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOStimulate-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOTransformHDF5-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkhdf5_cpp-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkhdf5-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkzlib-4.7d.lib;kernel32.lib;E:\D\MITK-superbuild\ep\lib\ITKIOTransformInsightLegacy-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOTransformMatlab-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOTransformBase-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOVTK-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKKLMRegionGrowing-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkopenjpeg-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKVTK-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKWatersheds-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKSpatialObjects-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKMesh-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKPath-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKStatistics-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkNetlibSlatec-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOImageBase-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKVideoCore-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKCommon-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkdouble-conversion-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itksys-4.7d.lib;ws2_32.lib;Psapi.lib;E:\D\MITK-superbuild\ep\lib\ITKVNLInstantiation-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl_algo-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkv3p_lsqr-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvcl-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkv3p_netlib-4.7d.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:/D/MITK-superbuild/ep/lib;E:/D/MITK-superbuild/ep/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/MITK-build/lib/RelWithDebInfo/MitkCore.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/MITK-build/bin/RelWithDebInfo/MitkCore.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK\Modules\Core\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/D/MITK/Modules/Core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK -BE:/D/MITK-superbuild/MITK-build --check-stamp-file E:\D\MITK-superbuild\MITK-build\Modules\Core\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK/Modules/Core/CMakeLists.txt;E:\D\MITK\Modules\Core\CMakeLists.txt;E:\D\MITK\Modules\Core\files.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\CppMicroServicesConfigVersion.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\CppMicroServicesConfig.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\CMakeParseArguments.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionGenerateModuleInit.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionAddResources.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionCheckCompilerFlags.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionEmbedResources.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionCheckResourceLinking.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionGetResourceSource.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\usCoreConfigVersion.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\usCoreConfig.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\exportheader.cmake.in;E:\D\MITK\CMake\PackageDepends\MITK_GDCM_Config.cmake;E:\D\MITK\CMake\PackageDepends\MITK_ITK_Config.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\ITKConfigVersion.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\ITKConfig.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\ITKModuleAPI.cmake;E:\D\MITK\CMake\PackageDepends\MITK_ITK_Config.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\ITKConfigVersion.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\ITKConfig.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\ITKModuleAPI.cmake;E:\D\MITK\CMake\PackageDepends\MITK_VTK_Config.cmake;E:\D\MITK-superbuild\ep\lib\cmake\vtk-6.2\VTKConfigVersion.cmake;E:\D\MITK-superbuild\ep\lib\cmake\vtk-6.2\VTKConfig.cmake;E:\D\MITK-superbuild\ep\lib\cmake\vtk-6.2\vtkModuleAPI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;E:\D\MITK\CMake\PackageDepends\MITK_Boost_Config.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindBoost.cmake;E:\D\MITK\CMake\PackageDepends\MITK_tinyxml_Config.cmake;E:\D\MITK\CMake\PackageDepends\MITK_OpenGL_Config.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;E:\D\MITK\CMake\PackageDepends\MITK_ITK_Config.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\ITKConfigVersion.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\ITKConfig.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\ITKModuleAPI.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\ITKConfigVersion.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\ITKConfig.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\ITKModuleAPI.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\UseITK.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\itkImageIOFactoryRegisterManager.h.in;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\itkTransformIOFactoryRegisterManager.h.in;E:\D\MITK\Modules\Core\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\Core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/D/MITK/Modules/Core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK -BE:/D/MITK-superbuild/MITK-build --check-stamp-file E:\D\MITK-superbuild\MITK-build\Modules\Core\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK/Modules/Core/CMakeLists.txt;E:\D\MITK\Modules\Core\CMakeLists.txt;E:\D\MITK\Modules\Core\files.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\CppMicroServicesConfigVersion.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\CppMicroServicesConfig.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\CMakeParseArguments.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionGenerateModuleInit.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionAddResources.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionCheckCompilerFlags.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionEmbedResources.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionCheckResourceLinking.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionGetResourceSource.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\usCoreConfigVersion.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\usCoreConfig.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\exportheader.cmake.in;E:\D\MITK\CMake\PackageDepends\MITK_GDCM_Config.cmake;E:\D\MITK\CMake\PackageDepends\MITK_ITK_Config.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\ITKConfigVersion.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\ITKConfig.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\ITKModuleAPI.cmake;E:\D\MITK\CMake\PackageDepends\MITK_ITK_Config.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\ITKConfigVersion.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\ITKConfig.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\ITKModuleAPI.cmake;E:\D\MITK\CMake\PackageDepends\MITK_VTK_Config.cmake;E:\D\MITK-superbuild\ep\lib\cmake\vtk-6.2\VTKConfigVersion.cmake;E:\D\MITK-superbuild\ep\lib\cmake\vtk-6.2\VTKConfig.cmake;E:\D\MITK-superbuild\ep\lib\cmake\vtk-6.2\vtkModuleAPI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;E:\D\MITK\CMake\PackageDepends\MITK_Boost_Config.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindBoost.cmake;E:\D\MITK\CMake\PackageDepends\MITK_tinyxml_Config.cmake;E:\D\MITK\CMake\PackageDepends\MITK_OpenGL_Config.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;E:\D\MITK\CMake\PackageDepends\MITK_ITK_Config.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\ITKConfigVersion.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\ITKConfig.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\ITKModuleAPI.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\ITKConfigVersion.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\ITKConfig.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\ITKModuleAPI.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\UseITK.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\itkImageIOFactoryRegisterManager.h.in;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\itkTransformIOFactoryRegisterManager.h.in;E:\D\MITK\Modules\Core\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\Core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/D/MITK/Modules/Core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK -BE:/D/MITK-superbuild/MITK-build --check-stamp-file E:\D\MITK-superbuild\MITK-build\Modules\Core\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK/Modules/Core/CMakeLists.txt;E:\D\MITK\Modules\Core\CMakeLists.txt;E:\D\MITK\Modules\Core\files.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\CppMicroServicesConfigVersion.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\CppMicroServicesConfig.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\CMakeParseArguments.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionGenerateModuleInit.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionAddResources.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionCheckCompilerFlags.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionEmbedResources.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionCheckResourceLinking.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionGetResourceSource.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\usCoreConfigVersion.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\usCoreConfig.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\exportheader.cmake.in;E:\D\MITK\CMake\PackageDepends\MITK_GDCM_Config.cmake;E:\D\MITK\CMake\PackageDepends\MITK_ITK_Config.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\ITKConfigVersion.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\ITKConfig.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\ITKModuleAPI.cmake;E:\D\MITK\CMake\PackageDepends\MITK_ITK_Config.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\ITKConfigVersion.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\ITKConfig.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\ITKModuleAPI.cmake;E:\D\MITK\CMake\PackageDepends\MITK_VTK_Config.cmake;E:\D\MITK-superbuild\ep\lib\cmake\vtk-6.2\VTKConfigVersion.cmake;E:\D\MITK-superbuild\ep\lib\cmake\vtk-6.2\VTKConfig.cmake;E:\D\MITK-superbuild\ep\lib\cmake\vtk-6.2\vtkModuleAPI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;E:\D\MITK\CMake\PackageDepends\MITK_Boost_Config.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindBoost.cmake;E:\D\MITK\CMake\PackageDepends\MITK_tinyxml_Config.cmake;E:\D\MITK\CMake\PackageDepends\MITK_OpenGL_Config.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;E:\D\MITK\CMake\PackageDepends\MITK_ITK_Config.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\ITKConfigVersion.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\ITKConfig.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\ITKModuleAPI.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\ITKConfigVersion.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\ITKConfig.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\ITKModuleAPI.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\UseITK.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\itkImageIOFactoryRegisterManager.h.in;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\itkTransformIOFactoryRegisterManager.h.in;E:\D\MITK\Modules\Core\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\Core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/D/MITK/Modules/Core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK -BE:/D/MITK-superbuild/MITK-build --check-stamp-file E:\D\MITK-superbuild\MITK-build\Modules\Core\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK/Modules/Core/CMakeLists.txt;E:\D\MITK\Modules\Core\CMakeLists.txt;E:\D\MITK\Modules\Core\files.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\CppMicroServicesConfigVersion.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\CppMicroServicesConfig.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\CMakeParseArguments.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionGenerateModuleInit.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionAddResources.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionCheckCompilerFlags.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionEmbedResources.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionCheckResourceLinking.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionGetResourceSource.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\usCoreConfigVersion.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\usCoreConfig.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\exportheader.cmake.in;E:\D\MITK\CMake\PackageDepends\MITK_GDCM_Config.cmake;E:\D\MITK\CMake\PackageDepends\MITK_ITK_Config.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\ITKConfigVersion.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\ITKConfig.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\ITKModuleAPI.cmake;E:\D\MITK\CMake\PackageDepends\MITK_ITK_Config.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\ITKConfigVersion.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\ITKConfig.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\ITKModuleAPI.cmake;E:\D\MITK\CMake\PackageDepends\MITK_VTK_Config.cmake;E:\D\MITK-superbuild\ep\lib\cmake\vtk-6.2\VTKConfigVersion.cmake;E:\D\MITK-superbuild\ep\lib\cmake\vtk-6.2\VTKConfig.cmake;E:\D\MITK-superbuild\ep\lib\cmake\vtk-6.2\vtkModuleAPI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;E:\D\MITK\CMake\PackageDepends\MITK_Boost_Config.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindBoost.cmake;E:\D\MITK\CMake\PackageDepends\MITK_tinyxml_Config.cmake;E:\D\MITK\CMake\PackageDepends\MITK_OpenGL_Config.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;E:\D\MITK\CMake\PackageDepends\MITK_ITK_Config.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\ITKConfigVersion.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\ITKConfig.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\ITKModuleAPI.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\ITKConfigVersion.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\ITKConfig.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\ITKModuleAPI.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\UseITK.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\itkImageIOFactoryRegisterManager.h.in;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\itkTransformIOFactoryRegisterManager.h.in;E:\D\MITK\Modules\Core\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\Core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\d04f3fd826e627a7b3a249026ed635af\res_0.zip.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Checking resource dependencies for MitkCore</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\D\MITK\Modules\Core\resource
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/MITK-superbuild/MITK-build/Modules/Core/us_MitkCore
+if %errorlevel% neq 0 goto :cmEnd
+E:\D\MITK-superbuild\MITK-build\bin\Debug\usResourceCompiler.exe E:/D/MITK-superbuild/MITK-build/Modules/Core/us_MitkCore/res_0.zip MitkCore -a Interactions/globalConfig.xml Interactions/DisplayInteraction.xml Interactions/DisplayConfig.xml Interactions/DisplayConfigPACS.xml Interactions/DisplayConfigPACSPan.xml Interactions/DisplayConfigPACSScroll.xml Interactions/DisplayConfigPACSZoom.xml Interactions/DisplayConfigPACSLevelWindow.xml Interactions/DisplayConfigMITK.xml Interactions/DisplayConfigMITKNoCrosshair.xml Interactions/DisplayConfigMITKRotation.xml Interactions/DisplayConfigMITKRotationUnCoupled.xml Interactions/DisplayConfigMITKSwivel.xml Interactions/DisplayConfigMITKLimited.xml Interactions/PointSet.xml Interactions/Legacy/StateMachine.xml Interactions/Legacy/DisplayConfigMITKTools.xml Interactions/PointSetConfig.xml mitkLevelWindowPresets.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/d04f3fd826e627a7b3a249026ed635af/res_0.zip.rule;E:\D\MITK\Modules\Core\resource\Interactions\globalConfig.xml;E:\D\MITK\Modules\Core\resource\Interactions\DisplayInteraction.xml;E:\D\MITK\Modules\Core\resource\Interactions\DisplayConfig.xml;E:\D\MITK\Modules\Core\resource\Interactions\DisplayConfigPACS.xml;E:\D\MITK\Modules\Core\resource\Interactions\DisplayConfigPACSPan.xml;E:\D\MITK\Modules\Core\resource\Interactions\DisplayConfigPACSScroll.xml;E:\D\MITK\Modules\Core\resource\Interactions\DisplayConfigPACSZoom.xml;E:\D\MITK\Modules\Core\resource\Interactions\DisplayConfigPACSLevelWindow.xml;E:\D\MITK\Modules\Core\resource\Interactions\DisplayConfigMITK.xml;E:\D\MITK\Modules\Core\resource\Interactions\DisplayConfigMITKNoCrosshair.xml;E:\D\MITK\Modules\Core\resource\Interactions\DisplayConfigMITKRotation.xml;E:\D\MITK\Modules\Core\resource\Interactions\DisplayConfigMITKRotationUnCoupled.xml;E:\D\MITK\Modules\Core\resource\Interactions\DisplayConfigMITKSwivel.xml;E:\D\MITK\Modules\Core\resource\Interactions\DisplayConfigMITKLimited.xml;E:\D\MITK\Modules\Core\resource\Interactions\PointSet.xml;E:\D\MITK\Modules\Core\resource\Interactions\Legacy\StateMachine.xml;E:\D\MITK\Modules\Core\resource\Interactions\Legacy\DisplayConfigMITKTools.xml;E:\D\MITK\Modules\Core\resource\Interactions\PointSetConfig.xml;E:\D\MITK\Modules\Core\resource\mitkLevelWindowPresets.xml;E:\D\MITK-superbuild\MITK-build\bin\Debug\usResourceCompiler.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\Core\us_MitkCore\res_0.zip</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Checking resource dependencies for MitkCore</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd E:\D\MITK\Modules\Core\resource
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/MITK-superbuild/MITK-build/Modules/Core/us_MitkCore
+if %errorlevel% neq 0 goto :cmEnd
+E:\D\MITK-superbuild\MITK-build\bin\Release\usResourceCompiler.exe E:/D/MITK-superbuild/MITK-build/Modules/Core/us_MitkCore/res_0.zip MitkCore -a Interactions/globalConfig.xml Interactions/DisplayInteraction.xml Interactions/DisplayConfig.xml Interactions/DisplayConfigPACS.xml Interactions/DisplayConfigPACSPan.xml Interactions/DisplayConfigPACSScroll.xml Interactions/DisplayConfigPACSZoom.xml Interactions/DisplayConfigPACSLevelWindow.xml Interactions/DisplayConfigMITK.xml Interactions/DisplayConfigMITKNoCrosshair.xml Interactions/DisplayConfigMITKRotation.xml Interactions/DisplayConfigMITKRotationUnCoupled.xml Interactions/DisplayConfigMITKSwivel.xml Interactions/DisplayConfigMITKLimited.xml Interactions/PointSet.xml Interactions/Legacy/StateMachine.xml Interactions/Legacy/DisplayConfigMITKTools.xml Interactions/PointSetConfig.xml mitkLevelWindowPresets.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/d04f3fd826e627a7b3a249026ed635af/res_0.zip.rule;E:\D\MITK\Modules\Core\resource\Interactions\globalConfig.xml;E:\D\MITK\Modules\Core\resource\Interactions\DisplayInteraction.xml;E:\D\MITK\Modules\Core\resource\Interactions\DisplayConfig.xml;E:\D\MITK\Modules\Core\resource\Interactions\DisplayConfigPACS.xml;E:\D\MITK\Modules\Core\resource\Interactions\DisplayConfigPACSPan.xml;E:\D\MITK\Modules\Core\resource\Interactions\DisplayConfigPACSScroll.xml;E:\D\MITK\Modules\Core\resource\Interactions\DisplayConfigPACSZoom.xml;E:\D\MITK\Modules\Core\resource\Interactions\DisplayConfigPACSLevelWindow.xml;E:\D\MITK\Modules\Core\resource\Interactions\DisplayConfigMITK.xml;E:\D\MITK\Modules\Core\resource\Interactions\DisplayConfigMITKNoCrosshair.xml;E:\D\MITK\Modules\Core\resource\Interactions\DisplayConfigMITKRotation.xml;E:\D\MITK\Modules\Core\resource\Interactions\DisplayConfigMITKRotationUnCoupled.xml;E:\D\MITK\Modules\Core\resource\Interactions\DisplayConfigMITKSwivel.xml;E:\D\MITK\Modules\Core\resource\Interactions\DisplayConfigMITKLimited.xml;E:\D\MITK\Modules\Core\resource\Interactions\PointSet.xml;E:\D\MITK\Modules\Core\resource\Interactions\Legacy\StateMachine.xml;E:\D\MITK\Modules\Core\resource\Interactions\Legacy\DisplayConfigMITKTools.xml;E:\D\MITK\Modules\Core\resource\Interactions\PointSetConfig.xml;E:\D\MITK\Modules\Core\resource\mitkLevelWindowPresets.xml;E:\D\MITK-superbuild\MITK-build\bin\Release\usResourceCompiler.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\Core\us_MitkCore\res_0.zip</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Checking resource dependencies for MitkCore</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd E:\D\MITK\Modules\Core\resource
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/MITK-superbuild/MITK-build/Modules/Core/us_MitkCore
+if %errorlevel% neq 0 goto :cmEnd
+E:\D\MITK-superbuild\MITK-build\bin\MinSizeRel\usResourceCompiler.exe E:/D/MITK-superbuild/MITK-build/Modules/Core/us_MitkCore/res_0.zip MitkCore -a Interactions/globalConfig.xml Interactions/DisplayInteraction.xml Interactions/DisplayConfig.xml Interactions/DisplayConfigPACS.xml Interactions/DisplayConfigPACSPan.xml Interactions/DisplayConfigPACSScroll.xml Interactions/DisplayConfigPACSZoom.xml Interactions/DisplayConfigPACSLevelWindow.xml Interactions/DisplayConfigMITK.xml Interactions/DisplayConfigMITKNoCrosshair.xml Interactions/DisplayConfigMITKRotation.xml Interactions/DisplayConfigMITKRotationUnCoupled.xml Interactions/DisplayConfigMITKSwivel.xml Interactions/DisplayConfigMITKLimited.xml Interactions/PointSet.xml Interactions/Legacy/StateMachine.xml Interactions/Legacy/DisplayConfigMITKTools.xml Interactions/PointSetConfig.xml mitkLevelWindowPresets.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/d04f3fd826e627a7b3a249026ed635af/res_0.zip.rule;E:\D\MITK\Modules\Core\resource\Interactions\globalConfig.xml;E:\D\MITK\Modules\Core\resource\Interactions\DisplayInteraction.xml;E:\D\MITK\Modules\Core\resource\Interactions\DisplayConfig.xml;E:\D\MITK\Modules\Core\resource\Interactions\DisplayConfigPACS.xml;E:\D\MITK\Modules\Core\resource\Interactions\DisplayConfigPACSPan.xml;E:\D\MITK\Modules\Core\resource\Interactions\DisplayConfigPACSScroll.xml;E:\D\MITK\Modules\Core\resource\Interactions\DisplayConfigPACSZoom.xml;E:\D\MITK\Modules\Core\resource\Interactions\DisplayConfigPACSLevelWindow.xml;E:\D\MITK\Modules\Core\resource\Interactions\DisplayConfigMITK.xml;E:\D\MITK\Modules\Core\resource\Interactions\DisplayConfigMITKNoCrosshair.xml;E:\D\MITK\Modules\Core\resource\Interactions\DisplayConfigMITKRotation.xml;E:\D\MITK\Modules\Core\resource\Interactions\DisplayConfigMITKRotationUnCoupled.xml;E:\D\MITK\Modules\Core\resource\Interactions\DisplayConfigMITKSwivel.xml;E:\D\MITK\Modules\Core\resource\Interactions\DisplayConfigMITKLimited.xml;E:\D\MITK\Modules\Core\resource\Interactions\PointSet.xml;E:\D\MITK\Modules\Core\resource\Interactions\Legacy\StateMachine.xml;E:\D\MITK\Modules\Core\resource\Interactions\Legacy\DisplayConfigMITKTools.xml;E:\D\MITK\Modules\Core\resource\Interactions\PointSetConfig.xml;E:\D\MITK\Modules\Core\resource\mitkLevelWindowPresets.xml;E:\D\MITK-superbuild\MITK-build\bin\MinSizeRel\usResourceCompiler.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\Core\us_MitkCore\res_0.zip</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Checking resource dependencies for MitkCore</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\D\MITK\Modules\Core\resource
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/MITK-superbuild/MITK-build/Modules/Core/us_MitkCore
+if %errorlevel% neq 0 goto :cmEnd
+E:\D\MITK-superbuild\MITK-build\bin\RelWithDebInfo\usResourceCompiler.exe E:/D/MITK-superbuild/MITK-build/Modules/Core/us_MitkCore/res_0.zip MitkCore -a Interactions/globalConfig.xml Interactions/DisplayInteraction.xml Interactions/DisplayConfig.xml Interactions/DisplayConfigPACS.xml Interactions/DisplayConfigPACSPan.xml Interactions/DisplayConfigPACSScroll.xml Interactions/DisplayConfigPACSZoom.xml Interactions/DisplayConfigPACSLevelWindow.xml Interactions/DisplayConfigMITK.xml Interactions/DisplayConfigMITKNoCrosshair.xml Interactions/DisplayConfigMITKRotation.xml Interactions/DisplayConfigMITKRotationUnCoupled.xml Interactions/DisplayConfigMITKSwivel.xml Interactions/DisplayConfigMITKLimited.xml Interactions/PointSet.xml Interactions/Legacy/StateMachine.xml Interactions/Legacy/DisplayConfigMITKTools.xml Interactions/PointSetConfig.xml mitkLevelWindowPresets.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/d04f3fd826e627a7b3a249026ed635af/res_0.zip.rule;E:\D\MITK\Modules\Core\resource\Interactions\globalConfig.xml;E:\D\MITK\Modules\Core\resource\Interactions\DisplayInteraction.xml;E:\D\MITK\Modules\Core\resource\Interactions\DisplayConfig.xml;E:\D\MITK\Modules\Core\resource\Interactions\DisplayConfigPACS.xml;E:\D\MITK\Modules\Core\resource\Interactions\DisplayConfigPACSPan.xml;E:\D\MITK\Modules\Core\resource\Interactions\DisplayConfigPACSScroll.xml;E:\D\MITK\Modules\Core\resource\Interactions\DisplayConfigPACSZoom.xml;E:\D\MITK\Modules\Core\resource\Interactions\DisplayConfigPACSLevelWindow.xml;E:\D\MITK\Modules\Core\resource\Interactions\DisplayConfigMITK.xml;E:\D\MITK\Modules\Core\resource\Interactions\DisplayConfigMITKNoCrosshair.xml;E:\D\MITK\Modules\Core\resource\Interactions\DisplayConfigMITKRotation.xml;E:\D\MITK\Modules\Core\resource\Interactions\DisplayConfigMITKRotationUnCoupled.xml;E:\D\MITK\Modules\Core\resource\Interactions\DisplayConfigMITKSwivel.xml;E:\D\MITK\Modules\Core\resource\Interactions\DisplayConfigMITKLimited.xml;E:\D\MITK\Modules\Core\resource\Interactions\PointSet.xml;E:\D\MITK\Modules\Core\resource\Interactions\Legacy\StateMachine.xml;E:\D\MITK\Modules\Core\resource\Interactions\Legacy\DisplayConfigMITKTools.xml;E:\D\MITK\Modules\Core\resource\Interactions\PointSetConfig.xml;E:\D\MITK\Modules\Core\resource\mitkLevelWindowPresets.xml;E:\D\MITK-superbuild\MITK-build\bin\RelWithDebInfo\usResourceCompiler.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\Core\us_MitkCore\res_0.zip</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\d04f3fd826e627a7b3a249026ed635af\us_resources.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Checking resource dependencies for MitkCore</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy E:/D/MITK/Modules/CppMicroServices/cmake/usCMakeResourceDependencies.cpp E:/D/MITK-superbuild/MITK-build/Modules/Core/us_MitkCore/us_resources.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/d04f3fd826e627a7b3a249026ed635af/us_resources.cpp.rule;E:\D\MITK-superbuild\MITK-build\Modules\Core\us_MitkCore\res_0.zip;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\Core\us_MitkCore\us_resources.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Checking resource dependencies for MitkCore</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy E:/D/MITK/Modules/CppMicroServices/cmake/usCMakeResourceDependencies.cpp E:/D/MITK-superbuild/MITK-build/Modules/Core/us_MitkCore/us_resources.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/d04f3fd826e627a7b3a249026ed635af/us_resources.cpp.rule;E:\D\MITK-superbuild\MITK-build\Modules\Core\us_MitkCore\res_0.zip;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\Core\us_MitkCore\us_resources.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Checking resource dependencies for MitkCore</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy E:/D/MITK/Modules/CppMicroServices/cmake/usCMakeResourceDependencies.cpp E:/D/MITK-superbuild/MITK-build/Modules/Core/us_MitkCore/us_resources.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/d04f3fd826e627a7b3a249026ed635af/us_resources.cpp.rule;E:\D\MITK-superbuild\MITK-build\Modules\Core\us_MitkCore\res_0.zip;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\Core\us_MitkCore\us_resources.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Checking resource dependencies for MitkCore</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy E:/D/MITK/Modules/CppMicroServices/cmake/usCMakeResourceDependencies.cpp E:/D/MITK-superbuild/MITK-build/Modules/Core/us_MitkCore/us_resources.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/d04f3fd826e627a7b3a249026ed635af/us_resources.cpp.rule;E:\D\MITK-superbuild\MITK-build\Modules\Core\us_MitkCore\res_0.zip;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\Core\us_MitkCore\us_resources.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\Colortables\HotIron.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\Colortables\Jet.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\Colortables\PET20.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\Colortables\PETColor.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\itkImportMitkImageContainer.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\itkImportMitkImageContainer.txx" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\itkMITKScalarImageToHistogramGenerator.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\itkMITKScalarImageToHistogramGenerator.txx" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\itkVtkAbstractTransform.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\itkVtkAbstractTransform.txx" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mbilogo.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkAbstractFileIO.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkAbstractFileReader.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkAbstractFileWriter.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkAbstractOverlayLayouter.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkAbstractTransformGeometry.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkAction.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkAffineTransform3D.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkAnnotationProperty.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkApplicationCursor.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkApplyTransformMatrixOperation.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkArbitraryTimeGeometry.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkArray.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkBaseController.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkBaseData.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkBaseDataSource.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkBaseDataTestImplementation.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkBaseGeometry.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkBaseProcess.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkBaseProperty.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkBaseRenderer.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkBindDispatcherInteractor.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkCallbackFromGUIThread.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkCameraController.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkCameraRotationController.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkChannelDescriptor.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkClippedSurfaceBoundsCalculator.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkClippingProperty.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkColorProperty.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkCommon.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkCompareImageDataFilter.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkConvert2Dto3DImageFilter.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkCoreObjectFactory.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkCoreObjectFactoryBase.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkCoreServices.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkCrosshairPositionEvent.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkCustomMimeType.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkDataInteractor.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkDataNode.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkDataNodeSource.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkDataStorage.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkDicomSeriesReader.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkDicomSeriesReader.txx" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkDispatcher.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkDisplayCoordinateOperation.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkDisplayInteractor.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkEnumerationProperty.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkEqual.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkEventConfig.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkEventFactory.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkEventInformer.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkEventRecorder.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkEventStateMachine.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkException.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkExceptionMacro.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkExtractSliceFilter.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkFileReader.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkFileReaderRegistry.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkFileReaderSelector.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkFileWriter.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkFileWriterRegistry.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkFileWriterSelector.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkFileWriterWithInformation.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkFloatPropertyExtension.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkGenericLookupTable.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkGenericProperty.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkGeometry3D.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkGeometryData.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkGeometryDataReaderService.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkGeometryDataWriterService.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkGeometryTransformHolder.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkGetClassHierarchy.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkGradientBackground.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkGroupTagProperty.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkHistogramGenerator.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkIDataNodeReader.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkIFileIO.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkIFileReader.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkIFileWriter.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkImage.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkImageAccessByItk.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkImageAccessorBase.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkImageCast.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkImageCast.txx" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkImageCaster.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkImageChannelSelector.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkImageDataItem.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkImageDescriptor.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkImageGenerator.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkImagePixelAccessor.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkImagePixelReadAccessor.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkImagePixelWriteAccessor.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkImageReadAccessor.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkImageSliceSelector.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkImageSource.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkImageStatisticsHolder.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkImageTimeSelector.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkImageToImageFilter.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkImageToItk.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkImageToItk.txx" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkImageToSurfaceFilter.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkImageVtkAccessor.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkImageVtkMapper2D.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkImageVtkReadAccessor.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkImageVtkWriteAccessor.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkImageWriteAccessor.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkIMimeTypeProvider.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkInstantiateAccessFunctions.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkInteractionConst.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkInteractionEvent.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkInteractionEventConst.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkInteractionEventHandler.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkInteractionEventObserver.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkInteractionKeyEvent.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkInteractionPositionEvent.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkInternalEvent.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkIntPropertyExtension.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkIOAdapter.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkIOConstants.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkIOMimeTypes.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkIOUtil.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkIPersistenceService.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkIPropertyAliases.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkIPropertyDescriptions.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkIPropertyExtensions.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkIPropertyFilters.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkIPropertyPersistence.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkIShaderRepository.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkITKImageImport.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkITKImageImport.txx" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkItkImageIO.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkItkLoggingAdapter.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkItkMatrixHack.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkLandmarkProjector.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkLandmarkProjectorBasedCurvedGeometry.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkLevelWindow.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkLevelWindowManager.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkLevelWindowPreset.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkLevelWindowProperty.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkLimitedLinearUndo.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkLine.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkLocaleSwitch.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkLocalStorageHandler.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkLog.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkLogMacros.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkLookupTable.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkLookupTableProperty.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkLookupTables.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkManufacturerLogo.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkMapper.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkMaterial.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkMatrix.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkMatrixConvert.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkMemoryUtilities.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkMessage.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkMimeType.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkModalityProperty.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkModifiedLock.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkMouseDoubleClickEvent.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkMouseModeSwitcher.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkMouseMoveEvent.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkMousePressEvent.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkMouseReleaseEvent.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkMouseWheelEvent.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkMoveSurfaceInteractor.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkMultiComponentImageDataComparisonFilter.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkNodePredicateAnd.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkNodePredicateBase.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkNodePredicateCompositeBase.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkNodePredicateData.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkNodePredicateDataType.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkNodePredicateDimension.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkNodePredicateFirstLevel.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkNodePredicateNot.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkNodePredicateOr.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkNodePredicateProperty.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkNodePredicateSource.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkNumericConstants.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkNumericTypes.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkOperation.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkOperationActor.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkOperationEvent.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkOverlay.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkOverlayManager.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPixelType.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPixelTypeList.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPixelTypeMultiplex.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPixelTypeTraits.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPlaneClipping.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPlaneGeometry.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPlaneGeometryData.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPlaneGeometryDataMapper2D.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPlaneGeometryDataToSurfaceFilter.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPlaneGeometryDataVtkMapper3D.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPlaneOperation.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPlaneOrientationProperty.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPlanePositionManager.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPoint.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPointOperation.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPointSet.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPointSetDataInteractor.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPointSetShapeProperty.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPointSetSource.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPointSetToPointSetFilter.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPointSetVtkMapper2D.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPointSetVtkMapper3D.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPPArgCount.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPPArithmeticDec.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPPCat.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPPConfig.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPPControlExprIIf.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPPControlIf.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPPControlIIf.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPPDebugError.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPPDetailAutoRec.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPPDetailDMCAutoRec.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPPExpand.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPPFacilitiesEmpty.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPPFacilitiesExpand.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPPLogicalBool.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPPRepetitionDetailDMCFor.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPPRepetitionDetailEDGFor.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPPRepetitionDetailFor.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPPRepetitionDetailMSVCFor.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPPRepetitionFor.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPPSeq.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPPSeqElem.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPPSeqEnum.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPPSeqForEach.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPPSeqForEachProduct.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPPSeqSize.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPPSeqToTuple.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPPStringize.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPPTupleEat.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPPTupleElem.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPPTupleRem.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkProgressBar.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkProgressBarImplementation.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkProperties.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPropertyAliases.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPropertyDescriptions.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPropertyExtension.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPropertyExtensions.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPropertyFilter.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPropertyFilters.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPropertyList.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPropertyListReplacedObserver.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPropertyObserver.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPropertyPersistence.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkPropertyPersistenceInfo.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkProportionalTimeGeometry.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkQuaternion.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkReferenceCountWatcher.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkRenderingManager.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkRenderingManagerFactory.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkRenderingModeProperty.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkRenderWindow.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkRenderWindowBase.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkRenderWindowFrame.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkResliceMethodProperty.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkRestorePlanePositionOperation.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkRGBToRGBACastImageFilter.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkRotationOperation.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkScaleOperation.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkServiceInterface.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkShaderProperty.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkSinglePointDataInteractor.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkSlicedData.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkSlicedGeometry3D.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkSliceNavigationController.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkSlicesCoordinator.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkSmartPointerProperty.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkStandaloneDataStorage.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkStandardFileLocations.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkStateMachineAction.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkStateMachineCondition.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkStateMachineContainer.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkStateMachineState.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkStateMachineTransition.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkStatusBar.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkStatusBarImplementation.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkStepper.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkStringProperty.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkSubImageSelector.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkSurface.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkSurfaceOperation.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkSurfaceSource.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkSurfaceToImageFilter.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkSurfaceToSurfaceFilter.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkSurfaceVtkMapper2D.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkSurfaceVtkMapper3D.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkTestManager.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkThinPlateSplineCurvedGeometry.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkTimeGeometry.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkTimeHelper.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkTimeSlicedGeometry.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkTransferFunction.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkTransferFunctionInitializer.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkTransferFunctionProperty.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkUIDGenerator.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkUndoController.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkUndoModel.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkVector.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkVectorDeprecated.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkVectorProperty.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkVerboseLimitedLinearUndo.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkVolumeCalculator.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkVtkEventAdapter.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkVtkEventProvider.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkVtkInteractorStyle.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkVtkInterpolationProperty.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkVtkLayerController.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkVtkLoggingAdapter.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkVtkMapper.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkVtkMapper2D.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkVtkMapper3D.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkVtkOverlay.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkVtkOverlay2D.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkVtkOverlay3D.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkVtkPropRenderer.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkVtkRepresentationProperty.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkVtkResliceInterpolationProperty.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkVtkScalarModeProperty.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkVtkVolumeRenderingProperty.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkVtkWidgetRendering.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkWeakPointer.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkWeakPointerProperty.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\mitkXML2EventParser.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\vtkMitkLevelWindowFilter.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\vtkMitkRectangleProp.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\vtkMitkRenderProp.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\vtkMitkThickSlicesFilter.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\include\vtkNeverTranslucentTexture.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\src\mitkCoreActivator.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\src\IO\mitkDicomSeriesReaderService.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\src\IO\mitkFileReaderWriterBase.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\src\IO\mitkGeometry3DToXML.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\src\IO\mitkImageVtkLegacyIO.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\src\IO\mitkImageVtkXmlIO.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\src\IO\mitkLegacyFileReaderService.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\src\IO\mitkLegacyFileWriterService.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\src\IO\mitkMimeTypeProvider.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\src\IO\mitkPointSetReaderService.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\src\IO\mitkPointSetWriterService.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\src\IO\mitkProportionalTimeGeometryToXML.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\src\IO\mitkRawImageFileReader.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\src\IO\mitkSurfaceStlIO.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\src\IO\mitkSurfaceVtkIO.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\src\IO\mitkSurfaceVtkLegacyIO.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Core\src\IO\mitkSurfaceVtkXmlIO.h" />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\mitkCoreActivator.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\mitkCoreObjectFactoryBase.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\mitkCoreObjectFactory.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\mitkCoreServices.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\mitkException.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Algorithms\mitkBaseDataSource.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Algorithms\mitkClippedSurfaceBoundsCalculator.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Algorithms\mitkCompareImageDataFilter.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Algorithms\mitkConvert2Dto3DImageFilter.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Algorithms\mitkDataNodeSource.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Algorithms\mitkExtractSliceFilter.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Algorithms\mitkHistogramGenerator.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Algorithms\mitkImageChannelSelector.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Algorithms\mitkImageSliceSelector.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Algorithms\mitkImageSource.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Algorithms\mitkImageTimeSelector.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Algorithms\mitkImageToImageFilter.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Algorithms\mitkImageToSurfaceFilter.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Algorithms\mitkMultiComponentImageDataComparisonFilter.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Algorithms\mitkPlaneGeometryDataToSurfaceFilter.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Algorithms\mitkPointSetSource.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Algorithms\mitkPointSetToPointSetFilter.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Algorithms\mitkRGBToRGBACastImageFilter.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Algorithms\mitkSubImageSelector.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Algorithms\mitkSurfaceSource.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Algorithms\mitkSurfaceToImageFilter.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Algorithms\mitkSurfaceToSurfaceFilter.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Algorithms\mitkUIDGenerator.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Algorithms\mitkVolumeCalculator.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Controllers\mitkBaseController.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Controllers\mitkCallbackFromGUIThread.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Controllers\mitkCameraController.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Controllers\mitkCameraRotationController.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Controllers\mitkLimitedLinearUndo.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Controllers\mitkOperationEvent.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Controllers\mitkPlanePositionManager.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Controllers\mitkProgressBar.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Controllers\mitkRenderingManager.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Controllers\mitkSliceNavigationController.cpp" >
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MITK_NO_DEPRECATED_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MITK_NO_DEPRECATED_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">MITK_NO_DEPRECATED_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">MITK_NO_DEPRECATED_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Controllers\mitkSlicesCoordinator.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Controllers\mitkStatusBar.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Controllers\mitkStepper.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Controllers\mitkTestManager.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Controllers\mitkUndoController.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Controllers\mitkVerboseLimitedLinearUndo.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Controllers\mitkVtkLayerController.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkArbitraryTimeGeometry.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkAbstractTransformGeometry.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkAnnotationProperty.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkApplicationCursor.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkApplyTransformMatrixOperation.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkBaseData.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkBaseGeometry.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkBaseProperty.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkChannelDescriptor.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkClippingProperty.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkColorProperty.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkDataNode.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkDataStorage.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkEnumerationProperty.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkFloatPropertyExtension.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkGeometry3D.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkGeometryData.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkGeometryTransformHolder.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkGroupTagProperty.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkImageAccessorBase.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkImageCaster.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkImageCastPart1.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkImageCastPart2.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkImageCastPart3.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkImageCastPart4.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkImage.cpp" >
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MITK_NO_DEPRECATED_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MITK_NO_DEPRECATED_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">MITK_NO_DEPRECATED_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">MITK_NO_DEPRECATED_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkImageDataItem.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkImageDescriptor.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkImageReadAccessor.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkImageStatisticsHolder.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkImageVtkAccessor.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkImageVtkReadAccessor.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkImageVtkWriteAccessor.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkImageWriteAccessor.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkIntPropertyExtension.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkIPersistenceService.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkIPropertyAliases.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkIPropertyDescriptions.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkIPropertyExtensions.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkIPropertyFilters.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkIPropertyPersistence.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkLandmarkProjectorBasedCurvedGeometry.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkLandmarkProjector.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkLevelWindow.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkLevelWindowManager.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkLevelWindowPreset.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkLevelWindowProperty.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkLine.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkLookupTable.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkLookupTableProperty.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkLookupTables.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkMaterial.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkMemoryUtilities.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkModalityProperty.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkModifiedLock.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkNodePredicateAnd.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkNodePredicateBase.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkNodePredicateCompositeBase.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkNodePredicateData.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkNodePredicateDataType.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkNodePredicateDimension.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkNodePredicateFirstLevel.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkNodePredicateNot.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkNodePredicateOr.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkNodePredicateProperty.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkNodePredicateSource.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkNumericConstants.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkPlaneGeometry.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkPlaneGeometryData.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkPlaneOperation.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkPlaneOrientationProperty.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkPointOperation.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkPointSet.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkPointSetShapeProperty.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkProperties.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkPropertyAliases.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkPropertyDescriptions.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkPropertyExtension.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkPropertyExtensions.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkPropertyFilter.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkPropertyFilters.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkPropertyList.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkPropertyListReplacedObserver.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkPropertyObserver.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkPropertyPersistence.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkPropertyPersistenceInfo.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkProportionalTimeGeometry.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkRenderingModeProperty.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkResliceMethodProperty.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkRestorePlanePositionOperation.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkRotationOperation.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkScaleOperation.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkShaderProperty.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkSlicedData.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkSlicedGeometry3D.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkSmartPointerProperty.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkStandaloneDataStorage.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkStringProperty.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkSurface.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkSurfaceOperation.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkThinPlateSplineCurvedGeometry.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkTimeGeometry.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkTransferFunction.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkTransferFunctionInitializer.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkTransferFunctionProperty.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkVector.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkVectorProperty.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkVtkInterpolationProperty.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkVtkRepresentationProperty.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkVtkResliceInterpolationProperty.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkVtkScalarModeProperty.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkVtkVolumeRenderingProperty.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\DataManagement\mitkWeakPointerProperty.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Interactions\mitkAction.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Interactions\mitkBindDispatcherInteractor.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Interactions\mitkCrosshairPositionEvent.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Interactions\mitkDataInteractor.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Interactions\mitkDispatcher.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Interactions\mitkDisplayCoordinateOperation.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Interactions\mitkDisplayInteractor.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Interactions\mitkEventConfig.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Interactions\mitkEventFactory.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Interactions\mitkEventRecorder.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Interactions\mitkEventStateMachine.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Interactions\mitkInteractionEventConst.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Interactions\mitkInteractionEvent.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Interactions\mitkInteractionEventHandler.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Interactions\mitkInteractionEventObserver.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Interactions\mitkInteractionKeyEvent.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Interactions\mitkInteractionPositionEvent.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Interactions\mitkInternalEvent.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Interactions\mitkMouseDoubleClickEvent.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Interactions\mitkMouseModeSwitcher.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Interactions\mitkMouseMoveEvent.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Interactions\mitkMousePressEvent.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Interactions\mitkMouseReleaseEvent.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Interactions\mitkMouseWheelEvent.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Interactions\mitkPointSetDataInteractor.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Interactions\mitkSinglePointDataInteractor.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Interactions\mitkStateMachineAction.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Interactions\mitkStateMachineCondition.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Interactions\mitkStateMachineContainer.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Interactions\mitkStateMachineState.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Interactions\mitkStateMachineTransition.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Interactions\mitkVtkEventAdapter.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Interactions\mitkVtkInteractorStyle.cxx"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Interactions\mitkXML2EventParser.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkAbstractFileIO.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkAbstractFileReader.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkAbstractFileWriter.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkCustomMimeType.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkDicomSeriesReader.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkDicomSeriesReaderService.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkDicomSR_GantryTiltInformation.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkDicomSR_ImageBlockDescriptor.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkDicomSR_LoadDICOMRGBPixel4D.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkDicomSR_LoadDICOMRGBPixel.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkDicomSR_LoadDICOMScalar4D.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkDicomSR_LoadDICOMScalar.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkDicomSR_SliceGroupingResult.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkFileReader.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkFileReaderRegistry.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkFileReaderSelector.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkFileReaderWriterBase.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkFileWriter.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkFileWriterRegistry.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkFileWriterSelector.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkGeometry3DToXML.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkIFileIO.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkIFileReader.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkIFileWriter.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkGeometryDataReaderService.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkGeometryDataWriterService.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkImageGenerator.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkImageVtkLegacyIO.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkImageVtkXmlIO.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkIMimeTypeProvider.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkIOConstants.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkIOMimeTypes.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkIOUtil.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkItkImageIO.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkItkLoggingAdapter.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkLegacyFileReaderService.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkLegacyFileWriterService.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkLog.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkMimeType.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkMimeTypeProvider.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkOperation.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkPixelType.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkPointSetReaderService.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkPointSetWriterService.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkProportionalTimeGeometryToXML.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkRawImageFileReader.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkStandardFileLocations.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkSurfaceStlIO.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkSurfaceVtkIO.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkSurfaceVtkLegacyIO.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkSurfaceVtkXmlIO.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\IO\mitkVtkLoggingAdapter.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Rendering\mitkAbstractOverlayLayouter.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Rendering\mitkBaseRenderer.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Rendering\mitkGradientBackground.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Rendering\mitkImageVtkMapper2D.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Rendering\mitkIShaderRepository.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Rendering\mitkManufacturerLogo.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Rendering\mitkMapper.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Rendering\mitkOverlay.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Rendering\mitkOverlayManager.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Rendering\mitkPlaneGeometryDataMapper2D.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Rendering\mitkPlaneGeometryDataVtkMapper3D.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Rendering\mitkPointSetVtkMapper2D.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Rendering\mitkPointSetVtkMapper3D.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Rendering\mitkRenderWindowBase.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Rendering\mitkRenderWindow.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Rendering\mitkRenderWindowFrame.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Rendering\mitkSurfaceVtkMapper2D.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Rendering\mitkSurfaceVtkMapper3D.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Rendering\mitkVtkEventProvider.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Rendering\mitkVtkMapper.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Rendering\mitkVtkOverlay2D.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Rendering\mitkVtkOverlay3D.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Rendering\mitkVtkOverlay.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Rendering\mitkVtkPropRenderer.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Rendering\mitkVtkWidgetRendering.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Rendering\vtkMitkLevelWindowFilter.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Rendering\vtkMitkRectangleProp.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Rendering\vtkMitkRenderProp.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Rendering\vtkMitkThickSlicesFilter.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Core\src\Rendering\vtkNeverTranslucentTexture.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\Core\us_MitkCore\us_resources.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:/D/MITK-superbuild/MITK-build/ZERO_CHECK.vcxproj">
+      <Project>B13C44DE-4BB4-3414-ABDA-308DC25B7D17</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/MITK-build/Modules/CppMicroServices/core/CppMicroServices.vcxproj">
+      <Project>5F3BDE34-8C32-3441-8C46-8AC176A184DA</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/MITK-build/Utilities/mbilog/mbilog.vcxproj">
+      <Project>C2DD058A-96C4-32B8-92D7-A0D457FFBA47</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/MITK-build/Modules/CppMicroServices/tools/usResourceCompiler.vcxproj">
+      <Project>85F46131-E7CA-32E8-976B-548919BAED51</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

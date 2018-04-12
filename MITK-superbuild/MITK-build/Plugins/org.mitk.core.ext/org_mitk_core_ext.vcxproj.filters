@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\D\MITK\Plugins\org.mitk.core.ext\src\mitkCoreExtConstants.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Plugins\org.mitk.core.ext\src\internal\mitkCoreExtActivator.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Plugins\org.mitk.core.ext\src\internal\mitkInputDeviceRegistry.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Plugins\org.mitk.core.ext\src\internal\mitkInputDeviceDescriptor.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.mitk.core.ext\src\internal\moc_mitkCoreExtActivator.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.mitk.core.ext\src\internal\moc_mitkInputDeviceRegistry.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.mitk.core.ext\qrc_org_mitk_core_ext_manifest.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.mitk.core.ext\qrc_org_mitk_core_ext_cached.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\D\MITK\Plugins\org.mitk.core.ext\src\mitkIInputDeviceDescriptor.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Plugins\org.mitk.core.ext\src\mitkIInputDeviceRegistry.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Plugins\org.mitk.core.ext\src\mitkIInputDevice.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Plugins\org.mitk.core.ext\src\mitkCoreExtConstants.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Plugins\org.mitk.core.ext\src\internal\mitkCoreExtActivator.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Plugins\org.mitk.core.ext\src\internal\mitkInputDeviceRegistry.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Plugins\org.mitk.core.ext\src\internal\mitkInputDeviceDescriptor.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK\Plugins\org.mitk.core.ext\CMakeLists.txt" />
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\5e00211b8ca7f1bc02334611293068ab\moc_mitkCoreExtActivator.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\5e00211b8ca7f1bc02334611293068ab\moc_mitkInputDeviceRegistry.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.mitk.core.ext\org_mitk_core_ext_manifest.qrc" />
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.mitk.core.ext\org_mitk_core_ext_cached.qrc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{CAC8648D-C086-3462-B846-B0EBFA3DCB4A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="== Source Files ==">
+      <UniqueIdentifier>{9CA70B67-B51F-303F-96AF-687940E0FEA8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="== Header Files ==">
+      <UniqueIdentifier>{4D89E91A-663E-32FD-A047-724E4EC4BA98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated">
+      <UniqueIdentifier>{7FA4B4B1-5C9C-314E-A0B9-36873EE561F1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

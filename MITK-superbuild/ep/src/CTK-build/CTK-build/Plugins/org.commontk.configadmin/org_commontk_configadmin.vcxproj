@@ -1,0 +1,781 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{21FA1735-6862-3059-8466-C6E7CD58E3D8}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>org_commontk_configadmin</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\bin\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">org_commontk_configadmin.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">liborg_commontk_configadmin</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\bin\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">org_commontk_configadmin.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">liborg_commontk_configadmin</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\bin\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">org_commontk_configadmin.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">liborg_commontk_configadmin</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\bin\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">org_commontk_configadmin.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">liborg_commontk_configadmin</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build;E:\D\MITK-superbuild\ep\src\CTK\Libs\PluginFramework;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\PluginFramework;E:\D\MITK-superbuild\ep\src\CTK\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Core;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtSql;C:\Qt\5.4\msvc2013_opengl\include\QtConcurrent;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4290</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NOMINMAX;_DEBUG;QT_PLUGIN;QT_CORE_LIB;QT_SQL_LIB;QT_CONCURRENT_LIB;CMAKE_INTDIR="Debug";org_commontk_configadmin_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NOMINMAX;_DEBUG;QT_PLUGIN;QT_CORE_LIB;QT_SQL_LIB;QT_CONCURRENT_LIB;CMAKE_INTDIR=\"Debug\";org_commontk_configadmin_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build;E:\D\MITK-superbuild\ep\src\CTK\Libs\PluginFramework;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\PluginFramework;E:\D\MITK-superbuild\ep\src\CTK\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Core;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtSql;C:\Qt\5.4\msvc2013_opengl\include\QtConcurrent;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build;E:\D\MITK-superbuild\ep\src\CTK\Libs\PluginFramework;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\PluginFramework;E:\D\MITK-superbuild\ep\src\CTK\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Core;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtSql;C:\Qt\5.4\msvc2013_opengl\include\QtConcurrent;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\bin\Debug\CTKPluginFramework.lib;..\..\bin\Debug\CTKCore.lib;dbghelp.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Sqld.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Concurrentd.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Cored.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/bin/Debug/org_commontk_configadmin.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/bin/Debug/liborg_commontk_configadmin.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build;E:\D\MITK-superbuild\ep\src\CTK\Libs\PluginFramework;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\PluginFramework;E:\D\MITK-superbuild\ep\src\CTK\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Core;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtSql;C:\Qt\5.4\msvc2013_opengl\include\QtConcurrent;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4290</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NOMINMAX;NDEBUG;QT_PLUGIN;QT_CORE_LIB;QT_NO_DEBUG;QT_SQL_LIB;QT_CONCURRENT_LIB;CMAKE_INTDIR="Release";org_commontk_configadmin_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NOMINMAX;NDEBUG;QT_PLUGIN;QT_CORE_LIB;QT_NO_DEBUG;QT_SQL_LIB;QT_CONCURRENT_LIB;CMAKE_INTDIR=\"Release\";org_commontk_configadmin_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build;E:\D\MITK-superbuild\ep\src\CTK\Libs\PluginFramework;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\PluginFramework;E:\D\MITK-superbuild\ep\src\CTK\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Core;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtSql;C:\Qt\5.4\msvc2013_opengl\include\QtConcurrent;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build;E:\D\MITK-superbuild\ep\src\CTK\Libs\PluginFramework;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\PluginFramework;E:\D\MITK-superbuild\ep\src\CTK\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Core;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtSql;C:\Qt\5.4\msvc2013_opengl\include\QtConcurrent;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\bin\Release\CTKPluginFramework.lib;..\..\bin\Release\CTKCore.lib;dbghelp.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Sql.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Concurrent.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Core.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/bin/Release/org_commontk_configadmin.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/bin/Release/liborg_commontk_configadmin.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build;E:\D\MITK-superbuild\ep\src\CTK\Libs\PluginFramework;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\PluginFramework;E:\D\MITK-superbuild\ep\src\CTK\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Core;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtSql;C:\Qt\5.4\msvc2013_opengl\include\QtConcurrent;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4290</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NOMINMAX;NDEBUG;QT_PLUGIN;QT_CORE_LIB;QT_NO_DEBUG;QT_SQL_LIB;QT_CONCURRENT_LIB;CMAKE_INTDIR="MinSizeRel";org_commontk_configadmin_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NOMINMAX;NDEBUG;QT_PLUGIN;QT_CORE_LIB;QT_NO_DEBUG;QT_SQL_LIB;QT_CONCURRENT_LIB;CMAKE_INTDIR=\"MinSizeRel\";org_commontk_configadmin_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build;E:\D\MITK-superbuild\ep\src\CTK\Libs\PluginFramework;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\PluginFramework;E:\D\MITK-superbuild\ep\src\CTK\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Core;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtSql;C:\Qt\5.4\msvc2013_opengl\include\QtConcurrent;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build;E:\D\MITK-superbuild\ep\src\CTK\Libs\PluginFramework;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\PluginFramework;E:\D\MITK-superbuild\ep\src\CTK\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Core;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtSql;C:\Qt\5.4\msvc2013_opengl\include\QtConcurrent;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\bin\MinSizeRel\CTKPluginFramework.lib;..\..\bin\MinSizeRel\CTKCore.lib;dbghelp.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Sql.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Concurrent.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Core.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/bin/MinSizeRel/org_commontk_configadmin.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/bin/MinSizeRel/liborg_commontk_configadmin.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build;E:\D\MITK-superbuild\ep\src\CTK\Libs\PluginFramework;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\PluginFramework;E:\D\MITK-superbuild\ep\src\CTK\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Core;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtSql;C:\Qt\5.4\msvc2013_opengl\include\QtConcurrent;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4290</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NOMINMAX;NDEBUG;QT_PLUGIN;QT_CORE_LIB;QT_NO_DEBUG;QT_SQL_LIB;QT_CONCURRENT_LIB;CMAKE_INTDIR="RelWithDebInfo";org_commontk_configadmin_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NOMINMAX;NDEBUG;QT_PLUGIN;QT_CORE_LIB;QT_NO_DEBUG;QT_SQL_LIB;QT_CONCURRENT_LIB;CMAKE_INTDIR=\"RelWithDebInfo\";org_commontk_configadmin_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build;E:\D\MITK-superbuild\ep\src\CTK\Libs\PluginFramework;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\PluginFramework;E:\D\MITK-superbuild\ep\src\CTK\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Core;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtSql;C:\Qt\5.4\msvc2013_opengl\include\QtConcurrent;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build;E:\D\MITK-superbuild\ep\src\CTK\Libs\PluginFramework;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\PluginFramework;E:\D\MITK-superbuild\ep\src\CTK\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Core;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtSql;C:\Qt\5.4\msvc2013_opengl\include\QtConcurrent;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\bin\RelWithDebInfo\CTKPluginFramework.lib;..\..\bin\RelWithDebInfo\CTKCore.lib;dbghelp.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Sql.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Concurrent.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Core.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/bin/RelWithDebInfo/org_commontk_configadmin.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/bin/RelWithDebInfo/liborg_commontk_configadmin.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/CTK/Plugins/org.commontk.configadmin/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/CTK -BE:/D/MITK-superbuild/ep/src/CTK-build/CTK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/CTK/Plugins/org.commontk.configadmin/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin\target_libraries.cmake;E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin\manifest_headers.cmake;E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin\manifest_headers.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5LinguistTools\Qt5LinguistToolsConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5LinguistTools\Qt5LinguistToolsConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5LinguistTools\Qt5LinguistToolsMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;E:\D\MITK-superbuild\ep\src\CTK\Libs\ctkExport.h.in;E:\D\MITK-superbuild\ep\src\CTK\CMake\MANIFEST.MF.in;E:\D\MITK-superbuild\ep\src\CTK\CMake\plugin_manifest.qrc.in;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin\org_commontk_configadmin_manifest.qrc;E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/CTK/Plugins/org.commontk.configadmin/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/CTK -BE:/D/MITK-superbuild/ep/src/CTK-build/CTK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/CTK/Plugins/org.commontk.configadmin/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin\target_libraries.cmake;E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin\manifest_headers.cmake;E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin\manifest_headers.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5LinguistTools\Qt5LinguistToolsConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5LinguistTools\Qt5LinguistToolsConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5LinguistTools\Qt5LinguistToolsMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;E:\D\MITK-superbuild\ep\src\CTK\Libs\ctkExport.h.in;E:\D\MITK-superbuild\ep\src\CTK\CMake\MANIFEST.MF.in;E:\D\MITK-superbuild\ep\src\CTK\CMake\plugin_manifest.qrc.in;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin\org_commontk_configadmin_manifest.qrc;E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/CTK/Plugins/org.commontk.configadmin/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/CTK -BE:/D/MITK-superbuild/ep/src/CTK-build/CTK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/CTK/Plugins/org.commontk.configadmin/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin\target_libraries.cmake;E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin\manifest_headers.cmake;E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin\manifest_headers.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5LinguistTools\Qt5LinguistToolsConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5LinguistTools\Qt5LinguistToolsConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5LinguistTools\Qt5LinguistToolsMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;E:\D\MITK-superbuild\ep\src\CTK\Libs\ctkExport.h.in;E:\D\MITK-superbuild\ep\src\CTK\CMake\MANIFEST.MF.in;E:\D\MITK-superbuild\ep\src\CTK\CMake\plugin_manifest.qrc.in;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin\org_commontk_configadmin_manifest.qrc;E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/CTK/Plugins/org.commontk.configadmin/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/CTK -BE:/D/MITK-superbuild/ep/src/CTK-build/CTK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/CTK/Plugins/org.commontk.configadmin/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin\target_libraries.cmake;E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin\manifest_headers.cmake;E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin\manifest_headers.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5LinguistTools\Qt5LinguistToolsConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5LinguistTools\Qt5LinguistToolsConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5LinguistTools\Qt5LinguistToolsMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;E:\D\MITK-superbuild\ep\src\CTK\Libs\ctkExport.h.in;E:\D\MITK-superbuild\ep\src\CTK\CMake\MANIFEST.MF.in;E:\D\MITK-superbuild\ep\src\CTK\CMake\plugin_manifest.qrc.in;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin\org_commontk_configadmin_manifest.qrc;E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\CMakeFiles\8560f6ebec5152a76651dcc74b0708d6\moc_ctkCMSerializedTaskQueue_p.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating moc_ctkCMSerializedTaskQueue_p.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Plugins/org.commontk.configadmin/moc_ctkCMSerializedTaskQueue_p.cpp_parameters_Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/8560f6ebec5152a76651dcc74b0708d6/moc_ctkCMSerializedTaskQueue_p.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin\ctkCMSerializedTaskQueue_p.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin\moc_ctkCMSerializedTaskQueue_p.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating moc_ctkCMSerializedTaskQueue_p.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Plugins/org.commontk.configadmin/moc_ctkCMSerializedTaskQueue_p.cpp_parameters_Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/8560f6ebec5152a76651dcc74b0708d6/moc_ctkCMSerializedTaskQueue_p.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin\ctkCMSerializedTaskQueue_p.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin\moc_ctkCMSerializedTaskQueue_p.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating moc_ctkCMSerializedTaskQueue_p.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Plugins/org.commontk.configadmin/moc_ctkCMSerializedTaskQueue_p.cpp_parameters_MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/8560f6ebec5152a76651dcc74b0708d6/moc_ctkCMSerializedTaskQueue_p.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin\ctkCMSerializedTaskQueue_p.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin\moc_ctkCMSerializedTaskQueue_p.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating moc_ctkCMSerializedTaskQueue_p.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Plugins/org.commontk.configadmin/moc_ctkCMSerializedTaskQueue_p.cpp_parameters_RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/8560f6ebec5152a76651dcc74b0708d6/moc_ctkCMSerializedTaskQueue_p.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin\ctkCMSerializedTaskQueue_p.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin\moc_ctkCMSerializedTaskQueue_p.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\CMakeFiles\8560f6ebec5152a76651dcc74b0708d6\moc_ctkConfigurationAdminActivator_p.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating moc_ctkConfigurationAdminActivator_p.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Plugins/org.commontk.configadmin/moc_ctkConfigurationAdminActivator_p.cpp_parameters_Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/8560f6ebec5152a76651dcc74b0708d6/moc_ctkConfigurationAdminActivator_p.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin\ctkConfigurationAdminActivator_p.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin\moc_ctkConfigurationAdminActivator_p.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating moc_ctkConfigurationAdminActivator_p.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Plugins/org.commontk.configadmin/moc_ctkConfigurationAdminActivator_p.cpp_parameters_Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/8560f6ebec5152a76651dcc74b0708d6/moc_ctkConfigurationAdminActivator_p.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin\ctkConfigurationAdminActivator_p.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin\moc_ctkConfigurationAdminActivator_p.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating moc_ctkConfigurationAdminActivator_p.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Plugins/org.commontk.configadmin/moc_ctkConfigurationAdminActivator_p.cpp_parameters_MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/8560f6ebec5152a76651dcc74b0708d6/moc_ctkConfigurationAdminActivator_p.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin\ctkConfigurationAdminActivator_p.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin\moc_ctkConfigurationAdminActivator_p.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating moc_ctkConfigurationAdminActivator_p.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Plugins/org.commontk.configadmin/moc_ctkConfigurationAdminActivator_p.cpp_parameters_RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/8560f6ebec5152a76651dcc74b0708d6/moc_ctkConfigurationAdminActivator_p.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin\ctkConfigurationAdminActivator_p.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin\moc_ctkConfigurationAdminActivator_p.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\CMakeFiles\8560f6ebec5152a76651dcc74b0708d6\moc_ctkConfigurationAdminFactory_p.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating moc_ctkConfigurationAdminFactory_p.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Plugins/org.commontk.configadmin/moc_ctkConfigurationAdminFactory_p.cpp_parameters_Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/8560f6ebec5152a76651dcc74b0708d6/moc_ctkConfigurationAdminFactory_p.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin\ctkConfigurationAdminFactory_p.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin\moc_ctkConfigurationAdminFactory_p.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating moc_ctkConfigurationAdminFactory_p.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Plugins/org.commontk.configadmin/moc_ctkConfigurationAdminFactory_p.cpp_parameters_Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/8560f6ebec5152a76651dcc74b0708d6/moc_ctkConfigurationAdminFactory_p.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin\ctkConfigurationAdminFactory_p.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin\moc_ctkConfigurationAdminFactory_p.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating moc_ctkConfigurationAdminFactory_p.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Plugins/org.commontk.configadmin/moc_ctkConfigurationAdminFactory_p.cpp_parameters_MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/8560f6ebec5152a76651dcc74b0708d6/moc_ctkConfigurationAdminFactory_p.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin\ctkConfigurationAdminFactory_p.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin\moc_ctkConfigurationAdminFactory_p.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating moc_ctkConfigurationAdminFactory_p.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Plugins/org.commontk.configadmin/moc_ctkConfigurationAdminFactory_p.cpp_parameters_RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/8560f6ebec5152a76651dcc74b0708d6/moc_ctkConfigurationAdminFactory_p.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin\ctkConfigurationAdminFactory_p.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin\moc_ctkConfigurationAdminFactory_p.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\CMakeFiles\8560f6ebec5152a76651dcc74b0708d6\moc_ctkConfigurationAdminImpl_p.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating moc_ctkConfigurationAdminImpl_p.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Plugins/org.commontk.configadmin/moc_ctkConfigurationAdminImpl_p.cpp_parameters_Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/8560f6ebec5152a76651dcc74b0708d6/moc_ctkConfigurationAdminImpl_p.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin\ctkConfigurationAdminImpl_p.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin\moc_ctkConfigurationAdminImpl_p.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating moc_ctkConfigurationAdminImpl_p.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Plugins/org.commontk.configadmin/moc_ctkConfigurationAdminImpl_p.cpp_parameters_Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/8560f6ebec5152a76651dcc74b0708d6/moc_ctkConfigurationAdminImpl_p.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin\ctkConfigurationAdminImpl_p.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin\moc_ctkConfigurationAdminImpl_p.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating moc_ctkConfigurationAdminImpl_p.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Plugins/org.commontk.configadmin/moc_ctkConfigurationAdminImpl_p.cpp_parameters_MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/8560f6ebec5152a76651dcc74b0708d6/moc_ctkConfigurationAdminImpl_p.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin\ctkConfigurationAdminImpl_p.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin\moc_ctkConfigurationAdminImpl_p.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating moc_ctkConfigurationAdminImpl_p.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Plugins/org.commontk.configadmin/moc_ctkConfigurationAdminImpl_p.cpp_parameters_RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/8560f6ebec5152a76651dcc74b0708d6/moc_ctkConfigurationAdminImpl_p.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin\ctkConfigurationAdminImpl_p.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin\moc_ctkConfigurationAdminImpl_p.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\CMakeFiles\8560f6ebec5152a76651dcc74b0708d6\moc_ctkConfigurationEventAdapter_p.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating moc_ctkConfigurationEventAdapter_p.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Plugins/org.commontk.configadmin/moc_ctkConfigurationEventAdapter_p.cpp_parameters_Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/8560f6ebec5152a76651dcc74b0708d6/moc_ctkConfigurationEventAdapter_p.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin\ctkConfigurationEventAdapter_p.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin\moc_ctkConfigurationEventAdapter_p.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating moc_ctkConfigurationEventAdapter_p.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Plugins/org.commontk.configadmin/moc_ctkConfigurationEventAdapter_p.cpp_parameters_Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/8560f6ebec5152a76651dcc74b0708d6/moc_ctkConfigurationEventAdapter_p.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin\ctkConfigurationEventAdapter_p.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin\moc_ctkConfigurationEventAdapter_p.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating moc_ctkConfigurationEventAdapter_p.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Plugins/org.commontk.configadmin/moc_ctkConfigurationEventAdapter_p.cpp_parameters_MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/8560f6ebec5152a76651dcc74b0708d6/moc_ctkConfigurationEventAdapter_p.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin\ctkConfigurationEventAdapter_p.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin\moc_ctkConfigurationEventAdapter_p.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating moc_ctkConfigurationEventAdapter_p.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Plugins/org.commontk.configadmin/moc_ctkConfigurationEventAdapter_p.cpp_parameters_RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/8560f6ebec5152a76651dcc74b0708d6/moc_ctkConfigurationEventAdapter_p.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin\ctkConfigurationEventAdapter_p.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin\moc_ctkConfigurationEventAdapter_p.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin\org_commontk_configadmin_manifest.qrc">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating qrc_org_commontk_configadmin_manifest.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\rcc.exe -name org_commontk_configadmin_manifest -o E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Plugins/org.commontk.configadmin/qrc_org_commontk_configadmin_manifest.cpp E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Plugins/org.commontk.configadmin/org_commontk_configadmin_manifest.qrc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Plugins/org.commontk.configadmin/org_commontk_configadmin_manifest.qrc;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin\MANIFEST.MF;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin\org_commontk_configadmin_manifest.qrc.depends;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin\org_commontk_configadmin_manifest.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin\qrc_org_commontk_configadmin_manifest.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating qrc_org_commontk_configadmin_manifest.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\rcc.exe -name org_commontk_configadmin_manifest -o E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Plugins/org.commontk.configadmin/qrc_org_commontk_configadmin_manifest.cpp E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Plugins/org.commontk.configadmin/org_commontk_configadmin_manifest.qrc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Plugins/org.commontk.configadmin/org_commontk_configadmin_manifest.qrc;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin\MANIFEST.MF;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin\org_commontk_configadmin_manifest.qrc.depends;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin\org_commontk_configadmin_manifest.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin\qrc_org_commontk_configadmin_manifest.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating qrc_org_commontk_configadmin_manifest.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\rcc.exe -name org_commontk_configadmin_manifest -o E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Plugins/org.commontk.configadmin/qrc_org_commontk_configadmin_manifest.cpp E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Plugins/org.commontk.configadmin/org_commontk_configadmin_manifest.qrc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Plugins/org.commontk.configadmin/org_commontk_configadmin_manifest.qrc;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin\MANIFEST.MF;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin\org_commontk_configadmin_manifest.qrc.depends;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin\org_commontk_configadmin_manifest.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin\qrc_org_commontk_configadmin_manifest.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating qrc_org_commontk_configadmin_manifest.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\rcc.exe -name org_commontk_configadmin_manifest -o E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Plugins/org.commontk.configadmin/qrc_org_commontk_configadmin_manifest.cpp E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Plugins/org.commontk.configadmin/org_commontk_configadmin_manifest.qrc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Plugins/org.commontk.configadmin/org_commontk_configadmin_manifest.qrc;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin\MANIFEST.MF;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin\org_commontk_configadmin_manifest.qrc.depends;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin\org_commontk_configadmin_manifest.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin\qrc_org_commontk_configadmin_manifest.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin\ctkCMEventDispatcher_p.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin\ctkCMLogTracker_p.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin\ctkCMPluginManager_p.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin\ctkCMSerializedTaskQueue_p.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin\ctkConfigurationAdminActivator_p.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin\ctkConfigurationAdminFactory_p.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin\ctkConfigurationAdminImpl_p.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin\ctkConfigurationEventAdapter_p.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin\ctkConfigurationImpl_p.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin\ctkConfigurationStore_p.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin\ctkManagedServiceTracker_p.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin\ctkManagedServiceFactoryTracker_p.h" />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin\ctkCMEventDispatcher.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin\ctkCMLogTracker.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin\ctkCMPluginManager.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin\ctkCMSerializedTaskQueue.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin\ctkConfigurationAdminActivator.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin\ctkConfigurationAdminFactory.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin\ctkConfigurationAdminImpl.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin\ctkConfigurationEventAdapter.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin\ctkConfigurationImpl.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin\ctkConfigurationStore.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin\ctkManagedServiceTracker.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Plugins\org.commontk.configadmin\ctkManagedServiceFactoryTracker.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin\moc_ctkCMSerializedTaskQueue_p.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin\moc_ctkConfigurationAdminActivator_p.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin\moc_ctkConfigurationAdminFactory_p.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin\moc_ctkConfigurationAdminImpl_p.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin\moc_ctkConfigurationEventAdapter_p.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Plugins\org.commontk.configadmin\qrc_org_commontk_configadmin_manifest.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/ZERO_CHECK.vcxproj">
+      <Project>591B03B8-3BAD-312B-B559-458CAAA4AB37</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/Core/CTKCore.vcxproj">
+      <Project>362813B3-1EAC-3113-9882-5141FC341359</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/PluginFramework/CTKPluginFramework.vcxproj">
+      <Project>2D5D2BEF-9F8E-3B77-8845-5A6D771D7EAB</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

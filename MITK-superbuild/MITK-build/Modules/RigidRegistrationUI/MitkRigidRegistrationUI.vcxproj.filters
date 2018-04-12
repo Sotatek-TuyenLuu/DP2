@@ -1,0 +1,576 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistrationUI\us_init.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationMetrics\QmitkRigidRegistrationMetricsGUIBase.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationMetrics\QmitkMeanSquaresMetricView.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationMetrics\QmitkNormalizedCorrelationMetricView.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationMetrics\QmitkGradientDifferenceMetricView.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationMetrics\QmitkKullbackLeiblerCompareHistogramMetricView.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationMetrics\QmitkCorrelationCoefficientHistogramMetricView.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationMetrics\QmitkMeanSquaresHistogramMetricView.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationMetrics\QmitkMutualInformationHistogramMetricView.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationMetrics\QmitkNormalizedMutualInformationHistogramMetricView.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationMetrics\QmitkMattesMutualInformationMetricView.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationMetrics\QmitkMeanReciprocalSquareDifferenceMetricView.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationMetrics\QmitkMutualInformationMetricView.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationMetrics\QmitkMatchCardinalityMetricView.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationMetrics\QmitkKappaStatisticMetricView.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationOptimizer\QmitkRigidRegistrationOptimizerGUIBase.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationOptimizer\QmitkExhaustiveOptimizerView.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationOptimizer\QmitkGradientDescentOptimizerView.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationOptimizer\QmitkQuaternionRigidTransformGradientDescentOptimizerView.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationOptimizer\QmitkLBFGSBOptimizerView.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationOptimizer\QmitkOnePlusOneEvolutionaryOptimizerView.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationOptimizer\QmitkPowellOptimizerView.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationOptimizer\QmitkFRPROptimizerView.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationOptimizer\QmitkRegularStepGradientDescentOptimizerView.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationOptimizer\QmitkVersorTransformOptimizerView.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationOptimizer\QmitkAmoebaOptimizerView.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationOptimizer\QmitkConjugateGradientOptimizerView.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationOptimizer\QmitkLBFGSOptimizerView.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationOptimizer\QmitkSPSAOptimizerView.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationOptimizer\QmitkVersorRigid3DTransformOptimizerView.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationTransforms\QmitkRigidRegistrationTransformsGUIBase.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationTransforms\QmitkTranslationTransformView.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationTransforms\QmitkScaleTransformView.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationTransforms\QmitkScaleLogarithmicTransformView.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationTransforms\QmitkAffineTransformView.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationTransforms\QmitkFixedCenterOfRotationAffineTransformView.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationTransforms\QmitkEuler3DTransformView.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationTransforms\QmitkCenteredEuler3DTransformView.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationTransforms\QmitkQuaternionRigidTransformView.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationTransforms\QmitkVersorTransformView.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationTransforms\QmitkVersorRigid3DTransformView.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationTransforms\QmitkScaleSkewVersor3DTransformView.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationTransforms\QmitkSimilarity3DTransformView.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationTransforms\QmitkRigid2DTransformView.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationTransforms\QmitkCenteredRigid2DTransformView.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationTransforms\QmitkEuler2DTransformView.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationTransforms\QmitkSimilarity2DTransformView.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationTransforms\QmitkCenteredSimilarity2DTransformView.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationMetrics\QmitkRigidRegistrationMetricsGUIBase.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationMetrics\QmitkMeanSquaresMetricView.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationMetrics\QmitkNormalizedCorrelationMetricView.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationMetrics\QmitkGradientDifferenceMetricView.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationMetrics\QmitkKullbackLeiblerCompareHistogramMetricView.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationMetrics\QmitkCorrelationCoefficientHistogramMetricView.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationMetrics\QmitkMeanSquaresHistogramMetricView.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationMetrics\QmitkMutualInformationHistogramMetricView.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationMetrics\QmitkNormalizedMutualInformationHistogramMetricView.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationMetrics\QmitkMattesMutualInformationMetricView.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationMetrics\QmitkMeanReciprocalSquareDifferenceMetricView.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationMetrics\QmitkMutualInformationMetricView.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationMetrics\QmitkMatchCardinalityMetricView.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationMetrics\QmitkKappaStatisticMetricView.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationOptimizer\QmitkRigidRegistrationOptimizerGUIBase.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationOptimizer\QmitkExhaustiveOptimizerView.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationOptimizer\QmitkGradientDescentOptimizerView.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationOptimizer\QmitkQuaternionRigidTransformGradientDescentOptimizerView.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationOptimizer\QmitkLBFGSBOptimizerView.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationOptimizer\QmitkOnePlusOneEvolutionaryOptimizerView.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationOptimizer\QmitkPowellOptimizerView.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationOptimizer\QmitkFRPROptimizerView.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationOptimizer\QmitkRegularStepGradientDescentOptimizerView.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationOptimizer\QmitkVersorTransformOptimizerView.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationOptimizer\QmitkAmoebaOptimizerView.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationOptimizer\QmitkConjugateGradientOptimizerView.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationOptimizer\QmitkLBFGSOptimizerView.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationOptimizer\QmitkSPSAOptimizerView.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationOptimizer\QmitkVersorRigid3DTransformOptimizerView.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationTransforms\QmitkRigidRegistrationTransformsGUIBase.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationTransforms\QmitkTranslationTransformView.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationTransforms\QmitkScaleTransformView.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationTransforms\QmitkScaleLogarithmicTransformView.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationTransforms\QmitkAffineTransformView.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationTransforms\QmitkFixedCenterOfRotationAffineTransformView.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationTransforms\QmitkEuler3DTransformView.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationTransforms\QmitkCenteredEuler3DTransformView.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationTransforms\QmitkQuaternionRigidTransformView.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationTransforms\QmitkVersorTransformView.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationTransforms\QmitkVersorRigid3DTransformView.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationTransforms\QmitkScaleSkewVersor3DTransformView.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationTransforms\QmitkSimilarity3DTransformView.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationTransforms\QmitkRigid2DTransformView.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationTransforms\QmitkCenteredRigid2DTransformView.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationTransforms\QmitkEuler2DTransformView.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationTransforms\QmitkSimilarity2DTransformView.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationTransforms\QmitkCenteredSimilarity2DTransformView.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistrationUI\ui_QmitkMeanSquaresMetricControls.h">
+      <Filter>Generated\Qt UI Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistrationUI\ui_QmitkNormalizedCorrelationMetricControls.h">
+      <Filter>Generated\Qt UI Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistrationUI\ui_QmitkGradientDifferenceMetricControls.h">
+      <Filter>Generated\Qt UI Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistrationUI\ui_QmitkKullbackLeiblerCompareHistogramMetricControls.h">
+      <Filter>Generated\Qt UI Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistrationUI\ui_QmitkCorrelationCoefficientHistogramMetricControls.h">
+      <Filter>Generated\Qt UI Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistrationUI\ui_QmitkMeanSquaresHistogramMetricControls.h">
+      <Filter>Generated\Qt UI Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistrationUI\ui_QmitkMutualInformationHistogramMetricControls.h">
+      <Filter>Generated\Qt UI Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistrationUI\ui_QmitkNormalizedMutualInformationHistogramMetricControls.h">
+      <Filter>Generated\Qt UI Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistrationUI\ui_QmitkMattesMutualInformationMetricControls.h">
+      <Filter>Generated\Qt UI Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistrationUI\ui_QmitkMeanReciprocalSquareDifferenceMetricControls.h">
+      <Filter>Generated\Qt UI Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistrationUI\ui_QmitkMutualInformationMetricControls.h">
+      <Filter>Generated\Qt UI Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistrationUI\ui_QmitkMatchCardinalityMetricControls.h">
+      <Filter>Generated\Qt UI Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistrationUI\ui_QmitkKappaStatisticMetricControls.h">
+      <Filter>Generated\Qt UI Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistrationUI\ui_QmitkExhaustiveOptimizerControls.h">
+      <Filter>Generated\Qt UI Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistrationUI\ui_QmitkGradientDescentOptimizerControls.h">
+      <Filter>Generated\Qt UI Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistrationUI\ui_QmitkQuaternionRigidTransformGradientDescentOptimizerControls.h">
+      <Filter>Generated\Qt UI Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistrationUI\ui_QmitkLBFGSBOptimizerControls.h">
+      <Filter>Generated\Qt UI Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistrationUI\ui_QmitkOnePlusOneEvolutionaryOptimizerControls.h">
+      <Filter>Generated\Qt UI Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistrationUI\ui_QmitkPowellOptimizerControls.h">
+      <Filter>Generated\Qt UI Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistrationUI\ui_QmitkFRPROptimizerControls.h">
+      <Filter>Generated\Qt UI Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistrationUI\ui_QmitkRegularStepGradientDescentOptimizerControls.h">
+      <Filter>Generated\Qt UI Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistrationUI\ui_QmitkVersorTransformOptimizerControls.h">
+      <Filter>Generated\Qt UI Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistrationUI\ui_QmitkAmoebaOptimizerControls.h">
+      <Filter>Generated\Qt UI Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistrationUI\ui_QmitkConjugateGradientOptimizerControls.h">
+      <Filter>Generated\Qt UI Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistrationUI\ui_QmitkLBFGSOptimizerControls.h">
+      <Filter>Generated\Qt UI Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistrationUI\ui_QmitkSPSAOptimizerControls.h">
+      <Filter>Generated\Qt UI Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistrationUI\ui_QmitkVersorRigid3DTransformOptimizerControls.h">
+      <Filter>Generated\Qt UI Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistrationUI\ui_QmitkTranslationTransformControls.h">
+      <Filter>Generated\Qt UI Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistrationUI\ui_QmitkScaleTransformControls.h">
+      <Filter>Generated\Qt UI Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistrationUI\ui_QmitkScaleLogarithmicTransformControls.h">
+      <Filter>Generated\Qt UI Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistrationUI\ui_QmitkAffineTransformControls.h">
+      <Filter>Generated\Qt UI Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistrationUI\ui_QmitkFixedCenterOfRotationAffineTransformControls.h">
+      <Filter>Generated\Qt UI Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistrationUI\ui_QmitkEuler3DTransformControls.h">
+      <Filter>Generated\Qt UI Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistrationUI\ui_QmitkCenteredEuler3DTransformControls.h">
+      <Filter>Generated\Qt UI Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistrationUI\ui_QmitkQuaternionRigidTransformControls.h">
+      <Filter>Generated\Qt UI Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistrationUI\ui_QmitkVersorTransformControls.h">
+      <Filter>Generated\Qt UI Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistrationUI\ui_QmitkVersorRigid3DTransformControls.h">
+      <Filter>Generated\Qt UI Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistrationUI\ui_QmitkScaleSkewVersor3DTransformControls.h">
+      <Filter>Generated\Qt UI Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistrationUI\ui_QmitkSimilarity3DTransformControls.h">
+      <Filter>Generated\Qt UI Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistrationUI\ui_QmitkRigid2DTransformControls.h">
+      <Filter>Generated\Qt UI Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistrationUI\ui_QmitkCenteredRigid2DTransformControls.h">
+      <Filter>Generated\Qt UI Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistrationUI\ui_QmitkEuler2DTransformControls.h">
+      <Filter>Generated\Qt UI Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistrationUI\ui_QmitkSimilarity2DTransformControls.h">
+      <Filter>Generated\Qt UI Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistrationUI\ui_QmitkCenteredSimilarity2DTransformControls.h">
+      <Filter>Generated\Qt UI Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationMetrics\QmitkMeanSquaresMetricControls.ui">
+      <Filter>QT UI Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationMetrics\QmitkNormalizedCorrelationMetricControls.ui">
+      <Filter>QT UI Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationMetrics\QmitkGradientDifferenceMetricControls.ui">
+      <Filter>QT UI Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationMetrics\QmitkKullbackLeiblerCompareHistogramMetricControls.ui">
+      <Filter>QT UI Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationMetrics\QmitkCorrelationCoefficientHistogramMetricControls.ui">
+      <Filter>QT UI Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationMetrics\QmitkMeanSquaresHistogramMetricControls.ui">
+      <Filter>QT UI Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationMetrics\QmitkMutualInformationHistogramMetricControls.ui">
+      <Filter>QT UI Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationMetrics\QmitkNormalizedMutualInformationHistogramMetricControls.ui">
+      <Filter>QT UI Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationMetrics\QmitkMattesMutualInformationMetricControls.ui">
+      <Filter>QT UI Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationMetrics\QmitkMeanReciprocalSquareDifferenceMetricControls.ui">
+      <Filter>QT UI Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationMetrics\QmitkMutualInformationMetricControls.ui">
+      <Filter>QT UI Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationMetrics\QmitkMatchCardinalityMetricControls.ui">
+      <Filter>QT UI Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationMetrics\QmitkKappaStatisticMetricControls.ui">
+      <Filter>QT UI Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationOptimizer\QmitkExhaustiveOptimizerControls.ui">
+      <Filter>QT UI Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationOptimizer\QmitkGradientDescentOptimizerControls.ui">
+      <Filter>QT UI Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationOptimizer\QmitkQuaternionRigidTransformGradientDescentOptimizerControls.ui">
+      <Filter>QT UI Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationOptimizer\QmitkLBFGSBOptimizerControls.ui">
+      <Filter>QT UI Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationOptimizer\QmitkOnePlusOneEvolutionaryOptimizerControls.ui">
+      <Filter>QT UI Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationOptimizer\QmitkPowellOptimizerControls.ui">
+      <Filter>QT UI Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationOptimizer\QmitkFRPROptimizerControls.ui">
+      <Filter>QT UI Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationOptimizer\QmitkRegularStepGradientDescentOptimizerControls.ui">
+      <Filter>QT UI Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationOptimizer\QmitkVersorTransformOptimizerControls.ui">
+      <Filter>QT UI Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationOptimizer\QmitkAmoebaOptimizerControls.ui">
+      <Filter>QT UI Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationOptimizer\QmitkConjugateGradientOptimizerControls.ui">
+      <Filter>QT UI Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationOptimizer\QmitkLBFGSOptimizerControls.ui">
+      <Filter>QT UI Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationOptimizer\QmitkSPSAOptimizerControls.ui">
+      <Filter>QT UI Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationOptimizer\QmitkVersorRigid3DTransformOptimizerControls.ui">
+      <Filter>QT UI Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationTransforms\QmitkTranslationTransformControls.ui">
+      <Filter>QT UI Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationTransforms\QmitkScaleTransformControls.ui">
+      <Filter>QT UI Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationTransforms\QmitkScaleLogarithmicTransformControls.ui">
+      <Filter>QT UI Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationTransforms\QmitkAffineTransformControls.ui">
+      <Filter>QT UI Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationTransforms\QmitkFixedCenterOfRotationAffineTransformControls.ui">
+      <Filter>QT UI Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationTransforms\QmitkEuler3DTransformControls.ui">
+      <Filter>QT UI Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationTransforms\QmitkCenteredEuler3DTransformControls.ui">
+      <Filter>QT UI Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationTransforms\QmitkQuaternionRigidTransformControls.ui">
+      <Filter>QT UI Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationTransforms\QmitkVersorTransformControls.ui">
+      <Filter>QT UI Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationTransforms\QmitkVersorRigid3DTransformControls.ui">
+      <Filter>QT UI Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationTransforms\QmitkScaleSkewVersor3DTransformControls.ui">
+      <Filter>QT UI Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationTransforms\QmitkSimilarity3DTransformControls.ui">
+      <Filter>QT UI Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationTransforms\QmitkRigid2DTransformControls.ui">
+      <Filter>QT UI Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationTransforms\QmitkCenteredRigid2DTransformControls.ui">
+      <Filter>QT UI Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationTransforms\QmitkEuler2DTransformControls.ui">
+      <Filter>QT UI Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationTransforms\QmitkSimilarity2DTransformControls.ui">
+      <Filter>QT UI Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK\Modules\RigidRegistrationUI\RigidRegistrationTransforms\QmitkCenteredSimilarity2DTransformControls.ui">
+      <Filter>QT UI Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK\Modules\RigidRegistrationUI\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Generated\Qt UI Header Files">
+      <UniqueIdentifier>{2D3E25A1-F9DB-36EC-96F3-AA37A8022068}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated">
+      <UniqueIdentifier>{7FA4B4B1-5C9C-314E-A0B9-36873EE561F1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="== Source Files ==">
+      <UniqueIdentifier>{9CA70B67-B51F-303F-96AF-687940E0FEA8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="== Header Files ==">
+      <UniqueIdentifier>{4D89E91A-663E-32FD-A047-724E4EC4BA98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="QT UI Files">
+      <UniqueIdentifier>{A7973F98-B74E-37EA-8F4A-12BAE98DFBF1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

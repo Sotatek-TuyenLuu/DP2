@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{147A3DEE-F715-3312-80B7-AF974E89416C}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ITKNrrdIO</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\ITK-build\lib\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ITKNrrdIO.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ITKNrrdIO-4.7d</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\ITK-build\lib\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ITKNrrdIO.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ITKNrrdIO-4.7</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\ITK-build\lib\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">ITKNrrdIO.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">ITKNrrdIO-4.7</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\ITK-build\lib\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">ITKNrrdIO.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">ITKNrrdIO-4.7</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj -w %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\ZLIB\src;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\ZLIB\src;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\NrrdIO\src\NrrdIO;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\NrrdIO\src\NrrdIO;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;TEEM_BUILD;TEEM_QNANHIBIT=1;TEEM_DIO=0;TEEM_ZLIB=1;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;TEEM_BUILD;TEEM_QNANHIBIT=1;TEEM_DIO=0;TEEM_ZLIB=1;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\ZLIB\src;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\ZLIB\src;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\NrrdIO\src\NrrdIO;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\NrrdIO\src\NrrdIO;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\ZLIB\src;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\ZLIB\src;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\NrrdIO\src\NrrdIO;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\NrrdIO\src\NrrdIO;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj -w %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\ZLIB\src;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\ZLIB\src;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\NrrdIO\src\NrrdIO;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\NrrdIO\src\NrrdIO;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;TEEM_BUILD;TEEM_QNANHIBIT=1;TEEM_DIO=0;TEEM_ZLIB=1;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;TEEM_BUILD;TEEM_QNANHIBIT=1;TEEM_DIO=0;TEEM_ZLIB=1;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\ZLIB\src;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\ZLIB\src;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\NrrdIO\src\NrrdIO;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\NrrdIO\src\NrrdIO;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\ZLIB\src;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\ZLIB\src;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\NrrdIO\src\NrrdIO;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\NrrdIO\src\NrrdIO;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj -w %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\ZLIB\src;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\ZLIB\src;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\NrrdIO\src\NrrdIO;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\NrrdIO\src\NrrdIO;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;TEEM_BUILD;TEEM_QNANHIBIT=1;TEEM_DIO=0;TEEM_ZLIB=1;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;TEEM_BUILD;TEEM_QNANHIBIT=1;TEEM_DIO=0;TEEM_ZLIB=1;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\ZLIB\src;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\ZLIB\src;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\NrrdIO\src\NrrdIO;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\NrrdIO\src\NrrdIO;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\ZLIB\src;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\ZLIB\src;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\NrrdIO\src\NrrdIO;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\NrrdIO\src\NrrdIO;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj -w %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\ZLIB\src;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\ZLIB\src;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\NrrdIO\src\NrrdIO;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\NrrdIO\src\NrrdIO;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;TEEM_BUILD;TEEM_QNANHIBIT=1;TEEM_DIO=0;TEEM_ZLIB=1;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;TEEM_BUILD;TEEM_QNANHIBIT=1;TEEM_DIO=0;TEEM_ZLIB=1;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\ZLIB\src;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\ZLIB\src;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\NrrdIO\src\NrrdIO;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\NrrdIO\src\NrrdIO;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\ZLIB\src;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\ZLIB\src;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\NrrdIO\src\NrrdIO;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\NrrdIO\src\NrrdIO;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\NrrdIO\src\NrrdIO\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/ITK/Modules/ThirdParty/NrrdIO/src/NrrdIO/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/ITK -BE:/D/MITK-superbuild/ep/src/ITK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\NrrdIO\src\NrrdIO\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/ITK/Modules/ThirdParty/NrrdIO/src/NrrdIO/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\NrrdIO\src\NrrdIO\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\NrrdIO\src\NrrdIO\NrrdIO.h.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\NrrdIO\src\NrrdIO\CMake\TestQnanhibit.cmake;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\NrrdIO\src\NrrdIO\CMake\TestQnanhibit.c;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\NrrdIO\src\NrrdIO\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\NrrdIO\src\NrrdIO\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/ITK/Modules/ThirdParty/NrrdIO/src/NrrdIO/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/ITK -BE:/D/MITK-superbuild/ep/src/ITK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\NrrdIO\src\NrrdIO\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/ITK/Modules/ThirdParty/NrrdIO/src/NrrdIO/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\NrrdIO\src\NrrdIO\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\NrrdIO\src\NrrdIO\NrrdIO.h.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\NrrdIO\src\NrrdIO\CMake\TestQnanhibit.cmake;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\NrrdIO\src\NrrdIO\CMake\TestQnanhibit.c;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\NrrdIO\src\NrrdIO\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\NrrdIO\src\NrrdIO\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/ITK/Modules/ThirdParty/NrrdIO/src/NrrdIO/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/ITK -BE:/D/MITK-superbuild/ep/src/ITK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\NrrdIO\src\NrrdIO\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/ITK/Modules/ThirdParty/NrrdIO/src/NrrdIO/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\NrrdIO\src\NrrdIO\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\NrrdIO\src\NrrdIO\NrrdIO.h.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\NrrdIO\src\NrrdIO\CMake\TestQnanhibit.cmake;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\NrrdIO\src\NrrdIO\CMake\TestQnanhibit.c;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\NrrdIO\src\NrrdIO\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\NrrdIO\src\NrrdIO\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/ITK/Modules/ThirdParty/NrrdIO/src/NrrdIO/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/ITK -BE:/D/MITK-superbuild/ep/src/ITK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\NrrdIO\src\NrrdIO\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/ITK/Modules/ThirdParty/NrrdIO/src/NrrdIO/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\NrrdIO\src\NrrdIO\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\NrrdIO\src\NrrdIO\NrrdIO.h.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\NrrdIO\src\NrrdIO\CMake\TestQnanhibit.cmake;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\NrrdIO\src\NrrdIO\CMake\TestQnanhibit.c;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\NrrdIO\src\NrrdIO\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\NrrdIO\src\NrrdIO\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\NrrdIO\src\NrrdIO\754.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\NrrdIO\src\NrrdIO\mop.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\NrrdIO\src\NrrdIO\array.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\NrrdIO\src\NrrdIO\parseAir.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\NrrdIO\src\NrrdIO\dio.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\NrrdIO\src\NrrdIO\sane.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\NrrdIO\src\NrrdIO\endianAir.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\NrrdIO\src\NrrdIO\string.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\NrrdIO\src\NrrdIO\enum.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\NrrdIO\src\NrrdIO\miscAir.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\NrrdIO\src\NrrdIO\biffbiff.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\NrrdIO\src\NrrdIO\biffmsg.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\NrrdIO\src\NrrdIO\accessors.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\NrrdIO\src\NrrdIO\defaultsNrrd.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\NrrdIO\src\NrrdIO\enumsNrrd.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\NrrdIO\src\NrrdIO\arraysNrrd.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\NrrdIO\src\NrrdIO\methodsNrrd.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\NrrdIO\src\NrrdIO\reorder.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\NrrdIO\src\NrrdIO\axis.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\NrrdIO\src\NrrdIO\simple.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\NrrdIO\src\NrrdIO\comment.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\NrrdIO\src\NrrdIO\keyvalue.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\NrrdIO\src\NrrdIO\endianNrrd.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\NrrdIO\src\NrrdIO\parseNrrd.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\NrrdIO\src\NrrdIO\gzio.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\NrrdIO\src\NrrdIO\read.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\NrrdIO\src\NrrdIO\write.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\NrrdIO\src\NrrdIO\format.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\NrrdIO\src\NrrdIO\formatNRRD.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\NrrdIO\src\NrrdIO\encoding.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\NrrdIO\src\NrrdIO\encodingRaw.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\NrrdIO\src\NrrdIO\encodingAscii.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\NrrdIO\src\NrrdIO\encodingHex.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\NrrdIO\src\NrrdIO\encodingGzip.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\NrrdIO\src\NrrdIO\subset.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\NrrdIO\src\NrrdIO\encodingBzip2.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\NrrdIO\src\NrrdIO\formatEPS.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\NrrdIO\src\NrrdIO\formatPNG.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\NrrdIO\src\NrrdIO\formatPNM.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\NrrdIO\src\NrrdIO\formatText.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\NrrdIO\src\NrrdIO\formatVTK.c"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/ITK-build/ZERO_CHECK.vcxproj">
+      <Project>7A8C6E7C-8178-3D2C-96BD-CC175A1D2858</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/ITK-build/Modules/ThirdParty/ZLIB/src/itkzlib/itkzlib.vcxproj">
+      <Project>86FDA89D-4355-3863-AC3C-FD19D5569957</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

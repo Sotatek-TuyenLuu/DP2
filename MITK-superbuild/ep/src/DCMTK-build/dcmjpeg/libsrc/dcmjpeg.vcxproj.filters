@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libsrc\ddpiimpl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libsrc\dipijpeg.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libsrc\djcodecd.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libsrc\djcodece.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libsrc\djcparam.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libsrc\djdecbas.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libsrc\djdecext.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libsrc\djdeclol.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libsrc\djdecode.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libsrc\djdecpro.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libsrc\djdecsps.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libsrc\djdecsv1.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libsrc\djdijg12.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libsrc\djdijg8.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libsrc\djdijg16.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libsrc\djeijg12.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libsrc\djeijg8.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libsrc\djeijg16.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libsrc\djencbas.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libsrc\djencext.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libsrc\djenclol.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libsrc\djencode.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libsrc\djencpro.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libsrc\djencsps.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libsrc\djencsv1.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libsrc\djrplol.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libsrc\djrploss.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libsrc\djutils.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libsrc\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{401B31C1-6AFF-3879-B73A-9AEE34DE4CB0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

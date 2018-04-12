@@ -1,0 +1,55 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/Modules/Core/TestingHelper/us_init.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/TestingHelper/src/mitkRenderingTestHelper.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/TestingHelper/src/mitkInteractionTestHelper.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/TestingHelper/include/mitkInteractionTestHelper.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/TestingHelper/include/mitkRenderingTestHelper.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/TestingHelper/include/mitkTestCaller.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/TestingHelper/include/mitkTestFixture.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/TestingHelper/include/mitkTestingMacros.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/TestingHelper/CMakeLists.txt"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "MITK-Modules", "MITK" ],
+		"name" : "MitkTestingHelper"
+	}
+}

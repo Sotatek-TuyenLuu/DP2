@@ -1,0 +1,41 @@
+
+#ifndef MITKTUBEGRAPH_EXPORT_H
+#define MITKTUBEGRAPH_EXPORT_H
+
+#ifdef MITKTUBEGRAPH_STATIC_DEFINE
+#  define MITKTUBEGRAPH_EXPORT
+#  define MITKTUBEGRAPH_NO_EXPORT
+#else
+#  ifndef MITKTUBEGRAPH_EXPORT
+#    ifdef MitkTubeGraph_EXPORTS
+        /* We are building this library */
+#      define MITKTUBEGRAPH_EXPORT __declspec(dllexport)
+#    else
+        /* We are using this library */
+#      define MITKTUBEGRAPH_EXPORT __declspec(dllimport)
+#    endif
+#  endif
+
+#  ifndef MITKTUBEGRAPH_NO_EXPORT
+#    define MITKTUBEGRAPH_NO_EXPORT 
+#  endif
+#endif
+
+#ifndef MITKTUBEGRAPH_DEPRECATED
+#  define MITKTUBEGRAPH_DEPRECATED __declspec(deprecated)
+#endif
+
+#ifndef MITKTUBEGRAPH_DEPRECATED_EXPORT
+#  define MITKTUBEGRAPH_DEPRECATED_EXPORT MITKTUBEGRAPH_EXPORT MITKTUBEGRAPH_DEPRECATED
+#endif
+
+#ifndef MITKTUBEGRAPH_DEPRECATED_NO_EXPORT
+#  define MITKTUBEGRAPH_DEPRECATED_NO_EXPORT MITKTUBEGRAPH_NO_EXPORT MITKTUBEGRAPH_DEPRECATED
+#endif
+
+#define DEFINE_NO_DEPRECATED 0
+#if DEFINE_NO_DEPRECATED
+# define MITKTUBEGRAPH_NO_DEPRECATED
+#endif
+
+#endif

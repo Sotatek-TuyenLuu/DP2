@@ -1,0 +1,19 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/ThirdParty/NIFTI/src/nifti/niftilib/nifti1_io.c"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/ThirdParty/NIFTI/src/nifti/niftilib/CMakeLists.txt"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "ITKNIFTI" ],
+		"name" : "ITKniftiio"
+	}
+}

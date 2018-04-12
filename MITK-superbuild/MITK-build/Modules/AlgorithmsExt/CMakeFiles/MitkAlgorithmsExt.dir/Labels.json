@@ -1,0 +1,320 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/Modules/AlgorithmsExt/us_init.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/AlgorithmsExt/src/mitkAutoCropImageFilter.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/AlgorithmsExt/src/mitkBoundingObjectCutter.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/AlgorithmsExt/src/mitkBoundingObjectToSegmentationFilter.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/AlgorithmsExt/src/mitkGeometryClipImageFilter.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/AlgorithmsExt/src/mitkGeometryDataSource.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/AlgorithmsExt/src/mitkHeightFieldSurfaceClipImageFilter.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/AlgorithmsExt/src/mitkImageToUnstructuredGridFilter.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/AlgorithmsExt/src/mitkLabeledImageToSurfaceFilter.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/AlgorithmsExt/src/mitkMaskAndCutRoiImageFilter.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/AlgorithmsExt/src/mitkMaskImageFilter.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/AlgorithmsExt/src/mitkMovieGenerator.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/AlgorithmsExt/src/mitkNonBlockingAlgorithm.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/AlgorithmsExt/src/mitkPadImageFilter.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/AlgorithmsExt/src/mitkPlaneFit.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/AlgorithmsExt/src/mitkPlaneLandmarkProjector.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/AlgorithmsExt/src/mitkPointLocator.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/AlgorithmsExt/src/mitkSegmentationSink.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/AlgorithmsExt/src/mitkSimpleHistogram.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/AlgorithmsExt/src/mitkSimpleUnstructuredGridHistogram.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/AlgorithmsExt/src/mitkCovarianceMatrixCalculator.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/AlgorithmsExt/src/mitkAnisotropicIterativeClosestPointRegistration.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/AlgorithmsExt/src/mitkWeightedPointTransform.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/AlgorithmsExt/src/mitkAnisotropicRegistrationCommon.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/AlgorithmsExt/src/mitkUnstructuredGridClusteringFilter.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/AlgorithmsExt/src/mitkUnstructuredGridToUnstructuredGridFilter.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/AlgorithmsExt/src/mitkSurfaceToPointSetFilter.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/AlgorithmsExt/src/mitkMovieGeneratorWin32.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/AlgorithmsExt/include/itkIntelligentBinaryClosingFilter.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/AlgorithmsExt/include/itkIntelligentBinaryClosingFilter.txx",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/AlgorithmsExt/include/mitkAnisotropicIterativeClosestPointRegistration.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/AlgorithmsExt/include/mitkAnisotropicRegistrationCommon.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/AlgorithmsExt/include/mitkAutoCropImageFilter.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/AlgorithmsExt/include/mitkBoundingObjectCutAndCast.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/AlgorithmsExt/include/mitkBoundingObjectCutAndCast.txx",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/AlgorithmsExt/include/mitkBoundingObjectCutter.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/AlgorithmsExt/include/mitkBoundingObjectCutter.txx",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/AlgorithmsExt/include/mitkBoundingObjectToSegmentationFilter.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/AlgorithmsExt/include/mitkCovarianceMatrixCalculator.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/AlgorithmsExt/include/mitkGeometryClipImageFilter.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/AlgorithmsExt/include/mitkGeometryDataSource.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/AlgorithmsExt/include/mitkHeightFieldSurfaceClipImageFilter.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/AlgorithmsExt/include/mitkImageToUnstructuredGridFilter.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/AlgorithmsExt/include/mitkLabeledImageToSurfaceFilter.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/AlgorithmsExt/include/mitkMaskAndCutRoiImageFilter.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/AlgorithmsExt/include/mitkMaskImageFilter.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/AlgorithmsExt/include/mitkMovieGenerator.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/AlgorithmsExt/include/mitkMovieGeneratorWin32.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/AlgorithmsExt/include/mitkNonBlockingAlgorithm.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/AlgorithmsExt/include/mitkNonBlockingAlgorithmEvents.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/AlgorithmsExt/include/mitkPadImageFilter.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/AlgorithmsExt/include/mitkPlaneFit.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/AlgorithmsExt/include/mitkPlaneLandmarkProjector.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/AlgorithmsExt/include/mitkPointLocator.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/AlgorithmsExt/include/mitkSegmentationSink.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/AlgorithmsExt/include/mitkSimpleHistogram.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/AlgorithmsExt/include/mitkSimpleUnstructuredGridHistogram.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/AlgorithmsExt/include/mitkSurfaceToPointSetFilter.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/AlgorithmsExt/include/mitkUnstructuredGridClusteringFilter.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/AlgorithmsExt/include/mitkUnstructuredGridToUnstructuredGridFilter.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/AlgorithmsExt/include/mitkWeightedPointTransform.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/AlgorithmsExt/CMakeLists.txt"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "MITK-Modules", "MITK" ],
+		"name" : "MitkAlgorithmsExt"
+	}
+}

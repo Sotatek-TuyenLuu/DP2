@@ -1,0 +1,650 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{344ACD51-CE38-3023-A909-0711516B2E84}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>CTKXNATCore</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\bin\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CTKXNATCore.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CTKXNATCore</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\bin\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CTKXNATCore.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CTKXNATCore</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\bin\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CTKXNATCore.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CTKXNATCore</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\bin\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CTKXNATCore.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CTKXNATCore</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core\Resources\UI;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build;E:\D\MITK-superbuild\ep\src\CTK\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtNetwork;C:\Qt\5.4\msvc2013_opengl\include\QtScript;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4290</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NOMINMAX;_DEBUG;QT_CORE_LIB;QT_GUI_LIB;QT_NETWORK_LIB;QT_SCRIPT_LIB;CMAKE_INTDIR="Debug";CTKXNATCore_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NOMINMAX;_DEBUG;QT_CORE_LIB;QT_GUI_LIB;QT_NETWORK_LIB;QT_SCRIPT_LIB;CMAKE_INTDIR=\"Debug\";CTKXNATCore_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core\Resources\UI;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build;E:\D\MITK-superbuild\ep\src\CTK\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtNetwork;C:\Qt\5.4\msvc2013_opengl\include\QtScript;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core\Resources\UI;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build;E:\D\MITK-superbuild\ep\src\CTK\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtNetwork;C:\Qt\5.4\msvc2013_opengl\include\QtScript;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\..\bin\Debug\CTKCore.lib;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\Debug\qRestAPI.lib;dbghelp.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Guid.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Networkd.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Scriptd.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Cored.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:/D/MITK-superbuild/ep/src/CTK-build/qRestAPI-build;E:/D/MITK-superbuild/ep/src/CTK-build/qRestAPI-build/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/bin/Debug/CTKXNATCore.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/bin/Debug/CTKXNATCore.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core\Resources\UI;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build;E:\D\MITK-superbuild\ep\src\CTK\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtNetwork;C:\Qt\5.4\msvc2013_opengl\include\QtScript;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4290</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NOMINMAX;NDEBUG;QT_CORE_LIB;QT_NO_DEBUG;QT_GUI_LIB;QT_NETWORK_LIB;QT_SCRIPT_LIB;CMAKE_INTDIR="Release";CTKXNATCore_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NOMINMAX;NDEBUG;QT_CORE_LIB;QT_NO_DEBUG;QT_GUI_LIB;QT_NETWORK_LIB;QT_SCRIPT_LIB;CMAKE_INTDIR=\"Release\";CTKXNATCore_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core\Resources\UI;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build;E:\D\MITK-superbuild\ep\src\CTK\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtNetwork;C:\Qt\5.4\msvc2013_opengl\include\QtScript;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core\Resources\UI;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build;E:\D\MITK-superbuild\ep\src\CTK\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtNetwork;C:\Qt\5.4\msvc2013_opengl\include\QtScript;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\..\bin\Release\CTKCore.lib;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\Release\qRestAPI.lib;dbghelp.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Gui.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Network.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Script.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Core.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:/D/MITK-superbuild/ep/src/CTK-build/qRestAPI-build;E:/D/MITK-superbuild/ep/src/CTK-build/qRestAPI-build/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/bin/Release/CTKXNATCore.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/bin/Release/CTKXNATCore.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core\Resources\UI;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build;E:\D\MITK-superbuild\ep\src\CTK\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtNetwork;C:\Qt\5.4\msvc2013_opengl\include\QtScript;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4290</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NOMINMAX;NDEBUG;QT_CORE_LIB;QT_NO_DEBUG;QT_GUI_LIB;QT_NETWORK_LIB;QT_SCRIPT_LIB;CMAKE_INTDIR="MinSizeRel";CTKXNATCore_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NOMINMAX;NDEBUG;QT_CORE_LIB;QT_NO_DEBUG;QT_GUI_LIB;QT_NETWORK_LIB;QT_SCRIPT_LIB;CMAKE_INTDIR=\"MinSizeRel\";CTKXNATCore_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core\Resources\UI;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build;E:\D\MITK-superbuild\ep\src\CTK\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtNetwork;C:\Qt\5.4\msvc2013_opengl\include\QtScript;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core\Resources\UI;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build;E:\D\MITK-superbuild\ep\src\CTK\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtNetwork;C:\Qt\5.4\msvc2013_opengl\include\QtScript;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\..\bin\MinSizeRel\CTKCore.lib;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\MinSizeRel\qRestAPI.lib;dbghelp.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Gui.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Network.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Script.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Core.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:/D/MITK-superbuild/ep/src/CTK-build/qRestAPI-build;E:/D/MITK-superbuild/ep/src/CTK-build/qRestAPI-build/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/bin/MinSizeRel/CTKXNATCore.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/bin/MinSizeRel/CTKXNATCore.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core\Resources\UI;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build;E:\D\MITK-superbuild\ep\src\CTK\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtNetwork;C:\Qt\5.4\msvc2013_opengl\include\QtScript;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4290</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NOMINMAX;NDEBUG;QT_CORE_LIB;QT_NO_DEBUG;QT_GUI_LIB;QT_NETWORK_LIB;QT_SCRIPT_LIB;CMAKE_INTDIR="RelWithDebInfo";CTKXNATCore_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NOMINMAX;NDEBUG;QT_CORE_LIB;QT_NO_DEBUG;QT_GUI_LIB;QT_NETWORK_LIB;QT_SCRIPT_LIB;CMAKE_INTDIR=\"RelWithDebInfo\";CTKXNATCore_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core\Resources\UI;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build;E:\D\MITK-superbuild\ep\src\CTK\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtNetwork;C:\Qt\5.4\msvc2013_opengl\include\QtScript;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core\Resources\UI;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build;E:\D\MITK-superbuild\ep\src\CTK\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtNetwork;C:\Qt\5.4\msvc2013_opengl\include\QtScript;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\..\bin\RelWithDebInfo\CTKCore.lib;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\RelWithDebInfo\qRestAPI.lib;dbghelp.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Gui.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Network.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Script.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Core.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:/D/MITK-superbuild/ep/src/CTK-build/qRestAPI-build;E:/D/MITK-superbuild/ep/src/CTK-build/qRestAPI-build/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/bin/RelWithDebInfo/CTKXNATCore.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/bin/RelWithDebInfo/CTKXNATCore.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/CTK/Libs/XNAT/Core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/CTK -BE:/D/MITK-superbuild/ep/src/CTK-build/CTK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/CTK/Libs/XNAT/Core/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core\target_libraries.cmake;E:\D\MITK-superbuild\ep\src\CTK\Libs\ctkExport.h.in;E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/CTK/Libs/XNAT/Core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/CTK -BE:/D/MITK-superbuild/ep/src/CTK-build/CTK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/CTK/Libs/XNAT/Core/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core\target_libraries.cmake;E:\D\MITK-superbuild\ep\src\CTK\Libs\ctkExport.h.in;E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/CTK/Libs/XNAT/Core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/CTK -BE:/D/MITK-superbuild/ep/src/CTK-build/CTK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/CTK/Libs/XNAT/Core/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core\target_libraries.cmake;E:\D\MITK-superbuild\ep\src\CTK\Libs\ctkExport.h.in;E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/CTK/Libs/XNAT/Core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/CTK -BE:/D/MITK-superbuild/ep/src/CTK-build/CTK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/CTK/Libs/XNAT/Core/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core\target_libraries.cmake;E:\D\MITK-superbuild\ep\src\CTK\Libs\ctkExport.h.in;E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\CMakeFiles\1c2217a7cd4102aba95401f217783490\moc_ctkXnatAPI_p.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating moc_ctkXnatAPI_p.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/XNAT/Core/moc_ctkXnatAPI_p.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/1c2217a7cd4102aba95401f217783490/moc_ctkXnatAPI_p.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core\ctkXnatAPI_p.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core\moc_ctkXnatAPI_p.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating moc_ctkXnatAPI_p.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/XNAT/Core/moc_ctkXnatAPI_p.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/1c2217a7cd4102aba95401f217783490/moc_ctkXnatAPI_p.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core\ctkXnatAPI_p.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core\moc_ctkXnatAPI_p.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating moc_ctkXnatAPI_p.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/XNAT/Core/moc_ctkXnatAPI_p.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/1c2217a7cd4102aba95401f217783490/moc_ctkXnatAPI_p.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core\ctkXnatAPI_p.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core\moc_ctkXnatAPI_p.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating moc_ctkXnatAPI_p.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/XNAT/Core/moc_ctkXnatAPI_p.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/1c2217a7cd4102aba95401f217783490/moc_ctkXnatAPI_p.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core\ctkXnatAPI_p.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core\moc_ctkXnatAPI_p.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\CMakeFiles\1c2217a7cd4102aba95401f217783490\moc_ctkXnatSession.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating moc_ctkXnatSession.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/XNAT/Core/moc_ctkXnatSession.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/1c2217a7cd4102aba95401f217783490/moc_ctkXnatSession.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core\ctkXnatSession.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core\moc_ctkXnatSession.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating moc_ctkXnatSession.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/XNAT/Core/moc_ctkXnatSession.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/1c2217a7cd4102aba95401f217783490/moc_ctkXnatSession.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core\ctkXnatSession.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core\moc_ctkXnatSession.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating moc_ctkXnatSession.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/XNAT/Core/moc_ctkXnatSession.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/1c2217a7cd4102aba95401f217783490/moc_ctkXnatSession.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core\ctkXnatSession.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core\moc_ctkXnatSession.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating moc_ctkXnatSession.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/XNAT/Core/moc_ctkXnatSession.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/1c2217a7cd4102aba95401f217783490/moc_ctkXnatSession.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core\ctkXnatSession.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core\moc_ctkXnatSession.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\CMakeFiles\1c2217a7cd4102aba95401f217783490\moc_ctkXnatListModel.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating moc_ctkXnatListModel.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/XNAT/Core/moc_ctkXnatListModel.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/1c2217a7cd4102aba95401f217783490/moc_ctkXnatListModel.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core\ctkXnatListModel.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core\moc_ctkXnatListModel.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating moc_ctkXnatListModel.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/XNAT/Core/moc_ctkXnatListModel.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/1c2217a7cd4102aba95401f217783490/moc_ctkXnatListModel.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core\ctkXnatListModel.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core\moc_ctkXnatListModel.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating moc_ctkXnatListModel.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/XNAT/Core/moc_ctkXnatListModel.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/1c2217a7cd4102aba95401f217783490/moc_ctkXnatListModel.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core\ctkXnatListModel.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core\moc_ctkXnatListModel.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating moc_ctkXnatListModel.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/XNAT/Core/moc_ctkXnatListModel.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/1c2217a7cd4102aba95401f217783490/moc_ctkXnatListModel.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core\ctkXnatListModel.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core\moc_ctkXnatListModel.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\CMakeFiles\1c2217a7cd4102aba95401f217783490\moc_ctkXnatTreeModel.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating moc_ctkXnatTreeModel.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/XNAT/Core/moc_ctkXnatTreeModel.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/1c2217a7cd4102aba95401f217783490/moc_ctkXnatTreeModel.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core\ctkXnatTreeModel.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core\moc_ctkXnatTreeModel.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating moc_ctkXnatTreeModel.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/XNAT/Core/moc_ctkXnatTreeModel.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/1c2217a7cd4102aba95401f217783490/moc_ctkXnatTreeModel.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core\ctkXnatTreeModel.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core\moc_ctkXnatTreeModel.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating moc_ctkXnatTreeModel.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/XNAT/Core/moc_ctkXnatTreeModel.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/1c2217a7cd4102aba95401f217783490/moc_ctkXnatTreeModel.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core\ctkXnatTreeModel.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core\moc_ctkXnatTreeModel.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating moc_ctkXnatTreeModel.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/XNAT/Core/moc_ctkXnatTreeModel.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/1c2217a7cd4102aba95401f217783490/moc_ctkXnatTreeModel.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core\ctkXnatTreeModel.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core\moc_ctkXnatTreeModel.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core\ctkXnatTreeItem_p.h" />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core\ctkXnatAPI.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core\ctkXnatDataModel.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core\ctkXnatDefaultSchemaTypes.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core\ctkXnatException.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core\ctkXnatExperiment.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core\ctkXnatFile.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core\ctkXnatListModel.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core\ctkXnatLoginProfile.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core\ctkXnatObject.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core\ctkXnatObjectPrivate.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core\ctkXnatProject.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core\ctkXnatReconstruction.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core\ctkXnatReconstructionFolder.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core\ctkXnatResource.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core\ctkXnatResourceCatalogXmlParser.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core\ctkXnatScan.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core\ctkXnatScanFolder.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core\ctkXnatAssessor.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core\ctkXnatAssessorFolder.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core\ctkXnatResourceFolder.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core\ctkXnatSession.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core\ctkXnatSettings.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core\ctkXnatSubject.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core\ctkXnatTreeItem.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core\ctkXnatTreeModel.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core\moc_ctkXnatAPI_p.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core\moc_ctkXnatSession.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core\moc_ctkXnatListModel.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core\moc_ctkXnatTreeModel.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/ZERO_CHECK.vcxproj">
+      <Project>591B03B8-3BAD-312B-B559-458CAAA4AB37</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/Core/CTKCore.vcxproj">
+      <Project>362813B3-1EAC-3113-9882-5141FC341359</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

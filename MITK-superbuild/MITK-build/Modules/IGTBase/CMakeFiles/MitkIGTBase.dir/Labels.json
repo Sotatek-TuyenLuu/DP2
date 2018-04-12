@@ -1,0 +1,125 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/Modules/IGTBase/us_init.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/IGTBase/src/mitkRealTimeClock.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/IGTBase/src/mitkNavigationData.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/IGTBase/src/mitkNavigationDataSet.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/IGTBase/src/mitkStaticIGTHelperFunctions.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/IGTBase/src/mitkQuaternionAveraging.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/IGTBase/src/mitkIGTMimeTypes.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/IGTBase/src/mitkIGTException.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/IGTBase/src/mitkIGTIOException.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/IGTBase/src/mitkIGTHardwareException.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/IGTBase/src/mitkWindowsRealTimeClock.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/IGTBase/include/mitkIGTException.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/IGTBase/include/mitkIGTHardwareException.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/IGTBase/include/mitkIGTIOException.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/IGTBase/include/mitkIGTMimeTypes.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/IGTBase/include/mitkLinuxRealTimeClock.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/IGTBase/include/mitkNavigationData.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/IGTBase/include/mitkNavigationDataSet.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/IGTBase/include/mitkQuaternionAveraging.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/IGTBase/include/mitkRealTimeClock.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/IGTBase/include/mitkStaticIGTHelperFunctions.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/IGTBase/include/mitkWindowsRealTimeClock.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/IGTBase/CMakeLists.txt"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "MITK-Modules", "MITK" ],
+		"name" : "MitkIGTBase"
+	}
+}

@@ -1,0 +1,476 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{762DE66E-5521-3CCB-86F4-3E11245875A7}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>vtkproj4</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\bin\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">vtkproj4.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">vtkproj4-6.2d</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\bin\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">vtkproj4.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">vtkproj4-6.2</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\bin\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">vtkproj4.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">vtkproj4-6.2</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\bin\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">vtkproj4.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">vtkproj4-6.2</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj -w -w %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\libproj4\vtklibproj4;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\libproj4;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR="Debug";vtkproj4_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR=\"Debug\";vtkproj4_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\libproj4\vtklibproj4;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\libproj4;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\libproj4\vtklibproj4;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\libproj4;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/ep/src/VTK-build/lib/Debug/vtkproj4-6.2d.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/ep/src/VTK-build/bin/Debug/vtkproj4-6.2d.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj -w -w %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\libproj4\vtklibproj4;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\libproj4;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR="Release";vtkproj4_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR=\"Release\";vtkproj4_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\libproj4\vtklibproj4;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\libproj4;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\libproj4\vtklibproj4;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\libproj4;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/ep/src/VTK-build/lib/Release/vtkproj4-6.2.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/ep/src/VTK-build/bin/Release/vtkproj4-6.2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj -w -w %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\libproj4\vtklibproj4;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\libproj4;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR="MinSizeRel";vtkproj4_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR=\"MinSizeRel\";vtkproj4_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\libproj4\vtklibproj4;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\libproj4;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\libproj4\vtklibproj4;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\libproj4;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/ep/src/VTK-build/lib/MinSizeRel/vtkproj4-6.2.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/ep/src/VTK-build/bin/MinSizeRel/vtkproj4-6.2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj -w -w %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\libproj4\vtklibproj4;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\libproj4;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR="RelWithDebInfo";vtkproj4_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR=\"RelWithDebInfo\";vtkproj4_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\libproj4\vtklibproj4;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\libproj4;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\libproj4\vtklibproj4;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\libproj4;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/ep/src/VTK-build/lib/RelWithDebInfo/vtkproj4-6.2.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/ep/src/VTK-build/bin/RelWithDebInfo/vtkproj4-6.2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/VTK/ThirdParty/libproj4/vtklibproj4/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/VTK -BE:/D/MITK-superbuild/ep/src/VTK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\libproj4\vtklibproj4\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/VTK/ThirdParty/libproj4/vtklibproj4/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_config.h.cmake;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\libproj4\vtklibproj4\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/VTK/ThirdParty/libproj4/vtklibproj4/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/VTK -BE:/D/MITK-superbuild/ep/src/VTK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\libproj4\vtklibproj4\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/VTK/ThirdParty/libproj4/vtklibproj4/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_config.h.cmake;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\libproj4\vtklibproj4\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/VTK/ThirdParty/libproj4/vtklibproj4/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/VTK -BE:/D/MITK-superbuild/ep/src/VTK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\libproj4\vtklibproj4\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/VTK/ThirdParty/libproj4/vtklibproj4/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_config.h.cmake;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\libproj4\vtklibproj4\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/VTK/ThirdParty/libproj4/vtklibproj4/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/VTK -BE:/D/MITK-superbuild/ep/src/VTK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\libproj4\vtklibproj4\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/VTK/ThirdParty/libproj4/vtklibproj4/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_config.h.cmake;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\libproj4\vtklibproj4\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_aeqd.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_aitoff.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_geos.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_gilbert.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_gnom.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_hammer.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_laea.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_mod_ster.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_nsper.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_nzmg.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_ortho.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_rouss.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_sterea.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_stere.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_wag7.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_wag9.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_aea.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_bipc.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_bonne.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_eqdc.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_hill.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_imw_p.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_kocc.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_lcca.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_lcc.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_poly.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_rpoly.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_sconics.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_ardn_cls.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_braun2.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_cass.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_cc.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_cea.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_cubic.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_cyl_stere.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_eqc.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_labrd.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_lsat.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_merc.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_mill_2.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_mill.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_mill_per.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_ocea.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_omerc.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_somerc.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_tcc.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_tcea.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_tmerc.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_tob_sqr.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_etmerc.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_airy.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_apian2.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_armadillo.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_august.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_bacon.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_eisen.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_four1.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_guyou.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_lagrng.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_larr.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_lask.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_nocol.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_ob_tran.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_oea.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_tpeqd.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_vandg2.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_vandg4.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_vandg.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_baker.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_baranyi4.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_baranyi.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_boggs.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_collg.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_crast.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_denoy.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_eck1.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_eck2.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_eck3.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_eck4.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_eck5.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_equi_moll.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_erdi_ksz.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_fahey.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_fc-loerr.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_fouc_s.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_four2.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_gins8.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_gn_sinu.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_goode.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_hatano.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_holzel.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_loxim.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_maurer.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_mayr.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_mbtfpp.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_mbtfpq.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_mbt_fps.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_mcb_s3.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_moll.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_nell.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_oxford.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_putp2.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_putp3.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_putp4p.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_putp5.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_putp6.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_robin.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_semiconf.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_s_min_err.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_sts.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_tob_g1.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_trapez.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_urm5.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_urmfps.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_wag2.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_wag3.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_wag5.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_wink1.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_wink2.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_adjlon.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_auth.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_deriv.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_dmstor.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_ellps.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_ell_set.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_err_list.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_errno.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_factors.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_fwd.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_gauss.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_init.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_inv.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_mdist.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_msfn.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_param.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_phi2.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_pr_list.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_rtodms.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_strerrno.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_strerror_r.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_trans.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_translate.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_tsfn.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_units.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_zpoly1.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_psi.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libproj4\vtklibproj4\proj_list.c"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/VTK-build/ZERO_CHECK.vcxproj">
+      <Project>96A894C7-FD6E-37E5-A6D0-C197A99428A9</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

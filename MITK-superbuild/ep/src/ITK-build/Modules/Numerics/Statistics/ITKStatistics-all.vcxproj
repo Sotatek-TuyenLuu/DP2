@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{DDA1A9C6-DFBB-3AD9-9D85-FF70AB79D8EB}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ITKStatistics-all</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\DoubleConversion\src\double-conversion;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\KWSys\src;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\vcl;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\core;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\vcl;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\core;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNLInstantiation\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Core\Common;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\Netlib;E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\DoubleConversion\src\double-conversion;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\KWSys\src;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\vcl;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\core;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\vcl;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\core;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNLInstantiation\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Core\Common;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\Netlib;E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\DoubleConversion\src\double-conversion;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\KWSys\src;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\vcl;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\core;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\vcl;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\core;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNLInstantiation\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Core\Common;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\Netlib;E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\DoubleConversion\src\double-conversion;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\KWSys\src;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\vcl;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\core;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\vcl;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\core;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNLInstantiation\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Core\Common;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\Netlib;E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/ITK/Modules/Numerics/Statistics/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/ITK -BE:/D/MITK-superbuild/ep/src/ITK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Numerics\Statistics\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/ITK/Modules/Numerics/Statistics/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\itk-module.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKCommon.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKDoubleConversion.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKKWSys.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKVNLInstantiation.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKVNL.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKNetlib.cmake;E:\D\MITK-superbuild\ep\src\ITK\CMake\ITKModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\ITK\CMake\ITKModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\ITK\Utilities\Doxygen\Module.dox.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Numerics\Statistics\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/ITK/Modules/Numerics/Statistics/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/ITK -BE:/D/MITK-superbuild/ep/src/ITK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Numerics\Statistics\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/ITK/Modules/Numerics/Statistics/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\itk-module.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKCommon.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKDoubleConversion.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKKWSys.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKVNLInstantiation.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKVNL.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKNetlib.cmake;E:\D\MITK-superbuild\ep\src\ITK\CMake\ITKModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\ITK\CMake\ITKModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\ITK\Utilities\Doxygen\Module.dox.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Numerics\Statistics\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/ITK/Modules/Numerics/Statistics/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/ITK -BE:/D/MITK-superbuild/ep/src/ITK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Numerics\Statistics\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/ITK/Modules/Numerics/Statistics/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\itk-module.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKCommon.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKDoubleConversion.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKKWSys.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKVNLInstantiation.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKVNL.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKNetlib.cmake;E:\D\MITK-superbuild\ep\src\ITK\CMake\ITKModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\ITK\CMake\ITKModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\ITK\Utilities\Doxygen\Module.dox.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Numerics\Statistics\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/ITK/Modules/Numerics/Statistics/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/ITK -BE:/D/MITK-superbuild/ep/src/ITK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Numerics\Statistics\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/ITK/Modules/Numerics/Statistics/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\itk-module.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKCommon.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKDoubleConversion.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKKWSys.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKVNLInstantiation.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKVNL.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKNetlib.cmake;E:\D\MITK-superbuild\ep\src\ITK\CMake\ITKModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\ITK\CMake\ITKModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\ITK\Utilities\Doxygen\Module.dox.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Numerics\Statistics\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\src\itkChiSquareDistribution.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\src\itkDecisionRule.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\src\itkDenseFrequencyContainer2.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\src\itkGaussianDistribution.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\src\itkMaximumDecisionRule.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\src\itkMaximumRatioDecisionRule.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\src\itkMinimumDecisionRule.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\src\itkNormalVariateGenerator.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\src\itkSparseFrequencyContainer2.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\src\itkTDistribution.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkChiSquareDistribution.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkCovarianceSampleFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkDecisionRule.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkDenseFrequencyContainer2.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkDistanceMetric.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkDistanceToCentroidMembershipFunction.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkEuclideanDistanceMetric.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkEuclideanSquareDistanceMetric.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkExpectationMaximizationMixtureModelEstimator.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkGaussianDistribution.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkGaussianMembershipFunction.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkGaussianMixtureModelComponent.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkGaussianRandomSpatialNeighborSubsampler.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkHistogram.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkHistogramToEntropyImageFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkHistogramToImageFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkHistogramToIntensityImageFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkHistogramToLogProbabilityImageFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkHistogramToProbabilityImageFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkHistogramToRunLengthFeaturesFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkHistogramToTextureFeaturesFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkImageClassifierFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkImageToHistogramFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkImageToListSampleAdaptor.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkImageToListSampleFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkImageToNeighborhoodSampleAdaptor.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkJointDomainImageToListSampleAdaptor.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkKalmanLinearEstimator.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkKdTree.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkKdTreeBasedKmeansEstimator.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkKdTreeGenerator.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkListSample.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkMahalanobisDistanceMembershipFunction.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkMahalanobisDistanceMetric.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkManhattanDistanceMetric.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkMaskedImageToHistogramFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkMaximumDecisionRule.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkMaximumRatioDecisionRule.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkMeanSampleFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkMeasurementVectorTraits.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkMembershipFunctionBase.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkMembershipSample.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkMinimumDecisionRule.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkMixtureModelComponentBase.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkNeighborhoodSampler.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkNormalVariateGenerator.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkPointSetToListSampleAdaptor.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkProbabilityDistribution.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkRegionConstrainedSubsampler.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkSample.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkSampleClassifierFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkSampleToHistogramFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkSampleToSubsampleFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkScalarImageToCooccurrenceListSampleFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkScalarImageToCooccurrenceMatrixFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkScalarImageToHistogramGenerator.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkScalarImageToRunLengthFeaturesFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkScalarImageToRunLengthMatrixFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkScalarImageToTextureFeaturesFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkSparseFrequencyContainer2.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkSpatialNeighborSubsampler.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkStandardDeviationPerComponentSampleFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkStatisticsAlgorithm.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkSubsample.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkSubsamplerBase.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkTDistribution.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkUniformRandomSpatialNeighborSubsampler.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkVectorContainerToListSampleAdaptor.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkWeightedCentroidKdTreeGenerator.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkWeightedCovarianceSampleFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkWeightedMeanSampleFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkCovarianceSampleFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkDistanceMetric.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkDistanceToCentroidMembershipFunction.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkEuclideanDistanceMetric.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkEuclideanSquareDistanceMetric.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkExpectationMaximizationMixtureModelEstimator.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkGaussianMembershipFunction.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkGaussianMixtureModelComponent.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkGaussianRandomSpatialNeighborSubsampler.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkHistogram.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkHistogramToImageFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkHistogramToRunLengthFeaturesFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkHistogramToTextureFeaturesFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkImageClassifierFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkImageToHistogramFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkImageToListSampleAdaptor.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkImageToListSampleFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkImageToNeighborhoodSampleAdaptor.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkJointDomainImageToListSampleAdaptor.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkKdTree.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkKdTreeBasedKmeansEstimator.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkKdTreeGenerator.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkListSample.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkMahalanobisDistanceMembershipFunction.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkMahalanobisDistanceMetric.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkManhattanDistanceMetric.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkMaskedImageToHistogramFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkMeanSampleFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkMembershipSample.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkMixtureModelComponentBase.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkNeighborhoodSampler.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkPointSetToListSampleAdaptor.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkRegionConstrainedSubsampler.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkSampleClassifierFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkSampleToHistogramFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkSampleToSubsampleFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkScalarImageToCooccurrenceListSampleFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkScalarImageToCooccurrenceMatrixFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkScalarImageToHistogramGenerator.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkScalarImageToRunLengthFeaturesFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkScalarImageToRunLengthMatrixFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkScalarImageToTextureFeaturesFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkSpatialNeighborSubsampler.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkStandardDeviationPerComponentSampleFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkStatisticsAlgorithm.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkSubsample.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkSubsamplerBase.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkUniformRandomSpatialNeighborSubsampler.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkVectorContainerToListSampleAdaptor.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkWeightedCentroidKdTreeGenerator.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkWeightedCovarianceSampleFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include\itkWeightedMeanSampleFilter.hxx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/ITK-build/ZERO_CHECK.vcxproj">
+      <Project>7A8C6E7C-8178-3D2C-96BD-CC175A1D2858</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/ITK-build/Modules/Numerics/Statistics/src/ITKStatistics.vcxproj">
+      <Project>EB8BB8F3-6E2F-3262-8713-24580D192A0A</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,467 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/VolumeOpenGL/vtkOpenGLHAVSVolumeMapper.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/VolumeOpenGL/vtkOpenGLProjectedAAHexahedraMapper.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/VolumeOpenGL/vtkOpenGLProjectedTetrahedraMapper.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/VolumeOpenGL/vtkOpenGLRayCastImageDisplayHelper.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/VolumeOpenGL/vtkOpenGLVolumeTextureMapper2D.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/VolumeOpenGL/vtkOpenGLVolumeTextureMapper3D.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/VolumeOpenGL/vtkSmartVolumeMapper.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/VolumeOpenGL/vtkOpenGLGPUVolumeRayCastMapper.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/VolumeOpenGL/vtkGPUVolumeRayCastMapper_AdditiveFS.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/VolumeOpenGL/vtkGPUVolumeRayCastMapper_AdditiveCroppingFS.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/VolumeOpenGL/vtkGPUVolumeRayCastMapper_AdditiveNoCroppingFS.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/VolumeOpenGL/vtkGPUVolumeRayCastMapper_CompositeFS.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/VolumeOpenGL/vtkGPUVolumeRayCastMapper_CompositeMaskFS.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/VolumeOpenGL/vtkGPUVolumeRayCastMapper_CompositeBinaryMaskFS.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/VolumeOpenGL/vtkGPUVolumeRayCastMapper_CompositeCroppingFS.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/VolumeOpenGL/vtkGPUVolumeRayCastMapper_CompositeNoCroppingFS.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/VolumeOpenGL/vtkGPUVolumeRayCastMapper_HeaderFS.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/VolumeOpenGL/vtkGPUVolumeRayCastMapper_MIPCroppingFS.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/VolumeOpenGL/vtkGPUVolumeRayCastMapper_MIPFS.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/VolumeOpenGL/vtkGPUVolumeRayCastMapper_MIPBinaryMaskFS.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/VolumeOpenGL/vtkGPUVolumeRayCastMapper_MIPFourDependentFS.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/VolumeOpenGL/vtkGPUVolumeRayCastMapper_MIPFourDependentCroppingFS.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/VolumeOpenGL/vtkGPUVolumeRayCastMapper_MIPFourDependentNoCroppingFS.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/VolumeOpenGL/vtkGPUVolumeRayCastMapper_MIPNoCroppingFS.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/VolumeOpenGL/vtkGPUVolumeRayCastMapper_MinIPCroppingFS.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/VolumeOpenGL/vtkGPUVolumeRayCastMapper_MinIPFS.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/VolumeOpenGL/vtkGPUVolumeRayCastMapper_MinIPBinaryMaskFS.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/VolumeOpenGL/vtkGPUVolumeRayCastMapper_MinIPFourDependentFS.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/VolumeOpenGL/vtkGPUVolumeRayCastMapper_MinIPFourDependentCroppingFS.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/VolumeOpenGL/vtkGPUVolumeRayCastMapper_MinIPFourDependentNoCroppingFS.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/VolumeOpenGL/vtkGPUVolumeRayCastMapper_MinIPNoCroppingFS.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/VolumeOpenGL/vtkGPUVolumeRayCastMapper_ParallelProjectionFS.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/VolumeOpenGL/vtkGPUVolumeRayCastMapper_PerspectiveProjectionFS.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/VolumeOpenGL/vtkGPUVolumeRayCastMapper_ScaleBiasFS.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/VolumeOpenGL/vtkGPUVolumeRayCastMapper_OneComponentFS.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/VolumeOpenGL/vtkGPUVolumeRayCastMapper_FourComponentsFS.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/VolumeOpenGL/vtkGPUVolumeRayCastMapper_NoShadeFS.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/VolumeOpenGL/vtkGPUVolumeRayCastMapper_ShadeFS.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/VolumeOpenGL/vtkHAVSVolumeMapper_kbufferVP.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/VolumeOpenGL/vtkHAVSVolumeMapper_k2FP.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/VolumeOpenGL/vtkHAVSVolumeMapper_k2BeginFP.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/VolumeOpenGL/vtkHAVSVolumeMapper_k2EndFP.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/VolumeOpenGL/vtkHAVSVolumeMapper_k6FP.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/VolumeOpenGL/vtkHAVSVolumeMapper_k6BeginFP.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/VolumeOpenGL/vtkHAVSVolumeMapper_k6EndFP.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/VolumeOpenGL/vtkProjectedAAHexahedraMapper_VS.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/VolumeOpenGL/vtkProjectedAAHexahedraMapper_GS.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/VolumeOpenGL/vtkProjectedAAHexahedraMapper_FS.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/VolumeOpenGL/vtkVolumeTextureMapper3D_FourDependentNoShadeFP.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/VolumeOpenGL/vtkVolumeTextureMapper3D_FourDependentShadeFP.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/VolumeOpenGL/vtkVolumeTextureMapper3D_OneComponentNoShadeFP.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/VolumeOpenGL/vtkVolumeTextureMapper3D_OneComponentShadeFP.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/VolumeOpenGL/vtkVolumeTextureMapper3D_TwoDependentNoShadeFP.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/VolumeOpenGL/vtkVolumeTextureMapper3D_TwoDependentShadeFP.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/VolumeOpenGL/vtkRenderingVolumeOpenGLObjectFactory.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/VolumeOpenGL/vtkOpenGLHAVSVolumeMapper.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/VolumeOpenGL/vtkOpenGLProjectedAAHexahedraMapper.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/VolumeOpenGL/vtkOpenGLProjectedTetrahedraMapper.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/VolumeOpenGL/vtkOpenGLRayCastImageDisplayHelper.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/VolumeOpenGL/vtkOpenGLVolumeTextureMapper2D.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/VolumeOpenGL/vtkOpenGLVolumeTextureMapper3D.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/VolumeOpenGL/vtkSmartVolumeMapper.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/VolumeOpenGL/vtkOpenGLGPUVolumeRayCastMapper.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/VolumeOpenGL/vtkRenderingVolumeOpenGLObjectFactory.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/VolumeOpenGL/vtkRenderingVolumeOpenGLModule.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/VolumeOpenGL/vtkRenderingVolumeOpenGLInstantiator.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/VolumeOpenGL/vtkRenderingVolumeOpenGLInstantiator.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/VolumeOpenGL/CMakeLists.txt"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/f8f7211461bcb9bd868095f9c0276ca8/vtkGPUVolumeRayCastMapper_AdditiveFS.cxx.rule"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/f8f7211461bcb9bd868095f9c0276ca8/vtkGPUVolumeRayCastMapper_AdditiveCroppingFS.cxx.rule"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/f8f7211461bcb9bd868095f9c0276ca8/vtkGPUVolumeRayCastMapper_AdditiveNoCroppingFS.cxx.rule"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/f8f7211461bcb9bd868095f9c0276ca8/vtkGPUVolumeRayCastMapper_CompositeFS.cxx.rule"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/f8f7211461bcb9bd868095f9c0276ca8/vtkGPUVolumeRayCastMapper_CompositeMaskFS.cxx.rule"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/f8f7211461bcb9bd868095f9c0276ca8/vtkGPUVolumeRayCastMapper_CompositeBinaryMaskFS.cxx.rule"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/f8f7211461bcb9bd868095f9c0276ca8/vtkGPUVolumeRayCastMapper_CompositeCroppingFS.cxx.rule"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/f8f7211461bcb9bd868095f9c0276ca8/vtkGPUVolumeRayCastMapper_CompositeNoCroppingFS.cxx.rule"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/f8f7211461bcb9bd868095f9c0276ca8/vtkGPUVolumeRayCastMapper_HeaderFS.cxx.rule"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/f8f7211461bcb9bd868095f9c0276ca8/vtkGPUVolumeRayCastMapper_MIPCroppingFS.cxx.rule"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/f8f7211461bcb9bd868095f9c0276ca8/vtkGPUVolumeRayCastMapper_MIPFS.cxx.rule"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/f8f7211461bcb9bd868095f9c0276ca8/vtkGPUVolumeRayCastMapper_MIPBinaryMaskFS.cxx.rule"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/f8f7211461bcb9bd868095f9c0276ca8/vtkGPUVolumeRayCastMapper_MIPFourDependentFS.cxx.rule"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/f8f7211461bcb9bd868095f9c0276ca8/vtkGPUVolumeRayCastMapper_MIPFourDependentCroppingFS.cxx.rule"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/f8f7211461bcb9bd868095f9c0276ca8/vtkGPUVolumeRayCastMapper_MIPFourDependentNoCroppingFS.cxx.rule"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/f8f7211461bcb9bd868095f9c0276ca8/vtkGPUVolumeRayCastMapper_MIPNoCroppingFS.cxx.rule"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/f8f7211461bcb9bd868095f9c0276ca8/vtkGPUVolumeRayCastMapper_MinIPCroppingFS.cxx.rule"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/f8f7211461bcb9bd868095f9c0276ca8/vtkGPUVolumeRayCastMapper_MinIPFS.cxx.rule"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/f8f7211461bcb9bd868095f9c0276ca8/vtkGPUVolumeRayCastMapper_MinIPBinaryMaskFS.cxx.rule"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/f8f7211461bcb9bd868095f9c0276ca8/vtkGPUVolumeRayCastMapper_MinIPFourDependentFS.cxx.rule"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/f8f7211461bcb9bd868095f9c0276ca8/vtkGPUVolumeRayCastMapper_MinIPFourDependentCroppingFS.cxx.rule"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/f8f7211461bcb9bd868095f9c0276ca8/vtkGPUVolumeRayCastMapper_MinIPFourDependentNoCroppingFS.cxx.rule"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/f8f7211461bcb9bd868095f9c0276ca8/vtkGPUVolumeRayCastMapper_MinIPNoCroppingFS.cxx.rule"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/f8f7211461bcb9bd868095f9c0276ca8/vtkGPUVolumeRayCastMapper_ParallelProjectionFS.cxx.rule"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/f8f7211461bcb9bd868095f9c0276ca8/vtkGPUVolumeRayCastMapper_PerspectiveProjectionFS.cxx.rule"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/f8f7211461bcb9bd868095f9c0276ca8/vtkGPUVolumeRayCastMapper_ScaleBiasFS.cxx.rule"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/f8f7211461bcb9bd868095f9c0276ca8/vtkGPUVolumeRayCastMapper_OneComponentFS.cxx.rule"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/f8f7211461bcb9bd868095f9c0276ca8/vtkGPUVolumeRayCastMapper_FourComponentsFS.cxx.rule"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/f8f7211461bcb9bd868095f9c0276ca8/vtkGPUVolumeRayCastMapper_NoShadeFS.cxx.rule"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/f8f7211461bcb9bd868095f9c0276ca8/vtkGPUVolumeRayCastMapper_ShadeFS.cxx.rule"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/f8f7211461bcb9bd868095f9c0276ca8/vtkHAVSVolumeMapper_kbufferVP.cxx.rule"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/f8f7211461bcb9bd868095f9c0276ca8/vtkHAVSVolumeMapper_k2FP.cxx.rule"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/f8f7211461bcb9bd868095f9c0276ca8/vtkHAVSVolumeMapper_k2BeginFP.cxx.rule"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/f8f7211461bcb9bd868095f9c0276ca8/vtkHAVSVolumeMapper_k2EndFP.cxx.rule"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/f8f7211461bcb9bd868095f9c0276ca8/vtkHAVSVolumeMapper_k6FP.cxx.rule"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/f8f7211461bcb9bd868095f9c0276ca8/vtkHAVSVolumeMapper_k6BeginFP.cxx.rule"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/f8f7211461bcb9bd868095f9c0276ca8/vtkHAVSVolumeMapper_k6EndFP.cxx.rule"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/f8f7211461bcb9bd868095f9c0276ca8/vtkProjectedAAHexahedraMapper_VS.cxx.rule"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/f8f7211461bcb9bd868095f9c0276ca8/vtkProjectedAAHexahedraMapper_GS.cxx.rule"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/f8f7211461bcb9bd868095f9c0276ca8/vtkProjectedAAHexahedraMapper_FS.cxx.rule"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/f8f7211461bcb9bd868095f9c0276ca8/vtkVolumeTextureMapper3D_FourDependentNoShadeFP.cxx.rule"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/f8f7211461bcb9bd868095f9c0276ca8/vtkVolumeTextureMapper3D_FourDependentShadeFP.cxx.rule"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/f8f7211461bcb9bd868095f9c0276ca8/vtkVolumeTextureMapper3D_OneComponentNoShadeFP.cxx.rule"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/f8f7211461bcb9bd868095f9c0276ca8/vtkVolumeTextureMapper3D_OneComponentShadeFP.cxx.rule"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/f8f7211461bcb9bd868095f9c0276ca8/vtkVolumeTextureMapper3D_TwoDependentNoShadeFP.cxx.rule"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/f8f7211461bcb9bd868095f9c0276ca8/vtkVolumeTextureMapper3D_TwoDependentShadeFP.cxx.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "vtkRenderingVolumeOpenGL" ],
+		"name" : "vtkRenderingVolumeOpenGL"
+	}
+}

@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\D\MITK\Plugins\org.mitk.gui.qt.stdmultiwidgeteditor\src\QmitkStdMultiWidgetEditor.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Plugins\org.mitk.gui.qt.stdmultiwidgeteditor\src\internal\org_mitk_gui_qt_stdmultiwidgeteditor_Activator.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Plugins\org.mitk.gui.qt.stdmultiwidgeteditor\src\internal\QmitkStdMultiWidgetEditorPreferencePage.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.mitk.gui.qt.stdmultiwidgeteditor\src\moc_QmitkStdMultiWidgetEditor.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.mitk.gui.qt.stdmultiwidgeteditor\src\internal\moc_org_mitk_gui_qt_stdmultiwidgeteditor_Activator.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.mitk.gui.qt.stdmultiwidgeteditor\src\internal\moc_QmitkStdMultiWidgetEditorPreferencePage.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.mitk.gui.qt.stdmultiwidgeteditor\qrc_org_mitk_gui_qt_stdmultiwidgeteditor_manifest.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.mitk.gui.qt.stdmultiwidgeteditor\qrc_org_mitk_gui_qt_stdmultiwidgeteditor_cached.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\D\MITK\Plugins\org.mitk.gui.qt.stdmultiwidgeteditor\src\QmitkStdMultiWidgetEditor.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Plugins\org.mitk.gui.qt.stdmultiwidgeteditor\src\internal\org_mitk_gui_qt_stdmultiwidgeteditor_Activator.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Plugins\org.mitk.gui.qt.stdmultiwidgeteditor\src\internal\QmitkStdMultiWidgetEditorPreferencePage.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.mitk.gui.qt.stdmultiwidgeteditor\ui_QmitkStdMultiWidgetEditorPreferencePage.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK\Plugins\org.mitk.gui.qt.stdmultiwidgeteditor\CMakeLists.txt" />
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\cd5c7d882567401c555280f01e2554b3\moc_QmitkStdMultiWidgetEditor.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\8eef9e30da8305ac5c4f7f3faaa3e45d\moc_org_mitk_gui_qt_stdmultiwidgeteditor_Activator.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\8eef9e30da8305ac5c4f7f3faaa3e45d\moc_QmitkStdMultiWidgetEditorPreferencePage.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK\Plugins\org.mitk.gui.qt.stdmultiwidgeteditor\src\internal\QmitkStdMultiWidgetEditorPreferencePage.ui">
+      <Filter>QT UI Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.mitk.gui.qt.stdmultiwidgeteditor\org_mitk_gui_qt_stdmultiwidgeteditor_manifest.qrc" />
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.mitk.gui.qt.stdmultiwidgeteditor\org_mitk_gui_qt_stdmultiwidgeteditor_cached.qrc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{CAC8648D-C086-3462-B846-B0EBFA3DCB4A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="== Source Files ==">
+      <UniqueIdentifier>{9CA70B67-B51F-303F-96AF-687940E0FEA8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="== Header Files ==">
+      <UniqueIdentifier>{4D89E91A-663E-32FD-A047-724E4EC4BA98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="QT UI Files">
+      <UniqueIdentifier>{A7973F98-B74E-37EA-8F4A-12BAE98DFBF1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated">
+      <UniqueIdentifier>{7FA4B4B1-5C9C-314E-A0B9-36873EE561F1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

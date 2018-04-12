@@ -1,0 +1,172 @@
+#include "vtkRenderingVolumeInstantiator.h"
+#include "vtkEncodedGradientShader.h"
+#include "vtkFiniteDifferenceGradientEstimator.h"
+#include "vtkFixedPointRayCastImage.h"
+#include "vtkFixedPointVolumeRayCastCompositeGOHelper.h"
+#include "vtkFixedPointVolumeRayCastCompositeGOShadeHelper.h"
+#include "vtkFixedPointVolumeRayCastCompositeHelper.h"
+#include "vtkFixedPointVolumeRayCastCompositeShadeHelper.h"
+#include "vtkFixedPointVolumeRayCastHelper.h"
+#include "vtkFixedPointVolumeRayCastMIPHelper.h"
+#include "vtkFixedPointVolumeRayCastMapper.h"
+#include "vtkGPUVolumeRayCastMapper.h"
+#include "vtkProjectedTetrahedraMapper.h"
+#include "vtkRayCastImageDisplayHelper.h"
+#include "vtkRecursiveSphereDirectionEncoder.h"
+#include "vtkSphericalDirectionEncoder.h"
+#include "vtkUnstructuredGridBunykRayCastFunction.h"
+#include "vtkUnstructuredGridHomogeneousRayIntegrator.h"
+#include "vtkUnstructuredGridLinearRayIntegrator.h"
+#include "vtkUnstructuredGridPartialPreIntegration.h"
+#include "vtkUnstructuredGridPreIntegration.h"
+#include "vtkUnstructuredGridVolumeRayCastMapper.h"
+#include "vtkUnstructuredGridVolumeZSweepMapper.h"
+#include "vtkVolumeOutlineSource.h"
+#include "vtkVolumePicker.h"
+#include "vtkVolumeRayCastCompositeFunction.h"
+#include "vtkVolumeRayCastIsosurfaceFunction.h"
+#include "vtkVolumeRayCastMIPFunction.h"
+#include "vtkVolumeRayCastMapper.h"
+#include "vtkVolumeRayCastSpaceLeapingImageFilter.h"
+#include "vtkHAVSVolumeMapper.h"
+#include "vtkProjectedAAHexahedraMapper.h"
+#include "vtkVolumeTextureMapper2D.h"
+#include "vtkVolumeTextureMapper3D.h"
+
+#include "vtkSetGet.h"
+
+vtkInstantiatorNewMacro(vtkEncodedGradientShader)
+vtkInstantiatorNewMacro(vtkFiniteDifferenceGradientEstimator)
+vtkInstantiatorNewMacro(vtkFixedPointRayCastImage)
+vtkInstantiatorNewMacro(vtkFixedPointVolumeRayCastCompositeGOHelper)
+vtkInstantiatorNewMacro(vtkFixedPointVolumeRayCastCompositeGOShadeHelper)
+vtkInstantiatorNewMacro(vtkFixedPointVolumeRayCastCompositeHelper)
+vtkInstantiatorNewMacro(vtkFixedPointVolumeRayCastCompositeShadeHelper)
+vtkInstantiatorNewMacro(vtkFixedPointVolumeRayCastHelper)
+vtkInstantiatorNewMacro(vtkFixedPointVolumeRayCastMIPHelper)
+vtkInstantiatorNewMacro(vtkFixedPointVolumeRayCastMapper)
+vtkInstantiatorNewMacro(vtkGPUVolumeRayCastMapper)
+vtkInstantiatorNewMacro(vtkProjectedTetrahedraMapper)
+vtkInstantiatorNewMacro(vtkRayCastImageDisplayHelper)
+vtkInstantiatorNewMacro(vtkRecursiveSphereDirectionEncoder)
+vtkInstantiatorNewMacro(vtkSphericalDirectionEncoder)
+vtkInstantiatorNewMacro(vtkUnstructuredGridBunykRayCastFunction)
+vtkInstantiatorNewMacro(vtkUnstructuredGridHomogeneousRayIntegrator)
+vtkInstantiatorNewMacro(vtkUnstructuredGridLinearRayIntegrator)
+vtkInstantiatorNewMacro(vtkUnstructuredGridPartialPreIntegration)
+vtkInstantiatorNewMacro(vtkUnstructuredGridPreIntegration)
+vtkInstantiatorNewMacro(vtkUnstructuredGridVolumeRayCastMapper)
+vtkInstantiatorNewMacro(vtkUnstructuredGridVolumeZSweepMapper)
+vtkInstantiatorNewMacro(vtkVolumeOutlineSource)
+vtkInstantiatorNewMacro(vtkVolumePicker)
+vtkInstantiatorNewMacro(vtkVolumeRayCastCompositeFunction)
+vtkInstantiatorNewMacro(vtkVolumeRayCastIsosurfaceFunction)
+vtkInstantiatorNewMacro(vtkVolumeRayCastMIPFunction)
+vtkInstantiatorNewMacro(vtkVolumeRayCastMapper)
+vtkInstantiatorNewMacro(vtkVolumeRayCastSpaceLeapingImageFilter)
+vtkInstantiatorNewMacro(vtkHAVSVolumeMapper)
+vtkInstantiatorNewMacro(vtkProjectedAAHexahedraMapper)
+vtkInstantiatorNewMacro(vtkVolumeTextureMapper2D)
+vtkInstantiatorNewMacro(vtkVolumeTextureMapper3D)
+
+
+
+void vtkRenderingVolumeInstantiator::ClassInitialize()
+{
+
+  vtkInstantiator::RegisterInstantiator("vtkEncodedGradientShader", vtkInstantiatorvtkEncodedGradientShaderNew);
+  vtkInstantiator::RegisterInstantiator("vtkFiniteDifferenceGradientEstimator", vtkInstantiatorvtkFiniteDifferenceGradientEstimatorNew);
+  vtkInstantiator::RegisterInstantiator("vtkFixedPointRayCastImage", vtkInstantiatorvtkFixedPointRayCastImageNew);
+  vtkInstantiator::RegisterInstantiator("vtkFixedPointVolumeRayCastCompositeGOHelper", vtkInstantiatorvtkFixedPointVolumeRayCastCompositeGOHelperNew);
+  vtkInstantiator::RegisterInstantiator("vtkFixedPointVolumeRayCastCompositeGOShadeHelper", vtkInstantiatorvtkFixedPointVolumeRayCastCompositeGOShadeHelperNew);
+  vtkInstantiator::RegisterInstantiator("vtkFixedPointVolumeRayCastCompositeHelper", vtkInstantiatorvtkFixedPointVolumeRayCastCompositeHelperNew);
+  vtkInstantiator::RegisterInstantiator("vtkFixedPointVolumeRayCastCompositeShadeHelper", vtkInstantiatorvtkFixedPointVolumeRayCastCompositeShadeHelperNew);
+  vtkInstantiator::RegisterInstantiator("vtkFixedPointVolumeRayCastHelper", vtkInstantiatorvtkFixedPointVolumeRayCastHelperNew);
+  vtkInstantiator::RegisterInstantiator("vtkFixedPointVolumeRayCastMIPHelper", vtkInstantiatorvtkFixedPointVolumeRayCastMIPHelperNew);
+  vtkInstantiator::RegisterInstantiator("vtkFixedPointVolumeRayCastMapper", vtkInstantiatorvtkFixedPointVolumeRayCastMapperNew);
+  vtkInstantiator::RegisterInstantiator("vtkGPUVolumeRayCastMapper", vtkInstantiatorvtkGPUVolumeRayCastMapperNew);
+  vtkInstantiator::RegisterInstantiator("vtkProjectedTetrahedraMapper", vtkInstantiatorvtkProjectedTetrahedraMapperNew);
+  vtkInstantiator::RegisterInstantiator("vtkRayCastImageDisplayHelper", vtkInstantiatorvtkRayCastImageDisplayHelperNew);
+  vtkInstantiator::RegisterInstantiator("vtkRecursiveSphereDirectionEncoder", vtkInstantiatorvtkRecursiveSphereDirectionEncoderNew);
+  vtkInstantiator::RegisterInstantiator("vtkSphericalDirectionEncoder", vtkInstantiatorvtkSphericalDirectionEncoderNew);
+  vtkInstantiator::RegisterInstantiator("vtkUnstructuredGridBunykRayCastFunction", vtkInstantiatorvtkUnstructuredGridBunykRayCastFunctionNew);
+  vtkInstantiator::RegisterInstantiator("vtkUnstructuredGridHomogeneousRayIntegrator", vtkInstantiatorvtkUnstructuredGridHomogeneousRayIntegratorNew);
+  vtkInstantiator::RegisterInstantiator("vtkUnstructuredGridLinearRayIntegrator", vtkInstantiatorvtkUnstructuredGridLinearRayIntegratorNew);
+  vtkInstantiator::RegisterInstantiator("vtkUnstructuredGridPartialPreIntegration", vtkInstantiatorvtkUnstructuredGridPartialPreIntegrationNew);
+  vtkInstantiator::RegisterInstantiator("vtkUnstructuredGridPreIntegration", vtkInstantiatorvtkUnstructuredGridPreIntegrationNew);
+  vtkInstantiator::RegisterInstantiator("vtkUnstructuredGridVolumeRayCastMapper", vtkInstantiatorvtkUnstructuredGridVolumeRayCastMapperNew);
+  vtkInstantiator::RegisterInstantiator("vtkUnstructuredGridVolumeZSweepMapper", vtkInstantiatorvtkUnstructuredGridVolumeZSweepMapperNew);
+  vtkInstantiator::RegisterInstantiator("vtkVolumeOutlineSource", vtkInstantiatorvtkVolumeOutlineSourceNew);
+  vtkInstantiator::RegisterInstantiator("vtkVolumePicker", vtkInstantiatorvtkVolumePickerNew);
+  vtkInstantiator::RegisterInstantiator("vtkVolumeRayCastCompositeFunction", vtkInstantiatorvtkVolumeRayCastCompositeFunctionNew);
+  vtkInstantiator::RegisterInstantiator("vtkVolumeRayCastIsosurfaceFunction", vtkInstantiatorvtkVolumeRayCastIsosurfaceFunctionNew);
+  vtkInstantiator::RegisterInstantiator("vtkVolumeRayCastMIPFunction", vtkInstantiatorvtkVolumeRayCastMIPFunctionNew);
+  vtkInstantiator::RegisterInstantiator("vtkVolumeRayCastMapper", vtkInstantiatorvtkVolumeRayCastMapperNew);
+  vtkInstantiator::RegisterInstantiator("vtkVolumeRayCastSpaceLeapingImageFilter", vtkInstantiatorvtkVolumeRayCastSpaceLeapingImageFilterNew);
+  vtkInstantiator::RegisterInstantiator("vtkHAVSVolumeMapper", vtkInstantiatorvtkHAVSVolumeMapperNew);
+  vtkInstantiator::RegisterInstantiator("vtkProjectedAAHexahedraMapper", vtkInstantiatorvtkProjectedAAHexahedraMapperNew);
+  vtkInstantiator::RegisterInstantiator("vtkVolumeTextureMapper2D", vtkInstantiatorvtkVolumeTextureMapper2DNew);
+  vtkInstantiator::RegisterInstantiator("vtkVolumeTextureMapper3D", vtkInstantiatorvtkVolumeTextureMapper3DNew);
+
+
+}
+
+void vtkRenderingVolumeInstantiator::ClassFinalize()
+{
+
+  vtkInstantiator::UnRegisterInstantiator("vtkEncodedGradientShader", vtkInstantiatorvtkEncodedGradientShaderNew);
+  vtkInstantiator::UnRegisterInstantiator("vtkFiniteDifferenceGradientEstimator", vtkInstantiatorvtkFiniteDifferenceGradientEstimatorNew);
+  vtkInstantiator::UnRegisterInstantiator("vtkFixedPointRayCastImage", vtkInstantiatorvtkFixedPointRayCastImageNew);
+  vtkInstantiator::UnRegisterInstantiator("vtkFixedPointVolumeRayCastCompositeGOHelper", vtkInstantiatorvtkFixedPointVolumeRayCastCompositeGOHelperNew);
+  vtkInstantiator::UnRegisterInstantiator("vtkFixedPointVolumeRayCastCompositeGOShadeHelper", vtkInstantiatorvtkFixedPointVolumeRayCastCompositeGOShadeHelperNew);
+  vtkInstantiator::UnRegisterInstantiator("vtkFixedPointVolumeRayCastCompositeHelper", vtkInstantiatorvtkFixedPointVolumeRayCastCompositeHelperNew);
+  vtkInstantiator::UnRegisterInstantiator("vtkFixedPointVolumeRayCastCompositeShadeHelper", vtkInstantiatorvtkFixedPointVolumeRayCastCompositeShadeHelperNew);
+  vtkInstantiator::UnRegisterInstantiator("vtkFixedPointVolumeRayCastHelper", vtkInstantiatorvtkFixedPointVolumeRayCastHelperNew);
+  vtkInstantiator::UnRegisterInstantiator("vtkFixedPointVolumeRayCastMIPHelper", vtkInstantiatorvtkFixedPointVolumeRayCastMIPHelperNew);
+  vtkInstantiator::UnRegisterInstantiator("vtkFixedPointVolumeRayCastMapper", vtkInstantiatorvtkFixedPointVolumeRayCastMapperNew);
+  vtkInstantiator::UnRegisterInstantiator("vtkGPUVolumeRayCastMapper", vtkInstantiatorvtkGPUVolumeRayCastMapperNew);
+  vtkInstantiator::UnRegisterInstantiator("vtkProjectedTetrahedraMapper", vtkInstantiatorvtkProjectedTetrahedraMapperNew);
+  vtkInstantiator::UnRegisterInstantiator("vtkRayCastImageDisplayHelper", vtkInstantiatorvtkRayCastImageDisplayHelperNew);
+  vtkInstantiator::UnRegisterInstantiator("vtkRecursiveSphereDirectionEncoder", vtkInstantiatorvtkRecursiveSphereDirectionEncoderNew);
+  vtkInstantiator::UnRegisterInstantiator("vtkSphericalDirectionEncoder", vtkInstantiatorvtkSphericalDirectionEncoderNew);
+  vtkInstantiator::UnRegisterInstantiator("vtkUnstructuredGridBunykRayCastFunction", vtkInstantiatorvtkUnstructuredGridBunykRayCastFunctionNew);
+  vtkInstantiator::UnRegisterInstantiator("vtkUnstructuredGridHomogeneousRayIntegrator", vtkInstantiatorvtkUnstructuredGridHomogeneousRayIntegratorNew);
+  vtkInstantiator::UnRegisterInstantiator("vtkUnstructuredGridLinearRayIntegrator", vtkInstantiatorvtkUnstructuredGridLinearRayIntegratorNew);
+  vtkInstantiator::UnRegisterInstantiator("vtkUnstructuredGridPartialPreIntegration", vtkInstantiatorvtkUnstructuredGridPartialPreIntegrationNew);
+  vtkInstantiator::UnRegisterInstantiator("vtkUnstructuredGridPreIntegration", vtkInstantiatorvtkUnstructuredGridPreIntegrationNew);
+  vtkInstantiator::UnRegisterInstantiator("vtkUnstructuredGridVolumeRayCastMapper", vtkInstantiatorvtkUnstructuredGridVolumeRayCastMapperNew);
+  vtkInstantiator::UnRegisterInstantiator("vtkUnstructuredGridVolumeZSweepMapper", vtkInstantiatorvtkUnstructuredGridVolumeZSweepMapperNew);
+  vtkInstantiator::UnRegisterInstantiator("vtkVolumeOutlineSource", vtkInstantiatorvtkVolumeOutlineSourceNew);
+  vtkInstantiator::UnRegisterInstantiator("vtkVolumePicker", vtkInstantiatorvtkVolumePickerNew);
+  vtkInstantiator::UnRegisterInstantiator("vtkVolumeRayCastCompositeFunction", vtkInstantiatorvtkVolumeRayCastCompositeFunctionNew);
+  vtkInstantiator::UnRegisterInstantiator("vtkVolumeRayCastIsosurfaceFunction", vtkInstantiatorvtkVolumeRayCastIsosurfaceFunctionNew);
+  vtkInstantiator::UnRegisterInstantiator("vtkVolumeRayCastMIPFunction", vtkInstantiatorvtkVolumeRayCastMIPFunctionNew);
+  vtkInstantiator::UnRegisterInstantiator("vtkVolumeRayCastMapper", vtkInstantiatorvtkVolumeRayCastMapperNew);
+  vtkInstantiator::UnRegisterInstantiator("vtkVolumeRayCastSpaceLeapingImageFilter", vtkInstantiatorvtkVolumeRayCastSpaceLeapingImageFilterNew);
+  vtkInstantiator::UnRegisterInstantiator("vtkHAVSVolumeMapper", vtkInstantiatorvtkHAVSVolumeMapperNew);
+  vtkInstantiator::UnRegisterInstantiator("vtkProjectedAAHexahedraMapper", vtkInstantiatorvtkProjectedAAHexahedraMapperNew);
+  vtkInstantiator::UnRegisterInstantiator("vtkVolumeTextureMapper2D", vtkInstantiatorvtkVolumeTextureMapper2DNew);
+  vtkInstantiator::UnRegisterInstantiator("vtkVolumeTextureMapper3D", vtkInstantiatorvtkVolumeTextureMapper3DNew);
+
+
+}
+
+vtkRenderingVolumeInstantiator::vtkRenderingVolumeInstantiator()
+{
+  if(++vtkRenderingVolumeInstantiator::Count == 1)
+    {
+    vtkRenderingVolumeInstantiator::ClassInitialize();
+    }
+}
+
+vtkRenderingVolumeInstantiator::~vtkRenderingVolumeInstantiator()
+{
+  if(--vtkRenderingVolumeInstantiator::Count == 0)
+    {
+    vtkRenderingVolumeInstantiator::ClassFinalize();
+    }
+}
+
+// Number of translation units that include this class's header.
+// Purposely not initialized.  Default is static initialization to 0.
+unsigned int vtkRenderingVolumeInstantiator::Count;

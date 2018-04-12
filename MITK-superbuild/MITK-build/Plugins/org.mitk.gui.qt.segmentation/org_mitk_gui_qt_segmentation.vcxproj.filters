@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\D\MITK\Plugins\org.mitk.gui.qt.segmentation\src\QmitkSegmentationPreferencePage.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Plugins\org.mitk.gui.qt.segmentation\src\internal\mitkPluginActivator.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Plugins\org.mitk.gui.qt.segmentation\src\internal\QmitkSegmentationView.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Plugins\org.mitk.gui.qt.segmentation\src\internal\QmitkThresholdAction.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Plugins\org.mitk.gui.qt.segmentation\src\internal\QmitkCreatePolygonModelAction.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Plugins\org.mitk.gui.qt.segmentation\src\internal\QmitkAutocropAction.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Plugins\org.mitk.gui.qt.segmentation\src\internal\QmitkDeformableClippingPlaneView.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Plugins\org.mitk.gui.qt.segmentation\src\internal\Common\QmitkDataSelectionWidget.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Plugins\org.mitk.gui.qt.segmentation\src\internal\SegmentationUtilities\QmitkSegmentationUtilitiesView.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Plugins\org.mitk.gui.qt.segmentation\src\internal\SegmentationUtilities\QmitkSegmentationUtilityWidget.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Plugins\org.mitk.gui.qt.segmentation\src\internal\SegmentationUtilities\BooleanOperations\QmitkBooleanOperationsWidget.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Plugins\org.mitk.gui.qt.segmentation\src\internal\SegmentationUtilities\ImageMasking\QmitkImageMaskingWidget.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Plugins\org.mitk.gui.qt.segmentation\src\internal\SegmentationUtilities\ContourModelToImage\QmitkContourModelToImageWidget.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Plugins\org.mitk.gui.qt.segmentation\src\internal\SegmentationUtilities\MorphologicalOperations\QmitkMorphologicalOperationsWidget.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Plugins\org.mitk.gui.qt.segmentation\src\internal\SegmentationUtilities\SurfaceToImage\QmitkSurfaceToImageWidget.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Plugins\org.mitk.gui.qt.segmentation\src\internal\SegmentationUtilities\CTKWidgets\QmitkCTKWidgetsWidget.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.mitk.gui.qt.segmentation\src\moc_QmitkSegmentationPreferencePage.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.mitk.gui.qt.segmentation\src\internal\moc_mitkPluginActivator.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.mitk.gui.qt.segmentation\src\internal\moc_QmitkSegmentationView.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.mitk.gui.qt.segmentation\src\internal\moc_QmitkThresholdAction.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.mitk.gui.qt.segmentation\src\internal\moc_QmitkCreatePolygonModelAction.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.mitk.gui.qt.segmentation\src\internal\moc_QmitkAutocropAction.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.mitk.gui.qt.segmentation\src\internal\moc_QmitkDeformableClippingPlaneView.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.mitk.gui.qt.segmentation\src\internal\Common\moc_QmitkDataSelectionWidget.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.mitk.gui.qt.segmentation\src\internal\SegmentationUtilities\moc_QmitkSegmentationUtilitiesView.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.mitk.gui.qt.segmentation\src\internal\SegmentationUtilities\moc_QmitkSegmentationUtilityWidget.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.mitk.gui.qt.segmentation\src\internal\SegmentationUtilities\BooleanOperations\moc_QmitkBooleanOperationsWidget.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.mitk.gui.qt.segmentation\src\internal\SegmentationUtilities\ImageMasking\moc_QmitkImageMaskingWidget.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.mitk.gui.qt.segmentation\src\internal\SegmentationUtilities\ContourModelToImage\moc_QmitkContourModelToImageWidget.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.mitk.gui.qt.segmentation\src\internal\SegmentationUtilities\MorphologicalOperations\moc_QmitkMorphologicalOperationsWidget.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.mitk.gui.qt.segmentation\src\internal\SegmentationUtilities\SurfaceToImage\moc_QmitkSurfaceToImageWidget.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.mitk.gui.qt.segmentation\src\internal\SegmentationUtilities\CTKWidgets\moc_QmitkCTKWidgetsWidget.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.mitk.gui.qt.segmentation\qrc_segmentation.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.mitk.gui.qt.segmentation\qrc_SegmentationUtilities.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.mitk.gui.qt.segmentation\qrc_BooleanOperationsWidget.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.mitk.gui.qt.segmentation\qrc_MorphologicalOperationsWidget.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.mitk.gui.qt.segmentation\qrc_org_mitk_gui_qt_segmentation_manifest.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.mitk.gui.qt.segmentation\qrc_org_mitk_gui_qt_segmentation_cached.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\D\MITK\Plugins\org.mitk.gui.qt.segmentation\src\QmitkSegmentationPreferencePage.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Plugins\org.mitk.gui.qt.segmentation\src\internal\mitkPluginActivator.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Plugins\org.mitk.gui.qt.segmentation\src\internal\QmitkSegmentationView.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Plugins\org.mitk.gui.qt.segmentation\src\internal\QmitkThresholdAction.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Plugins\org.mitk.gui.qt.segmentation\src\internal\QmitkCreatePolygonModelAction.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Plugins\org.mitk.gui.qt.segmentation\src\internal\QmitkAutocropAction.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Plugins\org.mitk.gui.qt.segmentation\src\internal\QmitkDeformableClippingPlaneView.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Plugins\org.mitk.gui.qt.segmentation\src\internal\Common\QmitkDataSelectionWidget.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Plugins\org.mitk.gui.qt.segmentation\src\internal\SegmentationUtilities\QmitkSegmentationUtilitiesView.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Plugins\org.mitk.gui.qt.segmentation\src\internal\SegmentationUtilities\QmitkSegmentationUtilityWidget.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Plugins\org.mitk.gui.qt.segmentation\src\internal\SegmentationUtilities\BooleanOperations\QmitkBooleanOperationsWidget.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Plugins\org.mitk.gui.qt.segmentation\src\internal\SegmentationUtilities\ImageMasking\QmitkImageMaskingWidget.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Plugins\org.mitk.gui.qt.segmentation\src\internal\SegmentationUtilities\ContourModelToImage\QmitkContourModelToImageWidget.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Plugins\org.mitk.gui.qt.segmentation\src\internal\SegmentationUtilities\MorphologicalOperations\QmitkMorphologicalOperationsWidget.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Plugins\org.mitk.gui.qt.segmentation\src\internal\SegmentationUtilities\SurfaceToImage\QmitkSurfaceToImageWidget.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Plugins\org.mitk.gui.qt.segmentation\src\internal\SegmentationUtilities\CTKWidgets\QmitkCTKWidgetsWidget.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.mitk.gui.qt.segmentation\ui_QmitkSegmentationControls.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.mitk.gui.qt.segmentation\ui_QmitkDeformableClippingPlaneViewControls.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.mitk.gui.qt.segmentation\ui_QmitkDataSelectionWidgetControls.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.mitk.gui.qt.segmentation\ui_QmitkSegmentationUtilitiesViewControls.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.mitk.gui.qt.segmentation\ui_QmitkBooleanOperationsWidgetControls.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.mitk.gui.qt.segmentation\ui_QmitkImageMaskingWidgetControls.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.mitk.gui.qt.segmentation\ui_QmitkContourModelToImageWidgetControls.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.mitk.gui.qt.segmentation\ui_QmitkMorphologicalOperationsWidgetControls.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.mitk.gui.qt.segmentation\ui_QmitkSurfaceToImageWidgetControls.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK\Plugins\org.mitk.gui.qt.segmentation\CMakeLists.txt" />
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\5bd44544cba025a83b3f777647ed3a43\moc_QmitkSegmentationPreferencePage.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\7f00635db59ac0a03662288cc73b0579\moc_mitkPluginActivator.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\7f00635db59ac0a03662288cc73b0579\moc_QmitkSegmentationView.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\7f00635db59ac0a03662288cc73b0579\moc_QmitkThresholdAction.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\7f00635db59ac0a03662288cc73b0579\moc_QmitkCreatePolygonModelAction.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\7f00635db59ac0a03662288cc73b0579\moc_QmitkAutocropAction.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\7f00635db59ac0a03662288cc73b0579\moc_QmitkDeformableClippingPlaneView.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\5854453eaa08c6c0a7f2ff724e5cb7f3\moc_QmitkDataSelectionWidget.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\301155666009274e293c213c657a3e4c\moc_QmitkSegmentationUtilitiesView.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\301155666009274e293c213c657a3e4c\moc_QmitkSegmentationUtilityWidget.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\8e532198de0b344cbac59a2fa6e56c4e\moc_QmitkBooleanOperationsWidget.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\2b0a705d8bfc5ede46f2e41ab05aedc1\moc_QmitkImageMaskingWidget.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\20a592b55978944fac6deacc83a6af58\moc_QmitkContourModelToImageWidget.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\770fdee81c449f1944aa9f4ffacf73ed\moc_QmitkMorphologicalOperationsWidget.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\08738469dd88a615228364b67c3ac19a\moc_QmitkSurfaceToImageWidget.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\44f4c2e80e4c4d9837b7a62052d4889a\moc_QmitkCTKWidgetsWidget.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK\Plugins\org.mitk.gui.qt.segmentation\src\internal\QmitkSegmentationControls.ui">
+      <Filter>QT UI Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK\Plugins\org.mitk.gui.qt.segmentation\src\internal\QmitkDeformableClippingPlaneViewControls.ui">
+      <Filter>QT UI Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK\Plugins\org.mitk.gui.qt.segmentation\src\internal\Common\QmitkDataSelectionWidgetControls.ui">
+      <Filter>QT UI Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK\Plugins\org.mitk.gui.qt.segmentation\src\internal\SegmentationUtilities\QmitkSegmentationUtilitiesViewControls.ui">
+      <Filter>QT UI Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK\Plugins\org.mitk.gui.qt.segmentation\src\internal\SegmentationUtilities\BooleanOperations\QmitkBooleanOperationsWidgetControls.ui">
+      <Filter>QT UI Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK\Plugins\org.mitk.gui.qt.segmentation\src\internal\SegmentationUtilities\ImageMasking\QmitkImageMaskingWidgetControls.ui">
+      <Filter>QT UI Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK\Plugins\org.mitk.gui.qt.segmentation\src\internal\SegmentationUtilities\ContourModelToImage\QmitkContourModelToImageWidgetControls.ui">
+      <Filter>QT UI Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK\Plugins\org.mitk.gui.qt.segmentation\src\internal\SegmentationUtilities\MorphologicalOperations\QmitkMorphologicalOperationsWidgetControls.ui">
+      <Filter>QT UI Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK\Plugins\org.mitk.gui.qt.segmentation\src\internal\SegmentationUtilities\SurfaceToImage\QmitkSurfaceToImageWidgetControls.ui">
+      <Filter>QT UI Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK\Plugins\org.mitk.gui.qt.segmentation\resources\segmentation.qrc">
+      <Filter>Qt Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK\Plugins\org.mitk.gui.qt.segmentation\resources\SegmentationUtilities.qrc">
+      <Filter>Qt Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK\Plugins\org.mitk.gui.qt.segmentation\resources\BooleanOperationsWidget.qrc">
+      <Filter>Qt Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK\Plugins\org.mitk.gui.qt.segmentation\resources\MorphologicalOperationsWidget.qrc">
+      <Filter>Qt Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.mitk.gui.qt.segmentation\org_mitk_gui_qt_segmentation_manifest.qrc" />
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.mitk.gui.qt.segmentation\org_mitk_gui_qt_segmentation_cached.qrc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{CAC8648D-C086-3462-B846-B0EBFA3DCB4A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="== Source Files ==">
+      <UniqueIdentifier>{9CA70B67-B51F-303F-96AF-687940E0FEA8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="== Header Files ==">
+      <UniqueIdentifier>{4D89E91A-663E-32FD-A047-724E4EC4BA98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="QT UI Files">
+      <UniqueIdentifier>{A7973F98-B74E-37EA-8F4A-12BAE98DFBF1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Qt Resource Files">
+      <UniqueIdentifier>{2207AE9E-C9A3-3741-808C-C55D2661FAAA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated">
+      <UniqueIdentifier>{7FA4B4B1-5C9C-314E-A0B9-36873EE561F1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

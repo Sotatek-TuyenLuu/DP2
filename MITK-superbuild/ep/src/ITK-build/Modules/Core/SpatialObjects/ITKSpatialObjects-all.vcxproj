@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{6FD42802-4390-334D-8A92-3AB0FC92BD26}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ITKSpatialObjects-all</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\DoubleConversion\src\double-conversion;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\KWSys\src;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\vcl;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\core;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\vcl;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\core;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNLInstantiation\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Core\Common;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\IO\ImageBase;E:\D\MITK-superbuild\ep\src\ITK\Modules\IO\ImageBase\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\ImageAdaptors\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\Netlib;E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageFilterBase\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\ImageFunction\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Mesh\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\ZLIB\src;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\ZLIB\src;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\MetaIO\src\MetaIO;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\MetaIO\src\MetaIO;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\DoubleConversion\src\double-conversion;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\KWSys\src;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\vcl;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\core;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\vcl;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\core;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNLInstantiation\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Core\Common;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\IO\ImageBase;E:\D\MITK-superbuild\ep\src\ITK\Modules\IO\ImageBase\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\ImageAdaptors\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\Netlib;E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageFilterBase\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\ImageFunction\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Mesh\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\ZLIB\src;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\ZLIB\src;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\MetaIO\src\MetaIO;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\MetaIO\src\MetaIO;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\DoubleConversion\src\double-conversion;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\KWSys\src;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\vcl;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\core;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\vcl;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\core;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNLInstantiation\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Core\Common;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\IO\ImageBase;E:\D\MITK-superbuild\ep\src\ITK\Modules\IO\ImageBase\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\ImageAdaptors\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\Netlib;E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageFilterBase\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\ImageFunction\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Mesh\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\ZLIB\src;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\ZLIB\src;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\MetaIO\src\MetaIO;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\MetaIO\src\MetaIO;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\DoubleConversion\src\double-conversion;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\KWSys\src;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\vcl;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\core;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\vcl;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\core;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNLInstantiation\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Core\Common;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\IO\ImageBase;E:\D\MITK-superbuild\ep\src\ITK\Modules\IO\ImageBase\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\ImageAdaptors\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\Netlib;E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageFilterBase\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\ImageFunction\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Mesh\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\ZLIB\src;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\ZLIB\src;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\MetaIO\src\MetaIO;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\MetaIO\src\MetaIO;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/ITK/Modules/Core/SpatialObjects/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/ITK -BE:/D/MITK-superbuild/ep/src/ITK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Core\SpatialObjects\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/ITK/Modules/Core/SpatialObjects/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\itk-module.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKIOImageBase.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKCommon.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKDoubleConversion.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKKWSys.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKVNLInstantiation.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKVNL.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageFunction.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageAdaptors.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKStatistics.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKNetlib.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKTransform.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageFilterBase.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKMesh.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKMetaIO.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKZLIB.cmake;E:\D\MITK-superbuild\ep\src\ITK\CMake\ITKModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\ITK\CMake\ITKModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\ITK\Utilities\Doxygen\Module.dox.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Core\SpatialObjects\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/ITK/Modules/Core/SpatialObjects/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/ITK -BE:/D/MITK-superbuild/ep/src/ITK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Core\SpatialObjects\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/ITK/Modules/Core/SpatialObjects/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\itk-module.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKIOImageBase.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKCommon.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKDoubleConversion.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKKWSys.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKVNLInstantiation.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKVNL.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageFunction.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageAdaptors.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKStatistics.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKNetlib.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKTransform.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageFilterBase.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKMesh.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKMetaIO.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKZLIB.cmake;E:\D\MITK-superbuild\ep\src\ITK\CMake\ITKModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\ITK\CMake\ITKModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\ITK\Utilities\Doxygen\Module.dox.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Core\SpatialObjects\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/ITK/Modules/Core/SpatialObjects/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/ITK -BE:/D/MITK-superbuild/ep/src/ITK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Core\SpatialObjects\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/ITK/Modules/Core/SpatialObjects/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\itk-module.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKIOImageBase.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKCommon.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKDoubleConversion.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKKWSys.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKVNLInstantiation.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKVNL.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageFunction.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageAdaptors.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKStatistics.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKNetlib.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKTransform.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageFilterBase.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKMesh.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKMetaIO.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKZLIB.cmake;E:\D\MITK-superbuild\ep\src\ITK\CMake\ITKModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\ITK\CMake\ITKModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\ITK\Utilities\Doxygen\Module.dox.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Core\SpatialObjects\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/ITK/Modules/Core/SpatialObjects/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/ITK -BE:/D/MITK-superbuild/ep/src/ITK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Core\SpatialObjects\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/ITK/Modules/Core/SpatialObjects/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\itk-module.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKIOImageBase.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKCommon.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKDoubleConversion.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKKWSys.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKVNLInstantiation.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKVNL.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageFunction.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageAdaptors.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKStatistics.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKNetlib.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKTransform.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageFilterBase.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKMesh.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKMetaIO.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKZLIB.cmake;E:\D\MITK-superbuild\ep\src\ITK\CMake\ITKModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\ITK\CMake\ITKModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\ITK\Utilities\Doxygen\Module.dox.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Core\SpatialObjects\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\src\itkArrowSpatialObject.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\src\itkCylinderSpatialObject.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\src\itkSpatialObjectFactoryBase.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkAffineGeometryFrame.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkArrowSpatialObject.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkBlobSpatialObject.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkBoxSpatialObject.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkContourSpatialObject.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkContourSpatialObjectPoint.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkCylinderSpatialObject.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkDTITubeSpatialObject.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkDTITubeSpatialObjectPoint.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkEllipseSpatialObject.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkGaussianSpatialObject.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkGroupSpatialObject.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkImageMaskSpatialObject.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkImageSpatialObject.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkLandmarkSpatialObject.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkLineSpatialObject.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkLineSpatialObjectPoint.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkMeshSpatialObject.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkMetaArrowConverter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkMetaBlobConverter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkMetaContourConverter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkMetaConverterBase.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkMetaDTITubeConverter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkMetaEllipseConverter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkMetaEvent.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkMetaGaussianConverter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkMetaGroupConverter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkMetaImageConverter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkMetaImageMaskConverter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkMetaLandmarkConverter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkMetaLineConverter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkMetaMeshConverter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkMetaSceneConverter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkMetaSurfaceConverter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkMetaTubeConverter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkMetaVesselTubeConverter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkPlaneSpatialObject.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkPointBasedSpatialObject.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkPolygonGroupSpatialObject.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkPolygonSpatialObject.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkSceneSpatialObject.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkSpatialObject.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkSpatialObjectDuplicator.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkSpatialObjectFactory.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkSpatialObjectFactoryBase.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkSpatialObjectPoint.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkSpatialObjectProperty.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkSpatialObjectToImageFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkSpatialObjectToImageStatisticsCalculator.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkSpatialObjectToPointSetFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkSpatialObjectTreeContainer.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkSpatialObjectTreeNode.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkSurfaceSpatialObject.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkSurfaceSpatialObjectPoint.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkTubeSpatialObject.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkTubeSpatialObjectPoint.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkVesselTubeSpatialObject.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkVesselTubeSpatialObjectPoint.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkAffineGeometryFrame.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkArrowSpatialObject.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkBlobSpatialObject.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkBoxSpatialObject.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkContourSpatialObject.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkContourSpatialObjectPoint.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkDTITubeSpatialObject.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkDTITubeSpatialObjectPoint.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkEllipseSpatialObject.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkGaussianSpatialObject.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkGroupSpatialObject.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkImageMaskSpatialObject.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkImageSpatialObject.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkLandmarkSpatialObject.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkLineSpatialObject.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkLineSpatialObjectPoint.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkMeshSpatialObject.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkMetaArrowConverter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkMetaBlobConverter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkMetaContourConverter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkMetaConverterBase.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkMetaDTITubeConverter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkMetaEllipseConverter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkMetaGaussianConverter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkMetaGroupConverter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkMetaImageConverter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkMetaLandmarkConverter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkMetaLineConverter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkMetaMeshConverter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkMetaSceneConverter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkMetaSurfaceConverter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkMetaTubeConverter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkMetaVesselTubeConverter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkPlaneSpatialObject.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkPointBasedSpatialObject.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkPolygonGroupSpatialObject.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkPolygonSpatialObject.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkSceneSpatialObject.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkSpatialObject.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkSpatialObjectDuplicator.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkSpatialObjectPoint.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkSpatialObjectProperty.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkSpatialObjectToImageFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkSpatialObjectToImageStatisticsCalculator.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkSpatialObjectToPointSetFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkSpatialObjectTreeContainer.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkSpatialObjectTreeNode.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkSurfaceSpatialObject.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkSurfaceSpatialObjectPoint.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkTubeSpatialObject.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkTubeSpatialObjectPoint.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkVesselTubeSpatialObject.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include\itkVesselTubeSpatialObjectPoint.hxx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/ITK-build/ZERO_CHECK.vcxproj">
+      <Project>7A8C6E7C-8178-3D2C-96BD-CC175A1D2858</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/ITK-build/Modules/Core/SpatialObjects/src/ITKSpatialObjects.vcxproj">
+      <Project>56305D15-6ADA-3AC8-AA35-A02F3906AA71</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

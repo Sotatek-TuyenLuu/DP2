@@ -1,0 +1,647 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{D32748D1-0363-3843-8923-4A8C6C32853B}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>MitkOpenViewCore</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\MITK-build\bin\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MitkOpenViewCore.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MitkOpenViewCore</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\MITK-build\bin\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MitkOpenViewCore.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MitkOpenViewCore</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\MITK-build\bin\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">MitkOpenViewCore.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">MitkOpenViewCore</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\MITK-build\bin\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">MitkOpenViewCore.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">MitkOpenViewCore</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\MITK-build\Modules\OpenViewCore;E:\D\MITK-superbuild\ep\include\vtk-6.2;E:\D\MITK\Modules\OpenViewCore\.;E:\D\MITK\Modules\CppMicroServices\third_party;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\include;E:\D\MITK\Modules\CppMicroServices\core\include;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\core\include;E:\D\MITK\Modules\CppMicroServices\core\src\util;E:\D\MITK\Modules\CppMicroServices\core\src\service;E:\D\MITK\Modules\CppMicroServices\core\src\module;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtQuick;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtQml;C:\Qt\5.4\msvc2013_opengl\include\QtNetwork;C:\Qt\5.4\msvc2013_opengl\include\QtWidgets;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4005;4231;4316</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WIN32_WINNT=0x0501;POCO_NO_UNWINDOWS;WIN32_LEAN_AND_MEAN;NOMINMAX;_DEBUG;US_MODULE_NAME=MitkOpenViewCore;vtkRenderingCore_INCLUDE="E:/D/MITK-superbuild/MITK-build/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingOpenGL.h";_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;QT_CORE_LIB;QT_QUICK_LIB;QT_GUI_LIB;QT_QML_LIB;QT_NETWORK_LIB;QT_WIDGETS_LIB;CMAKE_INTDIR="Debug";MitkOpenViewCore_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WIN32_WINNT=0x0501;POCO_NO_UNWINDOWS;WIN32_LEAN_AND_MEAN;NOMINMAX;_DEBUG;US_MODULE_NAME=MitkOpenViewCore;vtkRenderingCore_INCLUDE=\"E:/D/MITK-superbuild/MITK-build/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingOpenGL.h\";_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;QT_CORE_LIB;QT_QUICK_LIB;QT_GUI_LIB;QT_QML_LIB;QT_NETWORK_LIB;QT_WIDGETS_LIB;CMAKE_INTDIR=\"Debug\";MitkOpenViewCore_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\MITK-build\Modules\OpenViewCore;E:\D\MITK-superbuild\ep\include\vtk-6.2;E:\D\MITK\Modules\OpenViewCore\.;E:\D\MITK\Modules\CppMicroServices\third_party;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\include;E:\D\MITK\Modules\CppMicroServices\core\include;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\core\include;E:\D\MITK\Modules\CppMicroServices\core\src\util;E:\D\MITK\Modules\CppMicroServices\core\src\service;E:\D\MITK\Modules\CppMicroServices\core\src\module;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtQuick;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtQml;C:\Qt\5.4\msvc2013_opengl\include\QtNetwork;C:\Qt\5.4\msvc2013_opengl\include\QtWidgets;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\MITK-build\Modules\OpenViewCore;E:\D\MITK-superbuild\ep\include\vtk-6.2;E:\D\MITK\Modules\OpenViewCore\.;E:\D\MITK\Modules\CppMicroServices\third_party;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\include;E:\D\MITK\Modules\CppMicroServices\core\include;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\core\include;E:\D\MITK\Modules\CppMicroServices\core\src\util;E:\D\MITK\Modules\CppMicroServices\core\src\service;E:\D\MITK\Modules\CppMicroServices\core\src\module;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtQuick;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtQml;C:\Qt\5.4\msvc2013_opengl\include\QtNetwork;C:\Qt\5.4\msvc2013_opengl\include\QtWidgets;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\Debug\CppMicroServices.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Quickd.lib;E:\D\MITK-superbuild\ep\lib\vtkGUISupportQt-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkInteractionStyle-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingOpenGL-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingHybrid-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOImage-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkDICOMParser-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkmetaio-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkpng-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtktiff-6.2d.lib;glu32.lib;opengl32.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Qmld.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Networkd.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersExtraction-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersStatistics-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingFourier-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkalglib-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersSources-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersGeneral-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonComputationalGeometry-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonColor-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersGeometry-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonExecutionModel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonDataModel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonSystem-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonTransforms-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtksys-6.2d.lib;ws2_32.lib;Psapi.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonMisc-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonMath-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonCore-6.2d.lib;comctl32.lib;wsock32.lib;E:\D\MITK-superbuild\ep\lib\vtkzlib-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkjpeg-6.2d.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Widgetsd.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Guid.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Cored.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:/D/MITK-superbuild/ep/lib;E:/D/MITK-superbuild/ep/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/MITK-build/lib/Debug/MitkOpenViewCore.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/MITK-build/bin/Debug/MitkOpenViewCore.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\MITK-build\Modules\OpenViewCore;E:\D\MITK-superbuild\ep\include\vtk-6.2;E:\D\MITK\Modules\OpenViewCore\.;E:\D\MITK\Modules\CppMicroServices\third_party;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\include;E:\D\MITK\Modules\CppMicroServices\core\include;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\core\include;E:\D\MITK\Modules\CppMicroServices\core\src\util;E:\D\MITK\Modules\CppMicroServices\core\src\service;E:\D\MITK\Modules\CppMicroServices\core\src\module;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtQuick;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtQml;C:\Qt\5.4\msvc2013_opengl\include\QtNetwork;C:\Qt\5.4\msvc2013_opengl\include\QtWidgets;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4005;4231;4316</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WIN32_WINNT=0x0501;POCO_NO_UNWINDOWS;WIN32_LEAN_AND_MEAN;NOMINMAX;NDEBUG;US_MODULE_NAME=MitkOpenViewCore;vtkRenderingCore_INCLUDE="E:/D/MITK-superbuild/MITK-build/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingOpenGL.h";_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;QT_CORE_LIB;QT_NO_DEBUG;QT_QUICK_LIB;QT_GUI_LIB;QT_QML_LIB;QT_NETWORK_LIB;QT_WIDGETS_LIB;CMAKE_INTDIR="Release";MitkOpenViewCore_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WIN32_WINNT=0x0501;POCO_NO_UNWINDOWS;WIN32_LEAN_AND_MEAN;NOMINMAX;NDEBUG;US_MODULE_NAME=MitkOpenViewCore;vtkRenderingCore_INCLUDE=\"E:/D/MITK-superbuild/MITK-build/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingOpenGL.h\";_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;QT_CORE_LIB;QT_NO_DEBUG;QT_QUICK_LIB;QT_GUI_LIB;QT_QML_LIB;QT_NETWORK_LIB;QT_WIDGETS_LIB;CMAKE_INTDIR=\"Release\";MitkOpenViewCore_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\MITK-build\Modules\OpenViewCore;E:\D\MITK-superbuild\ep\include\vtk-6.2;E:\D\MITK\Modules\OpenViewCore\.;E:\D\MITK\Modules\CppMicroServices\third_party;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\include;E:\D\MITK\Modules\CppMicroServices\core\include;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\core\include;E:\D\MITK\Modules\CppMicroServices\core\src\util;E:\D\MITK\Modules\CppMicroServices\core\src\service;E:\D\MITK\Modules\CppMicroServices\core\src\module;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtQuick;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtQml;C:\Qt\5.4\msvc2013_opengl\include\QtNetwork;C:\Qt\5.4\msvc2013_opengl\include\QtWidgets;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\MITK-build\Modules\OpenViewCore;E:\D\MITK-superbuild\ep\include\vtk-6.2;E:\D\MITK\Modules\OpenViewCore\.;E:\D\MITK\Modules\CppMicroServices\third_party;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\include;E:\D\MITK\Modules\CppMicroServices\core\include;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\core\include;E:\D\MITK\Modules\CppMicroServices\core\src\util;E:\D\MITK\Modules\CppMicroServices\core\src\service;E:\D\MITK\Modules\CppMicroServices\core\src\module;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtQuick;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtQml;C:\Qt\5.4\msvc2013_opengl\include\QtNetwork;C:\Qt\5.4\msvc2013_opengl\include\QtWidgets;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\Release\CppMicroServices.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Quick.lib;E:\D\MITK-superbuild\ep\lib\vtkGUISupportQt-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkInteractionStyle-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingOpenGL-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingHybrid-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOImage-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkDICOMParser-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkmetaio-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkpng-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtktiff-6.2d.lib;glu32.lib;opengl32.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Qml.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Network.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersExtraction-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersStatistics-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingFourier-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkalglib-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersSources-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersGeneral-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonComputationalGeometry-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonColor-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersGeometry-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonExecutionModel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonDataModel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonSystem-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonTransforms-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtksys-6.2d.lib;ws2_32.lib;Psapi.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonMisc-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonMath-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonCore-6.2d.lib;comctl32.lib;wsock32.lib;E:\D\MITK-superbuild\ep\lib\vtkzlib-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkjpeg-6.2d.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Widgets.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Gui.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Core.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:/D/MITK-superbuild/ep/lib;E:/D/MITK-superbuild/ep/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/MITK-build/lib/Release/MitkOpenViewCore.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/MITK-build/bin/Release/MitkOpenViewCore.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\MITK-build\Modules\OpenViewCore;E:\D\MITK-superbuild\ep\include\vtk-6.2;E:\D\MITK\Modules\OpenViewCore\.;E:\D\MITK\Modules\CppMicroServices\third_party;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\include;E:\D\MITK\Modules\CppMicroServices\core\include;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\core\include;E:\D\MITK\Modules\CppMicroServices\core\src\util;E:\D\MITK\Modules\CppMicroServices\core\src\service;E:\D\MITK\Modules\CppMicroServices\core\src\module;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtQuick;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtQml;C:\Qt\5.4\msvc2013_opengl\include\QtNetwork;C:\Qt\5.4\msvc2013_opengl\include\QtWidgets;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4005;4231;4316</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WIN32_WINNT=0x0501;POCO_NO_UNWINDOWS;WIN32_LEAN_AND_MEAN;NOMINMAX;NDEBUG;US_MODULE_NAME=MitkOpenViewCore;vtkRenderingCore_INCLUDE="E:/D/MITK-superbuild/MITK-build/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingOpenGL.h";_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;QT_CORE_LIB;QT_NO_DEBUG;QT_QUICK_LIB;QT_GUI_LIB;QT_QML_LIB;QT_NETWORK_LIB;QT_WIDGETS_LIB;CMAKE_INTDIR="MinSizeRel";MitkOpenViewCore_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WIN32_WINNT=0x0501;POCO_NO_UNWINDOWS;WIN32_LEAN_AND_MEAN;NOMINMAX;NDEBUG;US_MODULE_NAME=MitkOpenViewCore;vtkRenderingCore_INCLUDE=\"E:/D/MITK-superbuild/MITK-build/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingOpenGL.h\";_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;QT_CORE_LIB;QT_NO_DEBUG;QT_QUICK_LIB;QT_GUI_LIB;QT_QML_LIB;QT_NETWORK_LIB;QT_WIDGETS_LIB;CMAKE_INTDIR=\"MinSizeRel\";MitkOpenViewCore_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\MITK-build\Modules\OpenViewCore;E:\D\MITK-superbuild\ep\include\vtk-6.2;E:\D\MITK\Modules\OpenViewCore\.;E:\D\MITK\Modules\CppMicroServices\third_party;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\include;E:\D\MITK\Modules\CppMicroServices\core\include;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\core\include;E:\D\MITK\Modules\CppMicroServices\core\src\util;E:\D\MITK\Modules\CppMicroServices\core\src\service;E:\D\MITK\Modules\CppMicroServices\core\src\module;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtQuick;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtQml;C:\Qt\5.4\msvc2013_opengl\include\QtNetwork;C:\Qt\5.4\msvc2013_opengl\include\QtWidgets;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\MITK-build\Modules\OpenViewCore;E:\D\MITK-superbuild\ep\include\vtk-6.2;E:\D\MITK\Modules\OpenViewCore\.;E:\D\MITK\Modules\CppMicroServices\third_party;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\include;E:\D\MITK\Modules\CppMicroServices\core\include;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\core\include;E:\D\MITK\Modules\CppMicroServices\core\src\util;E:\D\MITK\Modules\CppMicroServices\core\src\service;E:\D\MITK\Modules\CppMicroServices\core\src\module;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtQuick;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtQml;C:\Qt\5.4\msvc2013_opengl\include\QtNetwork;C:\Qt\5.4\msvc2013_opengl\include\QtWidgets;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\MinSizeRel\CppMicroServices.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Quick.lib;E:\D\MITK-superbuild\ep\lib\vtkGUISupportQt-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkInteractionStyle-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingOpenGL-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingHybrid-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOImage-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkDICOMParser-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkmetaio-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkpng-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtktiff-6.2d.lib;glu32.lib;opengl32.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Qml.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Network.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersExtraction-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersStatistics-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingFourier-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkalglib-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersSources-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersGeneral-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonComputationalGeometry-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonColor-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersGeometry-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonExecutionModel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonDataModel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonSystem-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonTransforms-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtksys-6.2d.lib;ws2_32.lib;Psapi.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonMisc-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonMath-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonCore-6.2d.lib;comctl32.lib;wsock32.lib;E:\D\MITK-superbuild\ep\lib\vtkzlib-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkjpeg-6.2d.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Widgets.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Gui.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Core.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:/D/MITK-superbuild/ep/lib;E:/D/MITK-superbuild/ep/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/MITK-build/lib/MinSizeRel/MitkOpenViewCore.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/MITK-build/bin/MinSizeRel/MitkOpenViewCore.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\MITK-build\Modules\OpenViewCore;E:\D\MITK-superbuild\ep\include\vtk-6.2;E:\D\MITK\Modules\OpenViewCore\.;E:\D\MITK\Modules\CppMicroServices\third_party;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\include;E:\D\MITK\Modules\CppMicroServices\core\include;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\core\include;E:\D\MITK\Modules\CppMicroServices\core\src\util;E:\D\MITK\Modules\CppMicroServices\core\src\service;E:\D\MITK\Modules\CppMicroServices\core\src\module;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtQuick;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtQml;C:\Qt\5.4\msvc2013_opengl\include\QtNetwork;C:\Qt\5.4\msvc2013_opengl\include\QtWidgets;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4005;4231;4316</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WIN32_WINNT=0x0501;POCO_NO_UNWINDOWS;WIN32_LEAN_AND_MEAN;NOMINMAX;NDEBUG;US_MODULE_NAME=MitkOpenViewCore;vtkRenderingCore_INCLUDE="E:/D/MITK-superbuild/MITK-build/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingOpenGL.h";_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;QT_CORE_LIB;QT_NO_DEBUG;QT_QUICK_LIB;QT_GUI_LIB;QT_QML_LIB;QT_NETWORK_LIB;QT_WIDGETS_LIB;CMAKE_INTDIR="RelWithDebInfo";MitkOpenViewCore_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WIN32_WINNT=0x0501;POCO_NO_UNWINDOWS;WIN32_LEAN_AND_MEAN;NOMINMAX;NDEBUG;US_MODULE_NAME=MitkOpenViewCore;vtkRenderingCore_INCLUDE=\"E:/D/MITK-superbuild/MITK-build/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingOpenGL.h\";_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;QT_CORE_LIB;QT_NO_DEBUG;QT_QUICK_LIB;QT_GUI_LIB;QT_QML_LIB;QT_NETWORK_LIB;QT_WIDGETS_LIB;CMAKE_INTDIR=\"RelWithDebInfo\";MitkOpenViewCore_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\MITK-build\Modules\OpenViewCore;E:\D\MITK-superbuild\ep\include\vtk-6.2;E:\D\MITK\Modules\OpenViewCore\.;E:\D\MITK\Modules\CppMicroServices\third_party;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\include;E:\D\MITK\Modules\CppMicroServices\core\include;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\core\include;E:\D\MITK\Modules\CppMicroServices\core\src\util;E:\D\MITK\Modules\CppMicroServices\core\src\service;E:\D\MITK\Modules\CppMicroServices\core\src\module;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtQuick;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtQml;C:\Qt\5.4\msvc2013_opengl\include\QtNetwork;C:\Qt\5.4\msvc2013_opengl\include\QtWidgets;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\MITK-build\Modules\OpenViewCore;E:\D\MITK-superbuild\ep\include\vtk-6.2;E:\D\MITK\Modules\OpenViewCore\.;E:\D\MITK\Modules\CppMicroServices\third_party;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\include;E:\D\MITK\Modules\CppMicroServices\core\include;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\core\include;E:\D\MITK\Modules\CppMicroServices\core\src\util;E:\D\MITK\Modules\CppMicroServices\core\src\service;E:\D\MITK\Modules\CppMicroServices\core\src\module;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtQuick;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtQml;C:\Qt\5.4\msvc2013_opengl\include\QtNetwork;C:\Qt\5.4\msvc2013_opengl\include\QtWidgets;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\RelWithDebInfo\CppMicroServices.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Quick.lib;E:\D\MITK-superbuild\ep\lib\vtkGUISupportQt-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkInteractionStyle-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingOpenGL-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingHybrid-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOImage-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkDICOMParser-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkmetaio-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkpng-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtktiff-6.2d.lib;glu32.lib;opengl32.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Qml.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Network.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersExtraction-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersStatistics-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingFourier-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkalglib-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersSources-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersGeneral-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonComputationalGeometry-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonColor-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersGeometry-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonExecutionModel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonDataModel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonSystem-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonTransforms-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtksys-6.2d.lib;ws2_32.lib;Psapi.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonMisc-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonMath-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonCore-6.2d.lib;comctl32.lib;wsock32.lib;E:\D\MITK-superbuild\ep\lib\vtkzlib-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkjpeg-6.2d.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Widgets.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Gui.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Core.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:/D/MITK-superbuild/ep/lib;E:/D/MITK-superbuild/ep/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/MITK-build/lib/RelWithDebInfo/MitkOpenViewCore.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/MITK-build/bin/RelWithDebInfo/MitkOpenViewCore.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK\Modules\OpenViewCore\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/D/MITK/Modules/OpenViewCore/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK -BE:/D/MITK-superbuild/MITK-build --check-stamp-file E:\D\MITK-superbuild\MITK-build\Modules\OpenViewCore\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK/Modules/OpenViewCore/CMakeLists.txt;E:\D\MITK\Modules\OpenViewCore\CMakeLists.txt;E:\D\MITK\Modules\OpenViewCore\files.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\CppMicroServicesConfigVersion.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\CppMicroServicesConfig.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\CMakeParseArguments.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionGenerateModuleInit.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionAddResources.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionCheckCompilerFlags.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionEmbedResources.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionCheckResourceLinking.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionGetResourceSource.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\usCoreConfigVersion.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\usCoreConfig.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usModuleInit.cpp;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\exportheader.cmake.in;E:\D\MITK\CMake\PackageDepends\MITK_Qt5_Config.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5\Qt5Config.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Quick\Qt5QuickConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Quick\Qt5QuickConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Qml\Qt5QmlConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Qml\Qt5QmlConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Qml\Qt5Qml_QtQuick2Plugin.cmake;E:\D\MITK\CMake\PackageDepends\MITK_VTK_Config.cmake;E:\D\MITK-superbuild\ep\lib\cmake\vtk-6.2\VTKConfigVersion.cmake;E:\D\MITK-superbuild\ep\lib\cmake\vtk-6.2\VTKConfig.cmake;E:\D\MITK-superbuild\ep\lib\cmake\vtk-6.2\vtkModuleAPI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;E:\D\MITK\CMake\PackageDepends\MITK_OpenGL_Config.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;E:\D\MITK\Modules\OpenViewCore\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\OpenViewCore\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/D/MITK/Modules/OpenViewCore/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK -BE:/D/MITK-superbuild/MITK-build --check-stamp-file E:\D\MITK-superbuild\MITK-build\Modules\OpenViewCore\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK/Modules/OpenViewCore/CMakeLists.txt;E:\D\MITK\Modules\OpenViewCore\CMakeLists.txt;E:\D\MITK\Modules\OpenViewCore\files.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\CppMicroServicesConfigVersion.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\CppMicroServicesConfig.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\CMakeParseArguments.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionGenerateModuleInit.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionAddResources.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionCheckCompilerFlags.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionEmbedResources.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionCheckResourceLinking.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionGetResourceSource.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\usCoreConfigVersion.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\usCoreConfig.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usModuleInit.cpp;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\exportheader.cmake.in;E:\D\MITK\CMake\PackageDepends\MITK_Qt5_Config.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5\Qt5Config.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Quick\Qt5QuickConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Quick\Qt5QuickConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Qml\Qt5QmlConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Qml\Qt5QmlConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Qml\Qt5Qml_QtQuick2Plugin.cmake;E:\D\MITK\CMake\PackageDepends\MITK_VTK_Config.cmake;E:\D\MITK-superbuild\ep\lib\cmake\vtk-6.2\VTKConfigVersion.cmake;E:\D\MITK-superbuild\ep\lib\cmake\vtk-6.2\VTKConfig.cmake;E:\D\MITK-superbuild\ep\lib\cmake\vtk-6.2\vtkModuleAPI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;E:\D\MITK\CMake\PackageDepends\MITK_OpenGL_Config.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;E:\D\MITK\Modules\OpenViewCore\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\OpenViewCore\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/D/MITK/Modules/OpenViewCore/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK -BE:/D/MITK-superbuild/MITK-build --check-stamp-file E:\D\MITK-superbuild\MITK-build\Modules\OpenViewCore\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK/Modules/OpenViewCore/CMakeLists.txt;E:\D\MITK\Modules\OpenViewCore\CMakeLists.txt;E:\D\MITK\Modules\OpenViewCore\files.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\CppMicroServicesConfigVersion.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\CppMicroServicesConfig.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\CMakeParseArguments.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionGenerateModuleInit.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionAddResources.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionCheckCompilerFlags.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionEmbedResources.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionCheckResourceLinking.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionGetResourceSource.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\usCoreConfigVersion.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\usCoreConfig.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usModuleInit.cpp;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\exportheader.cmake.in;E:\D\MITK\CMake\PackageDepends\MITK_Qt5_Config.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5\Qt5Config.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Quick\Qt5QuickConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Quick\Qt5QuickConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Qml\Qt5QmlConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Qml\Qt5QmlConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Qml\Qt5Qml_QtQuick2Plugin.cmake;E:\D\MITK\CMake\PackageDepends\MITK_VTK_Config.cmake;E:\D\MITK-superbuild\ep\lib\cmake\vtk-6.2\VTKConfigVersion.cmake;E:\D\MITK-superbuild\ep\lib\cmake\vtk-6.2\VTKConfig.cmake;E:\D\MITK-superbuild\ep\lib\cmake\vtk-6.2\vtkModuleAPI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;E:\D\MITK\CMake\PackageDepends\MITK_OpenGL_Config.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;E:\D\MITK\Modules\OpenViewCore\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\OpenViewCore\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/D/MITK/Modules/OpenViewCore/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK -BE:/D/MITK-superbuild/MITK-build --check-stamp-file E:\D\MITK-superbuild\MITK-build\Modules\OpenViewCore\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK/Modules/OpenViewCore/CMakeLists.txt;E:\D\MITK\Modules\OpenViewCore\CMakeLists.txt;E:\D\MITK\Modules\OpenViewCore\files.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\CppMicroServicesConfigVersion.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\CppMicroServicesConfig.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\CMakeParseArguments.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionGenerateModuleInit.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionAddResources.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionCheckCompilerFlags.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionEmbedResources.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionCheckResourceLinking.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionGetResourceSource.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\usCoreConfigVersion.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\usCoreConfig.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usModuleInit.cpp;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\exportheader.cmake.in;E:\D\MITK\CMake\PackageDepends\MITK_Qt5_Config.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5\Qt5Config.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Quick\Qt5QuickConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Quick\Qt5QuickConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Qml\Qt5QmlConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Qml\Qt5QmlConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Qml\Qt5Qml_QtQuick2Plugin.cmake;E:\D\MITK\CMake\PackageDepends\MITK_VTK_Config.cmake;E:\D\MITK-superbuild\ep\lib\cmake\vtk-6.2\VTKConfigVersion.cmake;E:\D\MITK-superbuild\ep\lib\cmake\vtk-6.2\VTKConfig.cmake;E:\D\MITK-superbuild\ep\lib\cmake\vtk-6.2\vtkModuleAPI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;E:\D\MITK\CMake\PackageDepends\MITK_OpenGL_Config.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;E:\D\MITK\Modules\OpenViewCore\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\OpenViewCore\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\92185f482a43ef95ee7d5d7684e3d57f\moc_QVTKInteractorAdapter.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating moc_QVTKInteractorAdapter.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Modules\OpenViewCore
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Modules/OpenViewCore/moc_QVTKInteractorAdapter.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/92185f482a43ef95ee7d5d7684e3d57f/moc_QVTKInteractorAdapter.cpp.rule;E:\D\MITK\Modules\OpenViewCore\QVTKInteractorAdapter.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\OpenViewCore\moc_QVTKInteractorAdapter.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating moc_QVTKInteractorAdapter.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Modules\OpenViewCore
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Modules/OpenViewCore/moc_QVTKInteractorAdapter.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/92185f482a43ef95ee7d5d7684e3d57f/moc_QVTKInteractorAdapter.cpp.rule;E:\D\MITK\Modules\OpenViewCore\QVTKInteractorAdapter.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\OpenViewCore\moc_QVTKInteractorAdapter.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating moc_QVTKInteractorAdapter.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Modules\OpenViewCore
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Modules/OpenViewCore/moc_QVTKInteractorAdapter.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/92185f482a43ef95ee7d5d7684e3d57f/moc_QVTKInteractorAdapter.cpp.rule;E:\D\MITK\Modules\OpenViewCore\QVTKInteractorAdapter.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\OpenViewCore\moc_QVTKInteractorAdapter.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating moc_QVTKInteractorAdapter.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Modules\OpenViewCore
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Modules/OpenViewCore/moc_QVTKInteractorAdapter.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/92185f482a43ef95ee7d5d7684e3d57f/moc_QVTKInteractorAdapter.cpp.rule;E:\D\MITK\Modules\OpenViewCore\QVTKInteractorAdapter.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\OpenViewCore\moc_QVTKInteractorAdapter.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\92185f482a43ef95ee7d5d7684e3d57f\moc_QVTKInteractorInternal.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating moc_QVTKInteractorInternal.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Modules\OpenViewCore
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Modules/OpenViewCore/moc_QVTKInteractorInternal.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/92185f482a43ef95ee7d5d7684e3d57f/moc_QVTKInteractorInternal.cpp.rule;E:\D\MITK\Modules\OpenViewCore\QVTKInteractorInternal.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\OpenViewCore\moc_QVTKInteractorInternal.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating moc_QVTKInteractorInternal.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Modules\OpenViewCore
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Modules/OpenViewCore/moc_QVTKInteractorInternal.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/92185f482a43ef95ee7d5d7684e3d57f/moc_QVTKInteractorInternal.cpp.rule;E:\D\MITK\Modules\OpenViewCore\QVTKInteractorInternal.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\OpenViewCore\moc_QVTKInteractorInternal.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating moc_QVTKInteractorInternal.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Modules\OpenViewCore
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Modules/OpenViewCore/moc_QVTKInteractorInternal.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/92185f482a43ef95ee7d5d7684e3d57f/moc_QVTKInteractorInternal.cpp.rule;E:\D\MITK\Modules\OpenViewCore\QVTKInteractorInternal.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\OpenViewCore\moc_QVTKInteractorInternal.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating moc_QVTKInteractorInternal.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Modules\OpenViewCore
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Modules/OpenViewCore/moc_QVTKInteractorInternal.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/92185f482a43ef95ee7d5d7684e3d57f/moc_QVTKInteractorInternal.cpp.rule;E:\D\MITK\Modules\OpenViewCore\QVTKInteractorInternal.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\OpenViewCore\moc_QVTKInteractorInternal.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\92185f482a43ef95ee7d5d7684e3d57f\moc_QVTKQuickItem.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating moc_QVTKQuickItem.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Modules\OpenViewCore
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Modules/OpenViewCore/moc_QVTKQuickItem.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/92185f482a43ef95ee7d5d7684e3d57f/moc_QVTKQuickItem.cpp.rule;E:\D\MITK\Modules\OpenViewCore\QVTKQuickItem.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\OpenViewCore\moc_QVTKQuickItem.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating moc_QVTKQuickItem.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Modules\OpenViewCore
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Modules/OpenViewCore/moc_QVTKQuickItem.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/92185f482a43ef95ee7d5d7684e3d57f/moc_QVTKQuickItem.cpp.rule;E:\D\MITK\Modules\OpenViewCore\QVTKQuickItem.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\OpenViewCore\moc_QVTKQuickItem.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating moc_QVTKQuickItem.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Modules\OpenViewCore
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Modules/OpenViewCore/moc_QVTKQuickItem.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/92185f482a43ef95ee7d5d7684e3d57f/moc_QVTKQuickItem.cpp.rule;E:\D\MITK\Modules\OpenViewCore\QVTKQuickItem.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\OpenViewCore\moc_QVTKQuickItem.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating moc_QVTKQuickItem.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Modules\OpenViewCore
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Modules/OpenViewCore/moc_QVTKQuickItem.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/92185f482a43ef95ee7d5d7684e3d57f/moc_QVTKQuickItem.cpp.rule;E:\D\MITK\Modules\OpenViewCore\QVTKQuickItem.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\OpenViewCore\moc_QVTKQuickItem.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\92185f482a43ef95ee7d5d7684e3d57f\moc_vtkQtConnection.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating moc_vtkQtConnection.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Modules\OpenViewCore
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Modules/OpenViewCore/moc_vtkQtConnection.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/92185f482a43ef95ee7d5d7684e3d57f/moc_vtkQtConnection.cpp.rule;E:\D\MITK\Modules\OpenViewCore\vtkQtConnection.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\OpenViewCore\moc_vtkQtConnection.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating moc_vtkQtConnection.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Modules\OpenViewCore
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Modules/OpenViewCore/moc_vtkQtConnection.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/92185f482a43ef95ee7d5d7684e3d57f/moc_vtkQtConnection.cpp.rule;E:\D\MITK\Modules\OpenViewCore\vtkQtConnection.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\OpenViewCore\moc_vtkQtConnection.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating moc_vtkQtConnection.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Modules\OpenViewCore
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Modules/OpenViewCore/moc_vtkQtConnection.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/92185f482a43ef95ee7d5d7684e3d57f/moc_vtkQtConnection.cpp.rule;E:\D\MITK\Modules\OpenViewCore\vtkQtConnection.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\OpenViewCore\moc_vtkQtConnection.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating moc_vtkQtConnection.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Modules\OpenViewCore
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Modules/OpenViewCore/moc_vtkQtConnection.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/92185f482a43ef95ee7d5d7684e3d57f/moc_vtkQtConnection.cpp.rule;E:\D\MITK\Modules\OpenViewCore\vtkQtConnection.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\OpenViewCore\moc_vtkQtConnection.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\D\MITK\Modules\OpenViewCore\vtkEventQtSlotConnect.h" />
+    <ClInclude Include="E:\D\MITK\Modules\OpenViewCore\QVTKInteractor.h" />
+    <ClInclude Include="E:\D\MITK\Modules\OpenViewCore\QVTKInteractorAdapter.h" />
+    <ClInclude Include="E:\D\MITK\Modules\OpenViewCore\QVTKQuickItem.h" />
+    <ClInclude Include="E:\D\MITK\Modules\OpenViewCore\vtkQtConnection.h" />
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\OpenViewCore\us_init.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\OpenViewCore\vtkEventQtSlotConnect.cxx"  />
+    <ClCompile Include="E:\D\MITK\Modules\OpenViewCore\QVTKInteractor.cxx"  />
+    <ClCompile Include="E:\D\MITK\Modules\OpenViewCore\QVTKInteractorAdapter.cxx"  />
+    <ClCompile Include="E:\D\MITK\Modules\OpenViewCore\QVTKQuickItem.cxx"  />
+    <ClCompile Include="E:\D\MITK\Modules\OpenViewCore\vtkQtConnection.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\OpenViewCore\moc_QVTKInteractorAdapter.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\OpenViewCore\moc_QVTKInteractorInternal.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\OpenViewCore\moc_QVTKQuickItem.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\OpenViewCore\moc_vtkQtConnection.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:/D/MITK-superbuild/MITK-build/ZERO_CHECK.vcxproj">
+      <Project>B13C44DE-4BB4-3414-ABDA-308DC25B7D17</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/MITK-build/Modules/CppMicroServices/core/CppMicroServices.vcxproj">
+      <Project>5F3BDE34-8C32-3441-8C46-8AC176A184DA</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

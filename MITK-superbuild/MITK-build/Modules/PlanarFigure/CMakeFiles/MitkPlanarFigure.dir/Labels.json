@@ -1,0 +1,308 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/Modules/PlanarFigure/us_init.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/PlanarFigure/src/Algorithms/mitkExtrudePlanarFigureFilter.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/PlanarFigure/src/Algorithms/mitkImageToPlanarFigureFilter.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/PlanarFigure/src/Algorithms/mitkPlanarFigureObjectFactory.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/PlanarFigure/src/Algorithms/mitkPlanarFigureSource.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/PlanarFigure/src/Algorithms/mitkPlanarFigureToPlanarFigureFilter.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/PlanarFigure/src/DataManagement/mitkPlanarAngle.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/PlanarFigure/src/DataManagement/mitkPlanarBezierCurve.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/PlanarFigure/src/DataManagement/mitkPlanarCircle.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/PlanarFigure/src/DataManagement/mitkPlanarDoubleEllipse.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/PlanarFigure/src/DataManagement/mitkPlanarEllipse.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/PlanarFigure/src/DataManagement/mitkPlanarCross.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/PlanarFigure/src/DataManagement/mitkPlanarFigure.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/PlanarFigure/src/DataManagement/mitkPlanarFourPointAngle.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/PlanarFigure/src/DataManagement/mitkPlanarLine.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/PlanarFigure/src/DataManagement/mitkPlanarArrow.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/PlanarFigure/src/DataManagement/mitkPlanarPolygon.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/PlanarFigure/src/DataManagement/mitkPlanarSubdivisionPolygon.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/PlanarFigure/src/DataManagement/mitkPlanarRectangle.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/PlanarFigure/src/DataManagement/mitkPlanarFigureControlPointStyleProperty.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/PlanarFigure/src/IO/mitkPlanarFigureIOFactory.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/PlanarFigure/src/IO/mitkPlanarFigureReader.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/PlanarFigure/src/IO/mitkPlanarFigureWriter.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/PlanarFigure/src/IO/mitkPlanarFigureWriterFactory.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/PlanarFigure/src/IO/mitkPlanarFigureSerializer.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/PlanarFigure/src/IO/mitkPlanarFigureSubclassesSerializer.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/PlanarFigure/src/Interactions/mitkPlanarFigureInteractor.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/PlanarFigure/src/Rendering/mitkPlanarFigureMapper2D.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/PlanarFigure/src/Rendering/mitkPlanarFigureVtkMapper3D.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/Modules/PlanarFigure/us_MitkPlanarFigure/us_resources.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/PlanarFigure/include/mitkExtrudePlanarFigureFilter.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/PlanarFigure/include/mitkImageToPlanarFigureFilter.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/PlanarFigure/include/mitkPlanarAngle.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/PlanarFigure/include/mitkPlanarArrow.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/PlanarFigure/include/mitkPlanarBezierCurve.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/PlanarFigure/include/mitkPlanarCircle.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/PlanarFigure/include/mitkPlanarCross.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/PlanarFigure/include/mitkPlanarDoubleEllipse.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/PlanarFigure/include/mitkPlanarEllipse.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/PlanarFigure/include/mitkPlanarFigure.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/PlanarFigure/include/mitkPlanarFigureControlPointStyleProperty.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/PlanarFigure/include/mitkPlanarFigureInteractor.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/PlanarFigure/include/mitkPlanarFigureMapper2D.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/PlanarFigure/include/mitkPlanarFigureObjectFactory.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/PlanarFigure/include/mitkPlanarFigureReader.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/PlanarFigure/include/mitkPlanarFigureSource.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/PlanarFigure/include/mitkPlanarFigureToPlanarFigureFilter.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/PlanarFigure/include/mitkPlanarFigureVtkMapper3D.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/PlanarFigure/include/mitkPlanarFigureWriter.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/PlanarFigure/include/mitkPlanarFourPointAngle.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/PlanarFigure/include/mitkPlanarLine.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/PlanarFigure/include/mitkPlanarPolygon.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/PlanarFigure/include/mitkPlanarRectangle.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/PlanarFigure/include/mitkPlanarSubdivisionPolygon.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/PlanarFigure/src/IO/mitkPlanarFigureIOFactory.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/PlanarFigure/src/IO/mitkPlanarFigureWriterFactory.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/PlanarFigure/src/IO/mitkPlanarFigureSerializer.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/PlanarFigure/CMakeLists.txt"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/CMakeFiles/3b248c770cba258fb74edc40894146c2/us_resources.cpp.rule"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/CMakeFiles/3b248c770cba258fb74edc40894146c2/res_0.zip.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "MITK-Modules", "MITK" ],
+		"name" : "MitkPlanarFigure"
+	}
+}

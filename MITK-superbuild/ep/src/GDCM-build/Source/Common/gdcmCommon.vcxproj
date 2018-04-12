@@ -1,0 +1,364 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{A1E3A5C6-B543-37EB-A202-537F90A685E4}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>gdcmCommon</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\GDCM-build\bin\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">gdcmCommon.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">gdcmCommond</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\GDCM-build\bin\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">gdcmCommon.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">gdcmCommon</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\GDCM-build\bin\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">gdcmCommon.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">gdcmCommon</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\GDCM-build\bin\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">gdcmCommon.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">gdcmCommon</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\GDCM-build\Source\Common;E:\D\MITK-superbuild\ep\src\GDCM\Source\Common;E:\D\MITK-superbuild\ep\src\GDCM\Source\DataStructureAndEncodingDefinition;E:\D\MITK-superbuild\ep\src\GDCM-build\Testing\Source\Data;E:\D\MITK-superbuild\ep\src\GDCM\Testing\Source\Data;E:\D\MITK-superbuild\ep\src\GDCM\Utilities;E:\D\MITK-superbuild\ep\src\GDCM-build\Utilities\gdcmzlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug";gdcmCommon_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\";gdcmCommon_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\GDCM-build\Source\Common;E:\D\MITK-superbuild\ep\src\GDCM\Source\Common;E:\D\MITK-superbuild\ep\src\GDCM\Source\DataStructureAndEncodingDefinition;E:\D\MITK-superbuild\ep\src\GDCM-build\Testing\Source\Data;E:\D\MITK-superbuild\ep\src\GDCM\Testing\Source\Data;E:\D\MITK-superbuild\ep\src\GDCM\Utilities;E:\D\MITK-superbuild\ep\src\GDCM-build\Utilities\gdcmzlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\GDCM-build\Source\Common;E:\D\MITK-superbuild\ep\src\GDCM\Source\Common;E:\D\MITK-superbuild\ep\src\GDCM\Source\DataStructureAndEncodingDefinition;E:\D\MITK-superbuild\ep\src\GDCM-build\Testing\Source\Data;E:\D\MITK-superbuild\ep\src\GDCM\Testing\Source\Data;E:\D\MITK-superbuild\ep\src\GDCM\Utilities;E:\D\MITK-superbuild\ep\src\GDCM-build\Utilities\gdcmzlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;ws2_32.lib;crypt32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/ep/src/GDCM-build/bin/Debug/gdcmCommond.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/ep/src/GDCM-build/bin/Debug/gdcmCommond.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\GDCM-build\Source\Common;E:\D\MITK-superbuild\ep\src\GDCM\Source\Common;E:\D\MITK-superbuild\ep\src\GDCM\Source\DataStructureAndEncodingDefinition;E:\D\MITK-superbuild\ep\src\GDCM-build\Testing\Source\Data;E:\D\MITK-superbuild\ep\src\GDCM\Testing\Source\Data;E:\D\MITK-superbuild\ep\src\GDCM\Utilities;E:\D\MITK-superbuild\ep\src\GDCM-build\Utilities\gdcmzlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release";gdcmCommon_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\";gdcmCommon_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\GDCM-build\Source\Common;E:\D\MITK-superbuild\ep\src\GDCM\Source\Common;E:\D\MITK-superbuild\ep\src\GDCM\Source\DataStructureAndEncodingDefinition;E:\D\MITK-superbuild\ep\src\GDCM-build\Testing\Source\Data;E:\D\MITK-superbuild\ep\src\GDCM\Testing\Source\Data;E:\D\MITK-superbuild\ep\src\GDCM\Utilities;E:\D\MITK-superbuild\ep\src\GDCM-build\Utilities\gdcmzlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\GDCM-build\Source\Common;E:\D\MITK-superbuild\ep\src\GDCM\Source\Common;E:\D\MITK-superbuild\ep\src\GDCM\Source\DataStructureAndEncodingDefinition;E:\D\MITK-superbuild\ep\src\GDCM-build\Testing\Source\Data;E:\D\MITK-superbuild\ep\src\GDCM\Testing\Source\Data;E:\D\MITK-superbuild\ep\src\GDCM\Utilities;E:\D\MITK-superbuild\ep\src\GDCM-build\Utilities\gdcmzlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;ws2_32.lib;crypt32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/ep/src/GDCM-build/bin/Release/gdcmCommon.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/ep/src/GDCM-build/bin/Release/gdcmCommon.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\GDCM-build\Source\Common;E:\D\MITK-superbuild\ep\src\GDCM\Source\Common;E:\D\MITK-superbuild\ep\src\GDCM\Source\DataStructureAndEncodingDefinition;E:\D\MITK-superbuild\ep\src\GDCM-build\Testing\Source\Data;E:\D\MITK-superbuild\ep\src\GDCM\Testing\Source\Data;E:\D\MITK-superbuild\ep\src\GDCM\Utilities;E:\D\MITK-superbuild\ep\src\GDCM-build\Utilities\gdcmzlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR="MinSizeRel";gdcmCommon_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\";gdcmCommon_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\GDCM-build\Source\Common;E:\D\MITK-superbuild\ep\src\GDCM\Source\Common;E:\D\MITK-superbuild\ep\src\GDCM\Source\DataStructureAndEncodingDefinition;E:\D\MITK-superbuild\ep\src\GDCM-build\Testing\Source\Data;E:\D\MITK-superbuild\ep\src\GDCM\Testing\Source\Data;E:\D\MITK-superbuild\ep\src\GDCM\Utilities;E:\D\MITK-superbuild\ep\src\GDCM-build\Utilities\gdcmzlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\GDCM-build\Source\Common;E:\D\MITK-superbuild\ep\src\GDCM\Source\Common;E:\D\MITK-superbuild\ep\src\GDCM\Source\DataStructureAndEncodingDefinition;E:\D\MITK-superbuild\ep\src\GDCM-build\Testing\Source\Data;E:\D\MITK-superbuild\ep\src\GDCM\Testing\Source\Data;E:\D\MITK-superbuild\ep\src\GDCM\Utilities;E:\D\MITK-superbuild\ep\src\GDCM-build\Utilities\gdcmzlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;ws2_32.lib;crypt32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/ep/src/GDCM-build/bin/MinSizeRel/gdcmCommon.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/ep/src/GDCM-build/bin/MinSizeRel/gdcmCommon.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\GDCM-build\Source\Common;E:\D\MITK-superbuild\ep\src\GDCM\Source\Common;E:\D\MITK-superbuild\ep\src\GDCM\Source\DataStructureAndEncodingDefinition;E:\D\MITK-superbuild\ep\src\GDCM-build\Testing\Source\Data;E:\D\MITK-superbuild\ep\src\GDCM\Testing\Source\Data;E:\D\MITK-superbuild\ep\src\GDCM\Utilities;E:\D\MITK-superbuild\ep\src\GDCM-build\Utilities\gdcmzlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR="RelWithDebInfo";gdcmCommon_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\";gdcmCommon_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\GDCM-build\Source\Common;E:\D\MITK-superbuild\ep\src\GDCM\Source\Common;E:\D\MITK-superbuild\ep\src\GDCM\Source\DataStructureAndEncodingDefinition;E:\D\MITK-superbuild\ep\src\GDCM-build\Testing\Source\Data;E:\D\MITK-superbuild\ep\src\GDCM\Testing\Source\Data;E:\D\MITK-superbuild\ep\src\GDCM\Utilities;E:\D\MITK-superbuild\ep\src\GDCM-build\Utilities\gdcmzlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\GDCM-build\Source\Common;E:\D\MITK-superbuild\ep\src\GDCM\Source\Common;E:\D\MITK-superbuild\ep\src\GDCM\Source\DataStructureAndEncodingDefinition;E:\D\MITK-superbuild\ep\src\GDCM-build\Testing\Source\Data;E:\D\MITK-superbuild\ep\src\GDCM\Testing\Source\Data;E:\D\MITK-superbuild\ep\src\GDCM\Utilities;E:\D\MITK-superbuild\ep\src\GDCM-build\Utilities\gdcmzlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;ws2_32.lib;crypt32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/ep/src/GDCM-build/bin/RelWithDebInfo/gdcmCommon.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/ep/src/GDCM-build/bin/RelWithDebInfo/gdcmCommon.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\Common\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/GDCM/Source/Common/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/GDCM -BE:/D/MITK-superbuild/ep/src/GDCM-build --check-stamp-file E:\D\MITK-superbuild\ep\src\GDCM-build\Source\Common\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/GDCM/Source/Common/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\GDCM\Source\Common\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.c.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.c.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXSourceCompiles.cmake;E:\D\MITK-superbuild\ep\src\GDCM\Source\Common\gdcmConfigure.h.in;E:\D\MITK-superbuild\ep\src\GDCM\Source\Common\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\GDCM-build\Source\Common\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/GDCM/Source/Common/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/GDCM -BE:/D/MITK-superbuild/ep/src/GDCM-build --check-stamp-file E:\D\MITK-superbuild\ep\src\GDCM-build\Source\Common\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/GDCM/Source/Common/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\GDCM\Source\Common\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.c.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.c.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXSourceCompiles.cmake;E:\D\MITK-superbuild\ep\src\GDCM\Source\Common\gdcmConfigure.h.in;E:\D\MITK-superbuild\ep\src\GDCM\Source\Common\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\GDCM-build\Source\Common\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/GDCM/Source/Common/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/GDCM -BE:/D/MITK-superbuild/ep/src/GDCM-build --check-stamp-file E:\D\MITK-superbuild\ep\src\GDCM-build\Source\Common\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/GDCM/Source/Common/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\GDCM\Source\Common\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.c.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.c.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXSourceCompiles.cmake;E:\D\MITK-superbuild\ep\src\GDCM\Source\Common\gdcmConfigure.h.in;E:\D\MITK-superbuild\ep\src\GDCM\Source\Common\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\GDCM-build\Source\Common\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/GDCM/Source/Common/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/GDCM -BE:/D/MITK-superbuild/ep/src/GDCM-build --check-stamp-file E:\D\MITK-superbuild\ep\src\GDCM-build\Source\Common\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/GDCM/Source/Common/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\GDCM\Source\Common\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.c.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.c.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXSourceCompiles.cmake;E:\D\MITK-superbuild\ep\src\GDCM\Source\Common\gdcmConfigure.h.in;E:\D\MITK-superbuild\ep\src\GDCM\Source\Common\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\GDCM-build\Source\Common\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\Common\gdcmVersion.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\Common\gdcmRegion.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\Common\gdcmBoxRegion.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\Common\gdcmEvent.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\Common\gdcmDataEvent.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\Common\gdcmProgressEvent.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\Common\gdcmFileNameEvent.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\Common\gdcmCommand.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\Common\gdcmMD5.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\Common\gdcmBase64.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\Common\gdcmSHA1.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\Common\gdcmDummyValueGenerator.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\Common\gdcmCryptographicMessageSyntax.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\Common\gdcmCryptoFactory.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\Common\gdcmASN1.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\Common\gdcmObject.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\Common\gdcmSubject.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\Common\gdcmDirectory.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\Common\gdcmTerminal.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\Common\gdcmString.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\Common\gdcmFilename.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\Common\gdcmFilenameGenerator.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\Common\gdcmSwapCode.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\Common\gdcmSystem.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\Common\gdcmTrace.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\Common\gdcmException.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\Common\gdcmDeflateStream.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\Common\gdcmByteSwap.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\Common\gdcmUnpacker12Bits.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\Common\gdcmCAPICryptographicMessageSyntax.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\Common\gdcmCAPICryptoFactory.cxx"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/GDCM-build/ZERO_CHECK.vcxproj">
+      <Project>EAED6603-E392-3DF3-BE7D-0D3F7F92F9AD</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

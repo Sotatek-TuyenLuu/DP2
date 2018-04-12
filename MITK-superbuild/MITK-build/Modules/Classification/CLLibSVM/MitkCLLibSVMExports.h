@@ -1,0 +1,41 @@
+
+#ifndef MITKCLLIBSVM_EXPORT_H
+#define MITKCLLIBSVM_EXPORT_H
+
+#ifdef MITKCLLIBSVM_STATIC_DEFINE
+#  define MITKCLLIBSVM_EXPORT
+#  define MITKCLLIBSVM_NO_EXPORT
+#else
+#  ifndef MITKCLLIBSVM_EXPORT
+#    ifdef MitkCLLibSVM_EXPORTS
+        /* We are building this library */
+#      define MITKCLLIBSVM_EXPORT __declspec(dllexport)
+#    else
+        /* We are using this library */
+#      define MITKCLLIBSVM_EXPORT __declspec(dllimport)
+#    endif
+#  endif
+
+#  ifndef MITKCLLIBSVM_NO_EXPORT
+#    define MITKCLLIBSVM_NO_EXPORT 
+#  endif
+#endif
+
+#ifndef MITKCLLIBSVM_DEPRECATED
+#  define MITKCLLIBSVM_DEPRECATED __declspec(deprecated)
+#endif
+
+#ifndef MITKCLLIBSVM_DEPRECATED_EXPORT
+#  define MITKCLLIBSVM_DEPRECATED_EXPORT MITKCLLIBSVM_EXPORT MITKCLLIBSVM_DEPRECATED
+#endif
+
+#ifndef MITKCLLIBSVM_DEPRECATED_NO_EXPORT
+#  define MITKCLLIBSVM_DEPRECATED_NO_EXPORT MITKCLLIBSVM_NO_EXPORT MITKCLLIBSVM_DEPRECATED
+#endif
+
+#define DEFINE_NO_DEPRECATED 0
+#if DEFINE_NO_DEPRECATED
+# define MITKCLLIBSVM_NO_DEPRECATED
+#endif
+
+#endif

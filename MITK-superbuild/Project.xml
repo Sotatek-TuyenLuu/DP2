@@ -1,0 +1,45 @@
+<Project name="MITK">
+  <SubProject name="SuperBuild">
+  <SubProject name="MITK-Core">
+    <Dependency name="SuperBuild"/>
+  </SubProject>
+  <SubProject name="MITK-CoreUI">
+    <Dependency name="SuperBuild"/>
+  </SubProject>
+  <SubProject name="MITK-IGT">
+    <Dependency name="SuperBuild"/>
+  </SubProject>
+  <SubProject name="MITK-ToF">
+    <Dependency name="SuperBuild"/>
+  </SubProject>
+  <SubProject name="MITK-DTI">
+    <Dependency name="SuperBuild"/>
+  </SubProject>
+  <SubProject name="MITK-Registration">
+    <Dependency name="SuperBuild"/>
+  </SubProject>
+  <SubProject name="MITK-Modules">
+    <Dependency name="SuperBuild"/>
+  </SubProject>
+  <SubProject name="MITK-Plugins">
+    <Dependency name="SuperBuild"/>
+  </SubProject>
+  <SubProject name="MITK-Examples">
+    <Dependency name="SuperBuild"/>
+  </SubProject>
+  <SubProject name="Unlabeled">
+    <Dependency name="SuperBuild"/>
+  </SubProject>
+  <SubProject name="Documentation">
+    <Dependency name="MITK-Core"/>
+    <Dependency name="MITK-CoreUI"/>
+    <Dependency name="MITK-IGT"/>
+    <Dependency name="MITK-ToF"/>
+    <Dependency name="MITK-DTI"/>
+    <Dependency name="MITK-Registration"/>
+    <Dependency name="MITK-Modules"/>
+    <Dependency name="MITK-Plugins"/>
+    <Dependency name="MITK-Examples"/>
+    <Dependency name="Unlabeled"/>
+  </SubProject>
+</Project>

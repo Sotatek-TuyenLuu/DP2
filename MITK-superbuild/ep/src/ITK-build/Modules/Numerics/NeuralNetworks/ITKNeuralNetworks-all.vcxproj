@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{A85DB5F1-F0A8-3348-9EC1-64838E2E1069}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ITKNeuralNetworks-all</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\DoubleConversion\src\double-conversion;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\KWSys\src;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\vcl;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\core;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\vcl;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\core;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNLInstantiation\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Core\Common;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\Netlib;E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\DoubleConversion\src\double-conversion;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\KWSys\src;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\vcl;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\core;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\vcl;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\core;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNLInstantiation\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Core\Common;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\Netlib;E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\DoubleConversion\src\double-conversion;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\KWSys\src;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\vcl;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\core;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\vcl;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\core;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNLInstantiation\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Core\Common;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\Netlib;E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\DoubleConversion\src\double-conversion;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\KWSys\src;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\vcl;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\core;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\vcl;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\core;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNLInstantiation\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Core\Common;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\Netlib;E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/ITK/Modules/Numerics/NeuralNetworks/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/ITK -BE:/D/MITK-superbuild/ep/src/ITK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Numerics\NeuralNetworks\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/ITK/Modules/Numerics/NeuralNetworks/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\itk-module.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKStatistics.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKCommon.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKDoubleConversion.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKKWSys.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKVNLInstantiation.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKVNL.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKNetlib.cmake;E:\D\MITK-superbuild\ep\src\ITK\CMake\ITKModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\ITK\CMake\ITKModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\ITK\Utilities\Doxygen\Module.dox.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Numerics\NeuralNetworks\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/ITK/Modules/Numerics/NeuralNetworks/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/ITK -BE:/D/MITK-superbuild/ep/src/ITK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Numerics\NeuralNetworks\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/ITK/Modules/Numerics/NeuralNetworks/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\itk-module.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKStatistics.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKCommon.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKDoubleConversion.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKKWSys.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKVNLInstantiation.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKVNL.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKNetlib.cmake;E:\D\MITK-superbuild\ep\src\ITK\CMake\ITKModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\ITK\CMake\ITKModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\ITK\Utilities\Doxygen\Module.dox.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Numerics\NeuralNetworks\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/ITK/Modules/Numerics/NeuralNetworks/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/ITK -BE:/D/MITK-superbuild/ep/src/ITK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Numerics\NeuralNetworks\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/ITK/Modules/Numerics/NeuralNetworks/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\itk-module.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKStatistics.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKCommon.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKDoubleConversion.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKKWSys.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKVNLInstantiation.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKVNL.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKNetlib.cmake;E:\D\MITK-superbuild\ep\src\ITK\CMake\ITKModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\ITK\CMake\ITKModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\ITK\Utilities\Doxygen\Module.dox.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Numerics\NeuralNetworks\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/ITK/Modules/Numerics/NeuralNetworks/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/ITK -BE:/D/MITK-superbuild/ep/src/ITK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Numerics\NeuralNetworks\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/ITK/Modules/Numerics/NeuralNetworks/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\itk-module.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKStatistics.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKCommon.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKDoubleConversion.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKKWSys.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKVNLInstantiation.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKVNL.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKNetlib.cmake;E:\D\MITK-superbuild\ep\src\ITK\CMake\ITKModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\ITK\CMake\ITKModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\ITK\Utilities\Doxygen\Module.dox.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Numerics\NeuralNetworks\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkBackPropagationLayer.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkBatchSupervisedTrainingFunction.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkCompletelyConnectedWeightSet.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkErrorBackPropagationLearningFunctionBase.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkErrorBackPropagationLearningWithMomentum.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkErrorFunctionBase.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkGaussianRadialBasisFunction.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkGaussianTransferFunction.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkHardLimitTransferFunction.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkIdentityTransferFunction.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkInputFunctionBase.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkIterativeSupervisedTrainingFunction.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkLayerBase.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkLearningFunctionBase.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkLogSigmoidTransferFunction.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkMeanSquaredErrorFunction.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkMultilayerNeuralNetworkBase.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkMultiquadricRadialBasisFunction.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkNeuralNetworkObject.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkNNetDistanceMetricBase.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkOneHiddenLayerBackPropagationNeuralNetwork.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkProductInputFunction.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkQuickPropLearningRule.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkRadialBasisFunctionBase.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkRBFBackPropagationLearningFunction.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkRBFLayer.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkRBFNetwork.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkSigmoidTransferFunction.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkSignedHardLimitTransferFunction.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkSquaredDifferenceErrorFunction.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkSumInputFunction.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkSymmetricSigmoidTransferFunction.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkTanHTransferFunction.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkTanSigmoidTransferFunction.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkTrainingFunctionBase.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkTransferFunctionBase.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkTwoHiddenLayerBackPropagationNeuralNetwork.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkWeightSetBase.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkBackPropagationLayer.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkBatchSupervisedTrainingFunction.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkCompletelyConnectedWeightSet.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkErrorBackPropagationLearningFunctionBase.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkErrorBackPropagationLearningWithMomentum.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkGaussianRadialBasisFunction.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkGaussianTransferFunction.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkHardLimitTransferFunction.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkIdentityTransferFunction.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkIterativeSupervisedTrainingFunction.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkLayerBase.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkLogSigmoidTransferFunction.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkMeanSquaredErrorFunction.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkMultilayerNeuralNetworkBase.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkMultiquadricRadialBasisFunction.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkNeuralNetworkObject.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkOneHiddenLayerBackPropagationNeuralNetwork.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkProductInputFunction.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkQuickPropLearningRule.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkRBFBackPropagationLearningFunction.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkRBFLayer.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkRBFNetwork.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkSigmoidTransferFunction.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkSignedHardLimitTransferFunction.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkSquaredDifferenceErrorFunction.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkSumInputFunction.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkSymmetricSigmoidTransferFunction.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkTanHTransferFunction.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkTanSigmoidTransferFunction.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkTrainingFunctionBase.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkTwoHiddenLayerBackPropagationNeuralNetwork.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\NeuralNetworks\include\itkWeightSetBase.hxx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/ITK-build/ZERO_CHECK.vcxproj">
+      <Project>7A8C6E7C-8178-3D2C-96BD-CC175A1D2858</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

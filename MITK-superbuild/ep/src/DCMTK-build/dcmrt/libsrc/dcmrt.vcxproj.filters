@@ -1,0 +1,538 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtdose.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtimage.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtplan.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtstrct.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drttreat.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtionpl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtiontr.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drttypes.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtadcs.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtads.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtas1.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtas5.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtas6.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtas7.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtass.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtbads.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtbas.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtbcps.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtbl2.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtbl5.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtbldls.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtbldps.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtblds1.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtblds5.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtblds6.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtbldts.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtbrcss.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtbrdrs.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtbrs.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtbs.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtcbars.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtccs.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtcdrs.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtces.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtchs.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtcims.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtcis.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtcncs.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtcos.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtcpas.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtcps.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtcs.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtcshs.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtcsis.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtcss.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtdcs.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtdimcs.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtdrs.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtds.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtdspcs.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtdss.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtdvhs.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtdvrrs.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drteas.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtes.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtfds.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtfgs.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtfgss.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtfms.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtforrs.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtfsss.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drthsdrs.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtiblds.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtibls.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtibs.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drticpds.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drticps.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtics.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtiis.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtircs.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtitts.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtiwps.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtiws.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtlsds6.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtlsds7.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtlsds.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtmacds.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtmas.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtmdrs.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtmls.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtmps.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtmss.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtmucs.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtoas.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtopis.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtos.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtpbcs.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtpcs.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtpcxs.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtpics.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtporcs.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtporis.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtppcs.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtprsis.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtpscs.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtpss.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtpvis.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtras.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtrbas2.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtrbass8.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtrbls.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtrbos1.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtrbos6.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtrbos7.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtrbs2.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtrbs8.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtrcdrs.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtrcos.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtrcps.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtrcs.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtrdros.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtrdrs1.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtrdrs6.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtrdrs8.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtrds.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtrfgs.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtrfors.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtrics.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtrims.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtris.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtrlsds.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtrmdrs.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtrms.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtrmss6.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtrmss7.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtrpcs.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtrpis.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtrpps.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtrppss.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtrps.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtrris1.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtrris6.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtrris9.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtrrms.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtrros.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtrrpcs.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtrrros.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtrrs.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtrrshs.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtrrtps3.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtrrtps4.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtrrtps5.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtrrtps.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtrses.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtrshs6.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtrshs7.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtrshs.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtrsis.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtrsns.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtrss.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtrsss.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtrsts.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtrtrs.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtrvis.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtrws.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtsds.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtshds.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtsis.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtsns.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtspcs.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtss.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtssrs.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drttms0.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drttms9.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drttscds.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drttsibs.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drttsmds.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drttts.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtvls.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtwps.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drtws.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drmdose.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drmimage.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drmplan.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\drmstrct.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmrt\libsrc\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{401B31C1-6AFF-3879-B73A-9AEE34DE4CB0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

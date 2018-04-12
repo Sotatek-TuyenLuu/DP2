@@ -1,0 +1,376 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{56016A4E-3F58-375D-992E-0197EDD5B360}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>vtktiff</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\bin\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">vtktiff.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">vtktiff-6.2d</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\bin\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">vtktiff.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">vtktiff-6.2</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\bin\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">vtktiff.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">vtktiff-6.2</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\bin\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">vtktiff.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">vtktiff-6.2</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj -w -w %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\tiff\vtktiff;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff\vtktiff;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\jpeg;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\jpeg;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\tiff;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;JPEG_SUPPORT;ZIP_SUPPORT;_HPUX_SOURCE;TIF_PLATFORM_CONSOLE;CMAKE_INTDIR="Debug";vtktiff_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;JPEG_SUPPORT;ZIP_SUPPORT;_HPUX_SOURCE;TIF_PLATFORM_CONSOLE;CMAKE_INTDIR=\"Debug\";vtktiff_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\tiff\vtktiff;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff\vtktiff;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\jpeg;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\jpeg;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\tiff;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\tiff\vtktiff;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff\vtktiff;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\jpeg;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\jpeg;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\tiff;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\..\lib\Debug\vtkzlib-6.2d.lib;..\..\..\lib\Debug\vtkjpeg-6.2d.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/ep/src/VTK-build/lib/Debug/vtktiff-6.2d.lib</ImportLibrary>
+      <ModuleDefinitionFile>E:/D/MITK-superbuild/ep/src/VTK/ThirdParty/tiff/vtktiff/vtktiff.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/ep/src/VTK-build/bin/Debug/vtktiff-6.2d.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj -w -w %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\tiff\vtktiff;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff\vtktiff;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\jpeg;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\jpeg;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\tiff;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;JPEG_SUPPORT;ZIP_SUPPORT;_HPUX_SOURCE;TIF_PLATFORM_CONSOLE;CMAKE_INTDIR="Release";vtktiff_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;JPEG_SUPPORT;ZIP_SUPPORT;_HPUX_SOURCE;TIF_PLATFORM_CONSOLE;CMAKE_INTDIR=\"Release\";vtktiff_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\tiff\vtktiff;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff\vtktiff;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\jpeg;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\jpeg;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\tiff;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\tiff\vtktiff;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff\vtktiff;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\jpeg;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\jpeg;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\tiff;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\..\lib\Release\vtkzlib-6.2.lib;..\..\..\lib\Release\vtkjpeg-6.2.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/ep/src/VTK-build/lib/Release/vtktiff-6.2.lib</ImportLibrary>
+      <ModuleDefinitionFile>E:/D/MITK-superbuild/ep/src/VTK/ThirdParty/tiff/vtktiff/vtktiff.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/ep/src/VTK-build/bin/Release/vtktiff-6.2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj -w -w %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\tiff\vtktiff;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff\vtktiff;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\jpeg;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\jpeg;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\tiff;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;JPEG_SUPPORT;ZIP_SUPPORT;_HPUX_SOURCE;TIF_PLATFORM_CONSOLE;CMAKE_INTDIR="MinSizeRel";vtktiff_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;JPEG_SUPPORT;ZIP_SUPPORT;_HPUX_SOURCE;TIF_PLATFORM_CONSOLE;CMAKE_INTDIR=\"MinSizeRel\";vtktiff_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\tiff\vtktiff;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff\vtktiff;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\jpeg;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\jpeg;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\tiff;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\tiff\vtktiff;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff\vtktiff;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\jpeg;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\jpeg;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\tiff;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\..\lib\MinSizeRel\vtkzlib-6.2.lib;..\..\..\lib\MinSizeRel\vtkjpeg-6.2.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/ep/src/VTK-build/lib/MinSizeRel/vtktiff-6.2.lib</ImportLibrary>
+      <ModuleDefinitionFile>E:/D/MITK-superbuild/ep/src/VTK/ThirdParty/tiff/vtktiff/vtktiff.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/ep/src/VTK-build/bin/MinSizeRel/vtktiff-6.2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj -w -w %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\tiff\vtktiff;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff\vtktiff;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\jpeg;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\jpeg;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\tiff;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;JPEG_SUPPORT;ZIP_SUPPORT;_HPUX_SOURCE;TIF_PLATFORM_CONSOLE;CMAKE_INTDIR="RelWithDebInfo";vtktiff_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;JPEG_SUPPORT;ZIP_SUPPORT;_HPUX_SOURCE;TIF_PLATFORM_CONSOLE;CMAKE_INTDIR=\"RelWithDebInfo\";vtktiff_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\tiff\vtktiff;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff\vtktiff;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\jpeg;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\jpeg;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\tiff;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\tiff\vtktiff;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff\vtktiff;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\jpeg;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\jpeg;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\tiff;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\..\lib\RelWithDebInfo\vtkzlib-6.2.lib;..\..\..\lib\RelWithDebInfo\vtkjpeg-6.2.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/ep/src/VTK-build/lib/RelWithDebInfo/vtktiff-6.2.lib</ImportLibrary>
+      <ModuleDefinitionFile>E:/D/MITK-superbuild/ep/src/VTK/ThirdParty/tiff/vtktiff/vtktiff.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/ep/src/VTK-build/bin/RelWithDebInfo/vtktiff-6.2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff\vtktiff\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/VTK/ThirdParty/tiff/vtktiff/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/VTK -BE:/D/MITK-superbuild/ep/src/VTK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\tiff\vtktiff\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/VTK/ThirdParty/tiff/vtktiff/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff\vtktiff\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckTypeSize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFileCXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckTypeSize.c.in;E:\D\MITK-superbuild\ep\src\VTK-build\CMakeFiles\CheckTypeSize\SIZEOF_INT.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckTypeSize.c.in;E:\D\MITK-superbuild\ep\src\VTK-build\CMakeFiles\CheckTypeSize\SIZEOF_LONG.c;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff\vtktiff\tiffDllConfig.h.in;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff\vtktiff\tif_config.h.in;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff\vtktiff\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\tiff\vtktiff\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/VTK/ThirdParty/tiff/vtktiff/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/VTK -BE:/D/MITK-superbuild/ep/src/VTK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\tiff\vtktiff\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/VTK/ThirdParty/tiff/vtktiff/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff\vtktiff\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckTypeSize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFileCXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckTypeSize.c.in;E:\D\MITK-superbuild\ep\src\VTK-build\CMakeFiles\CheckTypeSize\SIZEOF_INT.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckTypeSize.c.in;E:\D\MITK-superbuild\ep\src\VTK-build\CMakeFiles\CheckTypeSize\SIZEOF_LONG.c;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff\vtktiff\tiffDllConfig.h.in;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff\vtktiff\tif_config.h.in;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff\vtktiff\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\tiff\vtktiff\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/VTK/ThirdParty/tiff/vtktiff/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/VTK -BE:/D/MITK-superbuild/ep/src/VTK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\tiff\vtktiff\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/VTK/ThirdParty/tiff/vtktiff/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff\vtktiff\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckTypeSize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFileCXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckTypeSize.c.in;E:\D\MITK-superbuild\ep\src\VTK-build\CMakeFiles\CheckTypeSize\SIZEOF_INT.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckTypeSize.c.in;E:\D\MITK-superbuild\ep\src\VTK-build\CMakeFiles\CheckTypeSize\SIZEOF_LONG.c;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff\vtktiff\tiffDllConfig.h.in;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff\vtktiff\tif_config.h.in;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff\vtktiff\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\tiff\vtktiff\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/VTK/ThirdParty/tiff/vtktiff/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/VTK -BE:/D/MITK-superbuild/ep/src/VTK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\tiff\vtktiff\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/VTK/ThirdParty/tiff/vtktiff/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff\vtktiff\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckTypeSize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFileCXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckTypeSize.c.in;E:\D\MITK-superbuild\ep\src\VTK-build\CMakeFiles\CheckTypeSize\SIZEOF_INT.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckTypeSize.c.in;E:\D\MITK-superbuild\ep\src\VTK-build\CMakeFiles\CheckTypeSize\SIZEOF_LONG.c;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff\vtktiff\tiffDllConfig.h.in;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff\vtktiff\tif_config.h.in;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff\vtktiff\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\tiff\vtktiff\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff\vtktiff\tif_aux.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff\vtktiff\tif_close.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff\vtktiff\tif_codec.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff\vtktiff\tif_compress.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff\vtktiff\tif_dir.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff\vtktiff\tif_dirinfo.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff\vtktiff\tif_dirread.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff\vtktiff\tif_dirwrite.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff\vtktiff\tif_dumpmode.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff\vtktiff\tif_error.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff\vtktiff\tif_fax3.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff\vtktiff\tif_flush.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff\vtktiff\tif_getimage.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff\vtktiff\tif_jpeg.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff\vtktiff\tif_luv.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff\vtktiff\tif_lzw.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff\vtktiff\tif_next.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff\vtktiff\tif_ojpeg.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff\vtktiff\tif_open.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff\vtktiff\tif_packbits.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff\vtktiff\tif_pixarlog.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff\vtktiff\tif_predict.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff\vtktiff\tif_print.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff\vtktiff\tif_read.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff\vtktiff\tif_strip.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff\vtktiff\tif_swab.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff\vtktiff\tif_thunder.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff\vtktiff\tif_tile.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff\vtktiff\tif_version.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff\vtktiff\tif_warning.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff\vtktiff\tif_write.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff\vtktiff\tif_zip.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff\vtktiff\tif_color.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff\vtktiff\tif_extension.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff\vtktiff\tif_win32.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff\vtktiff\fax3sm_winnt.c"  />
+    <None Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\tiff\vtktiff\vtktiff.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/VTK-build/ZERO_CHECK.vcxproj">
+      <Project>96A894C7-FD6E-37E5-A6D0-C197A99428A9</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/VTK-build/ThirdParty/jpeg/vtkjpeg/vtkjpeg.vcxproj">
+      <Project>7FE5E8FE-4CE5-376F-A9E5-99DDB4AE8685</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/VTK-build/ThirdParty/zlib/vtkzlib/vtkzlib.vcxproj">
+      <Project>505DB1E6-8EB8-3F8E-82E9-437F1B5C0E6A</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

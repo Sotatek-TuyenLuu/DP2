@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{E4B4F31C-7038-3209-85D1-EA70554731A4}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ITKQuadEdgeMeshFiltering-all</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\DoubleConversion\src\double-conversion;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\KWSys\src;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\vcl;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\core;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\vcl;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\core;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNLInstantiation\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Core\Common;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageFilterBase\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\Netlib;E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Mesh\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\QuadEdgeMesh\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\QuadEdgeMeshFiltering\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\DoubleConversion\src\double-conversion;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\KWSys\src;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\vcl;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\core;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\vcl;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\core;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNLInstantiation\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Core\Common;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageFilterBase\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\Netlib;E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Mesh\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\QuadEdgeMesh\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\QuadEdgeMeshFiltering\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\DoubleConversion\src\double-conversion;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\KWSys\src;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\vcl;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\core;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\vcl;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\core;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNLInstantiation\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Core\Common;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageFilterBase\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\Netlib;E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Mesh\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\QuadEdgeMesh\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\QuadEdgeMeshFiltering\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\DoubleConversion\src\double-conversion;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\KWSys\src;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\vcl;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\core;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\vcl;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\core;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNLInstantiation\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Core\Common;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageFilterBase\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\Netlib;E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Mesh\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\QuadEdgeMesh\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\QuadEdgeMeshFiltering\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\QuadEdgeMeshFiltering\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/ITK/Modules/Filtering/QuadEdgeMeshFiltering/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/ITK -BE:/D/MITK-superbuild/ep/src/ITK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Filtering\QuadEdgeMeshFiltering\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/ITK/Modules/Filtering/QuadEdgeMeshFiltering/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\QuadEdgeMeshFiltering\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\QuadEdgeMeshFiltering\itk-module.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKQuadEdgeMesh.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKMesh.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKTransform.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageFilterBase.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKCommon.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKDoubleConversion.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKKWSys.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKVNLInstantiation.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKVNL.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKStatistics.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKNetlib.cmake;E:\D\MITK-superbuild\ep\src\ITK\CMake\ITKModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\ITK\CMake\ITKModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\ITK\Utilities\Doxygen\Module.dox.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\QuadEdgeMeshFiltering\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Filtering\QuadEdgeMeshFiltering\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/ITK/Modules/Filtering/QuadEdgeMeshFiltering/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/ITK -BE:/D/MITK-superbuild/ep/src/ITK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Filtering\QuadEdgeMeshFiltering\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/ITK/Modules/Filtering/QuadEdgeMeshFiltering/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\QuadEdgeMeshFiltering\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\QuadEdgeMeshFiltering\itk-module.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKQuadEdgeMesh.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKMesh.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKTransform.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageFilterBase.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKCommon.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKDoubleConversion.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKKWSys.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKVNLInstantiation.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKVNL.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKStatistics.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKNetlib.cmake;E:\D\MITK-superbuild\ep\src\ITK\CMake\ITKModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\ITK\CMake\ITKModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\ITK\Utilities\Doxygen\Module.dox.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\QuadEdgeMeshFiltering\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Filtering\QuadEdgeMeshFiltering\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/ITK/Modules/Filtering/QuadEdgeMeshFiltering/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/ITK -BE:/D/MITK-superbuild/ep/src/ITK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Filtering\QuadEdgeMeshFiltering\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/ITK/Modules/Filtering/QuadEdgeMeshFiltering/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\QuadEdgeMeshFiltering\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\QuadEdgeMeshFiltering\itk-module.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKQuadEdgeMesh.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKMesh.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKTransform.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageFilterBase.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKCommon.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKDoubleConversion.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKKWSys.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKVNLInstantiation.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKVNL.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKStatistics.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKNetlib.cmake;E:\D\MITK-superbuild\ep\src\ITK\CMake\ITKModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\ITK\CMake\ITKModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\ITK\Utilities\Doxygen\Module.dox.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\QuadEdgeMeshFiltering\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Filtering\QuadEdgeMeshFiltering\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/ITK/Modules/Filtering/QuadEdgeMeshFiltering/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/ITK -BE:/D/MITK-superbuild/ep/src/ITK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Filtering\QuadEdgeMeshFiltering\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/ITK/Modules/Filtering/QuadEdgeMeshFiltering/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\QuadEdgeMeshFiltering\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\QuadEdgeMeshFiltering\itk-module.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKQuadEdgeMesh.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKMesh.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKTransform.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageFilterBase.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKCommon.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKDoubleConversion.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKKWSys.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKVNLInstantiation.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKVNL.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKStatistics.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKNetlib.cmake;E:\D\MITK-superbuild\ep\src\ITK\CMake\ITKModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\ITK\CMake\ITKModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\ITK\Utilities\Doxygen\Module.dox.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\QuadEdgeMeshFiltering\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Filtering\QuadEdgeMeshFiltering\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\QuadEdgeMeshFiltering\include\itkBorderQuadEdgeMeshFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\QuadEdgeMeshFiltering\include\itkCleanQuadEdgeMeshFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\QuadEdgeMeshFiltering\include\itkDecimationQuadEdgeMeshFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\QuadEdgeMeshFiltering\include\itkDelaunayConformingQuadEdgeMeshFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\QuadEdgeMeshFiltering\include\itkDiscreteCurvatureQuadEdgeMeshFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\QuadEdgeMeshFiltering\include\itkDiscreteCurvatureTensorQuadEdgeMeshFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\QuadEdgeMeshFiltering\include\itkDiscreteGaussianCurvatureQuadEdgeMeshFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\QuadEdgeMeshFiltering\include\itkDiscreteMaximumCurvatureQuadEdgeMeshFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\QuadEdgeMeshFiltering\include\itkDiscreteMeanCurvatureQuadEdgeMeshFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\QuadEdgeMeshFiltering\include\itkDiscreteMinimumCurvatureQuadEdgeMeshFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\QuadEdgeMeshFiltering\include\itkDiscretePrincipalCurvaturesQuadEdgeMeshFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\QuadEdgeMeshFiltering\include\itkEdgeDecimationQuadEdgeMeshFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\QuadEdgeMeshFiltering\include\itkLaplacianDeformationQuadEdgeMeshFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\QuadEdgeMeshFiltering\include\itkLaplacianDeformationQuadEdgeMeshFilterWithHardConstraints.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\QuadEdgeMeshFiltering\include\itkLaplacianDeformationQuadEdgeMeshFilterWithSoftConstraints.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\QuadEdgeMeshFiltering\include\itkNormalQuadEdgeMeshFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\QuadEdgeMeshFiltering\include\itkParameterizationQuadEdgeMeshFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\QuadEdgeMeshFiltering\include\itkQuadEdgeMeshDecimationCriteria.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\QuadEdgeMeshFiltering\include\itkQuadEdgeMeshDecimationQuadricElementHelper.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\QuadEdgeMeshFiltering\include\itkQuadEdgeMeshParamMatrixCoefficients.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\QuadEdgeMeshFiltering\include\itkQuadricDecimationQuadEdgeMeshFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\QuadEdgeMeshFiltering\include\itkSmoothingQuadEdgeMeshFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\QuadEdgeMeshFiltering\include\itkSquaredEdgeLengthDecimationQuadEdgeMeshFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\QuadEdgeMeshFiltering\include\itkBorderQuadEdgeMeshFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\QuadEdgeMeshFiltering\include\itkCleanQuadEdgeMeshFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\QuadEdgeMeshFiltering\include\itkDelaunayConformingQuadEdgeMeshFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\QuadEdgeMeshFiltering\include\itkEdgeDecimationQuadEdgeMeshFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\QuadEdgeMeshFiltering\include\itkLaplacianDeformationQuadEdgeMeshFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\QuadEdgeMeshFiltering\include\itkLaplacianDeformationQuadEdgeMeshFilterWithHardConstraints.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\QuadEdgeMeshFiltering\include\itkLaplacianDeformationQuadEdgeMeshFilterWithSoftConstraints.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\QuadEdgeMeshFiltering\include\itkNormalQuadEdgeMeshFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\QuadEdgeMeshFiltering\include\itkParameterizationQuadEdgeMeshFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\QuadEdgeMeshFiltering\include\itkQuadricDecimationQuadEdgeMeshFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\QuadEdgeMeshFiltering\include\itkSmoothingQuadEdgeMeshFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\QuadEdgeMeshFiltering\include\itkSquaredEdgeLengthDecimationQuadEdgeMeshFilter.hxx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/ITK-build/ZERO_CHECK.vcxproj">
+      <Project>7A8C6E7C-8178-3D2C-96BD-CC175A1D2858</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

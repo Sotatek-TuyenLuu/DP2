@@ -1,0 +1,633 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{F5DB8851-3E8F-31E9-979B-BC4EFB6B7CA6}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>vtkRenderingCore</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\bin\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">vtkRenderingCore.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">vtkRenderingCore-6.2d</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\bin\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">vtkRenderingCore.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">vtkRenderingCore-6.2</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\bin\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">vtkRenderingCore.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">vtkRenderingCore-6.2</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\bin\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">vtkRenderingCore.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">vtkRenderingCore-6.2</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK-build\Common\Color;E:\D\MITK-superbuild\ep\src\VTK\Common\Color;E:\D\MITK-superbuild\ep\src\VTK-build\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Math;E:\D\MITK-superbuild\ep\src\VTK\Common\Math;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core;E:\D\MITK-superbuild\ep\src\VTK\Common\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Misc;E:\D\MITK-superbuild\ep\src\VTK\Common\Misc;E:\D\MITK-superbuild\ep\src\VTK-build\Common\System;E:\D\MITK-superbuild\ep\src\VTK\Common\System;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Transforms;E:\D\MITK-superbuild\ep\src\VTK\Common\Transforms;E:\D\MITK-superbuild\ep\src\VTK-build\Common\ExecutionModel;E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Extraction;E:\D\MITK-superbuild\ep\src\VTK\Filters\Extraction;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Core;E:\D\MITK-superbuild\ep\src\VTK\Filters\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\General;E:\D\MITK-superbuild\ep\src\VTK\Filters\General;E:\D\MITK-superbuild\ep\src\VTK-build\Common\ComputationalGeometry;E:\D\MITK-superbuild\ep\src\VTK\Common\ComputationalGeometry;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Statistics;E:\D\MITK-superbuild\ep\src\VTK\Filters\Statistics;E:\D\MITK-superbuild\ep\src\VTK-build\Imaging\Fourier;E:\D\MITK-superbuild\ep\src\VTK\Imaging\Fourier;E:\D\MITK-superbuild\ep\src\VTK-build\Imaging\Core;E:\D\MITK-superbuild\ep\src\VTK\Imaging\Core;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\alglib;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\alglib;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Geometry;E:\D\MITK-superbuild\ep\src\VTK\Filters\Geometry;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Sources;E:\D\MITK-superbuild\ep\src\VTK\Filters\Sources;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\Core;E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR="Debug";vtkRenderingCore_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR=\"Debug\";vtkRenderingCore_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK-build\Common\Color;E:\D\MITK-superbuild\ep\src\VTK\Common\Color;E:\D\MITK-superbuild\ep\src\VTK-build\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Math;E:\D\MITK-superbuild\ep\src\VTK\Common\Math;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core;E:\D\MITK-superbuild\ep\src\VTK\Common\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Misc;E:\D\MITK-superbuild\ep\src\VTK\Common\Misc;E:\D\MITK-superbuild\ep\src\VTK-build\Common\System;E:\D\MITK-superbuild\ep\src\VTK\Common\System;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Transforms;E:\D\MITK-superbuild\ep\src\VTK\Common\Transforms;E:\D\MITK-superbuild\ep\src\VTK-build\Common\ExecutionModel;E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Extraction;E:\D\MITK-superbuild\ep\src\VTK\Filters\Extraction;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Core;E:\D\MITK-superbuild\ep\src\VTK\Filters\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\General;E:\D\MITK-superbuild\ep\src\VTK\Filters\General;E:\D\MITK-superbuild\ep\src\VTK-build\Common\ComputationalGeometry;E:\D\MITK-superbuild\ep\src\VTK\Common\ComputationalGeometry;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Statistics;E:\D\MITK-superbuild\ep\src\VTK\Filters\Statistics;E:\D\MITK-superbuild\ep\src\VTK-build\Imaging\Fourier;E:\D\MITK-superbuild\ep\src\VTK\Imaging\Fourier;E:\D\MITK-superbuild\ep\src\VTK-build\Imaging\Core;E:\D\MITK-superbuild\ep\src\VTK\Imaging\Core;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\alglib;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\alglib;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Geometry;E:\D\MITK-superbuild\ep\src\VTK\Filters\Geometry;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Sources;E:\D\MITK-superbuild\ep\src\VTK\Filters\Sources;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\Core;E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK-build\Common\Color;E:\D\MITK-superbuild\ep\src\VTK\Common\Color;E:\D\MITK-superbuild\ep\src\VTK-build\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Math;E:\D\MITK-superbuild\ep\src\VTK\Common\Math;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core;E:\D\MITK-superbuild\ep\src\VTK\Common\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Misc;E:\D\MITK-superbuild\ep\src\VTK\Common\Misc;E:\D\MITK-superbuild\ep\src\VTK-build\Common\System;E:\D\MITK-superbuild\ep\src\VTK\Common\System;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Transforms;E:\D\MITK-superbuild\ep\src\VTK\Common\Transforms;E:\D\MITK-superbuild\ep\src\VTK-build\Common\ExecutionModel;E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Extraction;E:\D\MITK-superbuild\ep\src\VTK\Filters\Extraction;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Core;E:\D\MITK-superbuild\ep\src\VTK\Filters\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\General;E:\D\MITK-superbuild\ep\src\VTK\Filters\General;E:\D\MITK-superbuild\ep\src\VTK-build\Common\ComputationalGeometry;E:\D\MITK-superbuild\ep\src\VTK\Common\ComputationalGeometry;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Statistics;E:\D\MITK-superbuild\ep\src\VTK\Filters\Statistics;E:\D\MITK-superbuild\ep\src\VTK-build\Imaging\Fourier;E:\D\MITK-superbuild\ep\src\VTK\Imaging\Fourier;E:\D\MITK-superbuild\ep\src\VTK-build\Imaging\Core;E:\D\MITK-superbuild\ep\src\VTK\Imaging\Core;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\alglib;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\alglib;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Geometry;E:\D\MITK-superbuild\ep\src\VTK\Filters\Geometry;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Sources;E:\D\MITK-superbuild\ep\src\VTK\Filters\Sources;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\Core;E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\Debug\vtkCommonColor-6.2d.lib;..\..\lib\Debug\vtkFiltersSources-6.2d.lib;..\..\lib\Debug\vtkFiltersGeometry-6.2d.lib;..\..\lib\Debug\vtkFiltersExtraction-6.2d.lib;..\..\lib\Debug\vtkFiltersGeneral-6.2d.lib;..\..\lib\Debug\vtkCommonComputationalGeometry-6.2d.lib;..\..\lib\Debug\vtkFiltersCore-6.2d.lib;..\..\lib\Debug\vtkFiltersStatistics-6.2d.lib;..\..\lib\Debug\vtkImagingFourier-6.2d.lib;..\..\lib\Debug\vtkImagingCore-6.2d.lib;..\..\lib\Debug\vtkCommonExecutionModel-6.2d.lib;..\..\lib\Debug\vtkCommonDataModel-6.2d.lib;..\..\lib\Debug\vtkCommonTransforms-6.2d.lib;..\..\lib\Debug\vtkCommonMisc-6.2d.lib;..\..\lib\Debug\vtkCommonMath-6.2d.lib;..\..\lib\Debug\vtkCommonSystem-6.2d.lib;..\..\lib\Debug\vtksys-6.2d.lib;ws2_32.lib;Psapi.lib;..\..\lib\Debug\vtkCommonCore-6.2d.lib;..\..\lib\Debug\vtkalglib-6.2d.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/ep/src/VTK-build/lib/Debug/vtkRenderingCore-6.2d.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/ep/src/VTK-build/bin/Debug/vtkRenderingCore-6.2d.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK-build\Common\Color;E:\D\MITK-superbuild\ep\src\VTK\Common\Color;E:\D\MITK-superbuild\ep\src\VTK-build\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Math;E:\D\MITK-superbuild\ep\src\VTK\Common\Math;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core;E:\D\MITK-superbuild\ep\src\VTK\Common\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Misc;E:\D\MITK-superbuild\ep\src\VTK\Common\Misc;E:\D\MITK-superbuild\ep\src\VTK-build\Common\System;E:\D\MITK-superbuild\ep\src\VTK\Common\System;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Transforms;E:\D\MITK-superbuild\ep\src\VTK\Common\Transforms;E:\D\MITK-superbuild\ep\src\VTK-build\Common\ExecutionModel;E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Extraction;E:\D\MITK-superbuild\ep\src\VTK\Filters\Extraction;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Core;E:\D\MITK-superbuild\ep\src\VTK\Filters\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\General;E:\D\MITK-superbuild\ep\src\VTK\Filters\General;E:\D\MITK-superbuild\ep\src\VTK-build\Common\ComputationalGeometry;E:\D\MITK-superbuild\ep\src\VTK\Common\ComputationalGeometry;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Statistics;E:\D\MITK-superbuild\ep\src\VTK\Filters\Statistics;E:\D\MITK-superbuild\ep\src\VTK-build\Imaging\Fourier;E:\D\MITK-superbuild\ep\src\VTK\Imaging\Fourier;E:\D\MITK-superbuild\ep\src\VTK-build\Imaging\Core;E:\D\MITK-superbuild\ep\src\VTK\Imaging\Core;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\alglib;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\alglib;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Geometry;E:\D\MITK-superbuild\ep\src\VTK\Filters\Geometry;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Sources;E:\D\MITK-superbuild\ep\src\VTK\Filters\Sources;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\Core;E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR="Release";vtkRenderingCore_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR=\"Release\";vtkRenderingCore_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK-build\Common\Color;E:\D\MITK-superbuild\ep\src\VTK\Common\Color;E:\D\MITK-superbuild\ep\src\VTK-build\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Math;E:\D\MITK-superbuild\ep\src\VTK\Common\Math;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core;E:\D\MITK-superbuild\ep\src\VTK\Common\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Misc;E:\D\MITK-superbuild\ep\src\VTK\Common\Misc;E:\D\MITK-superbuild\ep\src\VTK-build\Common\System;E:\D\MITK-superbuild\ep\src\VTK\Common\System;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Transforms;E:\D\MITK-superbuild\ep\src\VTK\Common\Transforms;E:\D\MITK-superbuild\ep\src\VTK-build\Common\ExecutionModel;E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Extraction;E:\D\MITK-superbuild\ep\src\VTK\Filters\Extraction;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Core;E:\D\MITK-superbuild\ep\src\VTK\Filters\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\General;E:\D\MITK-superbuild\ep\src\VTK\Filters\General;E:\D\MITK-superbuild\ep\src\VTK-build\Common\ComputationalGeometry;E:\D\MITK-superbuild\ep\src\VTK\Common\ComputationalGeometry;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Statistics;E:\D\MITK-superbuild\ep\src\VTK\Filters\Statistics;E:\D\MITK-superbuild\ep\src\VTK-build\Imaging\Fourier;E:\D\MITK-superbuild\ep\src\VTK\Imaging\Fourier;E:\D\MITK-superbuild\ep\src\VTK-build\Imaging\Core;E:\D\MITK-superbuild\ep\src\VTK\Imaging\Core;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\alglib;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\alglib;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Geometry;E:\D\MITK-superbuild\ep\src\VTK\Filters\Geometry;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Sources;E:\D\MITK-superbuild\ep\src\VTK\Filters\Sources;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\Core;E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK-build\Common\Color;E:\D\MITK-superbuild\ep\src\VTK\Common\Color;E:\D\MITK-superbuild\ep\src\VTK-build\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Math;E:\D\MITK-superbuild\ep\src\VTK\Common\Math;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core;E:\D\MITK-superbuild\ep\src\VTK\Common\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Misc;E:\D\MITK-superbuild\ep\src\VTK\Common\Misc;E:\D\MITK-superbuild\ep\src\VTK-build\Common\System;E:\D\MITK-superbuild\ep\src\VTK\Common\System;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Transforms;E:\D\MITK-superbuild\ep\src\VTK\Common\Transforms;E:\D\MITK-superbuild\ep\src\VTK-build\Common\ExecutionModel;E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Extraction;E:\D\MITK-superbuild\ep\src\VTK\Filters\Extraction;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Core;E:\D\MITK-superbuild\ep\src\VTK\Filters\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\General;E:\D\MITK-superbuild\ep\src\VTK\Filters\General;E:\D\MITK-superbuild\ep\src\VTK-build\Common\ComputationalGeometry;E:\D\MITK-superbuild\ep\src\VTK\Common\ComputationalGeometry;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Statistics;E:\D\MITK-superbuild\ep\src\VTK\Filters\Statistics;E:\D\MITK-superbuild\ep\src\VTK-build\Imaging\Fourier;E:\D\MITK-superbuild\ep\src\VTK\Imaging\Fourier;E:\D\MITK-superbuild\ep\src\VTK-build\Imaging\Core;E:\D\MITK-superbuild\ep\src\VTK\Imaging\Core;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\alglib;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\alglib;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Geometry;E:\D\MITK-superbuild\ep\src\VTK\Filters\Geometry;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Sources;E:\D\MITK-superbuild\ep\src\VTK\Filters\Sources;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\Core;E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\Release\vtkCommonColor-6.2.lib;..\..\lib\Release\vtkFiltersSources-6.2.lib;..\..\lib\Release\vtkFiltersGeometry-6.2.lib;..\..\lib\Release\vtkFiltersExtraction-6.2.lib;..\..\lib\Release\vtkFiltersGeneral-6.2.lib;..\..\lib\Release\vtkCommonComputationalGeometry-6.2.lib;..\..\lib\Release\vtkFiltersCore-6.2.lib;..\..\lib\Release\vtkFiltersStatistics-6.2.lib;..\..\lib\Release\vtkImagingFourier-6.2.lib;..\..\lib\Release\vtkImagingCore-6.2.lib;..\..\lib\Release\vtkCommonExecutionModel-6.2.lib;..\..\lib\Release\vtkCommonDataModel-6.2.lib;..\..\lib\Release\vtkCommonTransforms-6.2.lib;..\..\lib\Release\vtkCommonMisc-6.2.lib;..\..\lib\Release\vtkCommonMath-6.2.lib;..\..\lib\Release\vtkCommonSystem-6.2.lib;..\..\lib\Release\vtksys-6.2.lib;ws2_32.lib;Psapi.lib;..\..\lib\Release\vtkCommonCore-6.2.lib;..\..\lib\Release\vtkalglib-6.2.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/ep/src/VTK-build/lib/Release/vtkRenderingCore-6.2.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/ep/src/VTK-build/bin/Release/vtkRenderingCore-6.2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK-build\Common\Color;E:\D\MITK-superbuild\ep\src\VTK\Common\Color;E:\D\MITK-superbuild\ep\src\VTK-build\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Math;E:\D\MITK-superbuild\ep\src\VTK\Common\Math;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core;E:\D\MITK-superbuild\ep\src\VTK\Common\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Misc;E:\D\MITK-superbuild\ep\src\VTK\Common\Misc;E:\D\MITK-superbuild\ep\src\VTK-build\Common\System;E:\D\MITK-superbuild\ep\src\VTK\Common\System;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Transforms;E:\D\MITK-superbuild\ep\src\VTK\Common\Transforms;E:\D\MITK-superbuild\ep\src\VTK-build\Common\ExecutionModel;E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Extraction;E:\D\MITK-superbuild\ep\src\VTK\Filters\Extraction;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Core;E:\D\MITK-superbuild\ep\src\VTK\Filters\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\General;E:\D\MITK-superbuild\ep\src\VTK\Filters\General;E:\D\MITK-superbuild\ep\src\VTK-build\Common\ComputationalGeometry;E:\D\MITK-superbuild\ep\src\VTK\Common\ComputationalGeometry;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Statistics;E:\D\MITK-superbuild\ep\src\VTK\Filters\Statistics;E:\D\MITK-superbuild\ep\src\VTK-build\Imaging\Fourier;E:\D\MITK-superbuild\ep\src\VTK\Imaging\Fourier;E:\D\MITK-superbuild\ep\src\VTK-build\Imaging\Core;E:\D\MITK-superbuild\ep\src\VTK\Imaging\Core;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\alglib;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\alglib;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Geometry;E:\D\MITK-superbuild\ep\src\VTK\Filters\Geometry;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Sources;E:\D\MITK-superbuild\ep\src\VTK\Filters\Sources;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\Core;E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR="MinSizeRel";vtkRenderingCore_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR=\"MinSizeRel\";vtkRenderingCore_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK-build\Common\Color;E:\D\MITK-superbuild\ep\src\VTK\Common\Color;E:\D\MITK-superbuild\ep\src\VTK-build\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Math;E:\D\MITK-superbuild\ep\src\VTK\Common\Math;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core;E:\D\MITK-superbuild\ep\src\VTK\Common\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Misc;E:\D\MITK-superbuild\ep\src\VTK\Common\Misc;E:\D\MITK-superbuild\ep\src\VTK-build\Common\System;E:\D\MITK-superbuild\ep\src\VTK\Common\System;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Transforms;E:\D\MITK-superbuild\ep\src\VTK\Common\Transforms;E:\D\MITK-superbuild\ep\src\VTK-build\Common\ExecutionModel;E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Extraction;E:\D\MITK-superbuild\ep\src\VTK\Filters\Extraction;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Core;E:\D\MITK-superbuild\ep\src\VTK\Filters\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\General;E:\D\MITK-superbuild\ep\src\VTK\Filters\General;E:\D\MITK-superbuild\ep\src\VTK-build\Common\ComputationalGeometry;E:\D\MITK-superbuild\ep\src\VTK\Common\ComputationalGeometry;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Statistics;E:\D\MITK-superbuild\ep\src\VTK\Filters\Statistics;E:\D\MITK-superbuild\ep\src\VTK-build\Imaging\Fourier;E:\D\MITK-superbuild\ep\src\VTK\Imaging\Fourier;E:\D\MITK-superbuild\ep\src\VTK-build\Imaging\Core;E:\D\MITK-superbuild\ep\src\VTK\Imaging\Core;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\alglib;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\alglib;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Geometry;E:\D\MITK-superbuild\ep\src\VTK\Filters\Geometry;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Sources;E:\D\MITK-superbuild\ep\src\VTK\Filters\Sources;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\Core;E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK-build\Common\Color;E:\D\MITK-superbuild\ep\src\VTK\Common\Color;E:\D\MITK-superbuild\ep\src\VTK-build\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Math;E:\D\MITK-superbuild\ep\src\VTK\Common\Math;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core;E:\D\MITK-superbuild\ep\src\VTK\Common\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Misc;E:\D\MITK-superbuild\ep\src\VTK\Common\Misc;E:\D\MITK-superbuild\ep\src\VTK-build\Common\System;E:\D\MITK-superbuild\ep\src\VTK\Common\System;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Transforms;E:\D\MITK-superbuild\ep\src\VTK\Common\Transforms;E:\D\MITK-superbuild\ep\src\VTK-build\Common\ExecutionModel;E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Extraction;E:\D\MITK-superbuild\ep\src\VTK\Filters\Extraction;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Core;E:\D\MITK-superbuild\ep\src\VTK\Filters\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\General;E:\D\MITK-superbuild\ep\src\VTK\Filters\General;E:\D\MITK-superbuild\ep\src\VTK-build\Common\ComputationalGeometry;E:\D\MITK-superbuild\ep\src\VTK\Common\ComputationalGeometry;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Statistics;E:\D\MITK-superbuild\ep\src\VTK\Filters\Statistics;E:\D\MITK-superbuild\ep\src\VTK-build\Imaging\Fourier;E:\D\MITK-superbuild\ep\src\VTK\Imaging\Fourier;E:\D\MITK-superbuild\ep\src\VTK-build\Imaging\Core;E:\D\MITK-superbuild\ep\src\VTK\Imaging\Core;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\alglib;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\alglib;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Geometry;E:\D\MITK-superbuild\ep\src\VTK\Filters\Geometry;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Sources;E:\D\MITK-superbuild\ep\src\VTK\Filters\Sources;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\Core;E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\MinSizeRel\vtkCommonColor-6.2.lib;..\..\lib\MinSizeRel\vtkFiltersSources-6.2.lib;..\..\lib\MinSizeRel\vtkFiltersGeometry-6.2.lib;..\..\lib\MinSizeRel\vtkFiltersExtraction-6.2.lib;..\..\lib\MinSizeRel\vtkFiltersGeneral-6.2.lib;..\..\lib\MinSizeRel\vtkCommonComputationalGeometry-6.2.lib;..\..\lib\MinSizeRel\vtkFiltersCore-6.2.lib;..\..\lib\MinSizeRel\vtkFiltersStatistics-6.2.lib;..\..\lib\MinSizeRel\vtkImagingFourier-6.2.lib;..\..\lib\MinSizeRel\vtkImagingCore-6.2.lib;..\..\lib\MinSizeRel\vtkCommonExecutionModel-6.2.lib;..\..\lib\MinSizeRel\vtkCommonDataModel-6.2.lib;..\..\lib\MinSizeRel\vtkCommonTransforms-6.2.lib;..\..\lib\MinSizeRel\vtkCommonMisc-6.2.lib;..\..\lib\MinSizeRel\vtkCommonMath-6.2.lib;..\..\lib\MinSizeRel\vtkCommonSystem-6.2.lib;..\..\lib\MinSizeRel\vtksys-6.2.lib;ws2_32.lib;Psapi.lib;..\..\lib\MinSizeRel\vtkCommonCore-6.2.lib;..\..\lib\MinSizeRel\vtkalglib-6.2.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/ep/src/VTK-build/lib/MinSizeRel/vtkRenderingCore-6.2.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/ep/src/VTK-build/bin/MinSizeRel/vtkRenderingCore-6.2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK-build\Common\Color;E:\D\MITK-superbuild\ep\src\VTK\Common\Color;E:\D\MITK-superbuild\ep\src\VTK-build\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Math;E:\D\MITK-superbuild\ep\src\VTK\Common\Math;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core;E:\D\MITK-superbuild\ep\src\VTK\Common\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Misc;E:\D\MITK-superbuild\ep\src\VTK\Common\Misc;E:\D\MITK-superbuild\ep\src\VTK-build\Common\System;E:\D\MITK-superbuild\ep\src\VTK\Common\System;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Transforms;E:\D\MITK-superbuild\ep\src\VTK\Common\Transforms;E:\D\MITK-superbuild\ep\src\VTK-build\Common\ExecutionModel;E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Extraction;E:\D\MITK-superbuild\ep\src\VTK\Filters\Extraction;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Core;E:\D\MITK-superbuild\ep\src\VTK\Filters\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\General;E:\D\MITK-superbuild\ep\src\VTK\Filters\General;E:\D\MITK-superbuild\ep\src\VTK-build\Common\ComputationalGeometry;E:\D\MITK-superbuild\ep\src\VTK\Common\ComputationalGeometry;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Statistics;E:\D\MITK-superbuild\ep\src\VTK\Filters\Statistics;E:\D\MITK-superbuild\ep\src\VTK-build\Imaging\Fourier;E:\D\MITK-superbuild\ep\src\VTK\Imaging\Fourier;E:\D\MITK-superbuild\ep\src\VTK-build\Imaging\Core;E:\D\MITK-superbuild\ep\src\VTK\Imaging\Core;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\alglib;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\alglib;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Geometry;E:\D\MITK-superbuild\ep\src\VTK\Filters\Geometry;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Sources;E:\D\MITK-superbuild\ep\src\VTK\Filters\Sources;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\Core;E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR="RelWithDebInfo";vtkRenderingCore_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR=\"RelWithDebInfo\";vtkRenderingCore_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK-build\Common\Color;E:\D\MITK-superbuild\ep\src\VTK\Common\Color;E:\D\MITK-superbuild\ep\src\VTK-build\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Math;E:\D\MITK-superbuild\ep\src\VTK\Common\Math;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core;E:\D\MITK-superbuild\ep\src\VTK\Common\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Misc;E:\D\MITK-superbuild\ep\src\VTK\Common\Misc;E:\D\MITK-superbuild\ep\src\VTK-build\Common\System;E:\D\MITK-superbuild\ep\src\VTK\Common\System;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Transforms;E:\D\MITK-superbuild\ep\src\VTK\Common\Transforms;E:\D\MITK-superbuild\ep\src\VTK-build\Common\ExecutionModel;E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Extraction;E:\D\MITK-superbuild\ep\src\VTK\Filters\Extraction;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Core;E:\D\MITK-superbuild\ep\src\VTK\Filters\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\General;E:\D\MITK-superbuild\ep\src\VTK\Filters\General;E:\D\MITK-superbuild\ep\src\VTK-build\Common\ComputationalGeometry;E:\D\MITK-superbuild\ep\src\VTK\Common\ComputationalGeometry;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Statistics;E:\D\MITK-superbuild\ep\src\VTK\Filters\Statistics;E:\D\MITK-superbuild\ep\src\VTK-build\Imaging\Fourier;E:\D\MITK-superbuild\ep\src\VTK\Imaging\Fourier;E:\D\MITK-superbuild\ep\src\VTK-build\Imaging\Core;E:\D\MITK-superbuild\ep\src\VTK\Imaging\Core;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\alglib;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\alglib;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Geometry;E:\D\MITK-superbuild\ep\src\VTK\Filters\Geometry;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Sources;E:\D\MITK-superbuild\ep\src\VTK\Filters\Sources;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\Core;E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK-build\Common\Color;E:\D\MITK-superbuild\ep\src\VTK\Common\Color;E:\D\MITK-superbuild\ep\src\VTK-build\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Math;E:\D\MITK-superbuild\ep\src\VTK\Common\Math;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core;E:\D\MITK-superbuild\ep\src\VTK\Common\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Misc;E:\D\MITK-superbuild\ep\src\VTK\Common\Misc;E:\D\MITK-superbuild\ep\src\VTK-build\Common\System;E:\D\MITK-superbuild\ep\src\VTK\Common\System;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Transforms;E:\D\MITK-superbuild\ep\src\VTK\Common\Transforms;E:\D\MITK-superbuild\ep\src\VTK-build\Common\ExecutionModel;E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Extraction;E:\D\MITK-superbuild\ep\src\VTK\Filters\Extraction;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Core;E:\D\MITK-superbuild\ep\src\VTK\Filters\Core;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\General;E:\D\MITK-superbuild\ep\src\VTK\Filters\General;E:\D\MITK-superbuild\ep\src\VTK-build\Common\ComputationalGeometry;E:\D\MITK-superbuild\ep\src\VTK\Common\ComputationalGeometry;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Statistics;E:\D\MITK-superbuild\ep\src\VTK\Filters\Statistics;E:\D\MITK-superbuild\ep\src\VTK-build\Imaging\Fourier;E:\D\MITK-superbuild\ep\src\VTK\Imaging\Fourier;E:\D\MITK-superbuild\ep\src\VTK-build\Imaging\Core;E:\D\MITK-superbuild\ep\src\VTK\Imaging\Core;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\alglib;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\alglib;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Geometry;E:\D\MITK-superbuild\ep\src\VTK\Filters\Geometry;E:\D\MITK-superbuild\ep\src\VTK-build\Filters\Sources;E:\D\MITK-superbuild\ep\src\VTK\Filters\Sources;E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\Core;E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\RelWithDebInfo\vtkCommonColor-6.2.lib;..\..\lib\RelWithDebInfo\vtkFiltersSources-6.2.lib;..\..\lib\RelWithDebInfo\vtkFiltersGeometry-6.2.lib;..\..\lib\RelWithDebInfo\vtkFiltersExtraction-6.2.lib;..\..\lib\RelWithDebInfo\vtkFiltersGeneral-6.2.lib;..\..\lib\RelWithDebInfo\vtkCommonComputationalGeometry-6.2.lib;..\..\lib\RelWithDebInfo\vtkFiltersCore-6.2.lib;..\..\lib\RelWithDebInfo\vtkFiltersStatistics-6.2.lib;..\..\lib\RelWithDebInfo\vtkImagingFourier-6.2.lib;..\..\lib\RelWithDebInfo\vtkImagingCore-6.2.lib;..\..\lib\RelWithDebInfo\vtkCommonExecutionModel-6.2.lib;..\..\lib\RelWithDebInfo\vtkCommonDataModel-6.2.lib;..\..\lib\RelWithDebInfo\vtkCommonTransforms-6.2.lib;..\..\lib\RelWithDebInfo\vtkCommonMisc-6.2.lib;..\..\lib\RelWithDebInfo\vtkCommonMath-6.2.lib;..\..\lib\RelWithDebInfo\vtkCommonSystem-6.2.lib;..\..\lib\RelWithDebInfo\vtksys-6.2.lib;ws2_32.lib;Psapi.lib;..\..\lib\RelWithDebInfo\vtkCommonCore-6.2.lib;..\..\lib\RelWithDebInfo\vtkalglib-6.2.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/ep/src/VTK-build/lib/RelWithDebInfo/vtkRenderingCore-6.2.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/ep/src/VTK-build/bin/RelWithDebInfo/vtkRenderingCore-6.2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/VTK/Rendering/Core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/VTK -BE:/D/MITK-superbuild/ep/src/VTK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\Core\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/VTK/Rendering/Core/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\module.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonColor.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonDataModel.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonMath.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonCore.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtksys.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonMisc.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonSystem.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonTransforms.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonExecutionModel.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkFiltersExtraction.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkFiltersCore.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkFiltersGeneral.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonComputationalGeometry.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkFiltersStatistics.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkImagingFourier.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkImagingCore.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkalglib.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkFiltersGeometry.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkFiltersSources.cmake;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkMakeInstantiator.h.in;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkMakeInstantiator.cxx.in;E:\D\MITK-superbuild\ep\src\VTK\CMake\exportheader.cmake.in;E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\module.cmake;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkModuleHeaders.cmake.in;E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\Core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/VTK/Rendering/Core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/VTK -BE:/D/MITK-superbuild/ep/src/VTK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\Core\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/VTK/Rendering/Core/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\module.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonColor.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonDataModel.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonMath.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonCore.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtksys.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonMisc.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonSystem.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonTransforms.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonExecutionModel.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkFiltersExtraction.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkFiltersCore.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkFiltersGeneral.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonComputationalGeometry.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkFiltersStatistics.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkImagingFourier.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkImagingCore.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkalglib.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkFiltersGeometry.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkFiltersSources.cmake;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkMakeInstantiator.h.in;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkMakeInstantiator.cxx.in;E:\D\MITK-superbuild\ep\src\VTK\CMake\exportheader.cmake.in;E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\module.cmake;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkModuleHeaders.cmake.in;E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\Core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/VTK/Rendering/Core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/VTK -BE:/D/MITK-superbuild/ep/src/VTK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\Core\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/VTK/Rendering/Core/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\module.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonColor.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonDataModel.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonMath.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonCore.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtksys.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonMisc.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonSystem.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonTransforms.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonExecutionModel.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkFiltersExtraction.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkFiltersCore.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkFiltersGeneral.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonComputationalGeometry.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkFiltersStatistics.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkImagingFourier.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkImagingCore.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkalglib.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkFiltersGeometry.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkFiltersSources.cmake;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkMakeInstantiator.h.in;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkMakeInstantiator.cxx.in;E:\D\MITK-superbuild\ep\src\VTK\CMake\exportheader.cmake.in;E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\module.cmake;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkModuleHeaders.cmake.in;E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\Core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/VTK/Rendering/Core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/VTK -BE:/D/MITK-superbuild/ep/src/VTK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\Core\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/VTK/Rendering/Core/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\module.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonColor.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonDataModel.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonMath.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonCore.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtksys.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonMisc.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonSystem.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonTransforms.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonExecutionModel.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkFiltersExtraction.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkFiltersCore.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkFiltersGeneral.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkCommonComputationalGeometry.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkFiltersStatistics.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkImagingFourier.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkImagingCore.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkalglib.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkFiltersGeometry.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtkFiltersSources.cmake;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkMakeInstantiator.h.in;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkMakeInstantiator.cxx.in;E:\D\MITK-superbuild\ep\src\VTK\CMake\exportheader.cmake.in;E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\module.cmake;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkModuleHeaders.cmake.in;E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\Core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkGPUInfoListArray.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkNoise200x200.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkPythagoreanQuadruples.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkRayCastStructures.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkRenderingCoreEnums.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkTDxMotionEventInfo.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkAbstractMapper3D.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkAbstractMapper.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkAbstractPicker.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkAbstractVolumeMapper.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkActor2DCollection.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkActor2D.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkActorCollection.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkActor.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkAssembly.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkBackgroundColorMonitor.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkCameraActor.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkCamera.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkCameraInterpolator.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkCellCenterDepthSort.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkColorTransferFunction.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkCompositeDataDisplayAttributes.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkCompositePolyDataMapper.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkCoordinate.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkCullerCollection.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkCuller.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkDataSetMapper.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkDiscretizableColorTransferFunction.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkDistanceToCamera.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkFollower.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkFrustumCoverageCuller.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkGenericRenderWindowInteractor.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkGenericVertexAttributeMapping.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkGlyph3DMapper.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkGPUInfo.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkGPUInfoList.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkGraphicsFactory.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkGraphMapper.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkGraphToGlyphs.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkHardwareSelector.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkHierarchicalPolyDataMapper.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkImageActor.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkImageMapper3D.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkImageMapper.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkImageProperty.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkImageSlice.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkImageSliceMapper.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkInteractorEventRecorder.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkInteractorObserver.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkLabeledContourMapper.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkLightActor.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkLightCollection.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkLight.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkLightKit.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkLogLookupTable.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkLookupTableWithEnabling.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkMapArrayValues.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkMapper2D.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkMapperCollection.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkMapper.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkObserverMediator.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkPolyDataMapper2D.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkPolyDataMapper.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkProp3DCollection.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkProp3D.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkProp3DFollower.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkPropAssembly.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkPropCollection.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkProp.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkProperty2D.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkProperty.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkRendererCollection.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkRenderer.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkRendererDelegate.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkRendererSource.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkRenderWindowCollection.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkRenderWindow.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkRenderWindowInteractor.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkSelectVisiblePoints.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkShaderDeviceAdapter2.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkTextActor.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkTextActor3D.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkTexture.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkTexturedActor2D.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkTransformCoordinateSystems.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkTransformInterpolator.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkTupleInterpolator.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkViewDependentErrorMetric.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkViewport.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkVisibilitySort.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkVolumeCollection.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkVolume.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkVolumeProperty.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkWindowLevelLookupTable.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkWindowToImageFilter.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkAssemblyNode.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkAssemblyPath.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkAssemblyPaths.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkAreaPicker.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkPicker.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkAbstractPropPicker.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkPropPicker.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkPickingManager.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkLODProp3D.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkWorldPointPicker.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkCellPicker.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkPointPicker.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkRenderedAreaPicker.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkScenePicker.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkInteractorStyle.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkInteractorStyleSwitchBase.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkTDxInteractorStyle.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkTDxInteractorStyleCamera.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkTDxInteractorStyleSettings.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkStringToImage.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkTextMapper.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkTextProperty.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkTextPropertyCollection.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkTextRenderer.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkAbstractInteractionDevice.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkAbstractRenderDevice.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkRenderWidget.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkPainterDeviceAdapter.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\Core\vtkRenderingCoreModule.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\Core\vtkRenderingCoreInstantiator.h" />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkAbstractMapper3D.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkAbstractMapper.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkAbstractPicker.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkAbstractVolumeMapper.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkActor2DCollection.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkActor2D.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkActorCollection.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkActor.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkAssembly.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkBackgroundColorMonitor.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkCameraActor.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkCamera.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkCameraInterpolator.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkCellCenterDepthSort.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkColorTransferFunction.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkCompositeDataDisplayAttributes.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkCompositePolyDataMapper.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkCoordinate.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkCullerCollection.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkCuller.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkDataSetMapper.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkDiscretizableColorTransferFunction.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkDistanceToCamera.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkFollower.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkFrustumCoverageCuller.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkGenericRenderWindowInteractor.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkGenericVertexAttributeMapping.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkGlyph3DMapper.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkGPUInfo.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkGPUInfoList.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkGraphicsFactory.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkGraphMapper.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkGraphToGlyphs.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkHardwareSelector.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkHierarchicalPolyDataMapper.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkImageActor.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkImageMapper3D.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkImageMapper.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkImageProperty.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkImageSlice.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkImageSliceMapper.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkInteractorEventRecorder.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkInteractorObserver.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkLabeledContourMapper.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkLightActor.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkLightCollection.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkLight.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkLightKit.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkLogLookupTable.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkLookupTableWithEnabling.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkMapArrayValues.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkMapper2D.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkMapperCollection.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkMapper.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkObserverMediator.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkPolyDataMapper2D.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkPolyDataMapper.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkProp3DCollection.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkProp3D.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkProp3DFollower.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkPropAssembly.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkPropCollection.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkProp.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkProperty2D.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkProperty.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkRendererCollection.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkRenderer.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkRendererDelegate.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkRendererSource.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkRenderWindowCollection.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkRenderWindow.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkRenderWindowInteractor.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkSelectVisiblePoints.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkShaderDeviceAdapter2.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkTextActor.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkTextActor3D.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkTexture.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkTexturedActor2D.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkTransformCoordinateSystems.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkTransformInterpolator.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkTupleInterpolator.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkViewDependentErrorMetric.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkViewport.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkVisibilitySort.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkVolumeCollection.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkVolume.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkVolumeProperty.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkWindowLevelLookupTable.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkWindowToImageFilter.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkAssemblyNode.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkAssemblyPath.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkAssemblyPaths.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkAreaPicker.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkPicker.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkAbstractPropPicker.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkPropPicker.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkPickingManager.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkLODProp3D.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkWorldPointPicker.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkCellPicker.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkPointPicker.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkRenderedAreaPicker.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkScenePicker.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkInteractorStyle.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkInteractorStyleSwitchBase.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkTDxInteractorStyle.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkTDxInteractorStyleCamera.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkTDxInteractorStyleSettings.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkStringToImage.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkTextMapper.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkTextProperty.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkTextPropertyCollection.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkTextRenderer.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkAbstractInteractionDevice.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkAbstractRenderDevice.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkRenderWidget.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Rendering\Core\vtkPainterDeviceAdapter.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK-build\Rendering\Core\vtkRenderingCoreInstantiator.cxx"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/VTK-build/ZERO_CHECK.vcxproj">
+      <Project>96A894C7-FD6E-37E5-A6D0-C197A99428A9</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/VTK-build/Common/Color/vtkCommonColor.vcxproj">
+      <Project>7F473C1F-21AE-3426-A9FD-4A031CA0071C</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/VTK-build/Common/ComputationalGeometry/vtkCommonComputationalGeometry.vcxproj">
+      <Project>774F46DD-2066-3EDC-B02D-1209A13F4F56</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/VTK-build/Common/Core/vtkCommonCore.vcxproj">
+      <Project>B66996CB-EA60-342E-A7C9-76CE7914E703</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/VTK-build/Common/DataModel/vtkCommonDataModel.vcxproj">
+      <Project>3D169276-6CF3-387D-A2F9-5C6C5EB81D0E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/VTK-build/Common/ExecutionModel/vtkCommonExecutionModel.vcxproj">
+      <Project>1974B6FB-419F-3561-A483-9BDEA89A5F95</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/VTK-build/Common/Math/vtkCommonMath.vcxproj">
+      <Project>5BDFDB3A-7EDC-3059-BA47-BCC0C8E23A40</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/VTK-build/Common/Misc/vtkCommonMisc.vcxproj">
+      <Project>FB40CC46-2F6E-35BC-9362-9AE3167519CB</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/VTK-build/Common/System/vtkCommonSystem.vcxproj">
+      <Project>6BFAAE6A-B287-3369-86B0-2863E7CD67C2</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/VTK-build/Common/Transforms/vtkCommonTransforms.vcxproj">
+      <Project>89A42D44-095B-36F7-9E88-096ABA0706FB</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/VTK-build/Filters/Core/vtkFiltersCore.vcxproj">
+      <Project>CF0E13EF-688A-31B5-BD46-6352B3814163</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/VTK-build/Filters/Extraction/vtkFiltersExtraction.vcxproj">
+      <Project>28EBE2A8-AA74-3268-B0E5-A6EBF373BE30</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/VTK-build/Filters/General/vtkFiltersGeneral.vcxproj">
+      <Project>CF267C92-364D-3381-A8B7-AFA437A98C12</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/VTK-build/Filters/Geometry/vtkFiltersGeometry.vcxproj">
+      <Project>CC7901F9-EDC2-3CA4-8456-C1EF3BED1B80</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/VTK-build/Filters/Sources/vtkFiltersSources.vcxproj">
+      <Project>98478849-BCFF-301D-A5E8-E38BAD6AA9BC</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/VTK-build/Filters/Statistics/vtkFiltersStatistics.vcxproj">
+      <Project>BB8AC4D9-17E0-3B32-8121-8705BD0F8D3A</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/VTK-build/Imaging/Core/vtkImagingCore.vcxproj">
+      <Project>6C0A9A38-AFBE-35F4-BDEE-A230EC1FAE9B</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/VTK-build/Imaging/Fourier/vtkImagingFourier.vcxproj">
+      <Project>AA6CF892-855A-30F1-BE9A-6530E72F814E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/VTK-build/ThirdParty/alglib/vtkalglib.vcxproj">
+      <Project>E09D99B1-B25F-33E4-96DA-5E0B3399C1D9</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/VTK-build/Utilities/KWSys/vtksys/vtksys.vcxproj">
+      <Project>CE52E7D4-3A10-3D59-97AD-F5358A6AC285</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

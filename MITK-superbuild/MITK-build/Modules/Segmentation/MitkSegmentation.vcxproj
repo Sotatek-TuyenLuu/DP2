@@ -1,0 +1,736 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{C5151313-4FB8-3E2B-8B9F-65139ACEF1B3}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>MitkSegmentation</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\MITK-build\bin\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MitkSegmentation.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MitkSegmentation</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\MITK-build\bin\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MitkSegmentation.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MitkSegmentation</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\MITK-build\bin\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">MitkSegmentation.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">MitkSegmentation</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\MITK-build\bin\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">MitkSegmentation.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">MitkSegmentation</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\MITK-build\Modules\Segmentation;E:\D\MITK-superbuild\ep\include\ITK-4.7;E:\D\MITK\Modules\Segmentation\.;E:\D\MITK\Modules\Segmentation\Algorithms;E:\D\MITK\Modules\Segmentation\Controllers;E:\D\MITK\Modules\Segmentation\DataManagement;E:\D\MITK\Modules\Segmentation\Interactions;E:\D\MITK\Modules\Segmentation\Rendering;E:\D\MITK\Modules\Segmentation\SegmentationUtilities\BooleanOperations;E:\D\MITK\Modules\Segmentation\SegmentationUtilities\MorphologicalOperations;E:\D\MITK\Modules\CppMicroServices\third_party;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\include;E:\D\MITK\Modules\CppMicroServices\core\include;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\core\include;E:\D\MITK\Modules\CppMicroServices\core\src\util;E:\D\MITK\Modules\CppMicroServices\core\src\service;E:\D\MITK\Modules\CppMicroServices\core\src\module;E:\D\MITK-superbuild\MITK-build\Modules\AlgorithmsExt;E:\D\MITK\Modules\AlgorithmsExt\include;E:\D\MITK-superbuild\MITK-build\Modules\DataTypesExt;E:\D\MITK\Modules\DataTypesExt\include;E:\D\MITK-superbuild\MITK-build\Modules\Core;E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\include\vtk-6.2;E:\D\MITK-superbuild\ep\include\boost-1_59;E:\D\MITK\Modules\Core\include;E:\D\MITK-superbuild\MITK-build;E:\D\MITK-superbuild\MITK-build\Utilities\mbilog;E:\D\MITK\Utilities\mbilog\.;E:\D\MITK-superbuild\MITK-build\Modules\LegacyGL;E:\D\MITK\Modules\LegacyGL\.;E:\D\MITK-superbuild\MITK-build\Utilities\IpSegmentation;E:\D\MITK\Utilities\IpSegmentation\.;E:\D\MITK-superbuild\MITK-build\Utilities\IpPic;E:\D\MITK\Utilities\IpPic\.;E:\D\MITK-superbuild\MITK-build\Utilities\IpFunc;E:\D\MITK\Utilities\IpFunc\.;E:\D\MITK-superbuild\MITK-build\Modules\LegacyAdaptors;E:\D\MITK\Modules\LegacyAdaptors\.;E:\D\MITK-superbuild\MITK-build\Modules\SurfaceInterpolation;E:\D\MITK\Modules\SurfaceInterpolation\.;E:\D\MITK-superbuild\MITK-build\Modules\ImageExtraction;E:\D\MITK\Modules\ImageExtraction\.;E:\D\MITK-superbuild\MITK-build\Modules\ImageStatistics;E:\D\MITK\Modules\ImageStatistics\.;E:\D\MITK-superbuild\MITK-build\Modules\PlanarFigure;E:\D\MITK\Modules\PlanarFigure\include;E:\D\MITK-superbuild\MITK-build\Modules\SceneSerializationBase;E:\D\MITK\Modules\SceneSerializationBase\include;E:\D\MITK-superbuild\ep\include\tinyxml;E:\D\MITK-superbuild\MITK-build\Modules\Overlays;E:\D\MITK\Modules\Overlays\.;E:\D\MITK-superbuild\ep\include\eigen3;E:\D\MITK-superbuild\MITK-build\Modules\GraphAlgorithms;E:\D\MITK\Modules\GraphAlgorithms\.;E:\D\MITK-superbuild\MITK-build\Modules\ContourModel;E:\D\MITK\Modules\ContourModel\.;E:\D\MITK\Modules\ContourModel\Algorithms;E:\D\MITK\Modules\ContourModel\DataManagement;E:\D\MITK\Modules\ContourModel\IO;E:\D\MITK\Modules\ContourModel\Rendering;E:\D\MITK-superbuild\MITK-build\Modules\Multilabel;E:\D\MITK\Modules\Multilabel\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4005;4231;4316</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WIN32_WINNT=0x0501;POCO_NO_UNWINDOWS;WIN32_LEAN_AND_MEAN;NOMINMAX;_DEBUG;US_MODULE_NAME=MitkSegmentation;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug";MitkSegmentation_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WIN32_WINNT=0x0501;POCO_NO_UNWINDOWS;WIN32_LEAN_AND_MEAN;NOMINMAX;_DEBUG;US_MODULE_NAME=MitkSegmentation;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\";MitkSegmentation_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\MITK-build\Modules\Segmentation;E:\D\MITK-superbuild\ep\include\ITK-4.7;E:\D\MITK\Modules\Segmentation\.;E:\D\MITK\Modules\Segmentation\Algorithms;E:\D\MITK\Modules\Segmentation\Controllers;E:\D\MITK\Modules\Segmentation\DataManagement;E:\D\MITK\Modules\Segmentation\Interactions;E:\D\MITK\Modules\Segmentation\Rendering;E:\D\MITK\Modules\Segmentation\SegmentationUtilities\BooleanOperations;E:\D\MITK\Modules\Segmentation\SegmentationUtilities\MorphologicalOperations;E:\D\MITK\Modules\CppMicroServices\third_party;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\include;E:\D\MITK\Modules\CppMicroServices\core\include;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\core\include;E:\D\MITK\Modules\CppMicroServices\core\src\util;E:\D\MITK\Modules\CppMicroServices\core\src\service;E:\D\MITK\Modules\CppMicroServices\core\src\module;E:\D\MITK-superbuild\MITK-build\Modules\AlgorithmsExt;E:\D\MITK\Modules\AlgorithmsExt\include;E:\D\MITK-superbuild\MITK-build\Modules\DataTypesExt;E:\D\MITK\Modules\DataTypesExt\include;E:\D\MITK-superbuild\MITK-build\Modules\Core;E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\include\vtk-6.2;E:\D\MITK-superbuild\ep\include\boost-1_59;E:\D\MITK\Modules\Core\include;E:\D\MITK-superbuild\MITK-build;E:\D\MITK-superbuild\MITK-build\Utilities\mbilog;E:\D\MITK\Utilities\mbilog\.;E:\D\MITK-superbuild\MITK-build\Modules\LegacyGL;E:\D\MITK\Modules\LegacyGL\.;E:\D\MITK-superbuild\MITK-build\Utilities\IpSegmentation;E:\D\MITK\Utilities\IpSegmentation\.;E:\D\MITK-superbuild\MITK-build\Utilities\IpPic;E:\D\MITK\Utilities\IpPic\.;E:\D\MITK-superbuild\MITK-build\Utilities\IpFunc;E:\D\MITK\Utilities\IpFunc\.;E:\D\MITK-superbuild\MITK-build\Modules\LegacyAdaptors;E:\D\MITK\Modules\LegacyAdaptors\.;E:\D\MITK-superbuild\MITK-build\Modules\SurfaceInterpolation;E:\D\MITK\Modules\SurfaceInterpolation\.;E:\D\MITK-superbuild\MITK-build\Modules\ImageExtraction;E:\D\MITK\Modules\ImageExtraction\.;E:\D\MITK-superbuild\MITK-build\Modules\ImageStatistics;E:\D\MITK\Modules\ImageStatistics\.;E:\D\MITK-superbuild\MITK-build\Modules\PlanarFigure;E:\D\MITK\Modules\PlanarFigure\include;E:\D\MITK-superbuild\MITK-build\Modules\SceneSerializationBase;E:\D\MITK\Modules\SceneSerializationBase\include;E:\D\MITK-superbuild\ep\include\tinyxml;E:\D\MITK-superbuild\MITK-build\Modules\Overlays;E:\D\MITK\Modules\Overlays\.;E:\D\MITK-superbuild\ep\include\eigen3;E:\D\MITK-superbuild\MITK-build\Modules\GraphAlgorithms;E:\D\MITK\Modules\GraphAlgorithms\.;E:\D\MITK-superbuild\MITK-build\Modules\ContourModel;E:\D\MITK\Modules\ContourModel\.;E:\D\MITK\Modules\ContourModel\Algorithms;E:\D\MITK\Modules\ContourModel\DataManagement;E:\D\MITK\Modules\ContourModel\IO;E:\D\MITK\Modules\ContourModel\Rendering;E:\D\MITK-superbuild\MITK-build\Modules\Multilabel;E:\D\MITK\Modules\Multilabel\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\MITK-build\Modules\Segmentation;E:\D\MITK-superbuild\ep\include\ITK-4.7;E:\D\MITK\Modules\Segmentation\.;E:\D\MITK\Modules\Segmentation\Algorithms;E:\D\MITK\Modules\Segmentation\Controllers;E:\D\MITK\Modules\Segmentation\DataManagement;E:\D\MITK\Modules\Segmentation\Interactions;E:\D\MITK\Modules\Segmentation\Rendering;E:\D\MITK\Modules\Segmentation\SegmentationUtilities\BooleanOperations;E:\D\MITK\Modules\Segmentation\SegmentationUtilities\MorphologicalOperations;E:\D\MITK\Modules\CppMicroServices\third_party;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\include;E:\D\MITK\Modules\CppMicroServices\core\include;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\core\include;E:\D\MITK\Modules\CppMicroServices\core\src\util;E:\D\MITK\Modules\CppMicroServices\core\src\service;E:\D\MITK\Modules\CppMicroServices\core\src\module;E:\D\MITK-superbuild\MITK-build\Modules\AlgorithmsExt;E:\D\MITK\Modules\AlgorithmsExt\include;E:\D\MITK-superbuild\MITK-build\Modules\DataTypesExt;E:\D\MITK\Modules\DataTypesExt\include;E:\D\MITK-superbuild\MITK-build\Modules\Core;E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\include\vtk-6.2;E:\D\MITK-superbuild\ep\include\boost-1_59;E:\D\MITK\Modules\Core\include;E:\D\MITK-superbuild\MITK-build;E:\D\MITK-superbuild\MITK-build\Utilities\mbilog;E:\D\MITK\Utilities\mbilog\.;E:\D\MITK-superbuild\MITK-build\Modules\LegacyGL;E:\D\MITK\Modules\LegacyGL\.;E:\D\MITK-superbuild\MITK-build\Utilities\IpSegmentation;E:\D\MITK\Utilities\IpSegmentation\.;E:\D\MITK-superbuild\MITK-build\Utilities\IpPic;E:\D\MITK\Utilities\IpPic\.;E:\D\MITK-superbuild\MITK-build\Utilities\IpFunc;E:\D\MITK\Utilities\IpFunc\.;E:\D\MITK-superbuild\MITK-build\Modules\LegacyAdaptors;E:\D\MITK\Modules\LegacyAdaptors\.;E:\D\MITK-superbuild\MITK-build\Modules\SurfaceInterpolation;E:\D\MITK\Modules\SurfaceInterpolation\.;E:\D\MITK-superbuild\MITK-build\Modules\ImageExtraction;E:\D\MITK\Modules\ImageExtraction\.;E:\D\MITK-superbuild\MITK-build\Modules\ImageStatistics;E:\D\MITK\Modules\ImageStatistics\.;E:\D\MITK-superbuild\MITK-build\Modules\PlanarFigure;E:\D\MITK\Modules\PlanarFigure\include;E:\D\MITK-superbuild\MITK-build\Modules\SceneSerializationBase;E:\D\MITK\Modules\SceneSerializationBase\include;E:\D\MITK-superbuild\ep\include\tinyxml;E:\D\MITK-superbuild\MITK-build\Modules\Overlays;E:\D\MITK\Modules\Overlays\.;E:\D\MITK-superbuild\ep\include\eigen3;E:\D\MITK-superbuild\MITK-build\Modules\GraphAlgorithms;E:\D\MITK\Modules\GraphAlgorithms\.;E:\D\MITK-superbuild\MITK-build\Modules\ContourModel;E:\D\MITK\Modules\ContourModel\.;E:\D\MITK\Modules\ContourModel\Algorithms;E:\D\MITK\Modules\ContourModel\DataManagement;E:\D\MITK\Modules\ContourModel\IO;E:\D\MITK\Modules\ContourModel\Rendering;E:\D\MITK-superbuild\MITK-build\Modules\Multilabel;E:\D\MITK\Modules\Multilabel\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Appending zipped resources to MitkSegmentation</Message>
+      <Command>setlocal
+cd E:\D\MITK\Modules\Segmentation
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+E:\D\MITK-superbuild\MITK-build\bin\Debug\usResourceCompiler.exe --append E:/D/MITK-superbuild/MITK-build/bin/Debug/MitkSegmentation.dll E:/D/MITK-superbuild/MITK-build/Modules/Segmentation/us_MitkSegmentation/res_0.zip
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\Debug\MitkIpSegmentation.lib;..\..\lib\Debug\MitkIpFunc.lib;..\..\lib\Debug\MitkLegacyAdaptors.lib;..\..\lib\Debug\MitkSurfaceInterpolation.lib;..\..\lib\Debug\MitkGraphAlgorithms.lib;..\..\lib\Debug\MitkContourModel.lib;..\..\lib\Debug\MitkMultilabel.lib;E:\D\MITK-superbuild\ep\lib\ITKLabelMap-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKStatistics-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKSpatialObjects-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKPath-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkdouble-conversion-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itksys-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl_algo-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkv3p_netlib-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkNetlibSlatec-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKMesh-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKMetaIO-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkzlib-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKQuadEdgeMesh-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKWatersheds-4.7d.lib;..\..\lib\Debug\MitkIpPic.lib;;..\..\lib\Debug\MitkImageStatistics.lib;..\..\lib\Debug\MitkImageExtraction.lib;..\..\lib\Debug\MitkPlanarFigure.lib;E:\D\MITK-superbuild\ep\lib\ITKIOXML-4.7d.lib;..\..\lib\Debug\MitkOverlays.lib;..\..\lib\Debug\MitkAlgorithmsExt.lib;..\..\lib\Debug\MitkDataTypesExt.lib;..\..\lib\Debug\MitkLegacyGL.lib;E:\D\MITK-superbuild\ep\lib\annd.lib;..\..\lib\Debug\MitkSceneSerializationBase.lib;..\..\lib\Debug\MitkCore.lib;..\..\lib\Debug\CppMicroServices.lib;..\..\lib\Debug\mbilog.lib;E:\D\MITK-superbuild\ep\lib\ITKIOGDCM-4.7d.lib;E:\D\MITK-superbuild\ep\lib\gdcmMSFFd.lib;E:\D\MITK-superbuild\ep\lib\gdcmDICTd.lib;E:\D\MITK-superbuild\ep\lib\gdcmIODd.lib;E:\D\MITK-superbuild\ep\lib\gdcmDSEDd.lib;E:\D\MITK-superbuild\ep\lib\gdcmCommond.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersTexture-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersParallel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkParallelCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOLegacy-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingStencil-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingMath-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingVolumeOpenGL-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingFreeTypeOpenGL-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingOpenGL-6.2d.lib;glu32.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingLabel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkInteractionWidgets-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersModeling-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkInteractionStyle-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingHybrid-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOImage-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkDICOMParser-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkmetaio-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkpng-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtktiff-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkjpeg-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingVolume-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersHybrid-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingGeneral-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingSources-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingAnnotation-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingFreeType-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersExtraction-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersStatistics-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingFourier-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkalglib-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersGeometry-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersSources-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersGeneral-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonComputationalGeometry-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonColor-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkftgl-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkfreetype-6.2d.lib;opengl32.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingColor-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOXML-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOGeometry-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkjsoncpp-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOXMLParser-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonExecutionModel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonDataModel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonMisc-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonSystem-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtksys-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonTransforms-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonMath-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkzlib-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkexpat-6.2d.lib;E:\D\MITK-superbuild\ep\lib\ITKMetaIO-4.7d.lib;comctl32.lib;wsock32.lib;E:\D\MITK-superbuild\ep\lib\ITKEXPAT-4.7d.lib;E:\D\MITK-superbuild\ep\lib\tinyxmld.lib;E:\D\MITK-superbuild\ep\lib\itkzlib-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKSpatialObjects-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOImageBase-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKMesh-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKPath-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKStatistics-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKCommon-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkdouble-conversion-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itksys-4.7d.lib;ws2_32.lib;Psapi.lib;E:\D\MITK-superbuild\ep\lib\ITKVNLInstantiation-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl_algo-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkv3p_lsqr-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvcl-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkNetlibSlatec-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkv3p_netlib-4.7d.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:/D/MITK-superbuild/ep/lib;E:/D/MITK-superbuild/ep/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/MITK-build/lib/Debug/MitkSegmentation.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/MITK-build/bin/Debug/MitkSegmentation.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\MITK-build\Modules\Segmentation;E:\D\MITK-superbuild\ep\include\ITK-4.7;E:\D\MITK\Modules\Segmentation\.;E:\D\MITK\Modules\Segmentation\Algorithms;E:\D\MITK\Modules\Segmentation\Controllers;E:\D\MITK\Modules\Segmentation\DataManagement;E:\D\MITK\Modules\Segmentation\Interactions;E:\D\MITK\Modules\Segmentation\Rendering;E:\D\MITK\Modules\Segmentation\SegmentationUtilities\BooleanOperations;E:\D\MITK\Modules\Segmentation\SegmentationUtilities\MorphologicalOperations;E:\D\MITK\Modules\CppMicroServices\third_party;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\include;E:\D\MITK\Modules\CppMicroServices\core\include;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\core\include;E:\D\MITK\Modules\CppMicroServices\core\src\util;E:\D\MITK\Modules\CppMicroServices\core\src\service;E:\D\MITK\Modules\CppMicroServices\core\src\module;E:\D\MITK-superbuild\MITK-build\Modules\AlgorithmsExt;E:\D\MITK\Modules\AlgorithmsExt\include;E:\D\MITK-superbuild\MITK-build\Modules\DataTypesExt;E:\D\MITK\Modules\DataTypesExt\include;E:\D\MITK-superbuild\MITK-build\Modules\Core;E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\include\vtk-6.2;E:\D\MITK-superbuild\ep\include\boost-1_59;E:\D\MITK\Modules\Core\include;E:\D\MITK-superbuild\MITK-build;E:\D\MITK-superbuild\MITK-build\Utilities\mbilog;E:\D\MITK\Utilities\mbilog\.;E:\D\MITK-superbuild\MITK-build\Modules\LegacyGL;E:\D\MITK\Modules\LegacyGL\.;E:\D\MITK-superbuild\MITK-build\Utilities\IpSegmentation;E:\D\MITK\Utilities\IpSegmentation\.;E:\D\MITK-superbuild\MITK-build\Utilities\IpPic;E:\D\MITK\Utilities\IpPic\.;E:\D\MITK-superbuild\MITK-build\Utilities\IpFunc;E:\D\MITK\Utilities\IpFunc\.;E:\D\MITK-superbuild\MITK-build\Modules\LegacyAdaptors;E:\D\MITK\Modules\LegacyAdaptors\.;E:\D\MITK-superbuild\MITK-build\Modules\SurfaceInterpolation;E:\D\MITK\Modules\SurfaceInterpolation\.;E:\D\MITK-superbuild\MITK-build\Modules\ImageExtraction;E:\D\MITK\Modules\ImageExtraction\.;E:\D\MITK-superbuild\MITK-build\Modules\ImageStatistics;E:\D\MITK\Modules\ImageStatistics\.;E:\D\MITK-superbuild\MITK-build\Modules\PlanarFigure;E:\D\MITK\Modules\PlanarFigure\include;E:\D\MITK-superbuild\MITK-build\Modules\SceneSerializationBase;E:\D\MITK\Modules\SceneSerializationBase\include;E:\D\MITK-superbuild\ep\include\tinyxml;E:\D\MITK-superbuild\MITK-build\Modules\Overlays;E:\D\MITK\Modules\Overlays\.;E:\D\MITK-superbuild\ep\include\eigen3;E:\D\MITK-superbuild\MITK-build\Modules\GraphAlgorithms;E:\D\MITK\Modules\GraphAlgorithms\.;E:\D\MITK-superbuild\MITK-build\Modules\ContourModel;E:\D\MITK\Modules\ContourModel\.;E:\D\MITK\Modules\ContourModel\Algorithms;E:\D\MITK\Modules\ContourModel\DataManagement;E:\D\MITK\Modules\ContourModel\IO;E:\D\MITK\Modules\ContourModel\Rendering;E:\D\MITK-superbuild\MITK-build\Modules\Multilabel;E:\D\MITK\Modules\Multilabel\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4005;4231;4316</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WIN32_WINNT=0x0501;POCO_NO_UNWINDOWS;WIN32_LEAN_AND_MEAN;NOMINMAX;NDEBUG;US_MODULE_NAME=MitkSegmentation;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release";MitkSegmentation_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WIN32_WINNT=0x0501;POCO_NO_UNWINDOWS;WIN32_LEAN_AND_MEAN;NOMINMAX;NDEBUG;US_MODULE_NAME=MitkSegmentation;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\";MitkSegmentation_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\MITK-build\Modules\Segmentation;E:\D\MITK-superbuild\ep\include\ITK-4.7;E:\D\MITK\Modules\Segmentation\.;E:\D\MITK\Modules\Segmentation\Algorithms;E:\D\MITK\Modules\Segmentation\Controllers;E:\D\MITK\Modules\Segmentation\DataManagement;E:\D\MITK\Modules\Segmentation\Interactions;E:\D\MITK\Modules\Segmentation\Rendering;E:\D\MITK\Modules\Segmentation\SegmentationUtilities\BooleanOperations;E:\D\MITK\Modules\Segmentation\SegmentationUtilities\MorphologicalOperations;E:\D\MITK\Modules\CppMicroServices\third_party;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\include;E:\D\MITK\Modules\CppMicroServices\core\include;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\core\include;E:\D\MITK\Modules\CppMicroServices\core\src\util;E:\D\MITK\Modules\CppMicroServices\core\src\service;E:\D\MITK\Modules\CppMicroServices\core\src\module;E:\D\MITK-superbuild\MITK-build\Modules\AlgorithmsExt;E:\D\MITK\Modules\AlgorithmsExt\include;E:\D\MITK-superbuild\MITK-build\Modules\DataTypesExt;E:\D\MITK\Modules\DataTypesExt\include;E:\D\MITK-superbuild\MITK-build\Modules\Core;E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\include\vtk-6.2;E:\D\MITK-superbuild\ep\include\boost-1_59;E:\D\MITK\Modules\Core\include;E:\D\MITK-superbuild\MITK-build;E:\D\MITK-superbuild\MITK-build\Utilities\mbilog;E:\D\MITK\Utilities\mbilog\.;E:\D\MITK-superbuild\MITK-build\Modules\LegacyGL;E:\D\MITK\Modules\LegacyGL\.;E:\D\MITK-superbuild\MITK-build\Utilities\IpSegmentation;E:\D\MITK\Utilities\IpSegmentation\.;E:\D\MITK-superbuild\MITK-build\Utilities\IpPic;E:\D\MITK\Utilities\IpPic\.;E:\D\MITK-superbuild\MITK-build\Utilities\IpFunc;E:\D\MITK\Utilities\IpFunc\.;E:\D\MITK-superbuild\MITK-build\Modules\LegacyAdaptors;E:\D\MITK\Modules\LegacyAdaptors\.;E:\D\MITK-superbuild\MITK-build\Modules\SurfaceInterpolation;E:\D\MITK\Modules\SurfaceInterpolation\.;E:\D\MITK-superbuild\MITK-build\Modules\ImageExtraction;E:\D\MITK\Modules\ImageExtraction\.;E:\D\MITK-superbuild\MITK-build\Modules\ImageStatistics;E:\D\MITK\Modules\ImageStatistics\.;E:\D\MITK-superbuild\MITK-build\Modules\PlanarFigure;E:\D\MITK\Modules\PlanarFigure\include;E:\D\MITK-superbuild\MITK-build\Modules\SceneSerializationBase;E:\D\MITK\Modules\SceneSerializationBase\include;E:\D\MITK-superbuild\ep\include\tinyxml;E:\D\MITK-superbuild\MITK-build\Modules\Overlays;E:\D\MITK\Modules\Overlays\.;E:\D\MITK-superbuild\ep\include\eigen3;E:\D\MITK-superbuild\MITK-build\Modules\GraphAlgorithms;E:\D\MITK\Modules\GraphAlgorithms\.;E:\D\MITK-superbuild\MITK-build\Modules\ContourModel;E:\D\MITK\Modules\ContourModel\.;E:\D\MITK\Modules\ContourModel\Algorithms;E:\D\MITK\Modules\ContourModel\DataManagement;E:\D\MITK\Modules\ContourModel\IO;E:\D\MITK\Modules\ContourModel\Rendering;E:\D\MITK-superbuild\MITK-build\Modules\Multilabel;E:\D\MITK\Modules\Multilabel\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\MITK-build\Modules\Segmentation;E:\D\MITK-superbuild\ep\include\ITK-4.7;E:\D\MITK\Modules\Segmentation\.;E:\D\MITK\Modules\Segmentation\Algorithms;E:\D\MITK\Modules\Segmentation\Controllers;E:\D\MITK\Modules\Segmentation\DataManagement;E:\D\MITK\Modules\Segmentation\Interactions;E:\D\MITK\Modules\Segmentation\Rendering;E:\D\MITK\Modules\Segmentation\SegmentationUtilities\BooleanOperations;E:\D\MITK\Modules\Segmentation\SegmentationUtilities\MorphologicalOperations;E:\D\MITK\Modules\CppMicroServices\third_party;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\include;E:\D\MITK\Modules\CppMicroServices\core\include;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\core\include;E:\D\MITK\Modules\CppMicroServices\core\src\util;E:\D\MITK\Modules\CppMicroServices\core\src\service;E:\D\MITK\Modules\CppMicroServices\core\src\module;E:\D\MITK-superbuild\MITK-build\Modules\AlgorithmsExt;E:\D\MITK\Modules\AlgorithmsExt\include;E:\D\MITK-superbuild\MITK-build\Modules\DataTypesExt;E:\D\MITK\Modules\DataTypesExt\include;E:\D\MITK-superbuild\MITK-build\Modules\Core;E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\include\vtk-6.2;E:\D\MITK-superbuild\ep\include\boost-1_59;E:\D\MITK\Modules\Core\include;E:\D\MITK-superbuild\MITK-build;E:\D\MITK-superbuild\MITK-build\Utilities\mbilog;E:\D\MITK\Utilities\mbilog\.;E:\D\MITK-superbuild\MITK-build\Modules\LegacyGL;E:\D\MITK\Modules\LegacyGL\.;E:\D\MITK-superbuild\MITK-build\Utilities\IpSegmentation;E:\D\MITK\Utilities\IpSegmentation\.;E:\D\MITK-superbuild\MITK-build\Utilities\IpPic;E:\D\MITK\Utilities\IpPic\.;E:\D\MITK-superbuild\MITK-build\Utilities\IpFunc;E:\D\MITK\Utilities\IpFunc\.;E:\D\MITK-superbuild\MITK-build\Modules\LegacyAdaptors;E:\D\MITK\Modules\LegacyAdaptors\.;E:\D\MITK-superbuild\MITK-build\Modules\SurfaceInterpolation;E:\D\MITK\Modules\SurfaceInterpolation\.;E:\D\MITK-superbuild\MITK-build\Modules\ImageExtraction;E:\D\MITK\Modules\ImageExtraction\.;E:\D\MITK-superbuild\MITK-build\Modules\ImageStatistics;E:\D\MITK\Modules\ImageStatistics\.;E:\D\MITK-superbuild\MITK-build\Modules\PlanarFigure;E:\D\MITK\Modules\PlanarFigure\include;E:\D\MITK-superbuild\MITK-build\Modules\SceneSerializationBase;E:\D\MITK\Modules\SceneSerializationBase\include;E:\D\MITK-superbuild\ep\include\tinyxml;E:\D\MITK-superbuild\MITK-build\Modules\Overlays;E:\D\MITK\Modules\Overlays\.;E:\D\MITK-superbuild\ep\include\eigen3;E:\D\MITK-superbuild\MITK-build\Modules\GraphAlgorithms;E:\D\MITK\Modules\GraphAlgorithms\.;E:\D\MITK-superbuild\MITK-build\Modules\ContourModel;E:\D\MITK\Modules\ContourModel\.;E:\D\MITK\Modules\ContourModel\Algorithms;E:\D\MITK\Modules\ContourModel\DataManagement;E:\D\MITK\Modules\ContourModel\IO;E:\D\MITK\Modules\ContourModel\Rendering;E:\D\MITK-superbuild\MITK-build\Modules\Multilabel;E:\D\MITK\Modules\Multilabel\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Appending zipped resources to MitkSegmentation</Message>
+      <Command>setlocal
+cd E:\D\MITK\Modules\Segmentation
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+E:\D\MITK-superbuild\MITK-build\bin\Release\usResourceCompiler.exe --append E:/D/MITK-superbuild/MITK-build/bin/Release/MitkSegmentation.dll E:/D/MITK-superbuild/MITK-build/Modules/Segmentation/us_MitkSegmentation/res_0.zip
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\Release\MitkIpSegmentation.lib;..\..\lib\Release\MitkIpFunc.lib;..\..\lib\Release\MitkLegacyAdaptors.lib;..\..\lib\Release\MitkSurfaceInterpolation.lib;..\..\lib\Release\MitkGraphAlgorithms.lib;..\..\lib\Release\MitkContourModel.lib;..\..\lib\Release\MitkMultilabel.lib;E:\D\MITK-superbuild\ep\lib\ITKLabelMap-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKStatistics-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKSpatialObjects-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKPath-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkdouble-conversion-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itksys-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl_algo-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkv3p_netlib-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkNetlibSlatec-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKMesh-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKMetaIO-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkzlib-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKQuadEdgeMesh-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKWatersheds-4.7d.lib;..\..\lib\Release\MitkIpPic.lib;;..\..\lib\Release\MitkImageStatistics.lib;..\..\lib\Release\MitkImageExtraction.lib;..\..\lib\Release\MitkPlanarFigure.lib;E:\D\MITK-superbuild\ep\lib\ITKIOXML-4.7d.lib;..\..\lib\Release\MitkOverlays.lib;..\..\lib\Release\MitkAlgorithmsExt.lib;..\..\lib\Release\MitkDataTypesExt.lib;..\..\lib\Release\MitkLegacyGL.lib;E:\D\MITK-superbuild\ep\lib\annd.lib;..\..\lib\Release\MitkSceneSerializationBase.lib;..\..\lib\Release\MitkCore.lib;..\..\lib\Release\CppMicroServices.lib;..\..\lib\Release\mbilog.lib;E:\D\MITK-superbuild\ep\lib\ITKIOGDCM-4.7d.lib;E:\D\MITK-superbuild\ep\lib\gdcmMSFFd.lib;E:\D\MITK-superbuild\ep\lib\gdcmDICTd.lib;E:\D\MITK-superbuild\ep\lib\gdcmIODd.lib;E:\D\MITK-superbuild\ep\lib\gdcmDSEDd.lib;E:\D\MITK-superbuild\ep\lib\gdcmCommond.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersTexture-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersParallel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkParallelCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOLegacy-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingStencil-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingMath-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingVolumeOpenGL-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingFreeTypeOpenGL-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingOpenGL-6.2d.lib;glu32.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingLabel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkInteractionWidgets-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersModeling-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkInteractionStyle-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingHybrid-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOImage-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkDICOMParser-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkmetaio-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkpng-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtktiff-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkjpeg-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingVolume-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersHybrid-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingGeneral-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingSources-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingAnnotation-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingFreeType-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersExtraction-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersStatistics-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingFourier-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkalglib-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersGeometry-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersSources-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersGeneral-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonComputationalGeometry-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonColor-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkftgl-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkfreetype-6.2d.lib;opengl32.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingColor-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOXML-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOGeometry-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkjsoncpp-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOXMLParser-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonExecutionModel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonDataModel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonMisc-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonSystem-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtksys-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonTransforms-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonMath-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkzlib-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkexpat-6.2d.lib;E:\D\MITK-superbuild\ep\lib\ITKMetaIO-4.7d.lib;comctl32.lib;wsock32.lib;E:\D\MITK-superbuild\ep\lib\ITKEXPAT-4.7d.lib;E:\D\MITK-superbuild\ep\lib\tinyxmld.lib;E:\D\MITK-superbuild\ep\lib\itkzlib-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKSpatialObjects-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOImageBase-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKMesh-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKPath-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKStatistics-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKCommon-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkdouble-conversion-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itksys-4.7d.lib;ws2_32.lib;Psapi.lib;E:\D\MITK-superbuild\ep\lib\ITKVNLInstantiation-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl_algo-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkv3p_lsqr-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvcl-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkNetlibSlatec-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkv3p_netlib-4.7d.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:/D/MITK-superbuild/ep/lib;E:/D/MITK-superbuild/ep/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/MITK-build/lib/Release/MitkSegmentation.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/MITK-build/bin/Release/MitkSegmentation.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\MITK-build\Modules\Segmentation;E:\D\MITK-superbuild\ep\include\ITK-4.7;E:\D\MITK\Modules\Segmentation\.;E:\D\MITK\Modules\Segmentation\Algorithms;E:\D\MITK\Modules\Segmentation\Controllers;E:\D\MITK\Modules\Segmentation\DataManagement;E:\D\MITK\Modules\Segmentation\Interactions;E:\D\MITK\Modules\Segmentation\Rendering;E:\D\MITK\Modules\Segmentation\SegmentationUtilities\BooleanOperations;E:\D\MITK\Modules\Segmentation\SegmentationUtilities\MorphologicalOperations;E:\D\MITK\Modules\CppMicroServices\third_party;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\include;E:\D\MITK\Modules\CppMicroServices\core\include;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\core\include;E:\D\MITK\Modules\CppMicroServices\core\src\util;E:\D\MITK\Modules\CppMicroServices\core\src\service;E:\D\MITK\Modules\CppMicroServices\core\src\module;E:\D\MITK-superbuild\MITK-build\Modules\AlgorithmsExt;E:\D\MITK\Modules\AlgorithmsExt\include;E:\D\MITK-superbuild\MITK-build\Modules\DataTypesExt;E:\D\MITK\Modules\DataTypesExt\include;E:\D\MITK-superbuild\MITK-build\Modules\Core;E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\include\vtk-6.2;E:\D\MITK-superbuild\ep\include\boost-1_59;E:\D\MITK\Modules\Core\include;E:\D\MITK-superbuild\MITK-build;E:\D\MITK-superbuild\MITK-build\Utilities\mbilog;E:\D\MITK\Utilities\mbilog\.;E:\D\MITK-superbuild\MITK-build\Modules\LegacyGL;E:\D\MITK\Modules\LegacyGL\.;E:\D\MITK-superbuild\MITK-build\Utilities\IpSegmentation;E:\D\MITK\Utilities\IpSegmentation\.;E:\D\MITK-superbuild\MITK-build\Utilities\IpPic;E:\D\MITK\Utilities\IpPic\.;E:\D\MITK-superbuild\MITK-build\Utilities\IpFunc;E:\D\MITK\Utilities\IpFunc\.;E:\D\MITK-superbuild\MITK-build\Modules\LegacyAdaptors;E:\D\MITK\Modules\LegacyAdaptors\.;E:\D\MITK-superbuild\MITK-build\Modules\SurfaceInterpolation;E:\D\MITK\Modules\SurfaceInterpolation\.;E:\D\MITK-superbuild\MITK-build\Modules\ImageExtraction;E:\D\MITK\Modules\ImageExtraction\.;E:\D\MITK-superbuild\MITK-build\Modules\ImageStatistics;E:\D\MITK\Modules\ImageStatistics\.;E:\D\MITK-superbuild\MITK-build\Modules\PlanarFigure;E:\D\MITK\Modules\PlanarFigure\include;E:\D\MITK-superbuild\MITK-build\Modules\SceneSerializationBase;E:\D\MITK\Modules\SceneSerializationBase\include;E:\D\MITK-superbuild\ep\include\tinyxml;E:\D\MITK-superbuild\MITK-build\Modules\Overlays;E:\D\MITK\Modules\Overlays\.;E:\D\MITK-superbuild\ep\include\eigen3;E:\D\MITK-superbuild\MITK-build\Modules\GraphAlgorithms;E:\D\MITK\Modules\GraphAlgorithms\.;E:\D\MITK-superbuild\MITK-build\Modules\ContourModel;E:\D\MITK\Modules\ContourModel\.;E:\D\MITK\Modules\ContourModel\Algorithms;E:\D\MITK\Modules\ContourModel\DataManagement;E:\D\MITK\Modules\ContourModel\IO;E:\D\MITK\Modules\ContourModel\Rendering;E:\D\MITK-superbuild\MITK-build\Modules\Multilabel;E:\D\MITK\Modules\Multilabel\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4005;4231;4316</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WIN32_WINNT=0x0501;POCO_NO_UNWINDOWS;WIN32_LEAN_AND_MEAN;NOMINMAX;NDEBUG;US_MODULE_NAME=MitkSegmentation;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR="MinSizeRel";MitkSegmentation_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WIN32_WINNT=0x0501;POCO_NO_UNWINDOWS;WIN32_LEAN_AND_MEAN;NOMINMAX;NDEBUG;US_MODULE_NAME=MitkSegmentation;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\";MitkSegmentation_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\MITK-build\Modules\Segmentation;E:\D\MITK-superbuild\ep\include\ITK-4.7;E:\D\MITK\Modules\Segmentation\.;E:\D\MITK\Modules\Segmentation\Algorithms;E:\D\MITK\Modules\Segmentation\Controllers;E:\D\MITK\Modules\Segmentation\DataManagement;E:\D\MITK\Modules\Segmentation\Interactions;E:\D\MITK\Modules\Segmentation\Rendering;E:\D\MITK\Modules\Segmentation\SegmentationUtilities\BooleanOperations;E:\D\MITK\Modules\Segmentation\SegmentationUtilities\MorphologicalOperations;E:\D\MITK\Modules\CppMicroServices\third_party;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\include;E:\D\MITK\Modules\CppMicroServices\core\include;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\core\include;E:\D\MITK\Modules\CppMicroServices\core\src\util;E:\D\MITK\Modules\CppMicroServices\core\src\service;E:\D\MITK\Modules\CppMicroServices\core\src\module;E:\D\MITK-superbuild\MITK-build\Modules\AlgorithmsExt;E:\D\MITK\Modules\AlgorithmsExt\include;E:\D\MITK-superbuild\MITK-build\Modules\DataTypesExt;E:\D\MITK\Modules\DataTypesExt\include;E:\D\MITK-superbuild\MITK-build\Modules\Core;E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\include\vtk-6.2;E:\D\MITK-superbuild\ep\include\boost-1_59;E:\D\MITK\Modules\Core\include;E:\D\MITK-superbuild\MITK-build;E:\D\MITK-superbuild\MITK-build\Utilities\mbilog;E:\D\MITK\Utilities\mbilog\.;E:\D\MITK-superbuild\MITK-build\Modules\LegacyGL;E:\D\MITK\Modules\LegacyGL\.;E:\D\MITK-superbuild\MITK-build\Utilities\IpSegmentation;E:\D\MITK\Utilities\IpSegmentation\.;E:\D\MITK-superbuild\MITK-build\Utilities\IpPic;E:\D\MITK\Utilities\IpPic\.;E:\D\MITK-superbuild\MITK-build\Utilities\IpFunc;E:\D\MITK\Utilities\IpFunc\.;E:\D\MITK-superbuild\MITK-build\Modules\LegacyAdaptors;E:\D\MITK\Modules\LegacyAdaptors\.;E:\D\MITK-superbuild\MITK-build\Modules\SurfaceInterpolation;E:\D\MITK\Modules\SurfaceInterpolation\.;E:\D\MITK-superbuild\MITK-build\Modules\ImageExtraction;E:\D\MITK\Modules\ImageExtraction\.;E:\D\MITK-superbuild\MITK-build\Modules\ImageStatistics;E:\D\MITK\Modules\ImageStatistics\.;E:\D\MITK-superbuild\MITK-build\Modules\PlanarFigure;E:\D\MITK\Modules\PlanarFigure\include;E:\D\MITK-superbuild\MITK-build\Modules\SceneSerializationBase;E:\D\MITK\Modules\SceneSerializationBase\include;E:\D\MITK-superbuild\ep\include\tinyxml;E:\D\MITK-superbuild\MITK-build\Modules\Overlays;E:\D\MITK\Modules\Overlays\.;E:\D\MITK-superbuild\ep\include\eigen3;E:\D\MITK-superbuild\MITK-build\Modules\GraphAlgorithms;E:\D\MITK\Modules\GraphAlgorithms\.;E:\D\MITK-superbuild\MITK-build\Modules\ContourModel;E:\D\MITK\Modules\ContourModel\.;E:\D\MITK\Modules\ContourModel\Algorithms;E:\D\MITK\Modules\ContourModel\DataManagement;E:\D\MITK\Modules\ContourModel\IO;E:\D\MITK\Modules\ContourModel\Rendering;E:\D\MITK-superbuild\MITK-build\Modules\Multilabel;E:\D\MITK\Modules\Multilabel\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\MITK-build\Modules\Segmentation;E:\D\MITK-superbuild\ep\include\ITK-4.7;E:\D\MITK\Modules\Segmentation\.;E:\D\MITK\Modules\Segmentation\Algorithms;E:\D\MITK\Modules\Segmentation\Controllers;E:\D\MITK\Modules\Segmentation\DataManagement;E:\D\MITK\Modules\Segmentation\Interactions;E:\D\MITK\Modules\Segmentation\Rendering;E:\D\MITK\Modules\Segmentation\SegmentationUtilities\BooleanOperations;E:\D\MITK\Modules\Segmentation\SegmentationUtilities\MorphologicalOperations;E:\D\MITK\Modules\CppMicroServices\third_party;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\include;E:\D\MITK\Modules\CppMicroServices\core\include;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\core\include;E:\D\MITK\Modules\CppMicroServices\core\src\util;E:\D\MITK\Modules\CppMicroServices\core\src\service;E:\D\MITK\Modules\CppMicroServices\core\src\module;E:\D\MITK-superbuild\MITK-build\Modules\AlgorithmsExt;E:\D\MITK\Modules\AlgorithmsExt\include;E:\D\MITK-superbuild\MITK-build\Modules\DataTypesExt;E:\D\MITK\Modules\DataTypesExt\include;E:\D\MITK-superbuild\MITK-build\Modules\Core;E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\include\vtk-6.2;E:\D\MITK-superbuild\ep\include\boost-1_59;E:\D\MITK\Modules\Core\include;E:\D\MITK-superbuild\MITK-build;E:\D\MITK-superbuild\MITK-build\Utilities\mbilog;E:\D\MITK\Utilities\mbilog\.;E:\D\MITK-superbuild\MITK-build\Modules\LegacyGL;E:\D\MITK\Modules\LegacyGL\.;E:\D\MITK-superbuild\MITK-build\Utilities\IpSegmentation;E:\D\MITK\Utilities\IpSegmentation\.;E:\D\MITK-superbuild\MITK-build\Utilities\IpPic;E:\D\MITK\Utilities\IpPic\.;E:\D\MITK-superbuild\MITK-build\Utilities\IpFunc;E:\D\MITK\Utilities\IpFunc\.;E:\D\MITK-superbuild\MITK-build\Modules\LegacyAdaptors;E:\D\MITK\Modules\LegacyAdaptors\.;E:\D\MITK-superbuild\MITK-build\Modules\SurfaceInterpolation;E:\D\MITK\Modules\SurfaceInterpolation\.;E:\D\MITK-superbuild\MITK-build\Modules\ImageExtraction;E:\D\MITK\Modules\ImageExtraction\.;E:\D\MITK-superbuild\MITK-build\Modules\ImageStatistics;E:\D\MITK\Modules\ImageStatistics\.;E:\D\MITK-superbuild\MITK-build\Modules\PlanarFigure;E:\D\MITK\Modules\PlanarFigure\include;E:\D\MITK-superbuild\MITK-build\Modules\SceneSerializationBase;E:\D\MITK\Modules\SceneSerializationBase\include;E:\D\MITK-superbuild\ep\include\tinyxml;E:\D\MITK-superbuild\MITK-build\Modules\Overlays;E:\D\MITK\Modules\Overlays\.;E:\D\MITK-superbuild\ep\include\eigen3;E:\D\MITK-superbuild\MITK-build\Modules\GraphAlgorithms;E:\D\MITK\Modules\GraphAlgorithms\.;E:\D\MITK-superbuild\MITK-build\Modules\ContourModel;E:\D\MITK\Modules\ContourModel\.;E:\D\MITK\Modules\ContourModel\Algorithms;E:\D\MITK\Modules\ContourModel\DataManagement;E:\D\MITK\Modules\ContourModel\IO;E:\D\MITK\Modules\ContourModel\Rendering;E:\D\MITK-superbuild\MITK-build\Modules\Multilabel;E:\D\MITK\Modules\Multilabel\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Appending zipped resources to MitkSegmentation</Message>
+      <Command>setlocal
+cd E:\D\MITK\Modules\Segmentation
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+E:\D\MITK-superbuild\MITK-build\bin\MinSizeRel\usResourceCompiler.exe --append E:/D/MITK-superbuild/MITK-build/bin/MinSizeRel/MitkSegmentation.dll E:/D/MITK-superbuild/MITK-build/Modules/Segmentation/us_MitkSegmentation/res_0.zip
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\MinSizeRel\MitkIpSegmentation.lib;..\..\lib\MinSizeRel\MitkIpFunc.lib;..\..\lib\MinSizeRel\MitkLegacyAdaptors.lib;..\..\lib\MinSizeRel\MitkSurfaceInterpolation.lib;..\..\lib\MinSizeRel\MitkGraphAlgorithms.lib;..\..\lib\MinSizeRel\MitkContourModel.lib;..\..\lib\MinSizeRel\MitkMultilabel.lib;E:\D\MITK-superbuild\ep\lib\ITKLabelMap-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKStatistics-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKSpatialObjects-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKPath-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkdouble-conversion-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itksys-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl_algo-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkv3p_netlib-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkNetlibSlatec-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKMesh-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKMetaIO-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkzlib-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKQuadEdgeMesh-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKWatersheds-4.7d.lib;..\..\lib\MinSizeRel\MitkIpPic.lib;;..\..\lib\MinSizeRel\MitkImageStatistics.lib;..\..\lib\MinSizeRel\MitkImageExtraction.lib;..\..\lib\MinSizeRel\MitkPlanarFigure.lib;E:\D\MITK-superbuild\ep\lib\ITKIOXML-4.7d.lib;..\..\lib\MinSizeRel\MitkOverlays.lib;..\..\lib\MinSizeRel\MitkAlgorithmsExt.lib;..\..\lib\MinSizeRel\MitkDataTypesExt.lib;..\..\lib\MinSizeRel\MitkLegacyGL.lib;E:\D\MITK-superbuild\ep\lib\annd.lib;..\..\lib\MinSizeRel\MitkSceneSerializationBase.lib;..\..\lib\MinSizeRel\MitkCore.lib;..\..\lib\MinSizeRel\CppMicroServices.lib;..\..\lib\MinSizeRel\mbilog.lib;E:\D\MITK-superbuild\ep\lib\ITKIOGDCM-4.7d.lib;E:\D\MITK-superbuild\ep\lib\gdcmMSFFd.lib;E:\D\MITK-superbuild\ep\lib\gdcmDICTd.lib;E:\D\MITK-superbuild\ep\lib\gdcmIODd.lib;E:\D\MITK-superbuild\ep\lib\gdcmDSEDd.lib;E:\D\MITK-superbuild\ep\lib\gdcmCommond.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersTexture-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersParallel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkParallelCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOLegacy-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingStencil-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingMath-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingVolumeOpenGL-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingFreeTypeOpenGL-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingOpenGL-6.2d.lib;glu32.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingLabel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkInteractionWidgets-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersModeling-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkInteractionStyle-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingHybrid-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOImage-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkDICOMParser-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkmetaio-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkpng-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtktiff-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkjpeg-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingVolume-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersHybrid-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingGeneral-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingSources-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingAnnotation-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingFreeType-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersExtraction-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersStatistics-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingFourier-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkalglib-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersGeometry-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersSources-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersGeneral-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonComputationalGeometry-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonColor-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkftgl-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkfreetype-6.2d.lib;opengl32.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingColor-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOXML-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOGeometry-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkjsoncpp-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOXMLParser-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonExecutionModel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonDataModel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonMisc-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonSystem-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtksys-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonTransforms-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonMath-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkzlib-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkexpat-6.2d.lib;E:\D\MITK-superbuild\ep\lib\ITKMetaIO-4.7d.lib;comctl32.lib;wsock32.lib;E:\D\MITK-superbuild\ep\lib\ITKEXPAT-4.7d.lib;E:\D\MITK-superbuild\ep\lib\tinyxmld.lib;E:\D\MITK-superbuild\ep\lib\itkzlib-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKSpatialObjects-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOImageBase-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKMesh-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKPath-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKStatistics-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKCommon-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkdouble-conversion-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itksys-4.7d.lib;ws2_32.lib;Psapi.lib;E:\D\MITK-superbuild\ep\lib\ITKVNLInstantiation-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl_algo-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkv3p_lsqr-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvcl-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkNetlibSlatec-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkv3p_netlib-4.7d.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:/D/MITK-superbuild/ep/lib;E:/D/MITK-superbuild/ep/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/MITK-build/lib/MinSizeRel/MitkSegmentation.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/MITK-build/bin/MinSizeRel/MitkSegmentation.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\MITK-build\Modules\Segmentation;E:\D\MITK-superbuild\ep\include\ITK-4.7;E:\D\MITK\Modules\Segmentation\.;E:\D\MITK\Modules\Segmentation\Algorithms;E:\D\MITK\Modules\Segmentation\Controllers;E:\D\MITK\Modules\Segmentation\DataManagement;E:\D\MITK\Modules\Segmentation\Interactions;E:\D\MITK\Modules\Segmentation\Rendering;E:\D\MITK\Modules\Segmentation\SegmentationUtilities\BooleanOperations;E:\D\MITK\Modules\Segmentation\SegmentationUtilities\MorphologicalOperations;E:\D\MITK\Modules\CppMicroServices\third_party;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\include;E:\D\MITK\Modules\CppMicroServices\core\include;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\core\include;E:\D\MITK\Modules\CppMicroServices\core\src\util;E:\D\MITK\Modules\CppMicroServices\core\src\service;E:\D\MITK\Modules\CppMicroServices\core\src\module;E:\D\MITK-superbuild\MITK-build\Modules\AlgorithmsExt;E:\D\MITK\Modules\AlgorithmsExt\include;E:\D\MITK-superbuild\MITK-build\Modules\DataTypesExt;E:\D\MITK\Modules\DataTypesExt\include;E:\D\MITK-superbuild\MITK-build\Modules\Core;E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\include\vtk-6.2;E:\D\MITK-superbuild\ep\include\boost-1_59;E:\D\MITK\Modules\Core\include;E:\D\MITK-superbuild\MITK-build;E:\D\MITK-superbuild\MITK-build\Utilities\mbilog;E:\D\MITK\Utilities\mbilog\.;E:\D\MITK-superbuild\MITK-build\Modules\LegacyGL;E:\D\MITK\Modules\LegacyGL\.;E:\D\MITK-superbuild\MITK-build\Utilities\IpSegmentation;E:\D\MITK\Utilities\IpSegmentation\.;E:\D\MITK-superbuild\MITK-build\Utilities\IpPic;E:\D\MITK\Utilities\IpPic\.;E:\D\MITK-superbuild\MITK-build\Utilities\IpFunc;E:\D\MITK\Utilities\IpFunc\.;E:\D\MITK-superbuild\MITK-build\Modules\LegacyAdaptors;E:\D\MITK\Modules\LegacyAdaptors\.;E:\D\MITK-superbuild\MITK-build\Modules\SurfaceInterpolation;E:\D\MITK\Modules\SurfaceInterpolation\.;E:\D\MITK-superbuild\MITK-build\Modules\ImageExtraction;E:\D\MITK\Modules\ImageExtraction\.;E:\D\MITK-superbuild\MITK-build\Modules\ImageStatistics;E:\D\MITK\Modules\ImageStatistics\.;E:\D\MITK-superbuild\MITK-build\Modules\PlanarFigure;E:\D\MITK\Modules\PlanarFigure\include;E:\D\MITK-superbuild\MITK-build\Modules\SceneSerializationBase;E:\D\MITK\Modules\SceneSerializationBase\include;E:\D\MITK-superbuild\ep\include\tinyxml;E:\D\MITK-superbuild\MITK-build\Modules\Overlays;E:\D\MITK\Modules\Overlays\.;E:\D\MITK-superbuild\ep\include\eigen3;E:\D\MITK-superbuild\MITK-build\Modules\GraphAlgorithms;E:\D\MITK\Modules\GraphAlgorithms\.;E:\D\MITK-superbuild\MITK-build\Modules\ContourModel;E:\D\MITK\Modules\ContourModel\.;E:\D\MITK\Modules\ContourModel\Algorithms;E:\D\MITK\Modules\ContourModel\DataManagement;E:\D\MITK\Modules\ContourModel\IO;E:\D\MITK\Modules\ContourModel\Rendering;E:\D\MITK-superbuild\MITK-build\Modules\Multilabel;E:\D\MITK\Modules\Multilabel\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4005;4231;4316</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WIN32_WINNT=0x0501;POCO_NO_UNWINDOWS;WIN32_LEAN_AND_MEAN;NOMINMAX;NDEBUG;US_MODULE_NAME=MitkSegmentation;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR="RelWithDebInfo";MitkSegmentation_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WIN32_WINNT=0x0501;POCO_NO_UNWINDOWS;WIN32_LEAN_AND_MEAN;NOMINMAX;NDEBUG;US_MODULE_NAME=MitkSegmentation;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\";MitkSegmentation_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\MITK-build\Modules\Segmentation;E:\D\MITK-superbuild\ep\include\ITK-4.7;E:\D\MITK\Modules\Segmentation\.;E:\D\MITK\Modules\Segmentation\Algorithms;E:\D\MITK\Modules\Segmentation\Controllers;E:\D\MITK\Modules\Segmentation\DataManagement;E:\D\MITK\Modules\Segmentation\Interactions;E:\D\MITK\Modules\Segmentation\Rendering;E:\D\MITK\Modules\Segmentation\SegmentationUtilities\BooleanOperations;E:\D\MITK\Modules\Segmentation\SegmentationUtilities\MorphologicalOperations;E:\D\MITK\Modules\CppMicroServices\third_party;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\include;E:\D\MITK\Modules\CppMicroServices\core\include;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\core\include;E:\D\MITK\Modules\CppMicroServices\core\src\util;E:\D\MITK\Modules\CppMicroServices\core\src\service;E:\D\MITK\Modules\CppMicroServices\core\src\module;E:\D\MITK-superbuild\MITK-build\Modules\AlgorithmsExt;E:\D\MITK\Modules\AlgorithmsExt\include;E:\D\MITK-superbuild\MITK-build\Modules\DataTypesExt;E:\D\MITK\Modules\DataTypesExt\include;E:\D\MITK-superbuild\MITK-build\Modules\Core;E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\include\vtk-6.2;E:\D\MITK-superbuild\ep\include\boost-1_59;E:\D\MITK\Modules\Core\include;E:\D\MITK-superbuild\MITK-build;E:\D\MITK-superbuild\MITK-build\Utilities\mbilog;E:\D\MITK\Utilities\mbilog\.;E:\D\MITK-superbuild\MITK-build\Modules\LegacyGL;E:\D\MITK\Modules\LegacyGL\.;E:\D\MITK-superbuild\MITK-build\Utilities\IpSegmentation;E:\D\MITK\Utilities\IpSegmentation\.;E:\D\MITK-superbuild\MITK-build\Utilities\IpPic;E:\D\MITK\Utilities\IpPic\.;E:\D\MITK-superbuild\MITK-build\Utilities\IpFunc;E:\D\MITK\Utilities\IpFunc\.;E:\D\MITK-superbuild\MITK-build\Modules\LegacyAdaptors;E:\D\MITK\Modules\LegacyAdaptors\.;E:\D\MITK-superbuild\MITK-build\Modules\SurfaceInterpolation;E:\D\MITK\Modules\SurfaceInterpolation\.;E:\D\MITK-superbuild\MITK-build\Modules\ImageExtraction;E:\D\MITK\Modules\ImageExtraction\.;E:\D\MITK-superbuild\MITK-build\Modules\ImageStatistics;E:\D\MITK\Modules\ImageStatistics\.;E:\D\MITK-superbuild\MITK-build\Modules\PlanarFigure;E:\D\MITK\Modules\PlanarFigure\include;E:\D\MITK-superbuild\MITK-build\Modules\SceneSerializationBase;E:\D\MITK\Modules\SceneSerializationBase\include;E:\D\MITK-superbuild\ep\include\tinyxml;E:\D\MITK-superbuild\MITK-build\Modules\Overlays;E:\D\MITK\Modules\Overlays\.;E:\D\MITK-superbuild\ep\include\eigen3;E:\D\MITK-superbuild\MITK-build\Modules\GraphAlgorithms;E:\D\MITK\Modules\GraphAlgorithms\.;E:\D\MITK-superbuild\MITK-build\Modules\ContourModel;E:\D\MITK\Modules\ContourModel\.;E:\D\MITK\Modules\ContourModel\Algorithms;E:\D\MITK\Modules\ContourModel\DataManagement;E:\D\MITK\Modules\ContourModel\IO;E:\D\MITK\Modules\ContourModel\Rendering;E:\D\MITK-superbuild\MITK-build\Modules\Multilabel;E:\D\MITK\Modules\Multilabel\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\MITK-build\Modules\Segmentation;E:\D\MITK-superbuild\ep\include\ITK-4.7;E:\D\MITK\Modules\Segmentation\.;E:\D\MITK\Modules\Segmentation\Algorithms;E:\D\MITK\Modules\Segmentation\Controllers;E:\D\MITK\Modules\Segmentation\DataManagement;E:\D\MITK\Modules\Segmentation\Interactions;E:\D\MITK\Modules\Segmentation\Rendering;E:\D\MITK\Modules\Segmentation\SegmentationUtilities\BooleanOperations;E:\D\MITK\Modules\Segmentation\SegmentationUtilities\MorphologicalOperations;E:\D\MITK\Modules\CppMicroServices\third_party;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\include;E:\D\MITK\Modules\CppMicroServices\core\include;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\core\include;E:\D\MITK\Modules\CppMicroServices\core\src\util;E:\D\MITK\Modules\CppMicroServices\core\src\service;E:\D\MITK\Modules\CppMicroServices\core\src\module;E:\D\MITK-superbuild\MITK-build\Modules\AlgorithmsExt;E:\D\MITK\Modules\AlgorithmsExt\include;E:\D\MITK-superbuild\MITK-build\Modules\DataTypesExt;E:\D\MITK\Modules\DataTypesExt\include;E:\D\MITK-superbuild\MITK-build\Modules\Core;E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\include\vtk-6.2;E:\D\MITK-superbuild\ep\include\boost-1_59;E:\D\MITK\Modules\Core\include;E:\D\MITK-superbuild\MITK-build;E:\D\MITK-superbuild\MITK-build\Utilities\mbilog;E:\D\MITK\Utilities\mbilog\.;E:\D\MITK-superbuild\MITK-build\Modules\LegacyGL;E:\D\MITK\Modules\LegacyGL\.;E:\D\MITK-superbuild\MITK-build\Utilities\IpSegmentation;E:\D\MITK\Utilities\IpSegmentation\.;E:\D\MITK-superbuild\MITK-build\Utilities\IpPic;E:\D\MITK\Utilities\IpPic\.;E:\D\MITK-superbuild\MITK-build\Utilities\IpFunc;E:\D\MITK\Utilities\IpFunc\.;E:\D\MITK-superbuild\MITK-build\Modules\LegacyAdaptors;E:\D\MITK\Modules\LegacyAdaptors\.;E:\D\MITK-superbuild\MITK-build\Modules\SurfaceInterpolation;E:\D\MITK\Modules\SurfaceInterpolation\.;E:\D\MITK-superbuild\MITK-build\Modules\ImageExtraction;E:\D\MITK\Modules\ImageExtraction\.;E:\D\MITK-superbuild\MITK-build\Modules\ImageStatistics;E:\D\MITK\Modules\ImageStatistics\.;E:\D\MITK-superbuild\MITK-build\Modules\PlanarFigure;E:\D\MITK\Modules\PlanarFigure\include;E:\D\MITK-superbuild\MITK-build\Modules\SceneSerializationBase;E:\D\MITK\Modules\SceneSerializationBase\include;E:\D\MITK-superbuild\ep\include\tinyxml;E:\D\MITK-superbuild\MITK-build\Modules\Overlays;E:\D\MITK\Modules\Overlays\.;E:\D\MITK-superbuild\ep\include\eigen3;E:\D\MITK-superbuild\MITK-build\Modules\GraphAlgorithms;E:\D\MITK\Modules\GraphAlgorithms\.;E:\D\MITK-superbuild\MITK-build\Modules\ContourModel;E:\D\MITK\Modules\ContourModel\.;E:\D\MITK\Modules\ContourModel\Algorithms;E:\D\MITK\Modules\ContourModel\DataManagement;E:\D\MITK\Modules\ContourModel\IO;E:\D\MITK\Modules\ContourModel\Rendering;E:\D\MITK-superbuild\MITK-build\Modules\Multilabel;E:\D\MITK\Modules\Multilabel\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Appending zipped resources to MitkSegmentation</Message>
+      <Command>setlocal
+cd E:\D\MITK\Modules\Segmentation
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+E:\D\MITK-superbuild\MITK-build\bin\RelWithDebInfo\usResourceCompiler.exe --append E:/D/MITK-superbuild/MITK-build/bin/RelWithDebInfo/MitkSegmentation.dll E:/D/MITK-superbuild/MITK-build/Modules/Segmentation/us_MitkSegmentation/res_0.zip
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\RelWithDebInfo\MitkIpSegmentation.lib;..\..\lib\RelWithDebInfo\MitkIpFunc.lib;..\..\lib\RelWithDebInfo\MitkLegacyAdaptors.lib;..\..\lib\RelWithDebInfo\MitkSurfaceInterpolation.lib;..\..\lib\RelWithDebInfo\MitkGraphAlgorithms.lib;..\..\lib\RelWithDebInfo\MitkContourModel.lib;..\..\lib\RelWithDebInfo\MitkMultilabel.lib;E:\D\MITK-superbuild\ep\lib\ITKLabelMap-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKStatistics-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKSpatialObjects-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKPath-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkdouble-conversion-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itksys-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl_algo-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkv3p_netlib-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkNetlibSlatec-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKMesh-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKMetaIO-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkzlib-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKQuadEdgeMesh-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKWatersheds-4.7d.lib;..\..\lib\RelWithDebInfo\MitkIpPic.lib;;..\..\lib\RelWithDebInfo\MitkImageStatistics.lib;..\..\lib\RelWithDebInfo\MitkImageExtraction.lib;..\..\lib\RelWithDebInfo\MitkPlanarFigure.lib;E:\D\MITK-superbuild\ep\lib\ITKIOXML-4.7d.lib;..\..\lib\RelWithDebInfo\MitkOverlays.lib;..\..\lib\RelWithDebInfo\MitkAlgorithmsExt.lib;..\..\lib\RelWithDebInfo\MitkDataTypesExt.lib;..\..\lib\RelWithDebInfo\MitkLegacyGL.lib;E:\D\MITK-superbuild\ep\lib\annd.lib;..\..\lib\RelWithDebInfo\MitkSceneSerializationBase.lib;..\..\lib\RelWithDebInfo\MitkCore.lib;..\..\lib\RelWithDebInfo\CppMicroServices.lib;..\..\lib\RelWithDebInfo\mbilog.lib;E:\D\MITK-superbuild\ep\lib\ITKIOGDCM-4.7d.lib;E:\D\MITK-superbuild\ep\lib\gdcmMSFFd.lib;E:\D\MITK-superbuild\ep\lib\gdcmDICTd.lib;E:\D\MITK-superbuild\ep\lib\gdcmIODd.lib;E:\D\MITK-superbuild\ep\lib\gdcmDSEDd.lib;E:\D\MITK-superbuild\ep\lib\gdcmCommond.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersTexture-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersParallel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkParallelCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOLegacy-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingStencil-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingMath-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingVolumeOpenGL-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingFreeTypeOpenGL-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingOpenGL-6.2d.lib;glu32.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingLabel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkInteractionWidgets-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersModeling-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkInteractionStyle-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingHybrid-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOImage-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkDICOMParser-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkmetaio-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkpng-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtktiff-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkjpeg-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingVolume-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersHybrid-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingGeneral-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingSources-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingAnnotation-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingFreeType-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersExtraction-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersStatistics-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingFourier-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkalglib-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersGeometry-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersSources-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersGeneral-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonComputationalGeometry-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonColor-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkftgl-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkfreetype-6.2d.lib;opengl32.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingColor-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOXML-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOGeometry-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkjsoncpp-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOXMLParser-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonExecutionModel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonDataModel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonMisc-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonSystem-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtksys-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonTransforms-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonMath-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkzlib-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkexpat-6.2d.lib;E:\D\MITK-superbuild\ep\lib\ITKMetaIO-4.7d.lib;comctl32.lib;wsock32.lib;E:\D\MITK-superbuild\ep\lib\ITKEXPAT-4.7d.lib;E:\D\MITK-superbuild\ep\lib\tinyxmld.lib;E:\D\MITK-superbuild\ep\lib\itkzlib-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKSpatialObjects-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOImageBase-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKMesh-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKPath-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKStatistics-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKCommon-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkdouble-conversion-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itksys-4.7d.lib;ws2_32.lib;Psapi.lib;E:\D\MITK-superbuild\ep\lib\ITKVNLInstantiation-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl_algo-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkv3p_lsqr-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvcl-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkNetlibSlatec-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkv3p_netlib-4.7d.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:/D/MITK-superbuild/ep/lib;E:/D/MITK-superbuild/ep/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/MITK-build/lib/RelWithDebInfo/MitkSegmentation.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/MITK-build/bin/RelWithDebInfo/MitkSegmentation.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK\Modules\Segmentation\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/D/MITK/Modules/Segmentation/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK -BE:/D/MITK-superbuild/MITK-build --check-stamp-file E:\D\MITK-superbuild\MITK-build\Modules\Segmentation\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK/Modules/Segmentation/CMakeLists.txt;E:\D\MITK\Modules\Segmentation\CMakeLists.txt;E:\D\MITK\Modules\Segmentation\files.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\CppMicroServicesConfigVersion.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\CppMicroServicesConfig.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\CMakeParseArguments.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionGenerateModuleInit.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionAddResources.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionCheckCompilerFlags.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionEmbedResources.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionCheckResourceLinking.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionGetResourceSource.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\usCoreConfigVersion.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\usCoreConfig.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usModuleInit.cpp;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\exportheader.cmake.in;E:\D\MITK\CMake\PackageDepends\MITK_ITK_Config.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\ITKConfigVersion.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\ITKConfig.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\ITKModuleAPI.cmake;E:\D\MITK\Modules\Segmentation\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\Segmentation\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/D/MITK/Modules/Segmentation/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK -BE:/D/MITK-superbuild/MITK-build --check-stamp-file E:\D\MITK-superbuild\MITK-build\Modules\Segmentation\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK/Modules/Segmentation/CMakeLists.txt;E:\D\MITK\Modules\Segmentation\CMakeLists.txt;E:\D\MITK\Modules\Segmentation\files.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\CppMicroServicesConfigVersion.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\CppMicroServicesConfig.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\CMakeParseArguments.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionGenerateModuleInit.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionAddResources.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionCheckCompilerFlags.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionEmbedResources.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionCheckResourceLinking.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionGetResourceSource.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\usCoreConfigVersion.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\usCoreConfig.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usModuleInit.cpp;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\exportheader.cmake.in;E:\D\MITK\CMake\PackageDepends\MITK_ITK_Config.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\ITKConfigVersion.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\ITKConfig.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\ITKModuleAPI.cmake;E:\D\MITK\Modules\Segmentation\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\Segmentation\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/D/MITK/Modules/Segmentation/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK -BE:/D/MITK-superbuild/MITK-build --check-stamp-file E:\D\MITK-superbuild\MITK-build\Modules\Segmentation\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK/Modules/Segmentation/CMakeLists.txt;E:\D\MITK\Modules\Segmentation\CMakeLists.txt;E:\D\MITK\Modules\Segmentation\files.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\CppMicroServicesConfigVersion.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\CppMicroServicesConfig.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\CMakeParseArguments.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionGenerateModuleInit.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionAddResources.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionCheckCompilerFlags.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionEmbedResources.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionCheckResourceLinking.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionGetResourceSource.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\usCoreConfigVersion.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\usCoreConfig.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usModuleInit.cpp;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\exportheader.cmake.in;E:\D\MITK\CMake\PackageDepends\MITK_ITK_Config.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\ITKConfigVersion.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\ITKConfig.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\ITKModuleAPI.cmake;E:\D\MITK\Modules\Segmentation\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\Segmentation\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/D/MITK/Modules/Segmentation/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK -BE:/D/MITK-superbuild/MITK-build --check-stamp-file E:\D\MITK-superbuild\MITK-build\Modules\Segmentation\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK/Modules/Segmentation/CMakeLists.txt;E:\D\MITK\Modules\Segmentation\CMakeLists.txt;E:\D\MITK\Modules\Segmentation\files.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\CppMicroServicesConfigVersion.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\CppMicroServicesConfig.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\CMakeParseArguments.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionGenerateModuleInit.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionAddResources.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionCheckCompilerFlags.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionEmbedResources.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionCheckResourceLinking.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionGetResourceSource.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\usCoreConfigVersion.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\usCoreConfig.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usModuleInit.cpp;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\exportheader.cmake.in;E:\D\MITK\CMake\PackageDepends\MITK_ITK_Config.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\ITKConfigVersion.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\ITKConfig.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\ITKModuleAPI.cmake;E:\D\MITK\Modules\Segmentation\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\Segmentation\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\622f1ffecd8e935658a48e23c3928241\res_0.zip.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Checking resource dependencies for MitkSegmentation</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\D\MITK\Modules\Segmentation\Resources
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/MITK-superbuild/MITK-build/Modules/Segmentation/us_MitkSegmentation
+if %errorlevel% neq 0 goto :cmEnd
+E:\D\MITK-superbuild\MITK-build\bin\Debug\usResourceCompiler.exe E:/D/MITK-superbuild/MITK-build/Modules/Segmentation/us_MitkSegmentation/res_0.zip MitkSegmentation -a Add_48x48.png Add_Cursor_32x32.png Correction_48x48.png Correction_Cursor_32x32.png Erase_48x48.png Erase_Cursor_32x32.png FastMarching_48x48.png FastMarching_Cursor_32x32.png Fill_48x48.png Fill_Cursor_32x32.png LiveWire_48x48.png LiveWire_Cursor_32x32.png Otsu_48x48.png Paint_48x48.png Paint_Cursor_32x32.png Pick_48x48.png RegionGrowing_48x48.png RegionGrowing_Cursor_32x32.png Subtract_48x48.png Subtract_Cursor_32x32.png Threshold_48x48.png TwoThresholds_48x48.png Watershed_48x48.png Watershed_Cursor_32x32.png Wipe_48x48.png Wipe_Cursor_32x32.png Interactions/dummy.xml Interactions/LiveWireTool.xml Interactions/PressMoveRelease.xml Interactions/PressMoveReleaseAndPointSetting.xml Interactions/PressMoveReleaseWithCTRLInversion.xml Interactions/PressMoveReleaseWithCTRLInversionAllMouseMoves.xml Interactions/SegmentationToolsConfig.xml Interactions/ContourModelModificationConfig.xml Interactions/ContourModelModificationInteractor.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/622f1ffecd8e935658a48e23c3928241/res_0.zip.rule;E:\D\MITK\Modules\Segmentation\Resources\Add_48x48.png;E:\D\MITK\Modules\Segmentation\Resources\Add_Cursor_32x32.png;E:\D\MITK\Modules\Segmentation\Resources\Correction_48x48.png;E:\D\MITK\Modules\Segmentation\Resources\Correction_Cursor_32x32.png;E:\D\MITK\Modules\Segmentation\Resources\Erase_48x48.png;E:\D\MITK\Modules\Segmentation\Resources\Erase_Cursor_32x32.png;E:\D\MITK\Modules\Segmentation\Resources\FastMarching_48x48.png;E:\D\MITK\Modules\Segmentation\Resources\FastMarching_Cursor_32x32.png;E:\D\MITK\Modules\Segmentation\Resources\Fill_48x48.png;E:\D\MITK\Modules\Segmentation\Resources\Fill_Cursor_32x32.png;E:\D\MITK\Modules\Segmentation\Resources\LiveWire_48x48.png;E:\D\MITK\Modules\Segmentation\Resources\LiveWire_Cursor_32x32.png;E:\D\MITK\Modules\Segmentation\Resources\Otsu_48x48.png;E:\D\MITK\Modules\Segmentation\Resources\Paint_48x48.png;E:\D\MITK\Modules\Segmentation\Resources\Paint_Cursor_32x32.png;E:\D\MITK\Modules\Segmentation\Resources\Pick_48x48.png;E:\D\MITK\Modules\Segmentation\Resources\RegionGrowing_48x48.png;E:\D\MITK\Modules\Segmentation\Resources\RegionGrowing_Cursor_32x32.png;E:\D\MITK\Modules\Segmentation\Resources\Subtract_48x48.png;E:\D\MITK\Modules\Segmentation\Resources\Subtract_Cursor_32x32.png;E:\D\MITK\Modules\Segmentation\Resources\Threshold_48x48.png;E:\D\MITK\Modules\Segmentation\Resources\TwoThresholds_48x48.png;E:\D\MITK\Modules\Segmentation\Resources\Watershed_48x48.png;E:\D\MITK\Modules\Segmentation\Resources\Watershed_Cursor_32x32.png;E:\D\MITK\Modules\Segmentation\Resources\Wipe_48x48.png;E:\D\MITK\Modules\Segmentation\Resources\Wipe_Cursor_32x32.png;E:\D\MITK\Modules\Segmentation\Resources\Interactions\dummy.xml;E:\D\MITK\Modules\Segmentation\Resources\Interactions\LiveWireTool.xml;E:\D\MITK\Modules\Segmentation\Resources\Interactions\PressMoveRelease.xml;E:\D\MITK\Modules\Segmentation\Resources\Interactions\PressMoveReleaseAndPointSetting.xml;E:\D\MITK\Modules\Segmentation\Resources\Interactions\PressMoveReleaseWithCTRLInversion.xml;E:\D\MITK\Modules\Segmentation\Resources\Interactions\PressMoveReleaseWithCTRLInversionAllMouseMoves.xml;E:\D\MITK\Modules\Segmentation\Resources\Interactions\SegmentationToolsConfig.xml;E:\D\MITK\Modules\Segmentation\Resources\Interactions\ContourModelModificationConfig.xml;E:\D\MITK\Modules\Segmentation\Resources\Interactions\ContourModelModificationInteractor.xml;E:\D\MITK-superbuild\MITK-build\bin\Debug\usResourceCompiler.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\Segmentation\us_MitkSegmentation\res_0.zip</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Checking resource dependencies for MitkSegmentation</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd E:\D\MITK\Modules\Segmentation\Resources
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/MITK-superbuild/MITK-build/Modules/Segmentation/us_MitkSegmentation
+if %errorlevel% neq 0 goto :cmEnd
+E:\D\MITK-superbuild\MITK-build\bin\Release\usResourceCompiler.exe E:/D/MITK-superbuild/MITK-build/Modules/Segmentation/us_MitkSegmentation/res_0.zip MitkSegmentation -a Add_48x48.png Add_Cursor_32x32.png Correction_48x48.png Correction_Cursor_32x32.png Erase_48x48.png Erase_Cursor_32x32.png FastMarching_48x48.png FastMarching_Cursor_32x32.png Fill_48x48.png Fill_Cursor_32x32.png LiveWire_48x48.png LiveWire_Cursor_32x32.png Otsu_48x48.png Paint_48x48.png Paint_Cursor_32x32.png Pick_48x48.png RegionGrowing_48x48.png RegionGrowing_Cursor_32x32.png Subtract_48x48.png Subtract_Cursor_32x32.png Threshold_48x48.png TwoThresholds_48x48.png Watershed_48x48.png Watershed_Cursor_32x32.png Wipe_48x48.png Wipe_Cursor_32x32.png Interactions/dummy.xml Interactions/LiveWireTool.xml Interactions/PressMoveRelease.xml Interactions/PressMoveReleaseAndPointSetting.xml Interactions/PressMoveReleaseWithCTRLInversion.xml Interactions/PressMoveReleaseWithCTRLInversionAllMouseMoves.xml Interactions/SegmentationToolsConfig.xml Interactions/ContourModelModificationConfig.xml Interactions/ContourModelModificationInteractor.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/622f1ffecd8e935658a48e23c3928241/res_0.zip.rule;E:\D\MITK\Modules\Segmentation\Resources\Add_48x48.png;E:\D\MITK\Modules\Segmentation\Resources\Add_Cursor_32x32.png;E:\D\MITK\Modules\Segmentation\Resources\Correction_48x48.png;E:\D\MITK\Modules\Segmentation\Resources\Correction_Cursor_32x32.png;E:\D\MITK\Modules\Segmentation\Resources\Erase_48x48.png;E:\D\MITK\Modules\Segmentation\Resources\Erase_Cursor_32x32.png;E:\D\MITK\Modules\Segmentation\Resources\FastMarching_48x48.png;E:\D\MITK\Modules\Segmentation\Resources\FastMarching_Cursor_32x32.png;E:\D\MITK\Modules\Segmentation\Resources\Fill_48x48.png;E:\D\MITK\Modules\Segmentation\Resources\Fill_Cursor_32x32.png;E:\D\MITK\Modules\Segmentation\Resources\LiveWire_48x48.png;E:\D\MITK\Modules\Segmentation\Resources\LiveWire_Cursor_32x32.png;E:\D\MITK\Modules\Segmentation\Resources\Otsu_48x48.png;E:\D\MITK\Modules\Segmentation\Resources\Paint_48x48.png;E:\D\MITK\Modules\Segmentation\Resources\Paint_Cursor_32x32.png;E:\D\MITK\Modules\Segmentation\Resources\Pick_48x48.png;E:\D\MITK\Modules\Segmentation\Resources\RegionGrowing_48x48.png;E:\D\MITK\Modules\Segmentation\Resources\RegionGrowing_Cursor_32x32.png;E:\D\MITK\Modules\Segmentation\Resources\Subtract_48x48.png;E:\D\MITK\Modules\Segmentation\Resources\Subtract_Cursor_32x32.png;E:\D\MITK\Modules\Segmentation\Resources\Threshold_48x48.png;E:\D\MITK\Modules\Segmentation\Resources\TwoThresholds_48x48.png;E:\D\MITK\Modules\Segmentation\Resources\Watershed_48x48.png;E:\D\MITK\Modules\Segmentation\Resources\Watershed_Cursor_32x32.png;E:\D\MITK\Modules\Segmentation\Resources\Wipe_48x48.png;E:\D\MITK\Modules\Segmentation\Resources\Wipe_Cursor_32x32.png;E:\D\MITK\Modules\Segmentation\Resources\Interactions\dummy.xml;E:\D\MITK\Modules\Segmentation\Resources\Interactions\LiveWireTool.xml;E:\D\MITK\Modules\Segmentation\Resources\Interactions\PressMoveRelease.xml;E:\D\MITK\Modules\Segmentation\Resources\Interactions\PressMoveReleaseAndPointSetting.xml;E:\D\MITK\Modules\Segmentation\Resources\Interactions\PressMoveReleaseWithCTRLInversion.xml;E:\D\MITK\Modules\Segmentation\Resources\Interactions\PressMoveReleaseWithCTRLInversionAllMouseMoves.xml;E:\D\MITK\Modules\Segmentation\Resources\Interactions\SegmentationToolsConfig.xml;E:\D\MITK\Modules\Segmentation\Resources\Interactions\ContourModelModificationConfig.xml;E:\D\MITK\Modules\Segmentation\Resources\Interactions\ContourModelModificationInteractor.xml;E:\D\MITK-superbuild\MITK-build\bin\Release\usResourceCompiler.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\Segmentation\us_MitkSegmentation\res_0.zip</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Checking resource dependencies for MitkSegmentation</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd E:\D\MITK\Modules\Segmentation\Resources
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/MITK-superbuild/MITK-build/Modules/Segmentation/us_MitkSegmentation
+if %errorlevel% neq 0 goto :cmEnd
+E:\D\MITK-superbuild\MITK-build\bin\MinSizeRel\usResourceCompiler.exe E:/D/MITK-superbuild/MITK-build/Modules/Segmentation/us_MitkSegmentation/res_0.zip MitkSegmentation -a Add_48x48.png Add_Cursor_32x32.png Correction_48x48.png Correction_Cursor_32x32.png Erase_48x48.png Erase_Cursor_32x32.png FastMarching_48x48.png FastMarching_Cursor_32x32.png Fill_48x48.png Fill_Cursor_32x32.png LiveWire_48x48.png LiveWire_Cursor_32x32.png Otsu_48x48.png Paint_48x48.png Paint_Cursor_32x32.png Pick_48x48.png RegionGrowing_48x48.png RegionGrowing_Cursor_32x32.png Subtract_48x48.png Subtract_Cursor_32x32.png Threshold_48x48.png TwoThresholds_48x48.png Watershed_48x48.png Watershed_Cursor_32x32.png Wipe_48x48.png Wipe_Cursor_32x32.png Interactions/dummy.xml Interactions/LiveWireTool.xml Interactions/PressMoveRelease.xml Interactions/PressMoveReleaseAndPointSetting.xml Interactions/PressMoveReleaseWithCTRLInversion.xml Interactions/PressMoveReleaseWithCTRLInversionAllMouseMoves.xml Interactions/SegmentationToolsConfig.xml Interactions/ContourModelModificationConfig.xml Interactions/ContourModelModificationInteractor.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/622f1ffecd8e935658a48e23c3928241/res_0.zip.rule;E:\D\MITK\Modules\Segmentation\Resources\Add_48x48.png;E:\D\MITK\Modules\Segmentation\Resources\Add_Cursor_32x32.png;E:\D\MITK\Modules\Segmentation\Resources\Correction_48x48.png;E:\D\MITK\Modules\Segmentation\Resources\Correction_Cursor_32x32.png;E:\D\MITK\Modules\Segmentation\Resources\Erase_48x48.png;E:\D\MITK\Modules\Segmentation\Resources\Erase_Cursor_32x32.png;E:\D\MITK\Modules\Segmentation\Resources\FastMarching_48x48.png;E:\D\MITK\Modules\Segmentation\Resources\FastMarching_Cursor_32x32.png;E:\D\MITK\Modules\Segmentation\Resources\Fill_48x48.png;E:\D\MITK\Modules\Segmentation\Resources\Fill_Cursor_32x32.png;E:\D\MITK\Modules\Segmentation\Resources\LiveWire_48x48.png;E:\D\MITK\Modules\Segmentation\Resources\LiveWire_Cursor_32x32.png;E:\D\MITK\Modules\Segmentation\Resources\Otsu_48x48.png;E:\D\MITK\Modules\Segmentation\Resources\Paint_48x48.png;E:\D\MITK\Modules\Segmentation\Resources\Paint_Cursor_32x32.png;E:\D\MITK\Modules\Segmentation\Resources\Pick_48x48.png;E:\D\MITK\Modules\Segmentation\Resources\RegionGrowing_48x48.png;E:\D\MITK\Modules\Segmentation\Resources\RegionGrowing_Cursor_32x32.png;E:\D\MITK\Modules\Segmentation\Resources\Subtract_48x48.png;E:\D\MITK\Modules\Segmentation\Resources\Subtract_Cursor_32x32.png;E:\D\MITK\Modules\Segmentation\Resources\Threshold_48x48.png;E:\D\MITK\Modules\Segmentation\Resources\TwoThresholds_48x48.png;E:\D\MITK\Modules\Segmentation\Resources\Watershed_48x48.png;E:\D\MITK\Modules\Segmentation\Resources\Watershed_Cursor_32x32.png;E:\D\MITK\Modules\Segmentation\Resources\Wipe_48x48.png;E:\D\MITK\Modules\Segmentation\Resources\Wipe_Cursor_32x32.png;E:\D\MITK\Modules\Segmentation\Resources\Interactions\dummy.xml;E:\D\MITK\Modules\Segmentation\Resources\Interactions\LiveWireTool.xml;E:\D\MITK\Modules\Segmentation\Resources\Interactions\PressMoveRelease.xml;E:\D\MITK\Modules\Segmentation\Resources\Interactions\PressMoveReleaseAndPointSetting.xml;E:\D\MITK\Modules\Segmentation\Resources\Interactions\PressMoveReleaseWithCTRLInversion.xml;E:\D\MITK\Modules\Segmentation\Resources\Interactions\PressMoveReleaseWithCTRLInversionAllMouseMoves.xml;E:\D\MITK\Modules\Segmentation\Resources\Interactions\SegmentationToolsConfig.xml;E:\D\MITK\Modules\Segmentation\Resources\Interactions\ContourModelModificationConfig.xml;E:\D\MITK\Modules\Segmentation\Resources\Interactions\ContourModelModificationInteractor.xml;E:\D\MITK-superbuild\MITK-build\bin\MinSizeRel\usResourceCompiler.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\Segmentation\us_MitkSegmentation\res_0.zip</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Checking resource dependencies for MitkSegmentation</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\D\MITK\Modules\Segmentation\Resources
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/MITK-superbuild/MITK-build/Modules/Segmentation/us_MitkSegmentation
+if %errorlevel% neq 0 goto :cmEnd
+E:\D\MITK-superbuild\MITK-build\bin\RelWithDebInfo\usResourceCompiler.exe E:/D/MITK-superbuild/MITK-build/Modules/Segmentation/us_MitkSegmentation/res_0.zip MitkSegmentation -a Add_48x48.png Add_Cursor_32x32.png Correction_48x48.png Correction_Cursor_32x32.png Erase_48x48.png Erase_Cursor_32x32.png FastMarching_48x48.png FastMarching_Cursor_32x32.png Fill_48x48.png Fill_Cursor_32x32.png LiveWire_48x48.png LiveWire_Cursor_32x32.png Otsu_48x48.png Paint_48x48.png Paint_Cursor_32x32.png Pick_48x48.png RegionGrowing_48x48.png RegionGrowing_Cursor_32x32.png Subtract_48x48.png Subtract_Cursor_32x32.png Threshold_48x48.png TwoThresholds_48x48.png Watershed_48x48.png Watershed_Cursor_32x32.png Wipe_48x48.png Wipe_Cursor_32x32.png Interactions/dummy.xml Interactions/LiveWireTool.xml Interactions/PressMoveRelease.xml Interactions/PressMoveReleaseAndPointSetting.xml Interactions/PressMoveReleaseWithCTRLInversion.xml Interactions/PressMoveReleaseWithCTRLInversionAllMouseMoves.xml Interactions/SegmentationToolsConfig.xml Interactions/ContourModelModificationConfig.xml Interactions/ContourModelModificationInteractor.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/622f1ffecd8e935658a48e23c3928241/res_0.zip.rule;E:\D\MITK\Modules\Segmentation\Resources\Add_48x48.png;E:\D\MITK\Modules\Segmentation\Resources\Add_Cursor_32x32.png;E:\D\MITK\Modules\Segmentation\Resources\Correction_48x48.png;E:\D\MITK\Modules\Segmentation\Resources\Correction_Cursor_32x32.png;E:\D\MITK\Modules\Segmentation\Resources\Erase_48x48.png;E:\D\MITK\Modules\Segmentation\Resources\Erase_Cursor_32x32.png;E:\D\MITK\Modules\Segmentation\Resources\FastMarching_48x48.png;E:\D\MITK\Modules\Segmentation\Resources\FastMarching_Cursor_32x32.png;E:\D\MITK\Modules\Segmentation\Resources\Fill_48x48.png;E:\D\MITK\Modules\Segmentation\Resources\Fill_Cursor_32x32.png;E:\D\MITK\Modules\Segmentation\Resources\LiveWire_48x48.png;E:\D\MITK\Modules\Segmentation\Resources\LiveWire_Cursor_32x32.png;E:\D\MITK\Modules\Segmentation\Resources\Otsu_48x48.png;E:\D\MITK\Modules\Segmentation\Resources\Paint_48x48.png;E:\D\MITK\Modules\Segmentation\Resources\Paint_Cursor_32x32.png;E:\D\MITK\Modules\Segmentation\Resources\Pick_48x48.png;E:\D\MITK\Modules\Segmentation\Resources\RegionGrowing_48x48.png;E:\D\MITK\Modules\Segmentation\Resources\RegionGrowing_Cursor_32x32.png;E:\D\MITK\Modules\Segmentation\Resources\Subtract_48x48.png;E:\D\MITK\Modules\Segmentation\Resources\Subtract_Cursor_32x32.png;E:\D\MITK\Modules\Segmentation\Resources\Threshold_48x48.png;E:\D\MITK\Modules\Segmentation\Resources\TwoThresholds_48x48.png;E:\D\MITK\Modules\Segmentation\Resources\Watershed_48x48.png;E:\D\MITK\Modules\Segmentation\Resources\Watershed_Cursor_32x32.png;E:\D\MITK\Modules\Segmentation\Resources\Wipe_48x48.png;E:\D\MITK\Modules\Segmentation\Resources\Wipe_Cursor_32x32.png;E:\D\MITK\Modules\Segmentation\Resources\Interactions\dummy.xml;E:\D\MITK\Modules\Segmentation\Resources\Interactions\LiveWireTool.xml;E:\D\MITK\Modules\Segmentation\Resources\Interactions\PressMoveRelease.xml;E:\D\MITK\Modules\Segmentation\Resources\Interactions\PressMoveReleaseAndPointSetting.xml;E:\D\MITK\Modules\Segmentation\Resources\Interactions\PressMoveReleaseWithCTRLInversion.xml;E:\D\MITK\Modules\Segmentation\Resources\Interactions\PressMoveReleaseWithCTRLInversionAllMouseMoves.xml;E:\D\MITK\Modules\Segmentation\Resources\Interactions\SegmentationToolsConfig.xml;E:\D\MITK\Modules\Segmentation\Resources\Interactions\ContourModelModificationConfig.xml;E:\D\MITK\Modules\Segmentation\Resources\Interactions\ContourModelModificationInteractor.xml;E:\D\MITK-superbuild\MITK-build\bin\RelWithDebInfo\usResourceCompiler.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\Segmentation\us_MitkSegmentation\res_0.zip</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\622f1ffecd8e935658a48e23c3928241\us_resources.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Checking resource dependencies for MitkSegmentation</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy E:/D/MITK/Modules/CppMicroServices/cmake/usCMakeResourceDependencies.cpp E:/D/MITK-superbuild/MITK-build/Modules/Segmentation/us_MitkSegmentation/us_resources.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/622f1ffecd8e935658a48e23c3928241/us_resources.cpp.rule;E:\D\MITK-superbuild\MITK-build\Modules\Segmentation\us_MitkSegmentation\res_0.zip;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\Segmentation\us_MitkSegmentation\us_resources.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Checking resource dependencies for MitkSegmentation</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy E:/D/MITK/Modules/CppMicroServices/cmake/usCMakeResourceDependencies.cpp E:/D/MITK-superbuild/MITK-build/Modules/Segmentation/us_MitkSegmentation/us_resources.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/622f1ffecd8e935658a48e23c3928241/us_resources.cpp.rule;E:\D\MITK-superbuild\MITK-build\Modules\Segmentation\us_MitkSegmentation\res_0.zip;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\Segmentation\us_MitkSegmentation\us_resources.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Checking resource dependencies for MitkSegmentation</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy E:/D/MITK/Modules/CppMicroServices/cmake/usCMakeResourceDependencies.cpp E:/D/MITK-superbuild/MITK-build/Modules/Segmentation/us_MitkSegmentation/us_resources.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/622f1ffecd8e935658a48e23c3928241/us_resources.cpp.rule;E:\D\MITK-superbuild\MITK-build\Modules\Segmentation\us_MitkSegmentation\res_0.zip;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\Segmentation\us_MitkSegmentation\us_resources.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Checking resource dependencies for MitkSegmentation</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy E:/D/MITK/Modules/CppMicroServices/cmake/usCMakeResourceDependencies.cpp E:/D/MITK-superbuild/MITK-build/Modules/Segmentation/us_MitkSegmentation/us_resources.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/622f1ffecd8e935658a48e23c3928241/us_resources.cpp.rule;E:\D\MITK-superbuild\MITK-build\Modules\Segmentation\us_MitkSegmentation\res_0.zip;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\Segmentation\us_MitkSegmentation\us_resources.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\D\MITK\Modules\Segmentation\Algorithms\mitkCalculateSegmentationVolume.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Segmentation\Algorithms\mitkContourModelSetToImageFilter.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Segmentation\Algorithms\mitkContourSetToPointSetFilter.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Segmentation\Algorithms\mitkContourUtils.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Segmentation\Algorithms\mitkCorrectorAlgorithm.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Segmentation\Algorithms\mitkDiffImageApplier.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Segmentation\Algorithms\mitkDiffSliceOperation.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Segmentation\Algorithms\mitkDiffSliceOperationApplier.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Segmentation\Algorithms\mitkFeatureBasedEdgeDetectionFilter.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Segmentation\Algorithms\mitkImageLiveWireContourModelFilter.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Segmentation\Algorithms\mitkImageToContourFilter.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Segmentation\Algorithms\mitkImageToLiveWireContourFilter.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Segmentation\Algorithms\mitkManualSegmentationToSurfaceFilter.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Segmentation\Algorithms\mitkOtsuSegmentationFilter.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Segmentation\Algorithms\mitkOverwriteDirectedPlaneImageFilter.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Segmentation\Algorithms\mitkOverwriteSliceImageFilter.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Segmentation\Algorithms\mitkSegmentationObjectFactory.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Segmentation\Algorithms\mitkShapeBasedInterpolationAlgorithm.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Segmentation\Algorithms\mitkShowSegmentationAsSmoothedSurface.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Segmentation\Algorithms\mitkShowSegmentationAsSurface.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Segmentation\Algorithms\mitkVtkImageOverwrite.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Segmentation\Controllers\mitkSegmentationInterpolationController.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Segmentation\Controllers\mitkToolManager.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Segmentation\Controllers\mitkToolManagerProvider.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Segmentation\DataManagement\mitkContour.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Segmentation\DataManagement\mitkContourSet.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Segmentation\DataManagement\mitkExtrudedContour.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Segmentation\Interactions\mitkAdaptiveRegionGrowingTool.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Segmentation\Interactions\mitkAddContourTool.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Segmentation\Interactions\mitkAutoCropTool.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Segmentation\Interactions\mitkAutoSegmentationTool.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Segmentation\Interactions\mitkBinaryThresholdTool.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Segmentation\Interactions\mitkBinaryThresholdULTool.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Segmentation\Interactions\mitkCalculateGrayValueStatisticsTool.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Segmentation\Interactions\mitkCalculateVolumetryTool.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Segmentation\Interactions\mitkContourModelInteractor.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Segmentation\Interactions\mitkContourModelLiveWireInteractor.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Segmentation\Interactions\mitkLiveWireTool2D.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Segmentation\Interactions\mitkContourTool.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Segmentation\Interactions\mitkCorrectorTool2D.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Segmentation\Interactions\mitkCreateSurfaceTool.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Segmentation\Interactions\mitkDrawPaintbrushTool.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Segmentation\Interactions\mitkErasePaintbrushTool.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Segmentation\Interactions\mitkEraseRegionTool.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Segmentation\Interactions\mitkFastMarchingTool.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Segmentation\Interactions\mitkFastMarchingTool3D.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Segmentation\Interactions\mitkFeedbackContourTool.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Segmentation\Interactions\mitkFillRegionTool.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Segmentation\Interactions\mitkOtsuTool3D.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Segmentation\Interactions\mitkPaintbrushTool.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Segmentation\Interactions\mitkPixelManipulationTool.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Segmentation\Interactions\mitkRegionGrowingTool.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Segmentation\Interactions\mitkSegmentationsProcessingTool.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Segmentation\Interactions\mitkSetRegionTool.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Segmentation\Interactions\mitkSegTool2D.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Segmentation\Interactions\mitkSubtractContourTool.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Segmentation\Interactions\mitkTool.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Segmentation\Interactions\mitkToolCommand.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Segmentation\Interactions\mitkWatershedTool.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Segmentation\Interactions\mitkPickingTool.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Segmentation\Rendering\mitkContourMapper2D.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Segmentation\Rendering\mitkContourSetMapper2D.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Segmentation\Rendering\mitkContourSetVtkMapper3D.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Segmentation\Rendering\mitkContourVtkMapper3D.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Segmentation\SegmentationUtilities\BooleanOperations\mitkBooleanOperation.h" />
+    <ClInclude Include="E:\D\MITK\Modules\Segmentation\SegmentationUtilities\MorphologicalOperations\mitkMorphologicalOperations.h" />
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\Segmentation\us_init.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Segmentation\Algorithms\mitkCalculateSegmentationVolume.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Segmentation\Algorithms\mitkContourModelSetToImageFilter.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Segmentation\Algorithms\mitkContourSetToPointSetFilter.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Segmentation\Algorithms\mitkContourUtils.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Segmentation\Algorithms\mitkCorrectorAlgorithm.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Segmentation\Algorithms\mitkDiffImageApplier.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Segmentation\Algorithms\mitkDiffSliceOperation.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Segmentation\Algorithms\mitkDiffSliceOperationApplier.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Segmentation\Algorithms\mitkFeatureBasedEdgeDetectionFilter.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Segmentation\Algorithms\mitkImageLiveWireContourModelFilter.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Segmentation\Algorithms\mitkImageToContourFilter.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Segmentation\Algorithms\mitkImageToLiveWireContourFilter.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Segmentation\Algorithms\mitkManualSegmentationToSurfaceFilter.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Segmentation\Algorithms\mitkOtsuSegmentationFilter.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Segmentation\Algorithms\mitkOverwriteDirectedPlaneImageFilter.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Segmentation\Algorithms\mitkOverwriteSliceImageFilter.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Segmentation\Algorithms\mitkSegmentationObjectFactory.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Segmentation\Algorithms\mitkShapeBasedInterpolationAlgorithm.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Segmentation\Algorithms\mitkShowSegmentationAsSmoothedSurface.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Segmentation\Algorithms\mitkShowSegmentationAsSurface.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Segmentation\Algorithms\mitkVtkImageOverwrite.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Segmentation\Controllers\mitkSegmentationInterpolationController.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Segmentation\Controllers\mitkToolManager.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Segmentation\Controllers\mitkSegmentationModuleActivator.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Segmentation\Controllers\mitkToolManagerProvider.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Segmentation\DataManagement\mitkContour.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Segmentation\DataManagement\mitkContourSet.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Segmentation\DataManagement\mitkExtrudedContour.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Segmentation\Interactions\mitkAdaptiveRegionGrowingTool.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Segmentation\Interactions\mitkAddContourTool.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Segmentation\Interactions\mitkAutoCropTool.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Segmentation\Interactions\mitkAutoSegmentationTool.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Segmentation\Interactions\mitkBinaryThresholdTool.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Segmentation\Interactions\mitkBinaryThresholdULTool.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Segmentation\Interactions\mitkCalculateGrayValueStatisticsTool.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Segmentation\Interactions\mitkCalculateVolumetryTool.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Segmentation\Interactions\mitkContourModelInteractor.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Segmentation\Interactions\mitkContourModelLiveWireInteractor.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Segmentation\Interactions\mitkLiveWireTool2D.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Segmentation\Interactions\mitkContourTool.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Segmentation\Interactions\mitkCorrectorTool2D.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Segmentation\Interactions\mitkCreateSurfaceTool.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Segmentation\Interactions\mitkDrawPaintbrushTool.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Segmentation\Interactions\mitkErasePaintbrushTool.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Segmentation\Interactions\mitkEraseRegionTool.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Segmentation\Interactions\mitkFastMarchingTool.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Segmentation\Interactions\mitkFastMarchingTool3D.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Segmentation\Interactions\mitkFeedbackContourTool.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Segmentation\Interactions\mitkFillRegionTool.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Segmentation\Interactions\mitkOtsuTool3D.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Segmentation\Interactions\mitkPaintbrushTool.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Segmentation\Interactions\mitkPixelManipulationTool.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Segmentation\Interactions\mitkRegionGrowingTool.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Segmentation\Interactions\mitkSegmentationsProcessingTool.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Segmentation\Interactions\mitkSetRegionTool.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Segmentation\Interactions\mitkSegTool2D.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Segmentation\Interactions\mitkSubtractContourTool.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Segmentation\Interactions\mitkTool.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Segmentation\Interactions\mitkToolCommand.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Segmentation\Interactions\mitkWatershedTool.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Segmentation\Interactions\mitkPickingTool.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Segmentation\Rendering\mitkContourMapper2D.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Segmentation\Rendering\mitkContourSetMapper2D.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Segmentation\Rendering\mitkContourSetVtkMapper3D.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Segmentation\Rendering\mitkContourVtkMapper3D.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Segmentation\SegmentationUtilities\BooleanOperations\mitkBooleanOperation.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\Segmentation\SegmentationUtilities\MorphologicalOperations\mitkMorphologicalOperations.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\Segmentation\us_MitkSegmentation\us_resources.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:/D/MITK-superbuild/MITK-build/ZERO_CHECK.vcxproj">
+      <Project>B13C44DE-4BB4-3414-ABDA-308DC25B7D17</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/MITK-build/Modules/CppMicroServices/core/CppMicroServices.vcxproj">
+      <Project>5F3BDE34-8C32-3441-8C46-8AC176A184DA</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/MITK-build/Modules/AlgorithmsExt/MitkAlgorithmsExt.vcxproj">
+      <Project>44B99EC7-F9FE-317A-AF9A-C96AD62095B2</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/MITK-build/Modules/ContourModel/MitkContourModel.vcxproj">
+      <Project>5FF8AE9E-8D55-3C43-84F5-276BC8C6AD04</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/MITK-build/Modules/Core/MitkCore.vcxproj">
+      <Project>A4D2FE45-C4CB-34B6-8D92-0EE38B0DF319</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/MITK-build/Modules/DataTypesExt/MitkDataTypesExt.vcxproj">
+      <Project>6F928FE1-D4E5-36CF-9486-9C86D66F9097</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/MITK-build/Modules/GraphAlgorithms/MitkGraphAlgorithms.vcxproj">
+      <Project>1B4787C7-B425-3984-8A4C-02B9D0BE4A78</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/MITK-build/Modules/ImageExtraction/MitkImageExtraction.vcxproj">
+      <Project>66F12683-03EE-3B7D-AB30-C240123A7CB3</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/MITK-build/Modules/ImageStatistics/MitkImageStatistics.vcxproj">
+      <Project>EB696BE5-5DEF-31C2-BA19-C6A728273539</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/MITK-build/Utilities/IpFunc/MitkIpFunc.vcxproj">
+      <Project>51306F41-DC64-36FE-A8E2-757BC9F3D295</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/MITK-build/Utilities/IpPic/MitkIpPic.vcxproj">
+      <Project>E64EB1C2-9555-3E99-A01D-6ADEB9A31F6A</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/MITK-build/Utilities/IpSegmentation/MitkIpSegmentation.vcxproj">
+      <Project>9D568A06-5A1E-37FE-8382-2E73BB90BC8E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/MITK-build/Modules/LegacyAdaptors/MitkLegacyAdaptors.vcxproj">
+      <Project>4C1F873D-24CD-3BC4-95A8-B34E1D56FC99</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/MITK-build/Modules/LegacyGL/MitkLegacyGL.vcxproj">
+      <Project>108BF1C9-6F0A-3890-8C44-CE7F0429BFC7</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/MITK-build/Modules/Multilabel/MitkMultilabel.vcxproj">
+      <Project>DE42756E-1A2B-334C-AEA7-BA8728D3B581</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/MITK-build/Modules/Overlays/MitkOverlays.vcxproj">
+      <Project>EA8AEC3A-E0C1-343B-BE8B-87700AE7F13F</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/MITK-build/Modules/PlanarFigure/MitkPlanarFigure.vcxproj">
+      <Project>9821A725-24F5-30B7-937D-656A8B225FD1</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/MITK-build/Modules/SceneSerializationBase/MitkSceneSerializationBase.vcxproj">
+      <Project>77CA0305-C783-3CCF-8BA0-13D7764242AB</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/MITK-build/Modules/SurfaceInterpolation/MitkSurfaceInterpolation.vcxproj">
+      <Project>8454E771-C1C3-3275-ADCC-435D230E5ACC</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/MITK-build/Utilities/mbilog/mbilog.vcxproj">
+      <Project>C2DD058A-96C4-32B8-92D7-A0D457FFBA47</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/MITK-build/Modules/CppMicroServices/tools/usResourceCompiler.vcxproj">
+      <Project>85F46131-E7CA-32E8-976B-548919BAED51</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

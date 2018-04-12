@@ -1,0 +1,848 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{A17B65C5-F67B-3A3D-B4A6-C3824F3B068A}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>DEEP-PHI-Utilities</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\DEEP-PHI\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/DEEP-PHI/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/DEEP-PHI -BE:/D --check-stamp-file E:\D\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/DEEP-PHI/CMakeLists.txt;E:\DEEP-PHI\CMakeLists.txt;E:\D\CMakeFiles\3.5.2\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeSystemSpecificInitialize.cmake;E:\D\CMakeFiles\3.5.2\CMakeCCompiler.cmake;E:\D\CMakeFiles\3.5.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;E:\D\CMakeFiles\3.5.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;E:\DEEP-PHI\CMake\MacroEmptyExternalProject.cmake;E:\DEEP-PHI\SuperBuild.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindGit.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\ExternalProject.cmake;E:\DEEP-PHI\CMakeExternals\MITK.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QDDSPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QJp2Plugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QMngPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindGit.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\RepositoryInfo.txt.in;E:\D\MITK-cmake\tmp\MITK-cfgcmd.txt.in;E:\D\CMakeExternals\tmp\DEEP-PHI-Utilities\DEEP-PHI-Utilities-cfgcmd.txt.in;E:\D\CMakeExternals\tmp\DEEP-PHI-Configure\DEEP-PHI-Configure-cfgcmd.txt.in;E:\DEEP-PHI\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/DEEP-PHI/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/DEEP-PHI -BE:/D --check-stamp-file E:\D\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/DEEP-PHI/CMakeLists.txt;E:\DEEP-PHI\CMakeLists.txt;E:\D\CMakeFiles\3.5.2\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeSystemSpecificInitialize.cmake;E:\D\CMakeFiles\3.5.2\CMakeCCompiler.cmake;E:\D\CMakeFiles\3.5.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;E:\D\CMakeFiles\3.5.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;E:\DEEP-PHI\CMake\MacroEmptyExternalProject.cmake;E:\DEEP-PHI\SuperBuild.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindGit.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\ExternalProject.cmake;E:\DEEP-PHI\CMakeExternals\MITK.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QDDSPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QJp2Plugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QMngPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindGit.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\RepositoryInfo.txt.in;E:\D\MITK-cmake\tmp\MITK-cfgcmd.txt.in;E:\D\CMakeExternals\tmp\DEEP-PHI-Utilities\DEEP-PHI-Utilities-cfgcmd.txt.in;E:\D\CMakeExternals\tmp\DEEP-PHI-Configure\DEEP-PHI-Configure-cfgcmd.txt.in;E:\DEEP-PHI\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/DEEP-PHI/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/DEEP-PHI -BE:/D --check-stamp-file E:\D\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/DEEP-PHI/CMakeLists.txt;E:\DEEP-PHI\CMakeLists.txt;E:\D\CMakeFiles\3.5.2\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeSystemSpecificInitialize.cmake;E:\D\CMakeFiles\3.5.2\CMakeCCompiler.cmake;E:\D\CMakeFiles\3.5.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;E:\D\CMakeFiles\3.5.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;E:\DEEP-PHI\CMake\MacroEmptyExternalProject.cmake;E:\DEEP-PHI\SuperBuild.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindGit.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\ExternalProject.cmake;E:\DEEP-PHI\CMakeExternals\MITK.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QDDSPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QJp2Plugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QMngPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindGit.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\RepositoryInfo.txt.in;E:\D\MITK-cmake\tmp\MITK-cfgcmd.txt.in;E:\D\CMakeExternals\tmp\DEEP-PHI-Utilities\DEEP-PHI-Utilities-cfgcmd.txt.in;E:\D\CMakeExternals\tmp\DEEP-PHI-Configure\DEEP-PHI-Configure-cfgcmd.txt.in;E:\DEEP-PHI\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/DEEP-PHI/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/DEEP-PHI -BE:/D --check-stamp-file E:\D\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/DEEP-PHI/CMakeLists.txt;E:\DEEP-PHI\CMakeLists.txt;E:\D\CMakeFiles\3.5.2\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeSystemSpecificInitialize.cmake;E:\D\CMakeFiles\3.5.2\CMakeCCompiler.cmake;E:\D\CMakeFiles\3.5.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;E:\D\CMakeFiles\3.5.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;E:\DEEP-PHI\CMake\MacroEmptyExternalProject.cmake;E:\DEEP-PHI\SuperBuild.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindGit.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\ExternalProject.cmake;E:\DEEP-PHI\CMakeExternals\MITK.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QDDSPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QJp2Plugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QMngPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindGit.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\RepositoryInfo.txt.in;E:\D\MITK-cmake\tmp\MITK-cfgcmd.txt.in;E:\D\CMakeExternals\tmp\DEEP-PHI-Utilities\DEEP-PHI-Utilities-cfgcmd.txt.in;E:\D\CMakeExternals\tmp\DEEP-PHI-Configure\DEEP-PHI-Configure-cfgcmd.txt.in;E:\DEEP-PHI\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\CMakeFiles\948edb626e3d231fe0892daa0d4014d5\DEEP-PHI-Utilities-mkdir.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Creating directories for 'DEEP-PHI-Utilities'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/CMakeExternals/Source/DEEP-PHI-Utilities
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/CMakeExternals/Build/DEEP-PHI-Utilities
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/CMakeExternals/Install/DEEP-PHI-Utilities
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/CMakeExternals/tmp/DEEP-PHI-Utilities
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/CMakeExternals/Stamp/DEEP-PHI-Utilities/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/CMakeExternals/Download/DEEP-PHI-Utilities
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/CMakeExternals/Stamp/DEEP-PHI-Utilities/$(Configuration)/DEEP-PHI-Utilities-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/CMakeFiles/948edb626e3d231fe0892daa0d4014d5/DEEP-PHI-Utilities-mkdir.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Creating directories for 'DEEP-PHI-Utilities'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/CMakeExternals/Source/DEEP-PHI-Utilities
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/CMakeExternals/Build/DEEP-PHI-Utilities
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/CMakeExternals/Install/DEEP-PHI-Utilities
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/CMakeExternals/tmp/DEEP-PHI-Utilities
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/CMakeExternals/Stamp/DEEP-PHI-Utilities/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/CMakeExternals/Download/DEEP-PHI-Utilities
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/CMakeExternals/Stamp/DEEP-PHI-Utilities/$(Configuration)/DEEP-PHI-Utilities-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/CMakeFiles/948edb626e3d231fe0892daa0d4014d5/DEEP-PHI-Utilities-mkdir.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Creating directories for 'DEEP-PHI-Utilities'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/CMakeExternals/Source/DEEP-PHI-Utilities
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/CMakeExternals/Build/DEEP-PHI-Utilities
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/CMakeExternals/Install/DEEP-PHI-Utilities
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/CMakeExternals/tmp/DEEP-PHI-Utilities
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/CMakeExternals/Stamp/DEEP-PHI-Utilities/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/CMakeExternals/Download/DEEP-PHI-Utilities
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/CMakeExternals/Stamp/DEEP-PHI-Utilities/$(Configuration)/DEEP-PHI-Utilities-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/CMakeFiles/948edb626e3d231fe0892daa0d4014d5/DEEP-PHI-Utilities-mkdir.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Creating directories for 'DEEP-PHI-Utilities'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/CMakeExternals/Source/DEEP-PHI-Utilities
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/CMakeExternals/Build/DEEP-PHI-Utilities
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/CMakeExternals/Install/DEEP-PHI-Utilities
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/CMakeExternals/tmp/DEEP-PHI-Utilities
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/CMakeExternals/Stamp/DEEP-PHI-Utilities/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/CMakeExternals/Download/DEEP-PHI-Utilities
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/CMakeExternals/Stamp/DEEP-PHI-Utilities/$(Configuration)/DEEP-PHI-Utilities-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/CMakeFiles/948edb626e3d231fe0892daa0d4014d5/DEEP-PHI-Utilities-mkdir.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\CMakeFiles\948edb626e3d231fe0892daa0d4014d5\DEEP-PHI-Utilities-download.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">No download step for 'DEEP-PHI-Utilities'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\D\CMakeExternals\Download\DEEP-PHI-Utilities
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/CMakeExternals/Stamp/DEEP-PHI-Utilities/$(Configuration)/DEEP-PHI-Utilities-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/CMakeFiles/948edb626e3d231fe0892daa0d4014d5/DEEP-PHI-Utilities-download.rule;E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">No download step for 'DEEP-PHI-Utilities'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd E:\D\CMakeExternals\Download\DEEP-PHI-Utilities
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/CMakeExternals/Stamp/DEEP-PHI-Utilities/$(Configuration)/DEEP-PHI-Utilities-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/CMakeFiles/948edb626e3d231fe0892daa0d4014d5/DEEP-PHI-Utilities-download.rule;E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">No download step for 'DEEP-PHI-Utilities'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd E:\D\CMakeExternals\Download\DEEP-PHI-Utilities
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/CMakeExternals/Stamp/DEEP-PHI-Utilities/$(Configuration)/DEEP-PHI-Utilities-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/CMakeFiles/948edb626e3d231fe0892daa0d4014d5/DEEP-PHI-Utilities-download.rule;E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">No download step for 'DEEP-PHI-Utilities'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\D\CMakeExternals\Download\DEEP-PHI-Utilities
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/CMakeExternals/Stamp/DEEP-PHI-Utilities/$(Configuration)/DEEP-PHI-Utilities-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/CMakeFiles/948edb626e3d231fe0892daa0d4014d5/DEEP-PHI-Utilities-download.rule;E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\CMakeFiles\948edb626e3d231fe0892daa0d4014d5\DEEP-PHI-Utilities-update.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">No update step for 'DEEP-PHI-Utilities'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/CMakeExternals/Stamp/DEEP-PHI-Utilities/$(Configuration)/DEEP-PHI-Utilities-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/CMakeFiles/948edb626e3d231fe0892daa0d4014d5/DEEP-PHI-Utilities-update.rule;E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">No update step for 'DEEP-PHI-Utilities'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/CMakeExternals/Stamp/DEEP-PHI-Utilities/$(Configuration)/DEEP-PHI-Utilities-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/CMakeFiles/948edb626e3d231fe0892daa0d4014d5/DEEP-PHI-Utilities-update.rule;E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">No update step for 'DEEP-PHI-Utilities'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/CMakeExternals/Stamp/DEEP-PHI-Utilities/$(Configuration)/DEEP-PHI-Utilities-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/CMakeFiles/948edb626e3d231fe0892daa0d4014d5/DEEP-PHI-Utilities-update.rule;E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">No update step for 'DEEP-PHI-Utilities'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/CMakeExternals/Stamp/DEEP-PHI-Utilities/$(Configuration)/DEEP-PHI-Utilities-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/CMakeFiles/948edb626e3d231fe0892daa0d4014d5/DEEP-PHI-Utilities-update.rule;E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\CMakeFiles\948edb626e3d231fe0892daa0d4014d5\DEEP-PHI-Utilities-patch.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">No patch step for 'DEEP-PHI-Utilities'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/CMakeExternals/Stamp/DEEP-PHI-Utilities/$(Configuration)/DEEP-PHI-Utilities-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/CMakeFiles/948edb626e3d231fe0892daa0d4014d5/DEEP-PHI-Utilities-patch.rule;E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">No patch step for 'DEEP-PHI-Utilities'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/CMakeExternals/Stamp/DEEP-PHI-Utilities/$(Configuration)/DEEP-PHI-Utilities-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/CMakeFiles/948edb626e3d231fe0892daa0d4014d5/DEEP-PHI-Utilities-patch.rule;E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">No patch step for 'DEEP-PHI-Utilities'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/CMakeExternals/Stamp/DEEP-PHI-Utilities/$(Configuration)/DEEP-PHI-Utilities-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/CMakeFiles/948edb626e3d231fe0892daa0d4014d5/DEEP-PHI-Utilities-patch.rule;E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">No patch step for 'DEEP-PHI-Utilities'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/CMakeExternals/Stamp/DEEP-PHI-Utilities/$(Configuration)/DEEP-PHI-Utilities-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/CMakeFiles/948edb626e3d231fe0892daa0d4014d5/DEEP-PHI-Utilities-patch.rule;E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\CMakeFiles\948edb626e3d231fe0892daa0d4014d5\DEEP-PHI-Utilities-configure.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">No configure step for 'DEEP-PHI-Utilities'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\D\CMakeExternals\Build\DEEP-PHI-Utilities
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/CMakeExternals/Stamp/DEEP-PHI-Utilities/$(Configuration)/DEEP-PHI-Utilities-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/CMakeFiles/948edb626e3d231fe0892daa0d4014d5/DEEP-PHI-Utilities-configure.rule;E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-done;E:\D\CMakeExternals\tmp\DEEP-PHI-Utilities\DEEP-PHI-Utilities-cfgcmd.txt;E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-update;E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">No configure step for 'DEEP-PHI-Utilities'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd E:\D\CMakeExternals\Build\DEEP-PHI-Utilities
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/CMakeExternals/Stamp/DEEP-PHI-Utilities/$(Configuration)/DEEP-PHI-Utilities-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/CMakeFiles/948edb626e3d231fe0892daa0d4014d5/DEEP-PHI-Utilities-configure.rule;E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-done;E:\D\CMakeExternals\tmp\DEEP-PHI-Utilities\DEEP-PHI-Utilities-cfgcmd.txt;E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-update;E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">No configure step for 'DEEP-PHI-Utilities'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd E:\D\CMakeExternals\Build\DEEP-PHI-Utilities
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/CMakeExternals/Stamp/DEEP-PHI-Utilities/$(Configuration)/DEEP-PHI-Utilities-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/CMakeFiles/948edb626e3d231fe0892daa0d4014d5/DEEP-PHI-Utilities-configure.rule;E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-done;E:\D\CMakeExternals\tmp\DEEP-PHI-Utilities\DEEP-PHI-Utilities-cfgcmd.txt;E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-update;E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">No configure step for 'DEEP-PHI-Utilities'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\D\CMakeExternals\Build\DEEP-PHI-Utilities
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/CMakeExternals/Stamp/DEEP-PHI-Utilities/$(Configuration)/DEEP-PHI-Utilities-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/CMakeFiles/948edb626e3d231fe0892daa0d4014d5/DEEP-PHI-Utilities-configure.rule;E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-done;E:\D\CMakeExternals\tmp\DEEP-PHI-Utilities\DEEP-PHI-Utilities-cfgcmd.txt;E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-update;E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\CMakeFiles\948edb626e3d231fe0892daa0d4014d5\DEEP-PHI-Utilities-build.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">No build step for 'DEEP-PHI-Utilities'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\D\CMakeExternals\Build\DEEP-PHI-Utilities
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/CMakeExternals/Stamp/DEEP-PHI-Utilities/$(Configuration)/DEEP-PHI-Utilities-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/CMakeFiles/948edb626e3d231fe0892daa0d4014d5/DEEP-PHI-Utilities-build.rule;E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">No build step for 'DEEP-PHI-Utilities'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd E:\D\CMakeExternals\Build\DEEP-PHI-Utilities
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/CMakeExternals/Stamp/DEEP-PHI-Utilities/$(Configuration)/DEEP-PHI-Utilities-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/CMakeFiles/948edb626e3d231fe0892daa0d4014d5/DEEP-PHI-Utilities-build.rule;E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">No build step for 'DEEP-PHI-Utilities'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd E:\D\CMakeExternals\Build\DEEP-PHI-Utilities
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/CMakeExternals/Stamp/DEEP-PHI-Utilities/$(Configuration)/DEEP-PHI-Utilities-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/CMakeFiles/948edb626e3d231fe0892daa0d4014d5/DEEP-PHI-Utilities-build.rule;E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">No build step for 'DEEP-PHI-Utilities'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\D\CMakeExternals\Build\DEEP-PHI-Utilities
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/CMakeExternals/Stamp/DEEP-PHI-Utilities/$(Configuration)/DEEP-PHI-Utilities-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/CMakeFiles/948edb626e3d231fe0892daa0d4014d5/DEEP-PHI-Utilities-build.rule;E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\CMakeFiles\948edb626e3d231fe0892daa0d4014d5\DEEP-PHI-Utilities-install.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">No install step for 'DEEP-PHI-Utilities'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\D\CMakeExternals\Build\DEEP-PHI-Utilities
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/CMakeExternals/Stamp/DEEP-PHI-Utilities/$(Configuration)/DEEP-PHI-Utilities-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/CMakeFiles/948edb626e3d231fe0892daa0d4014d5/DEEP-PHI-Utilities-install.rule;E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">No install step for 'DEEP-PHI-Utilities'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd E:\D\CMakeExternals\Build\DEEP-PHI-Utilities
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/CMakeExternals/Stamp/DEEP-PHI-Utilities/$(Configuration)/DEEP-PHI-Utilities-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/CMakeFiles/948edb626e3d231fe0892daa0d4014d5/DEEP-PHI-Utilities-install.rule;E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">No install step for 'DEEP-PHI-Utilities'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd E:\D\CMakeExternals\Build\DEEP-PHI-Utilities
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/CMakeExternals/Stamp/DEEP-PHI-Utilities/$(Configuration)/DEEP-PHI-Utilities-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/CMakeFiles/948edb626e3d231fe0892daa0d4014d5/DEEP-PHI-Utilities-install.rule;E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">No install step for 'DEEP-PHI-Utilities'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\D\CMakeExternals\Build\DEEP-PHI-Utilities
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/CMakeExternals/Stamp/DEEP-PHI-Utilities/$(Configuration)/DEEP-PHI-Utilities-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/CMakeFiles/948edb626e3d231fe0892daa0d4014d5/DEEP-PHI-Utilities-install.rule;E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\CMakeFiles\2102276261d6d3f6b9c287c53de3bd9a\DEEP-PHI-Utilities-complete.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Completed 'DEEP-PHI-Utilities'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/CMakeFiles/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/CMakeFiles/$(Configuration)/DEEP-PHI-Utilities-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/CMakeExternals/Stamp/DEEP-PHI-Utilities/$(Configuration)/DEEP-PHI-Utilities-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/CMakeFiles/2102276261d6d3f6b9c287c53de3bd9a/DEEP-PHI-Utilities-complete.rule;E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-install;E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-mkdir;E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-download;E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-update;E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-patch;E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-configure;E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-build;E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\CMakeFiles\$(Configuration)\DEEP-PHI-Utilities-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Completed 'DEEP-PHI-Utilities'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/CMakeFiles/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/CMakeFiles/$(Configuration)/DEEP-PHI-Utilities-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/CMakeExternals/Stamp/DEEP-PHI-Utilities/$(Configuration)/DEEP-PHI-Utilities-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/CMakeFiles/2102276261d6d3f6b9c287c53de3bd9a/DEEP-PHI-Utilities-complete.rule;E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-install;E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-mkdir;E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-download;E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-update;E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-patch;E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-configure;E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-build;E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\CMakeFiles\$(Configuration)\DEEP-PHI-Utilities-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Completed 'DEEP-PHI-Utilities'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/CMakeFiles/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/CMakeFiles/$(Configuration)/DEEP-PHI-Utilities-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/CMakeExternals/Stamp/DEEP-PHI-Utilities/$(Configuration)/DEEP-PHI-Utilities-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/CMakeFiles/2102276261d6d3f6b9c287c53de3bd9a/DEEP-PHI-Utilities-complete.rule;E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-install;E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-mkdir;E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-download;E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-update;E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-patch;E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-configure;E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-build;E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\CMakeFiles\$(Configuration)\DEEP-PHI-Utilities-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Completed 'DEEP-PHI-Utilities'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/CMakeFiles/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/CMakeFiles/$(Configuration)/DEEP-PHI-Utilities-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/CMakeExternals/Stamp/DEEP-PHI-Utilities/$(Configuration)/DEEP-PHI-Utilities-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/CMakeFiles/2102276261d6d3f6b9c287c53de3bd9a/DEEP-PHI-Utilities-complete.rule;E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-install;E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-mkdir;E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-download;E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-update;E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-patch;E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-configure;E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-build;E:\D\CMakeExternals\Stamp\DEEP-PHI-Utilities\$(Configuration)\DEEP-PHI-Utilities-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\CMakeFiles\$(Configuration)\DEEP-PHI-Utilities-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\CMakeFiles\fa3574f3218ff05c626c7fce3b271d45\DEEP-PHI-Utilities.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/CMakeFiles/fa3574f3218ff05c626c7fce3b271d45/DEEP-PHI-Utilities.rule;E:\D\CMakeFiles\$(Configuration)\DEEP-PHI-Utilities-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\CMakeFiles\DEEP-PHI-Utilities</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/CMakeFiles/fa3574f3218ff05c626c7fce3b271d45/DEEP-PHI-Utilities.rule;E:\D\CMakeFiles\$(Configuration)\DEEP-PHI-Utilities-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\CMakeFiles\DEEP-PHI-Utilities</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/CMakeFiles/fa3574f3218ff05c626c7fce3b271d45/DEEP-PHI-Utilities.rule;E:\D\CMakeFiles\$(Configuration)\DEEP-PHI-Utilities-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\CMakeFiles\DEEP-PHI-Utilities</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/CMakeFiles/fa3574f3218ff05c626c7fce3b271d45/DEEP-PHI-Utilities.rule;E:\D\CMakeFiles\$(Configuration)\DEEP-PHI-Utilities-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\CMakeFiles\DEEP-PHI-Utilities</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\D\CMakeFiles\DEEP-PHI-Utilities" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:/D/ZERO_CHECK.vcxproj">
+      <Project>BB546A3A-AFFD-3280-8E59-400089129452</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK.vcxproj">
+      <Project>9200D285-E72E-38FD-8996-D1A9E2EF6B20</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

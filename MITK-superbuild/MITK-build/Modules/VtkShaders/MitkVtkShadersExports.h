@@ -1,0 +1,41 @@
+
+#ifndef MITKVTKSHADERS_EXPORT_H
+#define MITKVTKSHADERS_EXPORT_H
+
+#ifdef MITKVTKSHADERS_STATIC_DEFINE
+#  define MITKVTKSHADERS_EXPORT
+#  define MITKVTKSHADERS_NO_EXPORT
+#else
+#  ifndef MITKVTKSHADERS_EXPORT
+#    ifdef MitkVtkShaders_EXPORTS
+        /* We are building this library */
+#      define MITKVTKSHADERS_EXPORT __declspec(dllexport)
+#    else
+        /* We are using this library */
+#      define MITKVTKSHADERS_EXPORT __declspec(dllimport)
+#    endif
+#  endif
+
+#  ifndef MITKVTKSHADERS_NO_EXPORT
+#    define MITKVTKSHADERS_NO_EXPORT 
+#  endif
+#endif
+
+#ifndef MITKVTKSHADERS_DEPRECATED
+#  define MITKVTKSHADERS_DEPRECATED __declspec(deprecated)
+#endif
+
+#ifndef MITKVTKSHADERS_DEPRECATED_EXPORT
+#  define MITKVTKSHADERS_DEPRECATED_EXPORT MITKVTKSHADERS_EXPORT MITKVTKSHADERS_DEPRECATED
+#endif
+
+#ifndef MITKVTKSHADERS_DEPRECATED_NO_EXPORT
+#  define MITKVTKSHADERS_DEPRECATED_NO_EXPORT MITKVTKSHADERS_NO_EXPORT MITKVTKSHADERS_DEPRECATED
+#endif
+
+#define DEFINE_NO_DEPRECATED 0
+#if DEFINE_NO_DEPRECATED
+# define MITKVTKSHADERS_NO_DEPRECATED
+#endif
+
+#endif

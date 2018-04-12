@@ -1,0 +1,3203 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/mitkCoreActivator.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/mitkCoreObjectFactoryBase.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/mitkCoreObjectFactory.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/mitkCoreServices.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/mitkException.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Algorithms/mitkBaseDataSource.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Algorithms/mitkClippedSurfaceBoundsCalculator.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Algorithms/mitkCompareImageDataFilter.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Algorithms/mitkConvert2Dto3DImageFilter.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Algorithms/mitkDataNodeSource.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Algorithms/mitkExtractSliceFilter.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Algorithms/mitkHistogramGenerator.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Algorithms/mitkImageChannelSelector.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Algorithms/mitkImageSliceSelector.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Algorithms/mitkImageSource.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Algorithms/mitkImageTimeSelector.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Algorithms/mitkImageToImageFilter.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Algorithms/mitkImageToSurfaceFilter.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Algorithms/mitkMultiComponentImageDataComparisonFilter.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Algorithms/mitkPlaneGeometryDataToSurfaceFilter.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Algorithms/mitkPointSetSource.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Algorithms/mitkPointSetToPointSetFilter.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Algorithms/mitkRGBToRGBACastImageFilter.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Algorithms/mitkSubImageSelector.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Algorithms/mitkSurfaceSource.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Algorithms/mitkSurfaceToImageFilter.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Algorithms/mitkSurfaceToSurfaceFilter.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Algorithms/mitkUIDGenerator.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Algorithms/mitkVolumeCalculator.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Controllers/mitkBaseController.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Controllers/mitkCallbackFromGUIThread.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Controllers/mitkCameraController.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Controllers/mitkCameraRotationController.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Controllers/mitkLimitedLinearUndo.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Controllers/mitkOperationEvent.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Controllers/mitkPlanePositionManager.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Controllers/mitkProgressBar.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Controllers/mitkRenderingManager.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Controllers/mitkSliceNavigationController.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Controllers/mitkSlicesCoordinator.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Controllers/mitkStatusBar.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Controllers/mitkStepper.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Controllers/mitkTestManager.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Controllers/mitkUndoController.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Controllers/mitkVerboseLimitedLinearUndo.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Controllers/mitkVtkLayerController.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkArbitraryTimeGeometry.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkAbstractTransformGeometry.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkAnnotationProperty.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkApplicationCursor.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkApplyTransformMatrixOperation.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkBaseData.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkBaseGeometry.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkBaseProperty.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkChannelDescriptor.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkClippingProperty.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkColorProperty.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkDataNode.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkDataStorage.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkEnumerationProperty.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkFloatPropertyExtension.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkGeometry3D.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkGeometryData.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkGeometryTransformHolder.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkGroupTagProperty.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkImageAccessorBase.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkImageCaster.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkImageCastPart1.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkImageCastPart2.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkImageCastPart3.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkImageCastPart4.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkImage.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkImageDataItem.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkImageDescriptor.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkImageReadAccessor.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkImageStatisticsHolder.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkImageVtkAccessor.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkImageVtkReadAccessor.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkImageVtkWriteAccessor.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkImageWriteAccessor.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkIntPropertyExtension.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkIPersistenceService.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkIPropertyAliases.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkIPropertyDescriptions.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkIPropertyExtensions.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkIPropertyFilters.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkIPropertyPersistence.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkLandmarkProjectorBasedCurvedGeometry.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkLandmarkProjector.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkLevelWindow.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkLevelWindowManager.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkLevelWindowPreset.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkLevelWindowProperty.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkLine.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkLookupTable.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkLookupTableProperty.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkLookupTables.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkMaterial.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkMemoryUtilities.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkModalityProperty.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkModifiedLock.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkNodePredicateAnd.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkNodePredicateBase.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkNodePredicateCompositeBase.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkNodePredicateData.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkNodePredicateDataType.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkNodePredicateDimension.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkNodePredicateFirstLevel.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkNodePredicateNot.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkNodePredicateOr.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkNodePredicateProperty.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkNodePredicateSource.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkNumericConstants.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkPlaneGeometry.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkPlaneGeometryData.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkPlaneOperation.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkPlaneOrientationProperty.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkPointOperation.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkPointSet.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkPointSetShapeProperty.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkProperties.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkPropertyAliases.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkPropertyDescriptions.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkPropertyExtension.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkPropertyExtensions.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkPropertyFilter.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkPropertyFilters.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkPropertyList.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkPropertyListReplacedObserver.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkPropertyObserver.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkPropertyPersistence.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkPropertyPersistenceInfo.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkProportionalTimeGeometry.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkRenderingModeProperty.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkResliceMethodProperty.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkRestorePlanePositionOperation.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkRotationOperation.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkScaleOperation.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkShaderProperty.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkSlicedData.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkSlicedGeometry3D.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkSmartPointerProperty.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkStandaloneDataStorage.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkStringProperty.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkSurface.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkSurfaceOperation.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkThinPlateSplineCurvedGeometry.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkTimeGeometry.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkTransferFunction.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkTransferFunctionInitializer.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkTransferFunctionProperty.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkVector.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkVectorProperty.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkVtkInterpolationProperty.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkVtkRepresentationProperty.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkVtkResliceInterpolationProperty.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkVtkScalarModeProperty.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkVtkVolumeRenderingProperty.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/DataManagement/mitkWeakPointerProperty.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Interactions/mitkAction.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Interactions/mitkBindDispatcherInteractor.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Interactions/mitkCrosshairPositionEvent.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Interactions/mitkDataInteractor.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Interactions/mitkDispatcher.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Interactions/mitkDisplayCoordinateOperation.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Interactions/mitkDisplayInteractor.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Interactions/mitkEventConfig.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Interactions/mitkEventFactory.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Interactions/mitkEventRecorder.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Interactions/mitkEventStateMachine.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Interactions/mitkInteractionEventConst.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Interactions/mitkInteractionEvent.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Interactions/mitkInteractionEventHandler.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Interactions/mitkInteractionEventObserver.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Interactions/mitkInteractionKeyEvent.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Interactions/mitkInteractionPositionEvent.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Interactions/mitkInternalEvent.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Interactions/mitkMouseDoubleClickEvent.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Interactions/mitkMouseModeSwitcher.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Interactions/mitkMouseMoveEvent.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Interactions/mitkMousePressEvent.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Interactions/mitkMouseReleaseEvent.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Interactions/mitkMouseWheelEvent.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Interactions/mitkPointSetDataInteractor.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Interactions/mitkSinglePointDataInteractor.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Interactions/mitkStateMachineAction.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Interactions/mitkStateMachineCondition.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Interactions/mitkStateMachineContainer.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Interactions/mitkStateMachineState.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Interactions/mitkStateMachineTransition.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Interactions/mitkVtkEventAdapter.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Interactions/mitkVtkInteractorStyle.cxx",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Interactions/mitkXML2EventParser.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/IO/mitkAbstractFileIO.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/IO/mitkAbstractFileReader.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/IO/mitkAbstractFileWriter.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/IO/mitkCustomMimeType.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/IO/mitkDicomSeriesReader.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/IO/mitkDicomSeriesReaderService.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/IO/mitkDicomSR_GantryTiltInformation.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/IO/mitkDicomSR_ImageBlockDescriptor.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/IO/mitkDicomSR_LoadDICOMRGBPixel4D.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/IO/mitkDicomSR_LoadDICOMRGBPixel.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/IO/mitkDicomSR_LoadDICOMScalar4D.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/IO/mitkDicomSR_LoadDICOMScalar.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/IO/mitkDicomSR_SliceGroupingResult.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/IO/mitkFileReader.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/IO/mitkFileReaderRegistry.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/IO/mitkFileReaderSelector.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/IO/mitkFileReaderWriterBase.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/IO/mitkFileWriter.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/IO/mitkFileWriterRegistry.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/IO/mitkFileWriterSelector.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/IO/mitkGeometry3DToXML.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/IO/mitkIFileIO.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/IO/mitkIFileReader.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/IO/mitkIFileWriter.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/IO/mitkGeometryDataReaderService.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/IO/mitkGeometryDataWriterService.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/IO/mitkImageGenerator.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/IO/mitkImageVtkLegacyIO.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/IO/mitkImageVtkXmlIO.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/IO/mitkIMimeTypeProvider.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/IO/mitkIOConstants.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/IO/mitkIOMimeTypes.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/IO/mitkIOUtil.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/IO/mitkItkImageIO.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/IO/mitkItkLoggingAdapter.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/IO/mitkLegacyFileReaderService.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/IO/mitkLegacyFileWriterService.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/IO/mitkLog.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/IO/mitkMimeType.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/IO/mitkMimeTypeProvider.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/IO/mitkOperation.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/IO/mitkPixelType.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/IO/mitkPointSetReaderService.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/IO/mitkPointSetWriterService.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/IO/mitkProportionalTimeGeometryToXML.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/IO/mitkRawImageFileReader.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/IO/mitkStandardFileLocations.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/IO/mitkSurfaceStlIO.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/IO/mitkSurfaceVtkIO.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/IO/mitkSurfaceVtkLegacyIO.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/IO/mitkSurfaceVtkXmlIO.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/IO/mitkVtkLoggingAdapter.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Rendering/mitkAbstractOverlayLayouter.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Rendering/mitkBaseRenderer.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Rendering/mitkGradientBackground.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Rendering/mitkImageVtkMapper2D.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Rendering/mitkIShaderRepository.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Rendering/mitkManufacturerLogo.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Rendering/mitkMapper.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Rendering/mitkOverlay.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Rendering/mitkOverlayManager.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Rendering/mitkPlaneGeometryDataMapper2D.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Rendering/mitkPlaneGeometryDataVtkMapper3D.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Rendering/mitkPointSetVtkMapper2D.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Rendering/mitkPointSetVtkMapper3D.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Rendering/mitkRenderWindowBase.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Rendering/mitkRenderWindow.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Rendering/mitkRenderWindowFrame.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Rendering/mitkSurfaceVtkMapper2D.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Rendering/mitkSurfaceVtkMapper3D.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Rendering/mitkVtkEventProvider.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Rendering/mitkVtkMapper.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Rendering/mitkVtkOverlay2D.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Rendering/mitkVtkOverlay3D.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Rendering/mitkVtkOverlay.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Rendering/mitkVtkPropRenderer.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Rendering/mitkVtkWidgetRendering.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Rendering/vtkMitkLevelWindowFilter.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Rendering/vtkMitkRectangleProp.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Rendering/vtkMitkRenderProp.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Rendering/vtkMitkThickSlicesFilter.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/Rendering/vtkNeverTranslucentTexture.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/Modules/Core/us_MitkCore/us_resources.cpp",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/Colortables/HotIron.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/Colortables/Jet.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/Colortables/PET20.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/Colortables/PETColor.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/itkImportMitkImageContainer.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/itkImportMitkImageContainer.txx",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/itkMITKScalarImageToHistogramGenerator.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/itkMITKScalarImageToHistogramGenerator.txx",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/itkVtkAbstractTransform.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/itkVtkAbstractTransform.txx",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mbilogo.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkAbstractFileIO.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkAbstractFileReader.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkAbstractFileWriter.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkAbstractOverlayLayouter.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkAbstractTransformGeometry.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkAction.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkAffineTransform3D.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkAnnotationProperty.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkApplicationCursor.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkApplyTransformMatrixOperation.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkArbitraryTimeGeometry.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkArray.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkBaseController.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkBaseData.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkBaseDataSource.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkBaseDataTestImplementation.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkBaseGeometry.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkBaseProcess.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkBaseProperty.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkBaseRenderer.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkBindDispatcherInteractor.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkCallbackFromGUIThread.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkCameraController.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkCameraRotationController.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkChannelDescriptor.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkClippedSurfaceBoundsCalculator.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkClippingProperty.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkColorProperty.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkCommon.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkCompareImageDataFilter.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkConvert2Dto3DImageFilter.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkCoreObjectFactory.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkCoreObjectFactoryBase.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkCoreServices.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkCrosshairPositionEvent.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkCustomMimeType.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkDataInteractor.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkDataNode.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkDataNodeSource.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkDataStorage.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkDicomSeriesReader.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkDicomSeriesReader.txx",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkDispatcher.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkDisplayCoordinateOperation.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkDisplayInteractor.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkEnumerationProperty.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkEqual.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkEventConfig.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkEventFactory.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkEventInformer.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkEventRecorder.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkEventStateMachine.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkException.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkExceptionMacro.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkExtractSliceFilter.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkFileReader.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkFileReaderRegistry.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkFileReaderSelector.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkFileWriter.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkFileWriterRegistry.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkFileWriterSelector.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkFileWriterWithInformation.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkFloatPropertyExtension.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkGenericLookupTable.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkGenericProperty.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkGeometry3D.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkGeometryData.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkGeometryDataReaderService.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkGeometryDataWriterService.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkGeometryTransformHolder.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkGetClassHierarchy.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkGradientBackground.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkGroupTagProperty.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkHistogramGenerator.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkIDataNodeReader.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkIFileIO.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkIFileReader.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkIFileWriter.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkImage.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkImageAccessByItk.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkImageAccessorBase.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkImageCast.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkImageCast.txx",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkImageCaster.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkImageChannelSelector.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkImageDataItem.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkImageDescriptor.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkImageGenerator.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkImagePixelAccessor.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkImagePixelReadAccessor.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkImagePixelWriteAccessor.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkImageReadAccessor.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkImageSliceSelector.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkImageSource.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkImageStatisticsHolder.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkImageTimeSelector.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkImageToImageFilter.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkImageToItk.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkImageToItk.txx",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkImageToSurfaceFilter.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkImageVtkAccessor.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkImageVtkMapper2D.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkImageVtkReadAccessor.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkImageVtkWriteAccessor.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkImageWriteAccessor.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkIMimeTypeProvider.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkInstantiateAccessFunctions.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkInteractionConst.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkInteractionEvent.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkInteractionEventConst.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkInteractionEventHandler.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkInteractionEventObserver.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkInteractionKeyEvent.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkInteractionPositionEvent.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkInternalEvent.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkIntPropertyExtension.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkIOAdapter.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkIOConstants.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkIOMimeTypes.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkIOUtil.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkIPersistenceService.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkIPropertyAliases.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkIPropertyDescriptions.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkIPropertyExtensions.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkIPropertyFilters.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkIPropertyPersistence.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkIShaderRepository.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkITKImageImport.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkITKImageImport.txx",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkItkImageIO.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkItkLoggingAdapter.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkItkMatrixHack.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkLandmarkProjector.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkLandmarkProjectorBasedCurvedGeometry.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkLevelWindow.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkLevelWindowManager.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkLevelWindowPreset.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkLevelWindowProperty.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkLimitedLinearUndo.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkLine.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkLocaleSwitch.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkLocalStorageHandler.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkLog.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkLogMacros.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkLookupTable.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkLookupTableProperty.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkLookupTables.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkManufacturerLogo.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkMapper.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkMaterial.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkMatrix.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkMatrixConvert.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkMemoryUtilities.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkMessage.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkMimeType.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkModalityProperty.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkModifiedLock.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkMouseDoubleClickEvent.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkMouseModeSwitcher.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkMouseMoveEvent.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkMousePressEvent.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkMouseReleaseEvent.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkMouseWheelEvent.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkMoveSurfaceInteractor.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkMultiComponentImageDataComparisonFilter.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkNodePredicateAnd.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkNodePredicateBase.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkNodePredicateCompositeBase.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkNodePredicateData.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkNodePredicateDataType.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkNodePredicateDimension.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkNodePredicateFirstLevel.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkNodePredicateNot.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkNodePredicateOr.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkNodePredicateProperty.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkNodePredicateSource.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkNumericConstants.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkNumericTypes.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkOperation.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkOperationActor.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkOperationEvent.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkOverlay.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkOverlayManager.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkPixelType.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkPixelTypeList.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkPixelTypeMultiplex.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkPixelTypeTraits.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkPlaneClipping.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkPlaneGeometry.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkPlaneGeometryData.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkPlaneGeometryDataMapper2D.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkPlaneGeometryDataToSurfaceFilter.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkPlaneGeometryDataVtkMapper3D.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkPlaneOperation.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkPlaneOrientationProperty.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkPlanePositionManager.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkPoint.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkPointOperation.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkPointSet.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkPointSetDataInteractor.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkPointSetShapeProperty.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkPointSetSource.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkPointSetToPointSetFilter.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkPointSetVtkMapper2D.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkPointSetVtkMapper3D.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkPPArgCount.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkPPArithmeticDec.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkPPCat.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkPPConfig.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkPPControlExprIIf.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkPPControlIf.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkPPControlIIf.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkPPDebugError.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkPPDetailAutoRec.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkPPDetailDMCAutoRec.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkPPExpand.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkPPFacilitiesEmpty.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkPPFacilitiesExpand.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkPPLogicalBool.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkPPRepetitionDetailDMCFor.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkPPRepetitionDetailEDGFor.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkPPRepetitionDetailFor.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkPPRepetitionDetailMSVCFor.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkPPRepetitionFor.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkPPSeq.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkPPSeqElem.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkPPSeqEnum.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkPPSeqForEach.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkPPSeqForEachProduct.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkPPSeqSize.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkPPSeqToTuple.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkPPStringize.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkPPTupleEat.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkPPTupleElem.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkPPTupleRem.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkProgressBar.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkProgressBarImplementation.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkProperties.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkPropertyAliases.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkPropertyDescriptions.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkPropertyExtension.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkPropertyExtensions.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkPropertyFilter.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkPropertyFilters.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkPropertyList.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkPropertyListReplacedObserver.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkPropertyObserver.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkPropertyPersistence.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkPropertyPersistenceInfo.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkProportionalTimeGeometry.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkQuaternion.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkReferenceCountWatcher.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkRenderingManager.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkRenderingManagerFactory.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkRenderingModeProperty.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkRenderWindow.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkRenderWindowBase.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkRenderWindowFrame.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkResliceMethodProperty.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkRestorePlanePositionOperation.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkRGBToRGBACastImageFilter.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkRotationOperation.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkScaleOperation.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkServiceInterface.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkShaderProperty.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkSinglePointDataInteractor.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkSlicedData.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkSlicedGeometry3D.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkSliceNavigationController.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkSlicesCoordinator.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkSmartPointerProperty.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkStandaloneDataStorage.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkStandardFileLocations.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkStateMachineAction.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkStateMachineCondition.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkStateMachineContainer.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkStateMachineState.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkStateMachineTransition.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkStatusBar.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkStatusBarImplementation.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkStepper.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkStringProperty.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkSubImageSelector.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkSurface.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkSurfaceOperation.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkSurfaceSource.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkSurfaceToImageFilter.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkSurfaceToSurfaceFilter.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkSurfaceVtkMapper2D.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkSurfaceVtkMapper3D.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkTestManager.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkThinPlateSplineCurvedGeometry.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkTimeGeometry.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkTimeHelper.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkTimeSlicedGeometry.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkTransferFunction.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkTransferFunctionInitializer.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkTransferFunctionProperty.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkUIDGenerator.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkUndoController.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkUndoModel.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkVector.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkVectorDeprecated.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkVectorProperty.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkVerboseLimitedLinearUndo.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkVolumeCalculator.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkVtkEventAdapter.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkVtkEventProvider.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkVtkInteractorStyle.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkVtkInterpolationProperty.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkVtkLayerController.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkVtkLoggingAdapter.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkVtkMapper.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkVtkMapper2D.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkVtkMapper3D.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkVtkOverlay.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkVtkOverlay2D.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkVtkOverlay3D.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkVtkPropRenderer.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkVtkRepresentationProperty.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkVtkResliceInterpolationProperty.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkVtkScalarModeProperty.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkVtkVolumeRenderingProperty.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkVtkWidgetRendering.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkWeakPointer.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkWeakPointerProperty.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/mitkXML2EventParser.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/vtkMitkLevelWindowFilter.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/vtkMitkRectangleProp.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/vtkMitkRenderProp.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/vtkMitkThickSlicesFilter.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/include/vtkNeverTranslucentTexture.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/mitkCoreActivator.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/IO/mitkDicomSeriesReaderService.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/IO/mitkFileReaderWriterBase.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/IO/mitkGeometry3DToXML.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/IO/mitkImageVtkLegacyIO.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/IO/mitkImageVtkXmlIO.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/IO/mitkLegacyFileReaderService.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/IO/mitkLegacyFileWriterService.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/IO/mitkMimeTypeProvider.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/IO/mitkPointSetReaderService.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/IO/mitkPointSetWriterService.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/IO/mitkProportionalTimeGeometryToXML.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/IO/mitkRawImageFileReader.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/IO/mitkSurfaceStlIO.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/IO/mitkSurfaceVtkIO.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/IO/mitkSurfaceVtkLegacyIO.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/src/IO/mitkSurfaceVtkXmlIO.h",
+			"labels" : [ "MITK-Core", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/Core/CMakeLists.txt"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/CMakeFiles/d04f3fd826e627a7b3a249026ed635af/us_resources.cpp.rule"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/CMakeFiles/d04f3fd826e627a7b3a249026ed635af/res_0.zip.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "MITK-Core", "MITK" ],
+		"name" : "MitkCore"
+	}
+}

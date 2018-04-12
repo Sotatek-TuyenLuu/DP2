@@ -1,0 +1,615 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{A9369D00-9D22-327D-9F1A-2320DEA7B402}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>MitkDicomUI</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\MITK-build\bin\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MitkDicomUI.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MitkDicomUI</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\MITK-build\bin\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MitkDicomUI.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MitkDicomUI</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\MITK-build\bin\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">MitkDicomUI.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">MitkDicomUI</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\MITK-build\bin\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">MitkDicomUI.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">MitkDicomUI</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\CTK\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build;E:\D\MITK-superbuild\ep\src\CTK\Libs\PluginFramework;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\PluginFramework;E:\D\MITK-superbuild\ep\src\CTK\Libs\Widgets;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Widgets;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Core;E:\D\MITK-superbuild\ep\include\dcmtk\config;E:\D\MITK-superbuild\ep\include;E:\D\MITK-superbuild\ep\include\dcmtk\dcmdata;E:\D\MITK-superbuild\ep\include\dcmtk\dcmimage;E:\D\MITK-superbuild\ep\include\dcmtk\dcmimgle;E:\D\MITK-superbuild\ep\include\dcmtk\dcmjpeg;E:\D\MITK-superbuild\ep\include\dcmtk\dcmjpls;E:\D\MITK-superbuild\ep\include\dcmtk\dcmnet;E:\D\MITK-superbuild\ep\include\dcmtk\dcmpstat;E:\D\MITK-superbuild\ep\include\dcmtk\dcmqrdb;E:\D\MITK-superbuild\ep\include\dcmtk\dcmsign;E:\D\MITK-superbuild\ep\include\dcmtk\dcmsr;E:\D\MITK-superbuild\ep\include\dcmtk\dcmtls;E:\D\MITK-superbuild\ep\include\dcmtk\ofstd;E:\D\MITK-superbuild\ep\include\dcmtk\oflog;E:\D\MITK-superbuild\ep\include\dcmtk;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets;E:\D\MITK-superbuild\ep\src\CTK\Libs\CommandLineModules\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\CommandLineModules\Core;E:\D\MITK-superbuild\ep\src\CTK\Libs\CommandLineModules\Frontend\QtGui;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\CommandLineModules\Frontend\QtGui;E:\D\MITK-superbuild\ep\src\CTK\Libs\CommandLineModules\Backend\LocalProcess;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\CommandLineModules\Backend\LocalProcess;E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build;E:\D\MITK-superbuild\ep\src\CTK\Libs\Testing;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Testing;E:\D\MITK-superbuild\MITK-build\Modules\DicomUI;E:\D\MITK\Modules\DicomUI\include;E:\D\MITK\Modules\DicomUI\src;E:\D\MITK\Modules\CppMicroServices\third_party;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\include;E:\D\MITK\Modules\CppMicroServices\core\include;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\core\include;E:\D\MITK\Modules\CppMicroServices\core\src\util;E:\D\MITK\Modules\CppMicroServices\core\src\service;E:\D\MITK\Modules\CppMicroServices\core\src\module;E:\D\MITK-superbuild\MITK-build\Modules\Core;E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\include\ITK-4.7;E:\D\MITK-superbuild\ep\include\vtk-6.2;E:\D\MITK-superbuild\ep\include\boost-1_59;E:\D\MITK\Modules\Core\include;E:\D\MITK-superbuild\MITK-build;E:\D\MITK-superbuild\MITK-build\Utilities\mbilog;E:\D\MITK\Utilities\mbilog\.;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtSql;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtWidgets;C:\Qt\5.4\msvc2013_opengl\include\QtXml;C:\Qt\5.4\msvc2013_opengl\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4005;4231;4316</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WIN32_WINNT=0x0501;POCO_NO_UNWINDOWS;WIN32_LEAN_AND_MEAN;NOMINMAX;_DEBUG;US_MODULE_NAME=MitkDicomUI;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;QT_CORE_LIB;QT_SQL_LIB;QT_GUI_LIB;QT_WIDGETS_LIB;QT_XML_LIB;QT_OPENGL_LIB;CMAKE_INTDIR="Debug";MitkDicomUI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WIN32_WINNT=0x0501;POCO_NO_UNWINDOWS;WIN32_LEAN_AND_MEAN;NOMINMAX;_DEBUG;US_MODULE_NAME=MitkDicomUI;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;QT_CORE_LIB;QT_SQL_LIB;QT_GUI_LIB;QT_WIDGETS_LIB;QT_XML_LIB;QT_OPENGL_LIB;CMAKE_INTDIR=\"Debug\";MitkDicomUI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\CTK\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build;E:\D\MITK-superbuild\ep\src\CTK\Libs\PluginFramework;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\PluginFramework;E:\D\MITK-superbuild\ep\src\CTK\Libs\Widgets;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Widgets;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Core;E:\D\MITK-superbuild\ep\include\dcmtk\config;E:\D\MITK-superbuild\ep\include;E:\D\MITK-superbuild\ep\include\dcmtk\dcmdata;E:\D\MITK-superbuild\ep\include\dcmtk\dcmimage;E:\D\MITK-superbuild\ep\include\dcmtk\dcmimgle;E:\D\MITK-superbuild\ep\include\dcmtk\dcmjpeg;E:\D\MITK-superbuild\ep\include\dcmtk\dcmjpls;E:\D\MITK-superbuild\ep\include\dcmtk\dcmnet;E:\D\MITK-superbuild\ep\include\dcmtk\dcmpstat;E:\D\MITK-superbuild\ep\include\dcmtk\dcmqrdb;E:\D\MITK-superbuild\ep\include\dcmtk\dcmsign;E:\D\MITK-superbuild\ep\include\dcmtk\dcmsr;E:\D\MITK-superbuild\ep\include\dcmtk\dcmtls;E:\D\MITK-superbuild\ep\include\dcmtk\ofstd;E:\D\MITK-superbuild\ep\include\dcmtk\oflog;E:\D\MITK-superbuild\ep\include\dcmtk;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets;E:\D\MITK-superbuild\ep\src\CTK\Libs\CommandLineModules\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\CommandLineModules\Core;E:\D\MITK-superbuild\ep\src\CTK\Libs\CommandLineModules\Frontend\QtGui;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\CommandLineModules\Frontend\QtGui;E:\D\MITK-superbuild\ep\src\CTK\Libs\CommandLineModules\Backend\LocalProcess;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\CommandLineModules\Backend\LocalProcess;E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build;E:\D\MITK-superbuild\ep\src\CTK\Libs\Testing;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Testing;E:\D\MITK-superbuild\MITK-build\Modules\DicomUI;E:\D\MITK\Modules\DicomUI\include;E:\D\MITK\Modules\DicomUI\src;E:\D\MITK\Modules\CppMicroServices\third_party;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\include;E:\D\MITK\Modules\CppMicroServices\core\include;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\core\include;E:\D\MITK\Modules\CppMicroServices\core\src\util;E:\D\MITK\Modules\CppMicroServices\core\src\service;E:\D\MITK\Modules\CppMicroServices\core\src\module;E:\D\MITK-superbuild\MITK-build\Modules\Core;E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\include\ITK-4.7;E:\D\MITK-superbuild\ep\include\vtk-6.2;E:\D\MITK-superbuild\ep\include\boost-1_59;E:\D\MITK\Modules\Core\include;E:\D\MITK-superbuild\MITK-build;E:\D\MITK-superbuild\MITK-build\Utilities\mbilog;E:\D\MITK\Utilities\mbilog\.;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtSql;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtWidgets;C:\Qt\5.4\msvc2013_opengl\include\QtXml;C:\Qt\5.4\msvc2013_opengl\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\CTK\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build;E:\D\MITK-superbuild\ep\src\CTK\Libs\PluginFramework;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\PluginFramework;E:\D\MITK-superbuild\ep\src\CTK\Libs\Widgets;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Widgets;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Core;E:\D\MITK-superbuild\ep\include\dcmtk\config;E:\D\MITK-superbuild\ep\include;E:\D\MITK-superbuild\ep\include\dcmtk\dcmdata;E:\D\MITK-superbuild\ep\include\dcmtk\dcmimage;E:\D\MITK-superbuild\ep\include\dcmtk\dcmimgle;E:\D\MITK-superbuild\ep\include\dcmtk\dcmjpeg;E:\D\MITK-superbuild\ep\include\dcmtk\dcmjpls;E:\D\MITK-superbuild\ep\include\dcmtk\dcmnet;E:\D\MITK-superbuild\ep\include\dcmtk\dcmpstat;E:\D\MITK-superbuild\ep\include\dcmtk\dcmqrdb;E:\D\MITK-superbuild\ep\include\dcmtk\dcmsign;E:\D\MITK-superbuild\ep\include\dcmtk\dcmsr;E:\D\MITK-superbuild\ep\include\dcmtk\dcmtls;E:\D\MITK-superbuild\ep\include\dcmtk\ofstd;E:\D\MITK-superbuild\ep\include\dcmtk\oflog;E:\D\MITK-superbuild\ep\include\dcmtk;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets;E:\D\MITK-superbuild\ep\src\CTK\Libs\CommandLineModules\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\CommandLineModules\Core;E:\D\MITK-superbuild\ep\src\CTK\Libs\CommandLineModules\Frontend\QtGui;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\CommandLineModules\Frontend\QtGui;E:\D\MITK-superbuild\ep\src\CTK\Libs\CommandLineModules\Backend\LocalProcess;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\CommandLineModules\Backend\LocalProcess;E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build;E:\D\MITK-superbuild\ep\src\CTK\Libs\Testing;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Testing;E:\D\MITK-superbuild\MITK-build\Modules\DicomUI;E:\D\MITK\Modules\DicomUI\include;E:\D\MITK\Modules\DicomUI\src;E:\D\MITK\Modules\CppMicroServices\third_party;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\include;E:\D\MITK\Modules\CppMicroServices\core\include;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\core\include;E:\D\MITK\Modules\CppMicroServices\core\src\util;E:\D\MITK\Modules\CppMicroServices\core\src\service;E:\D\MITK\Modules\CppMicroServices\core\src\module;E:\D\MITK-superbuild\MITK-build\Modules\Core;E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\include\ITK-4.7;E:\D\MITK-superbuild\ep\include\vtk-6.2;E:\D\MITK-superbuild\ep\include\boost-1_59;E:\D\MITK\Modules\Core\include;E:\D\MITK-superbuild\MITK-build;E:\D\MITK-superbuild\MITK-build\Utilities\mbilog;E:\D\MITK\Utilities\mbilog\.;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtSql;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtWidgets;C:\Qt\5.4\msvc2013_opengl\include\QtXml;C:\Qt\5.4\msvc2013_opengl\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\Debug\MitkCore.lib;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\bin\Debug\CTKDICOMWidgets.lib;..\..\lib\Debug\CppMicroServices.lib;..\..\lib\Debug\mbilog.lib;E:\D\MITK-superbuild\ep\lib\ITKIOGDCM-4.7d.lib;E:\D\MITK-superbuild\ep\lib\gdcmMSFFd.lib;E:\D\MITK-superbuild\ep\lib\gdcmDICTd.lib;E:\D\MITK-superbuild\ep\lib\gdcmIODd.lib;E:\D\MITK-superbuild\ep\lib\gdcmDSEDd.lib;E:\D\MITK-superbuild\ep\lib\gdcmCommond.lib;E:\D\MITK-superbuild\ep\lib\ITKSpatialObjects-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKPath-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKMesh-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKStatistics-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkNetlibSlatec-4.7d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersTexture-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersParallel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkParallelCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOLegacy-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingStencil-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingMath-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingVolumeOpenGL-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingFreeTypeOpenGL-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingOpenGL-6.2d.lib;glu32.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingLabel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkInteractionWidgets-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersModeling-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkInteractionStyle-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingHybrid-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOImage-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkDICOMParser-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkmetaio-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkpng-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtktiff-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkjpeg-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingVolume-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersHybrid-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingGeneral-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingSources-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingAnnotation-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingFreeType-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersExtraction-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersStatistics-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingFourier-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkalglib-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersGeometry-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersSources-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersGeneral-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonComputationalGeometry-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonColor-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkftgl-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkfreetype-6.2d.lib;opengl32.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingColor-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOXML-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOGeometry-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkjsoncpp-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOXMLParser-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonExecutionModel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonDataModel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonMisc-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonSystem-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtksys-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonTransforms-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonMath-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkzlib-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkexpat-6.2d.lib;E:\D\MITK-superbuild\ep\lib\ITKMetaIO-4.7d.lib;comctl32.lib;E:\D\MITK-superbuild\ep\lib\itkzlib-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOImageBase-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKCommon-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkdouble-conversion-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itksys-4.7d.lib;ws2_32.lib;Psapi.lib;E:\D\MITK-superbuild\ep\lib\ITKVNLInstantiation-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl_algo-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkv3p_lsqr-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvcl-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkv3p_netlib-4.7d.lib;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\bin\Debug\CTKDICOMCore.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Sqld.lib;E:\D\MITK-superbuild\ep\lib\dcmpstatd.lib;E:\D\MITK-superbuild\ep\lib\dcmsrd.lib;E:\D\MITK-superbuild\ep\lib\dcmtlsd.lib;E:\D\MITK-superbuild\ep\lib\dcmqrdbd.lib;E:\D\MITK-superbuild\ep\lib\dcmnetd.lib;E:\D\MITK-superbuild\ep\lib\dcmjpegd.lib;E:\D\MITK-superbuild\ep\lib\dcmimaged.lib;E:\D\MITK-superbuild\ep\lib\dcmimgled.lib;E:\D\MITK-superbuild\ep\lib\dcmdatad.lib;E:\D\MITK-superbuild\ep\lib\oflogd.lib;E:\D\MITK-superbuild\ep\lib\ofstdd.lib;E:\D\MITK-superbuild\ep\lib\ijg12d.lib;E:\D\MITK-superbuild\ep\lib\ijg16d.lib;E:\D\MITK-superbuild\ep\lib\ijg8d.lib;netapi32.lib;wsock32.lib;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\bin\Debug\CTKWidgets.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5OpenGLd.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Widgetsd.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Guid.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Xmld.lib;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\bin\Debug\CTKCore.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Cored.lib;dbghelp.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:/D/MITK-superbuild/ep/lib;E:/D/MITK-superbuild/ep/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/MITK-build/lib/Debug/MitkDicomUI.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/MITK-build/bin/Debug/MitkDicomUI.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\CTK\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build;E:\D\MITK-superbuild\ep\src\CTK\Libs\PluginFramework;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\PluginFramework;E:\D\MITK-superbuild\ep\src\CTK\Libs\Widgets;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Widgets;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Core;E:\D\MITK-superbuild\ep\include\dcmtk\config;E:\D\MITK-superbuild\ep\include;E:\D\MITK-superbuild\ep\include\dcmtk\dcmdata;E:\D\MITK-superbuild\ep\include\dcmtk\dcmimage;E:\D\MITK-superbuild\ep\include\dcmtk\dcmimgle;E:\D\MITK-superbuild\ep\include\dcmtk\dcmjpeg;E:\D\MITK-superbuild\ep\include\dcmtk\dcmjpls;E:\D\MITK-superbuild\ep\include\dcmtk\dcmnet;E:\D\MITK-superbuild\ep\include\dcmtk\dcmpstat;E:\D\MITK-superbuild\ep\include\dcmtk\dcmqrdb;E:\D\MITK-superbuild\ep\include\dcmtk\dcmsign;E:\D\MITK-superbuild\ep\include\dcmtk\dcmsr;E:\D\MITK-superbuild\ep\include\dcmtk\dcmtls;E:\D\MITK-superbuild\ep\include\dcmtk\ofstd;E:\D\MITK-superbuild\ep\include\dcmtk\oflog;E:\D\MITK-superbuild\ep\include\dcmtk;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets;E:\D\MITK-superbuild\ep\src\CTK\Libs\CommandLineModules\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\CommandLineModules\Core;E:\D\MITK-superbuild\ep\src\CTK\Libs\CommandLineModules\Frontend\QtGui;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\CommandLineModules\Frontend\QtGui;E:\D\MITK-superbuild\ep\src\CTK\Libs\CommandLineModules\Backend\LocalProcess;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\CommandLineModules\Backend\LocalProcess;E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build;E:\D\MITK-superbuild\ep\src\CTK\Libs\Testing;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Testing;E:\D\MITK-superbuild\MITK-build\Modules\DicomUI;E:\D\MITK\Modules\DicomUI\include;E:\D\MITK\Modules\DicomUI\src;E:\D\MITK\Modules\CppMicroServices\third_party;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\include;E:\D\MITK\Modules\CppMicroServices\core\include;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\core\include;E:\D\MITK\Modules\CppMicroServices\core\src\util;E:\D\MITK\Modules\CppMicroServices\core\src\service;E:\D\MITK\Modules\CppMicroServices\core\src\module;E:\D\MITK-superbuild\MITK-build\Modules\Core;E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\include\ITK-4.7;E:\D\MITK-superbuild\ep\include\vtk-6.2;E:\D\MITK-superbuild\ep\include\boost-1_59;E:\D\MITK\Modules\Core\include;E:\D\MITK-superbuild\MITK-build;E:\D\MITK-superbuild\MITK-build\Utilities\mbilog;E:\D\MITK\Utilities\mbilog\.;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtSql;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtWidgets;C:\Qt\5.4\msvc2013_opengl\include\QtXml;C:\Qt\5.4\msvc2013_opengl\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4005;4231;4316</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WIN32_WINNT=0x0501;POCO_NO_UNWINDOWS;WIN32_LEAN_AND_MEAN;NOMINMAX;NDEBUG;US_MODULE_NAME=MitkDicomUI;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;QT_CORE_LIB;QT_NO_DEBUG;QT_SQL_LIB;QT_GUI_LIB;QT_WIDGETS_LIB;QT_XML_LIB;QT_OPENGL_LIB;CMAKE_INTDIR="Release";MitkDicomUI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WIN32_WINNT=0x0501;POCO_NO_UNWINDOWS;WIN32_LEAN_AND_MEAN;NOMINMAX;NDEBUG;US_MODULE_NAME=MitkDicomUI;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;QT_CORE_LIB;QT_NO_DEBUG;QT_SQL_LIB;QT_GUI_LIB;QT_WIDGETS_LIB;QT_XML_LIB;QT_OPENGL_LIB;CMAKE_INTDIR=\"Release\";MitkDicomUI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\CTK\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build;E:\D\MITK-superbuild\ep\src\CTK\Libs\PluginFramework;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\PluginFramework;E:\D\MITK-superbuild\ep\src\CTK\Libs\Widgets;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Widgets;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Core;E:\D\MITK-superbuild\ep\include\dcmtk\config;E:\D\MITK-superbuild\ep\include;E:\D\MITK-superbuild\ep\include\dcmtk\dcmdata;E:\D\MITK-superbuild\ep\include\dcmtk\dcmimage;E:\D\MITK-superbuild\ep\include\dcmtk\dcmimgle;E:\D\MITK-superbuild\ep\include\dcmtk\dcmjpeg;E:\D\MITK-superbuild\ep\include\dcmtk\dcmjpls;E:\D\MITK-superbuild\ep\include\dcmtk\dcmnet;E:\D\MITK-superbuild\ep\include\dcmtk\dcmpstat;E:\D\MITK-superbuild\ep\include\dcmtk\dcmqrdb;E:\D\MITK-superbuild\ep\include\dcmtk\dcmsign;E:\D\MITK-superbuild\ep\include\dcmtk\dcmsr;E:\D\MITK-superbuild\ep\include\dcmtk\dcmtls;E:\D\MITK-superbuild\ep\include\dcmtk\ofstd;E:\D\MITK-superbuild\ep\include\dcmtk\oflog;E:\D\MITK-superbuild\ep\include\dcmtk;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets;E:\D\MITK-superbuild\ep\src\CTK\Libs\CommandLineModules\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\CommandLineModules\Core;E:\D\MITK-superbuild\ep\src\CTK\Libs\CommandLineModules\Frontend\QtGui;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\CommandLineModules\Frontend\QtGui;E:\D\MITK-superbuild\ep\src\CTK\Libs\CommandLineModules\Backend\LocalProcess;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\CommandLineModules\Backend\LocalProcess;E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build;E:\D\MITK-superbuild\ep\src\CTK\Libs\Testing;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Testing;E:\D\MITK-superbuild\MITK-build\Modules\DicomUI;E:\D\MITK\Modules\DicomUI\include;E:\D\MITK\Modules\DicomUI\src;E:\D\MITK\Modules\CppMicroServices\third_party;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\include;E:\D\MITK\Modules\CppMicroServices\core\include;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\core\include;E:\D\MITK\Modules\CppMicroServices\core\src\util;E:\D\MITK\Modules\CppMicroServices\core\src\service;E:\D\MITK\Modules\CppMicroServices\core\src\module;E:\D\MITK-superbuild\MITK-build\Modules\Core;E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\include\ITK-4.7;E:\D\MITK-superbuild\ep\include\vtk-6.2;E:\D\MITK-superbuild\ep\include\boost-1_59;E:\D\MITK\Modules\Core\include;E:\D\MITK-superbuild\MITK-build;E:\D\MITK-superbuild\MITK-build\Utilities\mbilog;E:\D\MITK\Utilities\mbilog\.;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtSql;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtWidgets;C:\Qt\5.4\msvc2013_opengl\include\QtXml;C:\Qt\5.4\msvc2013_opengl\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\CTK\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build;E:\D\MITK-superbuild\ep\src\CTK\Libs\PluginFramework;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\PluginFramework;E:\D\MITK-superbuild\ep\src\CTK\Libs\Widgets;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Widgets;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Core;E:\D\MITK-superbuild\ep\include\dcmtk\config;E:\D\MITK-superbuild\ep\include;E:\D\MITK-superbuild\ep\include\dcmtk\dcmdata;E:\D\MITK-superbuild\ep\include\dcmtk\dcmimage;E:\D\MITK-superbuild\ep\include\dcmtk\dcmimgle;E:\D\MITK-superbuild\ep\include\dcmtk\dcmjpeg;E:\D\MITK-superbuild\ep\include\dcmtk\dcmjpls;E:\D\MITK-superbuild\ep\include\dcmtk\dcmnet;E:\D\MITK-superbuild\ep\include\dcmtk\dcmpstat;E:\D\MITK-superbuild\ep\include\dcmtk\dcmqrdb;E:\D\MITK-superbuild\ep\include\dcmtk\dcmsign;E:\D\MITK-superbuild\ep\include\dcmtk\dcmsr;E:\D\MITK-superbuild\ep\include\dcmtk\dcmtls;E:\D\MITK-superbuild\ep\include\dcmtk\ofstd;E:\D\MITK-superbuild\ep\include\dcmtk\oflog;E:\D\MITK-superbuild\ep\include\dcmtk;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets;E:\D\MITK-superbuild\ep\src\CTK\Libs\CommandLineModules\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\CommandLineModules\Core;E:\D\MITK-superbuild\ep\src\CTK\Libs\CommandLineModules\Frontend\QtGui;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\CommandLineModules\Frontend\QtGui;E:\D\MITK-superbuild\ep\src\CTK\Libs\CommandLineModules\Backend\LocalProcess;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\CommandLineModules\Backend\LocalProcess;E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build;E:\D\MITK-superbuild\ep\src\CTK\Libs\Testing;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Testing;E:\D\MITK-superbuild\MITK-build\Modules\DicomUI;E:\D\MITK\Modules\DicomUI\include;E:\D\MITK\Modules\DicomUI\src;E:\D\MITK\Modules\CppMicroServices\third_party;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\include;E:\D\MITK\Modules\CppMicroServices\core\include;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\core\include;E:\D\MITK\Modules\CppMicroServices\core\src\util;E:\D\MITK\Modules\CppMicroServices\core\src\service;E:\D\MITK\Modules\CppMicroServices\core\src\module;E:\D\MITK-superbuild\MITK-build\Modules\Core;E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\include\ITK-4.7;E:\D\MITK-superbuild\ep\include\vtk-6.2;E:\D\MITK-superbuild\ep\include\boost-1_59;E:\D\MITK\Modules\Core\include;E:\D\MITK-superbuild\MITK-build;E:\D\MITK-superbuild\MITK-build\Utilities\mbilog;E:\D\MITK\Utilities\mbilog\.;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtSql;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtWidgets;C:\Qt\5.4\msvc2013_opengl\include\QtXml;C:\Qt\5.4\msvc2013_opengl\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\Release\MitkCore.lib;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\bin\Release\CTKDICOMWidgets.lib;..\..\lib\Release\CppMicroServices.lib;..\..\lib\Release\mbilog.lib;E:\D\MITK-superbuild\ep\lib\ITKIOGDCM-4.7d.lib;E:\D\MITK-superbuild\ep\lib\gdcmMSFFd.lib;E:\D\MITK-superbuild\ep\lib\gdcmDICTd.lib;E:\D\MITK-superbuild\ep\lib\gdcmIODd.lib;E:\D\MITK-superbuild\ep\lib\gdcmDSEDd.lib;E:\D\MITK-superbuild\ep\lib\gdcmCommond.lib;E:\D\MITK-superbuild\ep\lib\ITKSpatialObjects-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKPath-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKMesh-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKStatistics-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkNetlibSlatec-4.7d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersTexture-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersParallel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkParallelCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOLegacy-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingStencil-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingMath-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingVolumeOpenGL-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingFreeTypeOpenGL-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingOpenGL-6.2d.lib;glu32.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingLabel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkInteractionWidgets-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersModeling-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkInteractionStyle-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingHybrid-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOImage-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkDICOMParser-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkmetaio-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkpng-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtktiff-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkjpeg-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingVolume-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersHybrid-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingGeneral-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingSources-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingAnnotation-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingFreeType-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersExtraction-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersStatistics-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingFourier-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkalglib-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersGeometry-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersSources-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersGeneral-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonComputationalGeometry-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonColor-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkftgl-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkfreetype-6.2d.lib;opengl32.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingColor-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOXML-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOGeometry-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkjsoncpp-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOXMLParser-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonExecutionModel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonDataModel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonMisc-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonSystem-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtksys-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonTransforms-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonMath-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkzlib-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkexpat-6.2d.lib;E:\D\MITK-superbuild\ep\lib\ITKMetaIO-4.7d.lib;comctl32.lib;E:\D\MITK-superbuild\ep\lib\itkzlib-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOImageBase-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKCommon-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkdouble-conversion-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itksys-4.7d.lib;ws2_32.lib;Psapi.lib;E:\D\MITK-superbuild\ep\lib\ITKVNLInstantiation-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl_algo-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkv3p_lsqr-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvcl-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkv3p_netlib-4.7d.lib;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\bin\Release\CTKDICOMCore.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Sql.lib;netapi32.lib;wsock32.lib;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\bin\Release\CTKWidgets.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5OpenGL.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Widgets.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Gui.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Xml.lib;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\bin\Release\CTKCore.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Core.lib;dbghelp.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:/D/MITK-superbuild/ep/lib;E:/D/MITK-superbuild/ep/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/MITK-build/lib/Release/MitkDicomUI.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/MITK-build/bin/Release/MitkDicomUI.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\CTK\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build;E:\D\MITK-superbuild\ep\src\CTK\Libs\PluginFramework;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\PluginFramework;E:\D\MITK-superbuild\ep\src\CTK\Libs\Widgets;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Widgets;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Core;E:\D\MITK-superbuild\ep\include\dcmtk\config;E:\D\MITK-superbuild\ep\include;E:\D\MITK-superbuild\ep\include\dcmtk\dcmdata;E:\D\MITK-superbuild\ep\include\dcmtk\dcmimage;E:\D\MITK-superbuild\ep\include\dcmtk\dcmimgle;E:\D\MITK-superbuild\ep\include\dcmtk\dcmjpeg;E:\D\MITK-superbuild\ep\include\dcmtk\dcmjpls;E:\D\MITK-superbuild\ep\include\dcmtk\dcmnet;E:\D\MITK-superbuild\ep\include\dcmtk\dcmpstat;E:\D\MITK-superbuild\ep\include\dcmtk\dcmqrdb;E:\D\MITK-superbuild\ep\include\dcmtk\dcmsign;E:\D\MITK-superbuild\ep\include\dcmtk\dcmsr;E:\D\MITK-superbuild\ep\include\dcmtk\dcmtls;E:\D\MITK-superbuild\ep\include\dcmtk\ofstd;E:\D\MITK-superbuild\ep\include\dcmtk\oflog;E:\D\MITK-superbuild\ep\include\dcmtk;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets;E:\D\MITK-superbuild\ep\src\CTK\Libs\CommandLineModules\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\CommandLineModules\Core;E:\D\MITK-superbuild\ep\src\CTK\Libs\CommandLineModules\Frontend\QtGui;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\CommandLineModules\Frontend\QtGui;E:\D\MITK-superbuild\ep\src\CTK\Libs\CommandLineModules\Backend\LocalProcess;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\CommandLineModules\Backend\LocalProcess;E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build;E:\D\MITK-superbuild\ep\src\CTK\Libs\Testing;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Testing;E:\D\MITK-superbuild\MITK-build\Modules\DicomUI;E:\D\MITK\Modules\DicomUI\include;E:\D\MITK\Modules\DicomUI\src;E:\D\MITK\Modules\CppMicroServices\third_party;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\include;E:\D\MITK\Modules\CppMicroServices\core\include;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\core\include;E:\D\MITK\Modules\CppMicroServices\core\src\util;E:\D\MITK\Modules\CppMicroServices\core\src\service;E:\D\MITK\Modules\CppMicroServices\core\src\module;E:\D\MITK-superbuild\MITK-build\Modules\Core;E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\include\ITK-4.7;E:\D\MITK-superbuild\ep\include\vtk-6.2;E:\D\MITK-superbuild\ep\include\boost-1_59;E:\D\MITK\Modules\Core\include;E:\D\MITK-superbuild\MITK-build;E:\D\MITK-superbuild\MITK-build\Utilities\mbilog;E:\D\MITK\Utilities\mbilog\.;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtSql;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtWidgets;C:\Qt\5.4\msvc2013_opengl\include\QtXml;C:\Qt\5.4\msvc2013_opengl\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4005;4231;4316</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WIN32_WINNT=0x0501;POCO_NO_UNWINDOWS;WIN32_LEAN_AND_MEAN;NOMINMAX;NDEBUG;US_MODULE_NAME=MitkDicomUI;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;QT_CORE_LIB;QT_NO_DEBUG;QT_SQL_LIB;QT_GUI_LIB;QT_WIDGETS_LIB;QT_XML_LIB;QT_OPENGL_LIB;CMAKE_INTDIR="MinSizeRel";MitkDicomUI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WIN32_WINNT=0x0501;POCO_NO_UNWINDOWS;WIN32_LEAN_AND_MEAN;NOMINMAX;NDEBUG;US_MODULE_NAME=MitkDicomUI;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;QT_CORE_LIB;QT_NO_DEBUG;QT_SQL_LIB;QT_GUI_LIB;QT_WIDGETS_LIB;QT_XML_LIB;QT_OPENGL_LIB;CMAKE_INTDIR=\"MinSizeRel\";MitkDicomUI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\CTK\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build;E:\D\MITK-superbuild\ep\src\CTK\Libs\PluginFramework;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\PluginFramework;E:\D\MITK-superbuild\ep\src\CTK\Libs\Widgets;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Widgets;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Core;E:\D\MITK-superbuild\ep\include\dcmtk\config;E:\D\MITK-superbuild\ep\include;E:\D\MITK-superbuild\ep\include\dcmtk\dcmdata;E:\D\MITK-superbuild\ep\include\dcmtk\dcmimage;E:\D\MITK-superbuild\ep\include\dcmtk\dcmimgle;E:\D\MITK-superbuild\ep\include\dcmtk\dcmjpeg;E:\D\MITK-superbuild\ep\include\dcmtk\dcmjpls;E:\D\MITK-superbuild\ep\include\dcmtk\dcmnet;E:\D\MITK-superbuild\ep\include\dcmtk\dcmpstat;E:\D\MITK-superbuild\ep\include\dcmtk\dcmqrdb;E:\D\MITK-superbuild\ep\include\dcmtk\dcmsign;E:\D\MITK-superbuild\ep\include\dcmtk\dcmsr;E:\D\MITK-superbuild\ep\include\dcmtk\dcmtls;E:\D\MITK-superbuild\ep\include\dcmtk\ofstd;E:\D\MITK-superbuild\ep\include\dcmtk\oflog;E:\D\MITK-superbuild\ep\include\dcmtk;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets;E:\D\MITK-superbuild\ep\src\CTK\Libs\CommandLineModules\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\CommandLineModules\Core;E:\D\MITK-superbuild\ep\src\CTK\Libs\CommandLineModules\Frontend\QtGui;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\CommandLineModules\Frontend\QtGui;E:\D\MITK-superbuild\ep\src\CTK\Libs\CommandLineModules\Backend\LocalProcess;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\CommandLineModules\Backend\LocalProcess;E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build;E:\D\MITK-superbuild\ep\src\CTK\Libs\Testing;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Testing;E:\D\MITK-superbuild\MITK-build\Modules\DicomUI;E:\D\MITK\Modules\DicomUI\include;E:\D\MITK\Modules\DicomUI\src;E:\D\MITK\Modules\CppMicroServices\third_party;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\include;E:\D\MITK\Modules\CppMicroServices\core\include;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\core\include;E:\D\MITK\Modules\CppMicroServices\core\src\util;E:\D\MITK\Modules\CppMicroServices\core\src\service;E:\D\MITK\Modules\CppMicroServices\core\src\module;E:\D\MITK-superbuild\MITK-build\Modules\Core;E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\include\ITK-4.7;E:\D\MITK-superbuild\ep\include\vtk-6.2;E:\D\MITK-superbuild\ep\include\boost-1_59;E:\D\MITK\Modules\Core\include;E:\D\MITK-superbuild\MITK-build;E:\D\MITK-superbuild\MITK-build\Utilities\mbilog;E:\D\MITK\Utilities\mbilog\.;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtSql;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtWidgets;C:\Qt\5.4\msvc2013_opengl\include\QtXml;C:\Qt\5.4\msvc2013_opengl\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\CTK\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build;E:\D\MITK-superbuild\ep\src\CTK\Libs\PluginFramework;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\PluginFramework;E:\D\MITK-superbuild\ep\src\CTK\Libs\Widgets;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Widgets;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Core;E:\D\MITK-superbuild\ep\include\dcmtk\config;E:\D\MITK-superbuild\ep\include;E:\D\MITK-superbuild\ep\include\dcmtk\dcmdata;E:\D\MITK-superbuild\ep\include\dcmtk\dcmimage;E:\D\MITK-superbuild\ep\include\dcmtk\dcmimgle;E:\D\MITK-superbuild\ep\include\dcmtk\dcmjpeg;E:\D\MITK-superbuild\ep\include\dcmtk\dcmjpls;E:\D\MITK-superbuild\ep\include\dcmtk\dcmnet;E:\D\MITK-superbuild\ep\include\dcmtk\dcmpstat;E:\D\MITK-superbuild\ep\include\dcmtk\dcmqrdb;E:\D\MITK-superbuild\ep\include\dcmtk\dcmsign;E:\D\MITK-superbuild\ep\include\dcmtk\dcmsr;E:\D\MITK-superbuild\ep\include\dcmtk\dcmtls;E:\D\MITK-superbuild\ep\include\dcmtk\ofstd;E:\D\MITK-superbuild\ep\include\dcmtk\oflog;E:\D\MITK-superbuild\ep\include\dcmtk;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets;E:\D\MITK-superbuild\ep\src\CTK\Libs\CommandLineModules\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\CommandLineModules\Core;E:\D\MITK-superbuild\ep\src\CTK\Libs\CommandLineModules\Frontend\QtGui;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\CommandLineModules\Frontend\QtGui;E:\D\MITK-superbuild\ep\src\CTK\Libs\CommandLineModules\Backend\LocalProcess;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\CommandLineModules\Backend\LocalProcess;E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build;E:\D\MITK-superbuild\ep\src\CTK\Libs\Testing;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Testing;E:\D\MITK-superbuild\MITK-build\Modules\DicomUI;E:\D\MITK\Modules\DicomUI\include;E:\D\MITK\Modules\DicomUI\src;E:\D\MITK\Modules\CppMicroServices\third_party;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\include;E:\D\MITK\Modules\CppMicroServices\core\include;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\core\include;E:\D\MITK\Modules\CppMicroServices\core\src\util;E:\D\MITK\Modules\CppMicroServices\core\src\service;E:\D\MITK\Modules\CppMicroServices\core\src\module;E:\D\MITK-superbuild\MITK-build\Modules\Core;E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\include\ITK-4.7;E:\D\MITK-superbuild\ep\include\vtk-6.2;E:\D\MITK-superbuild\ep\include\boost-1_59;E:\D\MITK\Modules\Core\include;E:\D\MITK-superbuild\MITK-build;E:\D\MITK-superbuild\MITK-build\Utilities\mbilog;E:\D\MITK\Utilities\mbilog\.;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtSql;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtWidgets;C:\Qt\5.4\msvc2013_opengl\include\QtXml;C:\Qt\5.4\msvc2013_opengl\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\MinSizeRel\MitkCore.lib;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\bin\MinSizeRel\CTKDICOMWidgets.lib;..\..\lib\MinSizeRel\CppMicroServices.lib;..\..\lib\MinSizeRel\mbilog.lib;E:\D\MITK-superbuild\ep\lib\ITKIOGDCM-4.7d.lib;E:\D\MITK-superbuild\ep\lib\gdcmMSFFd.lib;E:\D\MITK-superbuild\ep\lib\gdcmDICTd.lib;E:\D\MITK-superbuild\ep\lib\gdcmIODd.lib;E:\D\MITK-superbuild\ep\lib\gdcmDSEDd.lib;E:\D\MITK-superbuild\ep\lib\gdcmCommond.lib;E:\D\MITK-superbuild\ep\lib\ITKSpatialObjects-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKPath-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKMesh-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKStatistics-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkNetlibSlatec-4.7d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersTexture-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersParallel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkParallelCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOLegacy-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingStencil-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingMath-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingVolumeOpenGL-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingFreeTypeOpenGL-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingOpenGL-6.2d.lib;glu32.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingLabel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkInteractionWidgets-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersModeling-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkInteractionStyle-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingHybrid-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOImage-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkDICOMParser-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkmetaio-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkpng-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtktiff-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkjpeg-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingVolume-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersHybrid-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingGeneral-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingSources-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingAnnotation-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingFreeType-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersExtraction-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersStatistics-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingFourier-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkalglib-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersGeometry-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersSources-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersGeneral-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonComputationalGeometry-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonColor-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkftgl-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkfreetype-6.2d.lib;opengl32.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingColor-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOXML-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOGeometry-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkjsoncpp-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOXMLParser-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonExecutionModel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonDataModel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonMisc-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonSystem-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtksys-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonTransforms-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonMath-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkzlib-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkexpat-6.2d.lib;E:\D\MITK-superbuild\ep\lib\ITKMetaIO-4.7d.lib;comctl32.lib;E:\D\MITK-superbuild\ep\lib\itkzlib-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOImageBase-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKCommon-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkdouble-conversion-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itksys-4.7d.lib;ws2_32.lib;Psapi.lib;E:\D\MITK-superbuild\ep\lib\ITKVNLInstantiation-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl_algo-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkv3p_lsqr-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvcl-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkv3p_netlib-4.7d.lib;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\bin\MinSizeRel\CTKDICOMCore.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Sql.lib;netapi32.lib;wsock32.lib;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\bin\MinSizeRel\CTKWidgets.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5OpenGL.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Widgets.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Gui.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Xml.lib;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\bin\MinSizeRel\CTKCore.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Core.lib;dbghelp.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:/D/MITK-superbuild/ep/lib;E:/D/MITK-superbuild/ep/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/MITK-build/lib/MinSizeRel/MitkDicomUI.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/MITK-build/bin/MinSizeRel/MitkDicomUI.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\CTK\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build;E:\D\MITK-superbuild\ep\src\CTK\Libs\PluginFramework;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\PluginFramework;E:\D\MITK-superbuild\ep\src\CTK\Libs\Widgets;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Widgets;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Core;E:\D\MITK-superbuild\ep\include\dcmtk\config;E:\D\MITK-superbuild\ep\include;E:\D\MITK-superbuild\ep\include\dcmtk\dcmdata;E:\D\MITK-superbuild\ep\include\dcmtk\dcmimage;E:\D\MITK-superbuild\ep\include\dcmtk\dcmimgle;E:\D\MITK-superbuild\ep\include\dcmtk\dcmjpeg;E:\D\MITK-superbuild\ep\include\dcmtk\dcmjpls;E:\D\MITK-superbuild\ep\include\dcmtk\dcmnet;E:\D\MITK-superbuild\ep\include\dcmtk\dcmpstat;E:\D\MITK-superbuild\ep\include\dcmtk\dcmqrdb;E:\D\MITK-superbuild\ep\include\dcmtk\dcmsign;E:\D\MITK-superbuild\ep\include\dcmtk\dcmsr;E:\D\MITK-superbuild\ep\include\dcmtk\dcmtls;E:\D\MITK-superbuild\ep\include\dcmtk\ofstd;E:\D\MITK-superbuild\ep\include\dcmtk\oflog;E:\D\MITK-superbuild\ep\include\dcmtk;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets;E:\D\MITK-superbuild\ep\src\CTK\Libs\CommandLineModules\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\CommandLineModules\Core;E:\D\MITK-superbuild\ep\src\CTK\Libs\CommandLineModules\Frontend\QtGui;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\CommandLineModules\Frontend\QtGui;E:\D\MITK-superbuild\ep\src\CTK\Libs\CommandLineModules\Backend\LocalProcess;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\CommandLineModules\Backend\LocalProcess;E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build;E:\D\MITK-superbuild\ep\src\CTK\Libs\Testing;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Testing;E:\D\MITK-superbuild\MITK-build\Modules\DicomUI;E:\D\MITK\Modules\DicomUI\include;E:\D\MITK\Modules\DicomUI\src;E:\D\MITK\Modules\CppMicroServices\third_party;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\include;E:\D\MITK\Modules\CppMicroServices\core\include;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\core\include;E:\D\MITK\Modules\CppMicroServices\core\src\util;E:\D\MITK\Modules\CppMicroServices\core\src\service;E:\D\MITK\Modules\CppMicroServices\core\src\module;E:\D\MITK-superbuild\MITK-build\Modules\Core;E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\include\ITK-4.7;E:\D\MITK-superbuild\ep\include\vtk-6.2;E:\D\MITK-superbuild\ep\include\boost-1_59;E:\D\MITK\Modules\Core\include;E:\D\MITK-superbuild\MITK-build;E:\D\MITK-superbuild\MITK-build\Utilities\mbilog;E:\D\MITK\Utilities\mbilog\.;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtSql;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtWidgets;C:\Qt\5.4\msvc2013_opengl\include\QtXml;C:\Qt\5.4\msvc2013_opengl\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4005;4231;4316</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WIN32_WINNT=0x0501;POCO_NO_UNWINDOWS;WIN32_LEAN_AND_MEAN;NOMINMAX;NDEBUG;US_MODULE_NAME=MitkDicomUI;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;QT_CORE_LIB;QT_NO_DEBUG;QT_SQL_LIB;QT_GUI_LIB;QT_WIDGETS_LIB;QT_XML_LIB;QT_OPENGL_LIB;CMAKE_INTDIR="RelWithDebInfo";MitkDicomUI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WIN32_WINNT=0x0501;POCO_NO_UNWINDOWS;WIN32_LEAN_AND_MEAN;NOMINMAX;NDEBUG;US_MODULE_NAME=MitkDicomUI;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;QT_CORE_LIB;QT_NO_DEBUG;QT_SQL_LIB;QT_GUI_LIB;QT_WIDGETS_LIB;QT_XML_LIB;QT_OPENGL_LIB;CMAKE_INTDIR=\"RelWithDebInfo\";MitkDicomUI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\CTK\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build;E:\D\MITK-superbuild\ep\src\CTK\Libs\PluginFramework;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\PluginFramework;E:\D\MITK-superbuild\ep\src\CTK\Libs\Widgets;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Widgets;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Core;E:\D\MITK-superbuild\ep\include\dcmtk\config;E:\D\MITK-superbuild\ep\include;E:\D\MITK-superbuild\ep\include\dcmtk\dcmdata;E:\D\MITK-superbuild\ep\include\dcmtk\dcmimage;E:\D\MITK-superbuild\ep\include\dcmtk\dcmimgle;E:\D\MITK-superbuild\ep\include\dcmtk\dcmjpeg;E:\D\MITK-superbuild\ep\include\dcmtk\dcmjpls;E:\D\MITK-superbuild\ep\include\dcmtk\dcmnet;E:\D\MITK-superbuild\ep\include\dcmtk\dcmpstat;E:\D\MITK-superbuild\ep\include\dcmtk\dcmqrdb;E:\D\MITK-superbuild\ep\include\dcmtk\dcmsign;E:\D\MITK-superbuild\ep\include\dcmtk\dcmsr;E:\D\MITK-superbuild\ep\include\dcmtk\dcmtls;E:\D\MITK-superbuild\ep\include\dcmtk\ofstd;E:\D\MITK-superbuild\ep\include\dcmtk\oflog;E:\D\MITK-superbuild\ep\include\dcmtk;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets;E:\D\MITK-superbuild\ep\src\CTK\Libs\CommandLineModules\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\CommandLineModules\Core;E:\D\MITK-superbuild\ep\src\CTK\Libs\CommandLineModules\Frontend\QtGui;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\CommandLineModules\Frontend\QtGui;E:\D\MITK-superbuild\ep\src\CTK\Libs\CommandLineModules\Backend\LocalProcess;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\CommandLineModules\Backend\LocalProcess;E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build;E:\D\MITK-superbuild\ep\src\CTK\Libs\Testing;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Testing;E:\D\MITK-superbuild\MITK-build\Modules\DicomUI;E:\D\MITK\Modules\DicomUI\include;E:\D\MITK\Modules\DicomUI\src;E:\D\MITK\Modules\CppMicroServices\third_party;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\include;E:\D\MITK\Modules\CppMicroServices\core\include;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\core\include;E:\D\MITK\Modules\CppMicroServices\core\src\util;E:\D\MITK\Modules\CppMicroServices\core\src\service;E:\D\MITK\Modules\CppMicroServices\core\src\module;E:\D\MITK-superbuild\MITK-build\Modules\Core;E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\include\ITK-4.7;E:\D\MITK-superbuild\ep\include\vtk-6.2;E:\D\MITK-superbuild\ep\include\boost-1_59;E:\D\MITK\Modules\Core\include;E:\D\MITK-superbuild\MITK-build;E:\D\MITK-superbuild\MITK-build\Utilities\mbilog;E:\D\MITK\Utilities\mbilog\.;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtSql;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtWidgets;C:\Qt\5.4\msvc2013_opengl\include\QtXml;C:\Qt\5.4\msvc2013_opengl\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\CTK\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build;E:\D\MITK-superbuild\ep\src\CTK\Libs\PluginFramework;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\PluginFramework;E:\D\MITK-superbuild\ep\src\CTK\Libs\Widgets;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Widgets;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Core;E:\D\MITK-superbuild\ep\include\dcmtk\config;E:\D\MITK-superbuild\ep\include;E:\D\MITK-superbuild\ep\include\dcmtk\dcmdata;E:\D\MITK-superbuild\ep\include\dcmtk\dcmimage;E:\D\MITK-superbuild\ep\include\dcmtk\dcmimgle;E:\D\MITK-superbuild\ep\include\dcmtk\dcmjpeg;E:\D\MITK-superbuild\ep\include\dcmtk\dcmjpls;E:\D\MITK-superbuild\ep\include\dcmtk\dcmnet;E:\D\MITK-superbuild\ep\include\dcmtk\dcmpstat;E:\D\MITK-superbuild\ep\include\dcmtk\dcmqrdb;E:\D\MITK-superbuild\ep\include\dcmtk\dcmsign;E:\D\MITK-superbuild\ep\include\dcmtk\dcmsr;E:\D\MITK-superbuild\ep\include\dcmtk\dcmtls;E:\D\MITK-superbuild\ep\include\dcmtk\ofstd;E:\D\MITK-superbuild\ep\include\dcmtk\oflog;E:\D\MITK-superbuild\ep\include\dcmtk;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets;E:\D\MITK-superbuild\ep\src\CTK\Libs\CommandLineModules\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\CommandLineModules\Core;E:\D\MITK-superbuild\ep\src\CTK\Libs\CommandLineModules\Frontend\QtGui;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\CommandLineModules\Frontend\QtGui;E:\D\MITK-superbuild\ep\src\CTK\Libs\CommandLineModules\Backend\LocalProcess;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\CommandLineModules\Backend\LocalProcess;E:\D\MITK-superbuild\ep\src\CTK\Libs\XNAT\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\XNAT\Core;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build;E:\D\MITK-superbuild\ep\src\CTK\Libs\Testing;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Testing;E:\D\MITK-superbuild\MITK-build\Modules\DicomUI;E:\D\MITK\Modules\DicomUI\include;E:\D\MITK\Modules\DicomUI\src;E:\D\MITK\Modules\CppMicroServices\third_party;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\include;E:\D\MITK\Modules\CppMicroServices\core\include;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\core\include;E:\D\MITK\Modules\CppMicroServices\core\src\util;E:\D\MITK\Modules\CppMicroServices\core\src\service;E:\D\MITK\Modules\CppMicroServices\core\src\module;E:\D\MITK-superbuild\MITK-build\Modules\Core;E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\include\ITK-4.7;E:\D\MITK-superbuild\ep\include\vtk-6.2;E:\D\MITK-superbuild\ep\include\boost-1_59;E:\D\MITK\Modules\Core\include;E:\D\MITK-superbuild\MITK-build;E:\D\MITK-superbuild\MITK-build\Utilities\mbilog;E:\D\MITK\Utilities\mbilog\.;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtSql;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtWidgets;C:\Qt\5.4\msvc2013_opengl\include\QtXml;C:\Qt\5.4\msvc2013_opengl\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\RelWithDebInfo\MitkCore.lib;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\bin\RelWithDebInfo\CTKDICOMWidgets.lib;..\..\lib\RelWithDebInfo\CppMicroServices.lib;..\..\lib\RelWithDebInfo\mbilog.lib;E:\D\MITK-superbuild\ep\lib\ITKIOGDCM-4.7d.lib;E:\D\MITK-superbuild\ep\lib\gdcmMSFFd.lib;E:\D\MITK-superbuild\ep\lib\gdcmDICTd.lib;E:\D\MITK-superbuild\ep\lib\gdcmIODd.lib;E:\D\MITK-superbuild\ep\lib\gdcmDSEDd.lib;E:\D\MITK-superbuild\ep\lib\gdcmCommond.lib;E:\D\MITK-superbuild\ep\lib\ITKSpatialObjects-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKPath-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKMesh-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKStatistics-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkNetlibSlatec-4.7d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersTexture-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersParallel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkParallelCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOLegacy-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingStencil-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingMath-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingVolumeOpenGL-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingFreeTypeOpenGL-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingOpenGL-6.2d.lib;glu32.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingLabel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkInteractionWidgets-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersModeling-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkInteractionStyle-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingHybrid-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOImage-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkDICOMParser-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkmetaio-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkpng-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtktiff-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkjpeg-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingVolume-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersHybrid-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingGeneral-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingSources-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingAnnotation-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingFreeType-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersExtraction-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersStatistics-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingFourier-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkalglib-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersGeometry-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersSources-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersGeneral-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonComputationalGeometry-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonColor-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkftgl-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkfreetype-6.2d.lib;opengl32.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingColor-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOXML-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOGeometry-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkjsoncpp-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOXMLParser-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonExecutionModel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonDataModel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonMisc-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonSystem-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtksys-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonTransforms-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonMath-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkzlib-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkexpat-6.2d.lib;E:\D\MITK-superbuild\ep\lib\ITKMetaIO-4.7d.lib;comctl32.lib;E:\D\MITK-superbuild\ep\lib\itkzlib-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOImageBase-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKCommon-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkdouble-conversion-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itksys-4.7d.lib;ws2_32.lib;Psapi.lib;E:\D\MITK-superbuild\ep\lib\ITKVNLInstantiation-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl_algo-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkv3p_lsqr-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvcl-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkv3p_netlib-4.7d.lib;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\bin\RelWithDebInfo\CTKDICOMCore.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Sql.lib;netapi32.lib;wsock32.lib;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\bin\RelWithDebInfo\CTKWidgets.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5OpenGL.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Widgets.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Gui.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Xml.lib;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\bin\RelWithDebInfo\CTKCore.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Core.lib;dbghelp.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:/D/MITK-superbuild/ep/lib;E:/D/MITK-superbuild/ep/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/MITK-build/lib/RelWithDebInfo/MitkDicomUI.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/MITK-build/bin/RelWithDebInfo/MitkDicomUI.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK\Modules\DicomUI\src\QmitkDicomLocalStorageWidgetControls.ui">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ui_QmitkDicomLocalStorageWidgetControls.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\uic.exe -o E:/D/MITK-superbuild/MITK-build/Modules/DicomUI/ui_QmitkDicomLocalStorageWidgetControls.h E:/D/MITK/Modules/DicomUI/src/QmitkDicomLocalStorageWidgetControls.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK/Modules/DicomUI/src/QmitkDicomLocalStorageWidgetControls.ui;E:\D\MITK\Modules\DicomUI\src\QmitkDicomLocalStorageWidgetControls.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\DicomUI\ui_QmitkDicomLocalStorageWidgetControls.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ui_QmitkDicomLocalStorageWidgetControls.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\uic.exe -o E:/D/MITK-superbuild/MITK-build/Modules/DicomUI/ui_QmitkDicomLocalStorageWidgetControls.h E:/D/MITK/Modules/DicomUI/src/QmitkDicomLocalStorageWidgetControls.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK/Modules/DicomUI/src/QmitkDicomLocalStorageWidgetControls.ui;E:\D\MITK\Modules\DicomUI\src\QmitkDicomLocalStorageWidgetControls.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\DicomUI\ui_QmitkDicomLocalStorageWidgetControls.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ui_QmitkDicomLocalStorageWidgetControls.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\uic.exe -o E:/D/MITK-superbuild/MITK-build/Modules/DicomUI/ui_QmitkDicomLocalStorageWidgetControls.h E:/D/MITK/Modules/DicomUI/src/QmitkDicomLocalStorageWidgetControls.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK/Modules/DicomUI/src/QmitkDicomLocalStorageWidgetControls.ui;E:\D\MITK\Modules\DicomUI\src\QmitkDicomLocalStorageWidgetControls.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\DicomUI\ui_QmitkDicomLocalStorageWidgetControls.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ui_QmitkDicomLocalStorageWidgetControls.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\uic.exe -o E:/D/MITK-superbuild/MITK-build/Modules/DicomUI/ui_QmitkDicomLocalStorageWidgetControls.h E:/D/MITK/Modules/DicomUI/src/QmitkDicomLocalStorageWidgetControls.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK/Modules/DicomUI/src/QmitkDicomLocalStorageWidgetControls.ui;E:\D\MITK\Modules\DicomUI\src\QmitkDicomLocalStorageWidgetControls.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\DicomUI\ui_QmitkDicomLocalStorageWidgetControls.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK\Modules\DicomUI\src\QmitkDicomExternalDataWidgetControls.ui">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ui_QmitkDicomExternalDataWidgetControls.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\uic.exe -o E:/D/MITK-superbuild/MITK-build/Modules/DicomUI/ui_QmitkDicomExternalDataWidgetControls.h E:/D/MITK/Modules/DicomUI/src/QmitkDicomExternalDataWidgetControls.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK/Modules/DicomUI/src/QmitkDicomExternalDataWidgetControls.ui;E:\D\MITK\Modules\DicomUI\src\QmitkDicomExternalDataWidgetControls.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\DicomUI\ui_QmitkDicomExternalDataWidgetControls.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ui_QmitkDicomExternalDataWidgetControls.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\uic.exe -o E:/D/MITK-superbuild/MITK-build/Modules/DicomUI/ui_QmitkDicomExternalDataWidgetControls.h E:/D/MITK/Modules/DicomUI/src/QmitkDicomExternalDataWidgetControls.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK/Modules/DicomUI/src/QmitkDicomExternalDataWidgetControls.ui;E:\D\MITK\Modules\DicomUI\src\QmitkDicomExternalDataWidgetControls.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\DicomUI\ui_QmitkDicomExternalDataWidgetControls.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ui_QmitkDicomExternalDataWidgetControls.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\uic.exe -o E:/D/MITK-superbuild/MITK-build/Modules/DicomUI/ui_QmitkDicomExternalDataWidgetControls.h E:/D/MITK/Modules/DicomUI/src/QmitkDicomExternalDataWidgetControls.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK/Modules/DicomUI/src/QmitkDicomExternalDataWidgetControls.ui;E:\D\MITK\Modules\DicomUI\src\QmitkDicomExternalDataWidgetControls.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\DicomUI\ui_QmitkDicomExternalDataWidgetControls.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ui_QmitkDicomExternalDataWidgetControls.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\uic.exe -o E:/D/MITK-superbuild/MITK-build/Modules/DicomUI/ui_QmitkDicomExternalDataWidgetControls.h E:/D/MITK/Modules/DicomUI/src/QmitkDicomExternalDataWidgetControls.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK/Modules/DicomUI/src/QmitkDicomExternalDataWidgetControls.ui;E:\D\MITK\Modules\DicomUI\src\QmitkDicomExternalDataWidgetControls.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\DicomUI\ui_QmitkDicomExternalDataWidgetControls.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK\Modules\DicomUI\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/D/MITK/Modules/DicomUI/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK -BE:/D/MITK-superbuild/MITK-build --check-stamp-file E:\D\MITK-superbuild\MITK-build\Modules\DicomUI\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK/Modules/DicomUI/CMakeLists.txt;E:\D\MITK\Modules\DicomUI\CMakeLists.txt;E:\D\MITK\Modules\DicomUI\files.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\CppMicroServicesConfigVersion.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\CppMicroServicesConfig.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\CMakeParseArguments.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionGenerateModuleInit.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionAddResources.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionCheckCompilerFlags.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionEmbedResources.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionCheckResourceLinking.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionGetResourceSource.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\usCoreConfigVersion.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\usCoreConfig.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usModuleInit.cpp;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\exportheader.cmake.in;E:\D\MITK\CMake\PackageDepends\MITK_CTK_Config.cmake;E:\D\MITK\CMake\PackageDepends\MITK_Qt5_Config.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5\Qt5Config.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Sql\Qt5SqlConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Sql\Qt5SqlConfig.cmake;E:\D\MITK\CMake\PackageDepends\MITK_Qt5_Config.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5\Qt5Config.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5OpenGL\Qt5OpenGLConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5OpenGL\Qt5OpenGLConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Xml\Qt5XmlConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Xml\Qt5XmlConfig.cmake;E:\D\MITK\Modules\DicomUI\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\DicomUI\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/D/MITK/Modules/DicomUI/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK -BE:/D/MITK-superbuild/MITK-build --check-stamp-file E:\D\MITK-superbuild\MITK-build\Modules\DicomUI\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK/Modules/DicomUI/CMakeLists.txt;E:\D\MITK\Modules\DicomUI\CMakeLists.txt;E:\D\MITK\Modules\DicomUI\files.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\CppMicroServicesConfigVersion.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\CppMicroServicesConfig.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\CMakeParseArguments.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionGenerateModuleInit.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionAddResources.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionCheckCompilerFlags.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionEmbedResources.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionCheckResourceLinking.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionGetResourceSource.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\usCoreConfigVersion.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\usCoreConfig.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usModuleInit.cpp;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\exportheader.cmake.in;E:\D\MITK\CMake\PackageDepends\MITK_CTK_Config.cmake;E:\D\MITK\CMake\PackageDepends\MITK_Qt5_Config.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5\Qt5Config.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Sql\Qt5SqlConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Sql\Qt5SqlConfig.cmake;E:\D\MITK\CMake\PackageDepends\MITK_Qt5_Config.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5\Qt5Config.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5OpenGL\Qt5OpenGLConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5OpenGL\Qt5OpenGLConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Xml\Qt5XmlConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Xml\Qt5XmlConfig.cmake;E:\D\MITK\Modules\DicomUI\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\DicomUI\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/D/MITK/Modules/DicomUI/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK -BE:/D/MITK-superbuild/MITK-build --check-stamp-file E:\D\MITK-superbuild\MITK-build\Modules\DicomUI\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK/Modules/DicomUI/CMakeLists.txt;E:\D\MITK\Modules\DicomUI\CMakeLists.txt;E:\D\MITK\Modules\DicomUI\files.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\CppMicroServicesConfigVersion.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\CppMicroServicesConfig.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\CMakeParseArguments.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionGenerateModuleInit.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionAddResources.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionCheckCompilerFlags.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionEmbedResources.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionCheckResourceLinking.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionGetResourceSource.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\usCoreConfigVersion.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\usCoreConfig.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usModuleInit.cpp;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\exportheader.cmake.in;E:\D\MITK\CMake\PackageDepends\MITK_CTK_Config.cmake;E:\D\MITK\CMake\PackageDepends\MITK_Qt5_Config.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5\Qt5Config.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Sql\Qt5SqlConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Sql\Qt5SqlConfig.cmake;E:\D\MITK\CMake\PackageDepends\MITK_Qt5_Config.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5\Qt5Config.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5OpenGL\Qt5OpenGLConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5OpenGL\Qt5OpenGLConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Xml\Qt5XmlConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Xml\Qt5XmlConfig.cmake;E:\D\MITK\Modules\DicomUI\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\DicomUI\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/D/MITK/Modules/DicomUI/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK -BE:/D/MITK-superbuild/MITK-build --check-stamp-file E:\D\MITK-superbuild\MITK-build\Modules\DicomUI\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK/Modules/DicomUI/CMakeLists.txt;E:\D\MITK\Modules\DicomUI\CMakeLists.txt;E:\D\MITK\Modules\DicomUI\files.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\CppMicroServicesConfigVersion.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\CppMicroServicesConfig.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\CMakeParseArguments.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionGenerateModuleInit.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionAddResources.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionCheckCompilerFlags.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionEmbedResources.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionCheckResourceLinking.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionGetResourceSource.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\usCoreConfigVersion.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\usCoreConfig.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usModuleInit.cpp;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\exportheader.cmake.in;E:\D\MITK\CMake\PackageDepends\MITK_CTK_Config.cmake;E:\D\MITK\CMake\PackageDepends\MITK_Qt5_Config.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5\Qt5Config.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Sql\Qt5SqlConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Sql\Qt5SqlConfig.cmake;E:\D\MITK\CMake\PackageDepends\MITK_Qt5_Config.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5\Qt5Config.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5OpenGL\Qt5OpenGLConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5OpenGL\Qt5OpenGLConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Xml\Qt5XmlConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Xml\Qt5XmlConfig.cmake;E:\D\MITK\Modules\DicomUI\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\DicomUI\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\5d5c54b6fde6acefcfe681ec3b4eae86\moc_QmitkDicomLocalStorageWidget.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating include/moc_QmitkDicomLocalStorageWidget.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Modules\DicomUI\include
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Modules/DicomUI/include/moc_QmitkDicomLocalStorageWidget.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/5d5c54b6fde6acefcfe681ec3b4eae86/moc_QmitkDicomLocalStorageWidget.cpp.rule;E:\D\MITK\Modules\DicomUI\include\QmitkDicomLocalStorageWidget.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\DicomUI\include\moc_QmitkDicomLocalStorageWidget.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating include/moc_QmitkDicomLocalStorageWidget.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Modules\DicomUI\include
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Modules/DicomUI/include/moc_QmitkDicomLocalStorageWidget.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/5d5c54b6fde6acefcfe681ec3b4eae86/moc_QmitkDicomLocalStorageWidget.cpp.rule;E:\D\MITK\Modules\DicomUI\include\QmitkDicomLocalStorageWidget.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\DicomUI\include\moc_QmitkDicomLocalStorageWidget.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating include/moc_QmitkDicomLocalStorageWidget.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Modules\DicomUI\include
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Modules/DicomUI/include/moc_QmitkDicomLocalStorageWidget.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/5d5c54b6fde6acefcfe681ec3b4eae86/moc_QmitkDicomLocalStorageWidget.cpp.rule;E:\D\MITK\Modules\DicomUI\include\QmitkDicomLocalStorageWidget.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\DicomUI\include\moc_QmitkDicomLocalStorageWidget.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating include/moc_QmitkDicomLocalStorageWidget.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Modules\DicomUI\include
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Modules/DicomUI/include/moc_QmitkDicomLocalStorageWidget.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/5d5c54b6fde6acefcfe681ec3b4eae86/moc_QmitkDicomLocalStorageWidget.cpp.rule;E:\D\MITK\Modules\DicomUI\include\QmitkDicomLocalStorageWidget.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\DicomUI\include\moc_QmitkDicomLocalStorageWidget.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\5d5c54b6fde6acefcfe681ec3b4eae86\moc_QmitkDicomExternalDataWidget.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating include/moc_QmitkDicomExternalDataWidget.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Modules\DicomUI\include
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Modules/DicomUI/include/moc_QmitkDicomExternalDataWidget.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/5d5c54b6fde6acefcfe681ec3b4eae86/moc_QmitkDicomExternalDataWidget.cpp.rule;E:\D\MITK\Modules\DicomUI\include\QmitkDicomExternalDataWidget.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\DicomUI\include\moc_QmitkDicomExternalDataWidget.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating include/moc_QmitkDicomExternalDataWidget.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Modules\DicomUI\include
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Modules/DicomUI/include/moc_QmitkDicomExternalDataWidget.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/5d5c54b6fde6acefcfe681ec3b4eae86/moc_QmitkDicomExternalDataWidget.cpp.rule;E:\D\MITK\Modules\DicomUI\include\QmitkDicomExternalDataWidget.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\DicomUI\include\moc_QmitkDicomExternalDataWidget.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating include/moc_QmitkDicomExternalDataWidget.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Modules\DicomUI\include
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Modules/DicomUI/include/moc_QmitkDicomExternalDataWidget.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/5d5c54b6fde6acefcfe681ec3b4eae86/moc_QmitkDicomExternalDataWidget.cpp.rule;E:\D\MITK\Modules\DicomUI\include\QmitkDicomExternalDataWidget.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\DicomUI\include\moc_QmitkDicomExternalDataWidget.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating include/moc_QmitkDicomExternalDataWidget.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Modules\DicomUI\include
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Modules/DicomUI/include/moc_QmitkDicomExternalDataWidget.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/5d5c54b6fde6acefcfe681ec3b4eae86/moc_QmitkDicomExternalDataWidget.cpp.rule;E:\D\MITK\Modules\DicomUI\include\QmitkDicomExternalDataWidget.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\DicomUI\include\moc_QmitkDicomExternalDataWidget.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\D\MITK\Modules\DicomUI\include\QmitkDicomExternalDataWidget.h" />
+    <ClInclude Include="E:\D\MITK\Modules\DicomUI\include\QmitkDicomLocalStorageWidget.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Modules\DicomUI\ui_QmitkDicomLocalStorageWidgetControls.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Modules\DicomUI\ui_QmitkDicomExternalDataWidgetControls.h" />
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\DicomUI\us_init.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\DicomUI\src\QmitkDicomLocalStorageWidget.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\DicomUI\src\QmitkDicomExternalDataWidget.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\DicomUI\include\moc_QmitkDicomLocalStorageWidget.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\DicomUI\include\moc_QmitkDicomExternalDataWidget.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:/D/MITK-superbuild/MITK-build/ZERO_CHECK.vcxproj">
+      <Project>B13C44DE-4BB4-3414-ABDA-308DC25B7D17</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/MITK-build/Modules/CppMicroServices/core/CppMicroServices.vcxproj">
+      <Project>5F3BDE34-8C32-3441-8C46-8AC176A184DA</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/MITK-build/Modules/Core/MitkCore.vcxproj">
+      <Project>A4D2FE45-C4CB-34B6-8D92-0EE38B0DF319</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/MITK-build/Utilities/mbilog/mbilog.vcxproj">
+      <Project>C2DD058A-96C4-32B8-92D7-A0D457FFBA47</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

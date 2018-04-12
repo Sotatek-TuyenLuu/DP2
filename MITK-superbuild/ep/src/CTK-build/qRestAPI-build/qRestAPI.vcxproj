@@ -1,0 +1,698 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{3722A2EE-8B30-3325-B1A4-06CF03BF591F}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>qRestAPI</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">qRestAPI.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">qRestAPI</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">qRestAPI.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">qRestAPI</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">qRestAPI.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">qRestAPI</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">qRestAPI.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">qRestAPI</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtNetwork;C:\Qt\5.4\msvc2013_opengl\include\QtScript;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;QT_GUI_LIB;QT_CORE_LIB;QT_NETWORK_LIB;QT_SCRIPT_LIB;CMAKE_INTDIR="Debug";qRestAPI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;QT_GUI_LIB;QT_CORE_LIB;QT_NETWORK_LIB;QT_SCRIPT_LIB;CMAKE_INTDIR=\"Debug\";qRestAPI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtNetwork;C:\Qt\5.4\msvc2013_opengl\include\QtScript;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtNetwork;C:\Qt\5.4\msvc2013_opengl\include\QtScript;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Guid.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Networkd.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Scriptd.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Cored.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/ep/src/CTK-build/qRestAPI-build/Debug/qRestAPI.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/ep/src/CTK-build/qRestAPI-build/Debug/qRestAPI.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtNetwork;C:\Qt\5.4\msvc2013_opengl\include\QtScript;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_NETWORK_LIB;QT_SCRIPT_LIB;CMAKE_INTDIR="Release";qRestAPI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_NETWORK_LIB;QT_SCRIPT_LIB;CMAKE_INTDIR=\"Release\";qRestAPI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtNetwork;C:\Qt\5.4\msvc2013_opengl\include\QtScript;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtNetwork;C:\Qt\5.4\msvc2013_opengl\include\QtScript;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Gui.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Network.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Script.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Core.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/ep/src/CTK-build/qRestAPI-build/Release/qRestAPI.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/ep/src/CTK-build/qRestAPI-build/Release/qRestAPI.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtNetwork;C:\Qt\5.4\msvc2013_opengl\include\QtScript;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_NETWORK_LIB;QT_SCRIPT_LIB;CMAKE_INTDIR="MinSizeRel";qRestAPI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_NETWORK_LIB;QT_SCRIPT_LIB;CMAKE_INTDIR=\"MinSizeRel\";qRestAPI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtNetwork;C:\Qt\5.4\msvc2013_opengl\include\QtScript;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtNetwork;C:\Qt\5.4\msvc2013_opengl\include\QtScript;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Gui.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Network.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Script.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Core.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/ep/src/CTK-build/qRestAPI-build/MinSizeRel/qRestAPI.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/ep/src/CTK-build/qRestAPI-build/MinSizeRel/qRestAPI.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtNetwork;C:\Qt\5.4\msvc2013_opengl\include\QtScript;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_NETWORK_LIB;QT_SCRIPT_LIB;CMAKE_INTDIR="RelWithDebInfo";qRestAPI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_NETWORK_LIB;QT_SCRIPT_LIB;CMAKE_INTDIR=\"RelWithDebInfo\";qRestAPI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtNetwork;C:\Qt\5.4\msvc2013_opengl\include\QtScript;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtNetwork;C:\Qt\5.4\msvc2013_opengl\include\QtScript;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Gui.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Network.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Script.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Core.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/ep/src/CTK-build/qRestAPI-build/RelWithDebInfo/qRestAPI.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/ep/src/CTK-build/qRestAPI-build/RelWithDebInfo/qRestAPI.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/CTK-build/qRestAPI/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/CTK-build/qRestAPI -BE:/D/MITK-superbuild/ep/src/CTK-build/qRestAPI-build --check-stamp-file E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/qRestAPI/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeSystem.cmake.in;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\CMakeFiles\3.5.2\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCCompiler.cmake.in;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\CMakeFiles\3.5.2\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCXXCompiler.cmake.in;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\CMakeFiles\3.5.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeRCCompiler.cmake.in;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\CMakeFiles\3.5.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeTestRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeTestCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCCompilerABI.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCCompiler.cmake.in;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\CMakeFiles\3.5.2\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Internal\FeatureTesting.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\CMakeFiles\feature_tests.cxx;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCXXCompiler.cmake.in;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\CMakeFiles\3.5.2\CMakeCXXCompiler.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5\Qt5Config.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QDDSPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QJp2Plugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QMngPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Network\Qt5NetworkConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Network\Qt5NetworkConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Network\Qt5Network_QGenericEnginePlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Network\Qt5Network_QNativeWifiEnginePlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Script\Qt5ScriptConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Script\Qt5ScriptConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Test\Qt5TestConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Test\Qt5TestConfig.cmake;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI\qRestAPI_Export.h.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CTest.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CTestUseLaunchers.cmake;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI\CMake\GenerateqRestAPIConfig.cmake;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI\CMake\UseqRestAPI.cmake.in;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI\CMake\qRestAPIConfig.cmake.in;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/CTK-build/qRestAPI/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/CTK-build/qRestAPI -BE:/D/MITK-superbuild/ep/src/CTK-build/qRestAPI-build --check-stamp-file E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/qRestAPI/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeSystem.cmake.in;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\CMakeFiles\3.5.2\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCCompiler.cmake.in;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\CMakeFiles\3.5.2\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCXXCompiler.cmake.in;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\CMakeFiles\3.5.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeRCCompiler.cmake.in;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\CMakeFiles\3.5.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeTestRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeTestCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCCompilerABI.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCCompiler.cmake.in;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\CMakeFiles\3.5.2\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Internal\FeatureTesting.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\CMakeFiles\feature_tests.cxx;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCXXCompiler.cmake.in;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\CMakeFiles\3.5.2\CMakeCXXCompiler.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5\Qt5Config.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QDDSPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QJp2Plugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QMngPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Network\Qt5NetworkConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Network\Qt5NetworkConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Network\Qt5Network_QGenericEnginePlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Network\Qt5Network_QNativeWifiEnginePlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Script\Qt5ScriptConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Script\Qt5ScriptConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Test\Qt5TestConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Test\Qt5TestConfig.cmake;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI\qRestAPI_Export.h.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CTest.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CTestUseLaunchers.cmake;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI\CMake\GenerateqRestAPIConfig.cmake;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI\CMake\UseqRestAPI.cmake.in;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI\CMake\qRestAPIConfig.cmake.in;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/CTK-build/qRestAPI/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/CTK-build/qRestAPI -BE:/D/MITK-superbuild/ep/src/CTK-build/qRestAPI-build --check-stamp-file E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/qRestAPI/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeSystem.cmake.in;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\CMakeFiles\3.5.2\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCCompiler.cmake.in;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\CMakeFiles\3.5.2\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCXXCompiler.cmake.in;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\CMakeFiles\3.5.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeRCCompiler.cmake.in;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\CMakeFiles\3.5.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeTestRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeTestCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCCompilerABI.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCCompiler.cmake.in;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\CMakeFiles\3.5.2\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Internal\FeatureTesting.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\CMakeFiles\feature_tests.cxx;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCXXCompiler.cmake.in;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\CMakeFiles\3.5.2\CMakeCXXCompiler.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5\Qt5Config.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QDDSPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QJp2Plugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QMngPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Network\Qt5NetworkConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Network\Qt5NetworkConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Network\Qt5Network_QGenericEnginePlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Network\Qt5Network_QNativeWifiEnginePlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Script\Qt5ScriptConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Script\Qt5ScriptConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Test\Qt5TestConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Test\Qt5TestConfig.cmake;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI\qRestAPI_Export.h.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CTest.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CTestUseLaunchers.cmake;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI\CMake\GenerateqRestAPIConfig.cmake;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI\CMake\UseqRestAPI.cmake.in;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI\CMake\qRestAPIConfig.cmake.in;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/CTK-build/qRestAPI/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/CTK-build/qRestAPI -BE:/D/MITK-superbuild/ep/src/CTK-build/qRestAPI-build --check-stamp-file E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/qRestAPI/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeSystem.cmake.in;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\CMakeFiles\3.5.2\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCCompiler.cmake.in;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\CMakeFiles\3.5.2\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCXXCompiler.cmake.in;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\CMakeFiles\3.5.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeRCCompiler.cmake.in;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\CMakeFiles\3.5.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeTestRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeTestCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCCompilerABI.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCCompiler.cmake.in;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\CMakeFiles\3.5.2\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Internal\FeatureTesting.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\CMakeFiles\feature_tests.cxx;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCXXCompiler.cmake.in;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\CMakeFiles\3.5.2\CMakeCXXCompiler.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5\Qt5Config.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QDDSPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QJp2Plugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QMngPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Network\Qt5NetworkConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Network\Qt5NetworkConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Network\Qt5Network_QGenericEnginePlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Network\Qt5Network_QNativeWifiEnginePlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Script\Qt5ScriptConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Script\Qt5ScriptConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Test\Qt5TestConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Test\Qt5TestConfig.cmake;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI\qRestAPI_Export.h.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CTest.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CTestUseLaunchers.cmake;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI\CMake\GenerateqRestAPIConfig.cmake;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI\CMake\UseqRestAPI.cmake.in;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI\CMake\qRestAPIConfig.cmake.in;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\CMakeFiles\587876dcd34b64061ef8723c7d0160b3\moc_qMidasAPI.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating moc_qMidasAPI.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/qRestAPI-build/moc_qMidasAPI.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/qRestAPI-build/CMakeFiles/587876dcd34b64061ef8723c7d0160b3/moc_qMidasAPI.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI\qMidasAPI.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\moc_qMidasAPI.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating moc_qMidasAPI.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/qRestAPI-build/moc_qMidasAPI.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/qRestAPI-build/CMakeFiles/587876dcd34b64061ef8723c7d0160b3/moc_qMidasAPI.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI\qMidasAPI.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\moc_qMidasAPI.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating moc_qMidasAPI.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/qRestAPI-build/moc_qMidasAPI.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/qRestAPI-build/CMakeFiles/587876dcd34b64061ef8723c7d0160b3/moc_qMidasAPI.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI\qMidasAPI.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\moc_qMidasAPI.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating moc_qMidasAPI.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/qRestAPI-build/moc_qMidasAPI.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/qRestAPI-build/CMakeFiles/587876dcd34b64061ef8723c7d0160b3/moc_qMidasAPI.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI\qMidasAPI.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\moc_qMidasAPI.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\CMakeFiles\587876dcd34b64061ef8723c7d0160b3\moc_qMidasAPI_p.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating moc_qMidasAPI_p.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/qRestAPI-build/moc_qMidasAPI_p.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/qRestAPI-build/CMakeFiles/587876dcd34b64061ef8723c7d0160b3/moc_qMidasAPI_p.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI\qMidasAPI_p.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\moc_qMidasAPI_p.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating moc_qMidasAPI_p.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/qRestAPI-build/moc_qMidasAPI_p.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/qRestAPI-build/CMakeFiles/587876dcd34b64061ef8723c7d0160b3/moc_qMidasAPI_p.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI\qMidasAPI_p.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\moc_qMidasAPI_p.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating moc_qMidasAPI_p.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/qRestAPI-build/moc_qMidasAPI_p.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/qRestAPI-build/CMakeFiles/587876dcd34b64061ef8723c7d0160b3/moc_qMidasAPI_p.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI\qMidasAPI_p.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\moc_qMidasAPI_p.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating moc_qMidasAPI_p.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/qRestAPI-build/moc_qMidasAPI_p.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/qRestAPI-build/CMakeFiles/587876dcd34b64061ef8723c7d0160b3/moc_qMidasAPI_p.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI\qMidasAPI_p.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\moc_qMidasAPI_p.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\CMakeFiles\587876dcd34b64061ef8723c7d0160b3\moc_qRestAPI.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating moc_qRestAPI.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/qRestAPI-build/moc_qRestAPI.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/qRestAPI-build/CMakeFiles/587876dcd34b64061ef8723c7d0160b3/moc_qRestAPI.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI\qRestAPI.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\moc_qRestAPI.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating moc_qRestAPI.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/qRestAPI-build/moc_qRestAPI.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/qRestAPI-build/CMakeFiles/587876dcd34b64061ef8723c7d0160b3/moc_qRestAPI.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI\qRestAPI.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\moc_qRestAPI.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating moc_qRestAPI.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/qRestAPI-build/moc_qRestAPI.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/qRestAPI-build/CMakeFiles/587876dcd34b64061ef8723c7d0160b3/moc_qRestAPI.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI\qRestAPI.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\moc_qRestAPI.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating moc_qRestAPI.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/qRestAPI-build/moc_qRestAPI.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/qRestAPI-build/CMakeFiles/587876dcd34b64061ef8723c7d0160b3/moc_qRestAPI.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI\qRestAPI.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\moc_qRestAPI.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\CMakeFiles\587876dcd34b64061ef8723c7d0160b3\moc_qRestAPI_p.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating moc_qRestAPI_p.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/qRestAPI-build/moc_qRestAPI_p.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/qRestAPI-build/CMakeFiles/587876dcd34b64061ef8723c7d0160b3/moc_qRestAPI_p.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI\qRestAPI_p.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\moc_qRestAPI_p.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating moc_qRestAPI_p.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/qRestAPI-build/moc_qRestAPI_p.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/qRestAPI-build/CMakeFiles/587876dcd34b64061ef8723c7d0160b3/moc_qRestAPI_p.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI\qRestAPI_p.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\moc_qRestAPI_p.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating moc_qRestAPI_p.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/qRestAPI-build/moc_qRestAPI_p.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/qRestAPI-build/CMakeFiles/587876dcd34b64061ef8723c7d0160b3/moc_qRestAPI_p.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI\qRestAPI_p.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\moc_qRestAPI_p.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating moc_qRestAPI_p.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/qRestAPI-build/moc_qRestAPI_p.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/qRestAPI-build/CMakeFiles/587876dcd34b64061ef8723c7d0160b3/moc_qRestAPI_p.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI\qRestAPI_p.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\moc_qRestAPI_p.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\CMakeFiles\587876dcd34b64061ef8723c7d0160b3\moc_qRestResult.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating moc_qRestResult.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/qRestAPI-build/moc_qRestResult.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/qRestAPI-build/CMakeFiles/587876dcd34b64061ef8723c7d0160b3/moc_qRestResult.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI\qRestResult.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\moc_qRestResult.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating moc_qRestResult.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/qRestAPI-build/moc_qRestResult.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/qRestAPI-build/CMakeFiles/587876dcd34b64061ef8723c7d0160b3/moc_qRestResult.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI\qRestResult.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\moc_qRestResult.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating moc_qRestResult.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/qRestAPI-build/moc_qRestResult.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/qRestAPI-build/CMakeFiles/587876dcd34b64061ef8723c7d0160b3/moc_qRestResult.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI\qRestResult.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\moc_qRestResult.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating moc_qRestResult.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/qRestAPI-build/moc_qRestResult.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/qRestAPI-build/CMakeFiles/587876dcd34b64061ef8723c7d0160b3/moc_qRestResult.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI\qRestResult.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\moc_qRestResult.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI\qMidasAPI.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI\qMidasAPI_p.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI\qRestAPI.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI\qRestAPI_p.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI\qRestResult.h" />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI\qMidasAPI.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI\qRestAPI.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI\qRestResult.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\moc_qMidasAPI.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\moc_qMidasAPI_p.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\moc_qRestAPI.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\moc_qRestAPI_p.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\moc_qRestResult.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/CTK-build/qRestAPI-build/ZERO_CHECK.vcxproj">
+      <Project>5132DFCB-46D2-30A2-8DA3-0A86B250167D</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

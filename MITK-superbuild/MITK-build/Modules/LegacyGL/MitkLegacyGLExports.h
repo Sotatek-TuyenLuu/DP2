@@ -1,0 +1,41 @@
+
+#ifndef MITKLEGACYGL_EXPORT_H
+#define MITKLEGACYGL_EXPORT_H
+
+#ifdef MITKLEGACYGL_STATIC_DEFINE
+#  define MITKLEGACYGL_EXPORT
+#  define MITKLEGACYGL_NO_EXPORT
+#else
+#  ifndef MITKLEGACYGL_EXPORT
+#    ifdef MitkLegacyGL_EXPORTS
+        /* We are building this library */
+#      define MITKLEGACYGL_EXPORT __declspec(dllexport)
+#    else
+        /* We are using this library */
+#      define MITKLEGACYGL_EXPORT __declspec(dllimport)
+#    endif
+#  endif
+
+#  ifndef MITKLEGACYGL_NO_EXPORT
+#    define MITKLEGACYGL_NO_EXPORT 
+#  endif
+#endif
+
+#ifndef MITKLEGACYGL_DEPRECATED
+#  define MITKLEGACYGL_DEPRECATED __declspec(deprecated)
+#endif
+
+#ifndef MITKLEGACYGL_DEPRECATED_EXPORT
+#  define MITKLEGACYGL_DEPRECATED_EXPORT MITKLEGACYGL_EXPORT MITKLEGACYGL_DEPRECATED
+#endif
+
+#ifndef MITKLEGACYGL_DEPRECATED_NO_EXPORT
+#  define MITKLEGACYGL_DEPRECATED_NO_EXPORT MITKLEGACYGL_NO_EXPORT MITKLEGACYGL_DEPRECATED
+#endif
+
+#define DEFINE_NO_DEPRECATED 0
+#if DEFINE_NO_DEPRECATED
+# define MITKLEGACYGL_NO_DEPRECATED
+#endif
+
+#endif

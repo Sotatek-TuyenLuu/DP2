@@ -1,0 +1,39 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/ThirdParty/VNL/src/vxl/core/testlib/testlib_test.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/ThirdParty/VNL/src/vxl/core/testlib/testlib_test.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/ThirdParty/VNL/src/vxl/core/testlib/testlib_register.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/ThirdParty/VNL/src/vxl/core/testlib/testlib_main.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/ThirdParty/VNL/src/vxl/core/testlib/testlib_root_dir.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/ThirdParty/VNL/src/vxl/core/testlib/testlib_root_dir.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/ThirdParty/VNL/src/vxl/core/testlib/CMakeLists.txt"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "ITKVNL" ],
+		"name" : "itktestlib"
+	}
+}

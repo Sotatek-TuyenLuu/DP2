@@ -1,0 +1,6 @@
+
+set(GLEW_LIBRARIES @GLEW_LIBRARIES@)
+
+if(NOT TARGET glew)
+  include("${CMAKE_CURRENT_LIST_DIR}/GLEWTargets.cmake")
+endif()

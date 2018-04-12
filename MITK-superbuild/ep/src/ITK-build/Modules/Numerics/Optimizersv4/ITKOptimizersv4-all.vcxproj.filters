@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Optimizersv4\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Optimizersv4\src\itkAmoebaOptimizerv4.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Optimizersv4\src\itkLBFGSBOptimizerv4.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Optimizersv4\src\itkLBFGSOptimizerv4.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Optimizersv4\src\itkSingleValuedNonLinearVnlOptimizerv4.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Optimizersv4\src\itkSingleValuedVnlCostFunctionAdaptorv4.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Optimizersv4\include\itkAmoebaOptimizerv4.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Optimizersv4\include\itkConjugateGradientLineSearchOptimizerv4.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Optimizersv4\include\itkConvergenceMonitoringFunction.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Optimizersv4\include\itkExhaustiveOptimizerv4.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Optimizersv4\include\itkGradientDescentLineSearchOptimizerv4.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Optimizersv4\include\itkGradientDescentOptimizerBasev4.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Optimizersv4\include\itkGradientDescentOptimizerBasev4ModifyGradientByLearningRateThreader.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Optimizersv4\include\itkGradientDescentOptimizerBasev4ModifyGradientByScalesThreader.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Optimizersv4\include\itkGradientDescentOptimizerv4.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Optimizersv4\include\itkLBFGSBOptimizerv4.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Optimizersv4\include\itkLBFGSOptimizerBasev4.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Optimizersv4\include\itkLBFGSOptimizerv4.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Optimizersv4\include\itkMultiGradientOptimizerv4.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Optimizersv4\include\itkMultiStartOptimizerv4.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Optimizersv4\include\itkObjectToObjectMetric.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Optimizersv4\include\itkObjectToObjectMetricBase.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Optimizersv4\include\itkObjectToObjectOptimizerBase.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Optimizersv4\include\itkOnePlusOneEvolutionaryOptimizerv4.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Optimizersv4\include\itkOptimizerParameterScalesEstimator.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Optimizersv4\include\itkPowellOptimizerv4.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Optimizersv4\include\itkQuasiNewtonOptimizerv4.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Optimizersv4\include\itkQuasiNewtonOptimizerv4EstimateNewtonStepThreader.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Optimizersv4\include\itkRegistrationParameterScalesEstimator.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Optimizersv4\include\itkRegistrationParameterScalesFromIndexShift.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Optimizersv4\include\itkRegistrationParameterScalesFromJacobian.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Optimizersv4\include\itkRegistrationParameterScalesFromPhysicalShift.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Optimizersv4\include\itkRegistrationParameterScalesFromShiftBase.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Optimizersv4\include\itkRegularStepGradientDescentOptimizerv4.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Optimizersv4\include\itkSingleValuedCostFunctionv4.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Optimizersv4\include\itkSingleValuedNonLinearVnlOptimizerv4.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Optimizersv4\include\itkSingleValuedVnlCostFunctionAdaptorv4.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Optimizersv4\include\itkWindowConvergenceMonitoringFunction.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Optimizersv4\include\itkConjugateGradientLineSearchOptimizerv4.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Optimizersv4\include\itkExhaustiveOptimizerv4.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Optimizersv4\include\itkGradientDescentLineSearchOptimizerv4.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Optimizersv4\include\itkGradientDescentOptimizerBasev4.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Optimizersv4\include\itkGradientDescentOptimizerBasev4ModifyGradientByLearningRateThreader.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Optimizersv4\include\itkGradientDescentOptimizerBasev4ModifyGradientByScalesThreader.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Optimizersv4\include\itkGradientDescentOptimizerv4.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Optimizersv4\include\itkLBFGSOptimizerBasev4.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Optimizersv4\include\itkMultiGradientOptimizerv4.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Optimizersv4\include\itkMultiStartOptimizerv4.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Optimizersv4\include\itkObjectToObjectMetric.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Optimizersv4\include\itkObjectToObjectMetricBase.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Optimizersv4\include\itkObjectToObjectOptimizerBase.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Optimizersv4\include\itkOnePlusOneEvolutionaryOptimizerv4.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Optimizersv4\include\itkPowellOptimizerv4.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Optimizersv4\include\itkQuasiNewtonOptimizerv4.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Optimizersv4\include\itkQuasiNewtonOptimizerv4EstimateNewtonStepThreader.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Optimizersv4\include\itkRegistrationParameterScalesEstimator.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Optimizersv4\include\itkRegistrationParameterScalesFromIndexShift.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Optimizersv4\include\itkRegistrationParameterScalesFromJacobian.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Optimizersv4\include\itkRegistrationParameterScalesFromPhysicalShift.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Optimizersv4\include\itkRegistrationParameterScalesFromShiftBase.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Optimizersv4\include\itkRegularStepGradientDescentOptimizerv4.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Optimizersv4\include\itkWindowConvergenceMonitoringFunction.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7E02FA28-5E7B-3F19-A5A6-4D4FC754448E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{6C223742-F5CF-3E04-B549-B8955F112D9A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

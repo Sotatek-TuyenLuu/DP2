@@ -1,0 +1,381 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkAlgorithm.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkAlgorithmOutput.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkAnnotationLayersAlgorithm.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkArrayDataAlgorithm.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkCachedStreamingDemandDrivenPipeline.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkCastToConcrete.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkCompositeDataPipeline.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkCompositeDataSetAlgorithm.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkDataObjectAlgorithm.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkDataSetAlgorithm.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkDemandDrivenPipeline.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkDirectedGraphAlgorithm.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkEnsembleSource.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkExecutive.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkExtentSplitter.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkExtentTranslator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkFilteringInformationKeyManager.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkGraphAlgorithm.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkHierarchicalBoxDataSetAlgorithm.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkHyperOctreeAlgorithm.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkHyperTreeGridAlgorithm.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkImageAlgorithm.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkImageInPlaceFilter.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkImageProgressIterator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkImageToStructuredGrid.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkImageToStructuredPoints.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkInformationDataObjectMetaDataKey.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkInformationExecutivePortKey.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkInformationExecutivePortVectorKey.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkInformationIntegerRequestKey.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkMultiBlockDataSetAlgorithm.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkMultiTimeStepAlgorithm.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkPassInputTypeAlgorithm.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkPiecewiseFunctionAlgorithm.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkPiecewiseFunctionShiftScale.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkPointSetAlgorithm.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkPolyDataAlgorithm.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkRectilinearGridAlgorithm.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkScalarTree.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkSimpleImageToImageFilter.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkSimpleScalarTree.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkStreamingDemandDrivenPipeline.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkStructuredGridAlgorithm.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkTableAlgorithm.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkSMPProgressObserver.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkThreadedCompositeDataPipeline.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkThreadedImageAlgorithm.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkTreeAlgorithm.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkTrivialProducer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkUndirectedGraphAlgorithm.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkUnstructuredGridAlgorithm.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkUnstructuredGridBaseAlgorithm.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkProgressObserver.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkSelectionAlgorithm.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkExtentRCBPartitioner.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkUniformGridPartitioner.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkUniformGridAMRAlgorithm.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkOverlappingAMRAlgorithm.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkNonOverlappingAMRAlgorithm.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK-build\Common\ExecutionModel\vtkCommonExecutionModelInstantiator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkAlgorithmOutput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkAnnotationLayersAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkArrayDataAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkCachedStreamingDemandDrivenPipeline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkCastToConcrete.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkCompositeDataPipeline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkCompositeDataSetAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkDataObjectAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkDataSetAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkDemandDrivenPipeline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkDirectedGraphAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkEnsembleSource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkExecutive.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkExtentSplitter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkExtentTranslator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkFilteringInformationKeyManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkGraphAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkHierarchicalBoxDataSetAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkHyperOctreeAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkHyperTreeGridAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkImageAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkImageInPlaceFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkImageProgressIterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkImageToStructuredGrid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkImageToStructuredPoints.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkInformationDataObjectMetaDataKey.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkInformationExecutivePortKey.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkInformationExecutivePortVectorKey.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkInformationIntegerRequestKey.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkMultiBlockDataSetAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkMultiTimeStepAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkPassInputTypeAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkPiecewiseFunctionAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkPiecewiseFunctionShiftScale.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkPointSetAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkPolyDataAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkRectilinearGridAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkScalarTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkSimpleImageToImageFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkSimpleScalarTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkStreamingDemandDrivenPipeline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkStructuredGridAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkTableAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkSMPProgressObserver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkThreadedCompositeDataPipeline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkThreadedImageAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkTreeAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkTrivialProducer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkUndirectedGraphAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkUnstructuredGridAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkUnstructuredGridBaseAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkProgressObserver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkSelectionAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkExtentRCBPartitioner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkUniformGridPartitioner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkUniformGridAMRAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkOverlappingAMRAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\vtkNonOverlappingAMRAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK-build\Common\ExecutionModel\vtkCommonExecutionModelModule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK-build\Common\ExecutionModel\vtkCommonExecutionModelInstantiator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\VTK\Common\ExecutionModel\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B8573E94-36CD-38B9-BB2A-4F9466D8DF17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{2DE3B47B-2DB9-3535-836B-E2F8044C9462}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

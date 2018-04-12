@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{B65971CE-EFA1-3F68-99DF-F968FDFF3C22}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ITKMathematicalMorphology-all</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\DoubleConversion\src\double-conversion;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\KWSys\src;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\vcl;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\core;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\vcl;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\core;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNLInstantiation\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Core\Common;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageFilterBase\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\ImageAdaptors\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\Netlib;E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\ImageFunction\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageGrid\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageCompose\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\IO\ImageBase;E:\D\MITK-superbuild\ep\src\ITK\Modules\IO\ImageBase\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Mesh\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\ZLIB\src;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\ZLIB\src;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\MetaIO\src\MetaIO;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\MetaIO\src\MetaIO;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageStatistics\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\Path\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageIntensity\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\Thresholding\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Segmentation\ConnectedComponents\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\DoubleConversion\src\double-conversion;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\KWSys\src;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\vcl;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\core;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\vcl;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\core;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNLInstantiation\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Core\Common;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageFilterBase\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\ImageAdaptors\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\Netlib;E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\ImageFunction\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageGrid\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageCompose\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\IO\ImageBase;E:\D\MITK-superbuild\ep\src\ITK\Modules\IO\ImageBase\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Mesh\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\ZLIB\src;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\ZLIB\src;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\MetaIO\src\MetaIO;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\MetaIO\src\MetaIO;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageStatistics\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\Path\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageIntensity\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\Thresholding\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Segmentation\ConnectedComponents\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\DoubleConversion\src\double-conversion;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\KWSys\src;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\vcl;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\core;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\vcl;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\core;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNLInstantiation\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Core\Common;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageFilterBase\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\ImageAdaptors\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\Netlib;E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\ImageFunction\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageGrid\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageCompose\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\IO\ImageBase;E:\D\MITK-superbuild\ep\src\ITK\Modules\IO\ImageBase\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Mesh\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\ZLIB\src;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\ZLIB\src;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\MetaIO\src\MetaIO;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\MetaIO\src\MetaIO;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageStatistics\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\Path\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageIntensity\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\Thresholding\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Segmentation\ConnectedComponents\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\DoubleConversion\src\double-conversion;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\KWSys\src;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\vcl;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\core;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\vcl;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\core;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNLInstantiation\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Core\Common;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageFilterBase\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\ImageAdaptors\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\Netlib;E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\ImageFunction\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageGrid\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageCompose\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\IO\ImageBase;E:\D\MITK-superbuild\ep\src\ITK\Modules\IO\ImageBase\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Mesh\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\ZLIB\src;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\ZLIB\src;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\MetaIO\src\MetaIO;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\MetaIO\src\MetaIO;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageStatistics\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\Path\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageIntensity\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\Thresholding\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Segmentation\ConnectedComponents\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/ITK/Modules/Filtering/MathematicalMorphology/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/ITK -BE:/D/MITK-superbuild/ep/src/ITK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Filtering\MathematicalMorphology\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/ITK/Modules/Filtering/MathematicalMorphology/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\itk-module.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKConnectedComponents.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageGrid.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageFilterBase.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKCommon.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKDoubleConversion.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKKWSys.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKVNLInstantiation.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKVNL.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageFunction.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageAdaptors.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKStatistics.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKNetlib.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKTransform.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageIntensity.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageStatistics.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageCompose.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKSpatialObjects.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKIOImageBase.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKMesh.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKMetaIO.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKZLIB.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKPath.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKThresholding.cmake;E:\D\MITK-superbuild\ep\src\ITK\CMake\ITKModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\ITK\CMake\ITKModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\ITK\Utilities\Doxygen\Module.dox.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Filtering\MathematicalMorphology\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/ITK/Modules/Filtering/MathematicalMorphology/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/ITK -BE:/D/MITK-superbuild/ep/src/ITK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Filtering\MathematicalMorphology\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/ITK/Modules/Filtering/MathematicalMorphology/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\itk-module.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKConnectedComponents.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageGrid.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageFilterBase.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKCommon.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKDoubleConversion.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKKWSys.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKVNLInstantiation.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKVNL.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageFunction.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageAdaptors.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKStatistics.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKNetlib.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKTransform.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageIntensity.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageStatistics.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageCompose.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKSpatialObjects.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKIOImageBase.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKMesh.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKMetaIO.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKZLIB.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKPath.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKThresholding.cmake;E:\D\MITK-superbuild\ep\src\ITK\CMake\ITKModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\ITK\CMake\ITKModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\ITK\Utilities\Doxygen\Module.dox.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Filtering\MathematicalMorphology\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/ITK/Modules/Filtering/MathematicalMorphology/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/ITK -BE:/D/MITK-superbuild/ep/src/ITK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Filtering\MathematicalMorphology\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/ITK/Modules/Filtering/MathematicalMorphology/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\itk-module.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKConnectedComponents.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageGrid.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageFilterBase.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKCommon.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKDoubleConversion.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKKWSys.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKVNLInstantiation.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKVNL.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageFunction.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageAdaptors.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKStatistics.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKNetlib.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKTransform.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageIntensity.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageStatistics.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageCompose.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKSpatialObjects.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKIOImageBase.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKMesh.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKMetaIO.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKZLIB.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKPath.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKThresholding.cmake;E:\D\MITK-superbuild\ep\src\ITK\CMake\ITKModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\ITK\CMake\ITKModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\ITK\Utilities\Doxygen\Module.dox.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Filtering\MathematicalMorphology\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/ITK/Modules/Filtering/MathematicalMorphology/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/ITK -BE:/D/MITK-superbuild/ep/src/ITK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Filtering\MathematicalMorphology\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/ITK/Modules/Filtering/MathematicalMorphology/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\itk-module.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKConnectedComponents.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageGrid.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageFilterBase.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKCommon.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKDoubleConversion.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKKWSys.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKVNLInstantiation.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKVNL.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageFunction.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageAdaptors.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKStatistics.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKNetlib.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKTransform.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageIntensity.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageStatistics.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageCompose.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKSpatialObjects.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKIOImageBase.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKMesh.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKMetaIO.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKZLIB.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKPath.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKThresholding.cmake;E:\D\MITK-superbuild\ep\src\ITK\CMake\ITKModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\ITK\CMake\ITKModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\ITK\Utilities\Doxygen\Module.dox.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Filtering\MathematicalMorphology\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkAnchorCloseImageFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkAnchorDilateImageFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkAnchorErodeDilateImageFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkAnchorErodeDilateLine.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkAnchorErodeImageFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkAnchorOpenCloseImageFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkAnchorOpenCloseLine.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkAnchorOpenImageFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkAnchorUtilities.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkBasicDilateImageFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkBasicErodeImageFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkBinaryBallStructuringElement.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkBinaryCrossStructuringElement.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkBlackTopHatImageFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkClosingByReconstructionImageFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkDoubleThresholdImageFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkFlatStructuringElement.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkGrayscaleConnectedClosingImageFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkGrayscaleConnectedOpeningImageFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkGrayscaleDilateImageFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkGrayscaleErodeImageFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkGrayscaleFillholeImageFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkGrayscaleFunctionDilateImageFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkGrayscaleFunctionErodeImageFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkGrayscaleGeodesicDilateImageFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkGrayscaleGeodesicErodeImageFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkGrayscaleGrindPeakImageFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkGrayscaleMorphologicalClosingImageFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkGrayscaleMorphologicalOpeningImageFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkHConcaveImageFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkHConvexImageFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkHMaximaImageFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkHMinimaImageFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkKernelImageFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkMorphologicalGradientImageFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkMorphologyHistogram.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkMorphologyImageFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkMovingHistogramDilateImageFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkMovingHistogramErodeImageFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkMovingHistogramImageFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkMovingHistogramImageFilterBase.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkMovingHistogramMorphologicalGradientImageFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkMovingHistogramMorphologyImageFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkOpeningByReconstructionImageFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkReconstructionByDilationImageFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkReconstructionByErosionImageFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkReconstructionImageFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkSharedMorphologyUtilities.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkVanHerkGilWermanDilateImageFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkVanHerkGilWermanErodeDilateImageFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkVanHerkGilWermanErodeImageFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkVanHerkGilWermanUtilities.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkWhiteTopHatImageFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkAnchorErodeDilateImageFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkAnchorErodeDilateLine.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkAnchorOpenCloseImageFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkAnchorOpenCloseLine.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkAnchorUtilities.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkBasicDilateImageFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkBasicErodeImageFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkBinaryBallStructuringElement.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkBinaryCrossStructuringElement.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkBlackTopHatImageFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkClosingByReconstructionImageFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkDoubleThresholdImageFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkFlatStructuringElement.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkGrayscaleConnectedClosingImageFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkGrayscaleConnectedOpeningImageFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkGrayscaleDilateImageFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkGrayscaleErodeImageFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkGrayscaleFillholeImageFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkGrayscaleFunctionDilateImageFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkGrayscaleFunctionErodeImageFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkGrayscaleGeodesicDilateImageFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkGrayscaleGeodesicErodeImageFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkGrayscaleGrindPeakImageFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkGrayscaleMorphologicalClosingImageFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkGrayscaleMorphologicalOpeningImageFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkHConcaveImageFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkHConvexImageFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkHMaximaImageFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkHMinimaImageFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkKernelImageFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkMorphologicalGradientImageFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkMorphologyImageFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkMovingHistogramImageFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkMovingHistogramImageFilterBase.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkMovingHistogramMorphologyImageFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkOpeningByReconstructionImageFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkReconstructionImageFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkSharedMorphologyUtilities.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkVanHerkGilWermanErodeDilateImageFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkVanHerkGilWermanUtilities.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include\itkWhiteTopHatImageFilter.hxx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/ITK-build/ZERO_CHECK.vcxproj">
+      <Project>7A8C6E7C-8178-3D2C-96BD-CC175A1D2858</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

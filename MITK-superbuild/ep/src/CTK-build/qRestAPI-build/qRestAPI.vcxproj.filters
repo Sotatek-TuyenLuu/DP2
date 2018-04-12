@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI\qMidasAPI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI\qRestAPI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI\qRestResult.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\moc_qMidasAPI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\moc_qMidasAPI_p.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\moc_qRestAPI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\moc_qRestAPI_p.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\moc_qRestResult.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI\qMidasAPI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI\qMidasAPI_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI\qRestAPI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI\qRestAPI_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI\qRestResult.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI\CMakeLists.txt" />
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\CMakeFiles\587876dcd34b64061ef8723c7d0160b3\moc_qMidasAPI.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\CMakeFiles\587876dcd34b64061ef8723c7d0160b3\moc_qMidasAPI_p.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\CMakeFiles\587876dcd34b64061ef8723c7d0160b3\moc_qRestAPI.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\CMakeFiles\587876dcd34b64061ef8723c7d0160b3\moc_qRestAPI_p.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\CTK-build\qRestAPI-build\CMakeFiles\587876dcd34b64061ef8723c7d0160b3\moc_qRestResult.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4D12BE9B-F6F8-3B61-B742-3EE2E6D9F3F2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{102724D2-C6AD-31C8-96D2-952AB516E481}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{BBDFAD2D-D95D-3858-B665-E57DDBF559F0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

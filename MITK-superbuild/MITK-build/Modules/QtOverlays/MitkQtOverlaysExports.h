@@ -1,0 +1,41 @@
+
+#ifndef MITKQTOVERLAYS_EXPORT_H
+#define MITKQTOVERLAYS_EXPORT_H
+
+#ifdef MITKQTOVERLAYS_STATIC_DEFINE
+#  define MITKQTOVERLAYS_EXPORT
+#  define MITKQTOVERLAYS_NO_EXPORT
+#else
+#  ifndef MITKQTOVERLAYS_EXPORT
+#    ifdef MitkQtOverlays_EXPORTS
+        /* We are building this library */
+#      define MITKQTOVERLAYS_EXPORT __declspec(dllexport)
+#    else
+        /* We are using this library */
+#      define MITKQTOVERLAYS_EXPORT __declspec(dllimport)
+#    endif
+#  endif
+
+#  ifndef MITKQTOVERLAYS_NO_EXPORT
+#    define MITKQTOVERLAYS_NO_EXPORT 
+#  endif
+#endif
+
+#ifndef MITKQTOVERLAYS_DEPRECATED
+#  define MITKQTOVERLAYS_DEPRECATED __declspec(deprecated)
+#endif
+
+#ifndef MITKQTOVERLAYS_DEPRECATED_EXPORT
+#  define MITKQTOVERLAYS_DEPRECATED_EXPORT MITKQTOVERLAYS_EXPORT MITKQTOVERLAYS_DEPRECATED
+#endif
+
+#ifndef MITKQTOVERLAYS_DEPRECATED_NO_EXPORT
+#  define MITKQTOVERLAYS_DEPRECATED_NO_EXPORT MITKQTOVERLAYS_NO_EXPORT MITKQTOVERLAYS_DEPRECATED
+#endif
+
+#define DEFINE_NO_DEPRECATED 0
+#if DEFINE_NO_DEPRECATED
+# define MITKQTOVERLAYS_NO_DEPRECATED
+#endif
+
+#endif

@@ -1,0 +1,353 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{4DAB9035-792F-3BF7-9D1E-C62DF4548C8C}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>dcmsr_tests</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\DCMTK-build\bin\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">dcmsr_tests.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">dcmsr_testsd</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\DCMTK-build\bin\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">dcmsr_tests.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">dcmsr_tests</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\DCMTK-build\bin\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">dcmsr_tests.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">dcmsr_tests</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\DCMTK-build\bin\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">dcmsr_tests.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">dcmsr_tests</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\DCMTK-build\config\include;E:\D\MITK-superbuild\ep\src\DCMTK\ofstd\include;E:\D\MITK-superbuild\ep\src\DCMTK\oflog\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmdata\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmimgle\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmimage\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libijg8;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libijg12;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libijg16;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpls\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmnet\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmpstat\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmqrdb\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmsign\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmsr\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmtls\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmwlm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;DEBUG;USE_NULL_SAFE_OFSTRING;DCMTK_BUILD_IN_PROGRESS;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_REENTRANT;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;DEBUG;USE_NULL_SAFE_OFSTRING;DCMTK_BUILD_IN_PROGRESS;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_REENTRANT;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\DCMTK-build\config\include;E:\D\MITK-superbuild\ep\src\DCMTK\ofstd\include;E:\D\MITK-superbuild\ep\src\DCMTK\oflog\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmdata\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmimgle\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmimage\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libijg8;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libijg12;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libijg16;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpls\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmnet\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmpstat\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmqrdb\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmsign\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmsr\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmtls\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmwlm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\DCMTK-build\config\include;E:\D\MITK-superbuild\ep\src\DCMTK\ofstd\include;E:\D\MITK-superbuild\ep\src\DCMTK\oflog\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmdata\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmimgle\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmimage\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libijg8;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libijg12;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libijg16;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpls\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmnet\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmpstat\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmqrdb\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmsign\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmsr\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmtls\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmwlm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 setargv %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\Debug\dcmsrd.lib;..\..\lib\Debug\dcmimaged.lib;..\..\lib\Debug\dcmimgled.lib;..\..\lib\Debug\dcmdatad.lib;..\..\lib\Debug\oflogd.lib;..\..\lib\Debug\ofstdd.lib;ws2_32.lib;netapi32.lib;wsock32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:/D/MITK-superbuild/ep/src/DCMTK-build/dcmsr;E:/D/MITK-superbuild/ep/src/DCMTK-build/dcmsr/$(Configuration);E:/D/MITK-superbuild/ep/src/DCMTK-build/ofstd;E:/D/MITK-superbuild/ep/src/DCMTK-build/ofstd/$(Configuration);E:/D/MITK-superbuild/ep/src/DCMTK-build/oflog;E:/D/MITK-superbuild/ep/src/DCMTK-build/oflog/$(Configuration);E:/D/MITK-superbuild/ep/src/DCMTK-build/dcmdata;E:/D/MITK-superbuild/ep/src/DCMTK-build/dcmdata/$(Configuration);E:/D/MITK-superbuild/ep/src/DCMTK-build/dcmimgle;E:/D/MITK-superbuild/ep/src/DCMTK-build/dcmimgle/$(Configuration);E:/D/MITK-superbuild/ep/src/DCMTK-build/dcmimage;E:/D/MITK-superbuild/ep/src/DCMTK-build/dcmimage/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/ep/src/DCMTK-build/lib/Debug/dcmsr_testsd.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/ep/src/DCMTK-build/bin/Debug/dcmsr_testsd.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\DCMTK-build\config\include;E:\D\MITK-superbuild\ep\src\DCMTK\ofstd\include;E:\D\MITK-superbuild\ep\src\DCMTK\oflog\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmdata\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmimgle\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmimage\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libijg8;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libijg12;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libijg16;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpls\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmnet\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmpstat\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmqrdb\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmsign\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmsr\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmtls\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmwlm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_NULL_SAFE_OFSTRING;DCMTK_BUILD_IN_PROGRESS;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_REENTRANT;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_NULL_SAFE_OFSTRING;DCMTK_BUILD_IN_PROGRESS;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_REENTRANT;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\DCMTK-build\config\include;E:\D\MITK-superbuild\ep\src\DCMTK\ofstd\include;E:\D\MITK-superbuild\ep\src\DCMTK\oflog\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmdata\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmimgle\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmimage\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libijg8;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libijg12;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libijg16;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpls\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmnet\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmpstat\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmqrdb\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmsign\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmsr\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmtls\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmwlm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\DCMTK-build\config\include;E:\D\MITK-superbuild\ep\src\DCMTK\ofstd\include;E:\D\MITK-superbuild\ep\src\DCMTK\oflog\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmdata\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmimgle\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmimage\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libijg8;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libijg12;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libijg16;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpls\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmnet\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmpstat\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmqrdb\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmsign\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmsr\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmtls\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmwlm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 setargv %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\Release\dcmsr.lib;..\..\lib\Release\dcmimage.lib;..\..\lib\Release\dcmimgle.lib;..\..\lib\Release\dcmdata.lib;..\..\lib\Release\oflog.lib;..\..\lib\Release\ofstd.lib;ws2_32.lib;netapi32.lib;wsock32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:/D/MITK-superbuild/ep/src/DCMTK-build/dcmsr;E:/D/MITK-superbuild/ep/src/DCMTK-build/dcmsr/$(Configuration);E:/D/MITK-superbuild/ep/src/DCMTK-build/ofstd;E:/D/MITK-superbuild/ep/src/DCMTK-build/ofstd/$(Configuration);E:/D/MITK-superbuild/ep/src/DCMTK-build/oflog;E:/D/MITK-superbuild/ep/src/DCMTK-build/oflog/$(Configuration);E:/D/MITK-superbuild/ep/src/DCMTK-build/dcmdata;E:/D/MITK-superbuild/ep/src/DCMTK-build/dcmdata/$(Configuration);E:/D/MITK-superbuild/ep/src/DCMTK-build/dcmimgle;E:/D/MITK-superbuild/ep/src/DCMTK-build/dcmimgle/$(Configuration);E:/D/MITK-superbuild/ep/src/DCMTK-build/dcmimage;E:/D/MITK-superbuild/ep/src/DCMTK-build/dcmimage/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/ep/src/DCMTK-build/lib/Release/dcmsr_tests.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/ep/src/DCMTK-build/bin/Release/dcmsr_tests.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\DCMTK-build\config\include;E:\D\MITK-superbuild\ep\src\DCMTK\ofstd\include;E:\D\MITK-superbuild\ep\src\DCMTK\oflog\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmdata\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmimgle\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmimage\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libijg8;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libijg12;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libijg16;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpls\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmnet\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmpstat\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmqrdb\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmsign\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmsr\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmtls\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmwlm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_NULL_SAFE_OFSTRING;DCMTK_BUILD_IN_PROGRESS;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_REENTRANT;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_NULL_SAFE_OFSTRING;DCMTK_BUILD_IN_PROGRESS;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_REENTRANT;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\DCMTK-build\config\include;E:\D\MITK-superbuild\ep\src\DCMTK\ofstd\include;E:\D\MITK-superbuild\ep\src\DCMTK\oflog\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmdata\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmimgle\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmimage\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libijg8;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libijg12;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libijg16;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpls\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmnet\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmpstat\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmqrdb\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmsign\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmsr\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmtls\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmwlm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\DCMTK-build\config\include;E:\D\MITK-superbuild\ep\src\DCMTK\ofstd\include;E:\D\MITK-superbuild\ep\src\DCMTK\oflog\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmdata\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmimgle\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmimage\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libijg8;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libijg12;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libijg16;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpls\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmnet\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmpstat\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmqrdb\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmsign\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmsr\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmtls\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmwlm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 setargv %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\MinSizeRel\dcmsr.lib;..\..\lib\MinSizeRel\dcmimage.lib;..\..\lib\MinSizeRel\dcmimgle.lib;..\..\lib\MinSizeRel\dcmdata.lib;..\..\lib\MinSizeRel\oflog.lib;..\..\lib\MinSizeRel\ofstd.lib;ws2_32.lib;netapi32.lib;wsock32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:/D/MITK-superbuild/ep/src/DCMTK-build/dcmsr;E:/D/MITK-superbuild/ep/src/DCMTK-build/dcmsr/$(Configuration);E:/D/MITK-superbuild/ep/src/DCMTK-build/ofstd;E:/D/MITK-superbuild/ep/src/DCMTK-build/ofstd/$(Configuration);E:/D/MITK-superbuild/ep/src/DCMTK-build/oflog;E:/D/MITK-superbuild/ep/src/DCMTK-build/oflog/$(Configuration);E:/D/MITK-superbuild/ep/src/DCMTK-build/dcmdata;E:/D/MITK-superbuild/ep/src/DCMTK-build/dcmdata/$(Configuration);E:/D/MITK-superbuild/ep/src/DCMTK-build/dcmimgle;E:/D/MITK-superbuild/ep/src/DCMTK-build/dcmimgle/$(Configuration);E:/D/MITK-superbuild/ep/src/DCMTK-build/dcmimage;E:/D/MITK-superbuild/ep/src/DCMTK-build/dcmimage/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/ep/src/DCMTK-build/lib/MinSizeRel/dcmsr_tests.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/ep/src/DCMTK-build/bin/MinSizeRel/dcmsr_tests.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\DCMTK-build\config\include;E:\D\MITK-superbuild\ep\src\DCMTK\ofstd\include;E:\D\MITK-superbuild\ep\src\DCMTK\oflog\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmdata\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmimgle\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmimage\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libijg8;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libijg12;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libijg16;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpls\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmnet\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmpstat\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmqrdb\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmsign\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmsr\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmtls\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmwlm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_NULL_SAFE_OFSTRING;DCMTK_BUILD_IN_PROGRESS;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_REENTRANT;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_NULL_SAFE_OFSTRING;DCMTK_BUILD_IN_PROGRESS;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_REENTRANT;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\DCMTK-build\config\include;E:\D\MITK-superbuild\ep\src\DCMTK\ofstd\include;E:\D\MITK-superbuild\ep\src\DCMTK\oflog\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmdata\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmimgle\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmimage\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libijg8;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libijg12;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libijg16;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpls\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmnet\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmpstat\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmqrdb\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmsign\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmsr\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmtls\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmwlm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\DCMTK-build\config\include;E:\D\MITK-superbuild\ep\src\DCMTK\ofstd\include;E:\D\MITK-superbuild\ep\src\DCMTK\oflog\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmdata\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmimgle\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmimage\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libijg8;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libijg12;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libijg16;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpls\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmnet\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmpstat\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmqrdb\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmsign\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmsr\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmtls\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmwlm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 setargv %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\RelWithDebInfo\dcmsr.lib;..\..\lib\RelWithDebInfo\dcmimage.lib;..\..\lib\RelWithDebInfo\dcmimgle.lib;..\..\lib\RelWithDebInfo\dcmdata.lib;..\..\lib\RelWithDebInfo\oflog.lib;..\..\lib\RelWithDebInfo\ofstd.lib;ws2_32.lib;netapi32.lib;wsock32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:/D/MITK-superbuild/ep/src/DCMTK-build/dcmsr;E:/D/MITK-superbuild/ep/src/DCMTK-build/dcmsr/$(Configuration);E:/D/MITK-superbuild/ep/src/DCMTK-build/ofstd;E:/D/MITK-superbuild/ep/src/DCMTK-build/ofstd/$(Configuration);E:/D/MITK-superbuild/ep/src/DCMTK-build/oflog;E:/D/MITK-superbuild/ep/src/DCMTK-build/oflog/$(Configuration);E:/D/MITK-superbuild/ep/src/DCMTK-build/dcmdata;E:/D/MITK-superbuild/ep/src/DCMTK-build/dcmdata/$(Configuration);E:/D/MITK-superbuild/ep/src/DCMTK-build/dcmimgle;E:/D/MITK-superbuild/ep/src/DCMTK-build/dcmimgle/$(Configuration);E:/D/MITK-superbuild/ep/src/DCMTK-build/dcmimage;E:/D/MITK-superbuild/ep/src/DCMTK-build/dcmimage/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/ep/src/DCMTK-build/lib/RelWithDebInfo/dcmsr_tests.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/ep/src/DCMTK-build/bin/RelWithDebInfo/dcmsr_tests.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmsr\tests\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/DCMTK/dcmsr/tests/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/DCMTK -BE:/D/MITK-superbuild/ep/src/DCMTK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\DCMTK-build\dcmsr\tests\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/DCMTK/dcmsr/tests/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\DCMTK\dcmsr\tests\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\DCMTK\dcmsr\tests\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\DCMTK-build\dcmsr\tests\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/DCMTK/dcmsr/tests/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/DCMTK -BE:/D/MITK-superbuild/ep/src/DCMTK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\DCMTK-build\dcmsr\tests\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/DCMTK/dcmsr/tests/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\DCMTK\dcmsr\tests\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\DCMTK\dcmsr\tests\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\DCMTK-build\dcmsr\tests\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/DCMTK/dcmsr/tests/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/DCMTK -BE:/D/MITK-superbuild/ep/src/DCMTK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\DCMTK-build\dcmsr\tests\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/DCMTK/dcmsr/tests/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\DCMTK\dcmsr\tests\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\DCMTK\dcmsr\tests\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\DCMTK-build\dcmsr\tests\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/DCMTK/dcmsr/tests/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/DCMTK -BE:/D/MITK-superbuild/ep/src/DCMTK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\DCMTK-build\dcmsr\tests\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/DCMTK/dcmsr/tests/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\DCMTK\dcmsr\tests\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\DCMTK\dcmsr\tests\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\DCMTK-build\dcmsr\tests\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmsr\tests\tests.cc"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmsr\tests\tsrtree.cc"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/DCMTK-build/ZERO_CHECK.vcxproj">
+      <Project>3DCBDACD-B0AD-3B32-9220-C3F01F818F21</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/DCMTK-build/dcmdata/libsrc/dcmdata.vcxproj">
+      <Project>C615747C-9C73-3239-B29D-0275F4C9F902</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/DCMTK-build/dcmimage/libsrc/dcmimage.vcxproj">
+      <Project>5BE12D8B-4A67-3976-A306-BFE226AE8B80</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/DCMTK-build/dcmimgle/libsrc/dcmimgle.vcxproj">
+      <Project>859F8924-050D-3BBD-84CF-85DFDF2F2A3E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/DCMTK-build/dcmsr/libsrc/dcmsr.vcxproj">
+      <Project>2F7D6167-6198-3E61-804B-DFDB9ABB3C1E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/DCMTK-build/oflog/libsrc/oflog.vcxproj">
+      <Project>9175F7F9-53D4-3ADF-976D-C8BD5820B2CF</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/DCMTK-build/ofstd/libsrc/ofstd.vcxproj">
+      <Project>BF237264-B4A0-313A-BD6D-F14642940D3E</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\QuadEdgeMesh\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\QuadEdgeMesh\src\itkQuadEdge.cxx">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\QuadEdgeMesh\include\itkGeometricalQuadEdge.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\QuadEdgeMesh\include\itkQuadEdge.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\QuadEdgeMesh\include\itkQuadEdgeCellTraitsInfo.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\QuadEdgeMesh\include\itkQuadEdgeMesh.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\QuadEdgeMesh\include\itkQuadEdgeMeshBaseIterator.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\QuadEdgeMesh\include\itkQuadEdgeMeshBoundaryEdgesMeshFunction.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\QuadEdgeMesh\include\itkQuadEdgeMeshEulerOperatorCreateCenterVertexFunction.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\QuadEdgeMesh\include\itkQuadEdgeMeshEulerOperatorDeleteCenterVertexFunction.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\QuadEdgeMesh\include\itkQuadEdgeMeshEulerOperatorFlipEdgeFunction.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\QuadEdgeMesh\include\itkQuadEdgeMeshEulerOperatorJoinFacetFunction.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\QuadEdgeMesh\include\itkQuadEdgeMeshEulerOperatorJoinVertexFunction.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\QuadEdgeMesh\include\itkQuadEdgeMeshEulerOperatorSplitEdgeFunction.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\QuadEdgeMesh\include\itkQuadEdgeMeshEulerOperatorSplitFacetFunction.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\QuadEdgeMesh\include\itkQuadEdgeMeshEulerOperatorSplitVertexFunction.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\QuadEdgeMesh\include\itkQuadEdgeMeshEulerOperatorsTestHelper.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\QuadEdgeMesh\include\itkQuadEdgeMeshExtendedTraits.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\QuadEdgeMesh\include\itkQuadEdgeMeshFrontIterator.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\QuadEdgeMesh\include\itkQuadEdgeMeshFunctionBase.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\QuadEdgeMesh\include\itkQuadEdgeMeshLineCell.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\QuadEdgeMesh\include\itkQuadEdgeMeshMacro.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\QuadEdgeMesh\include\itkQuadEdgeMeshPoint.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\QuadEdgeMesh\include\itkQuadEdgeMeshPolygonCell.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\QuadEdgeMesh\include\itkQuadEdgeMeshScalarDataVTKPolyDataWriter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\QuadEdgeMesh\include\itkQuadEdgeMeshTopologyChecker.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\QuadEdgeMesh\include\itkQuadEdgeMeshToQuadEdgeMeshFilter.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\QuadEdgeMesh\include\itkQuadEdgeMeshTraits.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\QuadEdgeMesh\include\itkQuadEdgeMeshZipMeshFunction.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\QuadEdgeMesh\include\itkGeometricalQuadEdge.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\QuadEdgeMesh\include\itkQuadEdgeMesh.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\QuadEdgeMesh\include\itkQuadEdgeMeshBoundaryEdgesMeshFunction.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\QuadEdgeMesh\include\itkQuadEdgeMeshEulerOperatorCreateCenterVertexFunction.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\QuadEdgeMesh\include\itkQuadEdgeMeshEulerOperatorDeleteCenterVertexFunction.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\QuadEdgeMesh\include\itkQuadEdgeMeshEulerOperatorFlipEdgeFunction.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\QuadEdgeMesh\include\itkQuadEdgeMeshEulerOperatorJoinFacetFunction.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\QuadEdgeMesh\include\itkQuadEdgeMeshEulerOperatorJoinVertexFunction.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\QuadEdgeMesh\include\itkQuadEdgeMeshEulerOperatorSplitFacetFunction.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\QuadEdgeMesh\include\itkQuadEdgeMeshEulerOperatorSplitVertexFunction.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\QuadEdgeMesh\include\itkQuadEdgeMeshFrontIterator.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\QuadEdgeMesh\include\itkQuadEdgeMeshLineCell.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\QuadEdgeMesh\include\itkQuadEdgeMeshPoint.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\QuadEdgeMesh\include\itkQuadEdgeMeshPolygonCell.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\QuadEdgeMesh\include\itkQuadEdgeMeshScalarDataVTKPolyDataWriter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\QuadEdgeMesh\include\itkQuadEdgeMeshTopologyChecker.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\QuadEdgeMesh\include\itkQuadEdgeMeshToQuadEdgeMeshFilter.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\QuadEdgeMesh\include\itkQuadEdgeMeshZipMeshFunction.hxx">
+      <Filter>Header Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7E02FA28-5E7B-3F19-A5A6-4D4FC754448E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{6C223742-F5CF-3E04-B549-B8955F112D9A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

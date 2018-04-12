@@ -1,0 +1,861 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{1234BBA6-4815-3E32-B959-71563F603888}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>Poco</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/D/MITK/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK -BE:/D/MITK-superbuild --check-stamp-file E:\D\MITK-superbuild\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK/CMakeLists.txt;E:\D\MITK\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeSystem.cmake.in;E:\D\MITK-superbuild\CMakeFiles\3.5.2\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCCompiler.cmake.in;E:\D\MITK-superbuild\CMakeFiles\3.5.2\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCXXCompiler.cmake.in;E:\D\MITK-superbuild\CMakeFiles\3.5.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeRCCompiler.cmake.in;E:\D\MITK-superbuild\CMakeFiles\3.5.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeTestRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeTestCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCCompilerABI.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCCompiler.cmake.in;E:\D\MITK-superbuild\CMakeFiles\3.5.2\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Internal\FeatureTesting.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;E:\D\MITK-superbuild\CMakeFiles\feature_tests.cxx;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCXXCompiler.cmake.in;E:\D\MITK-superbuild\CMakeFiles\3.5.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FeatureSummary.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CTestUseLaunchers.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;E:\D\MITK\CMake\mitkFunctionGetGccVersion.cmake;E:\D\MITK\CMake\mitkFunctionCheckCompilerFlags.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCCompilerFlag.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;E:\D\MITK\CMake\mitkFunctionSuppressWarnings.cmake;E:\D\MITK\CMake\mitkMacroEmptyExternalProject.cmake;E:\D\MITK\CMake\mitkFunctionGenerateProjectXml.cmake;E:\D\MITK\CMake\mitkFunctionEnableBuildConfiguration.cmake;E:\D\MITK\CMake\mitkFunctionWhitelists.cmake;E:\D\MITK\CMake\mitkFunctionAddExternalProject.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5\Qt5Config.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Concurrent\Qt5ConcurrentConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Concurrent\Qt5ConcurrentConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5OpenGL\Qt5OpenGLConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5OpenGL\Qt5OpenGLConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QDDSPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QJp2Plugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QMngPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5PrintSupport\Qt5PrintSupport_QWindowsPrinterSupportPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Script\Qt5ScriptConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Script\Qt5ScriptConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Sql\Qt5SqlConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Sql\Qt5SqlConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Sql\Qt5Sql_QMYSQLDriverPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Sql\Qt5Sql_QODBCDriverPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Sql\Qt5Sql_QPSQLDriverPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Sql\Qt5Sql_QSQLiteDriverPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Svg\Qt5SvgConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Svg\Qt5SvgConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Svg\Qt5Svg_QSvgIconPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Svg\Qt5Svg_QSvgPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5WebKitWidgets\Qt5WebKitWidgetsConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5WebKitWidgets\Qt5WebKitWidgetsConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5WebKit\Qt5WebKitConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5WebKit\Qt5WebKitConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Network\Qt5NetworkConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Network\Qt5NetworkConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Network\Qt5Network_QGenericEnginePlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Network\Qt5Network_QNativeWifiEnginePlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Xml\Qt5XmlConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Xml\Qt5XmlConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5XmlPatterns\Qt5XmlPatternsConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5XmlPatterns\Qt5XmlPatternsConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5UiTools\Qt5UiToolsConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5UiTools\Qt5UiToolsConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Help\Qt5HelpConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Help\Qt5HelpConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Help\Qt5HelpConfigExtras.cmake;E:\D\MITK\CTestConfigSubProject.cmake.in;E:\D\MITK\SuperBuild.cmake;E:\D\MITK\CMake\mitkFunctionInstallExternalCMakeProject.cmake;E:\D\MITK\CMake\SuperbuildCTestCustom.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\ExternalProject.cmake;E:\D\MITK\CMakeExternals\MITKData.cmake;E:\D\MITK-superbuild\ep\tmp\MITK-Data-cfgcmd.txt.in;E:\D\MITK\CMakeExternals\Poco.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\RepositoryInfo.txt.in;E:\D\MITK-superbuild\ep\tmp\Poco-cfgcmd.txt.in;E:\D\MITK\CMakeExternals\DCMTK.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\RepositoryInfo.txt.in;E:\D\MITK-superbuild\ep\tmp\DCMTK-cfgcmd.txt.in;E:\D\MITK\CMakeExternals\OpenIGTLink.cmake;E:\D\MITK\CMakeExternals\tinyxml.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\RepositoryInfo.txt.in;E:\D\MITK-superbuild\ep\tmp\tinyxml-cfgcmd.txt.in;E:\D\MITK\CMakeExternals\GDCM.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\RepositoryInfo.txt.in;E:\D\MITK-superbuild\ep\tmp\GDCM-cfgcmd.txt.in;E:\D\MITK\CMakeExternals\GLUT.cmake;E:\D\MITK\CMakeExternals\Raptor2.cmake;E:\D\MITK\CMakeExternals\Eigen.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\RepositoryInfo.txt.in;E:\D\MITK-superbuild\ep\tmp\Eigen-cfgcmd.txt.in;E:\D\MITK\CMakeExternals\GLEW.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\RepositoryInfo.txt.in;E:\D\MITK-superbuild\ep\tmp\GLEW-cfgcmd.txt.in;E:\D\MITK\CMakeExternals\ANN.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\RepositoryInfo.txt.in;E:\D\MITK-superbuild\ep\tmp\ANN-cfgcmd.txt.in;E:\D\MITK\CMakeExternals\CppUnit.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\RepositoryInfo.txt.in;E:\D\MITK-superbuild\ep\tmp\CppUnit-cfgcmd.txt.in;E:\D\MITK\CMakeExternals\PCRE.cmake;E:\D\MITK\CMakeExternals\ZLIB.cmake;E:\D\MITK\CMakeExternals\HDF5.cmake;E:\D\MITK\CMakeExternals\SWIG.cmake;E:\D\MITK\CMakeExternals\Python.cmake;E:\D\MITK\CMakeExternals\Numpy.cmake;E:\D\MITK\CMakeExternals\OpenCV.cmake;E:\D\MITK\CMakeExternals\Vigra.cmake;E:\D\MITK\CMakeExternals\ITK.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\RepositoryInfo.txt.in;E:\D\MITK-superbuild\ep\tmp\ITK-cfgcmd.txt.in;E:\D\MITK\CMakeExternals\VTK.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\RepositoryInfo.txt.in;E:\D\MITK-superbuild\ep\tmp\VTK-cfgcmd.txt.in;E:\D\MITK\CMakeExternals\Boost.cmake;E:\D\MITK\CMake\mitkFunctionGetMSVCVersion.cmake;E:\D\MITK\CMakeExternals\MoveBoostLibsToLibDirForWindows.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\RepositoryInfo.txt.in;E:\D\MITK-superbuild\ep\tmp\Boost-cfgcmd.txt.in;E:\D\MITK\CMakeExternals\SimpleITK.cmake;E:\D\MITK\CMakeExternals\ACVD.cmake;E:\D\MITK\CMakeExternals\CTK.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\RepositoryInfo.txt.in;E:\D\MITK-superbuild\ep\tmp\CTK-cfgcmd.txt.in;E:\D\MITK\CMakeExternals\Rasqal.cmake;E:\D\MITK\CMakeExternals\Redland.cmake;E:\D\MITK\CMakeExternals\SOFA.cmake;E:\D\MITK\CMakeExternals\VMTK.cmake;E:\D\MITK\CMakeExternals\Qwt.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\RepositoryInfo.txt.in;E:\D\MITK-superbuild\ep\tmp\Qwt-cfgcmd.txt.in;E:\D\MITK-superbuild\ep\tmp\MITK-Utilities-cfgcmd.txt.in;E:\D\MITK-superbuild\ep\tmp\MITK-Configure-cfgcmd.txt.in;E:\D\MITK\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/D/MITK/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK -BE:/D/MITK-superbuild --check-stamp-file E:\D\MITK-superbuild\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK/CMakeLists.txt;E:\D\MITK\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeSystem.cmake.in;E:\D\MITK-superbuild\CMakeFiles\3.5.2\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCCompiler.cmake.in;E:\D\MITK-superbuild\CMakeFiles\3.5.2\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCXXCompiler.cmake.in;E:\D\MITK-superbuild\CMakeFiles\3.5.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeRCCompiler.cmake.in;E:\D\MITK-superbuild\CMakeFiles\3.5.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeTestRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeTestCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCCompilerABI.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCCompiler.cmake.in;E:\D\MITK-superbuild\CMakeFiles\3.5.2\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Internal\FeatureTesting.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;E:\D\MITK-superbuild\CMakeFiles\feature_tests.cxx;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCXXCompiler.cmake.in;E:\D\MITK-superbuild\CMakeFiles\3.5.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FeatureSummary.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CTestUseLaunchers.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;E:\D\MITK\CMake\mitkFunctionGetGccVersion.cmake;E:\D\MITK\CMake\mitkFunctionCheckCompilerFlags.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCCompilerFlag.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;E:\D\MITK\CMake\mitkFunctionSuppressWarnings.cmake;E:\D\MITK\CMake\mitkMacroEmptyExternalProject.cmake;E:\D\MITK\CMake\mitkFunctionGenerateProjectXml.cmake;E:\D\MITK\CMake\mitkFunctionEnableBuildConfiguration.cmake;E:\D\MITK\CMake\mitkFunctionWhitelists.cmake;E:\D\MITK\CMake\mitkFunctionAddExternalProject.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5\Qt5Config.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Concurrent\Qt5ConcurrentConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Concurrent\Qt5ConcurrentConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5OpenGL\Qt5OpenGLConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5OpenGL\Qt5OpenGLConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QDDSPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QJp2Plugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QMngPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5PrintSupport\Qt5PrintSupport_QWindowsPrinterSupportPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Script\Qt5ScriptConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Script\Qt5ScriptConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Sql\Qt5SqlConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Sql\Qt5SqlConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Sql\Qt5Sql_QMYSQLDriverPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Sql\Qt5Sql_QODBCDriverPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Sql\Qt5Sql_QPSQLDriverPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Sql\Qt5Sql_QSQLiteDriverPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Svg\Qt5SvgConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Svg\Qt5SvgConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Svg\Qt5Svg_QSvgIconPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Svg\Qt5Svg_QSvgPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5WebKitWidgets\Qt5WebKitWidgetsConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5WebKitWidgets\Qt5WebKitWidgetsConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5WebKit\Qt5WebKitConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5WebKit\Qt5WebKitConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Network\Qt5NetworkConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Network\Qt5NetworkConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Network\Qt5Network_QGenericEnginePlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Network\Qt5Network_QNativeWifiEnginePlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Xml\Qt5XmlConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Xml\Qt5XmlConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5XmlPatterns\Qt5XmlPatternsConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5XmlPatterns\Qt5XmlPatternsConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5UiTools\Qt5UiToolsConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5UiTools\Qt5UiToolsConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Help\Qt5HelpConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Help\Qt5HelpConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Help\Qt5HelpConfigExtras.cmake;E:\D\MITK\CTestConfigSubProject.cmake.in;E:\D\MITK\SuperBuild.cmake;E:\D\MITK\CMake\mitkFunctionInstallExternalCMakeProject.cmake;E:\D\MITK\CMake\SuperbuildCTestCustom.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\ExternalProject.cmake;E:\D\MITK\CMakeExternals\MITKData.cmake;E:\D\MITK-superbuild\ep\tmp\MITK-Data-cfgcmd.txt.in;E:\D\MITK\CMakeExternals\Poco.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\RepositoryInfo.txt.in;E:\D\MITK-superbuild\ep\tmp\Poco-cfgcmd.txt.in;E:\D\MITK\CMakeExternals\DCMTK.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\RepositoryInfo.txt.in;E:\D\MITK-superbuild\ep\tmp\DCMTK-cfgcmd.txt.in;E:\D\MITK\CMakeExternals\OpenIGTLink.cmake;E:\D\MITK\CMakeExternals\tinyxml.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\RepositoryInfo.txt.in;E:\D\MITK-superbuild\ep\tmp\tinyxml-cfgcmd.txt.in;E:\D\MITK\CMakeExternals\GDCM.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\RepositoryInfo.txt.in;E:\D\MITK-superbuild\ep\tmp\GDCM-cfgcmd.txt.in;E:\D\MITK\CMakeExternals\GLUT.cmake;E:\D\MITK\CMakeExternals\Raptor2.cmake;E:\D\MITK\CMakeExternals\Eigen.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\RepositoryInfo.txt.in;E:\D\MITK-superbuild\ep\tmp\Eigen-cfgcmd.txt.in;E:\D\MITK\CMakeExternals\GLEW.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\RepositoryInfo.txt.in;E:\D\MITK-superbuild\ep\tmp\GLEW-cfgcmd.txt.in;E:\D\MITK\CMakeExternals\ANN.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\RepositoryInfo.txt.in;E:\D\MITK-superbuild\ep\tmp\ANN-cfgcmd.txt.in;E:\D\MITK\CMakeExternals\CppUnit.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\RepositoryInfo.txt.in;E:\D\MITK-superbuild\ep\tmp\CppUnit-cfgcmd.txt.in;E:\D\MITK\CMakeExternals\PCRE.cmake;E:\D\MITK\CMakeExternals\ZLIB.cmake;E:\D\MITK\CMakeExternals\HDF5.cmake;E:\D\MITK\CMakeExternals\SWIG.cmake;E:\D\MITK\CMakeExternals\Python.cmake;E:\D\MITK\CMakeExternals\Numpy.cmake;E:\D\MITK\CMakeExternals\OpenCV.cmake;E:\D\MITK\CMakeExternals\Vigra.cmake;E:\D\MITK\CMakeExternals\ITK.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\RepositoryInfo.txt.in;E:\D\MITK-superbuild\ep\tmp\ITK-cfgcmd.txt.in;E:\D\MITK\CMakeExternals\VTK.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\RepositoryInfo.txt.in;E:\D\MITK-superbuild\ep\tmp\VTK-cfgcmd.txt.in;E:\D\MITK\CMakeExternals\Boost.cmake;E:\D\MITK\CMake\mitkFunctionGetMSVCVersion.cmake;E:\D\MITK\CMakeExternals\MoveBoostLibsToLibDirForWindows.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\RepositoryInfo.txt.in;E:\D\MITK-superbuild\ep\tmp\Boost-cfgcmd.txt.in;E:\D\MITK\CMakeExternals\SimpleITK.cmake;E:\D\MITK\CMakeExternals\ACVD.cmake;E:\D\MITK\CMakeExternals\CTK.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\RepositoryInfo.txt.in;E:\D\MITK-superbuild\ep\tmp\CTK-cfgcmd.txt.in;E:\D\MITK\CMakeExternals\Rasqal.cmake;E:\D\MITK\CMakeExternals\Redland.cmake;E:\D\MITK\CMakeExternals\SOFA.cmake;E:\D\MITK\CMakeExternals\VMTK.cmake;E:\D\MITK\CMakeExternals\Qwt.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\RepositoryInfo.txt.in;E:\D\MITK-superbuild\ep\tmp\Qwt-cfgcmd.txt.in;E:\D\MITK-superbuild\ep\tmp\MITK-Utilities-cfgcmd.txt.in;E:\D\MITK-superbuild\ep\tmp\MITK-Configure-cfgcmd.txt.in;E:\D\MITK\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/D/MITK/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK -BE:/D/MITK-superbuild --check-stamp-file E:\D\MITK-superbuild\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK/CMakeLists.txt;E:\D\MITK\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeSystem.cmake.in;E:\D\MITK-superbuild\CMakeFiles\3.5.2\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCCompiler.cmake.in;E:\D\MITK-superbuild\CMakeFiles\3.5.2\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCXXCompiler.cmake.in;E:\D\MITK-superbuild\CMakeFiles\3.5.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeRCCompiler.cmake.in;E:\D\MITK-superbuild\CMakeFiles\3.5.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeTestRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeTestCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCCompilerABI.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCCompiler.cmake.in;E:\D\MITK-superbuild\CMakeFiles\3.5.2\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Internal\FeatureTesting.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;E:\D\MITK-superbuild\CMakeFiles\feature_tests.cxx;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCXXCompiler.cmake.in;E:\D\MITK-superbuild\CMakeFiles\3.5.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FeatureSummary.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CTestUseLaunchers.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;E:\D\MITK\CMake\mitkFunctionGetGccVersion.cmake;E:\D\MITK\CMake\mitkFunctionCheckCompilerFlags.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCCompilerFlag.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;E:\D\MITK\CMake\mitkFunctionSuppressWarnings.cmake;E:\D\MITK\CMake\mitkMacroEmptyExternalProject.cmake;E:\D\MITK\CMake\mitkFunctionGenerateProjectXml.cmake;E:\D\MITK\CMake\mitkFunctionEnableBuildConfiguration.cmake;E:\D\MITK\CMake\mitkFunctionWhitelists.cmake;E:\D\MITK\CMake\mitkFunctionAddExternalProject.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5\Qt5Config.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Concurrent\Qt5ConcurrentConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Concurrent\Qt5ConcurrentConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5OpenGL\Qt5OpenGLConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5OpenGL\Qt5OpenGLConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QDDSPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QJp2Plugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QMngPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5PrintSupport\Qt5PrintSupport_QWindowsPrinterSupportPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Script\Qt5ScriptConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Script\Qt5ScriptConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Sql\Qt5SqlConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Sql\Qt5SqlConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Sql\Qt5Sql_QMYSQLDriverPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Sql\Qt5Sql_QODBCDriverPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Sql\Qt5Sql_QPSQLDriverPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Sql\Qt5Sql_QSQLiteDriverPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Svg\Qt5SvgConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Svg\Qt5SvgConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Svg\Qt5Svg_QSvgIconPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Svg\Qt5Svg_QSvgPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5WebKitWidgets\Qt5WebKitWidgetsConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5WebKitWidgets\Qt5WebKitWidgetsConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5WebKit\Qt5WebKitConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5WebKit\Qt5WebKitConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Network\Qt5NetworkConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Network\Qt5NetworkConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Network\Qt5Network_QGenericEnginePlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Network\Qt5Network_QNativeWifiEnginePlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Xml\Qt5XmlConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Xml\Qt5XmlConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5XmlPatterns\Qt5XmlPatternsConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5XmlPatterns\Qt5XmlPatternsConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5UiTools\Qt5UiToolsConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5UiTools\Qt5UiToolsConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Help\Qt5HelpConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Help\Qt5HelpConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Help\Qt5HelpConfigExtras.cmake;E:\D\MITK\CTestConfigSubProject.cmake.in;E:\D\MITK\SuperBuild.cmake;E:\D\MITK\CMake\mitkFunctionInstallExternalCMakeProject.cmake;E:\D\MITK\CMake\SuperbuildCTestCustom.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\ExternalProject.cmake;E:\D\MITK\CMakeExternals\MITKData.cmake;E:\D\MITK-superbuild\ep\tmp\MITK-Data-cfgcmd.txt.in;E:\D\MITK\CMakeExternals\Poco.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\RepositoryInfo.txt.in;E:\D\MITK-superbuild\ep\tmp\Poco-cfgcmd.txt.in;E:\D\MITK\CMakeExternals\DCMTK.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\RepositoryInfo.txt.in;E:\D\MITK-superbuild\ep\tmp\DCMTK-cfgcmd.txt.in;E:\D\MITK\CMakeExternals\OpenIGTLink.cmake;E:\D\MITK\CMakeExternals\tinyxml.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\RepositoryInfo.txt.in;E:\D\MITK-superbuild\ep\tmp\tinyxml-cfgcmd.txt.in;E:\D\MITK\CMakeExternals\GDCM.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\RepositoryInfo.txt.in;E:\D\MITK-superbuild\ep\tmp\GDCM-cfgcmd.txt.in;E:\D\MITK\CMakeExternals\GLUT.cmake;E:\D\MITK\CMakeExternals\Raptor2.cmake;E:\D\MITK\CMakeExternals\Eigen.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\RepositoryInfo.txt.in;E:\D\MITK-superbuild\ep\tmp\Eigen-cfgcmd.txt.in;E:\D\MITK\CMakeExternals\GLEW.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\RepositoryInfo.txt.in;E:\D\MITK-superbuild\ep\tmp\GLEW-cfgcmd.txt.in;E:\D\MITK\CMakeExternals\ANN.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\RepositoryInfo.txt.in;E:\D\MITK-superbuild\ep\tmp\ANN-cfgcmd.txt.in;E:\D\MITK\CMakeExternals\CppUnit.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\RepositoryInfo.txt.in;E:\D\MITK-superbuild\ep\tmp\CppUnit-cfgcmd.txt.in;E:\D\MITK\CMakeExternals\PCRE.cmake;E:\D\MITK\CMakeExternals\ZLIB.cmake;E:\D\MITK\CMakeExternals\HDF5.cmake;E:\D\MITK\CMakeExternals\SWIG.cmake;E:\D\MITK\CMakeExternals\Python.cmake;E:\D\MITK\CMakeExternals\Numpy.cmake;E:\D\MITK\CMakeExternals\OpenCV.cmake;E:\D\MITK\CMakeExternals\Vigra.cmake;E:\D\MITK\CMakeExternals\ITK.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\RepositoryInfo.txt.in;E:\D\MITK-superbuild\ep\tmp\ITK-cfgcmd.txt.in;E:\D\MITK\CMakeExternals\VTK.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\RepositoryInfo.txt.in;E:\D\MITK-superbuild\ep\tmp\VTK-cfgcmd.txt.in;E:\D\MITK\CMakeExternals\Boost.cmake;E:\D\MITK\CMake\mitkFunctionGetMSVCVersion.cmake;E:\D\MITK\CMakeExternals\MoveBoostLibsToLibDirForWindows.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\RepositoryInfo.txt.in;E:\D\MITK-superbuild\ep\tmp\Boost-cfgcmd.txt.in;E:\D\MITK\CMakeExternals\SimpleITK.cmake;E:\D\MITK\CMakeExternals\ACVD.cmake;E:\D\MITK\CMakeExternals\CTK.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\RepositoryInfo.txt.in;E:\D\MITK-superbuild\ep\tmp\CTK-cfgcmd.txt.in;E:\D\MITK\CMakeExternals\Rasqal.cmake;E:\D\MITK\CMakeExternals\Redland.cmake;E:\D\MITK\CMakeExternals\SOFA.cmake;E:\D\MITK\CMakeExternals\VMTK.cmake;E:\D\MITK\CMakeExternals\Qwt.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\RepositoryInfo.txt.in;E:\D\MITK-superbuild\ep\tmp\Qwt-cfgcmd.txt.in;E:\D\MITK-superbuild\ep\tmp\MITK-Utilities-cfgcmd.txt.in;E:\D\MITK-superbuild\ep\tmp\MITK-Configure-cfgcmd.txt.in;E:\D\MITK\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/D/MITK/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK -BE:/D/MITK-superbuild --check-stamp-file E:\D\MITK-superbuild\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK/CMakeLists.txt;E:\D\MITK\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeSystem.cmake.in;E:\D\MITK-superbuild\CMakeFiles\3.5.2\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCCompiler.cmake.in;E:\D\MITK-superbuild\CMakeFiles\3.5.2\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCXXCompiler.cmake.in;E:\D\MITK-superbuild\CMakeFiles\3.5.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeRCCompiler.cmake.in;E:\D\MITK-superbuild\CMakeFiles\3.5.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeTestRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeTestCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCCompilerABI.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCCompiler.cmake.in;E:\D\MITK-superbuild\CMakeFiles\3.5.2\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Internal\FeatureTesting.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;E:\D\MITK-superbuild\CMakeFiles\feature_tests.cxx;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCXXCompiler.cmake.in;E:\D\MITK-superbuild\CMakeFiles\3.5.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FeatureSummary.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CTestUseLaunchers.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;E:\D\MITK\CMake\mitkFunctionGetGccVersion.cmake;E:\D\MITK\CMake\mitkFunctionCheckCompilerFlags.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCCompilerFlag.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;E:\D\MITK\CMake\mitkFunctionSuppressWarnings.cmake;E:\D\MITK\CMake\mitkMacroEmptyExternalProject.cmake;E:\D\MITK\CMake\mitkFunctionGenerateProjectXml.cmake;E:\D\MITK\CMake\mitkFunctionEnableBuildConfiguration.cmake;E:\D\MITK\CMake\mitkFunctionWhitelists.cmake;E:\D\MITK\CMake\mitkFunctionAddExternalProject.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5\Qt5Config.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Concurrent\Qt5ConcurrentConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Concurrent\Qt5ConcurrentConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5OpenGL\Qt5OpenGLConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5OpenGL\Qt5OpenGLConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QDDSPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QJp2Plugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QMngPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5PrintSupport\Qt5PrintSupport_QWindowsPrinterSupportPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Script\Qt5ScriptConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Script\Qt5ScriptConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Sql\Qt5SqlConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Sql\Qt5SqlConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Sql\Qt5Sql_QMYSQLDriverPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Sql\Qt5Sql_QODBCDriverPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Sql\Qt5Sql_QPSQLDriverPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Sql\Qt5Sql_QSQLiteDriverPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Svg\Qt5SvgConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Svg\Qt5SvgConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Svg\Qt5Svg_QSvgIconPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Svg\Qt5Svg_QSvgPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5WebKitWidgets\Qt5WebKitWidgetsConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5WebKitWidgets\Qt5WebKitWidgetsConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5WebKit\Qt5WebKitConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5WebKit\Qt5WebKitConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Network\Qt5NetworkConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Network\Qt5NetworkConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Network\Qt5Network_QGenericEnginePlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Network\Qt5Network_QNativeWifiEnginePlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Xml\Qt5XmlConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Xml\Qt5XmlConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5XmlPatterns\Qt5XmlPatternsConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5XmlPatterns\Qt5XmlPatternsConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5UiTools\Qt5UiToolsConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5UiTools\Qt5UiToolsConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Help\Qt5HelpConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Help\Qt5HelpConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Help\Qt5HelpConfigExtras.cmake;E:\D\MITK\CTestConfigSubProject.cmake.in;E:\D\MITK\SuperBuild.cmake;E:\D\MITK\CMake\mitkFunctionInstallExternalCMakeProject.cmake;E:\D\MITK\CMake\SuperbuildCTestCustom.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\ExternalProject.cmake;E:\D\MITK\CMakeExternals\MITKData.cmake;E:\D\MITK-superbuild\ep\tmp\MITK-Data-cfgcmd.txt.in;E:\D\MITK\CMakeExternals\Poco.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\RepositoryInfo.txt.in;E:\D\MITK-superbuild\ep\tmp\Poco-cfgcmd.txt.in;E:\D\MITK\CMakeExternals\DCMTK.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\RepositoryInfo.txt.in;E:\D\MITK-superbuild\ep\tmp\DCMTK-cfgcmd.txt.in;E:\D\MITK\CMakeExternals\OpenIGTLink.cmake;E:\D\MITK\CMakeExternals\tinyxml.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\RepositoryInfo.txt.in;E:\D\MITK-superbuild\ep\tmp\tinyxml-cfgcmd.txt.in;E:\D\MITK\CMakeExternals\GDCM.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\RepositoryInfo.txt.in;E:\D\MITK-superbuild\ep\tmp\GDCM-cfgcmd.txt.in;E:\D\MITK\CMakeExternals\GLUT.cmake;E:\D\MITK\CMakeExternals\Raptor2.cmake;E:\D\MITK\CMakeExternals\Eigen.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\RepositoryInfo.txt.in;E:\D\MITK-superbuild\ep\tmp\Eigen-cfgcmd.txt.in;E:\D\MITK\CMakeExternals\GLEW.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\RepositoryInfo.txt.in;E:\D\MITK-superbuild\ep\tmp\GLEW-cfgcmd.txt.in;E:\D\MITK\CMakeExternals\ANN.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\RepositoryInfo.txt.in;E:\D\MITK-superbuild\ep\tmp\ANN-cfgcmd.txt.in;E:\D\MITK\CMakeExternals\CppUnit.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\RepositoryInfo.txt.in;E:\D\MITK-superbuild\ep\tmp\CppUnit-cfgcmd.txt.in;E:\D\MITK\CMakeExternals\PCRE.cmake;E:\D\MITK\CMakeExternals\ZLIB.cmake;E:\D\MITK\CMakeExternals\HDF5.cmake;E:\D\MITK\CMakeExternals\SWIG.cmake;E:\D\MITK\CMakeExternals\Python.cmake;E:\D\MITK\CMakeExternals\Numpy.cmake;E:\D\MITK\CMakeExternals\OpenCV.cmake;E:\D\MITK\CMakeExternals\Vigra.cmake;E:\D\MITK\CMakeExternals\ITK.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\RepositoryInfo.txt.in;E:\D\MITK-superbuild\ep\tmp\ITK-cfgcmd.txt.in;E:\D\MITK\CMakeExternals\VTK.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\RepositoryInfo.txt.in;E:\D\MITK-superbuild\ep\tmp\VTK-cfgcmd.txt.in;E:\D\MITK\CMakeExternals\Boost.cmake;E:\D\MITK\CMake\mitkFunctionGetMSVCVersion.cmake;E:\D\MITK\CMakeExternals\MoveBoostLibsToLibDirForWindows.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\RepositoryInfo.txt.in;E:\D\MITK-superbuild\ep\tmp\Boost-cfgcmd.txt.in;E:\D\MITK\CMakeExternals\SimpleITK.cmake;E:\D\MITK\CMakeExternals\ACVD.cmake;E:\D\MITK\CMakeExternals\CTK.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\RepositoryInfo.txt.in;E:\D\MITK-superbuild\ep\tmp\CTK-cfgcmd.txt.in;E:\D\MITK\CMakeExternals\Rasqal.cmake;E:\D\MITK\CMakeExternals\Redland.cmake;E:\D\MITK\CMakeExternals\SOFA.cmake;E:\D\MITK\CMakeExternals\VMTK.cmake;E:\D\MITK\CMakeExternals\Qwt.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\RepositoryInfo.txt.in;E:\D\MITK-superbuild\ep\tmp\Qwt-cfgcmd.txt.in;E:\D\MITK-superbuild\ep\tmp\MITK-Utilities-cfgcmd.txt.in;E:\D\MITK-superbuild\ep\tmp\MITK-Configure-cfgcmd.txt.in;E:\D\MITK\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\CMakeFiles\f663d8b07a90e79ff34c003d7b1752e8\Poco-mkdir.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Creating directories for 'Poco'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/MITK-superbuild/ep/src/Poco
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/MITK-superbuild/ep/src/Poco-build
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/MITK-superbuild/ep
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/MITK-superbuild/ep/tmp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/MITK-superbuild/ep/src/Poco-stamp/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/MITK-superbuild/ep/src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/MITK-superbuild/ep/src/Poco-stamp/$(Configuration)/Poco-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/CMakeFiles/f663d8b07a90e79ff34c003d7b1752e8/Poco-mkdir.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Creating directories for 'Poco'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/MITK-superbuild/ep/src/Poco
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/MITK-superbuild/ep/src/Poco-build
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/MITK-superbuild/ep
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/MITK-superbuild/ep/tmp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/MITK-superbuild/ep/src/Poco-stamp/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/MITK-superbuild/ep/src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/MITK-superbuild/ep/src/Poco-stamp/$(Configuration)/Poco-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/CMakeFiles/f663d8b07a90e79ff34c003d7b1752e8/Poco-mkdir.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Creating directories for 'Poco'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/MITK-superbuild/ep/src/Poco
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/MITK-superbuild/ep/src/Poco-build
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/MITK-superbuild/ep
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/MITK-superbuild/ep/tmp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/MITK-superbuild/ep/src/Poco-stamp/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/MITK-superbuild/ep/src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/MITK-superbuild/ep/src/Poco-stamp/$(Configuration)/Poco-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/CMakeFiles/f663d8b07a90e79ff34c003d7b1752e8/Poco-mkdir.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Creating directories for 'Poco'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/MITK-superbuild/ep/src/Poco
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/MITK-superbuild/ep/src/Poco-build
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/MITK-superbuild/ep
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/MITK-superbuild/ep/tmp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/MITK-superbuild/ep/src/Poco-stamp/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/MITK-superbuild/ep/src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/MITK-superbuild/ep/src/Poco-stamp/$(Configuration)/Poco-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/CMakeFiles/f663d8b07a90e79ff34c003d7b1752e8/Poco-mkdir.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\CMakeFiles\f663d8b07a90e79ff34c003d7b1752e8\Poco-download.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Performing download step (download, verify and extract) for 'Poco'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -P E:/D/MITK-superbuild/ep/src/Poco-stamp/download-Poco.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -P E:/D/MITK-superbuild/ep/src/Poco-stamp/verify-Poco.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -P E:/D/MITK-superbuild/ep/src/Poco-stamp/extract-Poco.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/MITK-superbuild/ep/src/Poco-stamp/$(Configuration)/Poco-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/CMakeFiles/f663d8b07a90e79ff34c003d7b1752e8/Poco-download.rule;E:\D\MITK-superbuild\ep\src\Poco-stamp\Poco-urlinfo.txt;E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Performing download step (download, verify and extract) for 'Poco'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -P E:/D/MITK-superbuild/ep/src/Poco-stamp/download-Poco.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -P E:/D/MITK-superbuild/ep/src/Poco-stamp/verify-Poco.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -P E:/D/MITK-superbuild/ep/src/Poco-stamp/extract-Poco.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/MITK-superbuild/ep/src/Poco-stamp/$(Configuration)/Poco-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/CMakeFiles/f663d8b07a90e79ff34c003d7b1752e8/Poco-download.rule;E:\D\MITK-superbuild\ep\src\Poco-stamp\Poco-urlinfo.txt;E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Performing download step (download, verify and extract) for 'Poco'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -P E:/D/MITK-superbuild/ep/src/Poco-stamp/download-Poco.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -P E:/D/MITK-superbuild/ep/src/Poco-stamp/verify-Poco.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -P E:/D/MITK-superbuild/ep/src/Poco-stamp/extract-Poco.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/MITK-superbuild/ep/src/Poco-stamp/$(Configuration)/Poco-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/CMakeFiles/f663d8b07a90e79ff34c003d7b1752e8/Poco-download.rule;E:\D\MITK-superbuild\ep\src\Poco-stamp\Poco-urlinfo.txt;E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Performing download step (download, verify and extract) for 'Poco'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -P E:/D/MITK-superbuild/ep/src/Poco-stamp/download-Poco.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -P E:/D/MITK-superbuild/ep/src/Poco-stamp/verify-Poco.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -P E:/D/MITK-superbuild/ep/src/Poco-stamp/extract-Poco.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/MITK-superbuild/ep/src/Poco-stamp/$(Configuration)/Poco-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/CMakeFiles/f663d8b07a90e79ff34c003d7b1752e8/Poco-download.rule;E:\D\MITK-superbuild\ep\src\Poco-stamp\Poco-urlinfo.txt;E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\CMakeFiles\f663d8b07a90e79ff34c003d7b1752e8\Poco-update.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">No update step for 'Poco'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/MITK-superbuild/ep/src/Poco-stamp/$(Configuration)/Poco-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/CMakeFiles/f663d8b07a90e79ff34c003d7b1752e8/Poco-update.rule;E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">No update step for 'Poco'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/MITK-superbuild/ep/src/Poco-stamp/$(Configuration)/Poco-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/CMakeFiles/f663d8b07a90e79ff34c003d7b1752e8/Poco-update.rule;E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">No update step for 'Poco'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/MITK-superbuild/ep/src/Poco-stamp/$(Configuration)/Poco-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/CMakeFiles/f663d8b07a90e79ff34c003d7b1752e8/Poco-update.rule;E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">No update step for 'Poco'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/MITK-superbuild/ep/src/Poco-stamp/$(Configuration)/Poco-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/CMakeFiles/f663d8b07a90e79ff34c003d7b1752e8/Poco-update.rule;E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\CMakeFiles\f663d8b07a90e79ff34c003d7b1752e8\Poco-patch.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">No patch step for 'Poco'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/MITK-superbuild/ep/src/Poco-stamp/$(Configuration)/Poco-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/CMakeFiles/f663d8b07a90e79ff34c003d7b1752e8/Poco-patch.rule;E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">No patch step for 'Poco'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/MITK-superbuild/ep/src/Poco-stamp/$(Configuration)/Poco-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/CMakeFiles/f663d8b07a90e79ff34c003d7b1752e8/Poco-patch.rule;E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">No patch step for 'Poco'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/MITK-superbuild/ep/src/Poco-stamp/$(Configuration)/Poco-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/CMakeFiles/f663d8b07a90e79ff34c003d7b1752e8/Poco-patch.rule;E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">No patch step for 'Poco'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/MITK-superbuild/ep/src/Poco-stamp/$(Configuration)/Poco-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/CMakeFiles/f663d8b07a90e79ff34c003d7b1752e8/Poco-patch.rule;E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\CMakeFiles\f663d8b07a90e79ff34c003d7b1752e8\Poco-configure.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Performing configure step for 'Poco'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\Poco-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -DCMAKE_CXX_EXTENSIONS:STRING=0 -DCMAKE_CXX_STANDARD:STRING=11 -DCMAKE_CXX_STANDARD_REQUIRED:BOOL=1 -DCMAKE_MACOSX_RPATH:BOOL=TRUE -DCMAKE_INSTALL_RPATH:STRING= -DBUILD_TESTING:BOOL=OFF -DCMAKE_INSTALL_PREFIX:PATH=E:/D/MITK-superbuild/ep -DBUILD_SHARED_LIBS:BOOL=ON -DCMAKE_BUILD_TYPE:STRING=Debug "-DCMAKE_C_COMPILER:FILEPATH=C:/Program Files (x86)/Microsoft Visual Studio 12.0/VC/bin/cl.exe" "-DCMAKE_CXX_COMPILER:FILEPATH=C:/Program Files (x86)/Microsoft Visual Studio 12.0/VC/bin/cl.exe" "-DCMAKE_C_FLAGS:STRING= /DWIN32 /D_WINDOWS /W3 /bigobj /MP" "-DCMAKE_CXX_FLAGS:STRING= /DWIN32 /D_WINDOWS /W3 /GR /EHsc /bigobj /MP " "-DCMAKE_CXX_FLAGS_DEBUG:STRING=/D_DEBUG /MDd /Zi /Ob0 /Od /RTC1" "-DCMAKE_C_FLAGS_DEBUG:STRING=/D_DEBUG /MDd /Zi /Ob0 /Od /RTC1" "-DCMAKE_CXX_FLAGS_RELEASE:STRING=/MD /O2 /Ob2 /D NDEBUG" "-DCMAKE_C_FLAGS_RELEASE:STRING=/MD /O2 /Ob2 /D NDEBUG" "-DCMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=/MD /Zi /O2 /Ob1 /D NDEBUG" "-DCMAKE_C_FLAGS_RELWITHDEBINFO:STRING=/MD /Zi /O2 /Ob1 /D NDEBUG" "-DCMAKE_EXE_LINKER_FLAGS:STRING= /machine:X86" "-DCMAKE_SHARED_LINKER_FLAGS:STRING= /machine:X86" "-DCMAKE_MODULE_LINKER_FLAGS:STRING= /machine:X86" -DCMAKE_DEBUG_POSTFIX:STRING=d -DENABLE_XML:BOOL=ON -DENABLE_JSON:BOOL=ON -DENABLE_MONGODB:BOOL=OFF -DENABLE_PDF:BOOL=OFF -DENABLE_UTIL:BOOL=ON -DENABLE_NET:BOOL=ON -DENABLE_NETSSL:BOOL=OFF -DENABLE_NETSSL_WIN:BOOL=OFF -DENABLE_CRYPTO:BOOL=OFF -DENABLE_DATA:BOOL=OFF -DENABLE_DATA_SQLITE:BOOL=OFF -DENABLE_DATA_MYSQL:BOOL=OFF -DENABLE_DATA_ODBC:BOOL=OFF -DENABLE_SEVENZIP:BOOL=OFF -DENABLE_ZIP:BOOL=ON -DENABLE_APACHECONNECTOR:BOOL=OFF -DENABLE_CPPPARSER:BOOL=OFF -DENABLE_POCODOC:BOOL=OFF -DENABLE_PAGECOMPILER:BOOL=OFF -DENABLE_PAGECOMPILER_FILE2PAGE:BOOL=OFF -CE:/D/MITK-superbuild/ep/tmp/Poco-cache-Debug.cmake "-GVisual Studio 12 2013" E:/D/MITK-superbuild/ep/src/Poco
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/MITK-superbuild/ep/src/Poco-stamp/$(Configuration)/Poco-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/CMakeFiles/f663d8b07a90e79ff34c003d7b1752e8/Poco-configure.rule;E:\D\MITK-superbuild\ep\tmp\Poco-cfgcmd.txt;E:\D\MITK-superbuild\ep\tmp\Poco-cache-Debug.cmake;E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-update;E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Performing configure step for 'Poco'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\Poco-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -DCMAKE_CXX_EXTENSIONS:STRING=0 -DCMAKE_CXX_STANDARD:STRING=11 -DCMAKE_CXX_STANDARD_REQUIRED:BOOL=1 -DCMAKE_MACOSX_RPATH:BOOL=TRUE -DCMAKE_INSTALL_RPATH:STRING= -DBUILD_TESTING:BOOL=OFF -DCMAKE_INSTALL_PREFIX:PATH=E:/D/MITK-superbuild/ep -DBUILD_SHARED_LIBS:BOOL=ON -DCMAKE_BUILD_TYPE:STRING=Debug "-DCMAKE_C_COMPILER:FILEPATH=C:/Program Files (x86)/Microsoft Visual Studio 12.0/VC/bin/cl.exe" "-DCMAKE_CXX_COMPILER:FILEPATH=C:/Program Files (x86)/Microsoft Visual Studio 12.0/VC/bin/cl.exe" "-DCMAKE_C_FLAGS:STRING= /DWIN32 /D_WINDOWS /W3 /bigobj /MP" "-DCMAKE_CXX_FLAGS:STRING= /DWIN32 /D_WINDOWS /W3 /GR /EHsc /bigobj /MP " "-DCMAKE_CXX_FLAGS_DEBUG:STRING=/D_DEBUG /MDd /Zi /Ob0 /Od /RTC1" "-DCMAKE_C_FLAGS_DEBUG:STRING=/D_DEBUG /MDd /Zi /Ob0 /Od /RTC1" "-DCMAKE_CXX_FLAGS_RELEASE:STRING=/MD /O2 /Ob2 /D NDEBUG" "-DCMAKE_C_FLAGS_RELEASE:STRING=/MD /O2 /Ob2 /D NDEBUG" "-DCMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=/MD /Zi /O2 /Ob1 /D NDEBUG" "-DCMAKE_C_FLAGS_RELWITHDEBINFO:STRING=/MD /Zi /O2 /Ob1 /D NDEBUG" "-DCMAKE_EXE_LINKER_FLAGS:STRING= /machine:X86" "-DCMAKE_SHARED_LINKER_FLAGS:STRING= /machine:X86" "-DCMAKE_MODULE_LINKER_FLAGS:STRING= /machine:X86" -DCMAKE_DEBUG_POSTFIX:STRING=d -DENABLE_XML:BOOL=ON -DENABLE_JSON:BOOL=ON -DENABLE_MONGODB:BOOL=OFF -DENABLE_PDF:BOOL=OFF -DENABLE_UTIL:BOOL=ON -DENABLE_NET:BOOL=ON -DENABLE_NETSSL:BOOL=OFF -DENABLE_NETSSL_WIN:BOOL=OFF -DENABLE_CRYPTO:BOOL=OFF -DENABLE_DATA:BOOL=OFF -DENABLE_DATA_SQLITE:BOOL=OFF -DENABLE_DATA_MYSQL:BOOL=OFF -DENABLE_DATA_ODBC:BOOL=OFF -DENABLE_SEVENZIP:BOOL=OFF -DENABLE_ZIP:BOOL=ON -DENABLE_APACHECONNECTOR:BOOL=OFF -DENABLE_CPPPARSER:BOOL=OFF -DENABLE_POCODOC:BOOL=OFF -DENABLE_PAGECOMPILER:BOOL=OFF -DENABLE_PAGECOMPILER_FILE2PAGE:BOOL=OFF -CE:/D/MITK-superbuild/ep/tmp/Poco-cache-Release.cmake "-GVisual Studio 12 2013" E:/D/MITK-superbuild/ep/src/Poco
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/MITK-superbuild/ep/src/Poco-stamp/$(Configuration)/Poco-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/CMakeFiles/f663d8b07a90e79ff34c003d7b1752e8/Poco-configure.rule;E:\D\MITK-superbuild\ep\tmp\Poco-cfgcmd.txt;E:\D\MITK-superbuild\ep\tmp\Poco-cache-Release.cmake;E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-update;E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Performing configure step for 'Poco'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\Poco-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -DCMAKE_CXX_EXTENSIONS:STRING=0 -DCMAKE_CXX_STANDARD:STRING=11 -DCMAKE_CXX_STANDARD_REQUIRED:BOOL=1 -DCMAKE_MACOSX_RPATH:BOOL=TRUE -DCMAKE_INSTALL_RPATH:STRING= -DBUILD_TESTING:BOOL=OFF -DCMAKE_INSTALL_PREFIX:PATH=E:/D/MITK-superbuild/ep -DBUILD_SHARED_LIBS:BOOL=ON -DCMAKE_BUILD_TYPE:STRING=Debug "-DCMAKE_C_COMPILER:FILEPATH=C:/Program Files (x86)/Microsoft Visual Studio 12.0/VC/bin/cl.exe" "-DCMAKE_CXX_COMPILER:FILEPATH=C:/Program Files (x86)/Microsoft Visual Studio 12.0/VC/bin/cl.exe" "-DCMAKE_C_FLAGS:STRING= /DWIN32 /D_WINDOWS /W3 /bigobj /MP" "-DCMAKE_CXX_FLAGS:STRING= /DWIN32 /D_WINDOWS /W3 /GR /EHsc /bigobj /MP " "-DCMAKE_CXX_FLAGS_DEBUG:STRING=/D_DEBUG /MDd /Zi /Ob0 /Od /RTC1" "-DCMAKE_C_FLAGS_DEBUG:STRING=/D_DEBUG /MDd /Zi /Ob0 /Od /RTC1" "-DCMAKE_CXX_FLAGS_RELEASE:STRING=/MD /O2 /Ob2 /D NDEBUG" "-DCMAKE_C_FLAGS_RELEASE:STRING=/MD /O2 /Ob2 /D NDEBUG" "-DCMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=/MD /Zi /O2 /Ob1 /D NDEBUG" "-DCMAKE_C_FLAGS_RELWITHDEBINFO:STRING=/MD /Zi /O2 /Ob1 /D NDEBUG" "-DCMAKE_EXE_LINKER_FLAGS:STRING= /machine:X86" "-DCMAKE_SHARED_LINKER_FLAGS:STRING= /machine:X86" "-DCMAKE_MODULE_LINKER_FLAGS:STRING= /machine:X86" -DCMAKE_DEBUG_POSTFIX:STRING=d -DENABLE_XML:BOOL=ON -DENABLE_JSON:BOOL=ON -DENABLE_MONGODB:BOOL=OFF -DENABLE_PDF:BOOL=OFF -DENABLE_UTIL:BOOL=ON -DENABLE_NET:BOOL=ON -DENABLE_NETSSL:BOOL=OFF -DENABLE_NETSSL_WIN:BOOL=OFF -DENABLE_CRYPTO:BOOL=OFF -DENABLE_DATA:BOOL=OFF -DENABLE_DATA_SQLITE:BOOL=OFF -DENABLE_DATA_MYSQL:BOOL=OFF -DENABLE_DATA_ODBC:BOOL=OFF -DENABLE_SEVENZIP:BOOL=OFF -DENABLE_ZIP:BOOL=ON -DENABLE_APACHECONNECTOR:BOOL=OFF -DENABLE_CPPPARSER:BOOL=OFF -DENABLE_POCODOC:BOOL=OFF -DENABLE_PAGECOMPILER:BOOL=OFF -DENABLE_PAGECOMPILER_FILE2PAGE:BOOL=OFF -CE:/D/MITK-superbuild/ep/tmp/Poco-cache-MinSizeRel.cmake "-GVisual Studio 12 2013" E:/D/MITK-superbuild/ep/src/Poco
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/MITK-superbuild/ep/src/Poco-stamp/$(Configuration)/Poco-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/CMakeFiles/f663d8b07a90e79ff34c003d7b1752e8/Poco-configure.rule;E:\D\MITK-superbuild\ep\tmp\Poco-cfgcmd.txt;E:\D\MITK-superbuild\ep\tmp\Poco-cache-MinSizeRel.cmake;E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-update;E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Performing configure step for 'Poco'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\Poco-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -DCMAKE_CXX_EXTENSIONS:STRING=0 -DCMAKE_CXX_STANDARD:STRING=11 -DCMAKE_CXX_STANDARD_REQUIRED:BOOL=1 -DCMAKE_MACOSX_RPATH:BOOL=TRUE -DCMAKE_INSTALL_RPATH:STRING= -DBUILD_TESTING:BOOL=OFF -DCMAKE_INSTALL_PREFIX:PATH=E:/D/MITK-superbuild/ep -DBUILD_SHARED_LIBS:BOOL=ON -DCMAKE_BUILD_TYPE:STRING=Debug "-DCMAKE_C_COMPILER:FILEPATH=C:/Program Files (x86)/Microsoft Visual Studio 12.0/VC/bin/cl.exe" "-DCMAKE_CXX_COMPILER:FILEPATH=C:/Program Files (x86)/Microsoft Visual Studio 12.0/VC/bin/cl.exe" "-DCMAKE_C_FLAGS:STRING= /DWIN32 /D_WINDOWS /W3 /bigobj /MP" "-DCMAKE_CXX_FLAGS:STRING= /DWIN32 /D_WINDOWS /W3 /GR /EHsc /bigobj /MP " "-DCMAKE_CXX_FLAGS_DEBUG:STRING=/D_DEBUG /MDd /Zi /Ob0 /Od /RTC1" "-DCMAKE_C_FLAGS_DEBUG:STRING=/D_DEBUG /MDd /Zi /Ob0 /Od /RTC1" "-DCMAKE_CXX_FLAGS_RELEASE:STRING=/MD /O2 /Ob2 /D NDEBUG" "-DCMAKE_C_FLAGS_RELEASE:STRING=/MD /O2 /Ob2 /D NDEBUG" "-DCMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=/MD /Zi /O2 /Ob1 /D NDEBUG" "-DCMAKE_C_FLAGS_RELWITHDEBINFO:STRING=/MD /Zi /O2 /Ob1 /D NDEBUG" "-DCMAKE_EXE_LINKER_FLAGS:STRING= /machine:X86" "-DCMAKE_SHARED_LINKER_FLAGS:STRING= /machine:X86" "-DCMAKE_MODULE_LINKER_FLAGS:STRING= /machine:X86" -DCMAKE_DEBUG_POSTFIX:STRING=d -DENABLE_XML:BOOL=ON -DENABLE_JSON:BOOL=ON -DENABLE_MONGODB:BOOL=OFF -DENABLE_PDF:BOOL=OFF -DENABLE_UTIL:BOOL=ON -DENABLE_NET:BOOL=ON -DENABLE_NETSSL:BOOL=OFF -DENABLE_NETSSL_WIN:BOOL=OFF -DENABLE_CRYPTO:BOOL=OFF -DENABLE_DATA:BOOL=OFF -DENABLE_DATA_SQLITE:BOOL=OFF -DENABLE_DATA_MYSQL:BOOL=OFF -DENABLE_DATA_ODBC:BOOL=OFF -DENABLE_SEVENZIP:BOOL=OFF -DENABLE_ZIP:BOOL=ON -DENABLE_APACHECONNECTOR:BOOL=OFF -DENABLE_CPPPARSER:BOOL=OFF -DENABLE_POCODOC:BOOL=OFF -DENABLE_PAGECOMPILER:BOOL=OFF -DENABLE_PAGECOMPILER_FILE2PAGE:BOOL=OFF -CE:/D/MITK-superbuild/ep/tmp/Poco-cache-RelWithDebInfo.cmake "-GVisual Studio 12 2013" E:/D/MITK-superbuild/ep/src/Poco
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/MITK-superbuild/ep/src/Poco-stamp/$(Configuration)/Poco-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/CMakeFiles/f663d8b07a90e79ff34c003d7b1752e8/Poco-configure.rule;E:\D\MITK-superbuild\ep\tmp\Poco-cfgcmd.txt;E:\D\MITK-superbuild\ep\tmp\Poco-cache-RelWithDebInfo.cmake;E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-update;E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\CMakeFiles\f663d8b07a90e79ff34c003d7b1752e8\Poco-build.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Performing build step for 'Poco'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\Poco-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" --build . --config Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/MITK-superbuild/ep/src/Poco-stamp/$(Configuration)/Poco-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/CMakeFiles/f663d8b07a90e79ff34c003d7b1752e8/Poco-build.rule;E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Performing build step for 'Poco'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\Poco-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" --build . --config Release
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/MITK-superbuild/ep/src/Poco-stamp/$(Configuration)/Poco-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/CMakeFiles/f663d8b07a90e79ff34c003d7b1752e8/Poco-build.rule;E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Performing build step for 'Poco'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\Poco-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" --build . --config MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/MITK-superbuild/ep/src/Poco-stamp/$(Configuration)/Poco-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/CMakeFiles/f663d8b07a90e79ff34c003d7b1752e8/Poco-build.rule;E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Performing build step for 'Poco'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\Poco-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" --build . --config RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/MITK-superbuild/ep/src/Poco-stamp/$(Configuration)/Poco-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/CMakeFiles/f663d8b07a90e79ff34c003d7b1752e8/Poco-build.rule;E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\CMakeFiles\f663d8b07a90e79ff34c003d7b1752e8\Poco-install.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Performing install step for 'Poco'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\Poco-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" --build . --config Debug --target install
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/MITK-superbuild/ep/src/Poco-stamp/$(Configuration)/Poco-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/CMakeFiles/f663d8b07a90e79ff34c003d7b1752e8/Poco-install.rule;E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Performing install step for 'Poco'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\Poco-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" --build . --config Release --target install
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/MITK-superbuild/ep/src/Poco-stamp/$(Configuration)/Poco-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/CMakeFiles/f663d8b07a90e79ff34c003d7b1752e8/Poco-install.rule;E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Performing install step for 'Poco'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\Poco-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" --build . --config MinSizeRel --target install
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/MITK-superbuild/ep/src/Poco-stamp/$(Configuration)/Poco-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/CMakeFiles/f663d8b07a90e79ff34c003d7b1752e8/Poco-install.rule;E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Performing install step for 'Poco'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\Poco-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" --build . --config RelWithDebInfo --target install
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/MITK-superbuild/ep/src/Poco-stamp/$(Configuration)/Poco-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/CMakeFiles/f663d8b07a90e79ff34c003d7b1752e8/Poco-install.rule;E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\CMakeFiles\5d551ec4d70679bf8f20dfc9b744f0b3\Poco-complete.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Completed 'Poco'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/MITK-superbuild/CMakeFiles/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/MITK-superbuild/CMakeFiles/$(Configuration)/Poco-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/MITK-superbuild/ep/src/Poco-stamp/$(Configuration)/Poco-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/CMakeFiles/5d551ec4d70679bf8f20dfc9b744f0b3/Poco-complete.rule;E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-install;E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-mkdir;E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-download;E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-update;E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-patch;E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-configure;E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-build;E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\CMakeFiles\$(Configuration)\Poco-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Completed 'Poco'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/MITK-superbuild/CMakeFiles/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/MITK-superbuild/CMakeFiles/$(Configuration)/Poco-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/MITK-superbuild/ep/src/Poco-stamp/$(Configuration)/Poco-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/CMakeFiles/5d551ec4d70679bf8f20dfc9b744f0b3/Poco-complete.rule;E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-install;E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-mkdir;E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-download;E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-update;E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-patch;E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-configure;E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-build;E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\CMakeFiles\$(Configuration)\Poco-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Completed 'Poco'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/MITK-superbuild/CMakeFiles/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/MITK-superbuild/CMakeFiles/$(Configuration)/Poco-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/MITK-superbuild/ep/src/Poco-stamp/$(Configuration)/Poco-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/CMakeFiles/5d551ec4d70679bf8f20dfc9b744f0b3/Poco-complete.rule;E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-install;E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-mkdir;E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-download;E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-update;E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-patch;E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-configure;E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-build;E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\CMakeFiles\$(Configuration)\Poco-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Completed 'Poco'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/MITK-superbuild/CMakeFiles/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/MITK-superbuild/CMakeFiles/$(Configuration)/Poco-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/MITK-superbuild/ep/src/Poco-stamp/$(Configuration)/Poco-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/CMakeFiles/5d551ec4d70679bf8f20dfc9b744f0b3/Poco-complete.rule;E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-install;E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-mkdir;E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-download;E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-update;E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-patch;E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-configure;E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-build;E:\D\MITK-superbuild\ep\src\Poco-stamp\$(Configuration)\Poco-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\CMakeFiles\$(Configuration)\Poco-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\CMakeFiles\50702bbcad61cbda91abada17261bdb7\Poco.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/CMakeFiles/50702bbcad61cbda91abada17261bdb7/Poco.rule;E:\D\MITK-superbuild\CMakeFiles\$(Configuration)\Poco-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\CMakeFiles\Poco</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/CMakeFiles/50702bbcad61cbda91abada17261bdb7/Poco.rule;E:\D\MITK-superbuild\CMakeFiles\$(Configuration)\Poco-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\CMakeFiles\Poco</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/CMakeFiles/50702bbcad61cbda91abada17261bdb7/Poco.rule;E:\D\MITK-superbuild\CMakeFiles\$(Configuration)\Poco-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\CMakeFiles\Poco</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/CMakeFiles/50702bbcad61cbda91abada17261bdb7/Poco.rule;E:\D\MITK-superbuild\CMakeFiles\$(Configuration)\Poco-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\CMakeFiles\Poco</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\D\MITK-superbuild\CMakeFiles\Poco" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:/D/MITK-superbuild/ZERO_CHECK.vcxproj">
+      <Project>463E826E-89E6-3B42-A57C-9238352FFB4C</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

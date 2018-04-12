@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\GUISupport\Qt\Q4VTKWidgetPlugin.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK-build\GUISupport\Qt\moc_Q4VTKWidgetPlugin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\VTK\GUISupport\Qt\CMakeLists.txt" />
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\VTK-build\CMakeFiles\3371a454f92c5bd2518c81a2408182a9\moc_Q4VTKWidgetPlugin.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B8573E94-36CD-38B9-BB2A-4F9466D8DF17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D56134BE-FA6A-3B72-B5C8-CC5DA9F743F2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

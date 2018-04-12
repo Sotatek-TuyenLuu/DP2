@@ -1,0 +1,375 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{700C4F10-0715-399B-B035-842C33DF8634}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>vtklibxml2</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\bin\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">vtklibxml2.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">vtklibxml2-6.2d</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\bin\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">vtklibxml2.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">vtklibxml2-6.2</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\bin\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">vtklibxml2.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">vtklibxml2-6.2</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\bin\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">vtklibxml2.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">vtklibxml2-6.2</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj -w -w /w %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\libxml2\vtklibxml2;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\libxml2;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;HAVE_CONFIG_H;_GNU_SOURCE;PIC;_REENTRANT;HAVE_WIN32_THREADS;CMAKE_INTDIR="Debug";vtklibxml2_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;HAVE_CONFIG_H;_GNU_SOURCE;PIC;_REENTRANT;HAVE_WIN32_THREADS;CMAKE_INTDIR=\"Debug\";vtklibxml2_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\libxml2\vtklibxml2;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\libxml2;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\libxml2\vtklibxml2;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\libxml2;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\..\lib\Debug\vtkzlib-6.2d.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/ep/src/VTK-build/lib/Debug/vtklibxml2-6.2d.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/ep/src/VTK-build/bin/Debug/vtklibxml2-6.2d.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj -w -w /w %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\libxml2\vtklibxml2;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\libxml2;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;HAVE_CONFIG_H;_GNU_SOURCE;PIC;_REENTRANT;HAVE_WIN32_THREADS;CMAKE_INTDIR="Release";vtklibxml2_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;HAVE_CONFIG_H;_GNU_SOURCE;PIC;_REENTRANT;HAVE_WIN32_THREADS;CMAKE_INTDIR=\"Release\";vtklibxml2_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\libxml2\vtklibxml2;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\libxml2;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\libxml2\vtklibxml2;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\libxml2;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\..\lib\Release\vtkzlib-6.2.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/ep/src/VTK-build/lib/Release/vtklibxml2-6.2.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/ep/src/VTK-build/bin/Release/vtklibxml2-6.2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj -w -w /w %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\libxml2\vtklibxml2;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\libxml2;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;HAVE_CONFIG_H;_GNU_SOURCE;PIC;_REENTRANT;HAVE_WIN32_THREADS;CMAKE_INTDIR="MinSizeRel";vtklibxml2_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;HAVE_CONFIG_H;_GNU_SOURCE;PIC;_REENTRANT;HAVE_WIN32_THREADS;CMAKE_INTDIR=\"MinSizeRel\";vtklibxml2_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\libxml2\vtklibxml2;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\libxml2;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\libxml2\vtklibxml2;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\libxml2;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\..\lib\MinSizeRel\vtkzlib-6.2.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/ep/src/VTK-build/lib/MinSizeRel/vtklibxml2-6.2.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/ep/src/VTK-build/bin/MinSizeRel/vtklibxml2-6.2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj -w -w /w %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\libxml2\vtklibxml2;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\libxml2;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;HAVE_CONFIG_H;_GNU_SOURCE;PIC;_REENTRANT;HAVE_WIN32_THREADS;CMAKE_INTDIR="RelWithDebInfo";vtklibxml2_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;HAVE_CONFIG_H;_GNU_SOURCE;PIC;_REENTRANT;HAVE_WIN32_THREADS;CMAKE_INTDIR=\"RelWithDebInfo\";vtklibxml2_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\libxml2\vtklibxml2;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\libxml2;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\libxml2\vtklibxml2;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\zlib;E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\libxml2;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\..\lib\RelWithDebInfo\vtkzlib-6.2.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/ep/src/VTK-build/lib/RelWithDebInfo/vtklibxml2-6.2.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/ep/src/VTK-build/bin/RelWithDebInfo/vtklibxml2-6.2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/VTK/ThirdParty/libxml2/vtklibxml2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/VTK -BE:/D/MITK-superbuild/ep/src/VTK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\libxml2\vtklibxml2\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/VTK/ThirdParty/libxml2/vtklibxml2/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckSymbolExists.cmake;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\libxml2PlatformTests.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\platformTestsC.c;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\platformTestsC.c;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\platformTestsC.c;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\platformTestsC.c;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\platformTestsC.c;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\platformTestsC.c;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\platformTestsC.c;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\config_cmake.h.in;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlversion.h.in;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\c14n.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\catalog.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\chvalid.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\debugXML.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\dict.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\DOCBparser.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\encoding.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\entities.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\globals.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\hash.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\HTMLparser.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\HTMLtree.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\list.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\nanoftp.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\nanohttp.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\parser.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\parserInternals.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\pattern.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\relaxng.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\SAX.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\SAX2.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\schemasInternals.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\schematron.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\threads.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\tree.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\uri.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\valid.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\vtk_libxml2_mangle.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xinclude.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xlink.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlautomata.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlerror.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlexports.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlIO.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlmemory.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlmodule.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlreader.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlregexp.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlsave.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlschemas.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlschemastypes.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlstring.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlunicode.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlwriter.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xpath.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xpathInternals.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xpointer.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\libxml2\vtklibxml2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/VTK/ThirdParty/libxml2/vtklibxml2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/VTK -BE:/D/MITK-superbuild/ep/src/VTK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\libxml2\vtklibxml2\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/VTK/ThirdParty/libxml2/vtklibxml2/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckSymbolExists.cmake;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\libxml2PlatformTests.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\platformTestsC.c;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\platformTestsC.c;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\platformTestsC.c;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\platformTestsC.c;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\platformTestsC.c;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\platformTestsC.c;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\platformTestsC.c;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\config_cmake.h.in;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlversion.h.in;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\c14n.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\catalog.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\chvalid.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\debugXML.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\dict.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\DOCBparser.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\encoding.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\entities.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\globals.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\hash.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\HTMLparser.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\HTMLtree.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\list.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\nanoftp.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\nanohttp.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\parser.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\parserInternals.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\pattern.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\relaxng.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\SAX.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\SAX2.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\schemasInternals.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\schematron.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\threads.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\tree.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\uri.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\valid.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\vtk_libxml2_mangle.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xinclude.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xlink.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlautomata.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlerror.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlexports.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlIO.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlmemory.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlmodule.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlreader.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlregexp.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlsave.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlschemas.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlschemastypes.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlstring.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlunicode.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlwriter.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xpath.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xpathInternals.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xpointer.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\libxml2\vtklibxml2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/VTK/ThirdParty/libxml2/vtklibxml2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/VTK -BE:/D/MITK-superbuild/ep/src/VTK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\libxml2\vtklibxml2\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/VTK/ThirdParty/libxml2/vtklibxml2/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckSymbolExists.cmake;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\libxml2PlatformTests.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\platformTestsC.c;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\platformTestsC.c;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\platformTestsC.c;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\platformTestsC.c;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\platformTestsC.c;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\platformTestsC.c;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\platformTestsC.c;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\config_cmake.h.in;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlversion.h.in;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\c14n.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\catalog.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\chvalid.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\debugXML.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\dict.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\DOCBparser.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\encoding.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\entities.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\globals.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\hash.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\HTMLparser.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\HTMLtree.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\list.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\nanoftp.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\nanohttp.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\parser.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\parserInternals.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\pattern.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\relaxng.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\SAX.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\SAX2.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\schemasInternals.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\schematron.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\threads.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\tree.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\uri.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\valid.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\vtk_libxml2_mangle.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xinclude.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xlink.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlautomata.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlerror.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlexports.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlIO.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlmemory.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlmodule.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlreader.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlregexp.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlsave.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlschemas.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlschemastypes.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlstring.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlunicode.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlwriter.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xpath.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xpathInternals.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xpointer.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\libxml2\vtklibxml2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/VTK/ThirdParty/libxml2/vtklibxml2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/VTK -BE:/D/MITK-superbuild/ep/src/VTK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\libxml2\vtklibxml2\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/VTK/ThirdParty/libxml2/vtklibxml2/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckSymbolExists.cmake;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\libxml2PlatformTests.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\platformTestsC.c;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\platformTestsC.c;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\platformTestsC.c;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\platformTestsC.c;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\platformTestsC.c;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\platformTestsC.c;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\platformTestsC.c;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\config_cmake.h.in;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlversion.h.in;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\c14n.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\catalog.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\chvalid.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\debugXML.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\dict.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\DOCBparser.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\encoding.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\entities.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\globals.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\hash.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\HTMLparser.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\HTMLtree.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\list.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\nanoftp.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\nanohttp.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\parser.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\parserInternals.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\pattern.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\relaxng.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\SAX.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\SAX2.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\schemasInternals.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\schematron.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\threads.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\tree.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\uri.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\valid.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\vtk_libxml2_mangle.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xinclude.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xlink.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlautomata.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlerror.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlexports.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlIO.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlmemory.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlmodule.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlreader.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlregexp.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlsave.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlschemas.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlschemastypes.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlstring.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlunicode.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xmlwriter.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xpath.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xpathInternals.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\include\libxml\xpointer.h;E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\ThirdParty\libxml2\vtklibxml2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\DOCBparser.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\HTMLparser.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\HTMLtree.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\SAX.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\SAX2.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\c14n.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\catalog.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\chvalid.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\debugXML.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\dict.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\encoding.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\entities.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\error.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\globals.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\hash.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\legacy.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\list.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\nanoftp.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\nanohttp.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\parser.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\parserInternals.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\pattern.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\relaxng.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\schematron.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\threads.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\tree.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\uri.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\valid.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\xinclude.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\xlink.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\xmlIO.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\xmlmemory.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\xmlmodule.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\xmlreader.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\xmlregexp.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\xmlsave.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\xmlschemas.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\xmlschemastypes.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\xmlstring.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\xmlunicode.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\xmlwriter.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\xpath.c"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\libxml2\vtklibxml2\xpointer.c"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/VTK-build/ZERO_CHECK.vcxproj">
+      <Project>96A894C7-FD6E-37E5-A6D0-C197A99428A9</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/VTK-build/ThirdParty/zlib/vtkzlib/vtkzlib.vcxproj">
+      <Project>505DB1E6-8EB8-3F8E-82E9-437F1B5C0E6A</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

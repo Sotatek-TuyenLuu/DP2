@@ -1,0 +1,75 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/ContextOpenGL/vtkOpenGLContextActor.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/ContextOpenGL/vtkOpenGL2ContextDevice2D.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/ContextOpenGL/vtkOpenGLContextBufferId.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/ContextOpenGL/vtkOpenGLContextDevice2D.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/ContextOpenGL/vtkOpenGLContextDevice3D.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/ContextOpenGL/vtkRenderingContextOpenGLObjectFactory.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/ContextOpenGL/vtkOpenGLContextActor.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/ContextOpenGL/vtkOpenGL2ContextDevice2D.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/ContextOpenGL/vtkOpenGLContextBufferId.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/ContextOpenGL/vtkOpenGLContextDevice2D.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/ContextOpenGL/vtkOpenGLContextDevice3D.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/ContextOpenGL/vtkRenderingContextOpenGLObjectFactory.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/ContextOpenGL/vtkRenderingContextOpenGLModule.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/ContextOpenGL/vtkRenderingContextOpenGLInstantiator.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Rendering/ContextOpenGL/vtkRenderingContextOpenGLInstantiator.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Rendering/ContextOpenGL/CMakeLists.txt"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "vtkRenderingContextOpenGL" ],
+		"name" : "vtkRenderingContextOpenGL"
+	}
+}

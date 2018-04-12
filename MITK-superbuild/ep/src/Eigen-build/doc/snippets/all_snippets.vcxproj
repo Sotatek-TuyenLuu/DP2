@@ -1,0 +1,883 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{8A9854D6-1BB0-3147-B134-45679064E9E0}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>all_snippets</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\Eigen-build\doc\snippets;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets;E:\D\MITK-superbuild\ep\src\Eigen;E:\D\MITK-superbuild\ep\src\Eigen-build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\Eigen-build\doc\snippets;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets;E:\D\MITK-superbuild\ep\src\Eigen;E:\D\MITK-superbuild\ep\src\Eigen-build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\Eigen-build\doc\snippets;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets;E:\D\MITK-superbuild\ep\src\Eigen;E:\D\MITK-superbuild\ep\src\Eigen-build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\Eigen-build\doc\snippets;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets;E:\D\MITK-superbuild\ep\src\Eigen;E:\D\MITK-superbuild\ep\src\Eigen-build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/Eigen/doc/snippets/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/Eigen -BE:/D/MITK-superbuild/ep/src/Eigen-build --check-stamp-file E:\D\MITK-superbuild\ep\src\Eigen-build\doc\snippets\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/Eigen/doc/snippets/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\Eigen-build\doc\snippets\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/Eigen/doc/snippets/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/Eigen -BE:/D/MITK-superbuild/ep/src/Eigen-build --check-stamp-file E:\D\MITK-superbuild\ep\src\Eigen-build\doc\snippets\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/Eigen/doc/snippets/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\Eigen-build\doc\snippets\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/Eigen/doc/snippets/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/Eigen -BE:/D/MITK-superbuild/ep/src/Eigen-build --check-stamp-file E:\D\MITK-superbuild\ep\src\Eigen-build\doc\snippets\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/Eigen/doc/snippets/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\Eigen-build\doc\snippets\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/Eigen/doc/snippets/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/Eigen -BE:/D/MITK-superbuild/ep/src/Eigen-build --check-stamp-file E:\D\MITK-superbuild\ep\src\Eigen-build\doc\snippets\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/Eigen/doc/snippets/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\compile_snippet.cpp.in;E:\D\MITK-superbuild\ep\src\Eigen\doc\snippets\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\Eigen-build\doc\snippets\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/ZERO_CHECK.vcxproj">
+      <Project>738635E7-6418-3EDE-BDB9-FB10DC553010</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_AngleAxis_mimic_euler.vcxproj">
+      <Project>ECC0121F-E65A-30EB-AA93-8DA1D9181A59</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_ColPivHouseholderQR_solve.vcxproj">
+      <Project>D6401EF8-ED90-3CFC-9E0E-B6E41150F1F3</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_ComplexEigenSolver_compute.vcxproj">
+      <Project>045242BD-0DC4-3DF5-83F2-243C83A7C835</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_ComplexEigenSolver_eigenvalues.vcxproj">
+      <Project>76C78597-5900-3F24-AD83-6FF1FE0D99C1</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_ComplexEigenSolver_eigenvectors.vcxproj">
+      <Project>2087B082-7A0C-3007-8163-7DA6287D0733</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_ComplexSchur_compute.vcxproj">
+      <Project>25CE83A0-9D1E-382B-8067-EF654A492727</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_ComplexSchur_matrixT.vcxproj">
+      <Project>94EF3913-8BE7-3FD5-AEA8-8F05EF93026C</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_ComplexSchur_matrixU.vcxproj">
+      <Project>FAE958F5-9B8E-3578-A4AD-1E972886A46B</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_Cwise_abs.vcxproj">
+      <Project>0150EBA3-B687-3BB2-A7EF-63174045E33E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_Cwise_abs2.vcxproj">
+      <Project>EF5D66C5-FD93-3941-B0F5-4FF2DBA146D1</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_Cwise_acos.vcxproj">
+      <Project>4276787B-4AC2-3027-991F-6373804738B7</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_Cwise_asin.vcxproj">
+      <Project>0162ED50-E086-3B17-857D-F7A78DEF0A60</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_Cwise_boolean_and.vcxproj">
+      <Project>D4B06F1C-084E-396A-B434-97D70BB72529</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_Cwise_boolean_or.vcxproj">
+      <Project>4BA11E13-8DBD-34F6-B0C9-90B04856283D</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_Cwise_cos.vcxproj">
+      <Project>F51FC975-70DE-3756-86BD-E31649706ED1</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_Cwise_cube.vcxproj">
+      <Project>50D3EA61-5872-3787-9D96-66FB0F403BDB</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_Cwise_equal_equal.vcxproj">
+      <Project>A6527E63-3A52-36B2-837D-0AD888AD744C</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_Cwise_exp.vcxproj">
+      <Project>9B5E9B4C-B780-3D35-A82D-004C26B6DE61</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_Cwise_greater.vcxproj">
+      <Project>64B3CDFB-6C95-300A-96BC-250EDF2DE30F</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_Cwise_greater_equal.vcxproj">
+      <Project>2E06C930-8DC8-3B03-BA17-822D3147AFD8</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_Cwise_inverse.vcxproj">
+      <Project>7EADC50D-ECAC-379C-9479-E48D0D045E34</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_Cwise_less.vcxproj">
+      <Project>2275A682-DE26-3A8F-8252-774C9A52B6DF</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_Cwise_less_equal.vcxproj">
+      <Project>F59186DF-D822-398D-AB0D-90FFDC70DF54</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_Cwise_log.vcxproj">
+      <Project>ADEB3EC0-A77B-3115-92A5-10864C020A11</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_Cwise_max.vcxproj">
+      <Project>C9962846-0162-38E2-BA84-F5ED11D21649</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_Cwise_min.vcxproj">
+      <Project>FC13CD29-F368-38C1-864D-12B6FF60FE9A</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_Cwise_minus.vcxproj">
+      <Project>EB36067B-1792-3657-A5B9-C7FBC6FEFC50</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_Cwise_minus_equal.vcxproj">
+      <Project>DECAB659-ACBB-33C5-AA53-CA203BF3B172</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_Cwise_not_equal.vcxproj">
+      <Project>C9D3A2AC-9D93-372C-B407-99600C55AED1</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_Cwise_plus.vcxproj">
+      <Project>8B066DCC-7DF6-31DB-85B1-3D38177B4094</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_Cwise_plus_equal.vcxproj">
+      <Project>6299E5AA-FD5D-3199-ADC6-CA391FFA5A47</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_Cwise_pow.vcxproj">
+      <Project>C473BC4C-3C56-39DE-B4C7-0FAD50224C2C</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_Cwise_product.vcxproj">
+      <Project>82A01EB0-7DF6-3E91-A8C3-85686F0055B9</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_Cwise_quotient.vcxproj">
+      <Project>1AA02CCE-210B-385C-979A-2DE15A9991EE</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_Cwise_sin.vcxproj">
+      <Project>0225A908-7565-3A15-8C4D-6E8656E6B048</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_Cwise_slash_equal.vcxproj">
+      <Project>CFFC7F88-C2F7-35BB-8138-27D9E8E76352</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_Cwise_sqrt.vcxproj">
+      <Project>174AC5B6-DFE2-39E6-B92F-6AFE4CD14333</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_Cwise_square.vcxproj">
+      <Project>81F1A2A1-A5EC-39B3-B441-122D60E4D978</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_Cwise_tan.vcxproj">
+      <Project>522FDE00-3256-321F-979E-1A50FCD26074</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_Cwise_times_equal.vcxproj">
+      <Project>F31BFC6A-0F8B-3F99-A451-296EBD42A4E1</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_DenseBase_LinSpaced.vcxproj">
+      <Project>792FF22D-ECA0-3867-BED6-3ADB08DA523B</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_DenseBase_LinSpaced_seq.vcxproj">
+      <Project>DF87AF87-EB19-3B10-8C75-AE84EF328298</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_DenseBase_setLinSpaced.vcxproj">
+      <Project>695B0255-853D-3DE0-8652-2C2A53A23DC5</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_DirectionWise_replicate.vcxproj">
+      <Project>9A7CF917-6A53-3C4B-B87C-914589B0CD07</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_DirectionWise_replicate_int.vcxproj">
+      <Project>594D048F-81E2-332B-BF92-FB0BEBCDED77</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_EigenSolver_EigenSolver_MatrixType.vcxproj">
+      <Project>1968F089-018C-38FF-9A30-EC1872C11614</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_EigenSolver_compute.vcxproj">
+      <Project>581F7C86-7C89-37DC-B867-14D0608B963B</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_EigenSolver_eigenvalues.vcxproj">
+      <Project>5E8673D5-4A95-39B5-AF63-F739856915F7</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_EigenSolver_eigenvectors.vcxproj">
+      <Project>3954C963-FE87-3F3C-9F1F-06904A3B698B</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_EigenSolver_pseudoEigenvectors.vcxproj">
+      <Project>7F43BAA3-2085-3774-BA28-39F690EE3A24</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_FullPivHouseholderQR_solve.vcxproj">
+      <Project>75F0E5A2-E786-3353-BB4C-E92CDC83BB20</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_FullPivLU_image.vcxproj">
+      <Project>B14C04B2-10F3-375E-86B6-5BDF1070F182</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_FullPivLU_kernel.vcxproj">
+      <Project>F4DED0A9-5A3C-3FD1-94BF-FD08743A5383</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_FullPivLU_solve.vcxproj">
+      <Project>94758EE7-1DC8-315B-97EC-CB03FD2232D7</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_GeneralizedEigenSolver.vcxproj">
+      <Project>591C7301-7BDF-3FB7-823E-8B2B7A296606</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_HessenbergDecomposition_compute.vcxproj">
+      <Project>897493B0-1D7D-32C4-A174-A2F75032432F</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_HessenbergDecomposition_matrixH.vcxproj">
+      <Project>C8255965-36FE-3F44-8349-EDE43CB254D6</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_HessenbergDecomposition_packedMatrix.vcxproj">
+      <Project>A942FD75-9CB5-31D2-AAF6-D865695FEFD4</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_HouseholderQR_householderQ.vcxproj">
+      <Project>D97FBEBA-83FC-3040-A6BC-EE3BFC4D4833</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_HouseholderQR_solve.vcxproj">
+      <Project>A5D0AF26-04EC-3D38-A4E2-7894334EEF34</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_HouseholderSequence_HouseholderSequence.vcxproj">
+      <Project>C5C8F565-E928-3D1C-9029-B8D90851A24B</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_IOFormat.vcxproj">
+      <Project>4402EDBF-B638-30ED-A7A7-3D75F9D23B45</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_JacobiSVD_basic.vcxproj">
+      <Project>3DC5E150-9B6F-3628-86EC-D61B3D916A52</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_Jacobi_makeGivens.vcxproj">
+      <Project>569DDBD3-0A0A-328B-921F-89E1D5C188A6</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_Jacobi_makeJacobi.vcxproj">
+      <Project>16FCACC4-C662-30D0-96F9-B63553A8B992</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_LLT_example.vcxproj">
+      <Project>67D1FF24-0408-3507-B3AD-9D6D7AE51996</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_LLT_solve.vcxproj">
+      <Project>891FEFB9-714F-306E-99B8-F5A65D12DAFA</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_Map_general_stride.vcxproj">
+      <Project>269B4B5D-3F6B-3E2C-B7A3-E7B3C4FF0D51</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_Map_inner_stride.vcxproj">
+      <Project>AC36BA50-A1B7-3881-9C72-03A2C65507CA</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_Map_outer_stride.vcxproj">
+      <Project>FC483531-B487-3EA7-9FBE-4E8E62819E8C</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_Map_placement_new.vcxproj">
+      <Project>1E31064D-AAAE-36C5-A9BC-3A5E429AA7EB</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_Map_simple.vcxproj">
+      <Project>B49B3396-66EA-39ED-9F1F-387FC100B20C</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_adjoint.vcxproj">
+      <Project>C1D77C74-2234-3CFD-AE24-DD0EE9888B4B</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_all.vcxproj">
+      <Project>51ECE22A-7FE4-327F-93B9-F662F49B83D1</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_applyOnTheLeft.vcxproj">
+      <Project>6DAF3150-C115-324D-BFA8-FFF14877C6AB</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_applyOnTheRight.vcxproj">
+      <Project>8D5CE878-103B-3474-BEF4-9F507375A22E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_array.vcxproj">
+      <Project>7F1303BC-0D62-31D9-9CE2-C141479B143B</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_array_const.vcxproj">
+      <Project>37D5D47B-3C08-3B9F-AEF3-4787DB4BE633</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_asDiagonal.vcxproj">
+      <Project>ADB184E7-D890-3590-9737-CD4A4E0BC073</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_block_int_int.vcxproj">
+      <Project>5E474478-2618-3CC1-BEAA-E3F540659939</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_block_int_int_int_int.vcxproj">
+      <Project>B5AC0AE0-24B1-3C28-8554-2D76445C4765</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_bottomLeftCorner_int_int.vcxproj">
+      <Project>3962DA92-893B-397C-888F-6ED409B0CC03</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_bottomRightCorner_int_int.vcxproj">
+      <Project>6C88AE9E-8108-352E-BBEA-65992EE03512</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_bottomRows_int.vcxproj">
+      <Project>94B28725-1745-3ED0-A054-769D3D2BC1BE</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_cast.vcxproj">
+      <Project>7F45A679-715A-3BC3-9906-7FF05AD3E8F5</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_col.vcxproj">
+      <Project>1EA1633A-3EA0-3D8B-B471-65D56D061890</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_colwise.vcxproj">
+      <Project>5A893173-B5CB-3144-881C-6CAF0D410959</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_computeInverseAndDetWithCheck.vcxproj">
+      <Project>1CAF34A6-FA1D-33DD-9C58-CCF7924EE906</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_computeInverseWithCheck.vcxproj">
+      <Project>ED45DC7B-64D3-3BF2-832D-3185A3D0BDFD</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_cwiseAbs.vcxproj">
+      <Project>27D13A43-4357-3500-8FD2-9FDA2E778C7F</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_cwiseAbs2.vcxproj">
+      <Project>014A7105-D575-3E0F-81B8-5209876EB4DA</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_cwiseEqual.vcxproj">
+      <Project>E7CF735B-4F0D-3DEC-98AC-93BB91BC49C4</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_cwiseInverse.vcxproj">
+      <Project>6F9C9828-4028-3D05-A17C-D229C3AE686D</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_cwiseMax.vcxproj">
+      <Project>7105AE71-E844-36DB-B733-0F131016EC47</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_cwiseMin.vcxproj">
+      <Project>2861057D-13C0-31DB-93B3-1F44970672DA</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_cwiseNotEqual.vcxproj">
+      <Project>DDFC6FFD-D228-3B73-86A6-24FD924D28D5</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_cwiseProduct.vcxproj">
+      <Project>1121EBD2-E412-3268-B21F-FCFBB90E2FAB</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_cwiseQuotient.vcxproj">
+      <Project>2CE61F85-4F51-3794-8C31-FBE173FA092E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_cwiseSqrt.vcxproj">
+      <Project>CC853B4F-2EBC-35CA-A703-51B0434F0C26</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_diagonal.vcxproj">
+      <Project>EC08C3A3-7460-34A2-A78E-FFF1D2701A08</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_diagonal_int.vcxproj">
+      <Project>196E74C8-8C9A-3552-8B2F-542392AF867D</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_diagonal_template_int.vcxproj">
+      <Project>68B0CC3E-E3E1-33B6-B312-28AB4C01CA55</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_eigenvalues.vcxproj">
+      <Project>45ADF5B9-0071-33E9-9EBC-0F2D4FE2891A</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_end_int.vcxproj">
+      <Project>4096C1A6-E2BD-3568-9203-9AE8734B1E06</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_eval.vcxproj">
+      <Project>4CD02AB0-41DA-332D-ACDB-B7462A2BA137</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_extract.vcxproj">
+      <Project>65637A98-CA56-3665-B890-10DB4307CD62</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_fixedBlock_int_int.vcxproj">
+      <Project>E644A34F-A5F6-37FD-909E-27E124DBF189</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_identity.vcxproj">
+      <Project>B5ED83FF-E0EB-3680-8376-4F7BDF130EC0</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_identity_int_int.vcxproj">
+      <Project>8C5988D9-1413-3962-9AB3-AB81C8A66B7F</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_inverse.vcxproj">
+      <Project>12A6B471-C7FB-39BB-AF86-381283E1114F</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_isDiagonal.vcxproj">
+      <Project>3177A1D9-53A5-3508-870C-F102066BB296</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_isIdentity.vcxproj">
+      <Project>0A120504-ECB5-3D23-98A6-3E7F077156B5</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_isOnes.vcxproj">
+      <Project>F99EE277-AD17-3AEB-A37F-D33BB845DD63</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_isOrthogonal.vcxproj">
+      <Project>9215E31B-D003-3FE6-BDE4-6855C7CC260C</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_isUnitary.vcxproj">
+      <Project>FC8C8F61-86BF-32D3-8C87-819A16CD1895</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_isZero.vcxproj">
+      <Project>B87DEF33-DC93-3FCC-A9BC-6B2DF4C26143</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_leftCols_int.vcxproj">
+      <Project>EEF963E2-953A-3F4C-89C1-57D2C1BAE1A2</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_marked.vcxproj">
+      <Project>CA0798B9-3A0C-3665-945F-6D46D07F01E5</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_noalias.vcxproj">
+      <Project>E71111FE-E43B-3ACA-A355-99894E2BD6CB</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_ones.vcxproj">
+      <Project>F28688DD-2B6C-335C-9DA6-14C8C4C9E65F</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_ones_int.vcxproj">
+      <Project>D3DECB8B-DE90-3252-91BC-BB7DEF2DF655</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_ones_int_int.vcxproj">
+      <Project>1D79FC62-B4B5-37AD-97C8-03B7AE67847E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_operatorNorm.vcxproj">
+      <Project>01818BB7-85E6-38E9-8370-FA6488049137</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_part.vcxproj">
+      <Project>D7F8B76F-C5AE-35B1-9EC4-978A64F120A3</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_prod.vcxproj">
+      <Project>E2658EFD-7EA3-308F-BAC1-178899682F09</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_random.vcxproj">
+      <Project>C162C8BF-D447-3A24-AC24-5637C9BB6E3A</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_random_int.vcxproj">
+      <Project>0629A206-EAB2-3059-B966-100829C68AFD</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_random_int_int.vcxproj">
+      <Project>66F5EC53-9C88-35EA-A66E-8F61B6DB41DB</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_replicate.vcxproj">
+      <Project>491A6D1A-0664-37D4-85AF-09240745D38D</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_replicate_int_int.vcxproj">
+      <Project>63943EE8-A380-326F-A2B4-D5256B8F19B6</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_reverse.vcxproj">
+      <Project>A66BE00A-7CE5-36CD-B5A7-B2D28C1D7BFD</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_rightCols_int.vcxproj">
+      <Project>43B83DCF-4A09-3BD2-AD45-51BA49352F48</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_row.vcxproj">
+      <Project>795B209C-600D-3E92-A9C3-8ED6FE56896B</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_rowwise.vcxproj">
+      <Project>2D2A29BE-C179-3D2E-BBE4-C4E8B61FE552</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_segment_int_int.vcxproj">
+      <Project>9A90555F-4825-3566-B211-D68B4009B393</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_select.vcxproj">
+      <Project>55F5BD90-47E0-327F-BE04-2B8753C47F20</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_set.vcxproj">
+      <Project>EA1B6DCA-4D3C-3B8C-BFF2-FF34A46C5915</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_setIdentity.vcxproj">
+      <Project>30041FB7-AA13-3740-9560-F326DCF695EC</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_setOnes.vcxproj">
+      <Project>70F2768C-2EFB-37E3-9D14-BF1EF9B4145C</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_setRandom.vcxproj">
+      <Project>0F94C150-98A4-3FC5-8917-828382058738</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_setZero.vcxproj">
+      <Project>E529563F-E2E3-3BB2-9D50-15890486ECE4</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_start_int.vcxproj">
+      <Project>BC1C8463-07BB-30D1-8CFE-79F5FB16CEF9</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_template_int_bottomRows.vcxproj">
+      <Project>D315CCFA-647E-3B32-8396-83A3CB8B8DA0</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_template_int_end.vcxproj">
+      <Project>7A96D582-C921-36BF-872E-E4D5BBCBBD70</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_template_int_int_block_int_int_int_int.vcxproj">
+      <Project>057EB2EE-ADD0-31B0-AA8C-722E2769F384</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_template_int_int_bottomLeftCorner.vcxproj">
+      <Project>ACBD84B4-12E6-3133-B003-660D8E54554D</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_template_int_int_bottomLeftCorner_int_int.vcxproj">
+      <Project>462EC265-C23C-355F-9B88-A381F6082C06</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_template_int_int_bottomRightCorner.vcxproj">
+      <Project>1024D3EE-ED6A-33DD-A861-4FF3C381E7A7</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_template_int_int_bottomRightCorner_int_int.vcxproj">
+      <Project>29994D5F-14F2-315A-B93E-6FB8B9D76978</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_template_int_int_topLeftCorner.vcxproj">
+      <Project>6A42F3DB-DBB3-3700-AD7E-6B747DF7B40E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_template_int_int_topLeftCorner_int_int.vcxproj">
+      <Project>2C1BFDC2-7BE4-39B9-A868-C212A2830758</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_template_int_int_topRightCorner.vcxproj">
+      <Project>58339DA7-F5DF-3A91-B222-63C29E4451D9</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_template_int_int_topRightCorner_int_int.vcxproj">
+      <Project>A0D505F6-B8A1-30B8-9C15-CE836B8E8AB5</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_template_int_leftCols.vcxproj">
+      <Project>0E7A0622-D5A5-3299-A0D7-044C5F85FFEE</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_template_int_rightCols.vcxproj">
+      <Project>2A5B4B04-8143-30E0-BAA5-247614213DC7</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_template_int_segment.vcxproj">
+      <Project>72BC4161-5E32-3BBA-ABF4-B3217AC8DA68</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_template_int_start.vcxproj">
+      <Project>DBDF2D2E-84A2-370E-A2E3-468D6ECCC254</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_template_int_topRows.vcxproj">
+      <Project>FE9CE75E-78C9-3408-B71B-619F1A798A6E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_topLeftCorner_int_int.vcxproj">
+      <Project>474F7FD2-0600-3D6E-AE6E-3278612B03E6</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_topRightCorner_int_int.vcxproj">
+      <Project>A1EF7439-527D-377C-953E-3EC2EA622A36</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_topRows_int.vcxproj">
+      <Project>74772D57-FE8D-3CAB-A59F-90E06263E6C0</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_transpose.vcxproj">
+      <Project>27B1304C-6A78-36B8-BC96-A60F236F8A68</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_zero.vcxproj">
+      <Project>2DA4D3A2-A3C3-32DF-B948-496D1517B786</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_zero_int.vcxproj">
+      <Project>C805E5CC-D645-3E25-B231-0314001F8733</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_MatrixBase_zero_int_int.vcxproj">
+      <Project>9E0BFF4A-FDB1-3434-95C4-9470DBA108D4</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_Matrix_resize_NoChange_int.vcxproj">
+      <Project>04828E4A-703B-321E-969E-670164F7DD44</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_Matrix_resize_int.vcxproj">
+      <Project>7BE2F709-9AB7-301A-9378-76AACD85011C</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_Matrix_resize_int_NoChange.vcxproj">
+      <Project>4CC071D0-5FD0-3D56-B0FC-3B983AB35818</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_Matrix_resize_int_int.vcxproj">
+      <Project>3FECD90E-F5F6-30A0-803C-C338699B0750</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_Matrix_setConstant_int.vcxproj">
+      <Project>25FD43B0-6520-3E85-A806-492D542821D5</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_Matrix_setConstant_int_int.vcxproj">
+      <Project>A3368266-6C96-3079-9B34-0047654566ED</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_Matrix_setIdentity_int_int.vcxproj">
+      <Project>D4DEAD10-CBF2-3F51-BF21-3136B8DFD1B5</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_Matrix_setOnes_int.vcxproj">
+      <Project>8979A1EC-368D-3F0F-9891-CBFAF7EF901A</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_Matrix_setOnes_int_int.vcxproj">
+      <Project>02ECE85F-5A15-381B-9C7F-AE0D47EA9DAE</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_Matrix_setRandom_int.vcxproj">
+      <Project>16F3D1AD-9F4C-3091-A4CD-9FD20045E357</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_Matrix_setRandom_int_int.vcxproj">
+      <Project>9F2EF322-76A5-3832-8F14-8C4AC0DF1604</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_Matrix_setZero_int.vcxproj">
+      <Project>31B97D89-4A14-3EDA-9CDB-7FAE176B64AF</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_Matrix_setZero_int_int.vcxproj">
+      <Project>2CD2C95A-4B80-37B8-804B-F6E1A33FBF03</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_PartialPivLU_solve.vcxproj">
+      <Project>F8F61F90-B803-34B1-9347-B835AFCA9B9D</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_PartialRedux_count.vcxproj">
+      <Project>82663906-5C24-3F4B-8782-0244621DC212</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_PartialRedux_maxCoeff.vcxproj">
+      <Project>5B8D739E-FB19-3897-9E8F-08554054FEB2</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_PartialRedux_minCoeff.vcxproj">
+      <Project>B32F2E1F-02FF-3F0E-840B-CC5813EDF71C</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_PartialRedux_norm.vcxproj">
+      <Project>A9222808-3C14-3739-83B5-CC2A1234E2E7</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_PartialRedux_prod.vcxproj">
+      <Project>43703247-3EB7-39EB-A0CA-362FB943C0D5</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_PartialRedux_squaredNorm.vcxproj">
+      <Project>87B61696-22BD-3559-87C2-30A580E836C1</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_PartialRedux_sum.vcxproj">
+      <Project>DAD24FB6-F152-336C-930E-64E0465292F8</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_RealQZ_compute.vcxproj">
+      <Project>2D7ABABD-495B-39B0-A455-09A437A75BEE</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_RealSchur_RealSchur_MatrixType.vcxproj">
+      <Project>C2E82024-0F96-314A-AA6E-4BA17498E9BD</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_RealSchur_compute.vcxproj">
+      <Project>8EFE5148-E0C3-369E-9A72-22FB845BF097</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_SelfAdjointEigenSolver_SelfAdjointEigenSolver.vcxproj">
+      <Project>78BE514F-B47E-3261-B5DD-F6E0B210DD53</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_SelfAdjointEigenSolver_SelfAdjointEigenSolver_MatrixType.vcxproj">
+      <Project>E874041B-2578-3E15-9AE8-B6EB655BEDD1</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_SelfAdjointEigenSolver_SelfAdjointEigenSolver_MatrixType2.vcxproj">
+      <Project>23304BBE-82B4-305A-A92E-118B47FB354C</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_SelfAdjointEigenSolver_compute_MatrixType.vcxproj">
+      <Project>1CFC6C55-780E-3D08-874A-947D37F83577</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_SelfAdjointEigenSolver_compute_MatrixType2.vcxproj">
+      <Project>E1CCDE90-ABF0-383F-8FB1-10E481E55571</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_SelfAdjointEigenSolver_eigenvalues.vcxproj">
+      <Project>4DDD3997-B8D9-339B-89A7-0F7DCDFE2FC8</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_SelfAdjointEigenSolver_eigenvectors.vcxproj">
+      <Project>3C0770E9-6C17-3454-B07E-86EE531CDF80</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_SelfAdjointEigenSolver_operatorInverseSqrt.vcxproj">
+      <Project>A5172368-CE7E-37F3-A7C0-104ACE9B0D8C</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_SelfAdjointEigenSolver_operatorSqrt.vcxproj">
+      <Project>0DB56248-451A-3C9C-810B-54EBCF367BFF</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_SelfAdjointView_eigenvalues.vcxproj">
+      <Project>FEC95241-FED2-3C73-AD22-F2FE96FBE1D4</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_SelfAdjointView_operatorNorm.vcxproj">
+      <Project>71C5D897-B717-3669-BA02-980AF6A19016</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_TopicAliasing_block.vcxproj">
+      <Project>3DE7930D-F825-3D9F-BBE4-A949F9810E41</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_TopicAliasing_block_correct.vcxproj">
+      <Project>BFCCF0E1-CA1A-32FD-A7DB-7BC4572C56CC</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_TopicAliasing_cwise.vcxproj">
+      <Project>C6A2B140-1C2C-3E7A-8D70-62A8380FDD03</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_TopicAliasing_mult1.vcxproj">
+      <Project>26887E84-E376-32DB-BAD7-417340D90F32</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_TopicAliasing_mult2.vcxproj">
+      <Project>BEF9C6D5-C117-338B-9CED-42DB54244D22</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_TopicAliasing_mult3.vcxproj">
+      <Project>D19DE87F-34CA-3B1D-9E3E-C5A92A53D5B7</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_TopicStorageOrders_example.vcxproj">
+      <Project>09FE6285-D1E4-3F00-802C-7909FD55C971</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_Tridiagonalization_Tridiagonalization_MatrixType.vcxproj">
+      <Project>40210BAE-57D2-3FFA-8038-223AB668A720</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_Tridiagonalization_compute.vcxproj">
+      <Project>0D0A7D97-2405-3426-9AEC-3E696D723EE5</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_Tridiagonalization_decomposeInPlace.vcxproj">
+      <Project>1A178A58-07EB-3248-9A36-96655336A814</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_Tridiagonalization_diagonal.vcxproj">
+      <Project>03EFCA6E-E6B6-348C-A1E4-57D3CCD0FDD4</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_Tridiagonalization_householderCoefficients.vcxproj">
+      <Project>E7A98F49-9885-3891-9556-3E1FD020DB37</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_Tridiagonalization_packedMatrix.vcxproj">
+      <Project>C304108D-B937-356C-A2E1-CDAA3A41DC15</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_Tutorial_AdvancedInitialization_Block.vcxproj">
+      <Project>2C638830-CF47-31AA-AFA9-0D7E4BC41C5F</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_Tutorial_AdvancedInitialization_CommaTemporary.vcxproj">
+      <Project>9EB87D6B-01CE-3DAC-B03B-7A5A4D062AD0</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_Tutorial_AdvancedInitialization_Join.vcxproj">
+      <Project>41725171-BBB5-35CC-9B4A-FB5FDE683F18</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_Tutorial_AdvancedInitialization_LinSpaced.vcxproj">
+      <Project>FAA7B0A3-2A95-390F-9018-7EE5ACC64D9D</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_Tutorial_AdvancedInitialization_ThreeWays.vcxproj">
+      <Project>15E9FFA9-32D4-335D-986E-9A69EC86D4BB</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_Tutorial_AdvancedInitialization_Zero.vcxproj">
+      <Project>FC31FD83-ABDC-3B31-8B4F-611827E6EF4A</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_Tutorial_Map_rowmajor.vcxproj">
+      <Project>C1563A0C-1824-3277-8BA9-79B10BE694B0</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_Tutorial_Map_using.vcxproj">
+      <Project>CE6FDCBD-0AFA-341E-B102-632730F136A6</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_Tutorial_commainit_01.vcxproj">
+      <Project>88C3C8D9-F7E1-3500-B3AE-A71712DD5D54</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_Tutorial_commainit_01b.vcxproj">
+      <Project>95EFED2A-B8E5-3060-9F9F-78D263A0BE40</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_Tutorial_commainit_02.vcxproj">
+      <Project>69AD1BF6-15E7-3D45-924E-880158D5AA7B</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_Tutorial_solve_matrix_inverse.vcxproj">
+      <Project>15B83576-3908-3064-B152-089EC0E5EE47</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_Tutorial_solve_multiple_rhs.vcxproj">
+      <Project>1F8B0C3D-82FA-3111-97F3-C249D7B5FE66</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_Tutorial_solve_reuse_decomposition.vcxproj">
+      <Project>A5AC3E0F-5673-316A-BB33-D1480C768E8B</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_Tutorial_solve_singular.vcxproj">
+      <Project>3411FBC1-4453-3A0A-A7E4-7B3A2FC10520</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_Tutorial_solve_triangular.vcxproj">
+      <Project>A4C49281-3085-397A-90BC-017500AE9051</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_Tutorial_solve_triangular_inplace.vcxproj">
+      <Project>064A3CF4-6E48-3676-8E1C-34F84701F875</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_Vectorwise_reverse.vcxproj">
+      <Project>74B4F0F1-AEC1-3612-ACB4-F7984E5B3626</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_class_FullPivLU.vcxproj">
+      <Project>8EB94129-4801-330A-8346-AE532272EAE5</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_tut_arithmetic_redux_minmax.vcxproj">
+      <Project>89E6BEEF-4F5D-3365-BC2C-BF57F12F75A6</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_tut_arithmetic_transpose_aliasing.vcxproj">
+      <Project>9B5D7BE8-80C5-3B61-B9DA-192983906493</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_tut_arithmetic_transpose_conjugate.vcxproj">
+      <Project>B4178EB7-B865-360F-BEBB-FC0140781E19</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_tut_arithmetic_transpose_inplace.vcxproj">
+      <Project>51EEB40C-A530-3472-9139-966F87DD37A0</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/doc/snippets/compile_tut_matrix_assignment_resizing.vcxproj">
+      <Project>EFD50777-8255-3B95-957A-45BE03B4C6A7</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

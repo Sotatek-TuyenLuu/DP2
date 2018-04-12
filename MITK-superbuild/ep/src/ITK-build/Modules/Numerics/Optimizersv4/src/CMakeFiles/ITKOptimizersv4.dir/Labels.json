@@ -1,0 +1,35 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/Numerics/Optimizersv4/src/itkSingleValuedNonLinearVnlOptimizerv4.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/Numerics/Optimizersv4/src/itkSingleValuedVnlCostFunctionAdaptorv4.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/Numerics/Optimizersv4/src/itkLBFGSOptimizerv4.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/Numerics/Optimizersv4/src/itkLBFGSBOptimizerv4.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/Numerics/Optimizersv4/src/itkAmoebaOptimizerv4.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/Numerics/Optimizersv4/src/CMakeLists.txt"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "ITKOptimizersv4" ],
+		"name" : "ITKOptimizersv4"
+	}
+}

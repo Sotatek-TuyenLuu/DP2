@@ -1,0 +1,719 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{B66996CB-EA60-342E-A7C9-76CE7914E703}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>vtkCommonCore</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\bin\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">vtkCommonCore.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">vtkCommonCore-6.2d</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\bin\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">vtkCommonCore.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">vtkCommonCore-6.2</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\bin\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">vtkCommonCore.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">vtkCommonCore-6.2</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\bin\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">vtkCommonCore.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">vtkCommonCore-6.2</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\utf8\source;E:\D\MITK-superbuild\ep\src\VTK-build\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core;E:\D\MITK-superbuild\ep\src\VTK\Common\Core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR="Debug";vtkCommonCore_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR=\"Debug\";vtkCommonCore_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\utf8\source;E:\D\MITK-superbuild\ep\src\VTK-build\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core;E:\D\MITK-superbuild\ep\src\VTK\Common\Core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\utf8\source;E:\D\MITK-superbuild\ep\src\VTK-build\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core;E:\D\MITK-superbuild\ep\src\VTK\Common\Core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\Debug\vtksys-6.2d.lib;ws2_32.lib;Psapi.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/ep/src/VTK-build/lib/Debug/vtkCommonCore-6.2d.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/ep/src/VTK-build/bin/Debug/vtkCommonCore-6.2d.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\utf8\source;E:\D\MITK-superbuild\ep\src\VTK-build\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core;E:\D\MITK-superbuild\ep\src\VTK\Common\Core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR="Release";vtkCommonCore_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR=\"Release\";vtkCommonCore_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\utf8\source;E:\D\MITK-superbuild\ep\src\VTK-build\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core;E:\D\MITK-superbuild\ep\src\VTK\Common\Core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\utf8\source;E:\D\MITK-superbuild\ep\src\VTK-build\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core;E:\D\MITK-superbuild\ep\src\VTK\Common\Core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\Release\vtksys-6.2.lib;ws2_32.lib;Psapi.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/ep/src/VTK-build/lib/Release/vtkCommonCore-6.2.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/ep/src/VTK-build/bin/Release/vtkCommonCore-6.2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\utf8\source;E:\D\MITK-superbuild\ep\src\VTK-build\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core;E:\D\MITK-superbuild\ep\src\VTK\Common\Core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR="MinSizeRel";vtkCommonCore_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR=\"MinSizeRel\";vtkCommonCore_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\utf8\source;E:\D\MITK-superbuild\ep\src\VTK-build\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core;E:\D\MITK-superbuild\ep\src\VTK\Common\Core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\utf8\source;E:\D\MITK-superbuild\ep\src\VTK-build\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core;E:\D\MITK-superbuild\ep\src\VTK\Common\Core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\MinSizeRel\vtksys-6.2.lib;ws2_32.lib;Psapi.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/ep/src/VTK-build/lib/MinSizeRel/vtkCommonCore-6.2.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/ep/src/VTK-build/bin/MinSizeRel/vtkCommonCore-6.2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\utf8\source;E:\D\MITK-superbuild\ep\src\VTK-build\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core;E:\D\MITK-superbuild\ep\src\VTK\Common\Core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR="RelWithDebInfo";vtkCommonCore_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;VTK_IN_VTK;CMAKE_INTDIR=\"RelWithDebInfo\";vtkCommonCore_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\utf8\source;E:\D\MITK-superbuild\ep\src\VTK-build\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core;E:\D\MITK-superbuild\ep\src\VTK\Common\Core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\VTK\ThirdParty\utf8\source;E:\D\MITK-superbuild\ep\src\VTK-build\Common\DataModel;E:\D\MITK-superbuild\ep\src\VTK-build\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK\Utilities\KWSys;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core;E:\D\MITK-superbuild\ep\src\VTK\Common\Core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\RelWithDebInfo\vtksys-6.2.lib;ws2_32.lib;Psapi.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/ep/src/VTK-build/lib/RelWithDebInfo/vtkCommonCore-6.2.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/ep/src/VTK-build/bin/RelWithDebInfo/vtkCommonCore-6.2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/VTK/Common/Core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/VTK -BE:/D/MITK-superbuild/ep/src/VTK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/VTK/Common/Core/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\SMP\Sequential\vtkAtomicInt.h.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\SMP\Sequential\vtkSMPThreadLocal.h.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\SMP\Sequential\vtkSMPToolsInternal.h.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkUnicodeString.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkVersionMacros.h.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkConfigure.h.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkToolkits.h.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.h.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.cxx.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.h.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.cxx.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.h.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.cxx.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.h.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.cxx.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.h.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.cxx.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.h.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.cxx.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.h.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.cxx.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.h.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.cxx.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.h.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.cxx.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.h.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.cxx.in;E:\D\MITK-superbuild\ep\src\VTK\CMake\CheckCXXExpressionCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkMathConfigure.h.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.c.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkFloatingPointExceptionsConfigure.h.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\module.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtksys.cmake;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkMakeInstantiator.h.in;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkMakeInstantiator.cxx.in;E:\D\MITK-superbuild\ep\src\VTK\CMake\exportheader.cmake.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\module.cmake;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkModuleHeaders.cmake.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/VTK/Common/Core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/VTK -BE:/D/MITK-superbuild/ep/src/VTK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/VTK/Common/Core/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\SMP\Sequential\vtkAtomicInt.h.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\SMP\Sequential\vtkSMPThreadLocal.h.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\SMP\Sequential\vtkSMPToolsInternal.h.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkUnicodeString.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkVersionMacros.h.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkConfigure.h.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkToolkits.h.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.h.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.cxx.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.h.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.cxx.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.h.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.cxx.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.h.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.cxx.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.h.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.cxx.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.h.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.cxx.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.h.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.cxx.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.h.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.cxx.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.h.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.cxx.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.h.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.cxx.in;E:\D\MITK-superbuild\ep\src\VTK\CMake\CheckCXXExpressionCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkMathConfigure.h.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.c.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkFloatingPointExceptionsConfigure.h.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\module.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtksys.cmake;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkMakeInstantiator.h.in;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkMakeInstantiator.cxx.in;E:\D\MITK-superbuild\ep\src\VTK\CMake\exportheader.cmake.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\module.cmake;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkModuleHeaders.cmake.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/VTK/Common/Core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/VTK -BE:/D/MITK-superbuild/ep/src/VTK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/VTK/Common/Core/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\SMP\Sequential\vtkAtomicInt.h.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\SMP\Sequential\vtkSMPThreadLocal.h.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\SMP\Sequential\vtkSMPToolsInternal.h.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkUnicodeString.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkVersionMacros.h.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkConfigure.h.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkToolkits.h.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.h.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.cxx.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.h.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.cxx.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.h.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.cxx.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.h.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.cxx.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.h.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.cxx.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.h.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.cxx.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.h.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.cxx.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.h.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.cxx.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.h.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.cxx.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.h.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.cxx.in;E:\D\MITK-superbuild\ep\src\VTK\CMake\CheckCXXExpressionCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkMathConfigure.h.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.c.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkFloatingPointExceptionsConfigure.h.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\module.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtksys.cmake;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkMakeInstantiator.h.in;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkMakeInstantiator.cxx.in;E:\D\MITK-superbuild\ep\src\VTK\CMake\exportheader.cmake.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\module.cmake;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkModuleHeaders.cmake.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/VTK/Common/Core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/VTK -BE:/D/MITK-superbuild/ep/src/VTK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/VTK/Common/Core/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\SMP\Sequential\vtkAtomicInt.h.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\SMP\Sequential\vtkSMPThreadLocal.h.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\SMP\Sequential\vtkSMPToolsInternal.h.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkUnicodeString.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkVersionMacros.h.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkConfigure.h.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkToolkits.h.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.h.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.cxx.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.h.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.cxx.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.h.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.cxx.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.h.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.cxx.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.h.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.cxx.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.h.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.cxx.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.h.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.cxx.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.h.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.cxx.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.h.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.cxx.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.h.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.cxx.in;E:\D\MITK-superbuild\ep\src\VTK\CMake\CheckCXXExpressionCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkMathConfigure.h.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.c.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkFloatingPointExceptionsConfigure.h.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\module.cmake;E:\D\MITK-superbuild\ep\src\VTK-build\lib\cmake\vtk-6.2\Modules\vtksys.cmake;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkMakeInstantiator.h.in;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkMakeInstantiator.cxx.in;E:\D\MITK-superbuild\ep\src\VTK\CMake\exportheader.cmake.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\module.cmake;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\VTK\CMake\vtkModuleHeaders.cmake.in;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\VTK-build\CMakeFiles\d2696034d9a4ee1a8842234a33edde29\vtkUnicodeCaseFoldData.h.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating vtkUnicodeCaseFoldData.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -P E:/D/MITK-superbuild/ep/src/VTK-build/Common/Core/vtkUnicodeString.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/d2696034d9a4ee1a8842234a33edde29/vtkUnicodeCaseFoldData.h.rule;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\CaseFolding.txt;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core\vtkUnicodeString.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core\vtkUnicodeCaseFoldData.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating vtkUnicodeCaseFoldData.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -P E:/D/MITK-superbuild/ep/src/VTK-build/Common/Core/vtkUnicodeString.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/d2696034d9a4ee1a8842234a33edde29/vtkUnicodeCaseFoldData.h.rule;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\CaseFolding.txt;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core\vtkUnicodeString.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core\vtkUnicodeCaseFoldData.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating vtkUnicodeCaseFoldData.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -P E:/D/MITK-superbuild/ep/src/VTK-build/Common/Core/vtkUnicodeString.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/d2696034d9a4ee1a8842234a33edde29/vtkUnicodeCaseFoldData.h.rule;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\CaseFolding.txt;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core\vtkUnicodeString.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core\vtkUnicodeCaseFoldData.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating vtkUnicodeCaseFoldData.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -P E:/D/MITK-superbuild/ep/src/VTK-build/Common/Core/vtkUnicodeString.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/VTK-build/CMakeFiles/d2696034d9a4ee1a8842234a33edde29/vtkUnicodeCaseFoldData.h.rule;E:\D\MITK-superbuild\ep\src\VTK\Common\Core\CaseFolding.txt;E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core\vtkUnicodeString.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core\vtkUnicodeCaseFoldData.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkMappedDataArray.txx" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedDataArray.txx" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkDataArrayTemplate.txx" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkDenseArray.txx" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkSparseArray.txx" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.txx" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypeTemplate.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkType.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkSystemIncludes.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkSMPThreadLocalObject.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkSMPTools.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core\vtkSMPToolsInternal.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core\vtkSMPThreadLocal.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core\vtkAtomicInt.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core\vtkConfigure.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core\vtkMathConfigure.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core\vtkVersionMacros.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkABI.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkArrayInterpolate.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkArrayInterpolate.txx" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkArrayIteratorIncludes.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkArrayIteratorTemplate.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkArrayIteratorTemplate.txx" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkArrayIteratorTemplateImplicit.txx" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkArrayPrint.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkArrayPrint.txx" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkAutoInit.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkDataArrayIteratorMacro.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkDataArrayTemplateImplicit.txx" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkIOStreamFwd.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkInformationInternals.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkMappedDataArray.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkMathUtilities.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkNew.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkSetGet.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkSmartPointer.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTemplateAliasMacro.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypeTraits.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedDataArray.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedDataArrayIterator.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkVariantCast.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkVariantCreate.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkVariantExtract.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkVariantInlineOperators.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkWeakPointer.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkWin32Header.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkWindows.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core\vtkToolkits.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkAbstractArray.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkAnimationCue.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkArrayCoordinates.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkArray.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkArrayExtents.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkArrayExtentsList.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkArrayIterator.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkArrayRange.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkArraySort.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkArrayWeights.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkBitArray.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkBitArrayIterator.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkBoxMuellerRandomSequence.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkBreakPoint.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkByteSwap.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkCallbackCommand.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkCharArray.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkCollection.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkCollectionIterator.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkCommand.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkCommonInformationKeyManager.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkConditionVariable.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkCriticalSection.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkDataArrayCollection.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkDataArrayCollectionIterator.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkDataArray.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkDataArraySelection.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkDebugLeaks.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkDebugLeaksManager.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkDoubleArray.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkDynamicLoader.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkEventForwarderCommand.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkFileOutputWindow.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkFloatArray.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkFloatingPointExceptions.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkGarbageCollector.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkGarbageCollectorManager.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkGaussianRandomSequence.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkIdListCollection.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkIdList.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkIdTypeArray.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkIndent.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkInformation.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkInformationDataObjectKey.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkInformationDoubleKey.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkInformationDoubleVectorKey.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkInformationIdTypeKey.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkInformationInformationKey.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkInformationInformationVectorKey.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkInformationIntegerKey.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkInformationIntegerPointerKey.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkInformationIntegerVectorKey.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkInformationIterator.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkInformationKey.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkInformationKeyVectorKey.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkInformationObjectBaseKey.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkInformationObjectBaseVectorKey.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkInformationRequestKey.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkInformationStringKey.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkInformationStringVectorKey.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkInformationUnsignedLongKey.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkInformationVariantKey.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkInformationVariantVectorKey.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkInformationVector.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkInstantiator.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkIntArray.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkIOStream.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkLargeInteger.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkLongArray.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkLookupTable.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkMath.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkMinimalStandardRandomSequence.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkMultiThreader.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkMutexLock.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkObjectBase.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkObject.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkObjectFactoryCollection.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkObjectFactory.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkOldStyleCallbackCommand.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkOStreamWrapper.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkOStrStreamWrapper.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkOutputWindow.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkOverrideInformationCollection.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkOverrideInformation.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkPoints2D.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkPoints.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkPriorityQueue.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkRandomSequence.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkReferenceCount.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkScalarsToColors.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkShortArray.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkSignedCharArray.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkSimpleCriticalSection.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkSmartPointerBase.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkSortDataArray.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkStdString.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkStringArray.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTimePointUtility.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTimeStamp.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkUnicodeStringArray.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkUnicodeString.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkUnsignedCharArray.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkUnsignedIntArray.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkUnsignedLongArray.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkUnsignedShortArray.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkVariantArray.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkVariant.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkVersion.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkVoidArray.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkWeakPointerBase.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkWindow.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkXMLFileOutputWindow.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkDataArrayTemplate.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkDataArrayTemplateHelper.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkDenseArray.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkSparseArray.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTypedArray.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkWin32OutputWindow.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkWin32ProcessOutputWindow.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkLongLongArray.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkUnsignedLongLongArray.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core\vtkTypeInt8Array.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core\vtkTypeInt16Array.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core\vtkTypeInt32Array.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core\vtkTypeInt64Array.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core\vtkTypeUInt8Array.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core\vtkTypeUInt16Array.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core\vtkTypeUInt32Array.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core\vtkTypeUInt64Array.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core\vtkTypeFloat32Array.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core\vtkTypeFloat64Array.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core\vtkCommonCoreModule.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core\vtkCommonCoreInstantiator.h" />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkAbstractArray.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkAnimationCue.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkArrayCoordinates.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkArray.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkArrayExtents.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkArrayExtentsList.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkArrayIterator.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkArrayRange.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkArraySort.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkArrayWeights.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkBitArray.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkBitArrayIterator.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkBoxMuellerRandomSequence.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkBreakPoint.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkByteSwap.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkCallbackCommand.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkCharArray.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkCollection.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkCollectionIterator.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkCommand.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkCommonInformationKeyManager.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkConditionVariable.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkCriticalSection.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkDataArrayCollection.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkDataArrayCollectionIterator.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkDataArray.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkDataArraySelection.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkDebugLeaks.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkDebugLeaksManager.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkDoubleArray.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkDynamicLoader.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkEventForwarderCommand.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkFileOutputWindow.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkFloatArray.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkFloatingPointExceptions.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkGarbageCollector.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkGarbageCollectorManager.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkGaussianRandomSequence.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkIdListCollection.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkIdList.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkIdTypeArray.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkIndent.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkInformation.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkInformationDataObjectKey.cxx" >
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">vtkCommonDataModel_ENABLED;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">vtkCommonDataModel_ENABLED;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">vtkCommonDataModel_ENABLED;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">vtkCommonDataModel_ENABLED;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkInformationDoubleKey.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkInformationDoubleVectorKey.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkInformationIdTypeKey.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkInformationInformationKey.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkInformationInformationVectorKey.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkInformationIntegerKey.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkInformationIntegerPointerKey.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkInformationIntegerVectorKey.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkInformationIterator.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkInformationKey.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkInformationKeyVectorKey.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkInformationObjectBaseKey.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkInformationObjectBaseVectorKey.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkInformationRequestKey.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkInformationStringKey.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkInformationStringVectorKey.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkInformationUnsignedLongKey.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkInformationVariantKey.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkInformationVariantVectorKey.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkInformationVector.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkInstantiator.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkIntArray.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkIOStream.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkLargeInteger.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkLongArray.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkLookupTable.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkMath.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkMinimalStandardRandomSequence.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkMultiThreader.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkMutexLock.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkObjectBase.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkObject.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkObjectFactoryCollection.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkObjectFactory.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkOldStyleCallbackCommand.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkOStreamWrapper.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkOStrStreamWrapper.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkOutputWindow.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkOverrideInformationCollection.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkOverrideInformation.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkPoints2D.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkPoints.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkPriorityQueue.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkRandomSequence.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkReferenceCount.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkScalarsToColors.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkShortArray.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkSignedCharArray.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkSimpleCriticalSection.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkSmartPointerBase.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkSortDataArray.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkStdString.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkStringArray.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTimePointUtility.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkTimeStamp.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkUnicodeStringArray.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkUnicodeString.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkUnsignedCharArray.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkUnsignedIntArray.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkUnsignedLongArray.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkUnsignedShortArray.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkVariantArray.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkVariant.cxx" >
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">VTK_VARIANT_IMPL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">VTK_VARIANT_IMPL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">VTK_VARIANT_IMPL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">VTK_VARIANT_IMPL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkVersion.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkVoidArray.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkWeakPointerBase.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkWindow.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkXMLFileOutputWindow.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkDataArrayTemplateHelper.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\SMP\Sequential\vtkAtomicInt.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\SMP\Sequential\vtkSMPTools.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkWin32OutputWindow.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkWin32OutputWindowProcessEncoded.c" >
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkWin32ProcessOutputWindow.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkLongLongArray.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK\Common\Core\vtkUnsignedLongLongArray.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core\vtkTypeInt8Array.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core\vtkTypeInt16Array.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core\vtkTypeInt32Array.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core\vtkTypeInt64Array.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core\vtkTypeUInt8Array.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core\vtkTypeUInt16Array.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core\vtkTypeUInt32Array.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core\vtkTypeUInt64Array.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core\vtkTypeFloat32Array.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core\vtkTypeFloat64Array.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\VTK-build\Common\Core\vtkCommonCoreInstantiator.cxx"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/VTK-build/ZERO_CHECK.vcxproj">
+      <Project>96A894C7-FD6E-37E5-A6D0-C197A99428A9</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/VTK-build/Utilities/KWSys/vtksys/vtksys.vcxproj">
+      <Project>CE52E7D4-3A10-3D59-97AD-F5358A6AC285</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

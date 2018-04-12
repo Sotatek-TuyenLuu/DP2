@@ -1,0 +1,41 @@
+
+#ifndef MITKMAPPEREXT_EXPORT_H
+#define MITKMAPPEREXT_EXPORT_H
+
+#ifdef MITKMAPPEREXT_STATIC_DEFINE
+#  define MITKMAPPEREXT_EXPORT
+#  define MITKMAPPEREXT_NO_EXPORT
+#else
+#  ifndef MITKMAPPEREXT_EXPORT
+#    ifdef MitkMapperExt_EXPORTS
+        /* We are building this library */
+#      define MITKMAPPEREXT_EXPORT __declspec(dllexport)
+#    else
+        /* We are using this library */
+#      define MITKMAPPEREXT_EXPORT __declspec(dllimport)
+#    endif
+#  endif
+
+#  ifndef MITKMAPPEREXT_NO_EXPORT
+#    define MITKMAPPEREXT_NO_EXPORT 
+#  endif
+#endif
+
+#ifndef MITKMAPPEREXT_DEPRECATED
+#  define MITKMAPPEREXT_DEPRECATED __declspec(deprecated)
+#endif
+
+#ifndef MITKMAPPEREXT_DEPRECATED_EXPORT
+#  define MITKMAPPEREXT_DEPRECATED_EXPORT MITKMAPPEREXT_EXPORT MITKMAPPEREXT_DEPRECATED
+#endif
+
+#ifndef MITKMAPPEREXT_DEPRECATED_NO_EXPORT
+#  define MITKMAPPEREXT_DEPRECATED_NO_EXPORT MITKMAPPEREXT_NO_EXPORT MITKMAPPEREXT_DEPRECATED
+#endif
+
+#define DEFINE_NO_DEPRECATED 0
+#if DEFINE_NO_DEPRECATED
+# define MITKMAPPEREXT_NO_DEPRECATED
+#endif
+
+#endif

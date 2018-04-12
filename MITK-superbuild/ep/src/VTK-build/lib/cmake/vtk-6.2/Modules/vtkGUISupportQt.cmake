@@ -1,0 +1,18 @@
+set(vtkGUISupportQt_LOADED 1)
+set(vtkGUISupportQt_DEPENDS "vtkCommonExecutionModel;vtkFiltersExtraction;vtkImagingCore;vtkInteractionStyle;vtkRenderingOpenGL")
+set(vtkGUISupportQt_LIBRARIES "vtkGUISupportQt")
+set(vtkGUISupportQt_INCLUDE_DIRS "E:/D/MITK-superbuild/ep/src/VTK-build/GUISupport/Qt;E:/D/MITK-superbuild/ep/src/VTK/GUISupport/Qt")
+set(vtkGUISupportQt_LIBRARY_DIRS "")
+set(vtkGUISupportQt_RUNTIME_LIBRARY_DIRS "E:/D/MITK-superbuild/ep/src/VTK-build/bin")
+set(vtkGUISupportQt_WRAP_HIERARCHY_FILE "")
+set(VTK_QT_RCC_EXECUTABLE "")
+set(VTK_QT_MOC_EXECUTABLE "C:/Qt/5.4/msvc2013_opengl/bin/moc.exe")
+set(VTK_QT_UIC_EXECUTABLE "")
+set(VTK_QT_QMAKE_EXECUTABLE "")
+set(vtkGUISupportQt_EXCLUDE_FROM_WRAPPING 1)
+
+if(NOT Qt5Widgets_DIR)
+  set(Qt5Widgets_DIR "C:/Qt/5.4/msvc2013_opengl/lib/cmake/Qt5Widgets")
+endif()
+find_package(Qt5Widgets REQUIRED QUIET)
+

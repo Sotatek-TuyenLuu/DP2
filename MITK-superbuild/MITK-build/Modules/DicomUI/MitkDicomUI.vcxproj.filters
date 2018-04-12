@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\DicomUI\us_init.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\DicomUI\src\QmitkDicomLocalStorageWidget.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\DicomUI\src\QmitkDicomExternalDataWidget.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\DicomUI\include\moc_QmitkDicomLocalStorageWidget.cpp">
+      <Filter>Generated\Qt MOC Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\DicomUI\include\moc_QmitkDicomExternalDataWidget.cpp">
+      <Filter>Generated\Qt MOC Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\D\MITK\Modules\DicomUI\include\QmitkDicomExternalDataWidget.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\DicomUI\include\QmitkDicomLocalStorageWidget.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Modules\DicomUI\ui_QmitkDicomLocalStorageWidgetControls.h">
+      <Filter>Generated\Qt UI Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Modules\DicomUI\ui_QmitkDicomExternalDataWidgetControls.h">
+      <Filter>Generated\Qt UI Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK\Modules\DicomUI\src\QmitkDicomLocalStorageWidgetControls.ui">
+      <Filter>QT UI Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK\Modules\DicomUI\src\QmitkDicomExternalDataWidgetControls.ui">
+      <Filter>QT UI Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK\Modules\DicomUI\CMakeLists.txt" />
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\5d5c54b6fde6acefcfe681ec3b4eae86\moc_QmitkDicomLocalStorageWidget.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\5d5c54b6fde6acefcfe681ec3b4eae86\moc_QmitkDicomExternalDataWidget.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Generated\Qt UI Header Files">
+      <UniqueIdentifier>{2D3E25A1-F9DB-36EC-96F3-AA37A8022068}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated\Qt MOC Source Files">
+      <UniqueIdentifier>{B42DA33F-2448-3D6E-A532-40F314971B47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{CAC8648D-C086-3462-B846-B0EBFA3DCB4A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated">
+      <UniqueIdentifier>{7FA4B4B1-5C9C-314E-A0B9-36873EE561F1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="== Source Files ==">
+      <UniqueIdentifier>{9CA70B67-B51F-303F-96AF-687940E0FEA8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="== Header Files ==">
+      <UniqueIdentifier>{4D89E91A-663E-32FD-A047-724E4EC4BA98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="QT UI Files">
+      <UniqueIdentifier>{A7973F98-B74E-37EA-8F4A-12BAE98DFBF1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

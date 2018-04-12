@@ -1,0 +1,2019 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{BE5C7CCC-FCCD-3A0F-BBD3-BED559AF2788}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>CTKDICOMWidgets</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\bin\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CTKDICOMWidgets.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CTKDICOMWidgets</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\bin\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CTKDICOMWidgets.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CTKDICOMWidgets</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\bin\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CTKDICOMWidgets.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CTKDICOMWidgets</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\bin\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CTKDICOMWidgets.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CTKDICOMWidgets</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\Resources\UI;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Core;E:\D\MITK-superbuild\ep\src\CTK\Libs\Widgets;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Widgets;E:\D\MITK-superbuild\ep\src\CTK\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Core;E:\D\MITK-superbuild\ep\include\dcmtk\config;E:\D\MITK-superbuild\ep\include;E:\D\MITK-superbuild\ep\include\dcmtk\dcmdata;E:\D\MITK-superbuild\ep\include\dcmtk\dcmimage;E:\D\MITK-superbuild\ep\include\dcmtk\dcmimgle;E:\D\MITK-superbuild\ep\include\dcmtk\dcmjpeg;E:\D\MITK-superbuild\ep\include\dcmtk\dcmjpls;E:\D\MITK-superbuild\ep\include\dcmtk\dcmnet;E:\D\MITK-superbuild\ep\include\dcmtk\dcmpstat;E:\D\MITK-superbuild\ep\include\dcmtk\dcmqrdb;E:\D\MITK-superbuild\ep\include\dcmtk\dcmsign;E:\D\MITK-superbuild\ep\include\dcmtk\dcmsr;E:\D\MITK-superbuild\ep\include\dcmtk\dcmtls;E:\D\MITK-superbuild\ep\include\dcmtk\ofstd;E:\D\MITK-superbuild\ep\include\dcmtk\oflog;E:\D\MITK-superbuild\ep\include\dcmtk;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtSql;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtWidgets;C:\Qt\5.4\msvc2013_opengl\include\QtXml;C:\Qt\5.4\msvc2013_opengl\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4290</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NOMINMAX;_DEBUG;QT_CORE_LIB;QT_SQL_LIB;QT_GUI_LIB;QT_WIDGETS_LIB;QT_XML_LIB;QT_OPENGL_LIB;CMAKE_INTDIR="Debug";CTKDICOMWidgets_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NOMINMAX;_DEBUG;QT_CORE_LIB;QT_SQL_LIB;QT_GUI_LIB;QT_WIDGETS_LIB;QT_XML_LIB;QT_OPENGL_LIB;CMAKE_INTDIR=\"Debug\";CTKDICOMWidgets_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\Resources\UI;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Core;E:\D\MITK-superbuild\ep\src\CTK\Libs\Widgets;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Widgets;E:\D\MITK-superbuild\ep\src\CTK\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Core;E:\D\MITK-superbuild\ep\include\dcmtk\config;E:\D\MITK-superbuild\ep\include;E:\D\MITK-superbuild\ep\include\dcmtk\dcmdata;E:\D\MITK-superbuild\ep\include\dcmtk\dcmimage;E:\D\MITK-superbuild\ep\include\dcmtk\dcmimgle;E:\D\MITK-superbuild\ep\include\dcmtk\dcmjpeg;E:\D\MITK-superbuild\ep\include\dcmtk\dcmjpls;E:\D\MITK-superbuild\ep\include\dcmtk\dcmnet;E:\D\MITK-superbuild\ep\include\dcmtk\dcmpstat;E:\D\MITK-superbuild\ep\include\dcmtk\dcmqrdb;E:\D\MITK-superbuild\ep\include\dcmtk\dcmsign;E:\D\MITK-superbuild\ep\include\dcmtk\dcmsr;E:\D\MITK-superbuild\ep\include\dcmtk\dcmtls;E:\D\MITK-superbuild\ep\include\dcmtk\ofstd;E:\D\MITK-superbuild\ep\include\dcmtk\oflog;E:\D\MITK-superbuild\ep\include\dcmtk;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtSql;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtWidgets;C:\Qt\5.4\msvc2013_opengl\include\QtXml;C:\Qt\5.4\msvc2013_opengl\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\Resources\UI;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Core;E:\D\MITK-superbuild\ep\src\CTK\Libs\Widgets;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Widgets;E:\D\MITK-superbuild\ep\src\CTK\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Core;E:\D\MITK-superbuild\ep\include\dcmtk\config;E:\D\MITK-superbuild\ep\include;E:\D\MITK-superbuild\ep\include\dcmtk\dcmdata;E:\D\MITK-superbuild\ep\include\dcmtk\dcmimage;E:\D\MITK-superbuild\ep\include\dcmtk\dcmimgle;E:\D\MITK-superbuild\ep\include\dcmtk\dcmjpeg;E:\D\MITK-superbuild\ep\include\dcmtk\dcmjpls;E:\D\MITK-superbuild\ep\include\dcmtk\dcmnet;E:\D\MITK-superbuild\ep\include\dcmtk\dcmpstat;E:\D\MITK-superbuild\ep\include\dcmtk\dcmqrdb;E:\D\MITK-superbuild\ep\include\dcmtk\dcmsign;E:\D\MITK-superbuild\ep\include\dcmtk\dcmsr;E:\D\MITK-superbuild\ep\include\dcmtk\dcmtls;E:\D\MITK-superbuild\ep\include\dcmtk\ofstd;E:\D\MITK-superbuild\ep\include\dcmtk\oflog;E:\D\MITK-superbuild\ep\include\dcmtk;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtSql;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtWidgets;C:\Qt\5.4\msvc2013_opengl\include\QtXml;C:\Qt\5.4\msvc2013_opengl\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\..\bin\Debug\CTKDICOMCore.lib;..\..\..\bin\Debug\CTKWidgets.lib;E:\D\MITK-superbuild\ep\lib\dcmpstatd.lib;E:\D\MITK-superbuild\ep\lib\dcmsrd.lib;E:\D\MITK-superbuild\ep\lib\dcmtlsd.lib;E:\D\MITK-superbuild\ep\lib\dcmqrdbd.lib;E:\D\MITK-superbuild\ep\lib\dcmnetd.lib;E:\D\MITK-superbuild\ep\lib\dcmjpegd.lib;E:\D\MITK-superbuild\ep\lib\dcmimaged.lib;E:\D\MITK-superbuild\ep\lib\dcmimgled.lib;E:\D\MITK-superbuild\ep\lib\dcmdatad.lib;E:\D\MITK-superbuild\ep\lib\oflogd.lib;E:\D\MITK-superbuild\ep\lib\ofstdd.lib;E:\D\MITK-superbuild\ep\lib\ijg12d.lib;E:\D\MITK-superbuild\ep\lib\ijg16d.lib;E:\D\MITK-superbuild\ep\lib\ijg8d.lib;netapi32.lib;wsock32.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Sqld.lib;..\..\..\bin\Debug\CTKCore.lib;dbghelp.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Xmld.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5OpenGLd.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Widgetsd.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Guid.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Cored.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/bin/Debug/CTKDICOMWidgets.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/bin/Debug/CTKDICOMWidgets.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\Resources\UI;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Core;E:\D\MITK-superbuild\ep\src\CTK\Libs\Widgets;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Widgets;E:\D\MITK-superbuild\ep\src\CTK\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Core;E:\D\MITK-superbuild\ep\include\dcmtk\config;E:\D\MITK-superbuild\ep\include;E:\D\MITK-superbuild\ep\include\dcmtk\dcmdata;E:\D\MITK-superbuild\ep\include\dcmtk\dcmimage;E:\D\MITK-superbuild\ep\include\dcmtk\dcmimgle;E:\D\MITK-superbuild\ep\include\dcmtk\dcmjpeg;E:\D\MITK-superbuild\ep\include\dcmtk\dcmjpls;E:\D\MITK-superbuild\ep\include\dcmtk\dcmnet;E:\D\MITK-superbuild\ep\include\dcmtk\dcmpstat;E:\D\MITK-superbuild\ep\include\dcmtk\dcmqrdb;E:\D\MITK-superbuild\ep\include\dcmtk\dcmsign;E:\D\MITK-superbuild\ep\include\dcmtk\dcmsr;E:\D\MITK-superbuild\ep\include\dcmtk\dcmtls;E:\D\MITK-superbuild\ep\include\dcmtk\ofstd;E:\D\MITK-superbuild\ep\include\dcmtk\oflog;E:\D\MITK-superbuild\ep\include\dcmtk;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtSql;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtWidgets;C:\Qt\5.4\msvc2013_opengl\include\QtXml;C:\Qt\5.4\msvc2013_opengl\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4290</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NOMINMAX;NDEBUG;QT_CORE_LIB;QT_NO_DEBUG;QT_SQL_LIB;QT_GUI_LIB;QT_WIDGETS_LIB;QT_XML_LIB;QT_OPENGL_LIB;CMAKE_INTDIR="Release";CTKDICOMWidgets_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NOMINMAX;NDEBUG;QT_CORE_LIB;QT_NO_DEBUG;QT_SQL_LIB;QT_GUI_LIB;QT_WIDGETS_LIB;QT_XML_LIB;QT_OPENGL_LIB;CMAKE_INTDIR=\"Release\";CTKDICOMWidgets_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\Resources\UI;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Core;E:\D\MITK-superbuild\ep\src\CTK\Libs\Widgets;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Widgets;E:\D\MITK-superbuild\ep\src\CTK\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Core;E:\D\MITK-superbuild\ep\include\dcmtk\config;E:\D\MITK-superbuild\ep\include;E:\D\MITK-superbuild\ep\include\dcmtk\dcmdata;E:\D\MITK-superbuild\ep\include\dcmtk\dcmimage;E:\D\MITK-superbuild\ep\include\dcmtk\dcmimgle;E:\D\MITK-superbuild\ep\include\dcmtk\dcmjpeg;E:\D\MITK-superbuild\ep\include\dcmtk\dcmjpls;E:\D\MITK-superbuild\ep\include\dcmtk\dcmnet;E:\D\MITK-superbuild\ep\include\dcmtk\dcmpstat;E:\D\MITK-superbuild\ep\include\dcmtk\dcmqrdb;E:\D\MITK-superbuild\ep\include\dcmtk\dcmsign;E:\D\MITK-superbuild\ep\include\dcmtk\dcmsr;E:\D\MITK-superbuild\ep\include\dcmtk\dcmtls;E:\D\MITK-superbuild\ep\include\dcmtk\ofstd;E:\D\MITK-superbuild\ep\include\dcmtk\oflog;E:\D\MITK-superbuild\ep\include\dcmtk;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtSql;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtWidgets;C:\Qt\5.4\msvc2013_opengl\include\QtXml;C:\Qt\5.4\msvc2013_opengl\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\Resources\UI;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Core;E:\D\MITK-superbuild\ep\src\CTK\Libs\Widgets;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Widgets;E:\D\MITK-superbuild\ep\src\CTK\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Core;E:\D\MITK-superbuild\ep\include\dcmtk\config;E:\D\MITK-superbuild\ep\include;E:\D\MITK-superbuild\ep\include\dcmtk\dcmdata;E:\D\MITK-superbuild\ep\include\dcmtk\dcmimage;E:\D\MITK-superbuild\ep\include\dcmtk\dcmimgle;E:\D\MITK-superbuild\ep\include\dcmtk\dcmjpeg;E:\D\MITK-superbuild\ep\include\dcmtk\dcmjpls;E:\D\MITK-superbuild\ep\include\dcmtk\dcmnet;E:\D\MITK-superbuild\ep\include\dcmtk\dcmpstat;E:\D\MITK-superbuild\ep\include\dcmtk\dcmqrdb;E:\D\MITK-superbuild\ep\include\dcmtk\dcmsign;E:\D\MITK-superbuild\ep\include\dcmtk\dcmsr;E:\D\MITK-superbuild\ep\include\dcmtk\dcmtls;E:\D\MITK-superbuild\ep\include\dcmtk\ofstd;E:\D\MITK-superbuild\ep\include\dcmtk\oflog;E:\D\MITK-superbuild\ep\include\dcmtk;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtSql;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtWidgets;C:\Qt\5.4\msvc2013_opengl\include\QtXml;C:\Qt\5.4\msvc2013_opengl\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\..\bin\Release\CTKDICOMCore.lib;..\..\..\bin\Release\CTKWidgets.lib;netapi32.lib;wsock32.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Sql.lib;..\..\..\bin\Release\CTKCore.lib;dbghelp.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Xml.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5OpenGL.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Widgets.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Gui.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Core.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/bin/Release/CTKDICOMWidgets.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/bin/Release/CTKDICOMWidgets.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\Resources\UI;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Core;E:\D\MITK-superbuild\ep\src\CTK\Libs\Widgets;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Widgets;E:\D\MITK-superbuild\ep\src\CTK\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Core;E:\D\MITK-superbuild\ep\include\dcmtk\config;E:\D\MITK-superbuild\ep\include;E:\D\MITK-superbuild\ep\include\dcmtk\dcmdata;E:\D\MITK-superbuild\ep\include\dcmtk\dcmimage;E:\D\MITK-superbuild\ep\include\dcmtk\dcmimgle;E:\D\MITK-superbuild\ep\include\dcmtk\dcmjpeg;E:\D\MITK-superbuild\ep\include\dcmtk\dcmjpls;E:\D\MITK-superbuild\ep\include\dcmtk\dcmnet;E:\D\MITK-superbuild\ep\include\dcmtk\dcmpstat;E:\D\MITK-superbuild\ep\include\dcmtk\dcmqrdb;E:\D\MITK-superbuild\ep\include\dcmtk\dcmsign;E:\D\MITK-superbuild\ep\include\dcmtk\dcmsr;E:\D\MITK-superbuild\ep\include\dcmtk\dcmtls;E:\D\MITK-superbuild\ep\include\dcmtk\ofstd;E:\D\MITK-superbuild\ep\include\dcmtk\oflog;E:\D\MITK-superbuild\ep\include\dcmtk;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtSql;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtWidgets;C:\Qt\5.4\msvc2013_opengl\include\QtXml;C:\Qt\5.4\msvc2013_opengl\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4290</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NOMINMAX;NDEBUG;QT_CORE_LIB;QT_NO_DEBUG;QT_SQL_LIB;QT_GUI_LIB;QT_WIDGETS_LIB;QT_XML_LIB;QT_OPENGL_LIB;CMAKE_INTDIR="MinSizeRel";CTKDICOMWidgets_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NOMINMAX;NDEBUG;QT_CORE_LIB;QT_NO_DEBUG;QT_SQL_LIB;QT_GUI_LIB;QT_WIDGETS_LIB;QT_XML_LIB;QT_OPENGL_LIB;CMAKE_INTDIR=\"MinSizeRel\";CTKDICOMWidgets_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\Resources\UI;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Core;E:\D\MITK-superbuild\ep\src\CTK\Libs\Widgets;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Widgets;E:\D\MITK-superbuild\ep\src\CTK\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Core;E:\D\MITK-superbuild\ep\include\dcmtk\config;E:\D\MITK-superbuild\ep\include;E:\D\MITK-superbuild\ep\include\dcmtk\dcmdata;E:\D\MITK-superbuild\ep\include\dcmtk\dcmimage;E:\D\MITK-superbuild\ep\include\dcmtk\dcmimgle;E:\D\MITK-superbuild\ep\include\dcmtk\dcmjpeg;E:\D\MITK-superbuild\ep\include\dcmtk\dcmjpls;E:\D\MITK-superbuild\ep\include\dcmtk\dcmnet;E:\D\MITK-superbuild\ep\include\dcmtk\dcmpstat;E:\D\MITK-superbuild\ep\include\dcmtk\dcmqrdb;E:\D\MITK-superbuild\ep\include\dcmtk\dcmsign;E:\D\MITK-superbuild\ep\include\dcmtk\dcmsr;E:\D\MITK-superbuild\ep\include\dcmtk\dcmtls;E:\D\MITK-superbuild\ep\include\dcmtk\ofstd;E:\D\MITK-superbuild\ep\include\dcmtk\oflog;E:\D\MITK-superbuild\ep\include\dcmtk;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtSql;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtWidgets;C:\Qt\5.4\msvc2013_opengl\include\QtXml;C:\Qt\5.4\msvc2013_opengl\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\Resources\UI;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Core;E:\D\MITK-superbuild\ep\src\CTK\Libs\Widgets;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Widgets;E:\D\MITK-superbuild\ep\src\CTK\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Core;E:\D\MITK-superbuild\ep\include\dcmtk\config;E:\D\MITK-superbuild\ep\include;E:\D\MITK-superbuild\ep\include\dcmtk\dcmdata;E:\D\MITK-superbuild\ep\include\dcmtk\dcmimage;E:\D\MITK-superbuild\ep\include\dcmtk\dcmimgle;E:\D\MITK-superbuild\ep\include\dcmtk\dcmjpeg;E:\D\MITK-superbuild\ep\include\dcmtk\dcmjpls;E:\D\MITK-superbuild\ep\include\dcmtk\dcmnet;E:\D\MITK-superbuild\ep\include\dcmtk\dcmpstat;E:\D\MITK-superbuild\ep\include\dcmtk\dcmqrdb;E:\D\MITK-superbuild\ep\include\dcmtk\dcmsign;E:\D\MITK-superbuild\ep\include\dcmtk\dcmsr;E:\D\MITK-superbuild\ep\include\dcmtk\dcmtls;E:\D\MITK-superbuild\ep\include\dcmtk\ofstd;E:\D\MITK-superbuild\ep\include\dcmtk\oflog;E:\D\MITK-superbuild\ep\include\dcmtk;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtSql;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtWidgets;C:\Qt\5.4\msvc2013_opengl\include\QtXml;C:\Qt\5.4\msvc2013_opengl\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\..\bin\MinSizeRel\CTKDICOMCore.lib;..\..\..\bin\MinSizeRel\CTKWidgets.lib;netapi32.lib;wsock32.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Sql.lib;..\..\..\bin\MinSizeRel\CTKCore.lib;dbghelp.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Xml.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5OpenGL.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Widgets.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Gui.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Core.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/bin/MinSizeRel/CTKDICOMWidgets.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/bin/MinSizeRel/CTKDICOMWidgets.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\Resources\UI;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Core;E:\D\MITK-superbuild\ep\src\CTK\Libs\Widgets;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Widgets;E:\D\MITK-superbuild\ep\src\CTK\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Core;E:\D\MITK-superbuild\ep\include\dcmtk\config;E:\D\MITK-superbuild\ep\include;E:\D\MITK-superbuild\ep\include\dcmtk\dcmdata;E:\D\MITK-superbuild\ep\include\dcmtk\dcmimage;E:\D\MITK-superbuild\ep\include\dcmtk\dcmimgle;E:\D\MITK-superbuild\ep\include\dcmtk\dcmjpeg;E:\D\MITK-superbuild\ep\include\dcmtk\dcmjpls;E:\D\MITK-superbuild\ep\include\dcmtk\dcmnet;E:\D\MITK-superbuild\ep\include\dcmtk\dcmpstat;E:\D\MITK-superbuild\ep\include\dcmtk\dcmqrdb;E:\D\MITK-superbuild\ep\include\dcmtk\dcmsign;E:\D\MITK-superbuild\ep\include\dcmtk\dcmsr;E:\D\MITK-superbuild\ep\include\dcmtk\dcmtls;E:\D\MITK-superbuild\ep\include\dcmtk\ofstd;E:\D\MITK-superbuild\ep\include\dcmtk\oflog;E:\D\MITK-superbuild\ep\include\dcmtk;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtSql;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtWidgets;C:\Qt\5.4\msvc2013_opengl\include\QtXml;C:\Qt\5.4\msvc2013_opengl\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4290</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NOMINMAX;NDEBUG;QT_CORE_LIB;QT_NO_DEBUG;QT_SQL_LIB;QT_GUI_LIB;QT_WIDGETS_LIB;QT_XML_LIB;QT_OPENGL_LIB;CMAKE_INTDIR="RelWithDebInfo";CTKDICOMWidgets_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NOMINMAX;NDEBUG;QT_CORE_LIB;QT_NO_DEBUG;QT_SQL_LIB;QT_GUI_LIB;QT_WIDGETS_LIB;QT_XML_LIB;QT_OPENGL_LIB;CMAKE_INTDIR=\"RelWithDebInfo\";CTKDICOMWidgets_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\Resources\UI;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Core;E:\D\MITK-superbuild\ep\src\CTK\Libs\Widgets;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Widgets;E:\D\MITK-superbuild\ep\src\CTK\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Core;E:\D\MITK-superbuild\ep\include\dcmtk\config;E:\D\MITK-superbuild\ep\include;E:\D\MITK-superbuild\ep\include\dcmtk\dcmdata;E:\D\MITK-superbuild\ep\include\dcmtk\dcmimage;E:\D\MITK-superbuild\ep\include\dcmtk\dcmimgle;E:\D\MITK-superbuild\ep\include\dcmtk\dcmjpeg;E:\D\MITK-superbuild\ep\include\dcmtk\dcmjpls;E:\D\MITK-superbuild\ep\include\dcmtk\dcmnet;E:\D\MITK-superbuild\ep\include\dcmtk\dcmpstat;E:\D\MITK-superbuild\ep\include\dcmtk\dcmqrdb;E:\D\MITK-superbuild\ep\include\dcmtk\dcmsign;E:\D\MITK-superbuild\ep\include\dcmtk\dcmsr;E:\D\MITK-superbuild\ep\include\dcmtk\dcmtls;E:\D\MITK-superbuild\ep\include\dcmtk\ofstd;E:\D\MITK-superbuild\ep\include\dcmtk\oflog;E:\D\MITK-superbuild\ep\include\dcmtk;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtSql;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtWidgets;C:\Qt\5.4\msvc2013_opengl\include\QtXml;C:\Qt\5.4\msvc2013_opengl\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\Resources\UI;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Core;E:\D\MITK-superbuild\ep\src\CTK\Libs\Widgets;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Widgets;E:\D\MITK-superbuild\ep\src\CTK\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Core;E:\D\MITK-superbuild\ep\include\dcmtk\config;E:\D\MITK-superbuild\ep\include;E:\D\MITK-superbuild\ep\include\dcmtk\dcmdata;E:\D\MITK-superbuild\ep\include\dcmtk\dcmimage;E:\D\MITK-superbuild\ep\include\dcmtk\dcmimgle;E:\D\MITK-superbuild\ep\include\dcmtk\dcmjpeg;E:\D\MITK-superbuild\ep\include\dcmtk\dcmjpls;E:\D\MITK-superbuild\ep\include\dcmtk\dcmnet;E:\D\MITK-superbuild\ep\include\dcmtk\dcmpstat;E:\D\MITK-superbuild\ep\include\dcmtk\dcmqrdb;E:\D\MITK-superbuild\ep\include\dcmtk\dcmsign;E:\D\MITK-superbuild\ep\include\dcmtk\dcmsr;E:\D\MITK-superbuild\ep\include\dcmtk\dcmtls;E:\D\MITK-superbuild\ep\include\dcmtk\ofstd;E:\D\MITK-superbuild\ep\include\dcmtk\oflog;E:\D\MITK-superbuild\ep\include\dcmtk;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtSql;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtWidgets;C:\Qt\5.4\msvc2013_opengl\include\QtXml;C:\Qt\5.4\msvc2013_opengl\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\..\bin\RelWithDebInfo\CTKDICOMCore.lib;..\..\..\bin\RelWithDebInfo\CTKWidgets.lib;netapi32.lib;wsock32.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Sql.lib;..\..\..\bin\RelWithDebInfo\CTKCore.lib;dbghelp.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Xml.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5OpenGL.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Widgets.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Gui.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Core.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/bin/RelWithDebInfo/CTKDICOMWidgets.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/bin/RelWithDebInfo/CTKDICOMWidgets.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/CTK -BE:/D/MITK-superbuild/ep/src/CTK-build/CTK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\target_libraries.cmake;E:\D\MITK-superbuild\ep\src\CTK\Libs\ctkExport.h.in;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/CTK -BE:/D/MITK-superbuild/ep/src/CTK-build/CTK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\target_libraries.cmake;E:\D\MITK-superbuild\ep\src\CTK\Libs\ctkExport.h.in;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/CTK -BE:/D/MITK-superbuild/ep/src/CTK-build/CTK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\target_libraries.cmake;E:\D\MITK-superbuild\ep\src\CTK\Libs\ctkExport.h.in;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/CTK -BE:/D/MITK-superbuild/ep/src/CTK-build/CTK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\target_libraries.cmake;E:\D\MITK-superbuild\ep\src\CTK\Libs\ctkExport.h.in;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\CMakeFiles\c01765e75d525335f4d7c0699c38b507\moc_ctkDICOMAppWidget.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating moc_ctkDICOMAppWidget.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/moc_ctkDICOMAppWidget.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/c01765e75d525335f4d7c0699c38b507/moc_ctkDICOMAppWidget.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMAppWidget.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\moc_ctkDICOMAppWidget.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating moc_ctkDICOMAppWidget.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/moc_ctkDICOMAppWidget.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/c01765e75d525335f4d7c0699c38b507/moc_ctkDICOMAppWidget.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMAppWidget.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\moc_ctkDICOMAppWidget.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating moc_ctkDICOMAppWidget.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/moc_ctkDICOMAppWidget.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/c01765e75d525335f4d7c0699c38b507/moc_ctkDICOMAppWidget.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMAppWidget.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\moc_ctkDICOMAppWidget.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating moc_ctkDICOMAppWidget.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/moc_ctkDICOMAppWidget.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/c01765e75d525335f4d7c0699c38b507/moc_ctkDICOMAppWidget.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMAppWidget.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\moc_ctkDICOMAppWidget.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\CMakeFiles\c01765e75d525335f4d7c0699c38b507\moc_ctkDICOMBrowser.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating moc_ctkDICOMBrowser.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/moc_ctkDICOMBrowser.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/c01765e75d525335f4d7c0699c38b507/moc_ctkDICOMBrowser.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMBrowser.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\moc_ctkDICOMBrowser.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating moc_ctkDICOMBrowser.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/moc_ctkDICOMBrowser.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/c01765e75d525335f4d7c0699c38b507/moc_ctkDICOMBrowser.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMBrowser.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\moc_ctkDICOMBrowser.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating moc_ctkDICOMBrowser.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/moc_ctkDICOMBrowser.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/c01765e75d525335f4d7c0699c38b507/moc_ctkDICOMBrowser.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMBrowser.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\moc_ctkDICOMBrowser.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating moc_ctkDICOMBrowser.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/moc_ctkDICOMBrowser.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/c01765e75d525335f4d7c0699c38b507/moc_ctkDICOMBrowser.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMBrowser.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\moc_ctkDICOMBrowser.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\CMakeFiles\c01765e75d525335f4d7c0699c38b507\moc_ctkDICOMItemView.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating moc_ctkDICOMItemView.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/moc_ctkDICOMItemView.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/c01765e75d525335f4d7c0699c38b507/moc_ctkDICOMItemView.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMItemView.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\moc_ctkDICOMItemView.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating moc_ctkDICOMItemView.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/moc_ctkDICOMItemView.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/c01765e75d525335f4d7c0699c38b507/moc_ctkDICOMItemView.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMItemView.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\moc_ctkDICOMItemView.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating moc_ctkDICOMItemView.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/moc_ctkDICOMItemView.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/c01765e75d525335f4d7c0699c38b507/moc_ctkDICOMItemView.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMItemView.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\moc_ctkDICOMItemView.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating moc_ctkDICOMItemView.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/moc_ctkDICOMItemView.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/c01765e75d525335f4d7c0699c38b507/moc_ctkDICOMItemView.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMItemView.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\moc_ctkDICOMItemView.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\CMakeFiles\c01765e75d525335f4d7c0699c38b507\moc_ctkDICOMDirectoryListWidget.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating moc_ctkDICOMDirectoryListWidget.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/moc_ctkDICOMDirectoryListWidget.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/c01765e75d525335f4d7c0699c38b507/moc_ctkDICOMDirectoryListWidget.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMDirectoryListWidget.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\moc_ctkDICOMDirectoryListWidget.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating moc_ctkDICOMDirectoryListWidget.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/moc_ctkDICOMDirectoryListWidget.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/c01765e75d525335f4d7c0699c38b507/moc_ctkDICOMDirectoryListWidget.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMDirectoryListWidget.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\moc_ctkDICOMDirectoryListWidget.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating moc_ctkDICOMDirectoryListWidget.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/moc_ctkDICOMDirectoryListWidget.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/c01765e75d525335f4d7c0699c38b507/moc_ctkDICOMDirectoryListWidget.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMDirectoryListWidget.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\moc_ctkDICOMDirectoryListWidget.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating moc_ctkDICOMDirectoryListWidget.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/moc_ctkDICOMDirectoryListWidget.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/c01765e75d525335f4d7c0699c38b507/moc_ctkDICOMDirectoryListWidget.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMDirectoryListWidget.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\moc_ctkDICOMDirectoryListWidget.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\CMakeFiles\c01765e75d525335f4d7c0699c38b507\moc_ctkDICOMImage.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating moc_ctkDICOMImage.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/moc_ctkDICOMImage.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/c01765e75d525335f4d7c0699c38b507/moc_ctkDICOMImage.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMImage.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\moc_ctkDICOMImage.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating moc_ctkDICOMImage.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/moc_ctkDICOMImage.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/c01765e75d525335f4d7c0699c38b507/moc_ctkDICOMImage.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMImage.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\moc_ctkDICOMImage.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating moc_ctkDICOMImage.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/moc_ctkDICOMImage.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/c01765e75d525335f4d7c0699c38b507/moc_ctkDICOMImage.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMImage.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\moc_ctkDICOMImage.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating moc_ctkDICOMImage.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/moc_ctkDICOMImage.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/c01765e75d525335f4d7c0699c38b507/moc_ctkDICOMImage.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMImage.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\moc_ctkDICOMImage.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\CMakeFiles\c01765e75d525335f4d7c0699c38b507\moc_ctkDICOMImportWidget.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating moc_ctkDICOMImportWidget.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/moc_ctkDICOMImportWidget.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/c01765e75d525335f4d7c0699c38b507/moc_ctkDICOMImportWidget.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMImportWidget.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\moc_ctkDICOMImportWidget.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating moc_ctkDICOMImportWidget.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/moc_ctkDICOMImportWidget.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/c01765e75d525335f4d7c0699c38b507/moc_ctkDICOMImportWidget.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMImportWidget.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\moc_ctkDICOMImportWidget.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating moc_ctkDICOMImportWidget.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/moc_ctkDICOMImportWidget.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/c01765e75d525335f4d7c0699c38b507/moc_ctkDICOMImportWidget.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMImportWidget.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\moc_ctkDICOMImportWidget.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating moc_ctkDICOMImportWidget.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/moc_ctkDICOMImportWidget.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/c01765e75d525335f4d7c0699c38b507/moc_ctkDICOMImportWidget.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMImportWidget.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\moc_ctkDICOMImportWidget.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\CMakeFiles\c01765e75d525335f4d7c0699c38b507\moc_ctkDICOMObjectListWidget.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating moc_ctkDICOMObjectListWidget.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/moc_ctkDICOMObjectListWidget.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/c01765e75d525335f4d7c0699c38b507/moc_ctkDICOMObjectListWidget.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMObjectListWidget.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\moc_ctkDICOMObjectListWidget.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating moc_ctkDICOMObjectListWidget.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/moc_ctkDICOMObjectListWidget.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/c01765e75d525335f4d7c0699c38b507/moc_ctkDICOMObjectListWidget.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMObjectListWidget.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\moc_ctkDICOMObjectListWidget.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating moc_ctkDICOMObjectListWidget.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/moc_ctkDICOMObjectListWidget.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/c01765e75d525335f4d7c0699c38b507/moc_ctkDICOMObjectListWidget.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMObjectListWidget.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\moc_ctkDICOMObjectListWidget.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating moc_ctkDICOMObjectListWidget.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/moc_ctkDICOMObjectListWidget.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/c01765e75d525335f4d7c0699c38b507/moc_ctkDICOMObjectListWidget.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMObjectListWidget.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\moc_ctkDICOMObjectListWidget.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\CMakeFiles\c01765e75d525335f4d7c0699c38b507\moc_ctkDICOMQueryRetrieveWidget.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating moc_ctkDICOMQueryRetrieveWidget.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/moc_ctkDICOMQueryRetrieveWidget.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/c01765e75d525335f4d7c0699c38b507/moc_ctkDICOMQueryRetrieveWidget.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMQueryRetrieveWidget.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\moc_ctkDICOMQueryRetrieveWidget.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating moc_ctkDICOMQueryRetrieveWidget.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/moc_ctkDICOMQueryRetrieveWidget.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/c01765e75d525335f4d7c0699c38b507/moc_ctkDICOMQueryRetrieveWidget.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMQueryRetrieveWidget.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\moc_ctkDICOMQueryRetrieveWidget.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating moc_ctkDICOMQueryRetrieveWidget.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/moc_ctkDICOMQueryRetrieveWidget.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/c01765e75d525335f4d7c0699c38b507/moc_ctkDICOMQueryRetrieveWidget.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMQueryRetrieveWidget.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\moc_ctkDICOMQueryRetrieveWidget.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating moc_ctkDICOMQueryRetrieveWidget.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/moc_ctkDICOMQueryRetrieveWidget.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/c01765e75d525335f4d7c0699c38b507/moc_ctkDICOMQueryRetrieveWidget.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMQueryRetrieveWidget.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\moc_ctkDICOMQueryRetrieveWidget.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\CMakeFiles\c01765e75d525335f4d7c0699c38b507\moc_ctkDICOMQueryWidget.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating moc_ctkDICOMQueryWidget.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/moc_ctkDICOMQueryWidget.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/c01765e75d525335f4d7c0699c38b507/moc_ctkDICOMQueryWidget.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMQueryWidget.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\moc_ctkDICOMQueryWidget.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating moc_ctkDICOMQueryWidget.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/moc_ctkDICOMQueryWidget.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/c01765e75d525335f4d7c0699c38b507/moc_ctkDICOMQueryWidget.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMQueryWidget.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\moc_ctkDICOMQueryWidget.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating moc_ctkDICOMQueryWidget.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/moc_ctkDICOMQueryWidget.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/c01765e75d525335f4d7c0699c38b507/moc_ctkDICOMQueryWidget.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMQueryWidget.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\moc_ctkDICOMQueryWidget.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating moc_ctkDICOMQueryWidget.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/moc_ctkDICOMQueryWidget.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/c01765e75d525335f4d7c0699c38b507/moc_ctkDICOMQueryWidget.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMQueryWidget.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\moc_ctkDICOMQueryWidget.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\CMakeFiles\c01765e75d525335f4d7c0699c38b507\moc_ctkDICOMServerNodeWidget.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating moc_ctkDICOMServerNodeWidget.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/moc_ctkDICOMServerNodeWidget.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/c01765e75d525335f4d7c0699c38b507/moc_ctkDICOMServerNodeWidget.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMServerNodeWidget.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\moc_ctkDICOMServerNodeWidget.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating moc_ctkDICOMServerNodeWidget.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/moc_ctkDICOMServerNodeWidget.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/c01765e75d525335f4d7c0699c38b507/moc_ctkDICOMServerNodeWidget.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMServerNodeWidget.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\moc_ctkDICOMServerNodeWidget.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating moc_ctkDICOMServerNodeWidget.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/moc_ctkDICOMServerNodeWidget.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/c01765e75d525335f4d7c0699c38b507/moc_ctkDICOMServerNodeWidget.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMServerNodeWidget.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\moc_ctkDICOMServerNodeWidget.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating moc_ctkDICOMServerNodeWidget.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/moc_ctkDICOMServerNodeWidget.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/c01765e75d525335f4d7c0699c38b507/moc_ctkDICOMServerNodeWidget.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMServerNodeWidget.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\moc_ctkDICOMServerNodeWidget.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\CMakeFiles\c01765e75d525335f4d7c0699c38b507\moc_ctkDICOMTableManager.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating moc_ctkDICOMTableManager.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/moc_ctkDICOMTableManager.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/c01765e75d525335f4d7c0699c38b507/moc_ctkDICOMTableManager.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMTableManager.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\moc_ctkDICOMTableManager.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating moc_ctkDICOMTableManager.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/moc_ctkDICOMTableManager.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/c01765e75d525335f4d7c0699c38b507/moc_ctkDICOMTableManager.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMTableManager.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\moc_ctkDICOMTableManager.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating moc_ctkDICOMTableManager.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/moc_ctkDICOMTableManager.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/c01765e75d525335f4d7c0699c38b507/moc_ctkDICOMTableManager.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMTableManager.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\moc_ctkDICOMTableManager.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating moc_ctkDICOMTableManager.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/moc_ctkDICOMTableManager.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/c01765e75d525335f4d7c0699c38b507/moc_ctkDICOMTableManager.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMTableManager.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\moc_ctkDICOMTableManager.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\CMakeFiles\c01765e75d525335f4d7c0699c38b507\moc_ctkDICOMTableView.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating moc_ctkDICOMTableView.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/moc_ctkDICOMTableView.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/c01765e75d525335f4d7c0699c38b507/moc_ctkDICOMTableView.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMTableView.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\moc_ctkDICOMTableView.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating moc_ctkDICOMTableView.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/moc_ctkDICOMTableView.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/c01765e75d525335f4d7c0699c38b507/moc_ctkDICOMTableView.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMTableView.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\moc_ctkDICOMTableView.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating moc_ctkDICOMTableView.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/moc_ctkDICOMTableView.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/c01765e75d525335f4d7c0699c38b507/moc_ctkDICOMTableView.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMTableView.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\moc_ctkDICOMTableView.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating moc_ctkDICOMTableView.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/moc_ctkDICOMTableView.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/c01765e75d525335f4d7c0699c38b507/moc_ctkDICOMTableView.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMTableView.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\moc_ctkDICOMTableView.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\CMakeFiles\c01765e75d525335f4d7c0699c38b507\moc_ctkDICOMThumbnailGenerator.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating moc_ctkDICOMThumbnailGenerator.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/moc_ctkDICOMThumbnailGenerator.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/c01765e75d525335f4d7c0699c38b507/moc_ctkDICOMThumbnailGenerator.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMThumbnailGenerator.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\moc_ctkDICOMThumbnailGenerator.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating moc_ctkDICOMThumbnailGenerator.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/moc_ctkDICOMThumbnailGenerator.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/c01765e75d525335f4d7c0699c38b507/moc_ctkDICOMThumbnailGenerator.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMThumbnailGenerator.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\moc_ctkDICOMThumbnailGenerator.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating moc_ctkDICOMThumbnailGenerator.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/moc_ctkDICOMThumbnailGenerator.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/c01765e75d525335f4d7c0699c38b507/moc_ctkDICOMThumbnailGenerator.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMThumbnailGenerator.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\moc_ctkDICOMThumbnailGenerator.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating moc_ctkDICOMThumbnailGenerator.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/moc_ctkDICOMThumbnailGenerator.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/c01765e75d525335f4d7c0699c38b507/moc_ctkDICOMThumbnailGenerator.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMThumbnailGenerator.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\moc_ctkDICOMThumbnailGenerator.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\CMakeFiles\c01765e75d525335f4d7c0699c38b507\moc_ctkDICOMThumbnailListWidget.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating moc_ctkDICOMThumbnailListWidget.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/moc_ctkDICOMThumbnailListWidget.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/c01765e75d525335f4d7c0699c38b507/moc_ctkDICOMThumbnailListWidget.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMThumbnailListWidget.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\moc_ctkDICOMThumbnailListWidget.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating moc_ctkDICOMThumbnailListWidget.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/moc_ctkDICOMThumbnailListWidget.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/c01765e75d525335f4d7c0699c38b507/moc_ctkDICOMThumbnailListWidget.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMThumbnailListWidget.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\moc_ctkDICOMThumbnailListWidget.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating moc_ctkDICOMThumbnailListWidget.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/moc_ctkDICOMThumbnailListWidget.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/c01765e75d525335f4d7c0699c38b507/moc_ctkDICOMThumbnailListWidget.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMThumbnailListWidget.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\moc_ctkDICOMThumbnailListWidget.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating moc_ctkDICOMThumbnailListWidget.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/moc_ctkDICOMThumbnailListWidget.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/CMakeFiles/c01765e75d525335f4d7c0699c38b507/moc_ctkDICOMThumbnailListWidget.cpp.rule;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMThumbnailListWidget.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\moc_ctkDICOMThumbnailListWidget.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\Resources\UI\ctkDICOMAppWidget.ui">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ui_ctkDICOMAppWidget.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\uic.exe -o E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/ui_ctkDICOMAppWidget.h E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMAppWidget.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMAppWidget.ui;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\Resources\UI\ctkDICOMAppWidget.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\ui_ctkDICOMAppWidget.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ui_ctkDICOMAppWidget.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\uic.exe -o E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/ui_ctkDICOMAppWidget.h E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMAppWidget.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMAppWidget.ui;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\Resources\UI\ctkDICOMAppWidget.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\ui_ctkDICOMAppWidget.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ui_ctkDICOMAppWidget.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\uic.exe -o E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/ui_ctkDICOMAppWidget.h E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMAppWidget.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMAppWidget.ui;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\Resources\UI\ctkDICOMAppWidget.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\ui_ctkDICOMAppWidget.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ui_ctkDICOMAppWidget.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\uic.exe -o E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/ui_ctkDICOMAppWidget.h E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMAppWidget.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMAppWidget.ui;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\Resources\UI\ctkDICOMAppWidget.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\ui_ctkDICOMAppWidget.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\Resources\UI\ctkDICOMBrowser.ui">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ui_ctkDICOMBrowser.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\uic.exe -o E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/ui_ctkDICOMBrowser.h E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMBrowser.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMBrowser.ui;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\Resources\UI\ctkDICOMBrowser.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\ui_ctkDICOMBrowser.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ui_ctkDICOMBrowser.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\uic.exe -o E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/ui_ctkDICOMBrowser.h E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMBrowser.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMBrowser.ui;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\Resources\UI\ctkDICOMBrowser.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\ui_ctkDICOMBrowser.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ui_ctkDICOMBrowser.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\uic.exe -o E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/ui_ctkDICOMBrowser.h E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMBrowser.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMBrowser.ui;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\Resources\UI\ctkDICOMBrowser.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\ui_ctkDICOMBrowser.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ui_ctkDICOMBrowser.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\uic.exe -o E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/ui_ctkDICOMBrowser.h E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMBrowser.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMBrowser.ui;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\Resources\UI\ctkDICOMBrowser.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\ui_ctkDICOMBrowser.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\Resources\UI\ctkDICOMDirectoryListWidget.ui">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ui_ctkDICOMDirectoryListWidget.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\uic.exe -o E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/ui_ctkDICOMDirectoryListWidget.h E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMDirectoryListWidget.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMDirectoryListWidget.ui;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\Resources\UI\ctkDICOMDirectoryListWidget.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\ui_ctkDICOMDirectoryListWidget.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ui_ctkDICOMDirectoryListWidget.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\uic.exe -o E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/ui_ctkDICOMDirectoryListWidget.h E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMDirectoryListWidget.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMDirectoryListWidget.ui;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\Resources\UI\ctkDICOMDirectoryListWidget.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\ui_ctkDICOMDirectoryListWidget.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ui_ctkDICOMDirectoryListWidget.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\uic.exe -o E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/ui_ctkDICOMDirectoryListWidget.h E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMDirectoryListWidget.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMDirectoryListWidget.ui;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\Resources\UI\ctkDICOMDirectoryListWidget.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\ui_ctkDICOMDirectoryListWidget.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ui_ctkDICOMDirectoryListWidget.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\uic.exe -o E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/ui_ctkDICOMDirectoryListWidget.h E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMDirectoryListWidget.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMDirectoryListWidget.ui;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\Resources\UI\ctkDICOMDirectoryListWidget.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\ui_ctkDICOMDirectoryListWidget.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\Resources\UI\ctkDICOMImportWidget.ui">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ui_ctkDICOMImportWidget.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\uic.exe -o E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/ui_ctkDICOMImportWidget.h E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMImportWidget.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMImportWidget.ui;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\Resources\UI\ctkDICOMImportWidget.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\ui_ctkDICOMImportWidget.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ui_ctkDICOMImportWidget.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\uic.exe -o E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/ui_ctkDICOMImportWidget.h E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMImportWidget.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMImportWidget.ui;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\Resources\UI\ctkDICOMImportWidget.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\ui_ctkDICOMImportWidget.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ui_ctkDICOMImportWidget.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\uic.exe -o E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/ui_ctkDICOMImportWidget.h E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMImportWidget.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMImportWidget.ui;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\Resources\UI\ctkDICOMImportWidget.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\ui_ctkDICOMImportWidget.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ui_ctkDICOMImportWidget.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\uic.exe -o E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/ui_ctkDICOMImportWidget.h E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMImportWidget.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMImportWidget.ui;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\Resources\UI\ctkDICOMImportWidget.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\ui_ctkDICOMImportWidget.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\Resources\UI\ctkDICOMListenerWidget.ui">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ui_ctkDICOMListenerWidget.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\uic.exe -o E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/ui_ctkDICOMListenerWidget.h E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMListenerWidget.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMListenerWidget.ui;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\Resources\UI\ctkDICOMListenerWidget.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\ui_ctkDICOMListenerWidget.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ui_ctkDICOMListenerWidget.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\uic.exe -o E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/ui_ctkDICOMListenerWidget.h E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMListenerWidget.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMListenerWidget.ui;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\Resources\UI\ctkDICOMListenerWidget.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\ui_ctkDICOMListenerWidget.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ui_ctkDICOMListenerWidget.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\uic.exe -o E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/ui_ctkDICOMListenerWidget.h E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMListenerWidget.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMListenerWidget.ui;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\Resources\UI\ctkDICOMListenerWidget.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\ui_ctkDICOMListenerWidget.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ui_ctkDICOMListenerWidget.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\uic.exe -o E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/ui_ctkDICOMListenerWidget.h E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMListenerWidget.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMListenerWidget.ui;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\Resources\UI\ctkDICOMListenerWidget.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\ui_ctkDICOMListenerWidget.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\Resources\UI\ctkDICOMQueryRetrieveWidget.ui">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ui_ctkDICOMQueryRetrieveWidget.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\uic.exe -o E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/ui_ctkDICOMQueryRetrieveWidget.h E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMQueryRetrieveWidget.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMQueryRetrieveWidget.ui;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\Resources\UI\ctkDICOMQueryRetrieveWidget.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\ui_ctkDICOMQueryRetrieveWidget.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ui_ctkDICOMQueryRetrieveWidget.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\uic.exe -o E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/ui_ctkDICOMQueryRetrieveWidget.h E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMQueryRetrieveWidget.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMQueryRetrieveWidget.ui;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\Resources\UI\ctkDICOMQueryRetrieveWidget.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\ui_ctkDICOMQueryRetrieveWidget.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ui_ctkDICOMQueryRetrieveWidget.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\uic.exe -o E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/ui_ctkDICOMQueryRetrieveWidget.h E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMQueryRetrieveWidget.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMQueryRetrieveWidget.ui;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\Resources\UI\ctkDICOMQueryRetrieveWidget.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\ui_ctkDICOMQueryRetrieveWidget.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ui_ctkDICOMQueryRetrieveWidget.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\uic.exe -o E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/ui_ctkDICOMQueryRetrieveWidget.h E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMQueryRetrieveWidget.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMQueryRetrieveWidget.ui;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\Resources\UI\ctkDICOMQueryRetrieveWidget.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\ui_ctkDICOMQueryRetrieveWidget.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\Resources\UI\ctkDICOMQueryWidget.ui">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ui_ctkDICOMQueryWidget.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\uic.exe -o E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/ui_ctkDICOMQueryWidget.h E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMQueryWidget.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMQueryWidget.ui;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\Resources\UI\ctkDICOMQueryWidget.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\ui_ctkDICOMQueryWidget.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ui_ctkDICOMQueryWidget.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\uic.exe -o E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/ui_ctkDICOMQueryWidget.h E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMQueryWidget.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMQueryWidget.ui;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\Resources\UI\ctkDICOMQueryWidget.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\ui_ctkDICOMQueryWidget.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ui_ctkDICOMQueryWidget.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\uic.exe -o E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/ui_ctkDICOMQueryWidget.h E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMQueryWidget.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMQueryWidget.ui;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\Resources\UI\ctkDICOMQueryWidget.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\ui_ctkDICOMQueryWidget.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ui_ctkDICOMQueryWidget.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\uic.exe -o E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/ui_ctkDICOMQueryWidget.h E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMQueryWidget.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMQueryWidget.ui;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\Resources\UI\ctkDICOMQueryWidget.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\ui_ctkDICOMQueryWidget.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\Resources\UI\ctkDICOMObjectListWidget.ui">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ui_ctkDICOMObjectListWidget.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\uic.exe -o E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/ui_ctkDICOMObjectListWidget.h E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMObjectListWidget.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMObjectListWidget.ui;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\Resources\UI\ctkDICOMObjectListWidget.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\ui_ctkDICOMObjectListWidget.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ui_ctkDICOMObjectListWidget.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\uic.exe -o E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/ui_ctkDICOMObjectListWidget.h E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMObjectListWidget.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMObjectListWidget.ui;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\Resources\UI\ctkDICOMObjectListWidget.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\ui_ctkDICOMObjectListWidget.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ui_ctkDICOMObjectListWidget.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\uic.exe -o E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/ui_ctkDICOMObjectListWidget.h E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMObjectListWidget.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMObjectListWidget.ui;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\Resources\UI\ctkDICOMObjectListWidget.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\ui_ctkDICOMObjectListWidget.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ui_ctkDICOMObjectListWidget.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\uic.exe -o E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/ui_ctkDICOMObjectListWidget.h E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMObjectListWidget.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMObjectListWidget.ui;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\Resources\UI\ctkDICOMObjectListWidget.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\ui_ctkDICOMObjectListWidget.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\Resources\UI\ctkDICOMServerNodeWidget.ui">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ui_ctkDICOMServerNodeWidget.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\uic.exe -o E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/ui_ctkDICOMServerNodeWidget.h E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMServerNodeWidget.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMServerNodeWidget.ui;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\Resources\UI\ctkDICOMServerNodeWidget.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\ui_ctkDICOMServerNodeWidget.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ui_ctkDICOMServerNodeWidget.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\uic.exe -o E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/ui_ctkDICOMServerNodeWidget.h E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMServerNodeWidget.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMServerNodeWidget.ui;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\Resources\UI\ctkDICOMServerNodeWidget.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\ui_ctkDICOMServerNodeWidget.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ui_ctkDICOMServerNodeWidget.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\uic.exe -o E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/ui_ctkDICOMServerNodeWidget.h E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMServerNodeWidget.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMServerNodeWidget.ui;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\Resources\UI\ctkDICOMServerNodeWidget.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\ui_ctkDICOMServerNodeWidget.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ui_ctkDICOMServerNodeWidget.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\uic.exe -o E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/ui_ctkDICOMServerNodeWidget.h E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMServerNodeWidget.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMServerNodeWidget.ui;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\Resources\UI\ctkDICOMServerNodeWidget.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\ui_ctkDICOMServerNodeWidget.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\Resources\UI\ctkDICOMTableManager.ui">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ui_ctkDICOMTableManager.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\uic.exe -o E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/ui_ctkDICOMTableManager.h E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMTableManager.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMTableManager.ui;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\Resources\UI\ctkDICOMTableManager.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\ui_ctkDICOMTableManager.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ui_ctkDICOMTableManager.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\uic.exe -o E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/ui_ctkDICOMTableManager.h E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMTableManager.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMTableManager.ui;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\Resources\UI\ctkDICOMTableManager.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\ui_ctkDICOMTableManager.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ui_ctkDICOMTableManager.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\uic.exe -o E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/ui_ctkDICOMTableManager.h E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMTableManager.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMTableManager.ui;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\Resources\UI\ctkDICOMTableManager.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\ui_ctkDICOMTableManager.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ui_ctkDICOMTableManager.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\uic.exe -o E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/ui_ctkDICOMTableManager.h E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMTableManager.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMTableManager.ui;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\Resources\UI\ctkDICOMTableManager.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\ui_ctkDICOMTableManager.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\Resources\UI\ctkDICOMTableView.ui">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ui_ctkDICOMTableView.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\uic.exe -o E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/ui_ctkDICOMTableView.h E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMTableView.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMTableView.ui;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\Resources\UI\ctkDICOMTableView.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\ui_ctkDICOMTableView.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ui_ctkDICOMTableView.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\uic.exe -o E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/ui_ctkDICOMTableView.h E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMTableView.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMTableView.ui;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\Resources\UI\ctkDICOMTableView.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\ui_ctkDICOMTableView.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ui_ctkDICOMTableView.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\uic.exe -o E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/ui_ctkDICOMTableView.h E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMTableView.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMTableView.ui;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\Resources\UI\ctkDICOMTableView.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\ui_ctkDICOMTableView.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ui_ctkDICOMTableView.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\uic.exe -o E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Widgets/ui_ctkDICOMTableView.h E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMTableView.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/CTK/Libs/DICOM/Widgets/Resources/UI/ctkDICOMTableView.ui;E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\Resources\UI\ctkDICOMTableView.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\ui_ctkDICOMTableView.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMAppWidget.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMBrowser.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMDirectoryListWidget.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMImage.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMImportWidget.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMItemView.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMListenerWidget.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMQueryResultsTabWidget.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMQueryRetrieveWidget.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMQueryWidget.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMObjectListWidget.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMServerNodeWidget.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMTableManager.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMTableView.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMThumbnailGenerator.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMThumbnailListWidget.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\ui_ctkDICOMAppWidget.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\ui_ctkDICOMBrowser.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\ui_ctkDICOMDirectoryListWidget.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\ui_ctkDICOMImportWidget.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\ui_ctkDICOMListenerWidget.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\ui_ctkDICOMQueryRetrieveWidget.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\ui_ctkDICOMQueryWidget.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\ui_ctkDICOMObjectListWidget.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\ui_ctkDICOMServerNodeWidget.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\ui_ctkDICOMTableManager.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\ui_ctkDICOMTableView.h" />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMAppWidget.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMBrowser.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMDirectoryListWidget.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMImage.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMImportWidget.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMItemView.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMListenerWidget.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMQueryResultsTabWidget.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMQueryRetrieveWidget.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMQueryWidget.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMObjectListWidget.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMServerNodeWidget.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMTableManager.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMTableView.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMThumbnailGenerator.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK\Libs\DICOM\Widgets\ctkDICOMThumbnailListWidget.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\moc_ctkDICOMAppWidget.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\moc_ctkDICOMBrowser.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\moc_ctkDICOMItemView.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\moc_ctkDICOMDirectoryListWidget.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\moc_ctkDICOMImage.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\moc_ctkDICOMImportWidget.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\moc_ctkDICOMObjectListWidget.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\moc_ctkDICOMQueryRetrieveWidget.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\moc_ctkDICOMQueryWidget.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\moc_ctkDICOMServerNodeWidget.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\moc_ctkDICOMTableManager.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\moc_ctkDICOMTableView.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\moc_ctkDICOMThumbnailGenerator.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\DICOM\Widgets\moc_ctkDICOMThumbnailListWidget.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/ZERO_CHECK.vcxproj">
+      <Project>591B03B8-3BAD-312B-B559-458CAAA4AB37</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/Core/CTKCore.vcxproj">
+      <Project>362813B3-1EAC-3113-9882-5141FC341359</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/DICOM/Core/CTKDICOMCore.vcxproj">
+      <Project>8F01F15D-273C-37A4-9280-B9F45C45121A</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/CTK-build/CTK-build/Libs/Widgets/CTKWidgets.vcxproj">
+      <Project>83247617-6785-3D5B-88C8-9EE60B3F095F</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

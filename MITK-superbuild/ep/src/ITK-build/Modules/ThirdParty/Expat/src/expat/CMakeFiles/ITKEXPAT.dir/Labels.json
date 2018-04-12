@@ -1,0 +1,27 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/ThirdParty/Expat/src/expat/xmlparse.c"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/ThirdParty/Expat/src/expat/xmltok.c"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/ThirdParty/Expat/src/expat/xmlrole.c"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/ThirdParty/Expat/src/expat/CMakeLists.txt"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "ITKExpat" ],
+		"name" : "ITKEXPAT"
+	}
+}

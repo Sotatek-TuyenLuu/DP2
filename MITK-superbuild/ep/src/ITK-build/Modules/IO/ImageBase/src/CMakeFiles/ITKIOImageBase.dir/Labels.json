@@ -1,0 +1,43 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/IO/ImageBase/src/itkArchetypeSeriesFileNames.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/IO/ImageBase/src/itkImageIOFactory.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/IO/ImageBase/src/itkIOCommon.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/IO/ImageBase/src/itkNumericSeriesFileNames.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/IO/ImageBase/src/itkImageIOBase.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/IO/ImageBase/src/itkRegularExpressionSeriesFileNames.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/IO/ImageBase/src/itkStreamingImageIOBase.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/IO/ImageBase/src/CMakeLists.txt"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "ITKIOImageBase" ],
+		"name" : "ITKIOImageBase"
+	}
+}

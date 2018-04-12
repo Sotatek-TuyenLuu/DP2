@@ -1,0 +1,398 @@
+# Target labels
+ MITK-DTI
+ MITK
+# Source files and their labels
+E:/D/MITK-superbuild/MITK-build/Modules/DiffusionImaging/DiffusionCore/us_init.cpp
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/DicomImport/mitkDicomDiffusionImageReader.cpp
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/DicomImport/mitkDicomDiffusionImageHeaderReader.cpp
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/DicomImport/mitkGEDicomDiffusionImageHeaderReader.cpp
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/DicomImport/mitkPhilipsDicomDiffusionImageHeaderReader.cpp
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/DicomImport/mitkSiemensDicomDiffusionImageHeaderReader.cpp
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/DicomImport/mitkSiemensMosaicDicomDiffusionImageHeaderReader.cpp
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/DicomImport/mitkDiffusionDICOMFileReader.cpp
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/DicomImport/mitkDiffusionHeaderDICOMFileReader.cpp
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/DicomImport/mitkDiffusionHeaderSiemensDICOMFileReader.cpp
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/DicomImport/mitkDiffusionHeaderSiemensDICOMFileHelper.cpp
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/DicomImport/mitkDiffusionHeaderSiemensMosaicDICOMFileReader.cpp
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/DicomImport/mitkDiffusionHeaderGEDICOMFileReader.cpp
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/DicomImport/mitkDiffusionHeaderPhilipsDICOMFileReader.cpp
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/IODataStructures/DiffusionWeightedImages/mitkDiffusionImageHeaderInformation.cpp
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/IODataStructures/DiffusionWeightedImages/mitkDiffusionImageCorrectionFilter.cpp
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/IODataStructures/DiffusionWeightedImages/mitkDiffusionImageCreationFilter.cpp
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/IODataStructures/Properties/mitkBValueMapProperty.cpp
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/IODataStructures/Properties/mitkGradientDirectionsProperty.cpp
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/IODataStructures/Properties/mitkMeasurementFrameProperty.cpp
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/IODataStructures/Properties/mitkDiffusionPropertyHelper.cpp
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/IODataStructures/Properties/mitkNodePredicateIsDWI.cpp
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/IODataStructures/Properties/mitkBValueMapPropertySerializer.cpp
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/IODataStructures/Properties/mitkGradientDirectionsPropertySerializer.cpp
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/IODataStructures/Properties/mitkMeasurementFramePropertySerializer.cpp
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/IODataStructures/QBallImages/mitkQBallImageSource.cpp
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/IODataStructures/QBallImages/mitkQBallImage.cpp
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/IODataStructures/TensorImages/mitkTensorImage.cpp
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/Rendering/vtkMaskedProgrammableGlyphFilter.cpp
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/Rendering/mitkVectorImageVtkGlyphMapper3D.cpp
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/Rendering/vtkOdfSource.cxx
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/Rendering/vtkThickPlane.cxx
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/Rendering/mitkOdfNormalizationMethodProperty.cpp
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/Rendering/mitkOdfScaleByProperty.cpp
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/Algorithms/mitkPartialVolumeAnalysisHistogramCalculator.cpp
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/Algorithms/mitkPartialVolumeAnalysisClusteringCalculator.cpp
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/Algorithms/itkDwiGradientLengthCorrectionFilter.cpp
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/Algorithms/Registration/mitkRegistrationWrapper.cpp
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/Algorithms/Registration/mitkPyramidImageRegistrationMethod.cpp
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/Algorithms/Registration/mitkDWIHeadMotionCorrectionFilter.cpp
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/Algorithms/Reconstruction/MultishellProcessing/itkADCAverageFunctor.cpp
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/Algorithms/Reconstruction/MultishellProcessing/itkADCFitFunctor.cpp
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/Algorithms/Reconstruction/MultishellProcessing/itkKurtosisFitFunctor.cpp
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/Algorithms/Reconstruction/MultishellProcessing/itkBiExpFitFunctor.cpp
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/mitkDiffusionFunctionCollection.cpp
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/mitkDiffusionFunctionCollection.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/Rendering/mitkOdfVtkMapper2D.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/Algorithms/Reconstruction/itkDiffusionQballReconstructionImageFilter.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/Algorithms/Reconstruction/mitkTeemDiffusionTensor3DReconstructionImageFilter.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/Algorithms/Reconstruction/itkAnalyticalDiffusionQballReconstructionImageFilter.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/Algorithms/Reconstruction/itkDiffusionMultiShellQballReconstructionImageFilter.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/Algorithms/Reconstruction/itkPointShell.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/Algorithms/Reconstruction/itkOrientationDistributionFunction.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/Algorithms/Reconstruction/itkDiffusionIntravoxelIncoherentMotionReconstructionImageFilter.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/Algorithms/Reconstruction/MultishellProcessing/itkRadialMultishellToSingleshellImageFilter.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/Algorithms/Reconstruction/MultishellProcessing/itkDWIVoxelFunctor.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/Algorithms/Reconstruction/MultishellProcessing/itkADCAverageFunctor.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/Algorithms/Reconstruction/MultishellProcessing/itkKurtosisFitFunctor.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/Algorithms/Reconstruction/MultishellProcessing/itkBiExpFitFunctor.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/Algorithms/Reconstruction/MultishellProcessing/itkADCFitFunctor.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/IODataStructures/Properties/mitkBValueMapProperty.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/IODataStructures/Properties/mitkGradientDirectionsProperty.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/IODataStructures/Properties/mitkMeasurementFrameProperty.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/IODataStructures/Properties/mitkDiffusionPropertyHelper.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/IODataStructures/DiffusionWeightedImages/mitkDiffusionImageTransformedCreationFilter.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/Algorithms/itkDiffusionQballGeneralizedFaImageFilter.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/Algorithms/itkDiffusionQballPrepareVisualizationImageFilter.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/Algorithms/itkElectrostaticRepulsionDiffusionGradientReductionFilter.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/Algorithms/itkTensorDerivedMeasurementsFilter.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/Algorithms/itkBrainMaskExtractionImageFilter.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/Algorithms/itkB0ImageExtractionImageFilter.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/Algorithms/itkB0ImageExtractionToSeparateImageFilter.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/Algorithms/itkTensorImageToDiffusionImageFilter.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/Algorithms/itkTensorToL2NormImageFilter.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/Algorithms/itkGaussianInterpolateImageFunction.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/Algorithms/mitkPartialVolumeAnalysisHistogramCalculator.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/Algorithms/mitkPartialVolumeAnalysisClusteringCalculator.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/Algorithms/itkDiffusionTensorPrincipalDirectionImageFilter.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/Algorithms/itkCartesianToPolarVectorImageFilter.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/Algorithms/itkPolarToCartesianVectorImageFilter.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/Algorithms/itkDistanceMapFilter.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/Algorithms/itkProjectionFilter.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/Algorithms/itkResidualImageFilter.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/Algorithms/itkExtractChannelFromRgbaImageFilter.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/Algorithms/itkTensorReconstructionWithEigenvalueCorrectionFilter.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/Algorithms/itkMergeDiffusionImagesFilter.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/Algorithms/itkDwiPhantomGenerationFilter.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/Algorithms/itkFiniteDiffOdfMaximaExtractionFilter.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/Algorithms/itkMrtrixPeakImageConverter.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/Algorithms/itkFslPeakImageConverter.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/Algorithms/itkShCoefficientImageImporter.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/Algorithms/itkShCoefficientImageExporter.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/Algorithms/itkOdfMaximaExtractionFilter.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/Algorithms/itkResampleDwiImageFilter.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/Algorithms/itkDwiGradientLengthCorrectionFilter.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/Algorithms/itkAdcImageFilter.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/Algorithms/itkDwiNormilzationFilter.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/Algorithms/itkSplitDWImageFilter.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/Algorithms/itkRemoveDwiChannelFilter.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/Algorithms/itkExtractDwiChannelFilter.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/Algorithms/Registration/mitkDWIHeadMotionCorrectionFilter.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/Algorithms/itkNonLocalMeansDenoisingFilter.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/Algorithms/itkVectorImageToImageFilter.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/DicomImport/mitkDicomDiffusionImageReader.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/DicomImport/mitkDicomDiffusionImageHeaderReader.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/DicomImport/mitkGEDicomDiffusionImageHeaderReader.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/DicomImport/mitkPhilipsDicomDiffusionImageHeaderReader.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/DicomImport/mitkSiemensDicomDiffusionImageHeaderReader.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/DicomImport/mitkSiemensMosaicDicomDiffusionImageHeaderReader.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/DicomImport/mitkDiffusionDICOMFileReader.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/DicomImport/mitkDiffusionHeaderDICOMFileReader.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/DicomImport/mitkDiffusionHeaderSiemensDICOMFileReader.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/DicomImport/mitkDiffusionHeaderSiemensDICOMFileHelper.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/DicomImport/mitkDiffusionHeaderSiemensMosaicDICOMFileReader.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/DicomImport/mitkDiffusionHeaderGEDICOMFileReader.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/DicomImport/mitkDiffusionHeaderPhilipsDICOMFileReader.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/IODataStructures/DiffusionWeightedImages/mitkDiffusionImageHeaderInformation.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/IODataStructures/DiffusionWeightedImages/mitkDiffusionImageCorrectionFilter.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/IODataStructures/DiffusionWeightedImages/mitkDiffusionImageCreationFilter.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/IODataStructures/Properties/mitkNodePredicateIsDWI.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/IODataStructures/QBallImages/mitkQBallImageSource.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/IODataStructures/QBallImages/mitkQBallImage.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/IODataStructures/TensorImages/mitkTensorImage.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/Rendering/vtkMaskedProgrammableGlyphFilter.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/Rendering/mitkVectorImageVtkGlyphMapper3D.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/Rendering/vtkOdfSource.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/Rendering/vtkThickPlane.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/Rendering/mitkOdfNormalizationMethodProperty.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/Rendering/mitkOdfScaleByProperty.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/Algorithms/Registration/mitkRegistrationWrapper.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/Algorithms/Registration/mitkPyramidImageRegistrationMethod.h
+ MITK-DTI
+ MITK
+E:/D/MITK/Modules/DiffusionImaging/DiffusionCore/CMakeLists.txt

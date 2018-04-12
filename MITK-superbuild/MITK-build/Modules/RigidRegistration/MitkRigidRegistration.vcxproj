@@ -1,0 +1,587 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{94DF198F-3032-3377-B78A-C21A98DCC13D}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>MitkRigidRegistration</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\MITK-build\bin\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MitkRigidRegistration.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MitkRigidRegistration</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\MITK-build\bin\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MitkRigidRegistration.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MitkRigidRegistration</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\MITK-build\bin\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">MitkRigidRegistration.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">MitkRigidRegistration</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\MITK-build\bin\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">MitkRigidRegistration.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">MitkRigidRegistration</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistration;E:\D\MITK-superbuild\ep\include\ITK-4.7;E:\D\MITK\Modules\RigidRegistration\.;E:\D\MITK\Modules\CppMicroServices\third_party;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\include;E:\D\MITK\Modules\CppMicroServices\core\include;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\core\include;E:\D\MITK\Modules\CppMicroServices\core\src\util;E:\D\MITK\Modules\CppMicroServices\core\src\service;E:\D\MITK\Modules\CppMicroServices\core\src\module;E:\D\MITK-superbuild\MITK-build\Modules\Core;E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\include\vtk-6.2;E:\D\MITK-superbuild\ep\include\boost-1_59;E:\D\MITK\Modules\Core\include;E:\D\MITK-superbuild\MITK-build;E:\D\MITK-superbuild\MITK-build\Utilities\mbilog;E:\D\MITK\Utilities\mbilog\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4005;4231;4316</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WIN32_WINNT=0x0501;POCO_NO_UNWINDOWS;WIN32_LEAN_AND_MEAN;NOMINMAX;_DEBUG;US_MODULE_NAME=MitkRigidRegistration;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug";MitkRigidRegistration_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WIN32_WINNT=0x0501;POCO_NO_UNWINDOWS;WIN32_LEAN_AND_MEAN;NOMINMAX;_DEBUG;US_MODULE_NAME=MitkRigidRegistration;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\";MitkRigidRegistration_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistration;E:\D\MITK-superbuild\ep\include\ITK-4.7;E:\D\MITK\Modules\RigidRegistration\.;E:\D\MITK\Modules\CppMicroServices\third_party;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\include;E:\D\MITK\Modules\CppMicroServices\core\include;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\core\include;E:\D\MITK\Modules\CppMicroServices\core\src\util;E:\D\MITK\Modules\CppMicroServices\core\src\service;E:\D\MITK\Modules\CppMicroServices\core\src\module;E:\D\MITK-superbuild\MITK-build\Modules\Core;E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\include\vtk-6.2;E:\D\MITK-superbuild\ep\include\boost-1_59;E:\D\MITK\Modules\Core\include;E:\D\MITK-superbuild\MITK-build;E:\D\MITK-superbuild\MITK-build\Utilities\mbilog;E:\D\MITK\Utilities\mbilog\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistration;E:\D\MITK-superbuild\ep\include\ITK-4.7;E:\D\MITK\Modules\RigidRegistration\.;E:\D\MITK\Modules\CppMicroServices\third_party;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\include;E:\D\MITK\Modules\CppMicroServices\core\include;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\core\include;E:\D\MITK\Modules\CppMicroServices\core\src\util;E:\D\MITK\Modules\CppMicroServices\core\src\service;E:\D\MITK\Modules\CppMicroServices\core\src\module;E:\D\MITK-superbuild\MITK-build\Modules\Core;E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\include\vtk-6.2;E:\D\MITK-superbuild\ep\include\boost-1_59;E:\D\MITK\Modules\Core\include;E:\D\MITK-superbuild\MITK-build;E:\D\MITK-superbuild\MITK-build\Utilities\mbilog;E:\D\MITK\Utilities\mbilog\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Appending zipped resources to MitkRigidRegistration</Message>
+      <Command>setlocal
+cd E:\D\MITK\Modules\RigidRegistration
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+E:\D\MITK-superbuild\MITK-build\bin\Debug\usResourceCompiler.exe --append E:/D/MITK-superbuild/MITK-build/bin/Debug/MitkRigidRegistration.dll E:/D/MITK-superbuild/MITK-build/Modules/RigidRegistration/us_MitkRigidRegistration/res_0.zip
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\Debug\MitkCore.lib;E:\D\MITK-superbuild\ep\lib\ITKStatistics-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKSpatialObjects-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKPath-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKOptimizers-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkdouble-conversion-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itksys-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl_algo-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkv3p_netlib-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkNetlibSlatec-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKMesh-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKMetaIO-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkzlib-4.7d.lib;..\..\lib\Debug\CppMicroServices.lib;..\..\lib\Debug\mbilog.lib;E:\D\MITK-superbuild\ep\lib\ITKIOGDCM-4.7d.lib;E:\D\MITK-superbuild\ep\lib\gdcmMSFFd.lib;E:\D\MITK-superbuild\ep\lib\gdcmDICTd.lib;E:\D\MITK-superbuild\ep\lib\gdcmIODd.lib;E:\D\MITK-superbuild\ep\lib\gdcmDSEDd.lib;E:\D\MITK-superbuild\ep\lib\gdcmCommond.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersTexture-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersParallel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkParallelCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOLegacy-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingStencil-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingMath-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingVolumeOpenGL-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingFreeTypeOpenGL-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingOpenGL-6.2d.lib;glu32.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingLabel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkInteractionWidgets-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersModeling-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkInteractionStyle-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingHybrid-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOImage-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkDICOMParser-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkmetaio-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkpng-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtktiff-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkjpeg-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingVolume-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersHybrid-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingGeneral-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingSources-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingAnnotation-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingFreeType-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersExtraction-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersStatistics-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingFourier-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkalglib-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersGeometry-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersSources-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersGeneral-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonComputationalGeometry-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonColor-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkftgl-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkfreetype-6.2d.lib;opengl32.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingColor-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOXML-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOGeometry-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkjsoncpp-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOXMLParser-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonExecutionModel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonDataModel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonMisc-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonSystem-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtksys-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonTransforms-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonMath-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkzlib-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkexpat-6.2d.lib;E:\D\MITK-superbuild\ep\lib\ITKMetaIO-4.7d.lib;comctl32.lib;wsock32.lib;E:\D\MITK-superbuild\ep\lib\itkzlib-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOImageBase-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKStatistics-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKCommon-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkdouble-conversion-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itksys-4.7d.lib;ws2_32.lib;Psapi.lib;E:\D\MITK-superbuild\ep\lib\ITKVNLInstantiation-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl_algo-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkv3p_lsqr-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvcl-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkNetlibSlatec-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkv3p_netlib-4.7d.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:/D/MITK-superbuild/ep/lib;E:/D/MITK-superbuild/ep/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/MITK-build/lib/Debug/MitkRigidRegistration.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/MITK-build/bin/Debug/MitkRigidRegistration.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistration;E:\D\MITK-superbuild\ep\include\ITK-4.7;E:\D\MITK\Modules\RigidRegistration\.;E:\D\MITK\Modules\CppMicroServices\third_party;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\include;E:\D\MITK\Modules\CppMicroServices\core\include;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\core\include;E:\D\MITK\Modules\CppMicroServices\core\src\util;E:\D\MITK\Modules\CppMicroServices\core\src\service;E:\D\MITK\Modules\CppMicroServices\core\src\module;E:\D\MITK-superbuild\MITK-build\Modules\Core;E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\include\vtk-6.2;E:\D\MITK-superbuild\ep\include\boost-1_59;E:\D\MITK\Modules\Core\include;E:\D\MITK-superbuild\MITK-build;E:\D\MITK-superbuild\MITK-build\Utilities\mbilog;E:\D\MITK\Utilities\mbilog\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4005;4231;4316</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WIN32_WINNT=0x0501;POCO_NO_UNWINDOWS;WIN32_LEAN_AND_MEAN;NOMINMAX;NDEBUG;US_MODULE_NAME=MitkRigidRegistration;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release";MitkRigidRegistration_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WIN32_WINNT=0x0501;POCO_NO_UNWINDOWS;WIN32_LEAN_AND_MEAN;NOMINMAX;NDEBUG;US_MODULE_NAME=MitkRigidRegistration;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\";MitkRigidRegistration_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistration;E:\D\MITK-superbuild\ep\include\ITK-4.7;E:\D\MITK\Modules\RigidRegistration\.;E:\D\MITK\Modules\CppMicroServices\third_party;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\include;E:\D\MITK\Modules\CppMicroServices\core\include;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\core\include;E:\D\MITK\Modules\CppMicroServices\core\src\util;E:\D\MITK\Modules\CppMicroServices\core\src\service;E:\D\MITK\Modules\CppMicroServices\core\src\module;E:\D\MITK-superbuild\MITK-build\Modules\Core;E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\include\vtk-6.2;E:\D\MITK-superbuild\ep\include\boost-1_59;E:\D\MITK\Modules\Core\include;E:\D\MITK-superbuild\MITK-build;E:\D\MITK-superbuild\MITK-build\Utilities\mbilog;E:\D\MITK\Utilities\mbilog\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistration;E:\D\MITK-superbuild\ep\include\ITK-4.7;E:\D\MITK\Modules\RigidRegistration\.;E:\D\MITK\Modules\CppMicroServices\third_party;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\include;E:\D\MITK\Modules\CppMicroServices\core\include;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\core\include;E:\D\MITK\Modules\CppMicroServices\core\src\util;E:\D\MITK\Modules\CppMicroServices\core\src\service;E:\D\MITK\Modules\CppMicroServices\core\src\module;E:\D\MITK-superbuild\MITK-build\Modules\Core;E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\include\vtk-6.2;E:\D\MITK-superbuild\ep\include\boost-1_59;E:\D\MITK\Modules\Core\include;E:\D\MITK-superbuild\MITK-build;E:\D\MITK-superbuild\MITK-build\Utilities\mbilog;E:\D\MITK\Utilities\mbilog\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Appending zipped resources to MitkRigidRegistration</Message>
+      <Command>setlocal
+cd E:\D\MITK\Modules\RigidRegistration
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+E:\D\MITK-superbuild\MITK-build\bin\Release\usResourceCompiler.exe --append E:/D/MITK-superbuild/MITK-build/bin/Release/MitkRigidRegistration.dll E:/D/MITK-superbuild/MITK-build/Modules/RigidRegistration/us_MitkRigidRegistration/res_0.zip
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\Release\MitkCore.lib;E:\D\MITK-superbuild\ep\lib\ITKStatistics-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKSpatialObjects-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKPath-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKOptimizers-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkdouble-conversion-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itksys-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl_algo-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkv3p_netlib-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkNetlibSlatec-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKMesh-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKMetaIO-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkzlib-4.7d.lib;..\..\lib\Release\CppMicroServices.lib;..\..\lib\Release\mbilog.lib;E:\D\MITK-superbuild\ep\lib\ITKIOGDCM-4.7d.lib;E:\D\MITK-superbuild\ep\lib\gdcmMSFFd.lib;E:\D\MITK-superbuild\ep\lib\gdcmDICTd.lib;E:\D\MITK-superbuild\ep\lib\gdcmIODd.lib;E:\D\MITK-superbuild\ep\lib\gdcmDSEDd.lib;E:\D\MITK-superbuild\ep\lib\gdcmCommond.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersTexture-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersParallel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkParallelCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOLegacy-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingStencil-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingMath-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingVolumeOpenGL-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingFreeTypeOpenGL-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingOpenGL-6.2d.lib;glu32.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingLabel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkInteractionWidgets-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersModeling-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkInteractionStyle-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingHybrid-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOImage-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkDICOMParser-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkmetaio-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkpng-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtktiff-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkjpeg-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingVolume-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersHybrid-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingGeneral-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingSources-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingAnnotation-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingFreeType-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersExtraction-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersStatistics-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingFourier-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkalglib-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersGeometry-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersSources-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersGeneral-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonComputationalGeometry-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonColor-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkftgl-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkfreetype-6.2d.lib;opengl32.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingColor-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOXML-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOGeometry-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkjsoncpp-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOXMLParser-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonExecutionModel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonDataModel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonMisc-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonSystem-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtksys-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonTransforms-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonMath-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkzlib-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkexpat-6.2d.lib;E:\D\MITK-superbuild\ep\lib\ITKMetaIO-4.7d.lib;comctl32.lib;wsock32.lib;E:\D\MITK-superbuild\ep\lib\itkzlib-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOImageBase-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKStatistics-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKCommon-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkdouble-conversion-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itksys-4.7d.lib;ws2_32.lib;Psapi.lib;E:\D\MITK-superbuild\ep\lib\ITKVNLInstantiation-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl_algo-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkv3p_lsqr-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvcl-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkNetlibSlatec-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkv3p_netlib-4.7d.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:/D/MITK-superbuild/ep/lib;E:/D/MITK-superbuild/ep/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/MITK-build/lib/Release/MitkRigidRegistration.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/MITK-build/bin/Release/MitkRigidRegistration.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistration;E:\D\MITK-superbuild\ep\include\ITK-4.7;E:\D\MITK\Modules\RigidRegistration\.;E:\D\MITK\Modules\CppMicroServices\third_party;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\include;E:\D\MITK\Modules\CppMicroServices\core\include;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\core\include;E:\D\MITK\Modules\CppMicroServices\core\src\util;E:\D\MITK\Modules\CppMicroServices\core\src\service;E:\D\MITK\Modules\CppMicroServices\core\src\module;E:\D\MITK-superbuild\MITK-build\Modules\Core;E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\include\vtk-6.2;E:\D\MITK-superbuild\ep\include\boost-1_59;E:\D\MITK\Modules\Core\include;E:\D\MITK-superbuild\MITK-build;E:\D\MITK-superbuild\MITK-build\Utilities\mbilog;E:\D\MITK\Utilities\mbilog\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4005;4231;4316</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WIN32_WINNT=0x0501;POCO_NO_UNWINDOWS;WIN32_LEAN_AND_MEAN;NOMINMAX;NDEBUG;US_MODULE_NAME=MitkRigidRegistration;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR="MinSizeRel";MitkRigidRegistration_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WIN32_WINNT=0x0501;POCO_NO_UNWINDOWS;WIN32_LEAN_AND_MEAN;NOMINMAX;NDEBUG;US_MODULE_NAME=MitkRigidRegistration;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\";MitkRigidRegistration_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistration;E:\D\MITK-superbuild\ep\include\ITK-4.7;E:\D\MITK\Modules\RigidRegistration\.;E:\D\MITK\Modules\CppMicroServices\third_party;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\include;E:\D\MITK\Modules\CppMicroServices\core\include;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\core\include;E:\D\MITK\Modules\CppMicroServices\core\src\util;E:\D\MITK\Modules\CppMicroServices\core\src\service;E:\D\MITK\Modules\CppMicroServices\core\src\module;E:\D\MITK-superbuild\MITK-build\Modules\Core;E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\include\vtk-6.2;E:\D\MITK-superbuild\ep\include\boost-1_59;E:\D\MITK\Modules\Core\include;E:\D\MITK-superbuild\MITK-build;E:\D\MITK-superbuild\MITK-build\Utilities\mbilog;E:\D\MITK\Utilities\mbilog\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistration;E:\D\MITK-superbuild\ep\include\ITK-4.7;E:\D\MITK\Modules\RigidRegistration\.;E:\D\MITK\Modules\CppMicroServices\third_party;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\include;E:\D\MITK\Modules\CppMicroServices\core\include;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\core\include;E:\D\MITK\Modules\CppMicroServices\core\src\util;E:\D\MITK\Modules\CppMicroServices\core\src\service;E:\D\MITK\Modules\CppMicroServices\core\src\module;E:\D\MITK-superbuild\MITK-build\Modules\Core;E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\include\vtk-6.2;E:\D\MITK-superbuild\ep\include\boost-1_59;E:\D\MITK\Modules\Core\include;E:\D\MITK-superbuild\MITK-build;E:\D\MITK-superbuild\MITK-build\Utilities\mbilog;E:\D\MITK\Utilities\mbilog\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Appending zipped resources to MitkRigidRegistration</Message>
+      <Command>setlocal
+cd E:\D\MITK\Modules\RigidRegistration
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+E:\D\MITK-superbuild\MITK-build\bin\MinSizeRel\usResourceCompiler.exe --append E:/D/MITK-superbuild/MITK-build/bin/MinSizeRel/MitkRigidRegistration.dll E:/D/MITK-superbuild/MITK-build/Modules/RigidRegistration/us_MitkRigidRegistration/res_0.zip
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\MinSizeRel\MitkCore.lib;E:\D\MITK-superbuild\ep\lib\ITKStatistics-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKSpatialObjects-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKPath-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKOptimizers-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkdouble-conversion-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itksys-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl_algo-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkv3p_netlib-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkNetlibSlatec-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKMesh-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKMetaIO-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkzlib-4.7d.lib;..\..\lib\MinSizeRel\CppMicroServices.lib;..\..\lib\MinSizeRel\mbilog.lib;E:\D\MITK-superbuild\ep\lib\ITKIOGDCM-4.7d.lib;E:\D\MITK-superbuild\ep\lib\gdcmMSFFd.lib;E:\D\MITK-superbuild\ep\lib\gdcmDICTd.lib;E:\D\MITK-superbuild\ep\lib\gdcmIODd.lib;E:\D\MITK-superbuild\ep\lib\gdcmDSEDd.lib;E:\D\MITK-superbuild\ep\lib\gdcmCommond.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersTexture-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersParallel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkParallelCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOLegacy-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingStencil-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingMath-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingVolumeOpenGL-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingFreeTypeOpenGL-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingOpenGL-6.2d.lib;glu32.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingLabel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkInteractionWidgets-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersModeling-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkInteractionStyle-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingHybrid-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOImage-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkDICOMParser-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkmetaio-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkpng-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtktiff-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkjpeg-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingVolume-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersHybrid-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingGeneral-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingSources-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingAnnotation-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingFreeType-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersExtraction-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersStatistics-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingFourier-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkalglib-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersGeometry-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersSources-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersGeneral-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonComputationalGeometry-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonColor-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkftgl-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkfreetype-6.2d.lib;opengl32.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingColor-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOXML-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOGeometry-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkjsoncpp-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOXMLParser-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonExecutionModel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonDataModel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonMisc-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonSystem-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtksys-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonTransforms-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonMath-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkzlib-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkexpat-6.2d.lib;E:\D\MITK-superbuild\ep\lib\ITKMetaIO-4.7d.lib;comctl32.lib;wsock32.lib;E:\D\MITK-superbuild\ep\lib\itkzlib-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOImageBase-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKStatistics-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKCommon-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkdouble-conversion-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itksys-4.7d.lib;ws2_32.lib;Psapi.lib;E:\D\MITK-superbuild\ep\lib\ITKVNLInstantiation-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl_algo-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkv3p_lsqr-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvcl-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkNetlibSlatec-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkv3p_netlib-4.7d.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:/D/MITK-superbuild/ep/lib;E:/D/MITK-superbuild/ep/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/MITK-build/lib/MinSizeRel/MitkRigidRegistration.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/MITK-build/bin/MinSizeRel/MitkRigidRegistration.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistration;E:\D\MITK-superbuild\ep\include\ITK-4.7;E:\D\MITK\Modules\RigidRegistration\.;E:\D\MITK\Modules\CppMicroServices\third_party;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\include;E:\D\MITK\Modules\CppMicroServices\core\include;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\core\include;E:\D\MITK\Modules\CppMicroServices\core\src\util;E:\D\MITK\Modules\CppMicroServices\core\src\service;E:\D\MITK\Modules\CppMicroServices\core\src\module;E:\D\MITK-superbuild\MITK-build\Modules\Core;E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\include\vtk-6.2;E:\D\MITK-superbuild\ep\include\boost-1_59;E:\D\MITK\Modules\Core\include;E:\D\MITK-superbuild\MITK-build;E:\D\MITK-superbuild\MITK-build\Utilities\mbilog;E:\D\MITK\Utilities\mbilog\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4005;4231;4316</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WIN32_WINNT=0x0501;POCO_NO_UNWINDOWS;WIN32_LEAN_AND_MEAN;NOMINMAX;NDEBUG;US_MODULE_NAME=MitkRigidRegistration;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR="RelWithDebInfo";MitkRigidRegistration_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WIN32_WINNT=0x0501;POCO_NO_UNWINDOWS;WIN32_LEAN_AND_MEAN;NOMINMAX;NDEBUG;US_MODULE_NAME=MitkRigidRegistration;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\";MitkRigidRegistration_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistration;E:\D\MITK-superbuild\ep\include\ITK-4.7;E:\D\MITK\Modules\RigidRegistration\.;E:\D\MITK\Modules\CppMicroServices\third_party;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\include;E:\D\MITK\Modules\CppMicroServices\core\include;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\core\include;E:\D\MITK\Modules\CppMicroServices\core\src\util;E:\D\MITK\Modules\CppMicroServices\core\src\service;E:\D\MITK\Modules\CppMicroServices\core\src\module;E:\D\MITK-superbuild\MITK-build\Modules\Core;E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\include\vtk-6.2;E:\D\MITK-superbuild\ep\include\boost-1_59;E:\D\MITK\Modules\Core\include;E:\D\MITK-superbuild\MITK-build;E:\D\MITK-superbuild\MITK-build\Utilities\mbilog;E:\D\MITK\Utilities\mbilog\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistration;E:\D\MITK-superbuild\ep\include\ITK-4.7;E:\D\MITK\Modules\RigidRegistration\.;E:\D\MITK\Modules\CppMicroServices\third_party;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\include;E:\D\MITK\Modules\CppMicroServices\core\include;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\core\include;E:\D\MITK\Modules\CppMicroServices\core\src\util;E:\D\MITK\Modules\CppMicroServices\core\src\service;E:\D\MITK\Modules\CppMicroServices\core\src\module;E:\D\MITK-superbuild\MITK-build\Modules\Core;E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\include\vtk-6.2;E:\D\MITK-superbuild\ep\include\boost-1_59;E:\D\MITK\Modules\Core\include;E:\D\MITK-superbuild\MITK-build;E:\D\MITK-superbuild\MITK-build\Utilities\mbilog;E:\D\MITK\Utilities\mbilog\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Appending zipped resources to MitkRigidRegistration</Message>
+      <Command>setlocal
+cd E:\D\MITK\Modules\RigidRegistration
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+E:\D\MITK-superbuild\MITK-build\bin\RelWithDebInfo\usResourceCompiler.exe --append E:/D/MITK-superbuild/MITK-build/bin/RelWithDebInfo/MitkRigidRegistration.dll E:/D/MITK-superbuild/MITK-build/Modules/RigidRegistration/us_MitkRigidRegistration/res_0.zip
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\RelWithDebInfo\MitkCore.lib;E:\D\MITK-superbuild\ep\lib\ITKStatistics-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKSpatialObjects-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKPath-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKOptimizers-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkdouble-conversion-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itksys-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl_algo-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkv3p_netlib-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkNetlibSlatec-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKMesh-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKMetaIO-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkzlib-4.7d.lib;..\..\lib\RelWithDebInfo\CppMicroServices.lib;..\..\lib\RelWithDebInfo\mbilog.lib;E:\D\MITK-superbuild\ep\lib\ITKIOGDCM-4.7d.lib;E:\D\MITK-superbuild\ep\lib\gdcmMSFFd.lib;E:\D\MITK-superbuild\ep\lib\gdcmDICTd.lib;E:\D\MITK-superbuild\ep\lib\gdcmIODd.lib;E:\D\MITK-superbuild\ep\lib\gdcmDSEDd.lib;E:\D\MITK-superbuild\ep\lib\gdcmCommond.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersTexture-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersParallel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkParallelCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOLegacy-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingStencil-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingMath-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingVolumeOpenGL-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingFreeTypeOpenGL-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingOpenGL-6.2d.lib;glu32.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingLabel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkInteractionWidgets-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersModeling-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkInteractionStyle-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingHybrid-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOImage-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkDICOMParser-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkmetaio-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkpng-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtktiff-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkjpeg-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingVolume-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersHybrid-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingGeneral-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingSources-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingAnnotation-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingFreeType-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkRenderingCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersExtraction-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersStatistics-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingFourier-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkalglib-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersGeometry-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersSources-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersGeneral-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkFiltersCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonComputationalGeometry-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonColor-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkftgl-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkfreetype-6.2d.lib;opengl32.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingColor-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkImagingCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOXML-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOGeometry-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkjsoncpp-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOXMLParser-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkIOCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonExecutionModel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonDataModel-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonMisc-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonSystem-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtksys-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonTransforms-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonMath-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkCommonCore-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkzlib-6.2d.lib;E:\D\MITK-superbuild\ep\lib\vtkexpat-6.2d.lib;E:\D\MITK-superbuild\ep\lib\ITKMetaIO-4.7d.lib;comctl32.lib;wsock32.lib;E:\D\MITK-superbuild\ep\lib\itkzlib-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKIOImageBase-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKStatistics-4.7d.lib;E:\D\MITK-superbuild\ep\lib\ITKCommon-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkdouble-conversion-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itksys-4.7d.lib;ws2_32.lib;Psapi.lib;E:\D\MITK-superbuild\ep\lib\ITKVNLInstantiation-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl_algo-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkv3p_lsqr-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvnl-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkvcl-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkNetlibSlatec-4.7d.lib;E:\D\MITK-superbuild\ep\lib\itkv3p_netlib-4.7d.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:/D/MITK-superbuild/ep/lib;E:/D/MITK-superbuild/ep/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/MITK-build/lib/RelWithDebInfo/MitkRigidRegistration.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/MITK-build/bin/RelWithDebInfo/MitkRigidRegistration.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK\Modules\RigidRegistration\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/D/MITK/Modules/RigidRegistration/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK -BE:/D/MITK-superbuild/MITK-build --check-stamp-file E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistration\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK/Modules/RigidRegistration/CMakeLists.txt;E:\D\MITK\Modules\RigidRegistration\CMakeLists.txt;E:\D\MITK\Modules\RigidRegistration\files.cmake;E:\D\MITK\Modules\RigidRegistration\mitkImageRegistrationMethod-TYPE.cpp;E:\D\MITK\Modules\RigidRegistration\mitkImageRegistrationMethod-TYPE.cpp;E:\D\MITK\Modules\RigidRegistration\mitkImageRegistrationMethod-TYPE.cpp;E:\D\MITK\Modules\RigidRegistration\mitkImageRegistrationMethod-TYPE.cpp;E:\D\MITK\Modules\RigidRegistration\mitkImageRegistrationMethod-TYPE.cpp;E:\D\MITK\Modules\RigidRegistration\mitkImageRegistrationMethod-TYPE.cpp;E:\D\MITK\Modules\RigidRegistration\mitkImageRegistrationMethod-TYPE.cpp;E:\D\MITK\Modules\RigidRegistration\mitkImageRegistrationMethod-TYPE.cpp;E:\D\MITK\Modules\RigidRegistration\mitkPyramidalRegistrationMethod-TYPE.cpp;E:\D\MITK\Modules\RigidRegistration\mitkPyramidalRegistrationMethod-TYPE.cpp;E:\D\MITK\Modules\RigidRegistration\mitkPyramidalRegistrationMethod-TYPE.cpp;E:\D\MITK\Modules\RigidRegistration\mitkPyramidalRegistrationMethod-TYPE.cpp;E:\D\MITK\Modules\RigidRegistration\mitkPyramidalRegistrationMethod-TYPE.cpp;E:\D\MITK\Modules\RigidRegistration\mitkPyramidalRegistrationMethod-TYPE.cpp;E:\D\MITK\Modules\RigidRegistration\mitkPyramidalRegistrationMethod-TYPE.cpp;E:\D\MITK\Modules\RigidRegistration\mitkPyramidalRegistrationMethod-TYPE.cpp;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\CppMicroServicesConfigVersion.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\CppMicroServicesConfig.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\CMakeParseArguments.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionGenerateModuleInit.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionAddResources.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionCheckCompilerFlags.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionEmbedResources.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionCheckResourceLinking.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionGetResourceSource.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\usCoreConfigVersion.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\usCoreConfig.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usModuleInit.cpp;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\exportheader.cmake.in;E:\D\MITK\CMake\PackageDepends\MITK_ITK_Config.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\ITKConfigVersion.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\ITKConfig.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\ITKModuleAPI.cmake;E:\D\MITK\Modules\RigidRegistration\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistration\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/D/MITK/Modules/RigidRegistration/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK -BE:/D/MITK-superbuild/MITK-build --check-stamp-file E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistration\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK/Modules/RigidRegistration/CMakeLists.txt;E:\D\MITK\Modules\RigidRegistration\CMakeLists.txt;E:\D\MITK\Modules\RigidRegistration\files.cmake;E:\D\MITK\Modules\RigidRegistration\mitkImageRegistrationMethod-TYPE.cpp;E:\D\MITK\Modules\RigidRegistration\mitkImageRegistrationMethod-TYPE.cpp;E:\D\MITK\Modules\RigidRegistration\mitkImageRegistrationMethod-TYPE.cpp;E:\D\MITK\Modules\RigidRegistration\mitkImageRegistrationMethod-TYPE.cpp;E:\D\MITK\Modules\RigidRegistration\mitkImageRegistrationMethod-TYPE.cpp;E:\D\MITK\Modules\RigidRegistration\mitkImageRegistrationMethod-TYPE.cpp;E:\D\MITK\Modules\RigidRegistration\mitkImageRegistrationMethod-TYPE.cpp;E:\D\MITK\Modules\RigidRegistration\mitkImageRegistrationMethod-TYPE.cpp;E:\D\MITK\Modules\RigidRegistration\mitkPyramidalRegistrationMethod-TYPE.cpp;E:\D\MITK\Modules\RigidRegistration\mitkPyramidalRegistrationMethod-TYPE.cpp;E:\D\MITK\Modules\RigidRegistration\mitkPyramidalRegistrationMethod-TYPE.cpp;E:\D\MITK\Modules\RigidRegistration\mitkPyramidalRegistrationMethod-TYPE.cpp;E:\D\MITK\Modules\RigidRegistration\mitkPyramidalRegistrationMethod-TYPE.cpp;E:\D\MITK\Modules\RigidRegistration\mitkPyramidalRegistrationMethod-TYPE.cpp;E:\D\MITK\Modules\RigidRegistration\mitkPyramidalRegistrationMethod-TYPE.cpp;E:\D\MITK\Modules\RigidRegistration\mitkPyramidalRegistrationMethod-TYPE.cpp;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\CppMicroServicesConfigVersion.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\CppMicroServicesConfig.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\CMakeParseArguments.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionGenerateModuleInit.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionAddResources.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionCheckCompilerFlags.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionEmbedResources.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionCheckResourceLinking.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionGetResourceSource.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\usCoreConfigVersion.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\usCoreConfig.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usModuleInit.cpp;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\exportheader.cmake.in;E:\D\MITK\CMake\PackageDepends\MITK_ITK_Config.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\ITKConfigVersion.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\ITKConfig.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\ITKModuleAPI.cmake;E:\D\MITK\Modules\RigidRegistration\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistration\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/D/MITK/Modules/RigidRegistration/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK -BE:/D/MITK-superbuild/MITK-build --check-stamp-file E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistration\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK/Modules/RigidRegistration/CMakeLists.txt;E:\D\MITK\Modules\RigidRegistration\CMakeLists.txt;E:\D\MITK\Modules\RigidRegistration\files.cmake;E:\D\MITK\Modules\RigidRegistration\mitkImageRegistrationMethod-TYPE.cpp;E:\D\MITK\Modules\RigidRegistration\mitkImageRegistrationMethod-TYPE.cpp;E:\D\MITK\Modules\RigidRegistration\mitkImageRegistrationMethod-TYPE.cpp;E:\D\MITK\Modules\RigidRegistration\mitkImageRegistrationMethod-TYPE.cpp;E:\D\MITK\Modules\RigidRegistration\mitkImageRegistrationMethod-TYPE.cpp;E:\D\MITK\Modules\RigidRegistration\mitkImageRegistrationMethod-TYPE.cpp;E:\D\MITK\Modules\RigidRegistration\mitkImageRegistrationMethod-TYPE.cpp;E:\D\MITK\Modules\RigidRegistration\mitkImageRegistrationMethod-TYPE.cpp;E:\D\MITK\Modules\RigidRegistration\mitkPyramidalRegistrationMethod-TYPE.cpp;E:\D\MITK\Modules\RigidRegistration\mitkPyramidalRegistrationMethod-TYPE.cpp;E:\D\MITK\Modules\RigidRegistration\mitkPyramidalRegistrationMethod-TYPE.cpp;E:\D\MITK\Modules\RigidRegistration\mitkPyramidalRegistrationMethod-TYPE.cpp;E:\D\MITK\Modules\RigidRegistration\mitkPyramidalRegistrationMethod-TYPE.cpp;E:\D\MITK\Modules\RigidRegistration\mitkPyramidalRegistrationMethod-TYPE.cpp;E:\D\MITK\Modules\RigidRegistration\mitkPyramidalRegistrationMethod-TYPE.cpp;E:\D\MITK\Modules\RigidRegistration\mitkPyramidalRegistrationMethod-TYPE.cpp;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\CppMicroServicesConfigVersion.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\CppMicroServicesConfig.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\CMakeParseArguments.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionGenerateModuleInit.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionAddResources.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionCheckCompilerFlags.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionEmbedResources.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionCheckResourceLinking.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionGetResourceSource.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\usCoreConfigVersion.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\usCoreConfig.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usModuleInit.cpp;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\exportheader.cmake.in;E:\D\MITK\CMake\PackageDepends\MITK_ITK_Config.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\ITKConfigVersion.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\ITKConfig.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\ITKModuleAPI.cmake;E:\D\MITK\Modules\RigidRegistration\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistration\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/D/MITK/Modules/RigidRegistration/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK -BE:/D/MITK-superbuild/MITK-build --check-stamp-file E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistration\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK/Modules/RigidRegistration/CMakeLists.txt;E:\D\MITK\Modules\RigidRegistration\CMakeLists.txt;E:\D\MITK\Modules\RigidRegistration\files.cmake;E:\D\MITK\Modules\RigidRegistration\mitkImageRegistrationMethod-TYPE.cpp;E:\D\MITK\Modules\RigidRegistration\mitkImageRegistrationMethod-TYPE.cpp;E:\D\MITK\Modules\RigidRegistration\mitkImageRegistrationMethod-TYPE.cpp;E:\D\MITK\Modules\RigidRegistration\mitkImageRegistrationMethod-TYPE.cpp;E:\D\MITK\Modules\RigidRegistration\mitkImageRegistrationMethod-TYPE.cpp;E:\D\MITK\Modules\RigidRegistration\mitkImageRegistrationMethod-TYPE.cpp;E:\D\MITK\Modules\RigidRegistration\mitkImageRegistrationMethod-TYPE.cpp;E:\D\MITK\Modules\RigidRegistration\mitkImageRegistrationMethod-TYPE.cpp;E:\D\MITK\Modules\RigidRegistration\mitkPyramidalRegistrationMethod-TYPE.cpp;E:\D\MITK\Modules\RigidRegistration\mitkPyramidalRegistrationMethod-TYPE.cpp;E:\D\MITK\Modules\RigidRegistration\mitkPyramidalRegistrationMethod-TYPE.cpp;E:\D\MITK\Modules\RigidRegistration\mitkPyramidalRegistrationMethod-TYPE.cpp;E:\D\MITK\Modules\RigidRegistration\mitkPyramidalRegistrationMethod-TYPE.cpp;E:\D\MITK\Modules\RigidRegistration\mitkPyramidalRegistrationMethod-TYPE.cpp;E:\D\MITK\Modules\RigidRegistration\mitkPyramidalRegistrationMethod-TYPE.cpp;E:\D\MITK\Modules\RigidRegistration\mitkPyramidalRegistrationMethod-TYPE.cpp;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\CppMicroServicesConfigVersion.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\CppMicroServicesConfig.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\CMakeParseArguments.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionGenerateModuleInit.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionAddResources.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionCheckCompilerFlags.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionEmbedResources.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionCheckResourceLinking.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usFunctionGetResourceSource.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\usCoreConfigVersion.cmake;E:\D\MITK-superbuild\MITK-build\Modules\CppMicroServices\usCoreConfig.cmake;E:\D\MITK\Modules\CppMicroServices\cmake\usModuleInit.cpp;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\exportheader.cmake.in;E:\D\MITK\CMake\PackageDepends\MITK_ITK_Config.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\ITKConfigVersion.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\ITKConfig.cmake;E:\D\MITK-superbuild\ep\lib\cmake\ITK-4.7\ITKModuleAPI.cmake;E:\D\MITK\Modules\RigidRegistration\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistration\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\517cac7e0983916577466fc6459b7b35\res_0.zip.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Checking resource dependencies for MitkRigidRegistration</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\D\MITK\Modules\RigidRegistration\Resources
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/MITK-superbuild/MITK-build/Modules/RigidRegistration/us_MitkRigidRegistration
+if %errorlevel% neq 0 goto :cmEnd
+E:\D\MITK-superbuild\MITK-build\bin\Debug\usResourceCompiler.exe E:/D/MITK-superbuild/MITK-build/Modules/RigidRegistration/us_MitkRigidRegistration/res_0.zip MitkRigidRegistration -a mitkRigidRegistrationPresets.xml mitkRigidRegistrationTestPresets.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/517cac7e0983916577466fc6459b7b35/res_0.zip.rule;E:\D\MITK\Modules\RigidRegistration\Resources\mitkRigidRegistrationPresets.xml;E:\D\MITK\Modules\RigidRegistration\Resources\mitkRigidRegistrationTestPresets.xml;E:\D\MITK-superbuild\MITK-build\bin\Debug\usResourceCompiler.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistration\us_MitkRigidRegistration\res_0.zip</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Checking resource dependencies for MitkRigidRegistration</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd E:\D\MITK\Modules\RigidRegistration\Resources
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/MITK-superbuild/MITK-build/Modules/RigidRegistration/us_MitkRigidRegistration
+if %errorlevel% neq 0 goto :cmEnd
+E:\D\MITK-superbuild\MITK-build\bin\Release\usResourceCompiler.exe E:/D/MITK-superbuild/MITK-build/Modules/RigidRegistration/us_MitkRigidRegistration/res_0.zip MitkRigidRegistration -a mitkRigidRegistrationPresets.xml mitkRigidRegistrationTestPresets.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/517cac7e0983916577466fc6459b7b35/res_0.zip.rule;E:\D\MITK\Modules\RigidRegistration\Resources\mitkRigidRegistrationPresets.xml;E:\D\MITK\Modules\RigidRegistration\Resources\mitkRigidRegistrationTestPresets.xml;E:\D\MITK-superbuild\MITK-build\bin\Release\usResourceCompiler.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistration\us_MitkRigidRegistration\res_0.zip</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Checking resource dependencies for MitkRigidRegistration</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd E:\D\MITK\Modules\RigidRegistration\Resources
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/MITK-superbuild/MITK-build/Modules/RigidRegistration/us_MitkRigidRegistration
+if %errorlevel% neq 0 goto :cmEnd
+E:\D\MITK-superbuild\MITK-build\bin\MinSizeRel\usResourceCompiler.exe E:/D/MITK-superbuild/MITK-build/Modules/RigidRegistration/us_MitkRigidRegistration/res_0.zip MitkRigidRegistration -a mitkRigidRegistrationPresets.xml mitkRigidRegistrationTestPresets.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/517cac7e0983916577466fc6459b7b35/res_0.zip.rule;E:\D\MITK\Modules\RigidRegistration\Resources\mitkRigidRegistrationPresets.xml;E:\D\MITK\Modules\RigidRegistration\Resources\mitkRigidRegistrationTestPresets.xml;E:\D\MITK-superbuild\MITK-build\bin\MinSizeRel\usResourceCompiler.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistration\us_MitkRigidRegistration\res_0.zip</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Checking resource dependencies for MitkRigidRegistration</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\D\MITK\Modules\RigidRegistration\Resources
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/MITK-superbuild/MITK-build/Modules/RigidRegistration/us_MitkRigidRegistration
+if %errorlevel% neq 0 goto :cmEnd
+E:\D\MITK-superbuild\MITK-build\bin\RelWithDebInfo\usResourceCompiler.exe E:/D/MITK-superbuild/MITK-build/Modules/RigidRegistration/us_MitkRigidRegistration/res_0.zip MitkRigidRegistration -a mitkRigidRegistrationPresets.xml mitkRigidRegistrationTestPresets.xml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/517cac7e0983916577466fc6459b7b35/res_0.zip.rule;E:\D\MITK\Modules\RigidRegistration\Resources\mitkRigidRegistrationPresets.xml;E:\D\MITK\Modules\RigidRegistration\Resources\mitkRigidRegistrationTestPresets.xml;E:\D\MITK-superbuild\MITK-build\bin\RelWithDebInfo\usResourceCompiler.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistration\us_MitkRigidRegistration\res_0.zip</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\517cac7e0983916577466fc6459b7b35\us_resources.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Checking resource dependencies for MitkRigidRegistration</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy E:/D/MITK/Modules/CppMicroServices/cmake/usCMakeResourceDependencies.cpp E:/D/MITK-superbuild/MITK-build/Modules/RigidRegistration/us_MitkRigidRegistration/us_resources.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/517cac7e0983916577466fc6459b7b35/us_resources.cpp.rule;E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistration\us_MitkRigidRegistration\res_0.zip;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistration\us_MitkRigidRegistration\us_resources.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Checking resource dependencies for MitkRigidRegistration</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy E:/D/MITK/Modules/CppMicroServices/cmake/usCMakeResourceDependencies.cpp E:/D/MITK-superbuild/MITK-build/Modules/RigidRegistration/us_MitkRigidRegistration/us_resources.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/517cac7e0983916577466fc6459b7b35/us_resources.cpp.rule;E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistration\us_MitkRigidRegistration\res_0.zip;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistration\us_MitkRigidRegistration\us_resources.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Checking resource dependencies for MitkRigidRegistration</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy E:/D/MITK/Modules/CppMicroServices/cmake/usCMakeResourceDependencies.cpp E:/D/MITK-superbuild/MITK-build/Modules/RigidRegistration/us_MitkRigidRegistration/us_resources.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/517cac7e0983916577466fc6459b7b35/us_resources.cpp.rule;E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistration\us_MitkRigidRegistration\res_0.zip;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistration\us_MitkRigidRegistration\us_resources.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Checking resource dependencies for MitkRigidRegistration</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy E:/D/MITK/Modules/CppMicroServices/cmake/usCMakeResourceDependencies.cpp E:/D/MITK-superbuild/MITK-build/Modules/RigidRegistration/us_MitkRigidRegistration/us_resources.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/517cac7e0983916577466fc6459b7b35/us_resources.cpp.rule;E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistration\us_MitkRigidRegistration\res_0.zip;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistration\us_MitkRigidRegistration\us_resources.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\D\MITK\Modules\RigidRegistration\mitkImageRegistrationMethod.h" />
+    <ClInclude Include="E:\D\MITK\Modules\RigidRegistration\mitkMetricParameters.h" />
+    <ClInclude Include="E:\D\MITK\Modules\RigidRegistration\mitkOptimizerFactory.h" />
+    <ClInclude Include="E:\D\MITK\Modules\RigidRegistration\mitkOptimizerParameters.h" />
+    <ClInclude Include="E:\D\MITK\Modules\RigidRegistration\mitkRigidRegistrationObserver.h" />
+    <ClInclude Include="E:\D\MITK\Modules\RigidRegistration\mitkRigidRegistrationPreset.h" />
+    <ClInclude Include="E:\D\MITK\Modules\RigidRegistration\mitkTransformParameters.h" />
+    <ClInclude Include="E:\D\MITK\Modules\RigidRegistration\mitkPyramidalRegistrationMethod.h" />
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistration\us_init.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\RigidRegistration\mitkImageRegistrationMethod.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\RigidRegistration\mitkMetricParameters.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\RigidRegistration\mitkOptimizerFactory.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\RigidRegistration\mitkOptimizerParameters.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\RigidRegistration\mitkRigidRegistrationObserver.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\RigidRegistration\mitkRigidRegistrationPreset.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\RigidRegistration\mitkTransformParameters.cpp"  />
+    <ClCompile Include="E:\D\MITK\Modules\RigidRegistration\mitkPyramidalRegistrationMethod.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistration\us_MitkRigidRegistration\us_resources.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistration\mitkImageRegistrationMethod-int.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistration\mitkImageRegistrationMethod-_unsigned_int.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistration\mitkImageRegistrationMethod-_short.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistration\mitkImageRegistrationMethod-_unsigned_short.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistration\mitkImageRegistrationMethod-_char.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistration\mitkImageRegistrationMethod-_unsigned_char.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistration\mitkImageRegistrationMethod-double.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistration\mitkImageRegistrationMethod-_float.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistration\mitkPyramidalRegistrationMethod-int.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistration\mitkPyramidalRegistrationMethod-_unsigned_int.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistration\mitkPyramidalRegistrationMethod-_short.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistration\mitkPyramidalRegistrationMethod-_unsigned_short.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistration\mitkPyramidalRegistrationMethod-_char.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistration\mitkPyramidalRegistrationMethod-_unsigned_char.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistration\mitkPyramidalRegistrationMethod-double.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\RigidRegistration\mitkPyramidalRegistrationMethod-_float.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:/D/MITK-superbuild/MITK-build/ZERO_CHECK.vcxproj">
+      <Project>B13C44DE-4BB4-3414-ABDA-308DC25B7D17</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/MITK-build/Modules/CppMicroServices/core/CppMicroServices.vcxproj">
+      <Project>5F3BDE34-8C32-3441-8C46-8AC176A184DA</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/MITK-build/Modules/Core/MitkCore.vcxproj">
+      <Project>A4D2FE45-C4CB-34B6-8D92-0EE38B0DF319</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/MITK-build/Utilities/mbilog/mbilog.vcxproj">
+      <Project>C2DD058A-96C4-32B8-92D7-A0D457FFBA47</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/MITK-build/Modules/CppMicroServices/tools/usResourceCompiler.vcxproj">
+      <Project>85F46131-E7CA-32E8-976B-548919BAED51</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

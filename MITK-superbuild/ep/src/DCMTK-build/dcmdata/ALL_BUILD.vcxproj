@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{E1813B81-8C37-32D9-BAA9-C6DA2B5B2727}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\DCMTK-build\config\include;E:\D\MITK-superbuild\ep\src\DCMTK\ofstd\include;E:\D\MITK-superbuild\ep\src\DCMTK\oflog\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmdata\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmimgle\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmimage\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libijg8;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libijg12;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libijg16;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpls\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmnet\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmpstat\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmqrdb\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmsign\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmsr\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmtls\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmwlm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\DCMTK-build\config\include;E:\D\MITK-superbuild\ep\src\DCMTK\ofstd\include;E:\D\MITK-superbuild\ep\src\DCMTK\oflog\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmdata\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmimgle\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmimage\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libijg8;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libijg12;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libijg16;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpls\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmnet\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmpstat\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmqrdb\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmsign\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmsr\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmtls\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmwlm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\DCMTK-build\config\include;E:\D\MITK-superbuild\ep\src\DCMTK\ofstd\include;E:\D\MITK-superbuild\ep\src\DCMTK\oflog\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmdata\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmimgle\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmimage\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libijg8;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libijg12;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libijg16;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpls\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmnet\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmpstat\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmqrdb\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmsign\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmsr\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmtls\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmwlm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\DCMTK-build\config\include;E:\D\MITK-superbuild\ep\src\DCMTK\ofstd\include;E:\D\MITK-superbuild\ep\src\DCMTK\oflog\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmdata\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmimgle\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmimage\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libijg8;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libijg12;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\libijg16;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpeg\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmjpls\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmnet\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmpstat\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmqrdb\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmsign\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmsr\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmtls\include;E:\D\MITK-superbuild\ep\src\DCMTK\dcmwlm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\DCMTK\dcmdata\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/DCMTK/dcmdata/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/DCMTK -BE:/D/MITK-superbuild/ep/src/DCMTK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\DCMTK-build\dcmdata\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/DCMTK/dcmdata/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\DCMTK\dcmdata\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\DCMTK\dcmdata\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\DCMTK-build\dcmdata\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/DCMTK/dcmdata/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/DCMTK -BE:/D/MITK-superbuild/ep/src/DCMTK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\DCMTK-build\dcmdata\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/DCMTK/dcmdata/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\DCMTK\dcmdata\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\DCMTK\dcmdata\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\DCMTK-build\dcmdata\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/DCMTK/dcmdata/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/DCMTK -BE:/D/MITK-superbuild/ep/src/DCMTK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\DCMTK-build\dcmdata\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/DCMTK/dcmdata/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\DCMTK\dcmdata\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\DCMTK\dcmdata\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\DCMTK-build\dcmdata\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/DCMTK/dcmdata/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/DCMTK -BE:/D/MITK-superbuild/ep/src/DCMTK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\DCMTK-build\dcmdata\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/DCMTK/dcmdata/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\DCMTK\dcmdata\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\DCMTK\dcmdata\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\DCMTK-build\dcmdata\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/DCMTK-build/ZERO_CHECK.vcxproj">
+      <Project>3DCBDACD-B0AD-3B32-9220-C3F01F818F21</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/DCMTK-build/dcmdata/apps/dcm2pdf.vcxproj">
+      <Project>88117B65-4D48-3151-B4D4-7EFFB9AD9251</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/DCMTK-build/dcmdata/apps/dcm2xml.vcxproj">
+      <Project>A3A2C93D-27A9-31A5-B3D2-48A47C505713</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/DCMTK-build/dcmdata/apps/dcmconv.vcxproj">
+      <Project>B13B5B56-9291-39B2-91ED-842C18980C78</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/DCMTK-build/dcmdata/apps/dcmcrle.vcxproj">
+      <Project>377B0AE3-AE1E-3479-9872-2AE7E0AFFC39</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/DCMTK-build/dcmdata/libsrc/dcmdata.vcxproj">
+      <Project>C615747C-9C73-3239-B29D-0275F4C9F902</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/DCMTK-build/dcmdata/tests/dcmdata_tests.vcxproj">
+      <Project>EC135DBF-CAB9-30D4-ADD5-44EFC570152A</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/DCMTK-build/dcmdata/apps/dcmdrle.vcxproj">
+      <Project>CC036474-82BA-31E3-A765-62647F8BD592</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/DCMTK-build/dcmdata/apps/dcmdump.vcxproj">
+      <Project>EEEAE67E-5328-3B8C-8BBD-100949824196</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/DCMTK-build/dcmdata/apps/dcmftest.vcxproj">
+      <Project>B9795863-7D3B-3587-BBF5-FE382BB17A5C</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/DCMTK-build/dcmdata/apps/dcmgpdir.vcxproj">
+      <Project>AF74EF89-B4F3-3435-9EDC-BCABF2F13522</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/DCMTK-build/dcmdata/apps/dcmodify.vcxproj">
+      <Project>8AEC0FCF-0C44-3CDA-ACF8-96C451B44BFA</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/DCMTK-build/dcmdata/apps/dump2dcm.vcxproj">
+      <Project>E439C710-49C3-3B1C-946A-AB774B63C2BB</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/DCMTK-build/dcmdata/libi2d/i2d.vcxproj">
+      <Project>06C19B26-C1F3-3CAD-8F99-D80BD83CBB9E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/DCMTK-build/dcmdata/apps/img2dcm.vcxproj">
+      <Project>240A0516-3506-39EA-BF6A-BA1B47596B92</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/DCMTK-build/dcmdata/apps/pdf2dcm.vcxproj">
+      <Project>99579626-51FE-3D46-8D25-0743217564BC</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/DCMTK-build/dcmdata/apps/xml2dcm.vcxproj">
+      <Project>BD820DB3-FE84-3D9C-8B1B-ADAE34A48D08</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

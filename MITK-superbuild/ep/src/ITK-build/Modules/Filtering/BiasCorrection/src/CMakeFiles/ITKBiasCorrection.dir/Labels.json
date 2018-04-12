@@ -1,0 +1,23 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/Filtering/BiasCorrection/src/itkCompositeValleyFunction.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/Filtering/BiasCorrection/src/itkCacheableScalarFunction.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/Filtering/BiasCorrection/src/CMakeLists.txt"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "ITKBiasCorrection" ],
+		"name" : "ITKBiasCorrection"
+	}
+}

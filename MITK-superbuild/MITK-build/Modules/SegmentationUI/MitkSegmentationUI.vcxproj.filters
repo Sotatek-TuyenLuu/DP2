@@ -1,0 +1,354 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\SegmentationUI\us_init.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\SegmentationUI\Qmitk\QmitkAdaptiveRegionGrowingToolGUI.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\SegmentationUI\Qmitk\QmitkBinaryThresholdToolGUI.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\SegmentationUI\Qmitk\QmitkBinaryThresholdULToolGUI.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\SegmentationUI\Qmitk\QmitkCalculateGrayValueStatisticsToolGUI.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\SegmentationUI\Qmitk\QmitkConfirmSegmentationDialog.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\SegmentationUI\Qmitk\QmitkCopyToClipBoardDialog.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\SegmentationUI\Qmitk\QmitkDrawPaintbrushToolGUI.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\SegmentationUI\Qmitk\QmitkErasePaintbrushToolGUI.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\SegmentationUI\Qmitk\QmitkFastMarchingTool3DGUI.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\SegmentationUI\Qmitk\QmitkFastMarchingToolGUI.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\SegmentationUI\Qmitk\QmitkLiveWireTool2DGUI.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\SegmentationUI\Qmitk\QmitkNewSegmentationDialog.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\SegmentationUI\Qmitk\QmitkOtsuTool3DGUI.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\SegmentationUI\Qmitk\QmitkPaintbrushToolGUI.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\SegmentationUI\Qmitk\QmitkPickingToolGUI.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\SegmentationUI\Qmitk\QmitkPixelManipulationToolGUI.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\SegmentationUI\Qmitk\QmitkSlicesInterpolator.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\SegmentationUI\Qmitk\QmitkToolGUI.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\SegmentationUI\Qmitk\QmitkToolGUIArea.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\SegmentationUI\Qmitk\QmitkToolReferenceDataSelectionBox.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\SegmentationUI\Qmitk\QmitkToolRoiDataSelectionBox.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\SegmentationUI\Qmitk\QmitkToolSelectionBox.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\SegmentationUI\Qmitk\QmitkToolWorkingDataSelectionBox.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK\Modules\SegmentationUI\Qmitk\QmitkWatershedToolGUI.cpp">
+      <Filter>== Source Files ==</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\SegmentationUI\Qmitk\moc_QmitkAdaptiveRegionGrowingToolGUI.cpp">
+      <Filter>Generated\Qt MOC Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\SegmentationUI\Qmitk\moc_QmitkBinaryThresholdToolGUI.cpp">
+      <Filter>Generated\Qt MOC Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\SegmentationUI\Qmitk\moc_QmitkBinaryThresholdULToolGUI.cpp">
+      <Filter>Generated\Qt MOC Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\SegmentationUI\Qmitk\moc_QmitkCalculateGrayValueStatisticsToolGUI.cpp">
+      <Filter>Generated\Qt MOC Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\SegmentationUI\Qmitk\moc_QmitkConfirmSegmentationDialog.cpp">
+      <Filter>Generated\Qt MOC Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\SegmentationUI\Qmitk\moc_QmitkCopyToClipBoardDialog.cpp">
+      <Filter>Generated\Qt MOC Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\SegmentationUI\Qmitk\moc_QmitkDrawPaintbrushToolGUI.cpp">
+      <Filter>Generated\Qt MOC Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\SegmentationUI\Qmitk\moc_QmitkErasePaintbrushToolGUI.cpp">
+      <Filter>Generated\Qt MOC Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\SegmentationUI\Qmitk\moc_QmitkFastMarchingTool3DGUI.cpp">
+      <Filter>Generated\Qt MOC Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\SegmentationUI\Qmitk\moc_QmitkFastMarchingToolGUI.cpp">
+      <Filter>Generated\Qt MOC Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\SegmentationUI\Qmitk\moc_QmitkLiveWireTool2DGUI.cpp">
+      <Filter>Generated\Qt MOC Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\SegmentationUI\Qmitk\moc_QmitkNewSegmentationDialog.cpp">
+      <Filter>Generated\Qt MOC Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\SegmentationUI\Qmitk\moc_QmitkOtsuTool3DGUI.cpp">
+      <Filter>Generated\Qt MOC Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\SegmentationUI\Qmitk\moc_QmitkPaintbrushToolGUI.cpp">
+      <Filter>Generated\Qt MOC Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\SegmentationUI\Qmitk\moc_QmitkPickingToolGUI.cpp">
+      <Filter>Generated\Qt MOC Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\SegmentationUI\Qmitk\moc_QmitkPixelManipulationToolGUI.cpp">
+      <Filter>Generated\Qt MOC Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\SegmentationUI\Qmitk\moc_QmitkSlicesInterpolator.cpp">
+      <Filter>Generated\Qt MOC Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\SegmentationUI\Qmitk\moc_QmitkToolGUI.cpp">
+      <Filter>Generated\Qt MOC Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\SegmentationUI\Qmitk\moc_QmitkToolGUIArea.cpp">
+      <Filter>Generated\Qt MOC Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\SegmentationUI\Qmitk\moc_QmitkToolReferenceDataSelectionBox.cpp">
+      <Filter>Generated\Qt MOC Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\SegmentationUI\Qmitk\moc_QmitkToolRoiDataSelectionBox.cpp">
+      <Filter>Generated\Qt MOC Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\SegmentationUI\Qmitk\moc_QmitkToolSelectionBox.cpp">
+      <Filter>Generated\Qt MOC Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\SegmentationUI\Qmitk\moc_QmitkToolWorkingDataSelectionBox.cpp">
+      <Filter>Generated\Qt MOC Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Modules\SegmentationUI\Qmitk\moc_QmitkWatershedToolGUI.cpp">
+      <Filter>Generated\Qt MOC Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\D\MITK\Modules\SegmentationUI\Qmitk\QmitkAdaptiveRegionGrowingToolGUI.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\SegmentationUI\Qmitk\QmitkBinaryThresholdToolGUI.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\SegmentationUI\Qmitk\QmitkBinaryThresholdULToolGUI.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\SegmentationUI\Qmitk\QmitkCalculateGrayValueStatisticsToolGUI.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\SegmentationUI\Qmitk\QmitkConfirmSegmentationDialog.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\SegmentationUI\Qmitk\QmitkCopyToClipBoardDialog.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\SegmentationUI\Qmitk\QmitkDrawPaintbrushToolGUI.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\SegmentationUI\Qmitk\QmitkErasePaintbrushToolGUI.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\SegmentationUI\Qmitk\QmitkFastMarchingTool3DGUI.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\SegmentationUI\Qmitk\QmitkFastMarchingToolGUI.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\SegmentationUI\Qmitk\QmitkLiveWireTool2DGUI.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\SegmentationUI\Qmitk\QmitkNewSegmentationDialog.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\SegmentationUI\Qmitk\QmitkOtsuTool3DGUI.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\SegmentationUI\Qmitk\QmitkPaintbrushToolGUI.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\SegmentationUI\Qmitk\QmitkPickingToolGUI.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\SegmentationUI\Qmitk\QmitkPixelManipulationToolGUI.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\SegmentationUI\Qmitk\QmitkSlicesInterpolator.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\SegmentationUI\Qmitk\QmitkToolGUI.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\SegmentationUI\Qmitk\QmitkToolGUIArea.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\SegmentationUI\Qmitk\QmitkToolReferenceDataSelectionBox.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\SegmentationUI\Qmitk\QmitkToolRoiDataSelectionBox.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\SegmentationUI\Qmitk\QmitkToolSelectionBox.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\SegmentationUI\Qmitk\QmitkToolWorkingDataSelectionBox.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK\Modules\SegmentationUI\Qmitk\QmitkWatershedToolGUI.h">
+      <Filter>== Header Files ==</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Modules\SegmentationUI\ui_QmitkAdaptiveRegionGrowingToolGUIControls.h">
+      <Filter>Generated\Qt UI Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Modules\SegmentationUI\ui_QmitkConfirmSegmentationDialog.h">
+      <Filter>Generated\Qt UI Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Modules\SegmentationUI\ui_QmitkOtsuToolWidgetControls.h">
+      <Filter>Generated\Qt UI Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Modules\SegmentationUI\ui_QmitkPickingToolGUIControls.h">
+      <Filter>Generated\Qt UI Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Modules\SegmentationUI\ui_QmitkLiveWireTool2DGUIControls.h">
+      <Filter>Generated\Qt UI Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK\Modules\SegmentationUI\Qmitk\QmitkAdaptiveRegionGrowingToolGUIControls.ui">
+      <Filter>QT UI Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK\Modules\SegmentationUI\Qmitk\QmitkConfirmSegmentationDialog.ui">
+      <Filter>QT UI Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK\Modules\SegmentationUI\Qmitk\QmitkOtsuToolWidgetControls.ui">
+      <Filter>QT UI Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK\Modules\SegmentationUI\Qmitk\QmitkPickingToolGUIControls.ui">
+      <Filter>QT UI Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK\Modules\SegmentationUI\Qmitk\QmitkLiveWireTool2DGUIControls.ui">
+      <Filter>QT UI Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK\Modules\SegmentationUI\CMakeLists.txt" />
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\e93060394940c88802f48e352090443c\moc_QmitkAdaptiveRegionGrowingToolGUI.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\e93060394940c88802f48e352090443c\moc_QmitkBinaryThresholdToolGUI.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\e93060394940c88802f48e352090443c\moc_QmitkBinaryThresholdULToolGUI.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\e93060394940c88802f48e352090443c\moc_QmitkCalculateGrayValueStatisticsToolGUI.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\e93060394940c88802f48e352090443c\moc_QmitkConfirmSegmentationDialog.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\e93060394940c88802f48e352090443c\moc_QmitkCopyToClipBoardDialog.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\e93060394940c88802f48e352090443c\moc_QmitkDrawPaintbrushToolGUI.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\e93060394940c88802f48e352090443c\moc_QmitkErasePaintbrushToolGUI.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\e93060394940c88802f48e352090443c\moc_QmitkFastMarchingTool3DGUI.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\e93060394940c88802f48e352090443c\moc_QmitkFastMarchingToolGUI.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\e93060394940c88802f48e352090443c\moc_QmitkLiveWireTool2DGUI.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\e93060394940c88802f48e352090443c\moc_QmitkNewSegmentationDialog.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\e93060394940c88802f48e352090443c\moc_QmitkOtsuTool3DGUI.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\e93060394940c88802f48e352090443c\moc_QmitkPaintbrushToolGUI.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\e93060394940c88802f48e352090443c\moc_QmitkPickingToolGUI.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\e93060394940c88802f48e352090443c\moc_QmitkPixelManipulationToolGUI.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\e93060394940c88802f48e352090443c\moc_QmitkSlicesInterpolator.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\e93060394940c88802f48e352090443c\moc_QmitkToolGUI.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\e93060394940c88802f48e352090443c\moc_QmitkToolGUIArea.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\e93060394940c88802f48e352090443c\moc_QmitkToolReferenceDataSelectionBox.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\e93060394940c88802f48e352090443c\moc_QmitkToolRoiDataSelectionBox.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\e93060394940c88802f48e352090443c\moc_QmitkToolSelectionBox.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\e93060394940c88802f48e352090443c\moc_QmitkToolWorkingDataSelectionBox.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\e93060394940c88802f48e352090443c\moc_QmitkWatershedToolGUI.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{CAC8648D-C086-3462-B846-B0EBFA3DCB4A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated">
+      <UniqueIdentifier>{7FA4B4B1-5C9C-314E-A0B9-36873EE561F1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="== Source Files ==">
+      <UniqueIdentifier>{9CA70B67-B51F-303F-96AF-687940E0FEA8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="== Header Files ==">
+      <UniqueIdentifier>{4D89E91A-663E-32FD-A047-724E4EC4BA98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="QT UI Files">
+      <UniqueIdentifier>{A7973F98-B74E-37EA-8F4A-12BAE98DFBF1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated\Qt UI Header Files">
+      <UniqueIdentifier>{2D3E25A1-F9DB-36EC-96F3-AA37A8022068}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated\Qt MOC Source Files">
+      <UniqueIdentifier>{B42DA33F-2448-3D6E-A532-40F314971B47}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

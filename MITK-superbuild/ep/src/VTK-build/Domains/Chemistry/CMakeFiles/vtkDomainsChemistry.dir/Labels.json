@@ -1,0 +1,123 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Domains/Chemistry/vtkBlueObeliskData.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Domains/Chemistry/vtkBlueObeliskDataParser.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Domains/Chemistry/vtkCMLMoleculeReader.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Domains/Chemistry/vtkMoleculeAlgorithm.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Domains/Chemistry/vtkMoleculeMapper.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Domains/Chemistry/vtkMoleculeToAtomBallFilter.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Domains/Chemistry/vtkMoleculeToBondStickFilter.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Domains/Chemistry/vtkMoleculeToPolyDataFilter.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Domains/Chemistry/vtkPeriodicTable.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Domains/Chemistry/vtkProgrammableElectronicData.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Domains/Chemistry/vtkProteinRibbonFilter.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Domains/Chemistry/vtkSimpleBondPerceiver.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Domains/Chemistry/vtkBlueObeliskData.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Domains/Chemistry/vtkBlueObeliskDataParser.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Domains/Chemistry/vtkCMLMoleculeReader.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Domains/Chemistry/vtkMoleculeAlgorithm.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Domains/Chemistry/vtkMoleculeMapper.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Domains/Chemistry/vtkMoleculeToAtomBallFilter.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Domains/Chemistry/vtkMoleculeToBondStickFilter.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Domains/Chemistry/vtkMoleculeToPolyDataFilter.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Domains/Chemistry/vtkPeriodicTable.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Domains/Chemistry/vtkProgrammableElectronicData.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Domains/Chemistry/vtkProteinRibbonFilter.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Domains/Chemistry/vtkSimpleBondPerceiver.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Domains/Chemistry/vtkDomainsChemistryModule.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Domains/Chemistry/vtkDomainsChemistryInstantiator.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Domains/Chemistry/vtkDomainsChemistryInstantiator.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Domains/Chemistry/CMakeLists.txt"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "vtkDomainsChemistry" ],
+		"name" : "vtkDomainsChemistry"
+	}
+}

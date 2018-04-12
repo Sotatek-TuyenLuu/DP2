@@ -1,0 +1,70 @@
+// Qt includes
+#include <QDebug>
+
+// CTKTesting inlcudes
+#include "ctkQtTestingUtility.h"
+
+@CTK_ADD_HEADER_EVENT_PLAYERS@
+
+@CTK_ADD_HEADER_EVENT_TRANSLATORS@
+
+//-----------------------------------------------------------------------------
+ctkQtTestingUtility::ctkQtTestingUtility(QObject* p)
+  : Superclass(p)
+{
+  this->addDefaultCTKWidgetEventTranslatorsToTranslator(this);
+  this->addDefaultCTKWidgetEventPlayersToPlayer(this);
+}
+
+//-----------------------------------------------------------------------------
+ctkQtTestingUtility::~ctkQtTestingUtility()
+{
+}
+
+//-----------------------------------------------------------------------------
+void ctkQtTestingUtility::addDefaultCTKWidgetEventTranslatorsToTranslator(pqTestUtility* util)
+{
+  Q_UNUSED(util);
+@CTK_ADD_WIDGET_EVENT_TRANSLATORS@
+  pqWidgetEventTranslator* translator = this->eventTranslator()->getWidgetEventTranslator(
+    QLatin1String("pqNativeFileDialogEventTranslator"));
+  if (translator)
+    {
+    this->eventTranslator()->removeWidgetEventTranslator(
+      QLatin1String("pqNativeFileDialogEventTranslator"));
+    delete translator;
+    }
+}
+
+//-----------------------------------------------------------------------------
+void ctkQtTestingUtility::addDefaultCTKWidgetEventPlayersToPlayer(pqTestUtility* util)
+{
+  Q_UNUSED(util);
+@CTK_ADD_WIDGET_EVENT_PLAYERS@
+  pqWidgetEventPlayer* player = this->eventPlayer()->getWidgetEventPlayer(
+    QLatin1String("pqNativeFileDialogEventPlayer"));
+  if (player)
+    {
+    this->eventPlayer()->removeWidgetEventPlayer(
+      QLatin1String("pqNativeFileDialogEventPlayer"));
+    delete player;
+    }
+}
+
+//-----------------------------------------------------------------------------
+void ctkQtTestingUtility::addTranslator(pqWidgetEventTranslator* translator)
+{
+  if(translator)
+    {
+    this->eventTranslator()->addWidgetEventTranslator(translator);
+    }
+}
+
+//-----------------------------------------------------------------------------
+void ctkQtTestingUtility::addPlayer(pqWidgetEventPlayer* player)
+{
+  if(player)
+    {
+    this->eventPlayer()->addWidgetEventPlayer(player);
+    }
+}

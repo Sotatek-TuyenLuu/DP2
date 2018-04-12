@@ -1,0 +1,842 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/Modules/RigidRegistrationUI/us_init.cpp",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationMetrics/QmitkRigidRegistrationMetricsGUIBase.cpp",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationMetrics/QmitkMeanSquaresMetricView.cpp",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationMetrics/QmitkNormalizedCorrelationMetricView.cpp",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationMetrics/QmitkGradientDifferenceMetricView.cpp",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationMetrics/QmitkKullbackLeiblerCompareHistogramMetricView.cpp",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationMetrics/QmitkCorrelationCoefficientHistogramMetricView.cpp",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationMetrics/QmitkMeanSquaresHistogramMetricView.cpp",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationMetrics/QmitkMutualInformationHistogramMetricView.cpp",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationMetrics/QmitkNormalizedMutualInformationHistogramMetricView.cpp",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationMetrics/QmitkMattesMutualInformationMetricView.cpp",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationMetrics/QmitkMeanReciprocalSquareDifferenceMetricView.cpp",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationMetrics/QmitkMutualInformationMetricView.cpp",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationMetrics/QmitkMatchCardinalityMetricView.cpp",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationMetrics/QmitkKappaStatisticMetricView.cpp",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationOptimizer/QmitkRigidRegistrationOptimizerGUIBase.cpp",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationOptimizer/QmitkExhaustiveOptimizerView.cpp",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationOptimizer/QmitkGradientDescentOptimizerView.cpp",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationOptimizer/QmitkQuaternionRigidTransformGradientDescentOptimizerView.cpp",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationOptimizer/QmitkLBFGSBOptimizerView.cpp",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationOptimizer/QmitkOnePlusOneEvolutionaryOptimizerView.cpp",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationOptimizer/QmitkPowellOptimizerView.cpp",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationOptimizer/QmitkFRPROptimizerView.cpp",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationOptimizer/QmitkRegularStepGradientDescentOptimizerView.cpp",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationOptimizer/QmitkVersorTransformOptimizerView.cpp",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationOptimizer/QmitkAmoebaOptimizerView.cpp",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationOptimizer/QmitkConjugateGradientOptimizerView.cpp",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationOptimizer/QmitkLBFGSOptimizerView.cpp",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationOptimizer/QmitkSPSAOptimizerView.cpp",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationOptimizer/QmitkVersorRigid3DTransformOptimizerView.cpp",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationTransforms/QmitkRigidRegistrationTransformsGUIBase.cpp",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationTransforms/QmitkTranslationTransformView.cpp",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationTransforms/QmitkScaleTransformView.cpp",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationTransforms/QmitkScaleLogarithmicTransformView.cpp",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationTransforms/QmitkAffineTransformView.cpp",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationTransforms/QmitkFixedCenterOfRotationAffineTransformView.cpp",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationTransforms/QmitkEuler3DTransformView.cpp",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationTransforms/QmitkCenteredEuler3DTransformView.cpp",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationTransforms/QmitkQuaternionRigidTransformView.cpp",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationTransforms/QmitkVersorTransformView.cpp",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationTransforms/QmitkVersorRigid3DTransformView.cpp",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationTransforms/QmitkScaleSkewVersor3DTransformView.cpp",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationTransforms/QmitkSimilarity3DTransformView.cpp",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationTransforms/QmitkRigid2DTransformView.cpp",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationTransforms/QmitkCenteredRigid2DTransformView.cpp",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationTransforms/QmitkEuler2DTransformView.cpp",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationTransforms/QmitkSimilarity2DTransformView.cpp",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationTransforms/QmitkCenteredSimilarity2DTransformView.cpp",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationMetrics/QmitkRigidRegistrationMetricsGUIBase.h",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationMetrics/QmitkMeanSquaresMetricView.h",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationMetrics/QmitkNormalizedCorrelationMetricView.h",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationMetrics/QmitkGradientDifferenceMetricView.h",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationMetrics/QmitkKullbackLeiblerCompareHistogramMetricView.h",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationMetrics/QmitkCorrelationCoefficientHistogramMetricView.h",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationMetrics/QmitkMeanSquaresHistogramMetricView.h",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationMetrics/QmitkMutualInformationHistogramMetricView.h",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationMetrics/QmitkNormalizedMutualInformationHistogramMetricView.h",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationMetrics/QmitkMattesMutualInformationMetricView.h",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationMetrics/QmitkMeanReciprocalSquareDifferenceMetricView.h",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationMetrics/QmitkMutualInformationMetricView.h",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationMetrics/QmitkMatchCardinalityMetricView.h",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationMetrics/QmitkKappaStatisticMetricView.h",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationOptimizer/QmitkRigidRegistrationOptimizerGUIBase.h",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationOptimizer/QmitkExhaustiveOptimizerView.h",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationOptimizer/QmitkGradientDescentOptimizerView.h",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationOptimizer/QmitkQuaternionRigidTransformGradientDescentOptimizerView.h",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationOptimizer/QmitkLBFGSBOptimizerView.h",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationOptimizer/QmitkOnePlusOneEvolutionaryOptimizerView.h",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationOptimizer/QmitkPowellOptimizerView.h",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationOptimizer/QmitkFRPROptimizerView.h",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationOptimizer/QmitkRegularStepGradientDescentOptimizerView.h",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationOptimizer/QmitkVersorTransformOptimizerView.h",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationOptimizer/QmitkAmoebaOptimizerView.h",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationOptimizer/QmitkConjugateGradientOptimizerView.h",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationOptimizer/QmitkLBFGSOptimizerView.h",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationOptimizer/QmitkSPSAOptimizerView.h",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationOptimizer/QmitkVersorRigid3DTransformOptimizerView.h",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationTransforms/QmitkRigidRegistrationTransformsGUIBase.h",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationTransforms/QmitkTranslationTransformView.h",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationTransforms/QmitkScaleTransformView.h",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationTransforms/QmitkScaleLogarithmicTransformView.h",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationTransforms/QmitkAffineTransformView.h",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationTransforms/QmitkFixedCenterOfRotationAffineTransformView.h",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationTransforms/QmitkEuler3DTransformView.h",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationTransforms/QmitkCenteredEuler3DTransformView.h",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationTransforms/QmitkQuaternionRigidTransformView.h",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationTransforms/QmitkVersorTransformView.h",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationTransforms/QmitkVersorRigid3DTransformView.h",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationTransforms/QmitkScaleSkewVersor3DTransformView.h",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationTransforms/QmitkSimilarity3DTransformView.h",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationTransforms/QmitkRigid2DTransformView.h",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationTransforms/QmitkCenteredRigid2DTransformView.h",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationTransforms/QmitkEuler2DTransformView.h",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationTransforms/QmitkSimilarity2DTransformView.h",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationTransforms/QmitkCenteredSimilarity2DTransformView.h",
+			"labels" : [ "MITK-Registration", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/Modules/RigidRegistrationUI/ui_QmitkMeanSquaresMetricControls.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/Modules/RigidRegistrationUI/ui_QmitkNormalizedCorrelationMetricControls.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/Modules/RigidRegistrationUI/ui_QmitkGradientDifferenceMetricControls.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/Modules/RigidRegistrationUI/ui_QmitkKullbackLeiblerCompareHistogramMetricControls.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/Modules/RigidRegistrationUI/ui_QmitkCorrelationCoefficientHistogramMetricControls.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/Modules/RigidRegistrationUI/ui_QmitkMeanSquaresHistogramMetricControls.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/Modules/RigidRegistrationUI/ui_QmitkMutualInformationHistogramMetricControls.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/Modules/RigidRegistrationUI/ui_QmitkNormalizedMutualInformationHistogramMetricControls.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/Modules/RigidRegistrationUI/ui_QmitkMattesMutualInformationMetricControls.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/Modules/RigidRegistrationUI/ui_QmitkMeanReciprocalSquareDifferenceMetricControls.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/Modules/RigidRegistrationUI/ui_QmitkMutualInformationMetricControls.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/Modules/RigidRegistrationUI/ui_QmitkMatchCardinalityMetricControls.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/Modules/RigidRegistrationUI/ui_QmitkKappaStatisticMetricControls.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/Modules/RigidRegistrationUI/ui_QmitkExhaustiveOptimizerControls.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/Modules/RigidRegistrationUI/ui_QmitkGradientDescentOptimizerControls.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/Modules/RigidRegistrationUI/ui_QmitkQuaternionRigidTransformGradientDescentOptimizerControls.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/Modules/RigidRegistrationUI/ui_QmitkLBFGSBOptimizerControls.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/Modules/RigidRegistrationUI/ui_QmitkOnePlusOneEvolutionaryOptimizerControls.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/Modules/RigidRegistrationUI/ui_QmitkPowellOptimizerControls.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/Modules/RigidRegistrationUI/ui_QmitkFRPROptimizerControls.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/Modules/RigidRegistrationUI/ui_QmitkRegularStepGradientDescentOptimizerControls.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/Modules/RigidRegistrationUI/ui_QmitkVersorTransformOptimizerControls.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/Modules/RigidRegistrationUI/ui_QmitkAmoebaOptimizerControls.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/Modules/RigidRegistrationUI/ui_QmitkConjugateGradientOptimizerControls.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/Modules/RigidRegistrationUI/ui_QmitkLBFGSOptimizerControls.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/Modules/RigidRegistrationUI/ui_QmitkSPSAOptimizerControls.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/Modules/RigidRegistrationUI/ui_QmitkVersorRigid3DTransformOptimizerControls.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/Modules/RigidRegistrationUI/ui_QmitkTranslationTransformControls.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/Modules/RigidRegistrationUI/ui_QmitkScaleTransformControls.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/Modules/RigidRegistrationUI/ui_QmitkScaleLogarithmicTransformControls.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/Modules/RigidRegistrationUI/ui_QmitkAffineTransformControls.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/Modules/RigidRegistrationUI/ui_QmitkFixedCenterOfRotationAffineTransformControls.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/Modules/RigidRegistrationUI/ui_QmitkEuler3DTransformControls.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/Modules/RigidRegistrationUI/ui_QmitkCenteredEuler3DTransformControls.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/Modules/RigidRegistrationUI/ui_QmitkQuaternionRigidTransformControls.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/Modules/RigidRegistrationUI/ui_QmitkVersorTransformControls.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/Modules/RigidRegistrationUI/ui_QmitkVersorRigid3DTransformControls.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/Modules/RigidRegistrationUI/ui_QmitkScaleSkewVersor3DTransformControls.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/Modules/RigidRegistrationUI/ui_QmitkSimilarity3DTransformControls.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/Modules/RigidRegistrationUI/ui_QmitkRigid2DTransformControls.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/Modules/RigidRegistrationUI/ui_QmitkCenteredRigid2DTransformControls.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/Modules/RigidRegistrationUI/ui_QmitkEuler2DTransformControls.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/Modules/RigidRegistrationUI/ui_QmitkSimilarity2DTransformControls.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/Modules/RigidRegistrationUI/ui_QmitkCenteredSimilarity2DTransformControls.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationMetrics/QmitkMeanSquaresMetricControls.ui"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationMetrics/QmitkNormalizedCorrelationMetricControls.ui"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationMetrics/QmitkGradientDifferenceMetricControls.ui"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationMetrics/QmitkKullbackLeiblerCompareHistogramMetricControls.ui"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationMetrics/QmitkCorrelationCoefficientHistogramMetricControls.ui"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationMetrics/QmitkMeanSquaresHistogramMetricControls.ui"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationMetrics/QmitkMutualInformationHistogramMetricControls.ui"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationMetrics/QmitkNormalizedMutualInformationHistogramMetricControls.ui"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationMetrics/QmitkMattesMutualInformationMetricControls.ui"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationMetrics/QmitkMeanReciprocalSquareDifferenceMetricControls.ui"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationMetrics/QmitkMutualInformationMetricControls.ui"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationMetrics/QmitkMatchCardinalityMetricControls.ui"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationMetrics/QmitkKappaStatisticMetricControls.ui"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationOptimizer/QmitkExhaustiveOptimizerControls.ui"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationOptimizer/QmitkGradientDescentOptimizerControls.ui"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationOptimizer/QmitkQuaternionRigidTransformGradientDescentOptimizerControls.ui"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationOptimizer/QmitkLBFGSBOptimizerControls.ui"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationOptimizer/QmitkOnePlusOneEvolutionaryOptimizerControls.ui"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationOptimizer/QmitkPowellOptimizerControls.ui"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationOptimizer/QmitkFRPROptimizerControls.ui"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationOptimizer/QmitkRegularStepGradientDescentOptimizerControls.ui"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationOptimizer/QmitkVersorTransformOptimizerControls.ui"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationOptimizer/QmitkAmoebaOptimizerControls.ui"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationOptimizer/QmitkConjugateGradientOptimizerControls.ui"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationOptimizer/QmitkLBFGSOptimizerControls.ui"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationOptimizer/QmitkSPSAOptimizerControls.ui"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationOptimizer/QmitkVersorRigid3DTransformOptimizerControls.ui"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationTransforms/QmitkTranslationTransformControls.ui"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationTransforms/QmitkScaleTransformControls.ui"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationTransforms/QmitkScaleLogarithmicTransformControls.ui"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationTransforms/QmitkAffineTransformControls.ui"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationTransforms/QmitkFixedCenterOfRotationAffineTransformControls.ui"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationTransforms/QmitkEuler3DTransformControls.ui"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationTransforms/QmitkCenteredEuler3DTransformControls.ui"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationTransforms/QmitkQuaternionRigidTransformControls.ui"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationTransforms/QmitkVersorTransformControls.ui"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationTransforms/QmitkVersorRigid3DTransformControls.ui"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationTransforms/QmitkScaleSkewVersor3DTransformControls.ui"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationTransforms/QmitkSimilarity3DTransformControls.ui"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationTransforms/QmitkRigid2DTransformControls.ui"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationTransforms/QmitkCenteredRigid2DTransformControls.ui"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationTransforms/QmitkEuler2DTransformControls.ui"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationTransforms/QmitkSimilarity2DTransformControls.ui"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/RigidRegistrationTransforms/QmitkCenteredSimilarity2DTransformControls.ui"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/RigidRegistrationUI/CMakeLists.txt"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "MITK-Registration", "MITK" ],
+		"name" : "MitkRigidRegistrationUI"
+	}
+}

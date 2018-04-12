@@ -1,0 +1,391 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{51306F41-DC64-36FE-A8E2-757BC9F3D295}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>MitkIpFunc</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\MITK-build\lib\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MitkIpFunc.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MitkIpFunc</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\MITK-build\lib\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MitkIpFunc.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MitkIpFunc</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\MITK-build\lib\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">MitkIpFunc.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">MitkIpFunc</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\MITK-build\lib\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">MitkIpFunc.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">MitkIpFunc</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\include\ITK-4.7;E:\D\MITK\Utilities\.;E:\D\MITK-superbuild\MITK-build\Utilities\IpFunc;E:\D\MITK\Utilities\IpFunc\.;E:\D\MITK-superbuild\MITK-build\Utilities\IpPic;E:\D\MITK\Utilities\IpPic\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;US_MODULE_NAME=MitkIpFunc;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;US_MODULE_NAME=MitkIpFunc;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\include\ITK-4.7;E:\D\MITK\Utilities\.;E:\D\MITK-superbuild\MITK-build\Utilities\IpFunc;E:\D\MITK\Utilities\IpFunc\.;E:\D\MITK-superbuild\MITK-build\Utilities\IpPic;E:\D\MITK\Utilities\IpPic\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\include\ITK-4.7;E:\D\MITK\Utilities\.;E:\D\MITK-superbuild\MITK-build\Utilities\IpFunc;E:\D\MITK\Utilities\IpFunc\.;E:\D\MITK-superbuild\MITK-build\Utilities\IpPic;E:\D\MITK\Utilities\IpPic\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\include\ITK-4.7;E:\D\MITK\Utilities\.;E:\D\MITK-superbuild\MITK-build\Utilities\IpFunc;E:\D\MITK\Utilities\IpFunc\.;E:\D\MITK-superbuild\MITK-build\Utilities\IpPic;E:\D\MITK\Utilities\IpPic\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;US_MODULE_NAME=MitkIpFunc;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;US_MODULE_NAME=MitkIpFunc;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\include\ITK-4.7;E:\D\MITK\Utilities\.;E:\D\MITK-superbuild\MITK-build\Utilities\IpFunc;E:\D\MITK\Utilities\IpFunc\.;E:\D\MITK-superbuild\MITK-build\Utilities\IpPic;E:\D\MITK\Utilities\IpPic\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\include\ITK-4.7;E:\D\MITK\Utilities\.;E:\D\MITK-superbuild\MITK-build\Utilities\IpFunc;E:\D\MITK\Utilities\IpFunc\.;E:\D\MITK-superbuild\MITK-build\Utilities\IpPic;E:\D\MITK\Utilities\IpPic\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\include\ITK-4.7;E:\D\MITK\Utilities\.;E:\D\MITK-superbuild\MITK-build\Utilities\IpFunc;E:\D\MITK\Utilities\IpFunc\.;E:\D\MITK-superbuild\MITK-build\Utilities\IpPic;E:\D\MITK\Utilities\IpPic\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;US_MODULE_NAME=MitkIpFunc;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;US_MODULE_NAME=MitkIpFunc;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\include\ITK-4.7;E:\D\MITK\Utilities\.;E:\D\MITK-superbuild\MITK-build\Utilities\IpFunc;E:\D\MITK\Utilities\IpFunc\.;E:\D\MITK-superbuild\MITK-build\Utilities\IpPic;E:\D\MITK\Utilities\IpPic\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\include\ITK-4.7;E:\D\MITK\Utilities\.;E:\D\MITK-superbuild\MITK-build\Utilities\IpFunc;E:\D\MITK\Utilities\IpFunc\.;E:\D\MITK-superbuild\MITK-build\Utilities\IpPic;E:\D\MITK\Utilities\IpPic\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\include\ITK-4.7;E:\D\MITK\Utilities\.;E:\D\MITK-superbuild\MITK-build\Utilities\IpFunc;E:\D\MITK\Utilities\IpFunc\.;E:\D\MITK-superbuild\MITK-build\Utilities\IpPic;E:\D\MITK\Utilities\IpPic\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;US_MODULE_NAME=MitkIpFunc;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;US_MODULE_NAME=MitkIpFunc;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\include\ITK-4.7;E:\D\MITK\Utilities\.;E:\D\MITK-superbuild\MITK-build\Utilities\IpFunc;E:\D\MITK\Utilities\IpFunc\.;E:\D\MITK-superbuild\MITK-build\Utilities\IpPic;E:\D\MITK\Utilities\IpPic\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\include\gdcm-2.4;E:\D\MITK-superbuild\ep\include\ITK-4.7;E:\D\MITK\Utilities\.;E:\D\MITK-superbuild\MITK-build\Utilities\IpFunc;E:\D\MITK\Utilities\IpFunc\.;E:\D\MITK-superbuild\MITK-build\Utilities\IpPic;E:\D\MITK\Utilities\IpPic\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK\Utilities\IpFunc\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/D/MITK/Utilities/IpFunc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK -BE:/D/MITK-superbuild/MITK-build --check-stamp-file E:\D\MITK-superbuild\MITK-build\Utilities\IpFunc\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK/Utilities/IpFunc/CMakeLists.txt;E:\D\MITK\Utilities\IpFunc\CMakeLists.txt;E:\D\MITK\Utilities\IpFunc\files.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\exportheader.cmake.in;E:\D\MITK\Utilities\IpFunc\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\MITK-build\Utilities\IpFunc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/D/MITK/Utilities/IpFunc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK -BE:/D/MITK-superbuild/MITK-build --check-stamp-file E:\D\MITK-superbuild\MITK-build\Utilities\IpFunc\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK/Utilities/IpFunc/CMakeLists.txt;E:\D\MITK\Utilities\IpFunc\CMakeLists.txt;E:\D\MITK\Utilities\IpFunc\files.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\exportheader.cmake.in;E:\D\MITK\Utilities\IpFunc\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\MITK-build\Utilities\IpFunc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/D/MITK/Utilities/IpFunc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK -BE:/D/MITK-superbuild/MITK-build --check-stamp-file E:\D\MITK-superbuild\MITK-build\Utilities\IpFunc\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK/Utilities/IpFunc/CMakeLists.txt;E:\D\MITK\Utilities\IpFunc\CMakeLists.txt;E:\D\MITK\Utilities\IpFunc\files.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\exportheader.cmake.in;E:\D\MITK\Utilities\IpFunc\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\MITK-build\Utilities\IpFunc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/D/MITK/Utilities/IpFunc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK -BE:/D/MITK-superbuild/MITK-build --check-stamp-file E:\D\MITK-superbuild\MITK-build\Utilities\IpFunc\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK/Utilities/IpFunc/CMakeLists.txt;E:\D\MITK\Utilities\IpFunc\CMakeLists.txt;E:\D\MITK\Utilities\IpFunc\files.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\exportheader.cmake.in;E:\D\MITK\Utilities\IpFunc\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\MITK-build\Utilities\IpFunc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\AddC.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\AddI.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\AddSl.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\And.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\Border.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\BorderX.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\Box.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\Box2d.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\Box3d.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\Canny.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\Close.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\CompressM.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\Conv.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\Convert.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\CopyTags.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\Curtosis.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\CurtosisR.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\Dila.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\DivC.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\DivI.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\DrawPoly.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\Equal.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\Ero.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\Error.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\Exp.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\ExtT.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\ExtrC.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\ExtrR.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\ExtrROI.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\Extrema.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\FillArea.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\Frame.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\GaussF.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\Grad.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\Grav.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\Hist.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\Histo.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\HitMiss.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\HitMissI.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\Inertia.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\Inv.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\LN.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\Label.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\Laplace.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\LevWind.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\Log.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\MakePicName.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\Malloc.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\Mean.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\MeanC.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\MeanF.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\MeanR.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\MeanROI.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\Median.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\Morph.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\MultC.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\MultI.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\Norm.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\NormXY.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\Not.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\OpCl.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\Open.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\Or.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\Pot.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\Range.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\Rank.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\Refl.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\RegGrow.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\Roberts.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\Rotate.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\SDev.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\SDevC.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\SDevR.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\SDevROI.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\ScBl.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\ScFact.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\ScNN.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\Scale.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\SelInv.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\SelMM.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\Select.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\SetErrno.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\SetTag.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\Shp.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\Skewness.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\SkewnessR.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\Sobel.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\Sqrt.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\SubC.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\SubI.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\Thresh.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\Transpose.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\Var.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\VarC.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\VarR.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\VarROI.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\Window.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\WindowR.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\Xchange.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\ZeroCr.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\_BorderX.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\_DrawPoly.c"  />
+    <ClCompile Include="E:\D\MITK\Utilities\IpFunc\ipGetANew.c"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:/D/MITK-superbuild/MITK-build/ZERO_CHECK.vcxproj">
+      <Project>B13C44DE-4BB4-3414-ABDA-308DC25B7D17</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/MITK-build/Utilities/IpPic/MitkIpPic.vcxproj">
+      <Project>E64EB1C2-9555-3E99-A01D-6ADEB9A31F6A</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

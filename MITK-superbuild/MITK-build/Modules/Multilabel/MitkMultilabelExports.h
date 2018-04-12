@@ -1,0 +1,41 @@
+
+#ifndef MITKMULTILABEL_EXPORT_H
+#define MITKMULTILABEL_EXPORT_H
+
+#ifdef MITKMULTILABEL_STATIC_DEFINE
+#  define MITKMULTILABEL_EXPORT
+#  define MITKMULTILABEL_NO_EXPORT
+#else
+#  ifndef MITKMULTILABEL_EXPORT
+#    ifdef MitkMultilabel_EXPORTS
+        /* We are building this library */
+#      define MITKMULTILABEL_EXPORT __declspec(dllexport)
+#    else
+        /* We are using this library */
+#      define MITKMULTILABEL_EXPORT __declspec(dllimport)
+#    endif
+#  endif
+
+#  ifndef MITKMULTILABEL_NO_EXPORT
+#    define MITKMULTILABEL_NO_EXPORT 
+#  endif
+#endif
+
+#ifndef MITKMULTILABEL_DEPRECATED
+#  define MITKMULTILABEL_DEPRECATED __declspec(deprecated)
+#endif
+
+#ifndef MITKMULTILABEL_DEPRECATED_EXPORT
+#  define MITKMULTILABEL_DEPRECATED_EXPORT MITKMULTILABEL_EXPORT MITKMULTILABEL_DEPRECATED
+#endif
+
+#ifndef MITKMULTILABEL_DEPRECATED_NO_EXPORT
+#  define MITKMULTILABEL_DEPRECATED_NO_EXPORT MITKMULTILABEL_NO_EXPORT MITKMULTILABEL_DEPRECATED
+#endif
+
+#define DEFINE_NO_DEPRECATED 0
+#if DEFINE_NO_DEPRECATED
+# define MITKMULTILABEL_NO_DEPRECATED
+#endif
+
+#endif

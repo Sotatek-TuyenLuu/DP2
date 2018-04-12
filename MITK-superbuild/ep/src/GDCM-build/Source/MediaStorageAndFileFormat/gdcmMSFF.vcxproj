@@ -1,0 +1,454 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{8510107E-827F-3383-9DBE-A771877A9E4B}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>gdcmMSFF</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\GDCM-build\bin\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">gdcmMSFF.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">gdcmMSFFd</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\GDCM-build\bin\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">gdcmMSFF.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">gdcmMSFF</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\GDCM-build\bin\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">gdcmMSFF.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">gdcmMSFF</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\GDCM-build\bin\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">gdcmMSFF.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">gdcmMSFF</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\GDCM\Source\Common;E:\D\MITK-superbuild\ep\src\GDCM-build\Source\Common;E:\D\MITK-superbuild\ep\src\GDCM\Source\DataStructureAndEncodingDefinition;E:\D\MITK-superbuild\ep\src\GDCM\Source\DataDictionary;E:\D\MITK-superbuild\ep\src\GDCM\Source\InformationObjectDefinition;E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat;E:\D\MITK-superbuild\ep\src\GDCM\Utilities;E:\D\MITK-superbuild\ep\src\GDCM-build\Utilities;E:\D\MITK-superbuild\ep\src\GDCM-build\Utilities\gdcmcharls;E:\D\MITK-superbuild\ep\src\GDCM-build\Utilities\gdcmopenjpeg;E:\D\MITK-superbuild\ep\src\GDCM-build\Utilities\gdcmzlib;E:\D\MITK-superbuild\ep\src\GDCM-build\Utilities\gdcmuuid;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug";gdcmMSFF_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\";gdcmMSFF_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\GDCM\Source\Common;E:\D\MITK-superbuild\ep\src\GDCM-build\Source\Common;E:\D\MITK-superbuild\ep\src\GDCM\Source\DataStructureAndEncodingDefinition;E:\D\MITK-superbuild\ep\src\GDCM\Source\DataDictionary;E:\D\MITK-superbuild\ep\src\GDCM\Source\InformationObjectDefinition;E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat;E:\D\MITK-superbuild\ep\src\GDCM\Utilities;E:\D\MITK-superbuild\ep\src\GDCM-build\Utilities;E:\D\MITK-superbuild\ep\src\GDCM-build\Utilities\gdcmcharls;E:\D\MITK-superbuild\ep\src\GDCM-build\Utilities\gdcmopenjpeg;E:\D\MITK-superbuild\ep\src\GDCM-build\Utilities\gdcmzlib;E:\D\MITK-superbuild\ep\src\GDCM-build\Utilities\gdcmuuid;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\GDCM\Source\Common;E:\D\MITK-superbuild\ep\src\GDCM-build\Source\Common;E:\D\MITK-superbuild\ep\src\GDCM\Source\DataStructureAndEncodingDefinition;E:\D\MITK-superbuild\ep\src\GDCM\Source\DataDictionary;E:\D\MITK-superbuild\ep\src\GDCM\Source\InformationObjectDefinition;E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat;E:\D\MITK-superbuild\ep\src\GDCM\Utilities;E:\D\MITK-superbuild\ep\src\GDCM-build\Utilities;E:\D\MITK-superbuild\ep\src\GDCM-build\Utilities\gdcmcharls;E:\D\MITK-superbuild\ep\src\GDCM-build\Utilities\gdcmopenjpeg;E:\D\MITK-superbuild\ep\src\GDCM-build\Utilities\gdcmzlib;E:\D\MITK-superbuild\ep\src\GDCM-build\Utilities\gdcmuuid;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\bin\Debug\gdcmDICTd.lib;..\..\bin\Debug\gdcmjpeg8d.lib;..\..\bin\Debug\gdcmjpeg12d.lib;..\..\bin\Debug\gdcmjpeg16d.lib;..\..\bin\Debug\gdcmopenjpegd.lib;..\..\bin\Debug\gdcmcharlsd.lib;rpcrt4.lib;..\..\bin\Debug\gdcmIODd.lib;..\..\bin\Debug\gdcmDSEDd.lib;..\..\bin\Debug\gdcmCommond.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/ep/src/GDCM-build/bin/Debug/gdcmMSFFd.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/ep/src/GDCM-build/bin/Debug/gdcmMSFFd.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\GDCM\Source\Common;E:\D\MITK-superbuild\ep\src\GDCM-build\Source\Common;E:\D\MITK-superbuild\ep\src\GDCM\Source\DataStructureAndEncodingDefinition;E:\D\MITK-superbuild\ep\src\GDCM\Source\DataDictionary;E:\D\MITK-superbuild\ep\src\GDCM\Source\InformationObjectDefinition;E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat;E:\D\MITK-superbuild\ep\src\GDCM\Utilities;E:\D\MITK-superbuild\ep\src\GDCM-build\Utilities;E:\D\MITK-superbuild\ep\src\GDCM-build\Utilities\gdcmcharls;E:\D\MITK-superbuild\ep\src\GDCM-build\Utilities\gdcmopenjpeg;E:\D\MITK-superbuild\ep\src\GDCM-build\Utilities\gdcmzlib;E:\D\MITK-superbuild\ep\src\GDCM-build\Utilities\gdcmuuid;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release";gdcmMSFF_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\";gdcmMSFF_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\GDCM\Source\Common;E:\D\MITK-superbuild\ep\src\GDCM-build\Source\Common;E:\D\MITK-superbuild\ep\src\GDCM\Source\DataStructureAndEncodingDefinition;E:\D\MITK-superbuild\ep\src\GDCM\Source\DataDictionary;E:\D\MITK-superbuild\ep\src\GDCM\Source\InformationObjectDefinition;E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat;E:\D\MITK-superbuild\ep\src\GDCM\Utilities;E:\D\MITK-superbuild\ep\src\GDCM-build\Utilities;E:\D\MITK-superbuild\ep\src\GDCM-build\Utilities\gdcmcharls;E:\D\MITK-superbuild\ep\src\GDCM-build\Utilities\gdcmopenjpeg;E:\D\MITK-superbuild\ep\src\GDCM-build\Utilities\gdcmzlib;E:\D\MITK-superbuild\ep\src\GDCM-build\Utilities\gdcmuuid;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\GDCM\Source\Common;E:\D\MITK-superbuild\ep\src\GDCM-build\Source\Common;E:\D\MITK-superbuild\ep\src\GDCM\Source\DataStructureAndEncodingDefinition;E:\D\MITK-superbuild\ep\src\GDCM\Source\DataDictionary;E:\D\MITK-superbuild\ep\src\GDCM\Source\InformationObjectDefinition;E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat;E:\D\MITK-superbuild\ep\src\GDCM\Utilities;E:\D\MITK-superbuild\ep\src\GDCM-build\Utilities;E:\D\MITK-superbuild\ep\src\GDCM-build\Utilities\gdcmcharls;E:\D\MITK-superbuild\ep\src\GDCM-build\Utilities\gdcmopenjpeg;E:\D\MITK-superbuild\ep\src\GDCM-build\Utilities\gdcmzlib;E:\D\MITK-superbuild\ep\src\GDCM-build\Utilities\gdcmuuid;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\bin\Release\gdcmDICT.lib;..\..\bin\Release\gdcmjpeg8.lib;..\..\bin\Release\gdcmjpeg12.lib;..\..\bin\Release\gdcmjpeg16.lib;..\..\bin\Release\gdcmopenjpeg.lib;..\..\bin\Release\gdcmcharls.lib;rpcrt4.lib;..\..\bin\Release\gdcmIOD.lib;..\..\bin\Release\gdcmDSED.lib;..\..\bin\Release\gdcmCommon.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/ep/src/GDCM-build/bin/Release/gdcmMSFF.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/ep/src/GDCM-build/bin/Release/gdcmMSFF.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\GDCM\Source\Common;E:\D\MITK-superbuild\ep\src\GDCM-build\Source\Common;E:\D\MITK-superbuild\ep\src\GDCM\Source\DataStructureAndEncodingDefinition;E:\D\MITK-superbuild\ep\src\GDCM\Source\DataDictionary;E:\D\MITK-superbuild\ep\src\GDCM\Source\InformationObjectDefinition;E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat;E:\D\MITK-superbuild\ep\src\GDCM\Utilities;E:\D\MITK-superbuild\ep\src\GDCM-build\Utilities;E:\D\MITK-superbuild\ep\src\GDCM-build\Utilities\gdcmcharls;E:\D\MITK-superbuild\ep\src\GDCM-build\Utilities\gdcmopenjpeg;E:\D\MITK-superbuild\ep\src\GDCM-build\Utilities\gdcmzlib;E:\D\MITK-superbuild\ep\src\GDCM-build\Utilities\gdcmuuid;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR="MinSizeRel";gdcmMSFF_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\";gdcmMSFF_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\GDCM\Source\Common;E:\D\MITK-superbuild\ep\src\GDCM-build\Source\Common;E:\D\MITK-superbuild\ep\src\GDCM\Source\DataStructureAndEncodingDefinition;E:\D\MITK-superbuild\ep\src\GDCM\Source\DataDictionary;E:\D\MITK-superbuild\ep\src\GDCM\Source\InformationObjectDefinition;E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat;E:\D\MITK-superbuild\ep\src\GDCM\Utilities;E:\D\MITK-superbuild\ep\src\GDCM-build\Utilities;E:\D\MITK-superbuild\ep\src\GDCM-build\Utilities\gdcmcharls;E:\D\MITK-superbuild\ep\src\GDCM-build\Utilities\gdcmopenjpeg;E:\D\MITK-superbuild\ep\src\GDCM-build\Utilities\gdcmzlib;E:\D\MITK-superbuild\ep\src\GDCM-build\Utilities\gdcmuuid;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\GDCM\Source\Common;E:\D\MITK-superbuild\ep\src\GDCM-build\Source\Common;E:\D\MITK-superbuild\ep\src\GDCM\Source\DataStructureAndEncodingDefinition;E:\D\MITK-superbuild\ep\src\GDCM\Source\DataDictionary;E:\D\MITK-superbuild\ep\src\GDCM\Source\InformationObjectDefinition;E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat;E:\D\MITK-superbuild\ep\src\GDCM\Utilities;E:\D\MITK-superbuild\ep\src\GDCM-build\Utilities;E:\D\MITK-superbuild\ep\src\GDCM-build\Utilities\gdcmcharls;E:\D\MITK-superbuild\ep\src\GDCM-build\Utilities\gdcmopenjpeg;E:\D\MITK-superbuild\ep\src\GDCM-build\Utilities\gdcmzlib;E:\D\MITK-superbuild\ep\src\GDCM-build\Utilities\gdcmuuid;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\bin\MinSizeRel\gdcmDICT.lib;..\..\bin\MinSizeRel\gdcmjpeg8.lib;..\..\bin\MinSizeRel\gdcmjpeg12.lib;..\..\bin\MinSizeRel\gdcmjpeg16.lib;..\..\bin\MinSizeRel\gdcmopenjpeg.lib;..\..\bin\MinSizeRel\gdcmcharls.lib;rpcrt4.lib;..\..\bin\MinSizeRel\gdcmIOD.lib;..\..\bin\MinSizeRel\gdcmDSED.lib;..\..\bin\MinSizeRel\gdcmCommon.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/ep/src/GDCM-build/bin/MinSizeRel/gdcmMSFF.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/ep/src/GDCM-build/bin/MinSizeRel/gdcmMSFF.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\GDCM\Source\Common;E:\D\MITK-superbuild\ep\src\GDCM-build\Source\Common;E:\D\MITK-superbuild\ep\src\GDCM\Source\DataStructureAndEncodingDefinition;E:\D\MITK-superbuild\ep\src\GDCM\Source\DataDictionary;E:\D\MITK-superbuild\ep\src\GDCM\Source\InformationObjectDefinition;E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat;E:\D\MITK-superbuild\ep\src\GDCM\Utilities;E:\D\MITK-superbuild\ep\src\GDCM-build\Utilities;E:\D\MITK-superbuild\ep\src\GDCM-build\Utilities\gdcmcharls;E:\D\MITK-superbuild\ep\src\GDCM-build\Utilities\gdcmopenjpeg;E:\D\MITK-superbuild\ep\src\GDCM-build\Utilities\gdcmzlib;E:\D\MITK-superbuild\ep\src\GDCM-build\Utilities\gdcmuuid;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR="RelWithDebInfo";gdcmMSFF_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\";gdcmMSFF_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\GDCM\Source\Common;E:\D\MITK-superbuild\ep\src\GDCM-build\Source\Common;E:\D\MITK-superbuild\ep\src\GDCM\Source\DataStructureAndEncodingDefinition;E:\D\MITK-superbuild\ep\src\GDCM\Source\DataDictionary;E:\D\MITK-superbuild\ep\src\GDCM\Source\InformationObjectDefinition;E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat;E:\D\MITK-superbuild\ep\src\GDCM\Utilities;E:\D\MITK-superbuild\ep\src\GDCM-build\Utilities;E:\D\MITK-superbuild\ep\src\GDCM-build\Utilities\gdcmcharls;E:\D\MITK-superbuild\ep\src\GDCM-build\Utilities\gdcmopenjpeg;E:\D\MITK-superbuild\ep\src\GDCM-build\Utilities\gdcmzlib;E:\D\MITK-superbuild\ep\src\GDCM-build\Utilities\gdcmuuid;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\GDCM\Source\Common;E:\D\MITK-superbuild\ep\src\GDCM-build\Source\Common;E:\D\MITK-superbuild\ep\src\GDCM\Source\DataStructureAndEncodingDefinition;E:\D\MITK-superbuild\ep\src\GDCM\Source\DataDictionary;E:\D\MITK-superbuild\ep\src\GDCM\Source\InformationObjectDefinition;E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat;E:\D\MITK-superbuild\ep\src\GDCM\Utilities;E:\D\MITK-superbuild\ep\src\GDCM-build\Utilities;E:\D\MITK-superbuild\ep\src\GDCM-build\Utilities\gdcmcharls;E:\D\MITK-superbuild\ep\src\GDCM-build\Utilities\gdcmopenjpeg;E:\D\MITK-superbuild\ep\src\GDCM-build\Utilities\gdcmzlib;E:\D\MITK-superbuild\ep\src\GDCM-build\Utilities\gdcmuuid;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\bin\RelWithDebInfo\gdcmDICT.lib;..\..\bin\RelWithDebInfo\gdcmjpeg8.lib;..\..\bin\RelWithDebInfo\gdcmjpeg12.lib;..\..\bin\RelWithDebInfo\gdcmjpeg16.lib;..\..\bin\RelWithDebInfo\gdcmopenjpeg.lib;..\..\bin\RelWithDebInfo\gdcmcharls.lib;rpcrt4.lib;..\..\bin\RelWithDebInfo\gdcmIOD.lib;..\..\bin\RelWithDebInfo\gdcmDSED.lib;..\..\bin\RelWithDebInfo\gdcmCommon.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/ep/src/GDCM-build/bin/RelWithDebInfo/gdcmMSFF.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/ep/src/GDCM-build/bin/RelWithDebInfo/gdcmMSFF.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/GDCM/Source/MediaStorageAndFileFormat/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/GDCM -BE:/D/MITK-superbuild/ep/src/GDCM-build --check-stamp-file E:\D\MITK-superbuild\ep\src\GDCM-build\Source\MediaStorageAndFileFormat\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/GDCM/Source/MediaStorageAndFileFormat/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\GDCM-build\Source\MediaStorageAndFileFormat\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/GDCM/Source/MediaStorageAndFileFormat/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/GDCM -BE:/D/MITK-superbuild/ep/src/GDCM-build --check-stamp-file E:\D\MITK-superbuild\ep\src\GDCM-build\Source\MediaStorageAndFileFormat\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/GDCM/Source/MediaStorageAndFileFormat/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\GDCM-build\Source\MediaStorageAndFileFormat\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/GDCM/Source/MediaStorageAndFileFormat/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/GDCM -BE:/D/MITK-superbuild/ep/src/GDCM-build --check-stamp-file E:\D\MITK-superbuild\ep\src\GDCM-build\Source\MediaStorageAndFileFormat\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/GDCM/Source/MediaStorageAndFileFormat/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\GDCM-build\Source\MediaStorageAndFileFormat\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/GDCM/Source/MediaStorageAndFileFormat/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/GDCM -BE:/D/MITK-superbuild/ep/src/GDCM-build --check-stamp-file E:\D\MITK-superbuild\ep\src\GDCM-build\Source\MediaStorageAndFileFormat\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/GDCM/Source/MediaStorageAndFileFormat/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\GDCM-build\Source\MediaStorageAndFileFormat\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmFileStreamer.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmJSON.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmFileChangeTransferSyntax.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmAnonymizer.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmFileAnonymizer.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmIconImageFilter.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmIconImageGenerator.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmDICOMDIRGenerator.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmSpacing.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmFileExplicitFilter.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmFileDerivation.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmImageFragmentSplitter.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmTagPath.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmSimpleSubjectWatcher.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmAnonymizeEvent.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmPixmap.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmBitmap.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmRescaler.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmImageToImageFilter.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmBitmapToBitmapFilter.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmPixmapToPixmapFilter.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmImageChangeTransferSyntax.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmImageApplyLookupTable.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmOrientation.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmDataSetHelper.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmImageChangePlanarConfiguration.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmImageChangePhotometricInterpretation.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmDirectionCosines.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmSorter.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmSerieHelper.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmIPPSorter.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmApplicationEntity.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmDICOMDIR.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmSpectroscopy.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmEncapsulatedDocument.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmSplitMosaicFilter.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmFiducials.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmWaveform.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmPersonName.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmIconImage.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmUIDGenerator.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmUUIDGenerator.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmPrinter.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmDictPrinter.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmXMLPrinter.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmScanner.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmPixmapReader.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmImageReader.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmPixmapWriter.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmImageWriter.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmStringFilter.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmImageHelper.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmValidate.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmDumper.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmImage.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmImageConverter.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmImageCodec.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmJPEG12Codec.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmRLECodec.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmPDFCodec.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmAudioCodec.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmJPEG16Codec.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmJPEGLSCodec.cxx" >
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CHARLS_SHARED;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CHARLS_SHARED;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CHARLS_SHARED;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CHARLS_SHARED;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmJPEG8Codec.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmJPEGCodec.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmPVRGCodec.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmKAKADUCodec.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmPNMCodec.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmPGXCodec.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmRAWCodec.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmLookupTable.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmOverlay.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmCurve.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmPhotometricInterpretation.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmPixelFormat.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmSegmentedPaletteColorLookupTable.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmStreamImageReader.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmImageRegionReader.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmDirectoryHelper.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmSegment.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmSurface.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmMeshPrimitive.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmSegmentWriter.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmSurfaceWriter.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmSegmentReader.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmSurfaceReader.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmSurfaceHelper.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmSegmentHelper.cxx"  />
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\GDCM\Source\MediaStorageAndFileFormat\gdcmJPEG2000Codec.cxx"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/GDCM-build/ZERO_CHECK.vcxproj">
+      <Project>EAED6603-E392-3DF3-BE7D-0D3F7F92F9AD</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/GDCM-build/Source/Common/gdcmCommon.vcxproj">
+      <Project>A1E3A5C6-B543-37EB-A202-537F90A685E4</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/GDCM-build/Source/DataDictionary/gdcmDICT.vcxproj">
+      <Project>5F3C5F4B-5E49-3B83-AD0D-575AE4B9D0B7</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/GDCM-build/Source/DataStructureAndEncodingDefinition/gdcmDSED.vcxproj">
+      <Project>FD8351B1-0E9F-33F4-9A21-757D9544A306</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/GDCM-build/Source/InformationObjectDefinition/gdcmIOD.vcxproj">
+      <Project>0990A5C6-4241-3B17-8B1F-1285F269A416</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/GDCM-build/Utilities/gdcmcharls/gdcmcharls.vcxproj">
+      <Project>364094B8-7C2A-3C7F-BE0D-DE81A0BEF295</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/GDCM-build/Utilities/gdcmjpeg/12/gdcmjpeg12.vcxproj">
+      <Project>76B92E45-3A0C-3447-9BE3-CE4B85F27092</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/GDCM-build/Utilities/gdcmjpeg/16/gdcmjpeg16.vcxproj">
+      <Project>B79C7879-7850-31C7-AEC0-5DD7C940749C</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/GDCM-build/Utilities/gdcmjpeg/8/gdcmjpeg8.vcxproj">
+      <Project>5315A041-CDB4-3493-B5CB-E86B22F1B122</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/GDCM-build/Utilities/gdcmopenjpeg-v1/libopenjpeg/gdcmopenjpeg.vcxproj">
+      <Project>8E3CD9E7-70C3-3592-910F-12C01979C767</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

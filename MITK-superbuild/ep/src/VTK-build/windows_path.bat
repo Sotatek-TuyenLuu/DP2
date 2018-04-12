@@ -1,0 +1,2 @@
+set PATH=E:/D/MITK-superbuild/ep/src/VTK-build/bin;E:/D/MITK-superbuild/ep/src/VTK-build/bin/Debug;E:/D/MITK-superbuild/ep/src/VTK-build/bin/Release;%PATH%
+    set PYTHONPATH=E:/D/MITK-superbuild/ep/src/VTK-build/bin;E:/D/MITK-superbuild/ep/src/VTK-build/bin/Debug;E:/D/MITK-superbuild/ep/src/VTK-build/bin/Release;%PYTHONPATH%

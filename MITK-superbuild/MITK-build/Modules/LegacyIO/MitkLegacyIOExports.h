@@ -1,0 +1,41 @@
+
+#ifndef MITKLEGACYIO_EXPORT_H
+#define MITKLEGACYIO_EXPORT_H
+
+#ifdef MITKLEGACYIO_STATIC_DEFINE
+#  define MITKLEGACYIO_EXPORT
+#  define MITKLEGACYIO_NO_EXPORT
+#else
+#  ifndef MITKLEGACYIO_EXPORT
+#    ifdef MitkLegacyIO_EXPORTS
+        /* We are building this library */
+#      define MITKLEGACYIO_EXPORT __declspec(dllexport)
+#    else
+        /* We are using this library */
+#      define MITKLEGACYIO_EXPORT __declspec(dllimport)
+#    endif
+#  endif
+
+#  ifndef MITKLEGACYIO_NO_EXPORT
+#    define MITKLEGACYIO_NO_EXPORT 
+#  endif
+#endif
+
+#ifndef MITKLEGACYIO_DEPRECATED
+#  define MITKLEGACYIO_DEPRECATED __declspec(deprecated)
+#endif
+
+#ifndef MITKLEGACYIO_DEPRECATED_EXPORT
+#  define MITKLEGACYIO_DEPRECATED_EXPORT MITKLEGACYIO_EXPORT MITKLEGACYIO_DEPRECATED
+#endif
+
+#ifndef MITKLEGACYIO_DEPRECATED_NO_EXPORT
+#  define MITKLEGACYIO_DEPRECATED_NO_EXPORT MITKLEGACYIO_NO_EXPORT MITKLEGACYIO_DEPRECATED
+#endif
+
+#define DEFINE_NO_DEPRECATED 0
+#if DEFINE_NO_DEPRECATED
+# define MITKLEGACYIO_NO_DEPRECATED
+#endif
+
+#endif

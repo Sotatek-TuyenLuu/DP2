@@ -1,0 +1,34 @@
+<Project name="MITK">
+  <SubProject name="MITK-Core">
+  </SubProject>
+  <SubProject name="MITK-CoreUI">
+  </SubProject>
+  <SubProject name="MITK-IGT">
+  </SubProject>
+  <SubProject name="MITK-ToF">
+  </SubProject>
+  <SubProject name="MITK-DTI">
+  </SubProject>
+  <SubProject name="MITK-Registration">
+  </SubProject>
+  <SubProject name="MITK-Modules">
+  </SubProject>
+  <SubProject name="MITK-Plugins">
+  </SubProject>
+  <SubProject name="MITK-Examples">
+  </SubProject>
+  <SubProject name="Unlabeled">
+  </SubProject>
+  <SubProject name="Documentation">
+    <Dependency name="MITK-Core"/>
+    <Dependency name="MITK-CoreUI"/>
+    <Dependency name="MITK-IGT"/>
+    <Dependency name="MITK-ToF"/>
+    <Dependency name="MITK-DTI"/>
+    <Dependency name="MITK-Registration"/>
+    <Dependency name="MITK-Modules"/>
+    <Dependency name="MITK-Plugins"/>
+    <Dependency name="MITK-Examples"/>
+    <Dependency name="Unlabeled"/>
+  </SubProject>
+</Project>

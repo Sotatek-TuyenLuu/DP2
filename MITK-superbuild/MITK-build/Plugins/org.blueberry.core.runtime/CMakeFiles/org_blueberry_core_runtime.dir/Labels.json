@@ -1,0 +1,895 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/berryBackingStoreException.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/berryContributorFactory.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/berryCoreException.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/berryDebugBreakpointManager.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/berryDebugUtil.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/berryException.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/berryExtensionType.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/berryIAdaptable.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/berryIAdapterManager.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/berryIDebugObjectListener.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/berryILog.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/berryIPreferences.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/berryIProduct.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/berryIBerryPreferences.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/berryIPreferencesService.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/berryIProductProvider.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/berryListenerList.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/berryLog.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/berryMultiStatus.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/berryObject.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/berryObjectGeneric.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/berryObjectList.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/berryObjects.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/berryObjectString.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/berryObjectStringMap.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/berryObjectTypeInfo.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/berryOperationCanceledException.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/berryPlatform.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/berryPlatformException.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/berryPlatformObject.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/berryPlugin.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/berryReflection.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/berrySafeRunner.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/berrySmartPointer.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/berryStatus.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/berryWeakPointer.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/application/berryIApplication.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/application/berryIApplicationContext.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/dynamichelpers/berryExtensionTracker.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/dynamichelpers/berryIExtensionChangeHandler.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/dynamichelpers/berryIExtensionTracker.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/registry/berryIConfigurationElement.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/registry/berryIContributor.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/registry/berryIExecutableExtension.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/registry/berryIExecutableExtensionFactory.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/registry/berryIExtension.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/registry/berryIExtensionPoint.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/registry/berryIExtensionPointFilter.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/registry/berryIExtensionRegistry.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/registry/berryInvalidRegistryObjectException.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/registry/berryIRegistryEventListener.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/registry/berryRegistryConstants.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryAbstractPreferencesStorage.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryApplicationContainer.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryApplicationDescriptor.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryApplicationHandle.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryCombinedEventDelta.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryConfigurationElement.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryConfigurationElement.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryConfigurationElementAttribute.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryConfigurationElementDescription.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryConfigurationElementHandle.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryCTKPluginActivator.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryCTKPluginListener.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryCTKPluginUtils.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryErrorApplication.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryExtension.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryExtensionHandle.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryExtensionPoint.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryExtensionPointHandle.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryExtensionRegistry.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryExtensionsParser.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryHandle.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryIBranding.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryInternalPlatform.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryIObjectManager.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryIRuntimeConstants.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryLogImpl.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryKeyedElement.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryKeyedHashSet.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryMainApplicationLauncher.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryPreferences.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryPreferencesService.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryProduct.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryProductExtensionBranding.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryProviderExtensionBranding.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryRegistryContribution.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryRegistryContributor.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryRegistryObjectFactory.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryRegistryIndexChildren.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryRegistryIndexElement.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryRegistryMessages.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryRegistryObject.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryRegistryObjectManager.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryRegistryObjectReferenceMap.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryRegistryProperties.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryRegistryStrategy.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryRegistryTimestamp.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryRegistrySupport.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berrySimpleExtensionPointFilter.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryTemporaryObjectManager.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryThirdLevelConfigurationElementHandle.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryXMLPreferencesStorage.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/berryBackingStoreException.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/berryContributorFactory.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/berryCoreException.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/berryDebugBreakpointManager.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/berryDebugUtil.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/berryException.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/berryExtensionType.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/berryIAdaptable.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/berryIAdapterManager.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/berryIDebugObjectListener.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/berryILog.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/berryIPreferences.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/berryIProduct.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/berryIBerryPreferences.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/berryIPreferencesService.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/berryLog.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/berryMultiStatus.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/berryObject.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/berryObjects.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/berryObjectString.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/berryObjectStringMap.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/berryObjectTypeInfo.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/berryOperationCanceledException.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/berryPlatform.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/berryPlatformException.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/berryPlatformObject.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/berryPlugin.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/berryReflection.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/berrySafeRunner.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/berryStatus.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/application/berryIApplication.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/application/berryIApplicationContext.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/dynamichelpers/berryExtensionTracker.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/dynamichelpers/berryIExtensionChangeHandler.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/dynamichelpers/berryIExtensionTracker.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/registry/berryIConfigurationElement.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/registry/berryIContributor.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/registry/berryIExecutableExtension.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/registry/berryIExecutableExtensionFactory.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/registry/berryIExtension.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/registry/berryIExtensionPoint.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/registry/berryIExtensionPointFilter.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/registry/berryIExtensionRegistry.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/registry/berryInvalidRegistryObjectException.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/registry/berryIRegistryEventListener.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/registry/berryRegistryConstants.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryAbstractPreferencesStorage.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryApplicationContainer.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryApplicationDescriptor.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryApplicationHandle.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryCombinedEventDelta.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryConfigurationElementAttribute.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryConfigurationElementDescription.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryConfigurationElementHandle.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryCTKPluginActivator.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryCTKPluginListener.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryCTKPluginUtils.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryErrorApplication.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryExtension.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryExtensionHandle.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryExtensionPoint.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryExtensionPointHandle.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryExtensionRegistry.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryExtensionsParser.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryHandle.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryIBranding.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryInternalPlatform.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryIObjectManager.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryIRuntimeConstants.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryLogImpl.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryKeyedElement.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryKeyedHashSet.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryMainApplicationLauncher.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryPreferences.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryPreferencesService.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryProduct.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryProductExtensionBranding.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryProviderExtensionBranding.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryRegistryContribution.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryRegistryContributor.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryRegistryObjectFactory.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryRegistryIndexChildren.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryRegistryIndexElement.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryRegistryMessages.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryRegistryObject.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryRegistryObjectManager.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryRegistryObjectReferenceMap.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryRegistryProperties.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryRegistryStrategy.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryRegistryTimestamp.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryRegistrySupport.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berrySimpleExtensionPointFilter.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryTemporaryObjectManager.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryThirdLevelConfigurationElementHandle.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/src/internal/berryXMLPreferencesStorage.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.core.runtime/src/moc_berryPlugin.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.core.runtime/src/internal/moc_berryApplicationContainer.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.core.runtime/src/internal/moc_berryApplicationDescriptor.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.core.runtime/src/internal/moc_berryApplicationHandle.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.core.runtime/src/internal/moc_berryCTKPluginListener.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.core.runtime/src/internal/moc_berryCTKPluginActivator.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.core.runtime/src/internal/moc_berryErrorApplication.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.core.runtime/src/internal/moc_berryExtensionRegistry.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.core.runtime/src/internal/moc_berryPreferencesService.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.core.runtime/qrc_org_blueberry_core_runtime_manifest.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.core.runtime/qrc_org_blueberry_core_runtime_cached.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Plugins/org.blueberry.core.runtime/CMakeLists.txt"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/CMakeFiles/c3684c483b7cd0d2481e82aaa18632e9/moc_berryPlugin.cpp.rule"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/CMakeFiles/4410bb9579175616396f8e4704cf7345/moc_berryApplicationContainer.cpp.rule"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/CMakeFiles/4410bb9579175616396f8e4704cf7345/moc_berryApplicationDescriptor.cpp.rule"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/CMakeFiles/4410bb9579175616396f8e4704cf7345/moc_berryApplicationHandle.cpp.rule"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/CMakeFiles/4410bb9579175616396f8e4704cf7345/moc_berryCTKPluginListener.cpp.rule"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/CMakeFiles/4410bb9579175616396f8e4704cf7345/moc_berryCTKPluginActivator.cpp.rule"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/CMakeFiles/4410bb9579175616396f8e4704cf7345/moc_berryErrorApplication.cpp.rule"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/CMakeFiles/4410bb9579175616396f8e4704cf7345/moc_berryExtensionRegistry.cpp.rule"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/CMakeFiles/4410bb9579175616396f8e4704cf7345/moc_berryPreferencesService.cpp.rule"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.core.runtime/org_blueberry_core_runtime_manifest.qrc"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.core.runtime/org_blueberry_core_runtime_cached.qrc"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "MITK-Plugins" ],
+		"name" : "org_blueberry_core_runtime"
+	}
+}

@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{9271923B-F27D-3067-82DC-451AF59FAE5A}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ITKTransform-all</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\DoubleConversion\src\double-conversion;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\KWSys\src;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\vcl;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\core;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\vcl;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\core;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNLInstantiation\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Core\Common;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageFilterBase\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\Netlib;E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\DoubleConversion\src\double-conversion;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\KWSys\src;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\vcl;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\core;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\vcl;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\core;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNLInstantiation\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Core\Common;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageFilterBase\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\Netlib;E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\DoubleConversion\src\double-conversion;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\KWSys\src;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\vcl;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\core;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\vcl;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\core;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNLInstantiation\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Core\Common;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageFilterBase\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\Netlib;E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\DoubleConversion\src\double-conversion;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\KWSys\src;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\vcl;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\core;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\vcl;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\core;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNLInstantiation\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Core\Common;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageFilterBase\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\Netlib;E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/ITK/Modules/Core/Transform/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/ITK -BE:/D/MITK-superbuild/ep/src/ITK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Core\Transform\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/ITK/Modules/Core/Transform/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\itk-module.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageFilterBase.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKCommon.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKDoubleConversion.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKKWSys.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKVNLInstantiation.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKVNL.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKStatistics.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKNetlib.cmake;E:\D\MITK-superbuild\ep\src\ITK\CMake\ITKModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\ITK\CMake\ITKModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\ITK\Utilities\Doxygen\Module.dox.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Core\Transform\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/ITK/Modules/Core/Transform/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/ITK -BE:/D/MITK-superbuild/ep/src/ITK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Core\Transform\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/ITK/Modules/Core/Transform/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\itk-module.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageFilterBase.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKCommon.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKDoubleConversion.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKKWSys.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKVNLInstantiation.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKVNL.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKStatistics.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKNetlib.cmake;E:\D\MITK-superbuild\ep\src\ITK\CMake\ITKModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\ITK\CMake\ITKModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\ITK\Utilities\Doxygen\Module.dox.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Core\Transform\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/ITK/Modules/Core/Transform/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/ITK -BE:/D/MITK-superbuild/ep/src/ITK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Core\Transform\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/ITK/Modules/Core/Transform/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\itk-module.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageFilterBase.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKCommon.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKDoubleConversion.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKKWSys.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKVNLInstantiation.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKVNL.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKStatistics.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKNetlib.cmake;E:\D\MITK-superbuild\ep\src\ITK\CMake\ITKModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\ITK\CMake\ITKModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\ITK\Utilities\Doxygen\Module.dox.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Core\Transform\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/ITK/Modules/Core/Transform/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/ITK -BE:/D/MITK-superbuild/ep/src/ITK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Core\Transform\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/ITK/Modules/Core/Transform/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\itk-module.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageFilterBase.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKCommon.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKDoubleConversion.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKKWSys.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKVNLInstantiation.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKVNL.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKStatistics.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKNetlib.cmake;E:\D\MITK-superbuild\ep\src\ITK\CMake\ITKModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\ITK\CMake\ITKModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\ITK\Utilities\Doxygen\Module.dox.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Core\Transform\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkAffineTransform.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkAzimuthElevationToCartesianTransform.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkBSplineBaseTransform.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkBSplineDeformableTransform.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkBSplineDeformableTransformInitializer.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkBSplineTransform.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkBSplineTransformInitializer.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkCenteredAffineTransform.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkCenteredEuler3DTransform.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkCenteredRigid2DTransform.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkCenteredSimilarity2DTransform.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkCompositeTransform.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkElasticBodyReciprocalSplineKernelTransform.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkElasticBodySplineKernelTransform.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkEuler2DTransform.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkEuler3DTransform.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkFixedCenterOfRotationAffineTransform.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkIdentityTransform.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkKernelTransform.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkMatrixOffsetTransformBase.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkMultiTransform.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkQuaternionRigidTransform.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkRigid2DTransform.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkRigid3DPerspectiveTransform.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkRigid3DTransform.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkScalableAffineTransform.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkScaleLogarithmicTransform.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkScaleSkewVersor3DTransform.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkScaleTransform.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkScaleVersor3DTransform.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkSimilarity2DTransform.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkSimilarity3DTransform.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkThinPlateR2LogRSplineKernelTransform.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkThinPlateSplineKernelTransform.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkTransform.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkTransformBase.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkTranslationTransform.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkv3Rigid3DTransform.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkVersorRigid3DTransform.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkVersorTransform.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkVolumeSplineKernelTransform.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkAffineTransform.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkAzimuthElevationToCartesianTransform.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkBSplineBaseTransform.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkBSplineDeformableTransform.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkBSplineDeformableTransformInitializer.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkBSplineTransform.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkBSplineTransformInitializer.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkCenteredAffineTransform.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkCenteredEuler3DTransform.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkCenteredRigid2DTransform.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkCenteredSimilarity2DTransform.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkCompositeTransform.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkElasticBodyReciprocalSplineKernelTransform.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkElasticBodySplineKernelTransform.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkEuler2DTransform.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkEuler3DTransform.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkFixedCenterOfRotationAffineTransform.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkKernelTransform.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkMatrixOffsetTransformBase.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkMultiTransform.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkQuaternionRigidTransform.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkRigid2DTransform.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkRigid3DPerspectiveTransform.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkRigid3DTransform.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkScalableAffineTransform.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkScaleLogarithmicTransform.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkScaleSkewVersor3DTransform.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkScaleTransform.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkScaleVersor3DTransform.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkSimilarity2DTransform.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkSimilarity3DTransform.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkThinPlateR2LogRSplineKernelTransform.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkThinPlateSplineKernelTransform.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkTransform.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkTranslationTransform.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkVersorRigid3DTransform.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkVersorTransform.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include\itkVolumeSplineKernelTransform.hxx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/ITK-build/ZERO_CHECK.vcxproj">
+      <Project>7A8C6E7C-8178-3D2C-96BD-CC175A1D2858</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

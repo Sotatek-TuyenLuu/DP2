@@ -1,0 +1,102 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/Modules/OpenViewCore/us_init.cpp",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/OpenViewCore/vtkEventQtSlotConnect.cxx",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/OpenViewCore/QVTKInteractor.cxx",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/OpenViewCore/QVTKInteractorAdapter.cxx",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/OpenViewCore/QVTKQuickItem.cxx",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/OpenViewCore/vtkQtConnection.cxx",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/OpenViewCore/vtkEventQtSlotConnect.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/OpenViewCore/QVTKInteractor.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/OpenViewCore/QVTKInteractorAdapter.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/OpenViewCore/QVTKQuickItem.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/OpenViewCore/vtkQtConnection.h",
+			"labels" : [ "MITK-Modules", "MITK" ]
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/Modules/OpenViewCore/moc_QVTKInteractorAdapter.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/Modules/OpenViewCore/moc_QVTKInteractorInternal.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/Modules/OpenViewCore/moc_QVTKQuickItem.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/Modules/OpenViewCore/moc_vtkQtConnection.cpp"
+		},
+		
+		{
+			"file" : "E:/D/MITK/Modules/OpenViewCore/CMakeLists.txt"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/CMakeFiles/92185f482a43ef95ee7d5d7684e3d57f/moc_QVTKInteractorAdapter.cpp.rule"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/CMakeFiles/92185f482a43ef95ee7d5d7684e3d57f/moc_QVTKInteractorInternal.cpp.rule"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/CMakeFiles/92185f482a43ef95ee7d5d7684e3d57f/moc_QVTKQuickItem.cpp.rule"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/MITK-build/CMakeFiles/92185f482a43ef95ee7d5d7684e3d57f/moc_vtkQtConnection.cpp.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "MITK-Modules", "MITK" ],
+		"name" : "MitkOpenViewCore"
+	}
+}

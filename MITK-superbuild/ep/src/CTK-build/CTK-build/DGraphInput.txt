@@ -1,0 +1,13 @@
+12 11
+CTKTesting
+CTKPluginFramework CTKCore
+CTKWidgets CTKCore
+CTKDICOMCore CTKCore
+CTKDICOMWidgets CTKDICOMCore
+CTKDICOMWidgets CTKWidgets
+CTKCommandLineModulesCore CTKCore
+CTKCommandLineModulesFrontendQtGui CTKCommandLineModulesCore
+CTKCommandLineModulesBackendLocalProcess CTKCommandLineModulesCore
+CTKXNATCore CTKCore
+org_commontk_configadmin CTKPluginFramework
+org_commontk_eventadmin CTKPluginFramework

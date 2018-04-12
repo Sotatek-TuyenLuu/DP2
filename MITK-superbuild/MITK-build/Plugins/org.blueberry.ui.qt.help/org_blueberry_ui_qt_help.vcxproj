@@ -1,0 +1,1486 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{5C531775-DF0E-35A3-B743-A30B8F3679DA}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>org_blueberry_ui_qt_help</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\MITK-build\bin\plugins\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">org_blueberry_ui_qt_help.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">liborg_blueberry_ui_qt_help</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\MITK-build\bin\plugins\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">org_blueberry_ui_qt_help.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">liborg_blueberry_ui_qt_help</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\MITK-build\bin\plugins\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">org_blueberry_ui_qt_help.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">liborg_blueberry_ui_qt_help</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\MITK-build\bin\plugins\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">org_blueberry_ui_qt_help.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">liborg_blueberry_ui_qt_help</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src;E:\D\MITK\Plugins\org.blueberry.ui.qt.help;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build;E:\D\MITK\Plugins\org.blueberry.ui.qt\src;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\actions;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\application;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\commands;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\guitk;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\handlers;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\intro;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\model;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\presentations;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\services;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\testing;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\tweaklets;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\util;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt;E:\D\MITK\Plugins\org.blueberry.core.commands\src;E:\D\MITK\Plugins\org.blueberry.core.commands\src\common;E:\D\MITK\Plugins\org.blueberry.core.commands\src\util;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.core.commands;E:\D\MITK\Plugins\org.blueberry.core.expressions\src;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.core.expressions;E:\D\MITK\Plugins\org.blueberry.core.runtime\src;E:\D\MITK\Plugins\org.blueberry.core.runtime\src\application;E:\D\MITK\Plugins\org.blueberry.core.runtime\src\dynamichelpers;E:\D\MITK\Plugins\org.blueberry.core.runtime\src\registry;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.core.runtime;E:\D\MITK-superbuild\ep\src\CTK\Libs\Widgets;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Widgets;E:\D\MITK-superbuild\ep\src\CTK\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK\Libs\PluginFramework;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\PluginFramework;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtWidgets;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtXml;C:\Qt\5.4\msvc2013_opengl\include\QtOpenGL;E:\D\MITK\Plugins\org.blueberry.ui.qt;E:\D\MITK\Plugins\org.blueberry.core.commands;E:\D\MITK\Plugins\org.blueberry.core.runtime;C:\Qt\5.4\msvc2013_opengl\include\QtSql;C:\Qt\5.4\msvc2013_opengl\include\QtConcurrent;E:\D\MITK-superbuild\MITK-build\Utilities\mbilog;E:\D\MITK\Utilities\mbilog\.;E:\D\MITK-superbuild\ep\include;E:\D\MITK\Plugins\org.blueberry.core.expressions;C:\Qt\5.4\msvc2013_opengl\include\QtHelp;C:\Qt\5.4\msvc2013_opengl\include\QtPrintSupport;C:\Qt\5.4\msvc2013_opengl\include\QtWebKitWidgets;C:\Qt\5.4\msvc2013_opengl\include\QtWebKit;C:\Qt\5.4\msvc2013_opengl\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4005;4231;4316</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WIN32_WINNT=0x0501;POCO_NO_UNWINDOWS;WIN32_LEAN_AND_MEAN;NOMINMAX;_DEBUG;QT_PLUGIN;US_MODULE_NAME=org_blueberry_ui_qt_help;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;QT_CORE_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_XML_LIB;QT_OPENGL_LIB;POCO_NO_UNWINDOWS;WIN32_LEAN_AND_MEAN;QT_SQL_LIB;QT_CONCURRENT_LIB;QT_HELP_LIB;QT_PRINTSUPPORT_LIB;QT_WEBKITWIDGETS_LIB;QT_WEBKIT_LIB;QT_NETWORK_LIB;CMAKE_INTDIR="Debug";org_blueberry_ui_qt_help_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WIN32_WINNT=0x0501;POCO_NO_UNWINDOWS;WIN32_LEAN_AND_MEAN;NOMINMAX;_DEBUG;QT_PLUGIN;US_MODULE_NAME=org_blueberry_ui_qt_help;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;QT_CORE_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_XML_LIB;QT_OPENGL_LIB;POCO_NO_UNWINDOWS;WIN32_LEAN_AND_MEAN;QT_SQL_LIB;QT_CONCURRENT_LIB;QT_HELP_LIB;QT_PRINTSUPPORT_LIB;QT_WEBKITWIDGETS_LIB;QT_WEBKIT_LIB;QT_NETWORK_LIB;CMAKE_INTDIR=\"Debug\";org_blueberry_ui_qt_help_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src;E:\D\MITK\Plugins\org.blueberry.ui.qt.help;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build;E:\D\MITK\Plugins\org.blueberry.ui.qt\src;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\actions;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\application;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\commands;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\guitk;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\handlers;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\intro;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\model;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\presentations;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\services;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\testing;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\tweaklets;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\util;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt;E:\D\MITK\Plugins\org.blueberry.core.commands\src;E:\D\MITK\Plugins\org.blueberry.core.commands\src\common;E:\D\MITK\Plugins\org.blueberry.core.commands\src\util;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.core.commands;E:\D\MITK\Plugins\org.blueberry.core.expressions\src;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.core.expressions;E:\D\MITK\Plugins\org.blueberry.core.runtime\src;E:\D\MITK\Plugins\org.blueberry.core.runtime\src\application;E:\D\MITK\Plugins\org.blueberry.core.runtime\src\dynamichelpers;E:\D\MITK\Plugins\org.blueberry.core.runtime\src\registry;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.core.runtime;E:\D\MITK-superbuild\ep\src\CTK\Libs\Widgets;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Widgets;E:\D\MITK-superbuild\ep\src\CTK\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK\Libs\PluginFramework;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\PluginFramework;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtWidgets;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtXml;C:\Qt\5.4\msvc2013_opengl\include\QtOpenGL;E:\D\MITK\Plugins\org.blueberry.ui.qt;E:\D\MITK\Plugins\org.blueberry.core.commands;E:\D\MITK\Plugins\org.blueberry.core.runtime;C:\Qt\5.4\msvc2013_opengl\include\QtSql;C:\Qt\5.4\msvc2013_opengl\include\QtConcurrent;E:\D\MITK-superbuild\MITK-build\Utilities\mbilog;E:\D\MITK\Utilities\mbilog\.;E:\D\MITK-superbuild\ep\include;E:\D\MITK\Plugins\org.blueberry.core.expressions;C:\Qt\5.4\msvc2013_opengl\include\QtHelp;C:\Qt\5.4\msvc2013_opengl\include\QtPrintSupport;C:\Qt\5.4\msvc2013_opengl\include\QtWebKitWidgets;C:\Qt\5.4\msvc2013_opengl\include\QtWebKit;C:\Qt\5.4\msvc2013_opengl\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src;E:\D\MITK\Plugins\org.blueberry.ui.qt.help;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build;E:\D\MITK\Plugins\org.blueberry.ui.qt\src;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\actions;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\application;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\commands;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\guitk;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\handlers;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\intro;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\model;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\presentations;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\services;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\testing;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\tweaklets;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\util;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt;E:\D\MITK\Plugins\org.blueberry.core.commands\src;E:\D\MITK\Plugins\org.blueberry.core.commands\src\common;E:\D\MITK\Plugins\org.blueberry.core.commands\src\util;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.core.commands;E:\D\MITK\Plugins\org.blueberry.core.expressions\src;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.core.expressions;E:\D\MITK\Plugins\org.blueberry.core.runtime\src;E:\D\MITK\Plugins\org.blueberry.core.runtime\src\application;E:\D\MITK\Plugins\org.blueberry.core.runtime\src\dynamichelpers;E:\D\MITK\Plugins\org.blueberry.core.runtime\src\registry;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.core.runtime;E:\D\MITK-superbuild\ep\src\CTK\Libs\Widgets;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Widgets;E:\D\MITK-superbuild\ep\src\CTK\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK\Libs\PluginFramework;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\PluginFramework;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtWidgets;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtXml;C:\Qt\5.4\msvc2013_opengl\include\QtOpenGL;E:\D\MITK\Plugins\org.blueberry.ui.qt;E:\D\MITK\Plugins\org.blueberry.core.commands;E:\D\MITK\Plugins\org.blueberry.core.runtime;C:\Qt\5.4\msvc2013_opengl\include\QtSql;C:\Qt\5.4\msvc2013_opengl\include\QtConcurrent;E:\D\MITK-superbuild\MITK-build\Utilities\mbilog;E:\D\MITK\Utilities\mbilog\.;E:\D\MITK-superbuild\ep\include;E:\D\MITK\Plugins\org.blueberry.core.expressions;C:\Qt\5.4\msvc2013_opengl\include\QtHelp;C:\Qt\5.4\msvc2013_opengl\include\QtPrintSupport;C:\Qt\5.4\msvc2013_opengl\include\QtWebKitWidgets;C:\Qt\5.4\msvc2013_opengl\include\QtWebKit;C:\Qt\5.4\msvc2013_opengl\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\bin\Debug\CTKWidgets.lib;..\..\lib\plugins\Debug\org_blueberry_ui_qt.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Helpd.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5OpenGLd.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5PrintSupportd.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5WebKitWidgetsd.lib;..\..\lib\plugins\Debug\org_blueberry_core_commands.lib;..\..\lib\plugins\Debug\org_blueberry_core_expressions.lib;..\..\lib\plugins\Debug\org_blueberry_core_runtime.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Xmld.lib;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\bin\Debug\CTKPluginFramework.lib;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\bin\Debug\CTKCore.lib;dbghelp.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Sqld.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Concurrentd.lib;..\..\lib\Debug\mbilog.lib;E:\D\MITK-superbuild\ep\lib\PocoUtild.lib;E:\D\MITK-superbuild\ep\lib\PocoJSONd.lib;E:\D\MITK-superbuild\ep\lib\PocoXMLd.lib;E:\D\MITK-superbuild\ep\lib\PocoFoundationd.lib;iphlpapi.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Widgetsd.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5WebKitd.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Guid.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Networkd.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Cored.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:/D/MITK-superbuild/ep/lib;E:/D/MITK-superbuild/ep/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/MITK-build/lib/plugins/Debug/org_blueberry_ui_qt_help.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/MITK-build/bin/plugins/Debug/liborg_blueberry_ui_qt_help.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src;E:\D\MITK\Plugins\org.blueberry.ui.qt.help;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build;E:\D\MITK\Plugins\org.blueberry.ui.qt\src;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\actions;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\application;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\commands;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\guitk;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\handlers;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\intro;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\model;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\presentations;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\services;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\testing;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\tweaklets;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\util;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt;E:\D\MITK\Plugins\org.blueberry.core.commands\src;E:\D\MITK\Plugins\org.blueberry.core.commands\src\common;E:\D\MITK\Plugins\org.blueberry.core.commands\src\util;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.core.commands;E:\D\MITK\Plugins\org.blueberry.core.expressions\src;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.core.expressions;E:\D\MITK\Plugins\org.blueberry.core.runtime\src;E:\D\MITK\Plugins\org.blueberry.core.runtime\src\application;E:\D\MITK\Plugins\org.blueberry.core.runtime\src\dynamichelpers;E:\D\MITK\Plugins\org.blueberry.core.runtime\src\registry;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.core.runtime;E:\D\MITK-superbuild\ep\src\CTK\Libs\Widgets;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Widgets;E:\D\MITK-superbuild\ep\src\CTK\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK\Libs\PluginFramework;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\PluginFramework;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtWidgets;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtXml;C:\Qt\5.4\msvc2013_opengl\include\QtOpenGL;E:\D\MITK\Plugins\org.blueberry.ui.qt;E:\D\MITK\Plugins\org.blueberry.core.commands;E:\D\MITK\Plugins\org.blueberry.core.runtime;C:\Qt\5.4\msvc2013_opengl\include\QtSql;C:\Qt\5.4\msvc2013_opengl\include\QtConcurrent;E:\D\MITK-superbuild\MITK-build\Utilities\mbilog;E:\D\MITK\Utilities\mbilog\.;E:\D\MITK-superbuild\ep\include;E:\D\MITK\Plugins\org.blueberry.core.expressions;C:\Qt\5.4\msvc2013_opengl\include\QtHelp;C:\Qt\5.4\msvc2013_opengl\include\QtPrintSupport;C:\Qt\5.4\msvc2013_opengl\include\QtWebKitWidgets;C:\Qt\5.4\msvc2013_opengl\include\QtWebKit;C:\Qt\5.4\msvc2013_opengl\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4005;4231;4316</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WIN32_WINNT=0x0501;POCO_NO_UNWINDOWS;WIN32_LEAN_AND_MEAN;NOMINMAX;NDEBUG;QT_PLUGIN;US_MODULE_NAME=org_blueberry_ui_qt_help;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;QT_CORE_LIB;QT_NO_DEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_XML_LIB;QT_OPENGL_LIB;POCO_NO_UNWINDOWS;WIN32_LEAN_AND_MEAN;QT_SQL_LIB;QT_CONCURRENT_LIB;QT_HELP_LIB;QT_PRINTSUPPORT_LIB;QT_WEBKITWIDGETS_LIB;QT_WEBKIT_LIB;QT_NETWORK_LIB;CMAKE_INTDIR="Release";org_blueberry_ui_qt_help_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WIN32_WINNT=0x0501;POCO_NO_UNWINDOWS;WIN32_LEAN_AND_MEAN;NOMINMAX;NDEBUG;QT_PLUGIN;US_MODULE_NAME=org_blueberry_ui_qt_help;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;QT_CORE_LIB;QT_NO_DEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_XML_LIB;QT_OPENGL_LIB;POCO_NO_UNWINDOWS;WIN32_LEAN_AND_MEAN;QT_SQL_LIB;QT_CONCURRENT_LIB;QT_HELP_LIB;QT_PRINTSUPPORT_LIB;QT_WEBKITWIDGETS_LIB;QT_WEBKIT_LIB;QT_NETWORK_LIB;CMAKE_INTDIR=\"Release\";org_blueberry_ui_qt_help_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src;E:\D\MITK\Plugins\org.blueberry.ui.qt.help;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build;E:\D\MITK\Plugins\org.blueberry.ui.qt\src;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\actions;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\application;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\commands;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\guitk;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\handlers;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\intro;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\model;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\presentations;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\services;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\testing;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\tweaklets;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\util;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt;E:\D\MITK\Plugins\org.blueberry.core.commands\src;E:\D\MITK\Plugins\org.blueberry.core.commands\src\common;E:\D\MITK\Plugins\org.blueberry.core.commands\src\util;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.core.commands;E:\D\MITK\Plugins\org.blueberry.core.expressions\src;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.core.expressions;E:\D\MITK\Plugins\org.blueberry.core.runtime\src;E:\D\MITK\Plugins\org.blueberry.core.runtime\src\application;E:\D\MITK\Plugins\org.blueberry.core.runtime\src\dynamichelpers;E:\D\MITK\Plugins\org.blueberry.core.runtime\src\registry;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.core.runtime;E:\D\MITK-superbuild\ep\src\CTK\Libs\Widgets;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Widgets;E:\D\MITK-superbuild\ep\src\CTK\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK\Libs\PluginFramework;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\PluginFramework;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtWidgets;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtXml;C:\Qt\5.4\msvc2013_opengl\include\QtOpenGL;E:\D\MITK\Plugins\org.blueberry.ui.qt;E:\D\MITK\Plugins\org.blueberry.core.commands;E:\D\MITK\Plugins\org.blueberry.core.runtime;C:\Qt\5.4\msvc2013_opengl\include\QtSql;C:\Qt\5.4\msvc2013_opengl\include\QtConcurrent;E:\D\MITK-superbuild\MITK-build\Utilities\mbilog;E:\D\MITK\Utilities\mbilog\.;E:\D\MITK-superbuild\ep\include;E:\D\MITK\Plugins\org.blueberry.core.expressions;C:\Qt\5.4\msvc2013_opengl\include\QtHelp;C:\Qt\5.4\msvc2013_opengl\include\QtPrintSupport;C:\Qt\5.4\msvc2013_opengl\include\QtWebKitWidgets;C:\Qt\5.4\msvc2013_opengl\include\QtWebKit;C:\Qt\5.4\msvc2013_opengl\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src;E:\D\MITK\Plugins\org.blueberry.ui.qt.help;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build;E:\D\MITK\Plugins\org.blueberry.ui.qt\src;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\actions;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\application;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\commands;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\guitk;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\handlers;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\intro;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\model;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\presentations;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\services;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\testing;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\tweaklets;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\util;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt;E:\D\MITK\Plugins\org.blueberry.core.commands\src;E:\D\MITK\Plugins\org.blueberry.core.commands\src\common;E:\D\MITK\Plugins\org.blueberry.core.commands\src\util;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.core.commands;E:\D\MITK\Plugins\org.blueberry.core.expressions\src;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.core.expressions;E:\D\MITK\Plugins\org.blueberry.core.runtime\src;E:\D\MITK\Plugins\org.blueberry.core.runtime\src\application;E:\D\MITK\Plugins\org.blueberry.core.runtime\src\dynamichelpers;E:\D\MITK\Plugins\org.blueberry.core.runtime\src\registry;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.core.runtime;E:\D\MITK-superbuild\ep\src\CTK\Libs\Widgets;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Widgets;E:\D\MITK-superbuild\ep\src\CTK\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK\Libs\PluginFramework;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\PluginFramework;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtWidgets;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtXml;C:\Qt\5.4\msvc2013_opengl\include\QtOpenGL;E:\D\MITK\Plugins\org.blueberry.ui.qt;E:\D\MITK\Plugins\org.blueberry.core.commands;E:\D\MITK\Plugins\org.blueberry.core.runtime;C:\Qt\5.4\msvc2013_opengl\include\QtSql;C:\Qt\5.4\msvc2013_opengl\include\QtConcurrent;E:\D\MITK-superbuild\MITK-build\Utilities\mbilog;E:\D\MITK\Utilities\mbilog\.;E:\D\MITK-superbuild\ep\include;E:\D\MITK\Plugins\org.blueberry.core.expressions;C:\Qt\5.4\msvc2013_opengl\include\QtHelp;C:\Qt\5.4\msvc2013_opengl\include\QtPrintSupport;C:\Qt\5.4\msvc2013_opengl\include\QtWebKitWidgets;C:\Qt\5.4\msvc2013_opengl\include\QtWebKit;C:\Qt\5.4\msvc2013_opengl\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\bin\Release\CTKWidgets.lib;..\..\lib\plugins\Release\org_blueberry_ui_qt.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Help.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5OpenGL.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5PrintSupport.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5WebKitWidgets.lib;..\..\lib\plugins\Release\org_blueberry_core_commands.lib;..\..\lib\plugins\Release\org_blueberry_core_expressions.lib;..\..\lib\plugins\Release\org_blueberry_core_runtime.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Xml.lib;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\bin\Release\CTKPluginFramework.lib;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\bin\Release\CTKCore.lib;dbghelp.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Sql.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Concurrent.lib;..\..\lib\Release\mbilog.lib;E:\D\MITK-superbuild\ep\lib\PocoUtild.lib;E:\D\MITK-superbuild\ep\lib\PocoJSONd.lib;E:\D\MITK-superbuild\ep\lib\PocoXMLd.lib;E:\D\MITK-superbuild\ep\lib\PocoFoundationd.lib;iphlpapi.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Widgets.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5WebKit.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Gui.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Network.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Core.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:/D/MITK-superbuild/ep/lib;E:/D/MITK-superbuild/ep/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/MITK-build/lib/plugins/Release/org_blueberry_ui_qt_help.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/MITK-build/bin/plugins/Release/liborg_blueberry_ui_qt_help.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src;E:\D\MITK\Plugins\org.blueberry.ui.qt.help;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build;E:\D\MITK\Plugins\org.blueberry.ui.qt\src;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\actions;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\application;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\commands;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\guitk;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\handlers;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\intro;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\model;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\presentations;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\services;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\testing;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\tweaklets;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\util;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt;E:\D\MITK\Plugins\org.blueberry.core.commands\src;E:\D\MITK\Plugins\org.blueberry.core.commands\src\common;E:\D\MITK\Plugins\org.blueberry.core.commands\src\util;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.core.commands;E:\D\MITK\Plugins\org.blueberry.core.expressions\src;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.core.expressions;E:\D\MITK\Plugins\org.blueberry.core.runtime\src;E:\D\MITK\Plugins\org.blueberry.core.runtime\src\application;E:\D\MITK\Plugins\org.blueberry.core.runtime\src\dynamichelpers;E:\D\MITK\Plugins\org.blueberry.core.runtime\src\registry;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.core.runtime;E:\D\MITK-superbuild\ep\src\CTK\Libs\Widgets;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Widgets;E:\D\MITK-superbuild\ep\src\CTK\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK\Libs\PluginFramework;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\PluginFramework;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtWidgets;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtXml;C:\Qt\5.4\msvc2013_opengl\include\QtOpenGL;E:\D\MITK\Plugins\org.blueberry.ui.qt;E:\D\MITK\Plugins\org.blueberry.core.commands;E:\D\MITK\Plugins\org.blueberry.core.runtime;C:\Qt\5.4\msvc2013_opengl\include\QtSql;C:\Qt\5.4\msvc2013_opengl\include\QtConcurrent;E:\D\MITK-superbuild\MITK-build\Utilities\mbilog;E:\D\MITK\Utilities\mbilog\.;E:\D\MITK-superbuild\ep\include;E:\D\MITK\Plugins\org.blueberry.core.expressions;C:\Qt\5.4\msvc2013_opengl\include\QtHelp;C:\Qt\5.4\msvc2013_opengl\include\QtPrintSupport;C:\Qt\5.4\msvc2013_opengl\include\QtWebKitWidgets;C:\Qt\5.4\msvc2013_opengl\include\QtWebKit;C:\Qt\5.4\msvc2013_opengl\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4005;4231;4316</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WIN32_WINNT=0x0501;POCO_NO_UNWINDOWS;WIN32_LEAN_AND_MEAN;NOMINMAX;NDEBUG;QT_PLUGIN;US_MODULE_NAME=org_blueberry_ui_qt_help;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;QT_CORE_LIB;QT_NO_DEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_XML_LIB;QT_OPENGL_LIB;POCO_NO_UNWINDOWS;WIN32_LEAN_AND_MEAN;QT_SQL_LIB;QT_CONCURRENT_LIB;QT_HELP_LIB;QT_PRINTSUPPORT_LIB;QT_WEBKITWIDGETS_LIB;QT_WEBKIT_LIB;QT_NETWORK_LIB;CMAKE_INTDIR="MinSizeRel";org_blueberry_ui_qt_help_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WIN32_WINNT=0x0501;POCO_NO_UNWINDOWS;WIN32_LEAN_AND_MEAN;NOMINMAX;NDEBUG;QT_PLUGIN;US_MODULE_NAME=org_blueberry_ui_qt_help;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;QT_CORE_LIB;QT_NO_DEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_XML_LIB;QT_OPENGL_LIB;POCO_NO_UNWINDOWS;WIN32_LEAN_AND_MEAN;QT_SQL_LIB;QT_CONCURRENT_LIB;QT_HELP_LIB;QT_PRINTSUPPORT_LIB;QT_WEBKITWIDGETS_LIB;QT_WEBKIT_LIB;QT_NETWORK_LIB;CMAKE_INTDIR=\"MinSizeRel\";org_blueberry_ui_qt_help_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src;E:\D\MITK\Plugins\org.blueberry.ui.qt.help;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build;E:\D\MITK\Plugins\org.blueberry.ui.qt\src;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\actions;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\application;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\commands;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\guitk;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\handlers;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\intro;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\model;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\presentations;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\services;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\testing;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\tweaklets;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\util;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt;E:\D\MITK\Plugins\org.blueberry.core.commands\src;E:\D\MITK\Plugins\org.blueberry.core.commands\src\common;E:\D\MITK\Plugins\org.blueberry.core.commands\src\util;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.core.commands;E:\D\MITK\Plugins\org.blueberry.core.expressions\src;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.core.expressions;E:\D\MITK\Plugins\org.blueberry.core.runtime\src;E:\D\MITK\Plugins\org.blueberry.core.runtime\src\application;E:\D\MITK\Plugins\org.blueberry.core.runtime\src\dynamichelpers;E:\D\MITK\Plugins\org.blueberry.core.runtime\src\registry;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.core.runtime;E:\D\MITK-superbuild\ep\src\CTK\Libs\Widgets;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Widgets;E:\D\MITK-superbuild\ep\src\CTK\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK\Libs\PluginFramework;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\PluginFramework;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtWidgets;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtXml;C:\Qt\5.4\msvc2013_opengl\include\QtOpenGL;E:\D\MITK\Plugins\org.blueberry.ui.qt;E:\D\MITK\Plugins\org.blueberry.core.commands;E:\D\MITK\Plugins\org.blueberry.core.runtime;C:\Qt\5.4\msvc2013_opengl\include\QtSql;C:\Qt\5.4\msvc2013_opengl\include\QtConcurrent;E:\D\MITK-superbuild\MITK-build\Utilities\mbilog;E:\D\MITK\Utilities\mbilog\.;E:\D\MITK-superbuild\ep\include;E:\D\MITK\Plugins\org.blueberry.core.expressions;C:\Qt\5.4\msvc2013_opengl\include\QtHelp;C:\Qt\5.4\msvc2013_opengl\include\QtPrintSupport;C:\Qt\5.4\msvc2013_opengl\include\QtWebKitWidgets;C:\Qt\5.4\msvc2013_opengl\include\QtWebKit;C:\Qt\5.4\msvc2013_opengl\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src;E:\D\MITK\Plugins\org.blueberry.ui.qt.help;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build;E:\D\MITK\Plugins\org.blueberry.ui.qt\src;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\actions;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\application;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\commands;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\guitk;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\handlers;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\intro;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\model;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\presentations;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\services;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\testing;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\tweaklets;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\util;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt;E:\D\MITK\Plugins\org.blueberry.core.commands\src;E:\D\MITK\Plugins\org.blueberry.core.commands\src\common;E:\D\MITK\Plugins\org.blueberry.core.commands\src\util;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.core.commands;E:\D\MITK\Plugins\org.blueberry.core.expressions\src;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.core.expressions;E:\D\MITK\Plugins\org.blueberry.core.runtime\src;E:\D\MITK\Plugins\org.blueberry.core.runtime\src\application;E:\D\MITK\Plugins\org.blueberry.core.runtime\src\dynamichelpers;E:\D\MITK\Plugins\org.blueberry.core.runtime\src\registry;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.core.runtime;E:\D\MITK-superbuild\ep\src\CTK\Libs\Widgets;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Widgets;E:\D\MITK-superbuild\ep\src\CTK\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK\Libs\PluginFramework;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\PluginFramework;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtWidgets;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtXml;C:\Qt\5.4\msvc2013_opengl\include\QtOpenGL;E:\D\MITK\Plugins\org.blueberry.ui.qt;E:\D\MITK\Plugins\org.blueberry.core.commands;E:\D\MITK\Plugins\org.blueberry.core.runtime;C:\Qt\5.4\msvc2013_opengl\include\QtSql;C:\Qt\5.4\msvc2013_opengl\include\QtConcurrent;E:\D\MITK-superbuild\MITK-build\Utilities\mbilog;E:\D\MITK\Utilities\mbilog\.;E:\D\MITK-superbuild\ep\include;E:\D\MITK\Plugins\org.blueberry.core.expressions;C:\Qt\5.4\msvc2013_opengl\include\QtHelp;C:\Qt\5.4\msvc2013_opengl\include\QtPrintSupport;C:\Qt\5.4\msvc2013_opengl\include\QtWebKitWidgets;C:\Qt\5.4\msvc2013_opengl\include\QtWebKit;C:\Qt\5.4\msvc2013_opengl\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\bin\MinSizeRel\CTKWidgets.lib;..\..\lib\plugins\MinSizeRel\org_blueberry_ui_qt.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Help.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5OpenGL.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5PrintSupport.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5WebKitWidgets.lib;..\..\lib\plugins\MinSizeRel\org_blueberry_core_commands.lib;..\..\lib\plugins\MinSizeRel\org_blueberry_core_expressions.lib;..\..\lib\plugins\MinSizeRel\org_blueberry_core_runtime.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Xml.lib;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\bin\MinSizeRel\CTKPluginFramework.lib;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\bin\MinSizeRel\CTKCore.lib;dbghelp.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Sql.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Concurrent.lib;..\..\lib\MinSizeRel\mbilog.lib;E:\D\MITK-superbuild\ep\lib\PocoUtild.lib;E:\D\MITK-superbuild\ep\lib\PocoJSONd.lib;E:\D\MITK-superbuild\ep\lib\PocoXMLd.lib;E:\D\MITK-superbuild\ep\lib\PocoFoundationd.lib;iphlpapi.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Widgets.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5WebKit.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Gui.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Network.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Core.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:/D/MITK-superbuild/ep/lib;E:/D/MITK-superbuild/ep/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/MITK-build/lib/plugins/MinSizeRel/org_blueberry_ui_qt_help.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/MITK-build/bin/plugins/MinSizeRel/liborg_blueberry_ui_qt_help.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src;E:\D\MITK\Plugins\org.blueberry.ui.qt.help;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build;E:\D\MITK\Plugins\org.blueberry.ui.qt\src;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\actions;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\application;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\commands;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\guitk;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\handlers;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\intro;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\model;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\presentations;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\services;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\testing;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\tweaklets;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\util;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt;E:\D\MITK\Plugins\org.blueberry.core.commands\src;E:\D\MITK\Plugins\org.blueberry.core.commands\src\common;E:\D\MITK\Plugins\org.blueberry.core.commands\src\util;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.core.commands;E:\D\MITK\Plugins\org.blueberry.core.expressions\src;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.core.expressions;E:\D\MITK\Plugins\org.blueberry.core.runtime\src;E:\D\MITK\Plugins\org.blueberry.core.runtime\src\application;E:\D\MITK\Plugins\org.blueberry.core.runtime\src\dynamichelpers;E:\D\MITK\Plugins\org.blueberry.core.runtime\src\registry;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.core.runtime;E:\D\MITK-superbuild\ep\src\CTK\Libs\Widgets;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Widgets;E:\D\MITK-superbuild\ep\src\CTK\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK\Libs\PluginFramework;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\PluginFramework;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtWidgets;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtXml;C:\Qt\5.4\msvc2013_opengl\include\QtOpenGL;E:\D\MITK\Plugins\org.blueberry.ui.qt;E:\D\MITK\Plugins\org.blueberry.core.commands;E:\D\MITK\Plugins\org.blueberry.core.runtime;C:\Qt\5.4\msvc2013_opengl\include\QtSql;C:\Qt\5.4\msvc2013_opengl\include\QtConcurrent;E:\D\MITK-superbuild\MITK-build\Utilities\mbilog;E:\D\MITK\Utilities\mbilog\.;E:\D\MITK-superbuild\ep\include;E:\D\MITK\Plugins\org.blueberry.core.expressions;C:\Qt\5.4\msvc2013_opengl\include\QtHelp;C:\Qt\5.4\msvc2013_opengl\include\QtPrintSupport;C:\Qt\5.4\msvc2013_opengl\include\QtWebKitWidgets;C:\Qt\5.4\msvc2013_opengl\include\QtWebKit;C:\Qt\5.4\msvc2013_opengl\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4005;4231;4316</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WIN32_WINNT=0x0501;POCO_NO_UNWINDOWS;WIN32_LEAN_AND_MEAN;NOMINMAX;NDEBUG;QT_PLUGIN;US_MODULE_NAME=org_blueberry_ui_qt_help;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;QT_CORE_LIB;QT_NO_DEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_XML_LIB;QT_OPENGL_LIB;POCO_NO_UNWINDOWS;WIN32_LEAN_AND_MEAN;QT_SQL_LIB;QT_CONCURRENT_LIB;QT_HELP_LIB;QT_PRINTSUPPORT_LIB;QT_WEBKITWIDGETS_LIB;QT_WEBKIT_LIB;QT_NETWORK_LIB;CMAKE_INTDIR="RelWithDebInfo";org_blueberry_ui_qt_help_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WIN32_WINNT=0x0501;POCO_NO_UNWINDOWS;WIN32_LEAN_AND_MEAN;NOMINMAX;NDEBUG;QT_PLUGIN;US_MODULE_NAME=org_blueberry_ui_qt_help;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;QT_CORE_LIB;QT_NO_DEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_XML_LIB;QT_OPENGL_LIB;POCO_NO_UNWINDOWS;WIN32_LEAN_AND_MEAN;QT_SQL_LIB;QT_CONCURRENT_LIB;QT_HELP_LIB;QT_PRINTSUPPORT_LIB;QT_WEBKITWIDGETS_LIB;QT_WEBKIT_LIB;QT_NETWORK_LIB;CMAKE_INTDIR=\"RelWithDebInfo\";org_blueberry_ui_qt_help_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src;E:\D\MITK\Plugins\org.blueberry.ui.qt.help;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build;E:\D\MITK\Plugins\org.blueberry.ui.qt\src;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\actions;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\application;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\commands;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\guitk;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\handlers;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\intro;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\model;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\presentations;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\services;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\testing;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\tweaklets;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\util;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt;E:\D\MITK\Plugins\org.blueberry.core.commands\src;E:\D\MITK\Plugins\org.blueberry.core.commands\src\common;E:\D\MITK\Plugins\org.blueberry.core.commands\src\util;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.core.commands;E:\D\MITK\Plugins\org.blueberry.core.expressions\src;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.core.expressions;E:\D\MITK\Plugins\org.blueberry.core.runtime\src;E:\D\MITK\Plugins\org.blueberry.core.runtime\src\application;E:\D\MITK\Plugins\org.blueberry.core.runtime\src\dynamichelpers;E:\D\MITK\Plugins\org.blueberry.core.runtime\src\registry;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.core.runtime;E:\D\MITK-superbuild\ep\src\CTK\Libs\Widgets;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Widgets;E:\D\MITK-superbuild\ep\src\CTK\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK\Libs\PluginFramework;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\PluginFramework;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtWidgets;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtXml;C:\Qt\5.4\msvc2013_opengl\include\QtOpenGL;E:\D\MITK\Plugins\org.blueberry.ui.qt;E:\D\MITK\Plugins\org.blueberry.core.commands;E:\D\MITK\Plugins\org.blueberry.core.runtime;C:\Qt\5.4\msvc2013_opengl\include\QtSql;C:\Qt\5.4\msvc2013_opengl\include\QtConcurrent;E:\D\MITK-superbuild\MITK-build\Utilities\mbilog;E:\D\MITK\Utilities\mbilog\.;E:\D\MITK-superbuild\ep\include;E:\D\MITK\Plugins\org.blueberry.core.expressions;C:\Qt\5.4\msvc2013_opengl\include\QtHelp;C:\Qt\5.4\msvc2013_opengl\include\QtPrintSupport;C:\Qt\5.4\msvc2013_opengl\include\QtWebKitWidgets;C:\Qt\5.4\msvc2013_opengl\include\QtWebKit;C:\Qt\5.4\msvc2013_opengl\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src;E:\D\MITK\Plugins\org.blueberry.ui.qt.help;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build;E:\D\MITK\Plugins\org.blueberry.ui.qt\src;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\actions;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\application;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\commands;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\guitk;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\handlers;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\intro;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\model;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\presentations;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\services;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\testing;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\tweaklets;E:\D\MITK\Plugins\org.blueberry.ui.qt\src\util;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt;E:\D\MITK\Plugins\org.blueberry.core.commands\src;E:\D\MITK\Plugins\org.blueberry.core.commands\src\common;E:\D\MITK\Plugins\org.blueberry.core.commands\src\util;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.core.commands;E:\D\MITK\Plugins\org.blueberry.core.expressions\src;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.core.expressions;E:\D\MITK\Plugins\org.blueberry.core.runtime\src;E:\D\MITK\Plugins\org.blueberry.core.runtime\src\application;E:\D\MITK\Plugins\org.blueberry.core.runtime\src\dynamichelpers;E:\D\MITK\Plugins\org.blueberry.core.runtime\src\registry;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.core.runtime;E:\D\MITK-superbuild\ep\src\CTK\Libs\Widgets;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Widgets;E:\D\MITK-superbuild\ep\src\CTK\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\Core;E:\D\MITK-superbuild\ep\src\CTK\Libs\PluginFramework;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\Libs\PluginFramework;C:\Qt\5.4\msvc2013_opengl\include;C:\Qt\5.4\msvc2013_opengl\include\QtCore;C:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013;C:\Qt\5.4\msvc2013_opengl\include\QtWidgets;C:\Qt\5.4\msvc2013_opengl\include\QtGui;C:\Qt\5.4\msvc2013_opengl\include\QtXml;C:\Qt\5.4\msvc2013_opengl\include\QtOpenGL;E:\D\MITK\Plugins\org.blueberry.ui.qt;E:\D\MITK\Plugins\org.blueberry.core.commands;E:\D\MITK\Plugins\org.blueberry.core.runtime;C:\Qt\5.4\msvc2013_opengl\include\QtSql;C:\Qt\5.4\msvc2013_opengl\include\QtConcurrent;E:\D\MITK-superbuild\MITK-build\Utilities\mbilog;E:\D\MITK\Utilities\mbilog\.;E:\D\MITK-superbuild\ep\include;E:\D\MITK\Plugins\org.blueberry.core.expressions;C:\Qt\5.4\msvc2013_opengl\include\QtHelp;C:\Qt\5.4\msvc2013_opengl\include\QtPrintSupport;C:\Qt\5.4\msvc2013_opengl\include\QtWebKitWidgets;C:\Qt\5.4\msvc2013_opengl\include\QtWebKit;C:\Qt\5.4\msvc2013_opengl\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\bin\RelWithDebInfo\CTKWidgets.lib;..\..\lib\plugins\RelWithDebInfo\org_blueberry_ui_qt.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Help.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5OpenGL.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5PrintSupport.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5WebKitWidgets.lib;..\..\lib\plugins\RelWithDebInfo\org_blueberry_core_commands.lib;..\..\lib\plugins\RelWithDebInfo\org_blueberry_core_expressions.lib;..\..\lib\plugins\RelWithDebInfo\org_blueberry_core_runtime.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Xml.lib;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\bin\RelWithDebInfo\CTKPluginFramework.lib;E:\D\MITK-superbuild\ep\src\CTK-build\CTK-build\bin\RelWithDebInfo\CTKCore.lib;dbghelp.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Sql.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Concurrent.lib;..\..\lib\RelWithDebInfo\mbilog.lib;E:\D\MITK-superbuild\ep\lib\PocoUtild.lib;E:\D\MITK-superbuild\ep\lib\PocoJSONd.lib;E:\D\MITK-superbuild\ep\lib\PocoXMLd.lib;E:\D\MITK-superbuild\ep\lib\PocoFoundationd.lib;iphlpapi.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Widgets.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5WebKit.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Gui.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Network.lib;C:\Qt\5.4\msvc2013_opengl\lib\Qt5Core.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:/D/MITK-superbuild/ep/lib;E:/D/MITK-superbuild/ep/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/D/MITK-superbuild/MITK-build/lib/plugins/RelWithDebInfo/org_blueberry_ui_qt_help.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/D/MITK-superbuild/MITK-build/bin/plugins/RelWithDebInfo/liborg_blueberry_ui_qt_help.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK\Plugins\org.blueberry.ui.qt.help\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/D/MITK/Plugins/org.blueberry.ui.qt.help/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK -BE:/D/MITK-superbuild/MITK-build --check-stamp-file E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK/Plugins/org.blueberry.ui.qt.help/CMakeLists.txt;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\CMakeLists.txt;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\files.cmake;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\target_libraries.cmake;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\manifest_headers.cmake;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\manifest_headers.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5LinguistTools\Qt5LinguistToolsConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5LinguistTools\Qt5LinguistToolsConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5LinguistTools\Qt5LinguistToolsMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;E:\D\MITK-superbuild\ep\src\CTK\Libs\ctkExport.h.in;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\resources\org_blueberry_ui_qt_help.qrc;E:\D\MITK-superbuild\ep\src\CTK\CMake\MANIFEST.MF.in;E:\D\MITK-superbuild\ep\src\CTK\CMake\plugin_manifest.qrc.in;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\org_blueberry_ui_qt_help_manifest.qrc;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\plugin.xml;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\resources\help.png;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\resources\helpIndex.png;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\resources\helpSearch.png;E:\D\MITK-superbuild\ep\src\CTK\CMake\plugin_resources_cached.qrc.in;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\org_blueberry_ui_qt_help_cached.qrc;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/D/MITK/Plugins/org.blueberry.ui.qt.help/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK -BE:/D/MITK-superbuild/MITK-build --check-stamp-file E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK/Plugins/org.blueberry.ui.qt.help/CMakeLists.txt;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\CMakeLists.txt;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\files.cmake;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\target_libraries.cmake;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\manifest_headers.cmake;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\manifest_headers.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5LinguistTools\Qt5LinguistToolsConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5LinguistTools\Qt5LinguistToolsConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5LinguistTools\Qt5LinguistToolsMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;E:\D\MITK-superbuild\ep\src\CTK\Libs\ctkExport.h.in;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\resources\org_blueberry_ui_qt_help.qrc;E:\D\MITK-superbuild\ep\src\CTK\CMake\MANIFEST.MF.in;E:\D\MITK-superbuild\ep\src\CTK\CMake\plugin_manifest.qrc.in;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\org_blueberry_ui_qt_help_manifest.qrc;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\plugin.xml;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\resources\help.png;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\resources\helpIndex.png;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\resources\helpSearch.png;E:\D\MITK-superbuild\ep\src\CTK\CMake\plugin_resources_cached.qrc.in;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\org_blueberry_ui_qt_help_cached.qrc;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/D/MITK/Plugins/org.blueberry.ui.qt.help/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK -BE:/D/MITK-superbuild/MITK-build --check-stamp-file E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK/Plugins/org.blueberry.ui.qt.help/CMakeLists.txt;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\CMakeLists.txt;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\files.cmake;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\target_libraries.cmake;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\manifest_headers.cmake;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\manifest_headers.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5LinguistTools\Qt5LinguistToolsConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5LinguistTools\Qt5LinguistToolsConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5LinguistTools\Qt5LinguistToolsMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;E:\D\MITK-superbuild\ep\src\CTK\Libs\ctkExport.h.in;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\resources\org_blueberry_ui_qt_help.qrc;E:\D\MITK-superbuild\ep\src\CTK\CMake\MANIFEST.MF.in;E:\D\MITK-superbuild\ep\src\CTK\CMake\plugin_manifest.qrc.in;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\org_blueberry_ui_qt_help_manifest.qrc;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\plugin.xml;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\resources\help.png;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\resources\helpIndex.png;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\resources\helpSearch.png;E:\D\MITK-superbuild\ep\src\CTK\CMake\plugin_resources_cached.qrc.in;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\org_blueberry_ui_qt_help_cached.qrc;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/D/MITK/Plugins/org.blueberry.ui.qt.help/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK -BE:/D/MITK-superbuild/MITK-build --check-stamp-file E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK/Plugins/org.blueberry.ui.qt.help/CMakeLists.txt;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\CMakeLists.txt;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\files.cmake;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\target_libraries.cmake;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\manifest_headers.cmake;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\manifest_headers.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5LinguistTools\Qt5LinguistToolsConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5LinguistTools\Qt5LinguistToolsConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5LinguistTools\Qt5LinguistToolsMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;E:\D\MITK-superbuild\ep\src\CTK\Libs\ctkExport.h.in;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\resources\org_blueberry_ui_qt_help.qrc;E:\D\MITK-superbuild\ep\src\CTK\CMake\MANIFEST.MF.in;E:\D\MITK-superbuild\ep\src\CTK\CMake\plugin_manifest.qrc.in;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\org_blueberry_ui_qt_help_manifest.qrc;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\plugin.xml;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\resources\help.png;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\resources\helpIndex.png;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\resources\helpSearch.png;E:\D\MITK-superbuild\ep\src\CTK\CMake\plugin_resources_cached.qrc.in;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\org_blueberry_ui_qt_help_cached.qrc;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\423db44ef362802371d07fd199e6d41c\moc_berryHelpContentView.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating src/internal/moc_berryHelpContentView.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/src/internal/moc_berryHelpContentView.cpp_parameters_Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/423db44ef362802371d07fd199e6d41c/moc_berryHelpContentView.cpp.rule;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryHelpContentView.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal\moc_berryHelpContentView.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating src/internal/moc_berryHelpContentView.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/src/internal/moc_berryHelpContentView.cpp_parameters_Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/423db44ef362802371d07fd199e6d41c/moc_berryHelpContentView.cpp.rule;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryHelpContentView.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal\moc_berryHelpContentView.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating src/internal/moc_berryHelpContentView.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/src/internal/moc_berryHelpContentView.cpp_parameters_MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/423db44ef362802371d07fd199e6d41c/moc_berryHelpContentView.cpp.rule;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryHelpContentView.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal\moc_berryHelpContentView.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating src/internal/moc_berryHelpContentView.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/src/internal/moc_berryHelpContentView.cpp_parameters_RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/423db44ef362802371d07fd199e6d41c/moc_berryHelpContentView.cpp.rule;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryHelpContentView.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal\moc_berryHelpContentView.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\423db44ef362802371d07fd199e6d41c\moc_berryHelpEditor.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating src/internal/moc_berryHelpEditor.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/src/internal/moc_berryHelpEditor.cpp_parameters_Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/423db44ef362802371d07fd199e6d41c/moc_berryHelpEditor.cpp.rule;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryHelpEditor.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal\moc_berryHelpEditor.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating src/internal/moc_berryHelpEditor.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/src/internal/moc_berryHelpEditor.cpp_parameters_Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/423db44ef362802371d07fd199e6d41c/moc_berryHelpEditor.cpp.rule;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryHelpEditor.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal\moc_berryHelpEditor.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating src/internal/moc_berryHelpEditor.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/src/internal/moc_berryHelpEditor.cpp_parameters_MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/423db44ef362802371d07fd199e6d41c/moc_berryHelpEditor.cpp.rule;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryHelpEditor.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal\moc_berryHelpEditor.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating src/internal/moc_berryHelpEditor.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/src/internal/moc_berryHelpEditor.cpp_parameters_RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/423db44ef362802371d07fd199e6d41c/moc_berryHelpEditor.cpp.rule;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryHelpEditor.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal\moc_berryHelpEditor.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\423db44ef362802371d07fd199e6d41c\moc_berryHelpEditorFindWidget.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating src/internal/moc_berryHelpEditorFindWidget.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/src/internal/moc_berryHelpEditorFindWidget.cpp_parameters_Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/423db44ef362802371d07fd199e6d41c/moc_berryHelpEditorFindWidget.cpp.rule;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryHelpEditorFindWidget.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal\moc_berryHelpEditorFindWidget.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating src/internal/moc_berryHelpEditorFindWidget.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/src/internal/moc_berryHelpEditorFindWidget.cpp_parameters_Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/423db44ef362802371d07fd199e6d41c/moc_berryHelpEditorFindWidget.cpp.rule;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryHelpEditorFindWidget.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal\moc_berryHelpEditorFindWidget.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating src/internal/moc_berryHelpEditorFindWidget.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/src/internal/moc_berryHelpEditorFindWidget.cpp_parameters_MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/423db44ef362802371d07fd199e6d41c/moc_berryHelpEditorFindWidget.cpp.rule;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryHelpEditorFindWidget.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal\moc_berryHelpEditorFindWidget.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating src/internal/moc_berryHelpEditorFindWidget.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/src/internal/moc_berryHelpEditorFindWidget.cpp_parameters_RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/423db44ef362802371d07fd199e6d41c/moc_berryHelpEditorFindWidget.cpp.rule;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryHelpEditorFindWidget.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal\moc_berryHelpEditorFindWidget.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\423db44ef362802371d07fd199e6d41c\moc_berryHelpEditorInputFactory.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating src/internal/moc_berryHelpEditorInputFactory.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/src/internal/moc_berryHelpEditorInputFactory.cpp_parameters_Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/423db44ef362802371d07fd199e6d41c/moc_berryHelpEditorInputFactory.cpp.rule;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryHelpEditorInputFactory.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal\moc_berryHelpEditorInputFactory.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating src/internal/moc_berryHelpEditorInputFactory.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/src/internal/moc_berryHelpEditorInputFactory.cpp_parameters_Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/423db44ef362802371d07fd199e6d41c/moc_berryHelpEditorInputFactory.cpp.rule;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryHelpEditorInputFactory.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal\moc_berryHelpEditorInputFactory.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating src/internal/moc_berryHelpEditorInputFactory.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/src/internal/moc_berryHelpEditorInputFactory.cpp_parameters_MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/423db44ef362802371d07fd199e6d41c/moc_berryHelpEditorInputFactory.cpp.rule;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryHelpEditorInputFactory.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal\moc_berryHelpEditorInputFactory.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating src/internal/moc_berryHelpEditorInputFactory.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/src/internal/moc_berryHelpEditorInputFactory.cpp_parameters_RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/423db44ef362802371d07fd199e6d41c/moc_berryHelpEditorInputFactory.cpp.rule;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryHelpEditorInputFactory.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal\moc_berryHelpEditorInputFactory.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\423db44ef362802371d07fd199e6d41c\moc_berryHelpIndexView.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating src/internal/moc_berryHelpIndexView.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/src/internal/moc_berryHelpIndexView.cpp_parameters_Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/423db44ef362802371d07fd199e6d41c/moc_berryHelpIndexView.cpp.rule;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryHelpIndexView.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal\moc_berryHelpIndexView.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating src/internal/moc_berryHelpIndexView.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/src/internal/moc_berryHelpIndexView.cpp_parameters_Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/423db44ef362802371d07fd199e6d41c/moc_berryHelpIndexView.cpp.rule;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryHelpIndexView.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal\moc_berryHelpIndexView.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating src/internal/moc_berryHelpIndexView.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/src/internal/moc_berryHelpIndexView.cpp_parameters_MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/423db44ef362802371d07fd199e6d41c/moc_berryHelpIndexView.cpp.rule;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryHelpIndexView.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal\moc_berryHelpIndexView.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating src/internal/moc_berryHelpIndexView.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/src/internal/moc_berryHelpIndexView.cpp_parameters_RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/423db44ef362802371d07fd199e6d41c/moc_berryHelpIndexView.cpp.rule;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryHelpIndexView.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal\moc_berryHelpIndexView.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\423db44ef362802371d07fd199e6d41c\moc_berryHelpPerspective.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating src/internal/moc_berryHelpPerspective.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/src/internal/moc_berryHelpPerspective.cpp_parameters_Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/423db44ef362802371d07fd199e6d41c/moc_berryHelpPerspective.cpp.rule;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryHelpPerspective.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal\moc_berryHelpPerspective.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating src/internal/moc_berryHelpPerspective.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/src/internal/moc_berryHelpPerspective.cpp_parameters_Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/423db44ef362802371d07fd199e6d41c/moc_berryHelpPerspective.cpp.rule;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryHelpPerspective.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal\moc_berryHelpPerspective.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating src/internal/moc_berryHelpPerspective.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/src/internal/moc_berryHelpPerspective.cpp_parameters_MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/423db44ef362802371d07fd199e6d41c/moc_berryHelpPerspective.cpp.rule;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryHelpPerspective.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal\moc_berryHelpPerspective.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating src/internal/moc_berryHelpPerspective.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/src/internal/moc_berryHelpPerspective.cpp_parameters_RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/423db44ef362802371d07fd199e6d41c/moc_berryHelpPerspective.cpp.rule;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryHelpPerspective.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal\moc_berryHelpPerspective.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\423db44ef362802371d07fd199e6d41c\moc_berryHelpPluginActivator.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating src/internal/moc_berryHelpPluginActivator.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/src/internal/moc_berryHelpPluginActivator.cpp_parameters_Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/423db44ef362802371d07fd199e6d41c/moc_berryHelpPluginActivator.cpp.rule;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryHelpPluginActivator.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal\moc_berryHelpPluginActivator.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating src/internal/moc_berryHelpPluginActivator.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/src/internal/moc_berryHelpPluginActivator.cpp_parameters_Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/423db44ef362802371d07fd199e6d41c/moc_berryHelpPluginActivator.cpp.rule;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryHelpPluginActivator.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal\moc_berryHelpPluginActivator.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating src/internal/moc_berryHelpPluginActivator.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/src/internal/moc_berryHelpPluginActivator.cpp_parameters_MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/423db44ef362802371d07fd199e6d41c/moc_berryHelpPluginActivator.cpp.rule;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryHelpPluginActivator.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal\moc_berryHelpPluginActivator.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating src/internal/moc_berryHelpPluginActivator.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/src/internal/moc_berryHelpPluginActivator.cpp_parameters_RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/423db44ef362802371d07fd199e6d41c/moc_berryHelpPluginActivator.cpp.rule;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryHelpPluginActivator.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal\moc_berryHelpPluginActivator.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\423db44ef362802371d07fd199e6d41c\moc_berryHelpSearchView.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating src/internal/moc_berryHelpSearchView.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/src/internal/moc_berryHelpSearchView.cpp_parameters_Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/423db44ef362802371d07fd199e6d41c/moc_berryHelpSearchView.cpp.rule;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryHelpSearchView.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal\moc_berryHelpSearchView.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating src/internal/moc_berryHelpSearchView.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/src/internal/moc_berryHelpSearchView.cpp_parameters_Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/423db44ef362802371d07fd199e6d41c/moc_berryHelpSearchView.cpp.rule;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryHelpSearchView.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal\moc_berryHelpSearchView.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating src/internal/moc_berryHelpSearchView.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/src/internal/moc_berryHelpSearchView.cpp_parameters_MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/423db44ef362802371d07fd199e6d41c/moc_berryHelpSearchView.cpp.rule;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryHelpSearchView.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal\moc_berryHelpSearchView.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating src/internal/moc_berryHelpSearchView.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/src/internal/moc_berryHelpSearchView.cpp_parameters_RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/423db44ef362802371d07fd199e6d41c/moc_berryHelpSearchView.cpp.rule;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryHelpSearchView.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal\moc_berryHelpSearchView.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\423db44ef362802371d07fd199e6d41c\moc_berryHelpTopicChooser.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating src/internal/moc_berryHelpTopicChooser.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/src/internal/moc_berryHelpTopicChooser.cpp_parameters_Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/423db44ef362802371d07fd199e6d41c/moc_berryHelpTopicChooser.cpp.rule;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryHelpTopicChooser.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal\moc_berryHelpTopicChooser.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating src/internal/moc_berryHelpTopicChooser.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/src/internal/moc_berryHelpTopicChooser.cpp_parameters_Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/423db44ef362802371d07fd199e6d41c/moc_berryHelpTopicChooser.cpp.rule;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryHelpTopicChooser.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal\moc_berryHelpTopicChooser.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating src/internal/moc_berryHelpTopicChooser.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/src/internal/moc_berryHelpTopicChooser.cpp_parameters_MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/423db44ef362802371d07fd199e6d41c/moc_berryHelpTopicChooser.cpp.rule;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryHelpTopicChooser.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal\moc_berryHelpTopicChooser.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating src/internal/moc_berryHelpTopicChooser.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/src/internal/moc_berryHelpTopicChooser.cpp_parameters_RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/423db44ef362802371d07fd199e6d41c/moc_berryHelpTopicChooser.cpp.rule;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryHelpTopicChooser.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal\moc_berryHelpTopicChooser.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\423db44ef362802371d07fd199e6d41c\moc_berryHelpWebView.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating src/internal/moc_berryHelpWebView.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/src/internal/moc_berryHelpWebView.cpp_parameters_Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/423db44ef362802371d07fd199e6d41c/moc_berryHelpWebView.cpp.rule;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryHelpWebView.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal\moc_berryHelpWebView.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating src/internal/moc_berryHelpWebView.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/src/internal/moc_berryHelpWebView.cpp_parameters_Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/423db44ef362802371d07fd199e6d41c/moc_berryHelpWebView.cpp.rule;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryHelpWebView.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal\moc_berryHelpWebView.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating src/internal/moc_berryHelpWebView.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/src/internal/moc_berryHelpWebView.cpp_parameters_MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/423db44ef362802371d07fd199e6d41c/moc_berryHelpWebView.cpp.rule;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryHelpWebView.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal\moc_berryHelpWebView.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating src/internal/moc_berryHelpWebView.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/src/internal/moc_berryHelpWebView.cpp_parameters_RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/423db44ef362802371d07fd199e6d41c/moc_berryHelpWebView.cpp.rule;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryHelpWebView.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal\moc_berryHelpWebView.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\423db44ef362802371d07fd199e6d41c\moc_berryQHelpEngineConfiguration.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating src/internal/moc_berryQHelpEngineConfiguration.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/src/internal/moc_berryQHelpEngineConfiguration.cpp_parameters_Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/423db44ef362802371d07fd199e6d41c/moc_berryQHelpEngineConfiguration.cpp.rule;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryQHelpEngineConfiguration.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal\moc_berryQHelpEngineConfiguration.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating src/internal/moc_berryQHelpEngineConfiguration.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/src/internal/moc_berryQHelpEngineConfiguration.cpp_parameters_Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/423db44ef362802371d07fd199e6d41c/moc_berryQHelpEngineConfiguration.cpp.rule;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryQHelpEngineConfiguration.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal\moc_berryQHelpEngineConfiguration.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating src/internal/moc_berryQHelpEngineConfiguration.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/src/internal/moc_berryQHelpEngineConfiguration.cpp_parameters_MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/423db44ef362802371d07fd199e6d41c/moc_berryQHelpEngineConfiguration.cpp.rule;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryQHelpEngineConfiguration.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal\moc_berryQHelpEngineConfiguration.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating src/internal/moc_berryQHelpEngineConfiguration.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/src/internal/moc_berryQHelpEngineConfiguration.cpp_parameters_RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/423db44ef362802371d07fd199e6d41c/moc_berryQHelpEngineConfiguration.cpp.rule;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryQHelpEngineConfiguration.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal\moc_berryQHelpEngineConfiguration.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\CMakeFiles\423db44ef362802371d07fd199e6d41c\moc_berryQHelpEngineWrapper.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating src/internal/moc_berryQHelpEngineWrapper.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/src/internal/moc_berryQHelpEngineWrapper.cpp_parameters_Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/423db44ef362802371d07fd199e6d41c/moc_berryQHelpEngineWrapper.cpp.rule;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryQHelpEngineWrapper.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal\moc_berryQHelpEngineWrapper.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating src/internal/moc_berryQHelpEngineWrapper.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/src/internal/moc_berryQHelpEngineWrapper.cpp_parameters_Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/423db44ef362802371d07fd199e6d41c/moc_berryQHelpEngineWrapper.cpp.rule;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryQHelpEngineWrapper.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal\moc_berryQHelpEngineWrapper.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating src/internal/moc_berryQHelpEngineWrapper.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/src/internal/moc_berryQHelpEngineWrapper.cpp_parameters_MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/423db44ef362802371d07fd199e6d41c/moc_berryQHelpEngineWrapper.cpp.rule;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryQHelpEngineWrapper.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal\moc_berryQHelpEngineWrapper.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating src/internal/moc_berryQHelpEngineWrapper.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\5.4\msvc2013_opengl\bin\moc.exe @E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/src/internal/moc_berryQHelpEngineWrapper.cpp_parameters_RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/MITK-build/CMakeFiles/423db44ef362802371d07fd199e6d41c/moc_berryQHelpEngineWrapper.cpp.rule;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryQHelpEngineWrapper.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal\moc_berryQHelpEngineWrapper.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryHelpTopicChooser.ui">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ui_berryHelpTopicChooser.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\uic.exe -o E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/ui_berryHelpTopicChooser.h E:/D/MITK/Plugins/org.blueberry.ui.qt.help/src/internal/berryHelpTopicChooser.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK/Plugins/org.blueberry.ui.qt.help/src/internal/berryHelpTopicChooser.ui;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryHelpTopicChooser.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\ui_berryHelpTopicChooser.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ui_berryHelpTopicChooser.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\uic.exe -o E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/ui_berryHelpTopicChooser.h E:/D/MITK/Plugins/org.blueberry.ui.qt.help/src/internal/berryHelpTopicChooser.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK/Plugins/org.blueberry.ui.qt.help/src/internal/berryHelpTopicChooser.ui;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryHelpTopicChooser.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\ui_berryHelpTopicChooser.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ui_berryHelpTopicChooser.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\uic.exe -o E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/ui_berryHelpTopicChooser.h E:/D/MITK/Plugins/org.blueberry.ui.qt.help/src/internal/berryHelpTopicChooser.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK/Plugins/org.blueberry.ui.qt.help/src/internal/berryHelpTopicChooser.ui;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryHelpTopicChooser.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\ui_berryHelpTopicChooser.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ui_berryHelpTopicChooser.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\uic.exe -o E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/ui_berryHelpTopicChooser.h E:/D/MITK/Plugins/org.blueberry.ui.qt.help/src/internal/berryHelpTopicChooser.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK/Plugins/org.blueberry.ui.qt.help/src/internal/berryHelpTopicChooser.ui;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryHelpTopicChooser.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\ui_berryHelpTopicChooser.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK\Plugins\org.blueberry.ui.qt.help\resources\org_blueberry_ui_qt_help.qrc">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating qrc_org_blueberry_ui_qt_help.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\rcc.exe -name org_blueberry_ui_qt_help -o E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/qrc_org_blueberry_ui_qt_help.cpp E:/D/MITK/Plugins/org.blueberry.ui.qt.help/resources/org_blueberry_ui_qt_help.qrc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK/Plugins/org.blueberry.ui.qt.help/resources/org_blueberry_ui_qt_help.qrc;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\resources\find.png;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\resources\go-home.png;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\resources\go-next.png;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\resources\go-previous.png;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\resources\zoom-in.png;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\resources\zoom-out.png;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\resources\close.png;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\resources\clear.png;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\resources\print.png;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\resources\org_blueberry_ui_qt_help.qrc.depends;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\resources\org_blueberry_ui_qt_help.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\qrc_org_blueberry_ui_qt_help.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating qrc_org_blueberry_ui_qt_help.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\rcc.exe -name org_blueberry_ui_qt_help -o E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/qrc_org_blueberry_ui_qt_help.cpp E:/D/MITK/Plugins/org.blueberry.ui.qt.help/resources/org_blueberry_ui_qt_help.qrc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK/Plugins/org.blueberry.ui.qt.help/resources/org_blueberry_ui_qt_help.qrc;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\resources\find.png;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\resources\go-home.png;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\resources\go-next.png;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\resources\go-previous.png;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\resources\zoom-in.png;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\resources\zoom-out.png;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\resources\close.png;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\resources\clear.png;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\resources\print.png;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\resources\org_blueberry_ui_qt_help.qrc.depends;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\resources\org_blueberry_ui_qt_help.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\qrc_org_blueberry_ui_qt_help.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating qrc_org_blueberry_ui_qt_help.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\rcc.exe -name org_blueberry_ui_qt_help -o E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/qrc_org_blueberry_ui_qt_help.cpp E:/D/MITK/Plugins/org.blueberry.ui.qt.help/resources/org_blueberry_ui_qt_help.qrc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK/Plugins/org.blueberry.ui.qt.help/resources/org_blueberry_ui_qt_help.qrc;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\resources\find.png;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\resources\go-home.png;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\resources\go-next.png;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\resources\go-previous.png;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\resources\zoom-in.png;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\resources\zoom-out.png;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\resources\close.png;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\resources\clear.png;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\resources\print.png;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\resources\org_blueberry_ui_qt_help.qrc.depends;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\resources\org_blueberry_ui_qt_help.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\qrc_org_blueberry_ui_qt_help.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating qrc_org_blueberry_ui_qt_help.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\rcc.exe -name org_blueberry_ui_qt_help -o E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/qrc_org_blueberry_ui_qt_help.cpp E:/D/MITK/Plugins/org.blueberry.ui.qt.help/resources/org_blueberry_ui_qt_help.qrc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK/Plugins/org.blueberry.ui.qt.help/resources/org_blueberry_ui_qt_help.qrc;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\resources\find.png;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\resources\go-home.png;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\resources\go-next.png;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\resources\go-previous.png;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\resources\zoom-in.png;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\resources\zoom-out.png;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\resources\close.png;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\resources\clear.png;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\resources\print.png;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\resources\org_blueberry_ui_qt_help.qrc.depends;E:\D\MITK\Plugins\org.blueberry.ui.qt.help\resources\org_blueberry_ui_qt_help.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\qrc_org_blueberry_ui_qt_help.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\org_blueberry_ui_qt_help_manifest.qrc">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating qrc_org_blueberry_ui_qt_help_manifest.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\rcc.exe -name org_blueberry_ui_qt_help_manifest -o E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/qrc_org_blueberry_ui_qt_help_manifest.cpp E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/org_blueberry_ui_qt_help_manifest.qrc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/org_blueberry_ui_qt_help_manifest.qrc;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\MANIFEST.MF;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\org_blueberry_ui_qt_help_manifest.qrc.depends;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\org_blueberry_ui_qt_help_manifest.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\qrc_org_blueberry_ui_qt_help_manifest.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating qrc_org_blueberry_ui_qt_help_manifest.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\rcc.exe -name org_blueberry_ui_qt_help_manifest -o E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/qrc_org_blueberry_ui_qt_help_manifest.cpp E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/org_blueberry_ui_qt_help_manifest.qrc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/org_blueberry_ui_qt_help_manifest.qrc;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\MANIFEST.MF;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\org_blueberry_ui_qt_help_manifest.qrc.depends;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\org_blueberry_ui_qt_help_manifest.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\qrc_org_blueberry_ui_qt_help_manifest.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating qrc_org_blueberry_ui_qt_help_manifest.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\rcc.exe -name org_blueberry_ui_qt_help_manifest -o E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/qrc_org_blueberry_ui_qt_help_manifest.cpp E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/org_blueberry_ui_qt_help_manifest.qrc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/org_blueberry_ui_qt_help_manifest.qrc;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\MANIFEST.MF;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\org_blueberry_ui_qt_help_manifest.qrc.depends;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\org_blueberry_ui_qt_help_manifest.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\qrc_org_blueberry_ui_qt_help_manifest.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating qrc_org_blueberry_ui_qt_help_manifest.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\rcc.exe -name org_blueberry_ui_qt_help_manifest -o E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/qrc_org_blueberry_ui_qt_help_manifest.cpp E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/org_blueberry_ui_qt_help_manifest.qrc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/org_blueberry_ui_qt_help_manifest.qrc;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\MANIFEST.MF;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\org_blueberry_ui_qt_help_manifest.qrc.depends;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\org_blueberry_ui_qt_help_manifest.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\qrc_org_blueberry_ui_qt_help_manifest.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\org_blueberry_ui_qt_help_cached.qrc">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating qrc_org_blueberry_ui_qt_help_cached.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\rcc.exe -name org_blueberry_ui_qt_help_cached -o E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/qrc_org_blueberry_ui_qt_help_cached.cpp E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/org_blueberry_ui_qt_help_cached.qrc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/org_blueberry_ui_qt_help_cached.qrc;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\plugin.xml;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\resources\help.png;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\resources\helpIndex.png;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\resources\helpSearch.png;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\org_blueberry_ui_qt_help_cached.qrc.depends;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\org_blueberry_ui_qt_help_cached.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\qrc_org_blueberry_ui_qt_help_cached.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating qrc_org_blueberry_ui_qt_help_cached.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\rcc.exe -name org_blueberry_ui_qt_help_cached -o E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/qrc_org_blueberry_ui_qt_help_cached.cpp E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/org_blueberry_ui_qt_help_cached.qrc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/org_blueberry_ui_qt_help_cached.qrc;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\plugin.xml;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\resources\help.png;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\resources\helpIndex.png;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\resources\helpSearch.png;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\org_blueberry_ui_qt_help_cached.qrc.depends;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\org_blueberry_ui_qt_help_cached.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\qrc_org_blueberry_ui_qt_help_cached.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating qrc_org_blueberry_ui_qt_help_cached.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\rcc.exe -name org_blueberry_ui_qt_help_cached -o E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/qrc_org_blueberry_ui_qt_help_cached.cpp E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/org_blueberry_ui_qt_help_cached.qrc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/org_blueberry_ui_qt_help_cached.qrc;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\plugin.xml;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\resources\help.png;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\resources\helpIndex.png;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\resources\helpSearch.png;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\org_blueberry_ui_qt_help_cached.qrc.depends;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\org_blueberry_ui_qt_help_cached.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\qrc_org_blueberry_ui_qt_help_cached.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating qrc_org_blueberry_ui_qt_help_cached.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Qt\5.4\msvc2013_opengl\bin\rcc.exe -name org_blueberry_ui_qt_help_cached -o E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/qrc_org_blueberry_ui_qt_help_cached.cpp E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/org_blueberry_ui_qt_help_cached.qrc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt.help/org_blueberry_ui_qt_help_cached.qrc;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\plugin.xml;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\resources\help.png;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\resources\helpIndex.png;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\resources\helpSearch.png;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\org_blueberry_ui_qt_help_cached.qrc.depends;E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\org_blueberry_ui_qt_help_cached.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\qrc_org_blueberry_ui_qt_help_cached.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryHelpContentView.h" />
+    <ClInclude Include="E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryHelpEditor.h" />
+    <ClInclude Include="E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryHelpEditorFindWidget.h" />
+    <ClInclude Include="E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryHelpEditorInput.h" />
+    <ClInclude Include="E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryHelpEditorInputFactory.h" />
+    <ClInclude Include="E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryHelpIndexView.h" />
+    <ClInclude Include="E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryHelpPerspective.h" />
+    <ClInclude Include="E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryHelpPluginActivator.h" />
+    <ClInclude Include="E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryHelpSearchView.h" />
+    <ClInclude Include="E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryHelpTopicChooser.h" />
+    <ClInclude Include="E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryHelpWebView.h" />
+    <ClInclude Include="E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryQHelpEngineConfiguration.h" />
+    <ClInclude Include="E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryQHelpEngineWrapper.h" />
+    <ClInclude Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\ui_berryHelpTopicChooser.h" />
+    <ClCompile Include="E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryHelpContentView.cpp"  />
+    <ClCompile Include="E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryHelpEditor.cpp"  />
+    <ClCompile Include="E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryHelpEditorFindWidget.cpp"  />
+    <ClCompile Include="E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryHelpEditorInput.cpp"  />
+    <ClCompile Include="E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryHelpEditorInputFactory.cpp"  />
+    <ClCompile Include="E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryHelpIndexView.cpp"  />
+    <ClCompile Include="E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryHelpPerspective.cpp"  />
+    <ClCompile Include="E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryHelpPluginActivator.cpp"  />
+    <ClCompile Include="E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryHelpSearchView.cpp"  />
+    <ClCompile Include="E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryHelpTopicChooser.cpp"  />
+    <ClCompile Include="E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryHelpWebView.cpp"  />
+    <ClCompile Include="E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryQHelpEngineConfiguration.cpp"  />
+    <ClCompile Include="E:\D\MITK\Plugins\org.blueberry.ui.qt.help\src\internal\berryQHelpEngineWrapper.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal\moc_berryHelpContentView.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal\moc_berryHelpEditor.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal\moc_berryHelpEditorFindWidget.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal\moc_berryHelpEditorInputFactory.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal\moc_berryHelpIndexView.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal\moc_berryHelpPerspective.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal\moc_berryHelpPluginActivator.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal\moc_berryHelpSearchView.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal\moc_berryHelpTopicChooser.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal\moc_berryHelpWebView.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal\moc_berryQHelpEngineConfiguration.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\src\internal\moc_berryQHelpEngineWrapper.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\qrc_org_blueberry_ui_qt_help.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\qrc_org_blueberry_ui_qt_help_manifest.cpp"  />
+    <ClCompile Include="E:\D\MITK-superbuild\MITK-build\Plugins\org.blueberry.ui.qt.help\qrc_org_blueberry_ui_qt_help_cached.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:/D/MITK-superbuild/MITK-build/ZERO_CHECK.vcxproj">
+      <Project>B13C44DE-4BB4-3414-ABDA-308DC25B7D17</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/MITK-build/Utilities/mbilog/mbilog.vcxproj">
+      <Project>C2DD058A-96C4-32B8-92D7-A0D457FFBA47</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.core.commands/org_blueberry_core_commands.vcxproj">
+      <Project>75E7ADAB-CA9C-3E45-BDEB-845E35D103E7</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.core.expressions/org_blueberry_core_expressions.vcxproj">
+      <Project>40A8E340-82AF-3BFC-9993-57770F524483</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.core.runtime/org_blueberry_core_runtime.vcxproj">
+      <Project>8B2AE7EC-C741-3248-B8D5-3B4EA3D5DC9B</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/MITK-build/Plugins/org.blueberry.ui.qt/org_blueberry_ui_qt.vcxproj">
+      <Project>D101CD6F-C57A-3D29-AF89-12831A271749</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,853 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{9200D285-E72E-38FD-8996-D1A9E2EF6B20}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>MITK</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\DEEP-PHI\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/DEEP-PHI/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/DEEP-PHI -BE:/D --check-stamp-file E:\D\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/DEEP-PHI/CMakeLists.txt;E:\DEEP-PHI\CMakeLists.txt;E:\D\CMakeFiles\3.5.2\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeSystemSpecificInitialize.cmake;E:\D\CMakeFiles\3.5.2\CMakeCCompiler.cmake;E:\D\CMakeFiles\3.5.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;E:\D\CMakeFiles\3.5.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;E:\DEEP-PHI\CMake\MacroEmptyExternalProject.cmake;E:\DEEP-PHI\SuperBuild.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindGit.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\ExternalProject.cmake;E:\DEEP-PHI\CMakeExternals\MITK.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QDDSPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QJp2Plugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QMngPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindGit.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\RepositoryInfo.txt.in;E:\D\MITK-cmake\tmp\MITK-cfgcmd.txt.in;E:\D\CMakeExternals\tmp\DEEP-PHI-Utilities\DEEP-PHI-Utilities-cfgcmd.txt.in;E:\D\CMakeExternals\tmp\DEEP-PHI-Configure\DEEP-PHI-Configure-cfgcmd.txt.in;E:\DEEP-PHI\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/DEEP-PHI/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/DEEP-PHI -BE:/D --check-stamp-file E:\D\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/DEEP-PHI/CMakeLists.txt;E:\DEEP-PHI\CMakeLists.txt;E:\D\CMakeFiles\3.5.2\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeSystemSpecificInitialize.cmake;E:\D\CMakeFiles\3.5.2\CMakeCCompiler.cmake;E:\D\CMakeFiles\3.5.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;E:\D\CMakeFiles\3.5.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;E:\DEEP-PHI\CMake\MacroEmptyExternalProject.cmake;E:\DEEP-PHI\SuperBuild.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindGit.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\ExternalProject.cmake;E:\DEEP-PHI\CMakeExternals\MITK.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QDDSPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QJp2Plugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QMngPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindGit.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\RepositoryInfo.txt.in;E:\D\MITK-cmake\tmp\MITK-cfgcmd.txt.in;E:\D\CMakeExternals\tmp\DEEP-PHI-Utilities\DEEP-PHI-Utilities-cfgcmd.txt.in;E:\D\CMakeExternals\tmp\DEEP-PHI-Configure\DEEP-PHI-Configure-cfgcmd.txt.in;E:\DEEP-PHI\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/DEEP-PHI/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/DEEP-PHI -BE:/D --check-stamp-file E:\D\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/DEEP-PHI/CMakeLists.txt;E:\DEEP-PHI\CMakeLists.txt;E:\D\CMakeFiles\3.5.2\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeSystemSpecificInitialize.cmake;E:\D\CMakeFiles\3.5.2\CMakeCCompiler.cmake;E:\D\CMakeFiles\3.5.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;E:\D\CMakeFiles\3.5.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;E:\DEEP-PHI\CMake\MacroEmptyExternalProject.cmake;E:\DEEP-PHI\SuperBuild.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindGit.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\ExternalProject.cmake;E:\DEEP-PHI\CMakeExternals\MITK.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QDDSPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QJp2Plugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QMngPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindGit.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\RepositoryInfo.txt.in;E:\D\MITK-cmake\tmp\MITK-cfgcmd.txt.in;E:\D\CMakeExternals\tmp\DEEP-PHI-Utilities\DEEP-PHI-Utilities-cfgcmd.txt.in;E:\D\CMakeExternals\tmp\DEEP-PHI-Configure\DEEP-PHI-Configure-cfgcmd.txt.in;E:\DEEP-PHI\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/DEEP-PHI/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/DEEP-PHI -BE:/D --check-stamp-file E:\D\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/DEEP-PHI/CMakeLists.txt;E:\DEEP-PHI\CMakeLists.txt;E:\D\CMakeFiles\3.5.2\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeSystemSpecificInitialize.cmake;E:\D\CMakeFiles\3.5.2\CMakeCCompiler.cmake;E:\D\CMakeFiles\3.5.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;E:\D\CMakeFiles\3.5.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;E:\DEEP-PHI\CMake\MacroEmptyExternalProject.cmake;E:\DEEP-PHI\SuperBuild.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindGit.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\ExternalProject.cmake;E:\DEEP-PHI\CMakeExternals\MITK.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QDDSPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QJp2Plugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QMngPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\5.4\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindGit.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\RepositoryInfo.txt.in;E:\D\MITK-cmake\tmp\MITK-cfgcmd.txt.in;E:\D\CMakeExternals\tmp\DEEP-PHI-Utilities\DEEP-PHI-Utilities-cfgcmd.txt.in;E:\D\CMakeExternals\tmp\DEEP-PHI-Configure\DEEP-PHI-Configure-cfgcmd.txt.in;E:\DEEP-PHI\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\CMakeFiles\740f92cd0727a09b2cf01aec6384619b\MITK-mkdir.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Creating directories for 'MITK'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/MITK
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/MITK-superbuild
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/MITK-cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/MITK-cmake/tmp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/MITK-cmake/src/MITK-stamp/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/MITK-cmake/src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/MITK-cmake/src/MITK-stamp/$(Configuration)/MITK-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/CMakeFiles/740f92cd0727a09b2cf01aec6384619b/MITK-mkdir.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Creating directories for 'MITK'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/MITK
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/MITK-superbuild
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/MITK-cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/MITK-cmake/tmp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/MITK-cmake/src/MITK-stamp/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/MITK-cmake/src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/MITK-cmake/src/MITK-stamp/$(Configuration)/MITK-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/CMakeFiles/740f92cd0727a09b2cf01aec6384619b/MITK-mkdir.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Creating directories for 'MITK'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/MITK
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/MITK-superbuild
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/MITK-cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/MITK-cmake/tmp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/MITK-cmake/src/MITK-stamp/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/MITK-cmake/src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/MITK-cmake/src/MITK-stamp/$(Configuration)/MITK-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/CMakeFiles/740f92cd0727a09b2cf01aec6384619b/MITK-mkdir.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Creating directories for 'MITK'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/MITK
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/MITK-superbuild
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/MITK-cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/MITK-cmake/tmp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/MITK-cmake/src/MITK-stamp/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/MITK-cmake/src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/MITK-cmake/src/MITK-stamp/$(Configuration)/MITK-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/CMakeFiles/740f92cd0727a09b2cf01aec6384619b/MITK-mkdir.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\CMakeFiles\740f92cd0727a09b2cf01aec6384619b\MITK-download.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Performing download step (git clone) for 'MITK'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\D
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -P E:/D/MITK-cmake/tmp/MITK-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/MITK-cmake/src/MITK-stamp/$(Configuration)/MITK-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/CMakeFiles/740f92cd0727a09b2cf01aec6384619b/MITK-download.rule;E:\D\MITK-cmake\src\MITK-stamp\MITK-gitinfo.txt;E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Performing download step (git clone) for 'MITK'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd E:\D
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -P E:/D/MITK-cmake/tmp/MITK-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/MITK-cmake/src/MITK-stamp/$(Configuration)/MITK-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/CMakeFiles/740f92cd0727a09b2cf01aec6384619b/MITK-download.rule;E:\D\MITK-cmake\src\MITK-stamp\MITK-gitinfo.txt;E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Performing download step (git clone) for 'MITK'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd E:\D
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -P E:/D/MITK-cmake/tmp/MITK-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/MITK-cmake/src/MITK-stamp/$(Configuration)/MITK-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/CMakeFiles/740f92cd0727a09b2cf01aec6384619b/MITK-download.rule;E:\D\MITK-cmake\src\MITK-stamp\MITK-gitinfo.txt;E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Performing download step (git clone) for 'MITK'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\D
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -P E:/D/MITK-cmake/tmp/MITK-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/MITK-cmake/src/MITK-stamp/$(Configuration)/MITK-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/CMakeFiles/740f92cd0727a09b2cf01aec6384619b/MITK-download.rule;E:\D\MITK-cmake\src\MITK-stamp\MITK-gitinfo.txt;E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\CMakeFiles\740f92cd0727a09b2cf01aec6384619b\MITK-update.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Performing update step for 'MITK'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\D\MITK
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -P E:/D/MITK-cmake/tmp/MITK-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/CMakeFiles/740f92cd0727a09b2cf01aec6384619b/MITK-update.rule;E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Performing update step for 'MITK'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd E:\D\MITK
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -P E:/D/MITK-cmake/tmp/MITK-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/CMakeFiles/740f92cd0727a09b2cf01aec6384619b/MITK-update.rule;E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Performing update step for 'MITK'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd E:\D\MITK
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -P E:/D/MITK-cmake/tmp/MITK-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/CMakeFiles/740f92cd0727a09b2cf01aec6384619b/MITK-update.rule;E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Performing update step for 'MITK'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\D\MITK
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -P E:/D/MITK-cmake/tmp/MITK-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/CMakeFiles/740f92cd0727a09b2cf01aec6384619b/MITK-update.rule;E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\CMakeFiles\740f92cd0727a09b2cf01aec6384619b\MITK-patch.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">No patch step for 'MITK'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/MITK-cmake/src/MITK-stamp/$(Configuration)/MITK-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/CMakeFiles/740f92cd0727a09b2cf01aec6384619b/MITK-patch.rule;E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">No patch step for 'MITK'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/MITK-cmake/src/MITK-stamp/$(Configuration)/MITK-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/CMakeFiles/740f92cd0727a09b2cf01aec6384619b/MITK-patch.rule;E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">No patch step for 'MITK'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/MITK-cmake/src/MITK-stamp/$(Configuration)/MITK-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/CMakeFiles/740f92cd0727a09b2cf01aec6384619b/MITK-patch.rule;E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">No patch step for 'MITK'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/MITK-cmake/src/MITK-stamp/$(Configuration)/MITK-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/CMakeFiles/740f92cd0727a09b2cf01aec6384619b/MITK-patch.rule;E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\CMakeFiles\740f92cd0727a09b2cf01aec6384619b\MITK-configure.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Performing configure step for 'MITK'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\D\MITK-superbuild
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -DBUILD_TESTING:BOOL=OFF -DCMAKE_INSTALL_PREFIX:PATH=E:/D/CMakeExternals/Install -DBUILD_SHARED_LIBS:BOOL=ON -DCMAKE_BUILD_TYPE:STRING=Debug "-DCMAKE_C_COMPILER:FILEPATH=C:/Program Files (x86)/Microsoft Visual Studio 12.0/VC/bin/cl.exe" "-DCMAKE_CXX_COMPILER:FILEPATH=C:/Program Files (x86)/Microsoft Visual Studio 12.0/VC/bin/cl.exe" "-DCMAKE_C_FLAGS:STRING= /DWIN32 /D_WINDOWS /W3" "-DCMAKE_CXX_FLAGS:STRING= /DWIN32 /D_WINDOWS /W3 /GR /EHsc" "-DCMAKE_CXX_FLAGS_DEBUG:STRING=/D_DEBUG /MDd /Zi /Ob0 /Od /RTC1" "-DCMAKE_C_FLAGS_DEBUG:STRING=/D_DEBUG /MDd /Zi /Ob0 /Od /RTC1" "-DCMAKE_CXX_FLAGS_RELEASE:STRING=/MD /O2 /Ob2 /D NDEBUG" "-DCMAKE_C_FLAGS_RELEASE:STRING=/MD /O2 /Ob2 /D NDEBUG" "-DCMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=/MD /Zi /O2 /Ob1 /D NDEBUG" "-DCMAKE_C_FLAGS_RELWITHDEBINFO:STRING=/MD /Zi /O2 /Ob1 /D NDEBUG" "-DCMAKE_EXE_LINKER_FLAGS:STRING= /machine:X86" "-DCMAKE_SHARED_LINKER_FLAGS:STRING= /machine:X86" "-DCMAKE_MODULE_LINKER_FLAGS:STRING= /machine:X86" -DMITK_USE_SUPERBUILD:BOOL=ON -DMITK_USE_BLUEBERRY:BOOL=ON -DMITK_BUILD_EXAMPLES:BOOL=OFF -DMITK_BUILD_ALL_PLUGINS:BOOL=OFF -DMITK_USE_ACVD:BOOL=OFF -DMITK_USE_CTK:BOOL=ON -DMITK_USE_DCMTK:BOOL=ON -DMITK_USE_QT:BOOL=ON -DMITK_USE_OpenCV:BOOL=OFF -DMITK_USE_SOFA:BOOL=OFF -DMITK_USE_VMTK:BOOL=OFF -DMITK_USE_Python:BOOL=OFF "-DMITK_ACCESSBYITK_INTEGRAL_PIXEL_TYPES:STRING=int, unsigned int, short, unsigned short, char, unsigned char" "-DMITK_ACCESSBYITK_FLOATING_PIXEL_TYPES:STRING=double, float" -DMITK_ACCESSBYITK_COMPOSITE_PIXEL_TYPES:STRING= -DMITK_ACCESSBYITK_DIMENSIONS:STRING=2,3 -DCMAKE_PREFIX_PATH:PATH= "-DGIT_EXECUTABLE:FILEPATH=C:/Program Files/Git/cmd/git.exe" -DBUILD_SHARED_LIBS:BOOL=ON -DBUILD_TESTING:BOOL=OFF -CE:/D/MITK-cmake/tmp/MITK-cache-Debug.cmake "-GVisual Studio 12 2013" E:/D/MITK
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/MITK-cmake/src/MITK-stamp/$(Configuration)/MITK-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/CMakeFiles/740f92cd0727a09b2cf01aec6384619b/MITK-configure.rule;E:\D\MITK-cmake\tmp\MITK-cfgcmd.txt;E:\D\MITK-cmake\tmp\MITK-cache-Debug.cmake;E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-update;E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Performing configure step for 'MITK'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd E:\D\MITK-superbuild
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -DBUILD_TESTING:BOOL=OFF -DCMAKE_INSTALL_PREFIX:PATH=E:/D/CMakeExternals/Install -DBUILD_SHARED_LIBS:BOOL=ON -DCMAKE_BUILD_TYPE:STRING=Debug "-DCMAKE_C_COMPILER:FILEPATH=C:/Program Files (x86)/Microsoft Visual Studio 12.0/VC/bin/cl.exe" "-DCMAKE_CXX_COMPILER:FILEPATH=C:/Program Files (x86)/Microsoft Visual Studio 12.0/VC/bin/cl.exe" "-DCMAKE_C_FLAGS:STRING= /DWIN32 /D_WINDOWS /W3" "-DCMAKE_CXX_FLAGS:STRING= /DWIN32 /D_WINDOWS /W3 /GR /EHsc" "-DCMAKE_CXX_FLAGS_DEBUG:STRING=/D_DEBUG /MDd /Zi /Ob0 /Od /RTC1" "-DCMAKE_C_FLAGS_DEBUG:STRING=/D_DEBUG /MDd /Zi /Ob0 /Od /RTC1" "-DCMAKE_CXX_FLAGS_RELEASE:STRING=/MD /O2 /Ob2 /D NDEBUG" "-DCMAKE_C_FLAGS_RELEASE:STRING=/MD /O2 /Ob2 /D NDEBUG" "-DCMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=/MD /Zi /O2 /Ob1 /D NDEBUG" "-DCMAKE_C_FLAGS_RELWITHDEBINFO:STRING=/MD /Zi /O2 /Ob1 /D NDEBUG" "-DCMAKE_EXE_LINKER_FLAGS:STRING= /machine:X86" "-DCMAKE_SHARED_LINKER_FLAGS:STRING= /machine:X86" "-DCMAKE_MODULE_LINKER_FLAGS:STRING= /machine:X86" -DMITK_USE_SUPERBUILD:BOOL=ON -DMITK_USE_BLUEBERRY:BOOL=ON -DMITK_BUILD_EXAMPLES:BOOL=OFF -DMITK_BUILD_ALL_PLUGINS:BOOL=OFF -DMITK_USE_ACVD:BOOL=OFF -DMITK_USE_CTK:BOOL=ON -DMITK_USE_DCMTK:BOOL=ON -DMITK_USE_QT:BOOL=ON -DMITK_USE_OpenCV:BOOL=OFF -DMITK_USE_SOFA:BOOL=OFF -DMITK_USE_VMTK:BOOL=OFF -DMITK_USE_Python:BOOL=OFF "-DMITK_ACCESSBYITK_INTEGRAL_PIXEL_TYPES:STRING=int, unsigned int, short, unsigned short, char, unsigned char" "-DMITK_ACCESSBYITK_FLOATING_PIXEL_TYPES:STRING=double, float" -DMITK_ACCESSBYITK_COMPOSITE_PIXEL_TYPES:STRING= -DMITK_ACCESSBYITK_DIMENSIONS:STRING=2,3 -DCMAKE_PREFIX_PATH:PATH= "-DGIT_EXECUTABLE:FILEPATH=C:/Program Files/Git/cmd/git.exe" -DBUILD_SHARED_LIBS:BOOL=ON -DBUILD_TESTING:BOOL=OFF -CE:/D/MITK-cmake/tmp/MITK-cache-Release.cmake "-GVisual Studio 12 2013" E:/D/MITK
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/MITK-cmake/src/MITK-stamp/$(Configuration)/MITK-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/CMakeFiles/740f92cd0727a09b2cf01aec6384619b/MITK-configure.rule;E:\D\MITK-cmake\tmp\MITK-cfgcmd.txt;E:\D\MITK-cmake\tmp\MITK-cache-Release.cmake;E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-update;E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Performing configure step for 'MITK'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd E:\D\MITK-superbuild
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -DBUILD_TESTING:BOOL=OFF -DCMAKE_INSTALL_PREFIX:PATH=E:/D/CMakeExternals/Install -DBUILD_SHARED_LIBS:BOOL=ON -DCMAKE_BUILD_TYPE:STRING=Debug "-DCMAKE_C_COMPILER:FILEPATH=C:/Program Files (x86)/Microsoft Visual Studio 12.0/VC/bin/cl.exe" "-DCMAKE_CXX_COMPILER:FILEPATH=C:/Program Files (x86)/Microsoft Visual Studio 12.0/VC/bin/cl.exe" "-DCMAKE_C_FLAGS:STRING= /DWIN32 /D_WINDOWS /W3" "-DCMAKE_CXX_FLAGS:STRING= /DWIN32 /D_WINDOWS /W3 /GR /EHsc" "-DCMAKE_CXX_FLAGS_DEBUG:STRING=/D_DEBUG /MDd /Zi /Ob0 /Od /RTC1" "-DCMAKE_C_FLAGS_DEBUG:STRING=/D_DEBUG /MDd /Zi /Ob0 /Od /RTC1" "-DCMAKE_CXX_FLAGS_RELEASE:STRING=/MD /O2 /Ob2 /D NDEBUG" "-DCMAKE_C_FLAGS_RELEASE:STRING=/MD /O2 /Ob2 /D NDEBUG" "-DCMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=/MD /Zi /O2 /Ob1 /D NDEBUG" "-DCMAKE_C_FLAGS_RELWITHDEBINFO:STRING=/MD /Zi /O2 /Ob1 /D NDEBUG" "-DCMAKE_EXE_LINKER_FLAGS:STRING= /machine:X86" "-DCMAKE_SHARED_LINKER_FLAGS:STRING= /machine:X86" "-DCMAKE_MODULE_LINKER_FLAGS:STRING= /machine:X86" -DMITK_USE_SUPERBUILD:BOOL=ON -DMITK_USE_BLUEBERRY:BOOL=ON -DMITK_BUILD_EXAMPLES:BOOL=OFF -DMITK_BUILD_ALL_PLUGINS:BOOL=OFF -DMITK_USE_ACVD:BOOL=OFF -DMITK_USE_CTK:BOOL=ON -DMITK_USE_DCMTK:BOOL=ON -DMITK_USE_QT:BOOL=ON -DMITK_USE_OpenCV:BOOL=OFF -DMITK_USE_SOFA:BOOL=OFF -DMITK_USE_VMTK:BOOL=OFF -DMITK_USE_Python:BOOL=OFF "-DMITK_ACCESSBYITK_INTEGRAL_PIXEL_TYPES:STRING=int, unsigned int, short, unsigned short, char, unsigned char" "-DMITK_ACCESSBYITK_FLOATING_PIXEL_TYPES:STRING=double, float" -DMITK_ACCESSBYITK_COMPOSITE_PIXEL_TYPES:STRING= -DMITK_ACCESSBYITK_DIMENSIONS:STRING=2,3 -DCMAKE_PREFIX_PATH:PATH= "-DGIT_EXECUTABLE:FILEPATH=C:/Program Files/Git/cmd/git.exe" -DBUILD_SHARED_LIBS:BOOL=ON -DBUILD_TESTING:BOOL=OFF -CE:/D/MITK-cmake/tmp/MITK-cache-MinSizeRel.cmake "-GVisual Studio 12 2013" E:/D/MITK
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/MITK-cmake/src/MITK-stamp/$(Configuration)/MITK-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/CMakeFiles/740f92cd0727a09b2cf01aec6384619b/MITK-configure.rule;E:\D\MITK-cmake\tmp\MITK-cfgcmd.txt;E:\D\MITK-cmake\tmp\MITK-cache-MinSizeRel.cmake;E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-update;E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Performing configure step for 'MITK'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\D\MITK-superbuild
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -DBUILD_TESTING:BOOL=OFF -DCMAKE_INSTALL_PREFIX:PATH=E:/D/CMakeExternals/Install -DBUILD_SHARED_LIBS:BOOL=ON -DCMAKE_BUILD_TYPE:STRING=Debug "-DCMAKE_C_COMPILER:FILEPATH=C:/Program Files (x86)/Microsoft Visual Studio 12.0/VC/bin/cl.exe" "-DCMAKE_CXX_COMPILER:FILEPATH=C:/Program Files (x86)/Microsoft Visual Studio 12.0/VC/bin/cl.exe" "-DCMAKE_C_FLAGS:STRING= /DWIN32 /D_WINDOWS /W3" "-DCMAKE_CXX_FLAGS:STRING= /DWIN32 /D_WINDOWS /W3 /GR /EHsc" "-DCMAKE_CXX_FLAGS_DEBUG:STRING=/D_DEBUG /MDd /Zi /Ob0 /Od /RTC1" "-DCMAKE_C_FLAGS_DEBUG:STRING=/D_DEBUG /MDd /Zi /Ob0 /Od /RTC1" "-DCMAKE_CXX_FLAGS_RELEASE:STRING=/MD /O2 /Ob2 /D NDEBUG" "-DCMAKE_C_FLAGS_RELEASE:STRING=/MD /O2 /Ob2 /D NDEBUG" "-DCMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=/MD /Zi /O2 /Ob1 /D NDEBUG" "-DCMAKE_C_FLAGS_RELWITHDEBINFO:STRING=/MD /Zi /O2 /Ob1 /D NDEBUG" "-DCMAKE_EXE_LINKER_FLAGS:STRING= /machine:X86" "-DCMAKE_SHARED_LINKER_FLAGS:STRING= /machine:X86" "-DCMAKE_MODULE_LINKER_FLAGS:STRING= /machine:X86" -DMITK_USE_SUPERBUILD:BOOL=ON -DMITK_USE_BLUEBERRY:BOOL=ON -DMITK_BUILD_EXAMPLES:BOOL=OFF -DMITK_BUILD_ALL_PLUGINS:BOOL=OFF -DMITK_USE_ACVD:BOOL=OFF -DMITK_USE_CTK:BOOL=ON -DMITK_USE_DCMTK:BOOL=ON -DMITK_USE_QT:BOOL=ON -DMITK_USE_OpenCV:BOOL=OFF -DMITK_USE_SOFA:BOOL=OFF -DMITK_USE_VMTK:BOOL=OFF -DMITK_USE_Python:BOOL=OFF "-DMITK_ACCESSBYITK_INTEGRAL_PIXEL_TYPES:STRING=int, unsigned int, short, unsigned short, char, unsigned char" "-DMITK_ACCESSBYITK_FLOATING_PIXEL_TYPES:STRING=double, float" -DMITK_ACCESSBYITK_COMPOSITE_PIXEL_TYPES:STRING= -DMITK_ACCESSBYITK_DIMENSIONS:STRING=2,3 -DCMAKE_PREFIX_PATH:PATH= "-DGIT_EXECUTABLE:FILEPATH=C:/Program Files/Git/cmd/git.exe" -DBUILD_SHARED_LIBS:BOOL=ON -DBUILD_TESTING:BOOL=OFF -CE:/D/MITK-cmake/tmp/MITK-cache-RelWithDebInfo.cmake "-GVisual Studio 12 2013" E:/D/MITK
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/MITK-cmake/src/MITK-stamp/$(Configuration)/MITK-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/CMakeFiles/740f92cd0727a09b2cf01aec6384619b/MITK-configure.rule;E:\D\MITK-cmake\tmp\MITK-cfgcmd.txt;E:\D\MITK-cmake\tmp\MITK-cache-RelWithDebInfo.cmake;E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-update;E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\CMakeFiles\740f92cd0727a09b2cf01aec6384619b\MITK-build.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Performing build step for 'MITK'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\D\MITK-superbuild
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" --build . --config Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/MITK-cmake/src/MITK-stamp/$(Configuration)/MITK-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/CMakeFiles/740f92cd0727a09b2cf01aec6384619b/MITK-build.rule;E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Performing build step for 'MITK'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd E:\D\MITK-superbuild
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" --build . --config Release
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/MITK-cmake/src/MITK-stamp/$(Configuration)/MITK-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/CMakeFiles/740f92cd0727a09b2cf01aec6384619b/MITK-build.rule;E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Performing build step for 'MITK'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd E:\D\MITK-superbuild
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" --build . --config MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/MITK-cmake/src/MITK-stamp/$(Configuration)/MITK-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/CMakeFiles/740f92cd0727a09b2cf01aec6384619b/MITK-build.rule;E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Performing build step for 'MITK'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\D\MITK-superbuild
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" --build . --config RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/MITK-cmake/src/MITK-stamp/$(Configuration)/MITK-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/CMakeFiles/740f92cd0727a09b2cf01aec6384619b/MITK-build.rule;E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\CMakeFiles\740f92cd0727a09b2cf01aec6384619b\MITK-install.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">No install step for 'MITK'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\D\MITK-superbuild
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/MITK-cmake/src/MITK-stamp/$(Configuration)/MITK-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/CMakeFiles/740f92cd0727a09b2cf01aec6384619b/MITK-install.rule;E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">No install step for 'MITK'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd E:\D\MITK-superbuild
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/MITK-cmake/src/MITK-stamp/$(Configuration)/MITK-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/CMakeFiles/740f92cd0727a09b2cf01aec6384619b/MITK-install.rule;E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">No install step for 'MITK'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd E:\D\MITK-superbuild
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/MITK-cmake/src/MITK-stamp/$(Configuration)/MITK-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/CMakeFiles/740f92cd0727a09b2cf01aec6384619b/MITK-install.rule;E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">No install step for 'MITK'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\D\MITK-superbuild
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/MITK-cmake/src/MITK-stamp/$(Configuration)/MITK-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/CMakeFiles/740f92cd0727a09b2cf01aec6384619b/MITK-install.rule;E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\CMakeFiles\2102276261d6d3f6b9c287c53de3bd9a\MITK-complete.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Completed 'MITK'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/CMakeFiles/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/CMakeFiles/$(Configuration)/MITK-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/MITK-cmake/src/MITK-stamp/$(Configuration)/MITK-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/CMakeFiles/2102276261d6d3f6b9c287c53de3bd9a/MITK-complete.rule;E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-install;E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-mkdir;E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-download;E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-update;E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-patch;E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-configure;E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-build;E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\CMakeFiles\$(Configuration)\MITK-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Completed 'MITK'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/CMakeFiles/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/CMakeFiles/$(Configuration)/MITK-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/MITK-cmake/src/MITK-stamp/$(Configuration)/MITK-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/CMakeFiles/2102276261d6d3f6b9c287c53de3bd9a/MITK-complete.rule;E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-install;E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-mkdir;E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-download;E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-update;E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-patch;E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-configure;E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-build;E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\CMakeFiles\$(Configuration)\MITK-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Completed 'MITK'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/CMakeFiles/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/CMakeFiles/$(Configuration)/MITK-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/MITK-cmake/src/MITK-stamp/$(Configuration)/MITK-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/CMakeFiles/2102276261d6d3f6b9c287c53de3bd9a/MITK-complete.rule;E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-install;E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-mkdir;E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-download;E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-update;E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-patch;E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-configure;E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-build;E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\CMakeFiles\$(Configuration)\MITK-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Completed 'MITK'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory E:/D/CMakeFiles/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/CMakeFiles/$(Configuration)/MITK-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E touch E:/D/MITK-cmake/src/MITK-stamp/$(Configuration)/MITK-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/CMakeFiles/2102276261d6d3f6b9c287c53de3bd9a/MITK-complete.rule;E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-install;E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-mkdir;E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-download;E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-update;E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-patch;E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-configure;E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-build;E:\D\MITK-cmake\src\MITK-stamp\$(Configuration)\MITK-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\CMakeFiles\$(Configuration)\MITK-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\CMakeFiles\fa3574f3218ff05c626c7fce3b271d45\MITK.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/CMakeFiles/fa3574f3218ff05c626c7fce3b271d45/MITK.rule;E:\D\CMakeFiles\$(Configuration)\MITK-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\CMakeFiles\MITK</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/CMakeFiles/fa3574f3218ff05c626c7fce3b271d45/MITK.rule;E:\D\CMakeFiles\$(Configuration)\MITK-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\CMakeFiles\MITK</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/CMakeFiles/fa3574f3218ff05c626c7fce3b271d45/MITK.rule;E:\D\CMakeFiles\$(Configuration)\MITK-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\CMakeFiles\MITK</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/CMakeFiles/fa3574f3218ff05c626c7fce3b271d45/MITK.rule;E:\D\CMakeFiles\$(Configuration)\MITK-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\CMakeFiles\MITK</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\D\CMakeFiles\MITK" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:/D/ZERO_CHECK.vcxproj">
+      <Project>BB546A3A-AFFD-3280-8E59-400089129452</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

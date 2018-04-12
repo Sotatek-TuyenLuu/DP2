@@ -1,0 +1,768 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\AbstractHTTPRequestHandler.cpp">
+      <Filter>HTTPServer\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\DatagramSocket.cpp">
+      <Filter>Sockets\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\DatagramSocketImpl.cpp">
+      <Filter>Sockets\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\DialogSocket.cpp">
+      <Filter>Sockets\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\DNS.cpp">
+      <Filter>NetCore\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\FilePartSource.cpp">
+      <Filter>Messages\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\FTPClientSession.cpp">
+      <Filter>FTP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\FTPStreamFactory.cpp">
+      <Filter>FTP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\HostEntry.cpp">
+      <Filter>NetCore\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\HTMLForm.cpp">
+      <Filter>HTML\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\HTTPAuthenticationParams.cpp">
+      <Filter>HTTP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\HTTPBasicCredentials.cpp">
+      <Filter>HTTP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\HTTPBufferAllocator.cpp">
+      <Filter>HTTP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\HTTPChunkedStream.cpp">
+      <Filter>HTTP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\HTTPClientSession.cpp">
+      <Filter>HTTPClient\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\HTTPCookie.cpp">
+      <Filter>HTTP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\HTTPCredentials.cpp">
+      <Filter>HTTP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\HTTPDigestCredentials.cpp">
+      <Filter>HTTP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\HTTPFixedLengthStream.cpp">
+      <Filter>HTTP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\HTTPHeaderStream.cpp">
+      <Filter>HTTP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\HTTPIOStream.cpp">
+      <Filter>HTTP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\HTTPMessage.cpp">
+      <Filter>HTTP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\HTTPRequest.cpp">
+      <Filter>HTTP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\HTTPRequestHandler.cpp">
+      <Filter>HTTPServer\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\HTTPRequestHandlerFactory.cpp">
+      <Filter>HTTPServer\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\HTTPResponse.cpp">
+      <Filter>HTTP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\HTTPServer.cpp">
+      <Filter>HTTPServer\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\HTTPServerConnection.cpp">
+      <Filter>HTTPServer\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\HTTPServerConnectionFactory.cpp">
+      <Filter>HTTPServer\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\HTTPServerParams.cpp">
+      <Filter>HTTPServer\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\HTTPServerRequest.cpp">
+      <Filter>HTTPServer\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\HTTPServerRequestImpl.cpp">
+      <Filter>HTTPServer\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\HTTPServerResponse.cpp">
+      <Filter>HTTPServer\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\HTTPServerResponseImpl.cpp">
+      <Filter>HTTPServer\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\HTTPServerSession.cpp">
+      <Filter>HTTPServer\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\HTTPSession.cpp">
+      <Filter>HTTP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\HTTPSessionFactory.cpp">
+      <Filter>HTTPClient\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\HTTPSessionInstantiator.cpp">
+      <Filter>HTTPClient\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\HTTPStream.cpp">
+      <Filter>HTTP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\HTTPStreamFactory.cpp">
+      <Filter>HTTP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\ICMPClient.cpp">
+      <Filter>ICMP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\ICMPEventArgs.cpp">
+      <Filter>ICMP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\ICMPPacket.cpp">
+      <Filter>ICMP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\ICMPPacketImpl.cpp">
+      <Filter>ICMP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\ICMPSocket.cpp">
+      <Filter>ICMP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\ICMPSocketImpl.cpp">
+      <Filter>ICMP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\ICMPv4PacketImpl.cpp">
+      <Filter>ICMP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\IPAddress.cpp">
+      <Filter>NetCore\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\IPAddressImpl.cpp">
+      <Filter>NetCore\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\MailMessage.cpp">
+      <Filter>Mail\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\MailRecipient.cpp">
+      <Filter>Mail\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\MailStream.cpp">
+      <Filter>Mail\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\MediaType.cpp">
+      <Filter>Messages\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\MessageHeader.cpp">
+      <Filter>Messages\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\MulticastSocket.cpp">
+      <Filter>Sockets\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\MultipartReader.cpp">
+      <Filter>Messages\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\MultipartWriter.cpp">
+      <Filter>Messages\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\NameValueCollection.cpp">
+      <Filter>Messages\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\Net.cpp">
+      <Filter>NetCore\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\NetException.cpp">
+      <Filter>NetCore\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\NetworkInterface.cpp">
+      <Filter>NetCore\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\NTPClient.cpp">
+      <Filter>NTP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\NTPEventArgs.cpp">
+      <Filter>NTP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\NTPPacket.cpp">
+      <Filter>NTP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\NullPartHandler.cpp">
+      <Filter>Messages\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\OAuth10Credentials.cpp">
+      <Filter>OAuth\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\OAuth20Credentials.cpp">
+      <Filter>OAuth\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\PartHandler.cpp">
+      <Filter>Messages\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\PartSource.cpp">
+      <Filter>Messages\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\PartStore.cpp">
+      <Filter>Messages\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\POP3ClientSession.cpp">
+      <Filter>Mail\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\QuotedPrintableDecoder.cpp">
+      <Filter>Messages\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\QuotedPrintableEncoder.cpp">
+      <Filter>Messages\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\RawSocket.cpp">
+      <Filter>Sockets\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\RawSocketImpl.cpp">
+      <Filter>Sockets\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\RemoteSyslogChannel.cpp">
+      <Filter>Logging\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\RemoteSyslogListener.cpp">
+      <Filter>Logging\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\ServerSocket.cpp">
+      <Filter>Sockets\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\ServerSocketImpl.cpp">
+      <Filter>Sockets\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\SMTPChannel.cpp">
+      <Filter>Logging\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\SMTPClientSession.cpp">
+      <Filter>Mail\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\Socket.cpp">
+      <Filter>Sockets\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\SocketAddress.cpp">
+      <Filter>NetCore\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\SocketAddressImpl.cpp">
+      <Filter>NetCore\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\SocketImpl.cpp">
+      <Filter>Sockets\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\SocketNotification.cpp">
+      <Filter>Reactor\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\SocketNotifier.cpp">
+      <Filter>Reactor\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\SocketReactor.cpp">
+      <Filter>Reactor\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\SocketStream.cpp">
+      <Filter>Sockets\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\StreamSocket.cpp">
+      <Filter>Sockets\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\StreamSocketImpl.cpp">
+      <Filter>Sockets\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\StringPartSource.cpp">
+      <Filter>Messages\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\TCPServer.cpp">
+      <Filter>TCPServer\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\TCPServerConnection.cpp">
+      <Filter>TCPServer\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\TCPServerConnectionFactory.cpp">
+      <Filter>TCPServer\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\TCPServerDispatcher.cpp">
+      <Filter>TCPServer\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\TCPServerParams.cpp">
+      <Filter>TCPServer\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\WebSocket.cpp">
+      <Filter>WebSocket\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\D\MITK-superbuild\ep\src\Poco\Net\src\WebSocketImpl.cpp">
+      <Filter>WebSocket\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\AbstractHTTPRequestHandler.h">
+      <Filter>HTTPServer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\DatagramSocket.h">
+      <Filter>Sockets\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\DatagramSocketImpl.h">
+      <Filter>Sockets\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\DialogSocket.h">
+      <Filter>Sockets\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\DNS.h">
+      <Filter>NetCore\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\FilePartSource.h">
+      <Filter>Messages\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\FTPClientSession.h">
+      <Filter>FTP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\FTPStreamFactory.h">
+      <Filter>FTP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\HostEntry.h">
+      <Filter>NetCore\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\HTMLForm.h">
+      <Filter>HTML\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\HTTPAuthenticationParams.h">
+      <Filter>HTTP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\HTTPBasicCredentials.h">
+      <Filter>HTTP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\HTTPBasicStreamBuf.h">
+      <Filter>HTTP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\HTTPBufferAllocator.h">
+      <Filter>HTTP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\HTTPChunkedStream.h">
+      <Filter>HTTP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\HTTPClientSession.h">
+      <Filter>HTTPClient\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\HTTPCookie.h">
+      <Filter>HTTP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\HTTPCredentials.h">
+      <Filter>HTTP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\HTTPDigestCredentials.h">
+      <Filter>HTTP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\HTTPFixedLengthStream.h">
+      <Filter>HTTP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\HTTPHeaderStream.h">
+      <Filter>HTTP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\HTTPIOStream.h">
+      <Filter>HTTP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\HTTPMessage.h">
+      <Filter>HTTP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\HTTPRequest.h">
+      <Filter>HTTP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\HTTPRequestHandler.h">
+      <Filter>HTTPServer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\HTTPRequestHandlerFactory.h">
+      <Filter>HTTPServer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\HTTPResponse.h">
+      <Filter>HTTP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\HTTPServer.h">
+      <Filter>HTTPServer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\HTTPServerConnection.h">
+      <Filter>HTTPServer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\HTTPServerConnectionFactory.h">
+      <Filter>HTTPServer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\HTTPServerParams.h">
+      <Filter>HTTPServer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\HTTPServerRequest.h">
+      <Filter>HTTPServer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\HTTPServerRequestImpl.h">
+      <Filter>HTTPServer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\HTTPServerResponse.h">
+      <Filter>HTTPServer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\HTTPServerResponseImpl.h">
+      <Filter>HTTPServer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\HTTPServerSession.h">
+      <Filter>HTTPServer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\HTTPSession.h">
+      <Filter>HTTP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\HTTPSessionFactory.h">
+      <Filter>HTTPClient\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\HTTPSessionInstantiator.h">
+      <Filter>HTTPClient\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\HTTPStream.h">
+      <Filter>HTTP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\HTTPStreamFactory.h">
+      <Filter>HTTP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\ICMPClient.h">
+      <Filter>ICMP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\ICMPEventArgs.h">
+      <Filter>ICMP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\ICMPPacket.h">
+      <Filter>ICMP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\ICMPPacketImpl.h">
+      <Filter>ICMP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\ICMPSocket.h">
+      <Filter>ICMP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\ICMPSocketImpl.h">
+      <Filter>ICMP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\ICMPv4PacketImpl.h">
+      <Filter>ICMP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\IPAddress.h">
+      <Filter>NetCore\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\IPAddressImpl.h">
+      <Filter>NetCore\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\MailMessage.h">
+      <Filter>Mail\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\MailRecipient.h">
+      <Filter>Mail\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\MailStream.h">
+      <Filter>Mail\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\MediaType.h">
+      <Filter>Messages\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\MessageHeader.h">
+      <Filter>Messages\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\MulticastSocket.h">
+      <Filter>Sockets\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\MultipartReader.h">
+      <Filter>Messages\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\MultipartWriter.h">
+      <Filter>Messages\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\NameValueCollection.h">
+      <Filter>Messages\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\Net.h">
+      <Filter>NetCore\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\NetException.h">
+      <Filter>NetCore\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\NetworkInterface.h">
+      <Filter>Sockets\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\NTPClient.h">
+      <Filter>NTP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\NTPEventArgs.h">
+      <Filter>NTP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\NTPPacket.h">
+      <Filter>NTP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\NullPartHandler.h">
+      <Filter>Messages\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\OAuth10Credentials.h">
+      <Filter>OAuth\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\OAuth20Credentials.h">
+      <Filter>OAuth\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\ParallelSocketAcceptor.h">
+      <Filter>Reactor\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\ParallelSocketReactor.h">
+      <Filter>Reactor\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\PartHandler.h">
+      <Filter>Messages\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\PartSource.h">
+      <Filter>Messages\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\PartStore.h">
+      <Filter>Messages\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\POP3ClientSession.h">
+      <Filter>Mail\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\QuotedPrintableDecoder.h">
+      <Filter>Messages\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\QuotedPrintableEncoder.h">
+      <Filter>Messages\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\RawSocket.h">
+      <Filter>Sockets\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\RawSocketImpl.h">
+      <Filter>Sockets\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\RemoteSyslogChannel.h">
+      <Filter>Logging\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\RemoteSyslogListener.h">
+      <Filter>Logging\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\ServerSocket.h">
+      <Filter>Sockets\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\ServerSocketImpl.h">
+      <Filter>Sockets\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\SMTPChannel.h">
+      <Filter>Logging\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\SMTPClientSession.h">
+      <Filter>Mail\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\Socket.h">
+      <Filter>Sockets\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\SocketAcceptor.h">
+      <Filter>Reactor\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\SocketAddress.h">
+      <Filter>NetCore\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\SocketAddressImpl.h">
+      <Filter>NetCore\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\SocketConnector.h">
+      <Filter>Reactor\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\SocketDefs.h">
+      <Filter>NetCore\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\SocketImpl.h">
+      <Filter>Sockets\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\SocketNotification.h">
+      <Filter>Reactor\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\SocketNotifier.h">
+      <Filter>Reactor\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\SocketReactor.h">
+      <Filter>Reactor\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\SocketStream.h">
+      <Filter>Sockets\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\StreamSocket.h">
+      <Filter>Sockets\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\StreamSocketImpl.h">
+      <Filter>Sockets\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\StringPartSource.h">
+      <Filter>Messages\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\TCPServer.h">
+      <Filter>TCPServer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\TCPServerConnection.h">
+      <Filter>TCPServer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\TCPServerConnectionFactory.h">
+      <Filter>TCPServer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\TCPServerDispatcher.h">
+      <Filter>TCPServer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\TCPServerParams.h">
+      <Filter>TCPServer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\WebSocket.h">
+      <Filter>WebSocket\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\D\MITK-superbuild\ep\src\Poco\Net\include\Poco\Net\WebSocketImpl.h">
+      <Filter>WebSocket\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\Poco\Net\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="NTP\Source Files">
+      <UniqueIdentifier>{3620C6E0-4154-3AFF-B007-A772DC971529}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NTP\Header Files">
+      <UniqueIdentifier>{3EC5F373-C3AF-3C93-959F-02517ACE844F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TCPServer\Source Files">
+      <UniqueIdentifier>{87B079AD-0466-30C8-B9A6-AE8B81C3A3E3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TCPServer\Header Files">
+      <UniqueIdentifier>{9513F330-F471-3238-BDB6-27135DAF43F9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Reactor\Source Files">
+      <UniqueIdentifier>{35889BBF-9B95-38C2-B2C2-C9A7C7269C0F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Reactor\Header Files">
+      <UniqueIdentifier>{4FACEBFC-8DE1-3D4C-8791-C05E076DF179}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OAuth\Source Files">
+      <UniqueIdentifier>{CE9F34D9-2EC1-3F1E-916A-BEFE6C3DB5AF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OAuth\Header Files">
+      <UniqueIdentifier>{35A17F40-D5B0-34FE-BFEB-0B55EB4F6C8D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logging\Source Files">
+      <UniqueIdentifier>{F0F8ABA5-E840-3143-93BB-84191F82BF9F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logging\Header Files">
+      <UniqueIdentifier>{3E8A42A8-9920-3BFC-BB36-5834C6A7DA82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WebSocket\Source Files">
+      <UniqueIdentifier>{00D075B7-2849-3A88-A07B-C239D89C21B1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WebSocket\Header Files">
+      <UniqueIdentifier>{7CB495D3-0776-364C-B4DF-D2BDD2DB3704}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTPServer">
+      <UniqueIdentifier>{FA96E63C-A70B-38A6-AF79-33AA86E2D482}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sockets">
+      <UniqueIdentifier>{9E54B78A-9F33-3EF6-9BB6-DBE1AD48C25F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetCore">
+      <UniqueIdentifier>{83AC090A-1515-3E30-9A9C-92D14FC60052}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Messages">
+      <UniqueIdentifier>{06665EA3-6FF0-3F81-93D0-AD44A0A096F7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FTP">
+      <UniqueIdentifier>{31452EDC-E1E6-349C-BF8C-09C02AEA376F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTML">
+      <UniqueIdentifier>{B180837B-C70F-3F62-9314-0BBC5E2B1C80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTP">
+      <UniqueIdentifier>{EE894C3D-CD29-34FB-B49D-B12B9289D829}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTPClient">
+      <UniqueIdentifier>{7B547B14-4CA6-3832-AF4C-F2BDE13019E4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ICMP">
+      <UniqueIdentifier>{78ACC6A6-EE28-3FC5-BE59-1CC77C0AA336}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mail">
+      <UniqueIdentifier>{B55FB14C-BE2A-30AD-A1BF-77A1287D718B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NTP">
+      <UniqueIdentifier>{D1771136-9B80-3D16-8168-9CA9D7353F8C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OAuth">
+      <UniqueIdentifier>{74D5164E-336E-3278-A971-0F24E2AB582B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logging">
+      <UniqueIdentifier>{B8E7964C-8861-3E31-8B7E-278671F697F6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Reactor">
+      <UniqueIdentifier>{4273E03F-3AED-33C9-878D-72C78948B8F1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TCPServer">
+      <UniqueIdentifier>{057D1CD4-AAFD-3CA8-AF4D-E56D7BF6ACB2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WebSocket">
+      <UniqueIdentifier>{75ECBCDD-1256-3455-8DF4-F0763861B36D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ICMP\Source Files">
+      <UniqueIdentifier>{96A226A7-F459-3B8C-991C-8E9CAD8E0CC6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ICMP\Header Files">
+      <UniqueIdentifier>{915AD482-FE8F-3AEC-83B1-514D197DCAC7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mail\Source Files">
+      <UniqueIdentifier>{DFF5AD56-AF43-38B2-8AA3-F78A0F5731D1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mail\Header Files">
+      <UniqueIdentifier>{728CB52A-7736-3B59-AC31-DFD7F2B9C5AE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTML\Source Files">
+      <UniqueIdentifier>{48CEB811-41BD-35D7-942D-3203E230C108}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTML\Header Files">
+      <UniqueIdentifier>{CD95C466-9586-34DE-A932-2D08735DF67D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTPServer\Source Files">
+      <UniqueIdentifier>{F346A9E0-7E98-37BC-9975-18AA29A718BD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTPServer\Header Files">
+      <UniqueIdentifier>{EB647098-CBFE-3465-BF83-2BD2E1244E48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTP\Source Files">
+      <UniqueIdentifier>{4695D0D8-ACDC-396C-BF59-3790E3E866B2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTP\Header Files">
+      <UniqueIdentifier>{940FC578-5A53-3069-BFC1-D60DEF0B8EAB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sockets\Source Files">
+      <UniqueIdentifier>{2A570787-5DD8-302C-8F7A-76E80E9B7B0E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sockets\Header Files">
+      <UniqueIdentifier>{DAFE5A43-F1FE-369E-9810-98D9DAD3969E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetCore\Source Files">
+      <UniqueIdentifier>{08CA6DB1-ABB1-35F0-B3ED-C5B093653166}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetCore\Header Files">
+      <UniqueIdentifier>{F4AF67B4-BC9A-348E-AAC3-E8D272B5C591}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Messages\Source Files">
+      <UniqueIdentifier>{A2D6016F-3A98-3B64-8B7E-1A7C3E66EA22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Messages\Header Files">
+      <UniqueIdentifier>{F8CAB07D-C052-3E76-8E40-A47F30915251}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FTP\Source Files">
+      <UniqueIdentifier>{0AF9E1E1-D4B4-3B6D-976E-095A4BEC5F4A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FTP\Header Files">
+      <UniqueIdentifier>{606E18F3-2129-3433-A5A9-310E72785223}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTPClient\Source Files">
+      <UniqueIdentifier>{A323C160-8F45-39A0-B225-0D84E2B23500}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTPClient\Header Files">
+      <UniqueIdentifier>{0929D402-1639-3598-B94D-EFD6AB86FC53}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,79 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/IO/Mesh/src/itkBYUMeshIO.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/IO/Mesh/src/itkBYUMeshIOFactory.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/IO/Mesh/src/itkFreeSurferAsciiMeshIO.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/IO/Mesh/src/itkFreeSurferAsciiMeshIOFactory.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/IO/Mesh/src/itkFreeSurferBinaryMeshIO.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/IO/Mesh/src/itkFreeSurferBinaryMeshIOFactory.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/IO/Mesh/src/itkGiftiMeshIO.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/IO/Mesh/src/itkGiftiMeshIOFactory.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/IO/Mesh/src/itkMeshIOBase.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/IO/Mesh/src/itkMeshIOFactory.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/IO/Mesh/src/itkOBJMeshIO.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/IO/Mesh/src/itkOBJMeshIOFactory.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/IO/Mesh/src/itkOFFMeshIO.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/IO/Mesh/src/itkOFFMeshIOFactory.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/IO/Mesh/src/itkVTKPolyDataMeshIO.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/IO/Mesh/src/itkVTKPolyDataMeshIOFactory.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/IO/Mesh/src/CMakeLists.txt"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "ITKIOMesh" ],
+		"name" : "ITKIOMesh"
+	}
+}

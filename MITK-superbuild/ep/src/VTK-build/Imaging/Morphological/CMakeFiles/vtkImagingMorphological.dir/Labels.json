@@ -1,0 +1,107 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Imaging/Morphological/vtkImageConnector.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Imaging/Morphological/vtkImageContinuousDilate3D.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Imaging/Morphological/vtkImageContinuousErode3D.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Imaging/Morphological/vtkImageDilateErode3D.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Imaging/Morphological/vtkImageIslandRemoval2D.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Imaging/Morphological/vtkImageNonMaximumSuppression.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Imaging/Morphological/vtkImageOpenClose3D.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Imaging/Morphological/vtkImageSeedConnectivity.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Imaging/Morphological/vtkImageSkeleton2D.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Imaging/Morphological/vtkImageThresholdConnectivity.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Imaging/Morphological/vtkImageConnector.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Imaging/Morphological/vtkImageContinuousDilate3D.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Imaging/Morphological/vtkImageContinuousErode3D.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Imaging/Morphological/vtkImageDilateErode3D.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Imaging/Morphological/vtkImageIslandRemoval2D.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Imaging/Morphological/vtkImageNonMaximumSuppression.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Imaging/Morphological/vtkImageOpenClose3D.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Imaging/Morphological/vtkImageSeedConnectivity.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Imaging/Morphological/vtkImageSkeleton2D.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Imaging/Morphological/vtkImageThresholdConnectivity.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Imaging/Morphological/vtkImagingMorphologicalModule.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Imaging/Morphological/vtkImagingMorphologicalInstantiator.h"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK-build/Imaging/Morphological/vtkImagingMorphologicalInstantiator.cxx"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/VTK/Imaging/Morphological/CMakeLists.txt"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "vtkImagingMorphological" ],
+		"name" : "vtkImagingMorphological"
+	}
+}

@@ -1,0 +1,41 @@
+
+#ifndef MITKQMLITEMS_EXPORT_H
+#define MITKQMLITEMS_EXPORT_H
+
+#ifdef MITKQMLITEMS_STATIC_DEFINE
+#  define MITKQMLITEMS_EXPORT
+#  define MITKQMLITEMS_NO_EXPORT
+#else
+#  ifndef MITKQMLITEMS_EXPORT
+#    ifdef MitkQmlItems_EXPORTS
+        /* We are building this library */
+#      define MITKQMLITEMS_EXPORT __declspec(dllexport)
+#    else
+        /* We are using this library */
+#      define MITKQMLITEMS_EXPORT __declspec(dllimport)
+#    endif
+#  endif
+
+#  ifndef MITKQMLITEMS_NO_EXPORT
+#    define MITKQMLITEMS_NO_EXPORT 
+#  endif
+#endif
+
+#ifndef MITKQMLITEMS_DEPRECATED
+#  define MITKQMLITEMS_DEPRECATED __declspec(deprecated)
+#endif
+
+#ifndef MITKQMLITEMS_DEPRECATED_EXPORT
+#  define MITKQMLITEMS_DEPRECATED_EXPORT MITKQMLITEMS_EXPORT MITKQMLITEMS_DEPRECATED
+#endif
+
+#ifndef MITKQMLITEMS_DEPRECATED_NO_EXPORT
+#  define MITKQMLITEMS_DEPRECATED_NO_EXPORT MITKQMLITEMS_NO_EXPORT MITKQMLITEMS_DEPRECATED
+#endif
+
+#define DEFINE_NO_DEPRECATED 0
+#if DEFINE_NO_DEPRECATED
+# define MITKQMLITEMS_NO_DEPRECATED
+#endif
+
+#endif

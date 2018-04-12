@@ -1,0 +1,1837 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{F65530B9-D737-3F3D-9644-9C224AC18E3B}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>BuildOfficial</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\Eigen-build\test;E:\D\MITK-superbuild\ep\src\Eigen\test;E:\D\MITK-superbuild\ep\src\Eigen;E:\D\MITK-superbuild\ep\src\Eigen-build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\Eigen-build\test;E:\D\MITK-superbuild\ep\src\Eigen\test;E:\D\MITK-superbuild\ep\src\Eigen;E:\D\MITK-superbuild\ep\src\Eigen-build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\Eigen-build\test;E:\D\MITK-superbuild\ep\src\Eigen\test;E:\D\MITK-superbuild\ep\src\Eigen;E:\D\MITK-superbuild\ep\src\Eigen-build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\Eigen-build\test;E:\D\MITK-superbuild\ep\src\Eigen\test;E:\D\MITK-superbuild\ep\src\Eigen;E:\D\MITK-superbuild\ep\src\Eigen-build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\Eigen\test\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/Eigen/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/Eigen -BE:/D/MITK-superbuild/ep/src/Eigen-build --check-stamp-file E:\D\MITK-superbuild\ep\src\Eigen-build\test\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/Eigen/test/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\Eigen\test\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\Eigen\cmake\FindCholmod.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;E:\D\MITK-superbuild\ep\src\Eigen\cmake\FindUmfpack.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;E:\D\MITK-superbuild\ep\src\Eigen\cmake\FindSuperLU.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;E:\D\MITK-superbuild\ep\src\Eigen\cmake\FindPastix.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;E:\D\MITK-superbuild\ep\src\Eigen\cmake\FindScotch.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;E:\D\MITK-superbuild\ep\src\Eigen\cmake\FindMetis.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;E:\D\MITK-superbuild\ep\src\Eigen\cmake\FindSPQR.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindQt4.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\MacroAddFileDependencies.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakePushCheckState.cmake;E:\D\MITK-superbuild\ep\src\Eigen\test\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\Eigen-build\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/Eigen/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/Eigen -BE:/D/MITK-superbuild/ep/src/Eigen-build --check-stamp-file E:\D\MITK-superbuild\ep\src\Eigen-build\test\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/Eigen/test/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\Eigen\test\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\Eigen\cmake\FindCholmod.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;E:\D\MITK-superbuild\ep\src\Eigen\cmake\FindUmfpack.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;E:\D\MITK-superbuild\ep\src\Eigen\cmake\FindSuperLU.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;E:\D\MITK-superbuild\ep\src\Eigen\cmake\FindPastix.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;E:\D\MITK-superbuild\ep\src\Eigen\cmake\FindScotch.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;E:\D\MITK-superbuild\ep\src\Eigen\cmake\FindMetis.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;E:\D\MITK-superbuild\ep\src\Eigen\cmake\FindSPQR.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindQt4.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\MacroAddFileDependencies.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakePushCheckState.cmake;E:\D\MITK-superbuild\ep\src\Eigen\test\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\Eigen-build\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/Eigen/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/Eigen -BE:/D/MITK-superbuild/ep/src/Eigen-build --check-stamp-file E:\D\MITK-superbuild\ep\src\Eigen-build\test\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/Eigen/test/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\Eigen\test\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\Eigen\cmake\FindCholmod.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;E:\D\MITK-superbuild\ep\src\Eigen\cmake\FindUmfpack.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;E:\D\MITK-superbuild\ep\src\Eigen\cmake\FindSuperLU.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;E:\D\MITK-superbuild\ep\src\Eigen\cmake\FindPastix.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;E:\D\MITK-superbuild\ep\src\Eigen\cmake\FindScotch.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;E:\D\MITK-superbuild\ep\src\Eigen\cmake\FindMetis.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;E:\D\MITK-superbuild\ep\src\Eigen\cmake\FindSPQR.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindQt4.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\MacroAddFileDependencies.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakePushCheckState.cmake;E:\D\MITK-superbuild\ep\src\Eigen\test\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\Eigen-build\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/Eigen/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/Eigen -BE:/D/MITK-superbuild/ep/src/Eigen-build --check-stamp-file E:\D\MITK-superbuild\ep\src\Eigen-build\test\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/Eigen/test/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\Eigen\test\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\Eigen\cmake\FindCholmod.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;E:\D\MITK-superbuild\ep\src\Eigen\cmake\FindUmfpack.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;E:\D\MITK-superbuild\ep\src\Eigen\cmake\FindSuperLU.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;E:\D\MITK-superbuild\ep\src\Eigen\cmake\FindPastix.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;E:\D\MITK-superbuild\ep\src\Eigen\cmake\FindScotch.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;E:\D\MITK-superbuild\ep\src\Eigen\cmake\FindMetis.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;E:\D\MITK-superbuild\ep\src\Eigen\cmake\FindSPQR.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindQt4.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\MacroAddFileDependencies.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakePushCheckState.cmake;E:\D\MITK-superbuild\ep\src\Eigen\test\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\Eigen-build\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/ZERO_CHECK.vcxproj">
+      <Project>738635E7-6418-3EDE-BDB9-FB10DC553010</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/adjoint_1.vcxproj">
+      <Project>5459F894-B3EA-3313-96A8-43829C0CE516</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/adjoint_2.vcxproj">
+      <Project>36B67AAD-12C8-3EC0-8228-638A486DA237</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/adjoint_3.vcxproj">
+      <Project>3599F66B-9A6C-3D8C-8B11-191AB5801DC4</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/adjoint_4.vcxproj">
+      <Project>A22C80E4-7BDB-3F24-A7E7-E457D866D2A2</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/adjoint_5.vcxproj">
+      <Project>481D2E44-CDC7-339B-8577-543AA570B59D</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/adjoint_6.vcxproj">
+      <Project>270A5876-53B8-33B3-BEAE-3311537C7521</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/adjoint_7.vcxproj">
+      <Project>47CC185A-6522-3352-B89A-2B6068636901</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/array_1.vcxproj">
+      <Project>11D7CBBE-CD28-3C03-A0CD-9320BCB7F056</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/array_2.vcxproj">
+      <Project>DC4038D8-4D83-3132-AA5E-14254020F43F</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/array_3.vcxproj">
+      <Project>820CAA31-C54E-390D-92B2-BAE7701A431E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/array_4.vcxproj">
+      <Project>651892AF-64C8-3595-9057-E249E04E8FD1</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/array_5.vcxproj">
+      <Project>F64A7633-C900-31BE-BB68-ACE5D099C314</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/array_6.vcxproj">
+      <Project>319739D1-2C99-36C1-B44B-DFC14791F9FA</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/array_for_matrix_1.vcxproj">
+      <Project>4AF68D58-037F-3E9A-AFF1-A1E3602D3911</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/array_for_matrix_2.vcxproj">
+      <Project>A8431FB3-981C-3C3F-B673-32A45A76E93F</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/array_for_matrix_3.vcxproj">
+      <Project>3FC30AF6-8BEF-3E2F-B99E-F494001D74B5</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/array_for_matrix_4.vcxproj">
+      <Project>64C609A4-8FF0-315F-B7E5-773602E976D0</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/array_for_matrix_5.vcxproj">
+      <Project>1BF63FAE-4BEE-3E16-94F0-A1D438AC4148</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/array_for_matrix_6.vcxproj">
+      <Project>AF9CC695-EE8B-3EEA-A66E-F029C16A6F42</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/array_for_matrix_7.vcxproj">
+      <Project>A7E77A50-8E7A-39CE-8486-2E1921BDB283</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/array_for_matrix_8.vcxproj">
+      <Project>4B020221-8D5F-3220-90EC-EBFBB89CF6BF</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/array_replicate_1.vcxproj">
+      <Project>13E8BD85-F164-314B-8E4B-F617809A132F</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/array_replicate_2.vcxproj">
+      <Project>084E836A-EAE3-3043-92BB-4B2BD4F0C245</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/array_replicate_3.vcxproj">
+      <Project>50D25BD6-2E11-3F06-8A3B-8FE3D6FF5793</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/array_replicate_4.vcxproj">
+      <Project>83997B76-0697-3E6F-AA3D-22CC562512A6</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/array_replicate_5.vcxproj">
+      <Project>1818C26A-2B27-3BEC-B3C4-12F192A325E4</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/array_replicate_6.vcxproj">
+      <Project>483130D4-7A0B-32FD-828C-74AB4EC757FE</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/array_reverse_1.vcxproj">
+      <Project>6D52DEF5-D9D7-3BD8-8C1B-555C5FA4F613</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/array_reverse_2.vcxproj">
+      <Project>B2D9849B-8C98-311C-B7DB-7D10147C573F</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/array_reverse_3.vcxproj">
+      <Project>1341B7C3-7AF9-3665-BBBA-1539E41E0F68</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/array_reverse_4.vcxproj">
+      <Project>9F2C09D7-DAC2-3934-ADEE-5C4F8107ACA9</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/array_reverse_5.vcxproj">
+      <Project>6BA33E1C-CAC8-3B7B-8772-FAC30580F652</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/array_reverse_6.vcxproj">
+      <Project>ACA6F455-4154-3AAF-89DD-63C3209A4E80</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/array_reverse_7.vcxproj">
+      <Project>67521397-767A-3E5E-8FF6-01624D74C7B3</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/array_reverse_8.vcxproj">
+      <Project>37CDC419-622D-32B1-9890-2117D6E228DF</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/array_reverse_9.vcxproj">
+      <Project>9BAF66BF-C3D9-3D52-8D64-E51BFDF65FFB</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/bandmatrix.vcxproj">
+      <Project>780FB0CE-B4C7-3E4F-8A7A-CA116E63294B</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/basicstuff_1.vcxproj">
+      <Project>7C2302F0-28D5-3599-AE9F-E8185C620B48</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/basicstuff_2.vcxproj">
+      <Project>151C6BCA-08BB-365C-A166-04BBFE54881D</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/basicstuff_3.vcxproj">
+      <Project>48269210-CEB7-3608-8B08-08CD1EC60153</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/basicstuff_4.vcxproj">
+      <Project>BD9917ED-A874-36A2-AB3C-099666F0AFD2</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/basicstuff_5.vcxproj">
+      <Project>E756AE01-E5BA-39C1-9545-8E69EE3FCF35</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/basicstuff_6.vcxproj">
+      <Project>FD803602-D3D4-3990-8CD4-ED2FD507A3FC</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/basicstuff_7.vcxproj">
+      <Project>B01D82FA-A6CA-361D-BBA0-5F6231642622</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/bicgstab_1.vcxproj">
+      <Project>C4602146-A27F-35DF-955D-2762A32647E9</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/bicgstab_2.vcxproj">
+      <Project>CA57E5A2-F24E-397D-B40D-42027E848851</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/block_1.vcxproj">
+      <Project>638CBC14-67A1-3D8D-87B7-9E2187158C11</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/block_2.vcxproj">
+      <Project>9EFC7C16-8AF3-3073-87D1-06BBA7723FB1</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/block_3.vcxproj">
+      <Project>EEA65DA7-2BBC-3620-984D-3DF85E23827A</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/block_4.vcxproj">
+      <Project>0BF2868E-F1D6-3B01-8A27-C0A7F450C6EB</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/block_5.vcxproj">
+      <Project>08383C37-945B-3576-82CC-3C63992604DB</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/block_6.vcxproj">
+      <Project>18EA45B2-BC31-37C8-B094-A513DF4D4D1D</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/block_7.vcxproj">
+      <Project>E9521A7E-3DCB-382C-8015-F2B76559F7BE</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/block_8.vcxproj">
+      <Project>0B380EBE-7D0E-36C1-8B0F-8EEEAEC2D09D</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/cholesky_1.vcxproj">
+      <Project>C7953B0C-1333-36FE-AB6A-D73C222CFB34</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/cholesky_2.vcxproj">
+      <Project>182EF7BA-9669-332C-A69A-5235D65B9200</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/cholesky_3.vcxproj">
+      <Project>2350E337-23AD-3ADD-9114-F6C6DFEF8059</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/cholesky_4.vcxproj">
+      <Project>F1B1470B-FA29-36AE-9C26-2E51566B067E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/cholesky_5.vcxproj">
+      <Project>1D059088-4FB2-3095-B0A9-58A686179087</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/cholesky_6.vcxproj">
+      <Project>43B15A97-03BD-3CE9-9888-964BFFD68EB9</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/cholesky_7.vcxproj">
+      <Project>68CB9374-A29A-30F8-B7C3-6C26DB67D0FB</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/cholesky_8.vcxproj">
+      <Project>EB982CFA-C746-3B74-87D4-7CBE51CD5C5E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/cholesky_9.vcxproj">
+      <Project>518A9941-32F1-3ECA-A19B-43E32382350B</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/commainitializer.vcxproj">
+      <Project>AB948C73-D2AD-3DD0-81E0-EDB89457F27B</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/conjugate_gradient_1.vcxproj">
+      <Project>4ED288F0-9B76-341D-98B5-97ECA40CD3F4</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/conjugate_gradient_2.vcxproj">
+      <Project>F32DE830-2662-3D76-97CC-7660F797E2DE</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/conservative_resize_1.vcxproj">
+      <Project>3650527C-8653-32F3-9AF8-25D9E37B3F54</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/conservative_resize_2.vcxproj">
+      <Project>CC5D11D7-2C7C-3295-A780-79337B6A7FF8</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/conservative_resize_3.vcxproj">
+      <Project>DA813D06-11BC-30FA-8661-FEA64E0A5125</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/conservative_resize_4.vcxproj">
+      <Project>08573834-C698-3E40-AB86-AB2FC01D39BD</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/conservative_resize_5.vcxproj">
+      <Project>DAA960BF-CA9D-37BD-BE95-103E20BCFF30</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/conservative_resize_6.vcxproj">
+      <Project>2F2F74D9-724E-310B-A6A8-B11EB64BF932</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/corners_1.vcxproj">
+      <Project>AA0E424C-043C-3CEA-93D8-F020DA3A615C</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/corners_2.vcxproj">
+      <Project>C0C94B11-136B-3D18-B1CF-3A1D51F5A8C8</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/corners_3.vcxproj">
+      <Project>48EB0487-007E-3642-821B-F1E079C6CB11</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/corners_4.vcxproj">
+      <Project>C692384E-3A58-375E-BE12-60C8CAB170D9</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/corners_5.vcxproj">
+      <Project>A5FD794C-9EDB-38AA-BE14-9727D39F7B26</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/cwiseop_1.vcxproj">
+      <Project>2D9B1207-F485-31CB-B0ED-9594FA6E2318</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/cwiseop_2.vcxproj">
+      <Project>F94C9AEA-0E92-3FC4-B386-DC5B1F869381</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/cwiseop_3.vcxproj">
+      <Project>435E46FD-5EB9-30DA-A850-3F1EE3AA9101</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/cwiseop_4.vcxproj">
+      <Project>E1491CAC-70F2-38C9-9BD0-A03AD25E795E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/cwiseop_5.vcxproj">
+      <Project>18DD9739-A52A-396E-A7B7-06A1F7743F68</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/cwiseop_6.vcxproj">
+      <Project>BF9A6BAE-6330-3F5C-939E-2678C74D9FD9</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/determinant_1.vcxproj">
+      <Project>F6A4BB41-CD4D-3D47-A1A3-FB8ED2A9E313</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/determinant_2.vcxproj">
+      <Project>74668EBA-6723-33D3-980E-ED164890F654</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/determinant_3.vcxproj">
+      <Project>8E7FD006-9AA4-3904-8A81-1C15E7E54D5F</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/determinant_4.vcxproj">
+      <Project>98EE6831-2B55-3AEF-BD67-0811DA81E23F</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/determinant_5.vcxproj">
+      <Project>BE299514-DD00-339D-8799-10CEA0E84CBC</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/determinant_6.vcxproj">
+      <Project>A26E6796-9093-3104-BBFD-28EAFB1CDBA5</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/diagonal_1.vcxproj">
+      <Project>E784A18F-F3F5-314B-9285-1D6E249A9A71</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/diagonal_2.vcxproj">
+      <Project>6959A8EC-3781-312D-B367-C3579E0E3000</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/diagonalmatrices_1.vcxproj">
+      <Project>073FF21B-AC92-34A1-84B4-C9C51ABE5320</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/diagonalmatrices_2.vcxproj">
+      <Project>D8B993B9-42A8-3B1D-A53D-D6A5D567878C</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/diagonalmatrices_3.vcxproj">
+      <Project>E699AF8F-CC17-37DC-AC08-F00581B40FAA</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/diagonalmatrices_4.vcxproj">
+      <Project>112E9062-BB39-3B2F-B60B-3F4686DA04D7</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/diagonalmatrices_5.vcxproj">
+      <Project>5190218E-BB9F-309E-B82A-BF63F6A625A5</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/diagonalmatrices_6.vcxproj">
+      <Project>4FA13FFA-589E-316C-9356-6202CCF571A1</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/diagonalmatrices_7.vcxproj">
+      <Project>ED58FC5C-E92D-35E8-8E80-3E69E27BFEDB</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/diagonalmatrices_8.vcxproj">
+      <Project>C52F8398-1A5E-3B24-9518-00F57D26DDA5</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/diagonalmatrices_9.vcxproj">
+      <Project>3C8E8BEB-4778-376C-970D-703137FAE6D5</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/dontalign_1.vcxproj">
+      <Project>0F9CE04A-83D3-3974-B90A-F05B2E5DC340</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/dontalign_2.vcxproj">
+      <Project>361E620C-6A63-3949-A6C7-A4B8BA218FE9</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/dontalign_3.vcxproj">
+      <Project>BCDCF713-0F89-3706-8F92-FCDDB2F7E292</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/dontalign_4.vcxproj">
+      <Project>CCB79CDD-6D6C-312A-9CE4-30AF89BA7E75</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/dontalign_5.vcxproj">
+      <Project>EB114FE3-3E68-3EDC-8CF0-D0DFA2E6B958</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/dontalign_6.vcxproj">
+      <Project>FC8C03B7-02CB-3612-AE1C-D8639B4DB293</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/dontalign_7.vcxproj">
+      <Project>26CCA793-F727-3E54-8719-903C33F0CCE5</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/dontalign_8.vcxproj">
+      <Project>7E6A2038-6B15-3BF6-B67D-0CEE63FB9363</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/dynalloc.vcxproj">
+      <Project>8A5D587E-C618-3999-B075-9BC64A03E7AD</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/eigen2support_1.vcxproj">
+      <Project>D78C66EF-90B4-3AAE-B1F4-A9C0E5AF6D8E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/eigen2support_2.vcxproj">
+      <Project>76E20D81-BD5D-3E42-86BC-B56398533655</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/eigen2support_4.vcxproj">
+      <Project>5E8AAB8C-E9F2-3698-A1AE-E0BB03E50BED</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/eigen2support_5.vcxproj">
+      <Project>06EC85A6-C069-3415-8A37-97706EB1499C</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/eigen2support_6.vcxproj">
+      <Project>350653CE-CCEB-3856-AD5F-8D873A42133E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/eigensolver_complex_1.vcxproj">
+      <Project>86924F85-E1F1-3C17-BDEB-E767B20F4B04</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/eigensolver_complex_2.vcxproj">
+      <Project>DEEFF230-3911-3DFB-A613-E711165DB78E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/eigensolver_complex_3.vcxproj">
+      <Project>06334486-B0FF-376A-B4A3-A0C313651387</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/eigensolver_complex_4.vcxproj">
+      <Project>32B7DD82-C789-3E40-9722-400A77276D80</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/eigensolver_complex_5.vcxproj">
+      <Project>E57AF1CB-ABE2-3B4C-8E92-D7C4D0CEB3F6</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/eigensolver_generalized_real_1.vcxproj">
+      <Project>C7FAE46B-7D77-39F7-A5B1-8B10C75600A3</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/eigensolver_generalized_real_2.vcxproj">
+      <Project>3200FEFD-7737-380C-9FDF-9BCA8E78674A</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/eigensolver_generalized_real_3.vcxproj">
+      <Project>D67E14E9-ED6C-3AB5-A9DC-00F6641F23DD</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/eigensolver_generalized_real_4.vcxproj">
+      <Project>BE600519-A39E-3118-AC86-7784FCBA44BA</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/eigensolver_generic_1.vcxproj">
+      <Project>A37F2B9E-BA68-39BE-A2C3-658284978FB7</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/eigensolver_generic_2.vcxproj">
+      <Project>5AB20BE6-AEBB-3487-8B50-D361037D5352</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/eigensolver_generic_3.vcxproj">
+      <Project>4BA4038E-4202-3BE5-8F01-CA5E7DC722C0</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/eigensolver_generic_4.vcxproj">
+      <Project>E3B33267-548C-3F14-966C-D841B2D90033</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/eigensolver_generic_5.vcxproj">
+      <Project>CF44991E-B852-3201-BF0E-7E99D5129B2A</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/eigensolver_selfadjoint_1.vcxproj">
+      <Project>1C4E6948-B6C2-3508-B706-242B34933A61</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/eigensolver_selfadjoint_2.vcxproj">
+      <Project>DD7C26F5-E7C3-3E97-8382-0DE3E1E9E974</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/eigensolver_selfadjoint_3.vcxproj">
+      <Project>800897BB-8651-3B4F-8E86-17F6DE31872F</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/eigensolver_selfadjoint_4.vcxproj">
+      <Project>387ABCF2-31F1-3AC2-934C-32B2FE0879C9</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/eigensolver_selfadjoint_5.vcxproj">
+      <Project>AC23826F-09D8-3695-ACCC-A6D0E86E407B</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/eigensolver_selfadjoint_6.vcxproj">
+      <Project>184FD3DE-9FE0-3718-B92B-A417EFB5A32E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/eigensolver_selfadjoint_7.vcxproj">
+      <Project>DF4D524B-8776-37A9-8CEA-0C16CFB02F55</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/eigensolver_selfadjoint_8.vcxproj">
+      <Project>DC9BA429-FAFF-30CB-8122-A13F7D4DCDB0</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/eigensolver_selfadjoint_9.vcxproj">
+      <Project>8B11FEB6-ECBA-3585-9425-D206AF2D12B3</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/exceptions.vcxproj">
+      <Project>15EFAF8A-736C-3363-9AE6-2C8966E88B89</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/first_aligned.vcxproj">
+      <Project>1264828C-72C7-35FB-B99B-0456F9C35457</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/geo_alignedbox_1.vcxproj">
+      <Project>270E01F1-C993-30F9-BC25-EE38BD9D87F7</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/geo_alignedbox_10.vcxproj">
+      <Project>D1A1B6B2-8D71-3807-B61F-6933DF146334</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/geo_alignedbox_11.vcxproj">
+      <Project>488FCF86-CBA7-3338-B8CE-BAC488E0794B</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/geo_alignedbox_12.vcxproj">
+      <Project>31DA8968-EEC2-37E5-AB5A-BB6968068D42</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/geo_alignedbox_13.vcxproj">
+      <Project>DD97A57B-9727-3AD5-9A01-BBD487CC59A0</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/geo_alignedbox_2.vcxproj">
+      <Project>0CB6B080-C04E-31DF-A026-4172A7DCA831</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/geo_alignedbox_3.vcxproj">
+      <Project>DF3FBDEC-E4FE-32DE-8D21-147D152FBAE5</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/geo_alignedbox_4.vcxproj">
+      <Project>96A12B8A-3931-3E0A-848F-2C2F2A14D1A8</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/geo_alignedbox_5.vcxproj">
+      <Project>36AADCE6-8775-3824-BFF8-30EA17C3833B</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/geo_alignedbox_6.vcxproj">
+      <Project>DBDF12B7-A6C6-3D76-B284-CB2B39A816D1</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/geo_alignedbox_7.vcxproj">
+      <Project>DA81ACCD-EC53-3D1D-9DED-604EC8B5BEA2</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/geo_alignedbox_8.vcxproj">
+      <Project>18A1C97B-5DAD-3135-8163-2359529E742A</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/geo_alignedbox_9.vcxproj">
+      <Project>6F876996-DFAC-387C-84EA-DB2BBE7CF287</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/geo_eulerangles_1.vcxproj">
+      <Project>E7613387-78B2-305C-8912-584515520D45</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/geo_eulerangles_2.vcxproj">
+      <Project>E3B6396E-6618-3BF5-AC23-8A2AFD678359</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/geo_homogeneous_1.vcxproj">
+      <Project>6D438DE2-5A35-3331-9B49-41E770073729</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/geo_homogeneous_2.vcxproj">
+      <Project>7BB75262-45E0-3136-9437-113EC6F2FEDE</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/geo_homogeneous_3.vcxproj">
+      <Project>15C8E4DC-25BA-3F28-B3E5-2AF987422B6B</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/geo_hyperplane_1.vcxproj">
+      <Project>66EAD6CE-A2C9-3D17-9927-162008D7DEED</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/geo_hyperplane_2.vcxproj">
+      <Project>7FFFE30D-5513-362E-B60B-F70F750DF6BA</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/geo_hyperplane_3.vcxproj">
+      <Project>4CE6977E-3565-3022-B876-BAC05D086B90</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/geo_hyperplane_4.vcxproj">
+      <Project>946C9DC6-EC8B-357F-AB28-EBE25A2C19CB</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/geo_hyperplane_5.vcxproj">
+      <Project>F9FA5355-E1E8-3D1B-9934-4628C9754E82</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/geo_orthomethods_1.vcxproj">
+      <Project>3D905A70-1B90-3FDF-BA60-C79C70699B4B</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/geo_orthomethods_2.vcxproj">
+      <Project>303E24DA-C1C4-3A63-9B65-4481C828501D</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/geo_orthomethods_3.vcxproj">
+      <Project>6A167946-5387-3A03-878F-66BDFB497E99</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/geo_orthomethods_4.vcxproj">
+      <Project>DE13EF55-9D7E-3EBC-9DFF-F305B9F782BB</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/geo_orthomethods_5.vcxproj">
+      <Project>D4228616-BD5E-3D59-9677-68EE9C4C9482</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/geo_orthomethods_6.vcxproj">
+      <Project>D69D1264-00A4-377B-9744-A25A80863A92</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/geo_parametrizedline_1.vcxproj">
+      <Project>6D070F1F-500A-3391-9598-C92A7526F93E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/geo_parametrizedline_2.vcxproj">
+      <Project>5B929D48-460A-3344-B39F-2C1AD7389E06</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/geo_parametrizedline_3.vcxproj">
+      <Project>0046EE2E-A0DD-34C4-AE65-0278320CB356</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/geo_parametrizedline_4.vcxproj">
+      <Project>97658F95-2E05-3C88-AE24-4E38E893F4A5</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/geo_quaternion_1.vcxproj">
+      <Project>74542F49-45CB-359D-B9B2-B5BD1E2AA712</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/geo_quaternion_2.vcxproj">
+      <Project>EE3FBCE1-7D1B-3EC2-9711-54BD67D20840</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/geo_quaternion_3.vcxproj">
+      <Project>DAD45F8E-2397-3143-916A-AFFDB4044424</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/geo_quaternion_4.vcxproj">
+      <Project>CE8296AE-4702-3C79-AD39-A3917AA74DF7</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/geo_quaternion_5.vcxproj">
+      <Project>45E66D5C-B683-3F50-9AC6-CB011C778907</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/geo_quaternion_6.vcxproj">
+      <Project>953B255E-0FC2-3C36-9F3B-238D4D6B2849</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/geo_transformations_1.vcxproj">
+      <Project>A5754700-BE1D-360C-8C51-867FEC2BCE74</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/geo_transformations_2.vcxproj">
+      <Project>A33786BB-CF59-368C-908C-939A35B660BC</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/geo_transformations_3.vcxproj">
+      <Project>15CAB288-261A-3E06-8692-9520E3160305</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/geo_transformations_4.vcxproj">
+      <Project>F7BCE992-07EE-341F-9A3D-21112989AD25</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/geo_transformations_5.vcxproj">
+      <Project>CDEEF423-7F8E-3807-BD35-7B87D409D7E0</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/geo_transformations_6.vcxproj">
+      <Project>3C09A668-B863-3E4F-AE2E-455799AAD42F</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/geo_transformations_7.vcxproj">
+      <Project>833AFC13-0A34-3C79-9FD7-7C39279E1ABC</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/hessenberg_1.vcxproj">
+      <Project>B190A997-3104-3B2D-AEDA-33992EF98AA9</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/hessenberg_2.vcxproj">
+      <Project>92B83537-2A14-3B37-BBC3-814739584817</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/hessenberg_3.vcxproj">
+      <Project>699A3459-6B2B-3025-B350-4D6E290FD90B</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/hessenberg_4.vcxproj">
+      <Project>D515D9BE-E805-373C-A33D-3E64D985EAD1</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/hessenberg_5.vcxproj">
+      <Project>DBB51939-413D-310D-A8BD-88ED9C61BEEB</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/hessenberg_6.vcxproj">
+      <Project>1306102A-303A-38DA-B5CA-E109AEF5D23C</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/householder_1.vcxproj">
+      <Project>8C8A778B-2476-3187-9F26-6C80814970B7</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/householder_2.vcxproj">
+      <Project>7D099DB0-28F2-3D3D-B544-EF44EB91070D</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/householder_3.vcxproj">
+      <Project>763A5392-E39A-32AB-A839-5AB7DF4EF614</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/householder_4.vcxproj">
+      <Project>D28DD697-7F6D-317C-8EEE-D2CA3E6404D8</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/householder_5.vcxproj">
+      <Project>BCB72872-D875-319D-BC3D-A45D65282865</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/householder_6.vcxproj">
+      <Project>F665B10B-D864-3EC8-8958-687E964E73C5</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/householder_7.vcxproj">
+      <Project>2A48E594-3EE4-34B5-8A3A-9229A27B3393</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/householder_8.vcxproj">
+      <Project>02C2A084-CED3-3EA0-BD66-8DCBEBF599FE</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/integer_types_1.vcxproj">
+      <Project>C29AEAF7-2FC7-318A-BA7A-3F3884DC5128</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/integer_types_2.vcxproj">
+      <Project>7A7D5523-62F9-378E-B6B0-36DFA2C8A7BE</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/integer_types_3.vcxproj">
+      <Project>11D46F10-85EF-3628-97CA-037AFF570B9B</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/integer_types_4.vcxproj">
+      <Project>4C1ED440-B924-3A97-9AF6-7F567EBE0D9A</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/integer_types_5.vcxproj">
+      <Project>21FDE849-614C-38E9-AD36-08F35554B8A7</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/integer_types_6.vcxproj">
+      <Project>12EAD1D9-BA28-3F85-A5F3-CCF47A16F8F1</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/integer_types_7.vcxproj">
+      <Project>CBE0D86D-F2E0-378E-9A90-90B0893C1895</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/integer_types_8.vcxproj">
+      <Project>AE6F2671-9B35-3D16-8269-A801156B26B1</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/inverse_1.vcxproj">
+      <Project>4BA005B8-D37F-3371-ACDA-CB548CB8D3A7</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/inverse_2.vcxproj">
+      <Project>DD0604A1-E207-3C6B-A520-3443B4403886</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/inverse_3.vcxproj">
+      <Project>A46E26CF-58C8-3873-BC3D-A6CE5BFD2D17</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/inverse_4.vcxproj">
+      <Project>2DCFF0E9-EE08-3AE8-9F28-97D34ACC16A2</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/inverse_5.vcxproj">
+      <Project>2D4CA7B5-4447-3C14-8CED-942ADBEA4945</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/inverse_6.vcxproj">
+      <Project>C6FCC6A5-A0ED-3051-B895-EE3948C79506</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/inverse_7.vcxproj">
+      <Project>4B380C11-2BFC-3975-AA59-752C1E6E73AA</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/jacobi_1.vcxproj">
+      <Project>605DACF2-9C8A-37F6-997E-C33931EF4774</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/jacobi_2.vcxproj">
+      <Project>6DDD170D-D955-397A-97BD-B0D9BE672CE2</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/jacobi_3.vcxproj">
+      <Project>88540542-1E5D-35C7-AC2F-BACE5738CAC6</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/jacobi_4.vcxproj">
+      <Project>22851D39-F0E1-3295-88E7-247C9F428E1A</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/jacobi_5.vcxproj">
+      <Project>4CB5BEFB-FA29-324D-B21E-FE78CD710327</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/jacobi_6.vcxproj">
+      <Project>5FB84ED9-9DBD-3C97-997B-E4573E3C6A61</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/jacobisvd_1.vcxproj">
+      <Project>C8047298-5E7C-330A-BB5B-C6EBA8C6B6DE</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/jacobisvd_10.vcxproj">
+      <Project>932FDF13-7706-3112-89F3-3CC270DC705D</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/jacobisvd_2.vcxproj">
+      <Project>F5B39317-A2A9-3ACE-BF42-8C6A32666D7B</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/jacobisvd_3.vcxproj">
+      <Project>71D8BB64-BD56-36A9-BAA6-18DFC804C5AD</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/jacobisvd_4.vcxproj">
+      <Project>9E9D7B72-6533-3F89-A50F-135AD2143F6F</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/jacobisvd_5.vcxproj">
+      <Project>8D47EBE8-9B29-39D3-A366-B9E0A698BDED</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/jacobisvd_6.vcxproj">
+      <Project>C7096E3C-57C3-3DA9-8BF3-021D8B2828C1</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/jacobisvd_7.vcxproj">
+      <Project>C55CE271-A773-309F-920B-4DE93602C7DA</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/jacobisvd_8.vcxproj">
+      <Project>9B86F7C5-4E71-35CD-BB1B-E1C8DE1819A1</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/jacobisvd_9.vcxproj">
+      <Project>6785DB3C-DB44-30D1-A4A6-E59F8AFA6A3E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/linearstructure_1.vcxproj">
+      <Project>4E76E283-EA7B-3F0C-ADC3-A052446D99DF</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/linearstructure_2.vcxproj">
+      <Project>3A01F4F6-9689-3BE5-A2FB-7537F1755EB4</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/linearstructure_3.vcxproj">
+      <Project>A145F9E8-31F2-386F-B158-661B4EA2394C</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/linearstructure_4.vcxproj">
+      <Project>00DD7D3A-0571-3B3F-8E40-88871F5F4240</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/linearstructure_5.vcxproj">
+      <Project>77BB3FE8-1D3E-35A7-A500-C36C42ED21CD</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/linearstructure_6.vcxproj">
+      <Project>BA85B600-0CA2-3A21-9316-C30BCB5CB2F5</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/linearstructure_7.vcxproj">
+      <Project>D072407A-C6A5-3B11-A8CF-8B76874D8A04</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/linearstructure_8.vcxproj">
+      <Project>B116FEC0-9281-353D-B1D6-B7C191C84BD6</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/linearstructure_9.vcxproj">
+      <Project>42EEC7F7-754C-35CE-AC49-DA8E6DA737DD</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/lu_1.vcxproj">
+      <Project>6AE635C8-67CF-3D07-9002-868D0744D8D8</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/lu_2.vcxproj">
+      <Project>2B082309-11ED-36F3-835E-76A5E3670FA2</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/lu_3.vcxproj">
+      <Project>4F1AD7A6-7169-3D64-9645-783401FB653F</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/lu_4.vcxproj">
+      <Project>C59AB582-0877-3632-B63D-08D6C389F730</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/lu_5.vcxproj">
+      <Project>62E4FF34-9D8E-3355-BBCC-CBF3671DEFEE</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/lu_6.vcxproj">
+      <Project>89084799-21FF-330D-AAB9-B1E5D7D7356B</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/lu_7.vcxproj">
+      <Project>151B80AE-E4B8-33E0-A683-6D0FBFF94C89</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/lu_9.vcxproj">
+      <Project>5112B9E3-72BD-307C-BD01-9EBD2DAE7C3D</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/mapped_matrix_1.vcxproj">
+      <Project>89238981-4BC4-3274-AAB1-684CAAF31565</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/mapped_matrix_10.vcxproj">
+      <Project>908017BE-2A4D-35C8-B448-AE6AD548E1F0</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/mapped_matrix_11.vcxproj">
+      <Project>F0891DBC-D301-3FCF-9AF8-79FC799D27C9</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/mapped_matrix_2.vcxproj">
+      <Project>4AEC482D-BA85-3215-988A-B0FD86066B4D</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/mapped_matrix_3.vcxproj">
+      <Project>ADC97054-3BB0-3CC8-8B0F-B0F0C27D9720</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/mapped_matrix_4.vcxproj">
+      <Project>D0771F6B-3876-35B5-A2DC-1BE752F8D78A</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/mapped_matrix_5.vcxproj">
+      <Project>75556A3C-318F-3C9A-9031-8A105356268A</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/mapped_matrix_6.vcxproj">
+      <Project>5D700C72-6871-3170-A02C-25480CD06A6C</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/mapped_matrix_7.vcxproj">
+      <Project>184022D6-7C40-3BDB-A114-4CB1948D3C0C</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/mapped_matrix_8.vcxproj">
+      <Project>3D3E9625-24B5-3C72-A858-9990C5098FDA</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/mapped_matrix_9.vcxproj">
+      <Project>6C2780F1-EA74-37CF-B27F-A8A25A9857BE</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/mapstaticmethods_1.vcxproj">
+      <Project>90A80668-4C7A-3EC0-B658-EC396FA225D7</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/mapstaticmethods_2.vcxproj">
+      <Project>8192C26C-081E-339E-B9AF-B26DBE45BDD8</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/mapstaticmethods_3.vcxproj">
+      <Project>B749D7D2-6149-3B42-B3AB-86B866B7A4F5</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/mapstaticmethods_4.vcxproj">
+      <Project>FC2DC068-B30F-3EED-B059-3A971348F919</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/mapstaticmethods_5.vcxproj">
+      <Project>3DD0FCEE-16C3-3273-8FC0-932982DE874E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/mapstaticmethods_6.vcxproj">
+      <Project>7181A3FD-A7F0-30FD-ADA5-BDE042CF1127</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/mapstaticmethods_7.vcxproj">
+      <Project>1905931C-7A34-39FB-AB77-60016EAB62A1</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/mapstaticmethods_8.vcxproj">
+      <Project>8CD08B2E-44C6-3902-BD3C-9BDF016F7B2E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/mapstride_1.vcxproj">
+      <Project>8CD38014-D3A0-3AAA-9926-3E3116353ACA</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/mapstride_2.vcxproj">
+      <Project>E5726025-1EBE-33FC-869D-92BE61B6839F</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/mapstride_3.vcxproj">
+      <Project>60FAEBF7-F48E-35FC-BD8A-CA54F9237EC6</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/mapstride_4.vcxproj">
+      <Project>8A07700C-2A50-3B85-AA00-AD67AEEEC0EA</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/mapstride_5.vcxproj">
+      <Project>E99E413A-769F-3AF6-B211-DCAF344D0225</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/mapstride_6.vcxproj">
+      <Project>53FE8795-7221-390D-8F7F-6CCEFDB195F1</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/meta.vcxproj">
+      <Project>0E74E51A-C110-3C09-8334-0EF1ECEF0A91</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/miscmatrices_1.vcxproj">
+      <Project>DFA2C8FC-78B2-3DC5-9F94-A678F99228AB</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/miscmatrices_2.vcxproj">
+      <Project>94580CB2-FA4A-3FA8-83DE-F80A5C3074C0</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/miscmatrices_3.vcxproj">
+      <Project>F914A8B9-A85A-364D-810F-F4B23088C9CC</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/miscmatrices_4.vcxproj">
+      <Project>EDBB5429-17F7-3229-924C-240D7A17FA3E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/miscmatrices_5.vcxproj">
+      <Project>1B1E284F-E47C-3EEB-AE18-002841152CB6</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/mixingtypes_1.vcxproj">
+      <Project>830BD7BC-73B3-3271-8BF4-EA6CFE93EEDE</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/mixingtypes_2.vcxproj">
+      <Project>76A637E3-CDBD-3CFB-AF9E-A7657B93A8FE</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/mixingtypes_3.vcxproj">
+      <Project>A5D7D58A-9A3A-353F-92A8-2C4CE01A3FF7</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/nesting_ops_1.vcxproj">
+      <Project>D422C062-58BF-3062-BF29-D4CBF054C182</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/nesting_ops_2.vcxproj">
+      <Project>41A1473F-7C47-3F76-9869-D31775A64D55</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/nesting_ops_3.vcxproj">
+      <Project>D25BD526-1736-3965-8F1F-805CEB111F11</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/nesting_ops_4.vcxproj">
+      <Project>B089C501-DA62-3C17-A595-E83B46F21042</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/nomalloc_1.vcxproj">
+      <Project>9F64EFA2-C5FF-3CEA-9C36-15356C8DB3E2</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/nomalloc_2.vcxproj">
+      <Project>4317CEBA-6B40-3552-A179-CBD0886F9D94</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/nomalloc_3.vcxproj">
+      <Project>DDBFF65E-11BC-3CBD-800D-3A0F0F70BAD1</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/nomalloc_4.vcxproj">
+      <Project>99FF378D-8468-3CBF-AFB0-56DDD3372D26</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/nomalloc_5.vcxproj">
+      <Project>F427EACA-4E4E-3085-9EE6-A806E9ED851D</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/nomalloc_6.vcxproj">
+      <Project>C78302A1-C2C6-3BA4-838F-7C2CF92430F8</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/nullary_1.vcxproj">
+      <Project>94D2CD86-B49D-32BE-809D-57AFAE48D457</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/nullary_2.vcxproj">
+      <Project>B0755E40-3D1B-3779-AC6B-2F00A45E6710</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/nullary_3.vcxproj">
+      <Project>9C475539-FA50-3428-8EE0-E5B07298B421</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/nullary_4.vcxproj">
+      <Project>20C2FC75-0854-3716-90C9-E27CDE28FF19</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/nullary_5.vcxproj">
+      <Project>3AE0B62D-E089-3576-ADCF-F8CDD799DB68</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/nullary_6.vcxproj">
+      <Project>5D79C5D4-E3DD-35C9-8AF2-FEB964E247AF</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/nullary_7.vcxproj">
+      <Project>9EA120CE-F825-35C0-8E4E-D896BD30BE4A</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/nullary_8.vcxproj">
+      <Project>B3F00D67-E014-3E67-929B-E7A9F14FEC17</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/packetmath_1.vcxproj">
+      <Project>8FE6C266-8076-3DCD-BA10-7689E4BC623D</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/packetmath_2.vcxproj">
+      <Project>A49DA455-2875-3A16-909E-60EF7A4826C5</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/packetmath_3.vcxproj">
+      <Project>15F8DCC0-6CEA-3BF6-89AE-83DB886EE417</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/permutationmatrices_1.vcxproj">
+      <Project>3ED74367-1B41-3635-B17B-192C3E5C740B</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/permutationmatrices_2.vcxproj">
+      <Project>934E7A51-9BB8-38A0-8701-9DEC248E1431</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/permutationmatrices_3.vcxproj">
+      <Project>76E9D553-21D5-38C7-A142-985D0DD0AD26</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/permutationmatrices_4.vcxproj">
+      <Project>1AD96B13-B078-301F-93CC-A0B5FE8FD8DA</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/permutationmatrices_5.vcxproj">
+      <Project>C79E38AC-5952-3F24-B219-FB393D86B4BB</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/permutationmatrices_6.vcxproj">
+      <Project>E163ACEF-CDC0-378F-9598-952F8FC3D264</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/permutationmatrices_7.vcxproj">
+      <Project>91482E14-DA82-3292-A331-7D4AE3A8902E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/prec_inverse_4x4_1.vcxproj">
+      <Project>BA235FFD-B709-3C7A-BBBE-CE26C6C4444F</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/prec_inverse_4x4_2.vcxproj">
+      <Project>AAF4F90E-1426-3C34-9539-58F2AFF9F8D8</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/prec_inverse_4x4_3.vcxproj">
+      <Project>0494CD79-A6E4-3B55-BABF-C21BFBA44036</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_extra_1.vcxproj">
+      <Project>885C9324-7753-3415-A674-BD2AB2B3C806</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_extra_2.vcxproj">
+      <Project>F352D0B8-2B66-31B4-BCA8-CC2B8868959E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_extra_3.vcxproj">
+      <Project>10E282A9-CAEB-3B0E-991E-298FEC210757</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_extra_4.vcxproj">
+      <Project>20CCDDDD-AF9A-320C-B05B-99CD0DD22A63</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_extra_5.vcxproj">
+      <Project>6090DF17-673D-3490-9F59-83ECE83C9DD2</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_extra_6.vcxproj">
+      <Project>3FD63CA1-D662-3EE1-9EB1-D4A3F562EA36</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_large_1.vcxproj">
+      <Project>E45FBD7D-9690-3708-B8EC-424EB6F6EDC5</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_large_2.vcxproj">
+      <Project>E4EA4914-E6D5-35C0-9603-ED6DED20C4C1</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_large_3.vcxproj">
+      <Project>86DE5972-CC37-34D2-8280-8B24D197B04A</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_large_4.vcxproj">
+      <Project>730D2DCC-595E-3763-A7C5-36E639FF6380</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_large_5.vcxproj">
+      <Project>E92E2EF4-B513-3391-8946-B21EC86185A3</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_large_6.vcxproj">
+      <Project>D4DCA66C-C60B-3DF7-BFAB-5090CC5B8E66</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_mmtr_1.vcxproj">
+      <Project>741E280C-19DB-30F7-8D10-47A2A8DCDC57</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_mmtr_2.vcxproj">
+      <Project>CBBF5267-8135-3449-82EB-DBD853BEFAA8</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_mmtr_3.vcxproj">
+      <Project>58B4A21C-6C7C-3067-AB77-A4F898B2A8F1</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_mmtr_4.vcxproj">
+      <Project>DC167420-2A96-3E9B-AFCC-99FDC8F7DC6C</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_notemporary_1.vcxproj">
+      <Project>038FE6CC-ECD6-3AB4-92AB-D53DC405D26D</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_notemporary_2.vcxproj">
+      <Project>F40E71AE-AD21-324D-91EB-7108D5944206</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_notemporary_3.vcxproj">
+      <Project>6CE6E552-A22C-3B84-AF19-37F296B87B95</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_notemporary_4.vcxproj">
+      <Project>14413071-CC19-3B80-B422-05B436C4BA77</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_selfadjoint_1.vcxproj">
+      <Project>CE54CBB1-4591-3369-A920-9999EE580DCF</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_selfadjoint_2.vcxproj">
+      <Project>9AA0C010-82C0-39EA-BE6A-6C0CCE487067</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_selfadjoint_3.vcxproj">
+      <Project>E14CA6EB-EC6C-3D84-88B6-698128187555</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_selfadjoint_4.vcxproj">
+      <Project>5DF99C72-349A-3E47-AA9F-362F6D245C9D</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_selfadjoint_5.vcxproj">
+      <Project>F6FD90FB-83C7-3A3A-BD3B-7F2306A82295</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_selfadjoint_6.vcxproj">
+      <Project>B7604100-43DC-39AE-ADFF-4650708C69F0</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_selfadjoint_7.vcxproj">
+      <Project>2C6A93A8-3F65-38E0-9303-8A90FBFBB521</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_small_1.vcxproj">
+      <Project>ED6B2886-2C40-3F7D-9F46-24E4C6D8DE70</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_small_2.vcxproj">
+      <Project>2283D61C-EC7C-3C09-B448-AF6D2AAF5639</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_small_3.vcxproj">
+      <Project>2646329B-136A-305D-AAE4-E576E82E363D</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_small_4.vcxproj">
+      <Project>82298437-5234-32C7-966E-DBB827830D12</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_small_5.vcxproj">
+      <Project>5C1EC0C1-7FA3-3978-B26C-1AA83A62D533</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_small_6.vcxproj">
+      <Project>A082AD96-5D3D-3E6C-B626-C26E3309A0F4</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_symm_1.vcxproj">
+      <Project>4A0635ED-701B-35D3-9015-4982AF1FEB28</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_symm_2.vcxproj">
+      <Project>33A48728-CD16-3D08-9627-3A54F7F44F2F</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_symm_3.vcxproj">
+      <Project>93C56B6E-84B1-3A14-A306-9971B727E6BE</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_symm_4.vcxproj">
+      <Project>6FA4F302-DE58-3120-93DC-AA781EE6893C</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_symm_5.vcxproj">
+      <Project>B8261D1B-AA8C-3614-980E-552890E37B17</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_symm_6.vcxproj">
+      <Project>8652034C-BBCB-3030-BB58-830AEAB61B79</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_symm_7.vcxproj">
+      <Project>C47EADD6-CC75-37A6-A69C-5916B84ECA32</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_symm_8.vcxproj">
+      <Project>80037439-6EA5-38CC-B01C-D73D0E45D452</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_syrk_1.vcxproj">
+      <Project>E9858B5D-1AEE-35A0-B1DF-A6F77B960448</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_syrk_2.vcxproj">
+      <Project>95BF811C-8046-3688-B3A0-BB68EE800C47</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_syrk_3.vcxproj">
+      <Project>5E738E43-09D4-3A96-A1CE-4DD0B59C49C3</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_syrk_4.vcxproj">
+      <Project>1F25F09A-2FE7-346F-AB0B-7BCBBEAE1585</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_trmm_1.vcxproj">
+      <Project>19FCB823-15EC-3470-9589-87869F52E64C</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_trmm_11.vcxproj">
+      <Project>6F941E28-5DE2-3F1A-BE61-1E29A06B884E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_trmm_111.vcxproj">
+      <Project>D10E112F-AF06-3002-91E8-7FBCF5C6D24A</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_trmm_112.vcxproj">
+      <Project>A5558BA5-E01B-36FF-84C2-90132E90E7CE</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_trmm_113.vcxproj">
+      <Project>FAF2ABAC-9062-3037-BF02-114832C34229</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_trmm_114.vcxproj">
+      <Project>71A8CA6B-2CF4-3D1B-9FC6-81FCB089F4D2</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_trmm_12.vcxproj">
+      <Project>42E3AF99-815D-3F72-88B5-1E00FE16163F</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_trmm_121.vcxproj">
+      <Project>9ED61F02-D00E-35BA-A634-5EC095435FE6</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_trmm_122.vcxproj">
+      <Project>BC6F390A-4C75-39D2-9ED8-D6ADF0D080C8</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_trmm_123.vcxproj">
+      <Project>463D7BBD-D33C-3475-84EF-56F3CCEE7EEB</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_trmm_124.vcxproj">
+      <Project>83504ABD-C3F4-32C4-97B0-F3F8B25D4F49</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_trmm_13.vcxproj">
+      <Project>919AE282-52F1-3965-AD69-A36A4B464558</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_trmm_131.vcxproj">
+      <Project>4550D374-2C70-3581-A6F7-25DAA1804B9B</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_trmm_132.vcxproj">
+      <Project>94862A73-22CB-36A5-99BA-83283CE0F8BF</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_trmm_133.vcxproj">
+      <Project>878F339F-2349-3F21-B79D-92130A63ADCB</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_trmm_134.vcxproj">
+      <Project>3491A928-928A-30D6-A8A8-38775C0DED8B</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_trmm_14.vcxproj">
+      <Project>5421DB21-4A68-394F-AC36-B164ECD83B02</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_trmm_21.vcxproj">
+      <Project>4AC0C7F7-D9A6-3CB9-B97D-96FBEBAFC23A</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_trmm_22.vcxproj">
+      <Project>285A79F5-AF71-3A18-A6EA-A11D1D6BAA7B</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_trmm_23.vcxproj">
+      <Project>CEDEA435-35DF-3F42-9085-7E034CAB989C</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_trmm_24.vcxproj">
+      <Project>907D1DE1-B128-3EE4-86F2-0389115BBF1D</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_trmm_31.vcxproj">
+      <Project>6BB57DB2-B82A-3850-826C-2EAA083D1ED6</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_trmm_32.vcxproj">
+      <Project>75A6B424-36B6-3463-9923-6B63C26A4241</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_trmm_33.vcxproj">
+      <Project>9424BE65-9FFD-3755-8D3D-E55250A7EC3E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_trmm_34.vcxproj">
+      <Project>1F521976-8C62-3DA9-A4D4-260BD8B9C567</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_trmv_1.vcxproj">
+      <Project>0BAAAC51-7368-3E70-BA81-9784720435A3</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_trmv_2.vcxproj">
+      <Project>D3329BD0-ADF2-3683-A115-23C02F7FE5E6</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_trmv_3.vcxproj">
+      <Project>F93723DB-844C-3597-A263-28929E641588</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_trmv_4.vcxproj">
+      <Project>2724BDAE-9513-3382-98EF-F0DE43C5ED04</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_trmv_5.vcxproj">
+      <Project>A40933A3-DDB3-3730-A518-0676C7321AD7</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_trmv_6.vcxproj">
+      <Project>34080180-AB8C-3F6A-AFA9-8A7C1E32C94D</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_trsolve_1.vcxproj">
+      <Project>444524A0-DE7B-3AC1-8964-0A7CA3CB7490</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_trsolve_2.vcxproj">
+      <Project>BD7CA585-05CC-345C-AA65-56BAD2A1B8C6</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_trsolve_3.vcxproj">
+      <Project>277E98EE-4727-3185-BDEE-D107BB323511</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_trsolve_4.vcxproj">
+      <Project>89EB5547-0953-30A2-80A9-B6FE977CC590</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_trsolve_5.vcxproj">
+      <Project>2D7701B6-45A9-3F65-9DB6-C5A33FBC68B7</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_trsolve_6.vcxproj">
+      <Project>EF70EF26-493E-3CC1-BB10-B7A63C2C98CF</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_trsolve_7.vcxproj">
+      <Project>580C44F3-CF4F-375A-B9C7-447D583DB1CF</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/product_trsolve_8.vcxproj">
+      <Project>CBCCD5B8-D1EF-3002-9D29-DA01CEAC307D</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/qr_1.vcxproj">
+      <Project>05B4B7C0-9684-3A64-B3F6-AF5BF242C93B</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/qr_10.vcxproj">
+      <Project>713593F4-47F9-385B-8D81-B5524375E1AD</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/qr_11.vcxproj">
+      <Project>AEBF503B-07DA-3466-AA14-4068829E1F99</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/qr_12.vcxproj">
+      <Project>F583E84F-9308-39D2-A35D-B9D59C1D6893</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/qr_2.vcxproj">
+      <Project>66199DCF-7B29-31A5-9CC7-74ECE5D7698D</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/qr_3.vcxproj">
+      <Project>E965E3E1-F882-3BF8-9878-885F63929948</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/qr_4.vcxproj">
+      <Project>B57D5586-E574-3BF7-BB28-9EF5FF8701FC</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/qr_5.vcxproj">
+      <Project>D97C4101-B0D0-3BC7-A211-87D29CBD605C</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/qr_6.vcxproj">
+      <Project>8C548E29-B322-3F8D-AB5D-60CF3DF7ADD5</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/qr_7.vcxproj">
+      <Project>62E53E23-FD00-31C7-B8AC-7F9D86CA06C2</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/qr_8.vcxproj">
+      <Project>8976C57A-3874-373A-8EE1-5103658C2956</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/qr_9.vcxproj">
+      <Project>FED7C811-8781-3160-AE01-923EB4628EAD</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/qr_colpivoting_1.vcxproj">
+      <Project>08A03293-B47B-3461-9EDC-A4FB2A0F72E9</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/qr_colpivoting_2.vcxproj">
+      <Project>938E1F58-4407-38B5-85BE-48451C6DC1AF</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/qr_colpivoting_3.vcxproj">
+      <Project>21F76A09-DD94-32A2-8F3A-80F582938F46</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/qr_colpivoting_4.vcxproj">
+      <Project>0727321A-2425-3C93-B1B7-D5C6CB999EB1</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/qr_colpivoting_5.vcxproj">
+      <Project>7BF2B1C3-816E-383E-998F-240558FC071A</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/qr_colpivoting_6.vcxproj">
+      <Project>173BD08A-9ADF-3570-99B7-32D39067AC97</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/qr_colpivoting_7.vcxproj">
+      <Project>1DBEDCC4-4C31-37B3-8A34-0680160C5F8F</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/qr_colpivoting_8.vcxproj">
+      <Project>2DB2EE87-8CAE-3167-8768-5483F50D7741</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/qr_colpivoting_9.vcxproj">
+      <Project>60C74D6E-3DCE-369F-8EC6-787227069897</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/qr_fullpivoting_1.vcxproj">
+      <Project>6EAF18FE-A5C9-39F3-A39F-88554893AC67</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/qr_fullpivoting_2.vcxproj">
+      <Project>F95F37C1-FA3C-33A1-9632-7865229BFDE5</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/qr_fullpivoting_3.vcxproj">
+      <Project>399E6CAF-D30E-3E4B-9E83-F1CE58208C4F</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/qr_fullpivoting_4.vcxproj">
+      <Project>D3802A63-29B9-373C-B7B3-D761C8C53FB4</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/qr_fullpivoting_5.vcxproj">
+      <Project>A98EFE1F-54CB-340D-B8F2-89EB5ACB90D7</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/qr_fullpivoting_6.vcxproj">
+      <Project>3A7B6F0E-EFC6-3FAE-917A-B9F0D867607B</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/qr_fullpivoting_7.vcxproj">
+      <Project>0AEB57FB-158F-30D4-81B3-AE0DA433267C</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/real_qz_1.vcxproj">
+      <Project>1641CCEF-7685-3BB9-ABEB-3B6E02B3E4D8</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/real_qz_2.vcxproj">
+      <Project>7484FA97-CAF1-3DE2-9F8C-4155939F5A6E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/real_qz_3.vcxproj">
+      <Project>DB8730E0-932F-342C-AB79-52B3A680478D</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/real_qz_4.vcxproj">
+      <Project>6CE19DE2-6D49-3D55-ABC0-5EFD2C39A8C9</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/redux_1.vcxproj">
+      <Project>46F2A0CD-9E80-31E7-8106-97A9022DB358</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/redux_2.vcxproj">
+      <Project>A5626DE6-F0D9-3A00-8952-FA72EAFD50BC</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/redux_3.vcxproj">
+      <Project>6ED2681A-C799-3353-98A6-E66BF6B52C2F</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/redux_4.vcxproj">
+      <Project>EF204583-0223-310D-878D-D728EEAA5088</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/redux_5.vcxproj">
+      <Project>8125E9C3-1D26-3529-9E70-817C5D19A423</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/redux_6.vcxproj">
+      <Project>BC7C8DB9-53A2-33F2-A79F-F885329F855E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/redux_7.vcxproj">
+      <Project>CE865FB9-F988-3881-8F51-0C8958170EA8</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/redux_8.vcxproj">
+      <Project>F7E550E8-575B-3F68-BB76-9BE8E82C6B80</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/ref_1.vcxproj">
+      <Project>665C4BC8-A4A3-3B20-A260-901FE59BF787</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/ref_2.vcxproj">
+      <Project>49C38865-E77C-3155-8E2D-A5357BE97562</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/ref_3.vcxproj">
+      <Project>2FCB98A6-801B-35AD-B8FE-95A67FA86FAB</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/ref_4.vcxproj">
+      <Project>D9E58733-793C-377F-A183-BC3B75ECD9E7</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/ref_5.vcxproj">
+      <Project>01605485-54A3-3052-96C7-549515C9C982</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/ref_6.vcxproj">
+      <Project>45054B15-0AD1-34AF-9F7E-99F8F768EAEE</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/resize.vcxproj">
+      <Project>03EFD57A-2560-3140-A436-437DEA356425</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/schur_complex_1.vcxproj">
+      <Project>F731666C-3DF6-3316-9747-F62C2801F28A</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/schur_complex_2.vcxproj">
+      <Project>9395BADE-1773-31FB-9EF7-0523C6E6E7C9</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/schur_complex_3.vcxproj">
+      <Project>6BD0E621-C63E-3617-991B-4CD6175B0069</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/schur_complex_4.vcxproj">
+      <Project>D9D18E52-2BD7-3894-A1B9-222749FE68C3</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/schur_complex_5.vcxproj">
+      <Project>5B36F3F4-8A5A-3F4C-B12F-F8D20DF27E30</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/schur_real_1.vcxproj">
+      <Project>BA01B272-F5C5-3B9F-AE4E-B47F08BB1229</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/schur_real_2.vcxproj">
+      <Project>B153EF69-0EBE-3F2E-BA85-C6ECDB932422</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/schur_real_3.vcxproj">
+      <Project>C34C67AB-3BEC-3635-BB4D-39F1871B5314</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/schur_real_4.vcxproj">
+      <Project>D3A22023-736E-3975-88B0-AA9998241215</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/schur_real_5.vcxproj">
+      <Project>90D485A5-1433-3A28-8327-B4512C26AFAB</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/selfadjoint_1.vcxproj">
+      <Project>02181E33-6A76-3AA2-B6FC-5CE1885DC216</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/selfadjoint_2.vcxproj">
+      <Project>0623535E-28D0-3550-AC38-926D8C9B537C</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/selfadjoint_3.vcxproj">
+      <Project>E506F6B5-BE25-34D5-8A9F-E817C54FED3F</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/selfadjoint_4.vcxproj">
+      <Project>AAB0F29B-5B4C-3E51-A6CB-A82A6AD8A6E0</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/selfadjoint_5.vcxproj">
+      <Project>AEAAD0A0-D85F-3931-9BAA-12471F6D135A</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/simplicial_cholesky_1.vcxproj">
+      <Project>48F35C50-6B7E-3D9E-9883-55F772A92AC5</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/simplicial_cholesky_2.vcxproj">
+      <Project>DF7C27FD-96ED-3469-8176-58F30F65BF50</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/sizeof.vcxproj">
+      <Project>F6DD1A36-C8D6-32F1-A79B-CB3CD329F7DE</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/sizeoverflow.vcxproj">
+      <Project>C74D98CB-A33B-3A6E-8380-7A51F8BD423A</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/smallvectors.vcxproj">
+      <Project>27C2D7E0-AFFC-3B47-A1BF-69F0D8C7B40B</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/sparse_basic_1.vcxproj">
+      <Project>BF1EAD05-412C-3013-8A5F-32F05274F3EE</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/sparse_basic_2.vcxproj">
+      <Project>E4E00889-E23D-3CC0-8296-FD2071767205</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/sparse_permutations_1.vcxproj">
+      <Project>AFA54DB1-D662-3635-82CB-F8387EBF36D3</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/sparse_permutations_2.vcxproj">
+      <Project>D1E963E7-638B-3067-97A0-A926ADAEA419</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/sparse_product_1.vcxproj">
+      <Project>0247C3DC-18D2-393B-AFA0-C04200B5584E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/sparse_product_2.vcxproj">
+      <Project>801C9E79-4BF9-3E3A-85B6-B9AC937D222E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/sparse_product_3.vcxproj">
+      <Project>3C605DD4-3ED2-32B5-922B-82139B149B6F</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/sparse_product_4.vcxproj">
+      <Project>D9C5E8CB-CD0E-3664-A818-386D10B264AD</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/sparse_solvers_1.vcxproj">
+      <Project>313E0F9E-9C94-3465-8C30-E72DC43DFBF4</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/sparse_solvers_2.vcxproj">
+      <Project>201F84F3-BB32-3F98-8EAA-87B320CD01CC</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/sparse_vector_1.vcxproj">
+      <Project>F9D1482D-AA5B-3AFA-9DB6-C9D82B80EFF5</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/sparse_vector_2.vcxproj">
+      <Project>CDDBD129-FDE8-3F3E-9EE3-B730EDFD0CD7</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/sparselu_1.vcxproj">
+      <Project>D181113A-EB14-3D77-A995-D1AEDFAADF0E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/sparselu_2.vcxproj">
+      <Project>134C5ED6-68A4-3841-922B-4E4B56D44BB3</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/sparselu_3.vcxproj">
+      <Project>0941CD25-1CA7-3772-B6F8-FFB9FFA7B67E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/sparselu_4.vcxproj">
+      <Project>1462F1D1-91AE-3045-BBCA-74D01F9A1B55</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/sparseqr_1.vcxproj">
+      <Project>2C969AB8-7E15-32B6-8FA2-B62AC551F859</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/sparseqr_2.vcxproj">
+      <Project>D7900286-8D01-3A49-ADB2-13CFD66336F7</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/special_numbers_1.vcxproj">
+      <Project>2A8C576A-AD94-3AAD-81E2-D5EC9C4B99CF</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/stable_norm_1.vcxproj">
+      <Project>0EBC601C-321E-312A-BDE8-F2C3C33F9D59</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/stable_norm_2.vcxproj">
+      <Project>F81B8C7E-06FD-3608-B73A-3536A022C94B</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/stable_norm_3.vcxproj">
+      <Project>68EAC8F6-15B4-3154-B82E-A15608AA7871</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/stable_norm_4.vcxproj">
+      <Project>3684DDCC-1A73-346A-8061-38EA15ABCB4A</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/stable_norm_5.vcxproj">
+      <Project>90212403-4573-3EA4-AE95-275E30CE7BA1</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/stddeque_1.vcxproj">
+      <Project>D64A6569-604F-351A-8445-94DD5307AEAB</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/stddeque_2.vcxproj">
+      <Project>07F895BB-0A09-3C77-8F14-51E27713696C</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/stddeque_3.vcxproj">
+      <Project>ED8B3B49-A33D-3DD1-9BB0-6284D251D188</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/stddeque_4.vcxproj">
+      <Project>2E33DDD3-4AFD-3D00-942A-209C4D44A0E1</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/stddeque_5.vcxproj">
+      <Project>94910E61-DBE0-3687-88B7-7EC107B8B366</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/stdlist_1.vcxproj">
+      <Project>C8B6D662-3BCA-3BB4-A802-4C284D8DCB85</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/stdlist_2.vcxproj">
+      <Project>F7F2240C-DB41-3DB3-8969-89A81F293FAF</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/stdlist_3.vcxproj">
+      <Project>9DAEE57A-29A1-3D41-A684-BADDD00FFB10</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/stdlist_4.vcxproj">
+      <Project>6BF08C63-2B05-325A-AD39-BFAA7F91E2B2</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/stdlist_5.vcxproj">
+      <Project>8C65044E-1CEC-337E-B771-6D20229642A9</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/stdvector_1.vcxproj">
+      <Project>4CB3BF04-8D51-3F4E-A827-37EFB05DCA80</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/stdvector_2.vcxproj">
+      <Project>38B3488C-3CFE-3FDD-A9F0-B43D3C86F552</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/stdvector_3.vcxproj">
+      <Project>F42DB877-1635-3C33-BA78-7C4586843474</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/stdvector_4.vcxproj">
+      <Project>F711730B-5836-36F3-923D-AA0A4D950EF6</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/stdvector_5.vcxproj">
+      <Project>6CEE3916-4DCA-3A63-A60D-49CFEAB7197B</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/stdvector_overload_1.vcxproj">
+      <Project>F7EC126A-CCB3-3D6B-BE8F-5028AF9661F1</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/stdvector_overload_2.vcxproj">
+      <Project>606375A1-FCE5-3F35-BC68-91069D618F35</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/stdvector_overload_3.vcxproj">
+      <Project>7D795393-5FEC-352F-B54B-77E6163DD7B2</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/stdvector_overload_4.vcxproj">
+      <Project>AA7B7045-D5E8-3698-9511-E5F8425C3F2B</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/stdvector_overload_5.vcxproj">
+      <Project>CC9B3CEC-736B-31B4-AB25-4BB121CB8533</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/swap_1.vcxproj">
+      <Project>2A4A71D6-DE12-3C90-B32F-A1F96F4498B8</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/swap_2.vcxproj">
+      <Project>6385CA8D-BCA5-3409-9EAF-5F26B651ADBD</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/swap_3.vcxproj">
+      <Project>68D3017B-BB9E-3429-ACEF-6963CAA8A3FE</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/swap_4.vcxproj">
+      <Project>25874C73-329B-3161-984D-22F14DAB5A1C</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/triangular_1.vcxproj">
+      <Project>1EC33650-8844-3EA2-A186-E6AD5084EB1E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/triangular_2.vcxproj">
+      <Project>0DFF5074-D9AF-3F1A-8208-421C8EF2271F</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/triangular_3.vcxproj">
+      <Project>3309BCAC-A81A-39A8-8B82-369760FA780D</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/triangular_4.vcxproj">
+      <Project>001E5622-DE5B-3D70-80C1-3AE7E247EA46</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/triangular_5.vcxproj">
+      <Project>5E4A763A-3C37-3A78-B1A0-D83E7DEB53EC</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/triangular_6.vcxproj">
+      <Project>020D2B7F-F5D4-3110-9D92-0E66FA7B2C16</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/triangular_7.vcxproj">
+      <Project>D5A80D57-88F9-3E63-B39D-8E090ED55C5D</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/triangular_8.vcxproj">
+      <Project>12BE667C-2D47-3AF4-8904-D972B1CFA274</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/triangular_9.vcxproj">
+      <Project>DF38CA71-47B3-3333-B4C7-C316BADE692C</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/umeyama_1.vcxproj">
+      <Project>F1BB96DF-3757-353F-85EF-A020D06F41D6</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/umeyama_2.vcxproj">
+      <Project>D013C9F9-6A21-359B-8CAE-A0C1BB2DAE90</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/umeyama_3.vcxproj">
+      <Project>76BAECCC-FBD3-3EC3-BA88-174E12DFCA19</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/umeyama_4.vcxproj">
+      <Project>AF6D7610-59AB-3800-8EF7-D3D15492BD8D</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/umeyama_5.vcxproj">
+      <Project>9BD49510-4A8E-3DEB-92D0-5EDCDEAAF02C</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/umeyama_6.vcxproj">
+      <Project>7093A16E-CD14-3F86-B0F5-9274718B67F7</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/umeyama_7.vcxproj">
+      <Project>03CEA512-E415-3156-956C-5B6908A61BF7</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/umeyama_8.vcxproj">
+      <Project>317844E8-920D-3C74-A8F7-62F845C216F1</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/unalignedassert.vcxproj">
+      <Project>23378A97-0F87-32F0-B06D-B3F2AF6DEE44</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/unalignedcount.vcxproj">
+      <Project>D46B231C-31F4-34CC-A58F-B688C0FCBC3E</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/upperbidiagonalization_1.vcxproj">
+      <Project>7F20055E-C3DA-3162-9A11-CF021552A8E5</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/upperbidiagonalization_2.vcxproj">
+      <Project>2C855F64-7366-3776-B413-6EE97AB2387B</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/upperbidiagonalization_3.vcxproj">
+      <Project>4F5FA217-BC6A-33DC-B8E6-14FDF7103659</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/upperbidiagonalization_4.vcxproj">
+      <Project>20CAB33D-55DF-3ED4-BFC1-ED40655C5E97</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/upperbidiagonalization_5.vcxproj">
+      <Project>3CE2F51D-E51F-357A-8424-E0F9522211CB</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/upperbidiagonalization_6.vcxproj">
+      <Project>0C6253EE-F498-37A1-B59B-CE82D31938DB</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/upperbidiagonalization_7.vcxproj">
+      <Project>0F27BE22-D0FA-3735-8D89-05D3250951BC</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/vectorization_logic.vcxproj">
+      <Project>17FBB794-471C-3889-9EF6-3FF4D9A7B89D</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/vectorwiseop_1.vcxproj">
+      <Project>9D52972C-05B8-3FB3-B33F-5D1C165A57B1</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/vectorwiseop_2.vcxproj">
+      <Project>251141EE-3267-3834-B925-054F4B8B219F</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/vectorwiseop_3.vcxproj">
+      <Project>8D33D209-DAD2-30E0-B696-F93E9F5EF142</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/vectorwiseop_4.vcxproj">
+      <Project>E0838C6E-1704-31B2-97EA-4F3D4CB324B7</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/vectorwiseop_5.vcxproj">
+      <Project>760C2F14-B9C7-3718-905E-91B75B117607</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/vectorwiseop_6.vcxproj">
+      <Project>54F8FEFA-BD06-343A-8BB5-F440AF8A8CD7</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/visitor_1.vcxproj">
+      <Project>E7BB5AC4-EEBB-3B00-8282-C4D981F36A85</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/visitor_10.vcxproj">
+      <Project>FC15115C-693B-3310-890B-261DADF70BAF</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/visitor_2.vcxproj">
+      <Project>5352B8F8-BF89-37F3-88DF-936055E87D4B</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/visitor_3.vcxproj">
+      <Project>C19BB03D-0E13-3958-A68D-CDDC262DA1A3</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/visitor_4.vcxproj">
+      <Project>486DE7C3-B9EA-31F1-9AB0-CF564E36E298</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/visitor_5.vcxproj">
+      <Project>9D11CB76-EB61-3B6A-973A-17C1CD1B99B6</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/visitor_6.vcxproj">
+      <Project>DBE88124-FE35-3669-9DCC-1C2570357B68</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/visitor_7.vcxproj">
+      <Project>015722E8-A9C2-37A6-985C-4F830FDA4390</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/visitor_8.vcxproj">
+      <Project>28CF2849-4B1C-3525-B10A-37506B437461</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/visitor_9.vcxproj">
+      <Project>FF55DE84-DFFB-35DF-B8F1-BD26E44F6EE9</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/Eigen-build/test/zerosized.vcxproj">
+      <Project>DA559D22-2E1A-33C9-9022-9889E9831DE6</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

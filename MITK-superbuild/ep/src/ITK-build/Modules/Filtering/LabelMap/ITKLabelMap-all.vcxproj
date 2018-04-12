@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{30D855C4-9870-3DA7-AF4E-BD9F831AFEC1}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ITKLabelMap-all</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\DoubleConversion\src\double-conversion;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\KWSys\src;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\vcl;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\core;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\vcl;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\core;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNLInstantiation\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Core\Common;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageFilterBase\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\ImageAdaptors\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\Netlib;E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\ImageFunction\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageGrid\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageCompose\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\IO\ImageBase;E:\D\MITK-superbuild\ep\src\ITK\Modules\IO\ImageBase\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Mesh\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\ZLIB\src;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\ZLIB\src;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\MetaIO\src\MetaIO;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\MetaIO\src\MetaIO;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageStatistics\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\Path\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageIntensity\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageLabel\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\Thresholding\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Segmentation\ConnectedComponents\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\DoubleConversion\src\double-conversion;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\KWSys\src;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\vcl;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\core;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\vcl;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\core;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNLInstantiation\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Core\Common;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageFilterBase\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\ImageAdaptors\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\Netlib;E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\ImageFunction\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageGrid\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageCompose\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\IO\ImageBase;E:\D\MITK-superbuild\ep\src\ITK\Modules\IO\ImageBase\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Mesh\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\ZLIB\src;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\ZLIB\src;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\MetaIO\src\MetaIO;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\MetaIO\src\MetaIO;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageStatistics\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\Path\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageIntensity\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageLabel\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\Thresholding\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Segmentation\ConnectedComponents\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\DoubleConversion\src\double-conversion;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\KWSys\src;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\vcl;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\core;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\vcl;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\core;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNLInstantiation\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Core\Common;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageFilterBase\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\ImageAdaptors\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\Netlib;E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\ImageFunction\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageGrid\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageCompose\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\IO\ImageBase;E:\D\MITK-superbuild\ep\src\ITK\Modules\IO\ImageBase\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Mesh\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\ZLIB\src;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\ZLIB\src;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\MetaIO\src\MetaIO;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\MetaIO\src\MetaIO;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageStatistics\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\Path\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageIntensity\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageLabel\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\Thresholding\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Segmentation\ConnectedComponents\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\DoubleConversion\src\double-conversion;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\KWSys\src;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\vcl;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\core;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\vcl;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\core;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNLInstantiation\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Core\Common;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageFilterBase\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\ImageAdaptors\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\Netlib;E:\D\MITK-superbuild\ep\src\ITK\Modules\Numerics\Statistics\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Transform\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\ImageFunction\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageGrid\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageCompose\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\IO\ImageBase;E:\D\MITK-superbuild\ep\src\ITK\Modules\IO\ImageBase\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Mesh\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\ZLIB\src;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\ZLIB\src;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\MetaIO\src\MetaIO;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\MetaIO\src\MetaIO;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\SpatialObjects\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageStatistics\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\Path\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageIntensity\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\ImageLabel\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\Thresholding\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Segmentation\ConnectedComponents\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\MathematicalMorphology\include;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/ITK/Modules/Filtering/LabelMap/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/ITK -BE:/D/MITK-superbuild/ep/src/ITK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Filtering\LabelMap\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/ITK/Modules/Filtering/LabelMap/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\itk-module.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageLabel.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageFilterBase.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKCommon.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKDoubleConversion.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKKWSys.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKVNLInstantiation.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKVNL.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageIntensity.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageAdaptors.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageGrid.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageFunction.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKStatistics.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKNetlib.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKTransform.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageStatistics.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageCompose.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKSpatialObjects.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKIOImageBase.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKMesh.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKMetaIO.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKZLIB.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKPath.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKMathematicalMorphology.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKConnectedComponents.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKThresholding.cmake;E:\D\MITK-superbuild\ep\src\ITK\CMake\ITKModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\ITK\CMake\ITKModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\ITK\Utilities\Doxygen\Module.dox.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Filtering\LabelMap\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/ITK/Modules/Filtering/LabelMap/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/ITK -BE:/D/MITK-superbuild/ep/src/ITK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Filtering\LabelMap\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/ITK/Modules/Filtering/LabelMap/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\itk-module.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageLabel.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageFilterBase.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKCommon.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKDoubleConversion.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKKWSys.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKVNLInstantiation.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKVNL.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageIntensity.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageAdaptors.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageGrid.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageFunction.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKStatistics.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKNetlib.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKTransform.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageStatistics.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageCompose.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKSpatialObjects.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKIOImageBase.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKMesh.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKMetaIO.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKZLIB.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKPath.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKMathematicalMorphology.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKConnectedComponents.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKThresholding.cmake;E:\D\MITK-superbuild\ep\src\ITK\CMake\ITKModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\ITK\CMake\ITKModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\ITK\Utilities\Doxygen\Module.dox.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Filtering\LabelMap\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/ITK/Modules/Filtering/LabelMap/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/ITK -BE:/D/MITK-superbuild/ep/src/ITK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Filtering\LabelMap\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/ITK/Modules/Filtering/LabelMap/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\itk-module.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageLabel.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageFilterBase.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKCommon.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKDoubleConversion.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKKWSys.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKVNLInstantiation.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKVNL.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageIntensity.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageAdaptors.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageGrid.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageFunction.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKStatistics.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKNetlib.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKTransform.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageStatistics.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageCompose.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKSpatialObjects.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKIOImageBase.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKMesh.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKMetaIO.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKZLIB.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKPath.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKMathematicalMorphology.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKConnectedComponents.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKThresholding.cmake;E:\D\MITK-superbuild\ep\src\ITK\CMake\ITKModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\ITK\CMake\ITKModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\ITK\Utilities\Doxygen\Module.dox.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Filtering\LabelMap\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/ITK/Modules/Filtering/LabelMap/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/ITK -BE:/D/MITK-superbuild/ep/src/ITK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Filtering\LabelMap\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/ITK/Modules/Filtering/LabelMap/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\itk-module.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageLabel.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageFilterBase.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKCommon.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKDoubleConversion.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKKWSys.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKVNLInstantiation.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKVNL.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageIntensity.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageAdaptors.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageGrid.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageFunction.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKStatistics.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKNetlib.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKTransform.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageStatistics.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKImageCompose.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKSpatialObjects.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKIOImageBase.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKMesh.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKMetaIO.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKZLIB.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKPath.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKMathematicalMorphology.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKConnectedComponents.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKThresholding.cmake;E:\D\MITK-superbuild\ep\src\ITK\CMake\ITKModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\ITK\CMake\ITKModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\ITK\Utilities\Doxygen\Module.dox.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Filtering\LabelMap\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\src\itkGeometryUtilities.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkAggregateLabelMapFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkAttributeKeepNObjectsLabelMapFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkAttributeLabelObject.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkAttributeOpeningLabelMapFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkAttributePositionLabelMapFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkAttributeRelabelLabelMapFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkAttributeSelectionLabelMapFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkAttributeUniqueLabelMapFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkAutoCropLabelMapFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkBinaryFillholeImageFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkBinaryGrindPeakImageFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkBinaryImageToLabelMapFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkBinaryImageToShapeLabelMapFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkBinaryImageToStatisticsLabelMapFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkBinaryNotImageFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkBinaryReconstructionByDilationImageFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkBinaryReconstructionByErosionImageFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkBinaryReconstructionLabelMapFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkBinaryShapeKeepNObjectsImageFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkBinaryShapeOpeningImageFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkBinaryStatisticsKeepNObjectsImageFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkBinaryStatisticsOpeningImageFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkChangeLabelLabelMapFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkChangeRegionLabelMapFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkConvertLabelMapFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkCropLabelMapFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkGeometryUtilities.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkInPlaceLabelMapFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkLabelImageToLabelMapFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkLabelImageToShapeLabelMapFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkLabelImageToStatisticsLabelMapFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkLabelMap.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkLabelMapFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkLabelMapMaskImageFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkLabelMapToAttributeImageFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkLabelMapToBinaryImageFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkLabelMapToLabelImageFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkLabelMapUtilities.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkLabelObject.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkLabelObjectAccessors.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkLabelObjectLine.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkLabelObjectLineComparator.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkLabelSelectionLabelMapFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkLabelShapeKeepNObjectsImageFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkLabelShapeOpeningImageFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkLabelStatisticsKeepNObjectsImageFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkLabelStatisticsOpeningImageFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkLabelUniqueLabelMapFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkMergeLabelMapFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkObjectByObjectLabelMapFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkPadLabelMapFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkRegionFromReferenceLabelMapFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkRelabelLabelMapFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkShapeKeepNObjectsLabelMapFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkShapeLabelMapFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkShapeLabelObject.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkShapeLabelObjectAccessors.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkShapeOpeningLabelMapFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkShapePositionLabelMapFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkShapeRelabelImageFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkShapeRelabelLabelMapFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkShapeUniqueLabelMapFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkShiftScaleLabelMapFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkStatisticsKeepNObjectsLabelMapFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkStatisticsLabelMapFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkStatisticsLabelObject.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkStatisticsLabelObjectAccessors.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkStatisticsOpeningLabelMapFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkStatisticsPositionLabelMapFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkStatisticsRelabelImageFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkStatisticsRelabelLabelMapFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkStatisticsUniqueLabelMapFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkAggregateLabelMapFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkAttributeKeepNObjectsLabelMapFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkAttributeOpeningLabelMapFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkAttributePositionLabelMapFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkAttributeRelabelLabelMapFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkAttributeSelectionLabelMapFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkAttributeUniqueLabelMapFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkAutoCropLabelMapFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkBinaryFillholeImageFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkBinaryGrindPeakImageFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkBinaryImageToLabelMapFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkBinaryImageToShapeLabelMapFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkBinaryImageToStatisticsLabelMapFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkBinaryReconstructionByDilationImageFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkBinaryReconstructionByErosionImageFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkBinaryReconstructionLabelMapFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkBinaryShapeKeepNObjectsImageFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkBinaryShapeOpeningImageFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkBinaryStatisticsKeepNObjectsImageFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkBinaryStatisticsOpeningImageFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkChangeLabelLabelMapFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkChangeRegionLabelMapFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkConvertLabelMapFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkCropLabelMapFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkInPlaceLabelMapFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkLabelImageToLabelMapFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkLabelImageToShapeLabelMapFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkLabelImageToStatisticsLabelMapFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkLabelMap.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkLabelMapFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkLabelMapMaskImageFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkLabelMapToAttributeImageFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkLabelMapToBinaryImageFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkLabelMapToLabelImageFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkLabelObject.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkLabelObjectLine.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkLabelShapeKeepNObjectsImageFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkLabelShapeOpeningImageFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkLabelStatisticsKeepNObjectsImageFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkLabelStatisticsOpeningImageFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkMergeLabelMapFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkObjectByObjectLabelMapFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkPadLabelMapFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkRegionFromReferenceLabelMapFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkShapeKeepNObjectsLabelMapFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkShapeLabelMapFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkShapeOpeningLabelMapFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkShapePositionLabelMapFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkShapeRelabelImageFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkShapeRelabelLabelMapFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkShapeUniqueLabelMapFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkShiftScaleLabelMapFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkStatisticsKeepNObjectsLabelMapFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkStatisticsLabelMapFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkStatisticsOpeningLabelMapFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkStatisticsPositionLabelMapFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkStatisticsRelabelImageFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkStatisticsRelabelLabelMapFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Filtering\LabelMap\include\itkStatisticsUniqueLabelMapFilter.hxx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/ITK-build/ZERO_CHECK.vcxproj">
+      <Project>7A8C6E7C-8178-3D2C-96BD-CC175A1D2858</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/ITK-build/Modules/Filtering/LabelMap/src/ITKLabelMap.vcxproj">
+      <Project>4EBB4C42-F601-3E67-BA7E-228657EC64C1</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

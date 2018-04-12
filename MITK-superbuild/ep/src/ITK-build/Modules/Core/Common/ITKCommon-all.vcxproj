@@ -1,0 +1,744 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{EF2BB5FA-AF8F-3E6A-AFBF-B19BDB206F8D}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ITKCommon-all</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\DoubleConversion\src\double-conversion;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\KWSys\src;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\vcl;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\core;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\vcl;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\core;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNLInstantiation\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Core\Common;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\DoubleConversion\src\double-conversion;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\KWSys\src;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\vcl;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\core;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\vcl;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\core;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNLInstantiation\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Core\Common;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\DoubleConversion\src\double-conversion;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\KWSys\src;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\vcl;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\core;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\vcl;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\core;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNLInstantiation\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Core\Common;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\DoubleConversion\src\double-conversion;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\KWSys\src;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\vcl;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNL\src\vxl\core;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\v3p\netlib;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\vcl;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\ThirdParty\VNL\src\vxl\core;E:\D\MITK-superbuild\ep\src\ITK\Modules\ThirdParty\VNLInstantiation\include;E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Core\Common;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/ITK/Modules/Core/Common/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/ITK -BE:/D/MITK-superbuild/ep/src/ITK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Core\Common\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/D/MITK-superbuild/ep/src/ITK/Modules/Core/Common/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\TestBigEndian.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckTypeSize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFileCXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\TestEndianess.c.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.c.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\CMake\CheckCPPDirective.cmake;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\CMake\CheckCPPDirectiveExists.cxx.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\CMake\CheckSupportForSSERounding.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\CMake\itkCheckHasCPP11Alignas.cxx;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFileCXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.cxx.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.cxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\CMake\itkCheckCxx11StlTypeTraits.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\CMake\itkCheckHasGNUAttributeAligned.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkConfigure.h.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\itk-module.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKDoubleConversion.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKKWSys.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKVNLInstantiation.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKVNL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\exportheader.cmake.in;E:\D\MITK-superbuild\ep\src\ITK\CMake\ITKModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\ITK\CMake\ITKModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\ITK\Utilities\Doxygen\Module.dox.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Core\Common\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/ITK/Modules/Core/Common/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/ITK -BE:/D/MITK-superbuild/ep/src/ITK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Core\Common\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/D/MITK-superbuild/ep/src/ITK/Modules/Core/Common/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\TestBigEndian.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckTypeSize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFileCXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\TestEndianess.c.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.c.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\CMake\CheckCPPDirective.cmake;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\CMake\CheckCPPDirectiveExists.cxx.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\CMake\CheckSupportForSSERounding.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\CMake\itkCheckHasCPP11Alignas.cxx;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFileCXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.cxx.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.cxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\CMake\itkCheckCxx11StlTypeTraits.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\CMake\itkCheckHasGNUAttributeAligned.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkConfigure.h.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\itk-module.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKDoubleConversion.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKKWSys.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKVNLInstantiation.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKVNL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\exportheader.cmake.in;E:\D\MITK-superbuild\ep\src\ITK\CMake\ITKModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\ITK\CMake\ITKModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\ITK\Utilities\Doxygen\Module.dox.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Core\Common\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/ITK/Modules/Core/Common/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/ITK -BE:/D/MITK-superbuild/ep/src/ITK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Core\Common\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/D/MITK-superbuild/ep/src/ITK/Modules/Core/Common/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\TestBigEndian.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckTypeSize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFileCXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\TestEndianess.c.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.c.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\CMake\CheckCPPDirective.cmake;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\CMake\CheckCPPDirectiveExists.cxx.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\CMake\CheckSupportForSSERounding.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\CMake\itkCheckHasCPP11Alignas.cxx;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFileCXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.cxx.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.cxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\CMake\itkCheckCxx11StlTypeTraits.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\CMake\itkCheckHasGNUAttributeAligned.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkConfigure.h.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\itk-module.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKDoubleConversion.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKKWSys.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKVNLInstantiation.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKVNL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\exportheader.cmake.in;E:\D\MITK-superbuild\ep\src\ITK\CMake\ITKModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\ITK\CMake\ITKModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\ITK\Utilities\Doxygen\Module.dox.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Core\Common\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/D/MITK-superbuild/ep/src/ITK/Modules/Core/Common/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/D/MITK-superbuild/ep/src/ITK -BE:/D/MITK-superbuild/ep/src/ITK-build --check-stamp-file E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Core\Common\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/D/MITK-superbuild/ep/src/ITK/Modules/Core/Common/CMakeLists.txt;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\TestBigEndian.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckTypeSize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFileCXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\TestEndianess.c.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.c.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\CMake\CheckCPPDirective.cmake;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\CMake\CheckCPPDirectiveExists.cxx.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\CMake\CheckSupportForSSERounding.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeConfigurableFile.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\CMake\itkCheckHasCPP11Alignas.cxx;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFileCXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.cxx.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.cxx.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\CMake\itkCheckCxx11StlTypeTraits.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\CMake\itkCheckHasGNUAttributeAligned.cxx;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkConfigure.h.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\itk-module.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKDoubleConversion.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKKWSys.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKVNLInstantiation.cmake;E:\D\MITK-superbuild\ep\src\ITK-build\lib\cmake\ITK-4.7\Modules\ITKVNL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\exportheader.cmake.in;E:\D\MITK-superbuild\ep\src\ITK\CMake\ITKModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\ITK\CMake\ITKModuleInfo.cmake.in;E:\D\MITK-superbuild\ep\src\ITK\Utilities\Doxygen\Module.dox.in;E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\D\MITK-superbuild\ep\src\ITK-build\Modules\Core\Common\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkArrayOutputSpecialization.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkBarrier.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkCommand.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkCompensatedSummation.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkConditionVariable.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkConditionVariableNoThreads.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkConditionVariablePThreads.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkConditionVariableWinThreads.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkCovariantVector.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkDataObject.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkDirectory.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkDynamicLoader.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkEquivalencyTable.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkEventObject.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkExceptionObject.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkFastMutexLock.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkFileOutputWindow.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkFloatingPointExceptions.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkHexahedronCellTopology.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkImageIORegion.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkImageRegionSplitterBase.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkImageRegionSplitterDirection.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkImageRegionSplitterMultidimensional.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkImageRegionSplitterSlowDimension.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkImageSourceCommon.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkImageToImageFilterCommon.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkIndent.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkIterationReporter.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkLightObject.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkLightProcessObject.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkLoggerBase.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkLoggerManager.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkLoggerOutput.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkMemoryProbe.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkMemoryUsageObserver.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkMersenneTwisterRandomVariateGenerator.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkMetaDataDictionary.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkMetaDataObject.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkMetaDataObjectBase.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkMultipleLogOutput.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkMultiThreader.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkMultiThreaderNoThreads.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkMultiThreaderPThreads.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkMultiThreaderWinThreads.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkMutexLock.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkMutexLockNoThreads.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkMutexLockPThreads.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkMutexLockWinThreads.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkNumberToString.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkNumericTraits.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkNumericTraitsCovariantVectorPixel.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkNumericTraitsDiffusionTensor3DPixel.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkNumericTraitsFixedArrayPixel.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkNumericTraitsFixedArrayPixel2.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkNumericTraitsPointPixel.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkNumericTraitsRGBAPixel.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkNumericTraitsRGBPixel.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkNumericTraitsTensorPixel.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkNumericTraitsTensorPixel2.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkNumericTraitsVectorPixel.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkObject.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkObjectFactoryBase.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkOctreeNode.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkOutputWindow.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkProcessObject.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkProgressAccumulator.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkProgressReporter.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkPThreadPool.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkQuadraticTriangleCellTopology.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkQuadrilateralCellTopology.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkRealTimeClock.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkRealTimeInterval.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkRealTimeStamp.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkRegion.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkSimpleFastMutexLock.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkSimpleFastMutexLockNoThreads.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkSimpleFastMutexLockPThreads.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkSimpleFastMutexLockWinThreads.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkSimpleFilterWatcher.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkSmapsFileParser.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkSmartPointerForwardReferenceProcessObject.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkSpatialOrientationAdapter.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkStdStreamLogOutput.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkStoppingCriterionBase.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkTetrahedronCellTopology.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkTextOutput.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkThreadedIndexedContainerPartitioner.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkThreadLogger.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkThreadPool.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkTimeProbe.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkTimeProbesCollectorBase.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkTimeStamp.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkTriangleCellTopology.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkVector.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkVersion.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkWin32OutputWindow.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkWinThreadPool.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\src\itkXMLFileOutputWindow.cxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkAnnulusOperator.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkArray.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkArray2D.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkAtanRegularizedHeavisideStepFunction.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkAutoPointer.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkAutoPointerDataObjectDecorator.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkBackwardDifferenceOperator.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkBarrier.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkBinaryThresholdSpatialFunction.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkBoundingBox.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkBresenhamLine.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkBSplineDerivativeKernelFunction.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkBSplineInterpolationWeightFunction.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkBSplineKernelFunction.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkByteSwapper.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkCellInterface.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkCellInterfaceVisitor.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkChildTreeIterator.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkColorTable.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkCommand.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkCompensatedSummation.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkConceptChecking.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkConditionalConstIterator.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkConditionVariable.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkConicShellInteriorExteriorSpatialFunction.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkConnectedComponentAlgorithm.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkConstantBoundaryCondition.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkConstNeighborhoodIterator.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkConstNeighborhoodIteratorWithOnlyIndex.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkConstShapedNeighborhoodIterator.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkConstSliceIterator.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkContinuousIndex.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkCorrespondenceDataStructureIterator.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkCovariantVector.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkCreateObjectFunction.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkCrossHelper.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkDataObject.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkDataObjectConstIterator.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkDataObjectDecorator.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkDataObjectIterator.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkDefaultConvertPixelTraits.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkDefaultDynamicMeshTraits.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkDefaultPixelAccessor.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkDefaultPixelAccessorFunctor.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkDefaultStaticMeshTraits.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkDefaultVectorPixelAccessor.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkDefaultVectorPixelAccessorFunctor.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkDerivativeOperator.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkDiffusionTensor3D.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkDirectory.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkDomainThreader.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkDynamicLoader.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkEllipsoidInteriorExteriorSpatialFunction.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkEnableIf.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkEquivalencyTable.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkEventObject.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkExceptionObject.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkExtractImageFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkExtractImageFilterRegionCopier.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkFactoryTestLib.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkFastMutexLock.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkFileOutputWindow.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkFiniteCylinderSpatialFunction.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkFixedArray.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkFloatingPointExceptions.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkFloatTypes.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkFloodFilledFunctionConditionalConstIterator.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkFloodFilledImageFunctionConditionalConstIterator.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkFloodFilledImageFunctionConditionalIterator.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkFloodFilledSpatialFunctionConditionalConstIterator.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkFloodFilledSpatialFunctionConditionalIterator.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkForwardDifferenceOperator.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkFrustumSpatialFunction.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkFunctionBase.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkGaussianDerivativeSpatialFunction.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkGaussianKernelFunction.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkGaussianOperator.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkGaussianSpatialFunction.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkHeavisideStepFunction.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkHeavisideStepFunctionBase.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkHexahedronCell.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkHexahedronCellTopology.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImage.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageAlgorithm.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageBase.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageBoundaryCondition.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageConstIterator.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageConstIteratorWithIndex.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageConstIteratorWithOnlyIndex.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageContainerInterface.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageDuplicator.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageHelper.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageIORegion.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageIterator.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageIteratorWithIndex.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageKernelOperator.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageLinearConstIteratorWithIndex.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageLinearIteratorWithIndex.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageRandomConstIteratorWithIndex.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageRandomConstIteratorWithOnlyIndex.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageRandomIteratorWithIndex.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageRandomNonRepeatingConstIteratorWithIndex.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageRandomNonRepeatingIteratorWithIndex.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageRegion.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageRegionConstIterator.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageRegionConstIteratorWithIndex.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageRegionConstIteratorWithOnlyIndex.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageRegionExclusionConstIteratorWithIndex.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageRegionExclusionIteratorWithIndex.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageRegionIterator.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageRegionIteratorWithIndex.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageRegionReverseConstIterator.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageRegionReverseIterator.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageRegionSplitterBase.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageRegionSplitterDirection.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageRegionSplitterMultidimensional.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageRegionSplitterSlowDimension.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageReverseConstIterator.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageReverseIterator.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageScanlineConstIterator.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageScanlineIterator.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageSliceConstIteratorWithIndex.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageSliceIteratorWithIndex.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageSource.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageSourceCommon.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageToImageFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageToImageFilterCommon.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageToImageFilterDetail.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageTransformer.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageTransformHelper.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageVectorOptimizerParametersHelper.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImportImageContainer.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImportImageFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkIndent.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkIndex.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkIndexedContainerInterface.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkInOrderTreeIterator.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkInPlaceImageFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkInputDataObjectConstIterator.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkInputDataObjectIterator.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkInteriorExteriorSpatialFunction.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkIntTypes.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkIsSame.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkIterationReporter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkKernelFunctionBase.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkLaplacianOperator.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkLeafTreeIterator.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkLevelOrderTreeIterator.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkLightObject.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkLightProcessObject.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkLineCell.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkLineConstIterator.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkLineIterator.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkLogger.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkLoggerBase.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkLoggerManager.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkLoggerOutput.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkLoggerThreadWrapper.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkLogOutput.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkMacro.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkMapContainer.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkMath.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkMathDetail.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkMatrix.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkMatrixResizeableDataObject.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkMemoryProbe.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkMemoryProbesCollectorBase.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkMemoryUsageObserver.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkMersenneTwisterRandomVariateGenerator.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkMetaDataDictionary.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkMetaDataObject.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkMetaDataObjectBase.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkMinimumMaximumImageCalculator.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkMultipleLogOutput.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkMultiThreader.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkMutexLock.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkMutexLockHolder.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkNeighborhood.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkNeighborhoodAccessorFunctor.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkNeighborhoodAlgorithm.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkNeighborhoodAllocator.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkNeighborhoodInnerProduct.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkNeighborhoodIterator.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkNeighborhoodOperator.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkNumberToString.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkNumericTraits.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkNumericTraitsArrayPixel.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkNumericTraitsCovariantVectorPixel.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkNumericTraitsDiffusionTensor3DPixel.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkNumericTraitsFixedArrayPixel.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkNumericTraitsPointPixel.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkNumericTraitsRGBAPixel.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkNumericTraitsRGBPixel.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkNumericTraitsStdVector.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkNumericTraitsTensorPixel.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkNumericTraitsVariableLengthVectorPixel.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkNumericTraitsVectorPixel.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkObject.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkObjectFactory.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkObjectFactoryBase.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkObjectStore.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkOctree.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkOctreeNode.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkOffset.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkOptimizerParameters.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkOptimizerParametersHelper.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkOrientationAdapterBase.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkOutputDataObjectConstIterator.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkOutputDataObjectIterator.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkOutputWindow.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkPeriodicBoundaryCondition.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkPhasedArray3DSpecialCoordinatesImage.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkPixelTraits.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkPoint.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkPointSet.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkPointSetToImageFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkPolygonCell.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkPostOrderTreeIterator.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkPreOrderTreeIterator.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkPriorityQueueContainer.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkProcessObject.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkProgressAccumulator.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkProgressReporter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkQuadraticEdgeCell.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkQuadraticTriangleCell.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkQuadraticTriangleCellTopology.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkQuadrilateralCell.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkQuadrilateralCellTopology.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkRandomVariateGeneratorBase.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkRealTimeClock.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkRealTimeInterval.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkRealTimeStamp.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkRegion.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkRegularizedHeavisideStepFunction.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkResourceProbe.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkResourceProbesCollectorBase.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkRGBAPixel.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkRGBPixel.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkRootTreeIterator.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkShapedFloodFilledFunctionConditionalConstIterator.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkShapedFloodFilledImageFunctionConditionalConstIterator.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkShapedFloodFilledImageFunctionConditionalIterator.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkShapedNeighborhoodIterator.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkSimpleDataObjectDecorator.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkSimpleFastMutexLock.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkSimpleFilterWatcher.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkSinRegularizedHeavisideStepFunction.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkSize.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkSliceIterator.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkSmapsFileParser.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkSmartPointer.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkSmartPointerForwardReference.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkSobelOperator.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkSparseFieldLayer.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkSparseImage.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkSpatialFunction.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkSpatialOrientation.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkSpatialOrientationAdapter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkSpecialCoordinatesImage.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkSphereSpatialFunction.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkStdStreamLogOutput.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkStdStreamStateSave.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkSTLConstContainerAdaptor.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkSTLContainerAdaptor.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkStoppingCriterionBase.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkStreamingImageFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkStructHashFunction.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkSymmetricEigenAnalysis.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkSymmetricEllipsoidInteriorExteriorSpatialFunction.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkSymmetricSecondRankTensor.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkTetrahedronCell.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkTetrahedronCellTopology.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkTextOutput.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkThreadedDomainPartitioner.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkThreadedImageRegionPartitioner.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkThreadedIndexedContainerPartitioner.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkThreadedIteratorRangePartitioner.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkThreadJob.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkThreadLogger.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkThreadPool.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkThreadSupport.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkTimeProbe.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkTimeProbesCollectorBase.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkTimeStamp.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkTorusInteriorExteriorSpatialFunction.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkTreeChangeEvent.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkTreeContainer.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkTreeContainerBase.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkTreeIteratorBase.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkTreeIteratorClone.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkTreeNode.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkTriangleCell.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkTriangleCellTopology.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkTriangleHelper.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkUnaryCorrespondenceMatrix.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkUnaryFunctorImageFilter.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkValarrayImageContainer.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkVariableLengthVector.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkVariableSizeMatrix.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkVector.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkVectorContainer.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkVectorImage.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkVectorImageNeighborhoodAccessorFunctor.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkVectorNeighborhoodInnerProduct.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkVersion.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkVersor.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkVertexCell.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkWeakPointer.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkWin32Header.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkWin32OutputWindow.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkWindows.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkXMLFileOutputWindow.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkXMLFilterWatcher.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkZeroFluxNeumannBoundaryCondition.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\VNLIterativeSparseSolverTraits.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\VNLSparseLUSolverTraits.h" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkAnnulusOperator.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkArray.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkArray2D.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkAtanRegularizedHeavisideStepFunction.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkAutoPointerDataObjectDecorator.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkBackwardDifferenceOperator.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkBinaryThresholdSpatialFunction.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkBoundingBox.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkBresenhamLine.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkBSplineInterpolationWeightFunction.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkByteSwapper.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkCellInterface.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkChildTreeIterator.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkColorTable.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkCompensatedSummation.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkConditionalConstIterator.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkConicShellInteriorExteriorSpatialFunction.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkConstantBoundaryCondition.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkConstNeighborhoodIterator.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkConstNeighborhoodIteratorWithOnlyIndex.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkConstShapedNeighborhoodIterator.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkCorrespondenceDataStructureIterator.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkCovariantVector.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkDataObjectDecorator.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkDerivativeOperator.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkDiffusionTensor3D.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkDomainThreader.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkEllipsoidInteriorExteriorSpatialFunction.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkExtractImageFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkFiniteCylinderSpatialFunction.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkFixedArray.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkFloodFilledFunctionConditionalConstIterator.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkFloodFilledImageFunctionConditionalConstIterator.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkFloodFilledSpatialFunctionConditionalConstIterator.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkForwardDifferenceOperator.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkFrustumSpatialFunction.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkGaussianDerivativeSpatialFunction.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkGaussianOperator.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkGaussianSpatialFunction.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkHeavisideStepFunction.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkHexahedronCell.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImage.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageAlgorithm.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageBase.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageConstIterator.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageConstIteratorWithIndex.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageConstIteratorWithOnlyIndex.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageDuplicator.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageIterator.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageIteratorWithIndex.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageKernelOperator.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageLinearConstIteratorWithIndex.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageLinearIteratorWithIndex.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageRandomConstIteratorWithIndex.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageRandomConstIteratorWithOnlyIndex.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageRandomIteratorWithIndex.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageRandomNonRepeatingConstIteratorWithIndex.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageRandomNonRepeatingIteratorWithIndex.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageRegion.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageRegionConstIterator.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageRegionConstIteratorWithIndex.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageRegionConstIteratorWithOnlyIndex.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageRegionExclusionConstIteratorWithIndex.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageRegionExclusionIteratorWithIndex.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageRegionIterator.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageRegionIteratorWithIndex.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageRegionReverseConstIterator.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageRegionReverseIterator.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageReverseConstIterator.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageReverseIterator.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageScanlineConstIterator.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageScanlineIterator.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageSliceConstIteratorWithIndex.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageSliceIteratorWithIndex.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageSource.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageToImageFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageTransformer.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImageVectorOptimizerParametersHelper.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImportImageContainer.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkImportImageFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkInPlaceImageFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkInteriorExteriorSpatialFunction.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkLaplacianOperator.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkLevelOrderTreeIterator.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkLineCell.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkLineConstIterator.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkLineIterator.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkLoggerThreadWrapper.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkMapContainer.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkMatrix.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkMatrixResizeableDataObject.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkMetaDataObject.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkMinimumMaximumImageCalculator.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkNeighborhood.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkNeighborhoodAlgorithm.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkNeighborhoodInnerProduct.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkNeighborhoodIterator.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkNeighborhoodIteratorTestCommon.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkNeighborhoodOperator.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkNumberToString.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkObjectStore.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkOctree.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkOptimizerParameters.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkPeriodicBoundaryCondition.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkPhasedArray3DSpecialCoordinatesImage.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkPoint.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkPointSet.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkPointSetToImageFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkPolygonCell.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkPriorityQueueContainer.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkQuadraticEdgeCell.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkQuadraticTriangleCell.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkQuadrilateralCell.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkRegularizedHeavisideStepFunction.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkResourceProbe.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkResourceProbesCollectorBase.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkRGBAPixel.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkRGBPixel.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkShapedFloodFilledFunctionConditionalConstIterator.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkShapedFloodFilledImageFunctionConditionalConstIterator.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkShapedNeighborhoodIterator.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkSimpleDataObjectDecorator.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkSinRegularizedHeavisideStepFunction.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkSmapsFileParser.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkSmartPointerForwardReference.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkSobelOperator.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkSparseFieldLayer.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkSparseImage.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkSpatialFunction.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkSpecialCoordinatesImage.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkSphereSpatialFunction.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkStreamingImageFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkSymmetricEigenAnalysis.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkSymmetricEllipsoidInteriorExteriorSpatialFunction.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkSymmetricSecondRankTensor.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkTetrahedronCell.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkThreadedImageRegionPartitioner.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkThreadedIteratorRangePartitioner.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkTorusInteriorExteriorSpatialFunction.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkTreeContainer.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkTreeIteratorBase.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkTreeNode.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkTriangleCell.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkTriangleHelper.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkUnaryCorrespondenceMatrix.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkUnaryFunctorImageFilter.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkVariableLengthVector.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkVariableSizeMatrix.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkVector.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkVectorContainer.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkVectorImage.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkVectorNeighborhoodInnerProduct.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkVersor.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkVertexCell.hxx" />
+    <None Include="E:\D\MITK-superbuild\ep\src\ITK\Modules\Core\Common\include\itkZeroFluxNeumannBoundaryCondition.hxx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/ITK-build/ZERO_CHECK.vcxproj">
+      <Project>7A8C6E7C-8178-3D2C-96BD-CC175A1D2858</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/D/MITK-superbuild/ep/src/ITK-build/Modules/Core/Common/src/ITKCommon.vcxproj">
+      <Project>87D1CF9A-D748-351A-AFA3-46BCAD381B0C</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

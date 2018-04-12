@@ -1,0 +1,59 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/ThirdParty/ZLIB/src/itkzlib/adler32.c"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/ThirdParty/ZLIB/src/itkzlib/compress.c"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/ThirdParty/ZLIB/src/itkzlib/crc32.c"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/ThirdParty/ZLIB/src/itkzlib/deflate.c"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/ThirdParty/ZLIB/src/itkzlib/gzio.c"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/ThirdParty/ZLIB/src/itkzlib/inffast.c"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/ThirdParty/ZLIB/src/itkzlib/inflate.c"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/ThirdParty/ZLIB/src/itkzlib/inftrees.c"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/ThirdParty/ZLIB/src/itkzlib/trees.c"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/ThirdParty/ZLIB/src/itkzlib/uncompr.c"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/ThirdParty/ZLIB/src/itkzlib/zutil.c"
+		},
+		
+		{
+			"file" : "E:/D/MITK-superbuild/ep/src/ITK/Modules/ThirdParty/ZLIB/src/itkzlib/CMakeLists.txt"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "ITKZLIB" ],
+		"name" : "itkzlib"
+	}
+}
